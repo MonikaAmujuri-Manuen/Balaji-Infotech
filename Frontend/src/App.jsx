@@ -22,10 +22,7 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route
-  path="/"
-  element={<h1 style={{ color: "white", padding: "100px" }}>HOME WORKING</h1>}
-/>
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/products" element={<Products/>} />
         <Route
