@@ -11,7 +11,7 @@ import {
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 
-import aboutImage from "../assets/dashboard.png";
+import dashboard from "../assets/dashboard.png";
 
 export default function HeroSection() {
   return (
