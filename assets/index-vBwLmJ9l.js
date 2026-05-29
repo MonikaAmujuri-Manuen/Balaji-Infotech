@@ -472,7 +472,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                 border border-white/10\r
                 bg-[#0B1120]\r
                 backdrop-blur-xl\r
-              `,children:(0,P.jsx)(`img`,{src:`/images/dashboard.png`,alt:`Dashboard`,className:`\r
+              `,children:(0,P.jsx)(`img`,{src:dashboard,alt:`Dashboard`,className:`\r
                   w-full\r
                   h-[260px] sm:h-[420px]\r
                   object-cover\r
