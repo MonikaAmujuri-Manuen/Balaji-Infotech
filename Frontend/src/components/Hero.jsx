@@ -11,6 +11,8 @@ import {
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 
+import aboutImage from "../assets/dashboard.png";
+
 export default function HeroSection() {
   return (
     <section
@@ -315,7 +317,7 @@ export default function HeroSection() {
               "
             >
               <img
-                src="/images/dashboard.png"
+                src={dashboard}
                 alt="Dashboard"
                 className="
                   w-full

@@ -17,6 +17,7 @@ import "swiper/css";
 
 import aboutImage from "../assets/about.png";
 
+
 import tallyPrime from "../assets/tallyPrime.png";
 import tallyServer from "../assets/tallyServer.png";
 import tallyAws from "../assets/tallyAws.png"
