@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowRight, Check, Phone } from "lucide-react";
-
+import { Link } from "react-router-dom";
 
 import { servicesData } from "../data/servicesData";
 
@@ -592,7 +592,7 @@ const ServiceDetail = () => {
               gap-5
             ">
 
-               <a href={service.cta.primaryLink}>
+               <Link to={service.cta.primaryLink}>
               <button className="
                 w-full
                 sm:w-auto
@@ -612,9 +612,9 @@ const ServiceDetail = () => {
               ">
                 {service.cta.primaryBtn}
               </button>
-              </a>
+              </Link>
 
-               <a href={service.cta.secondaryLink}>
+               <Link to={service.cta.secondaryLink}>
               <button className="
                 w-full
                 sm:w-auto
@@ -633,7 +633,7 @@ const ServiceDetail = () => {
               ">
                 {service.cta.secondaryBtn}
               </button>
-              </a>
+              </Link>
             </div>
 
           </div>
