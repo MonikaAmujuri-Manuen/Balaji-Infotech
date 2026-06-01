@@ -614,7 +614,7 @@ const ServiceDetail = () => {
               </button>
               </Link>
 
-               <Link to={service.cta.secondaryLink}>
+               <a href={service.cta.secondaryLink}>
               <button className="
                 w-full
                 sm:w-auto
@@ -633,7 +633,7 @@ const ServiceDetail = () => {
               ">
                 {service.cta.secondaryBtn}
               </button>
-              </Link>
+              </a>
             </div>
 
           </div>

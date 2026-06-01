@@ -459,7 +459,7 @@ export const servicesData = [
       primaryLink:"/contact",
 
       secondaryBtn: "Talk To Expert",
-      SecondaryLink:"tel:+919849431943",
+      secondaryLink:"tel:+919849431943",
     },
   },
 
