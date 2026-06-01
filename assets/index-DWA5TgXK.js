@@ -258,7 +258,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
             sm:text-xl\r
             font-semibold\r
             mb-7\r
-          `,children:`Services`}),(0,P.jsx)(`div`,{className:`space-y-4`,children:[{name:`Tally Software`,path:`/services/tally-software`},{name:`Tally Services`,path:`/services/tally-services`},{name:`Tally ERP Solutions`,path:`/services/tally-erp`},{name:`TallyPrime Server`,path:`/products/tally-server`},{name:`Tally Add-Ons`,path:`/services/tally-addons`},{name:`Tally Mobile Apps`,path:`/services/mobile-apps`}].map((e,t)=>(0,P.jsx)(Mn,{to:e.path,className:`\r
+          `,children:`Services`}),(0,P.jsx)(`div`,{className:`space-y-4`,children:[{name:`Tally Software`,path:`/services/tally-software`},{name:`Tally Services`,path:`/services/tally-services`},{name:`Tally ERP Solutions`,path:`/services/tally-erp`},{name:`TallyPrime Server`,path:`/products/tally-server`},{name:`Tally Add-Ons`,path:`/services/tally-addon`},{name:`Tally Mobile Apps`,path:`/services/tally-mobile`}].map((e,t)=>(0,P.jsx)(Mn,{to:e.path,className:`\r
               block\r
               text-gray-400\r
               hover:text-white\r
@@ -3317,7 +3317,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
         hover:border-[#1178D4]\r
         hover:text-[#1178D4]\r
         hover:shadow-[0_10px_30px_rgba(17,120,212,0.08)]\r
-        `,children:`Talk To Experts`})})]})]})]})]})}var Gv=()=>{let{slug:e}=ht(),t=Uv.find(t=>t.slug===e),[n,r]=(0,w.useState)(t?.subServices?.[0]);if((0,w.useEffect)(()=>{t?.subServices?.length>0&&r(t.subServices[0])},[e]),!t)return(0,P.jsx)(`div`,{className:`min-h-screen flex items-center justify-center text-2xl font-bold`,children:`Service Not Found`});let i=n.icon;return(0,P.jsxs)(P.Fragment,{children:[t.hero&&(0,P.jsxs)(`section`,{className:`relative overflow-hidden bg-white`,children:[(0,P.jsx)(`div`,{className:`\r
+        `,children:`Talk To Experts`})})]})]})]})]})}var Gv=()=>{let{slug:e}=ht(),t=Uv.find(t=>t.slug===e),[n,r]=(0,w.useState)(t?.subServices?.[0]||null);if((0,w.useEffect)(()=>{t?.subServices?.length>0&&r(t.subServices[0])},[e]),!t)return(0,P.jsx)(`div`,{className:`min-h-screen flex items-center justify-center text-2xl font-bold`,children:`Service Not Found`});let i=n?.icon;return(0,P.jsxs)(P.Fragment,{children:[t.hero&&(0,P.jsxs)(`section`,{className:`relative overflow-hidden bg-white`,children:[(0,P.jsx)(`div`,{className:`\r
           absolute\r
           top-0\r
           left-1/2\r
@@ -3471,7 +3471,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
             sm:p-6\r
             scrollbar-hide\r
             h-full\r
-            `,children:t.subServices.map(e=>{let t=n.id===e.id;return(0,P.jsx)(`button`,{onClick:()=>r(e),className:`
+            `,children:t.subServices.map(e=>{let t=n?.id===e.id;return(0,P.jsx)(`button`,{onClick:()=>r(e),className:`
                     group
                     relative
                     px-5
@@ -3546,7 +3546,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                 bg-gradient-to-br from-[#1178D4] to-[#6C63FF]\r
                 shadow-[0_10px_30px_rgba(17,120,212,0.20)]\r
                 shrink-0\r
-              `,children:(0,P.jsx)(i,{className:`w-8 h-8 text-white`})}),(0,P.jsxs)(`div`,{children:[(0,P.jsx)(`p`,{className:`\r
+              `,children:i&&(0,P.jsx)(i,{className:`w-8 h-8 text-white`})}),(0,P.jsxs)(`div`,{children:[(0,P.jsx)(`p`,{className:`\r
                 text-sm\r
                 font-semibold\r
                 tracking-[0.2em]\r
@@ -4824,7 +4824,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                   w-5 h-5\r
                   group-hover:translate-x-1\r
                   transition-transform\r
-                `,children:(0,P.jsx)(`path`,{strokeLinecap:`round`,strokeLinejoin:`round`,d:`M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3`})})]})})}),(0,P.jsx)(`a`,{href:`/contact`,children:(0,P.jsx)(`button`,{className:`\r
+                `,children:(0,P.jsx)(`path`,{strokeLinecap:`round`,strokeLinejoin:`round`,d:`M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3`})})]})})}),(0,P.jsx)(Mn,{to:`/contact`,children:(0,P.jsx)(`button`,{className:`\r
             w-full\r
             sm:w-auto\r
             px-6\r
@@ -5105,7 +5105,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                           text-sm\r
                           font-medium\r
                           text-[#475569]\r
-                        `,children:e},t))}),(0,P.jsx)(`a`,{href:`/contact`,children:(0,P.jsxs)(`button`,{className:`\r
+                        `,children:e},t))}),(0,P.jsx)(Mn,{to:`/contact`,children:(0,P.jsxs)(`button`,{className:`\r
                     group/btn\r
                     mt-10\r
                     w-full\r
