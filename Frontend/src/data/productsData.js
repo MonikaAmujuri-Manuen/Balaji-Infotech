@@ -27,6 +27,8 @@ import {
   Users,
 } from "lucide-react";
 
+import tallyAws from "../assets/tallyAws.png"
+
 export const productsData = {
   
   // ALL PRODUCTS HERE
@@ -326,8 +328,7 @@ cta: {
     title: "TallyPrime Powered by AWS",
     subtitle: "Secure Cloud Accounting Infrastructure",
     icon: Cloud,
-    image:
-      "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1600&auto=format&fit=crop",
+    image: tallyAws,
 
     description:
       "Run TallyPrime securely on AWS cloud with anywhere access, automatic backups, enterprise-grade infrastructure, and seamless remote collaboration.",
