@@ -3317,7 +3317,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
         hover:border-[#1178D4]\r
         hover:text-[#1178D4]\r
         hover:shadow-[0_10px_30px_rgba(17,120,212,0.08)]\r
-        `,children:`Talk To Experts`})})]})]})]})]})}var Gv=()=>{let{slug:e}=ht(),t=Uv.find(t=>t.slug===e),[n,r]=(0,w.useState)(t?.subServices?.[0]||null);if((0,w.useEffect)(()=>{t?.subServices?.length>0&&r(t.subServices[0])},[e]),!t)return(0,P.jsx)(`div`,{className:`min-h-screen flex items-center justify-center text-2xl font-bold`,children:`Service Not Found`});let i=n?.icon;return(0,P.jsxs)(P.Fragment,{children:[t.hero&&(0,P.jsxs)(`section`,{className:`relative overflow-hidden bg-white`,children:[(0,P.jsx)(`div`,{className:`\r
+        `,children:`Talk To Experts`})})]})]})]})]})}var Gv=()=>{let{slug:e}=ht(),t=Uv.find(t=>t.slug===e),[n,r]=(0,w.useState)(t?.subServices?.[0]||null);if((0,w.useEffect)(()=>{t?.subServices?.length>0&&r(t.subServices[0])},[e]),!t)return(0,P.jsx)(`div`,{className:`min-h-screen flex items-center justify-center text-2xl font-bold`,children:`Service Not Found`});let i=n?.icon;return console.log(t.cta.secondaryLink),(0,P.jsxs)(P.Fragment,{children:[t.hero&&(0,P.jsxs)(`section`,{className:`relative overflow-hidden bg-white`,children:[(0,P.jsx)(`div`,{className:`\r
           absolute\r
           top-0\r
           left-1/2\r

@@ -1,16 +1,37 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/Balaji-Infotech/favicon.svg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>balaji-infotech</title>
-    <script type="module" crossorigin src="/Balaji-Infotech/assets/index-bhcp4R0p.js"></script>
-    <link rel="stylesheet" crossorigin href="/Balaji-Infotech/assets/index-54OIDimm.css">
-  </head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/Balaji-Infotech/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script>
+    (function(l) {
+      if (l.search[1] === '/') {
+        var decoded = l.search
+          .slice(1)
+          .split('&')
+          .map(function(s) {
+            return s.replace(/~and~/g, '&');
+          })
+          .join('?');
+
+        window.history.replaceState(
+          null,
+          null,
+          decoded + l.hash
+        );
+      }
+    }(window.location));
+  </script>
+
+  <title>balaji-infotech</title>
+  <script type="module" crossorigin src="/Balaji-Infotech/assets/index-BixQ6QlC.js"></script>
+  <link rel="stylesheet" crossorigin href="/Balaji-Infotech/assets/index-54OIDimm.css">
+</head>
   <body>
     <div id="root"></div>
   </body>
