@@ -33,6 +33,7 @@ const ServiceDetail = () => {
   }
 
   const ActiveIcon = activeTab?.icon;
+  console.log(service.cta.secondaryLink);
 
   return (
     <>
