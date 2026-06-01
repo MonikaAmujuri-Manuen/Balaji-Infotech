@@ -3620,7 +3620,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
               flex flex-col sm:flex-row\r
               items-center justify-center\r
               gap-5\r
-            `,children:[(0,P.jsx)(`a`,{href:t.cta.primaryLink,children:(0,P.jsx)(`button`,{className:`\r
+            `,children:[(0,P.jsx)(Mn,{to:t.cta.primaryLink,children:(0,P.jsx)(`button`,{className:`\r
                 w-full\r
                 sm:w-auto\r
                 px-6\r
@@ -3636,7 +3636,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                 shadow-[0_10px_40px_rgba(17,120,212,0.20)]\r
                 hover:scale-[1.03]\r
                 transition-all duration-300\r
-              `,children:t.cta.primaryBtn})}),(0,P.jsx)(`a`,{href:t.cta.secondaryLink,children:(0,P.jsx)(`button`,{className:`\r
+              `,children:t.cta.primaryBtn})}),(0,P.jsx)(Mn,{to:t.cta.secondaryLink,children:(0,P.jsx)(`button`,{className:`\r
                 w-full\r
                 sm:w-auto\r
                 px-6\r
