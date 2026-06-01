@@ -342,7 +342,7 @@ const downloadData = [
       className="
       relative
       flex justify-center lg:justify-end
-      order-1 lg:order-2"
+      order-1 lg:order-2" 
 
       initial = {{ opacity: 0, x:100 }}
       whileInView={{ opacity: 1, x:0 }}

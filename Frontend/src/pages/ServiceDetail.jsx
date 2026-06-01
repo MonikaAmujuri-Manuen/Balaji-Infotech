@@ -15,8 +15,8 @@ const ServiceDetail = () => {
   );
 
   const [activeTab, setActiveTab] = useState(
-    service?.subServices?.[0]
-  );
+  service?.subServices?.[0] || null
+);
 
   useEffect(() => {
     if (service?.subServices?.length > 0) {
@@ -32,7 +32,7 @@ const ServiceDetail = () => {
     );
   }
 
-  const ActiveIcon = activeTab.icon;
+  const ActiveIcon = activeTab?.icon;
 
   return (
     <>
@@ -285,7 +285,7 @@ const ServiceDetail = () => {
 
             {service.subServices.map((item) => {
 
-              const isActive = activeTab.id === item.id;
+              const isActive = activeTab?.id === item.id;
 
               return (
                 <button
@@ -423,7 +423,9 @@ const ServiceDetail = () => {
                 shrink-0
               ">
 
-                <ActiveIcon className="w-8 h-8 text-white" />
+                {ActiveIcon && (
+  <ActiveIcon className="w-8 h-8 text-white" />
+)}
 
             </div>
 

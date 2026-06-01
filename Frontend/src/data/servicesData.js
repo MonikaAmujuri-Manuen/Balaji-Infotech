@@ -106,7 +106,7 @@ export const servicesData = [
 
         title: "Tally Prime Silver (Single-User)",
 
-        icon:User,
+        icon: User,
 
         description:
           "TallyPrime Silver is a single-user edition designed for small businesses and individual users. This version allows seamless management of accounts, inventory, taxation, and other financial tasks on a single computer. With its intuitive interface and robust features, TallyPrime Silver is perfect for efficient and reliable business operations.",

@@ -267,8 +267,8 @@ export default function Footer() {
           { name: "Tally Services", path: "/services/tally-services" },
           { name: "Tally ERP Solutions", path: "/services/tally-erp" },
           { name: "TallyPrime Server", path: "/products/tally-server" },
-          { name: "Tally Add-Ons", path: "/services/tally-addons" },
-          { name: "Tally Mobile Apps", path: "/services/mobile-apps" },
+          { name: "Tally Add-Ons", path: "/services/tally-addon" },
+          { name: "Tally Mobile Apps", path: "/services/tally-mobile" },
         ].map((item, index) => (
 
           <Link

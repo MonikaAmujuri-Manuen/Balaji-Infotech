@@ -1,4 +1,5 @@
 import { motion, AnimatePresence, easeOut } from "framer-motion";
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Calculator, GraduationCap,
   BriefcaseBusiness,
@@ -431,7 +432,7 @@ const filteredCourses = courses.filter(
           </a>
 
           {/* SECONDARY BUTTON */}
-          <a href="/contact">
+          <Link to="/contact">
           <button className="
             w-full
             sm:w-auto
@@ -450,7 +451,7 @@ const filteredCourses = courses.filter(
           ">
             Book Free Counseling
           </button>
-          </a>
+          </Link>
 
         </div>
 
@@ -1038,7 +1039,7 @@ const filteredCourses = courses.filter(
                   </div>
 
                   {/* CTA */}
-                  <a href="/contact">
+                  <Link to="/contact">
                   <button className="
                     group/btn
                     mt-10
@@ -1085,7 +1086,7 @@ const filteredCourses = courses.filter(
                     </svg>
 
                   </button>
-                  </a>
+                  </Link>
 
                 </div>
 
