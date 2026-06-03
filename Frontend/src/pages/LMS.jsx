@@ -598,13 +598,13 @@ const downloadData = [
 </section>
 
 {/* ================= WHY LEARN TALLY ================= */}
-<section className="relative py-20 md:py-28 px-4 sm:px-6 bg-white overflow-hidden">
+<section className="relative py-16 sm:py-20 md:py-28 px-4 sm:px-6 bg-white overflow-hidden">
   {/* BACKGROUND GLOW */}
   <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-[#2F80FF]/5 blur-[150px] rounded-full"/>
 
   <div className="max-w-7xl mx-auto relative z-10">
 
-    <div className="grid lg:grid-cols-2 gap-12 xl:gap-20 items-center">
+    <div className="grid lg:grid-cols-2 gap-10 md:gap-12 xl:gap-20 items-center">
 
       {/* LEFT SIDE */}
       <div>
@@ -623,7 +623,8 @@ const downloadData = [
 
         <h2 className="
         mt-6
-        text-[4xl]
+        text-3xl
+        sm:text-4xl
         md:text-5xl
         font-bold
         text-[#071426]
@@ -653,13 +654,13 @@ const downloadData = [
         </p>
 
         {/* LEARNING OUTCOMES */}
-        <div className="mt-10 grid sm:grid-cols-2 gap-4">
+        <div className="mt-8 sm:mt-10 grid sm:grid-cols-2 gap-4">
 
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl bg-[#EEF4FF] flex items-center justify-center">
               <BookOpen className="w-5 h-5 text-[#071426]" /> 
             </div>
-            <span className="font-medium text-[#071426]">
+            <span className="font-medium text-[#071426] text-sm sm:text-base">
               Accounting & BookKeeping
             </span>
           </div>
@@ -668,7 +669,7 @@ const downloadData = [
             <div className="w-10 h-10 rounded-xl bg-[#EEF4FF] flex items-center justify-center">
               <Receipt className="w-5 h-5 text-[#071426]" />
             </div>
-            <span className="font-medium text-[#071426]">
+            <span className="font-medium text-[#071426] text-sm sm:text-base">
               GST & TAX compliance
             </span>
           </div>
@@ -677,7 +678,7 @@ const downloadData = [
             <div className="w-10 h-10 rounded-xl bg-[#EEF4FF] flex items-center justify-center">
               <Boxes className="w-5 h-5 text-[#071426]" />
             </div>
-            <span className="font-medium text-[#071426]">
+            <span className="font-medium text-[#071426] text-sm sm:text-base">
               Inventory & Stock Management
             </span>
           </div>
@@ -686,7 +687,7 @@ const downloadData = [
             <div className="w-10 h-10 rounded-xl bg-[#EEF4FF] flex items-center justify-center">
               <Users className="w-5 h-5 text-[#071426]" />
             </div>
-            <span className="font-medium text-[#071426]">
+            <span className="font-medium text-[#071426] text-sm sm:text-base">
               Payroll Processing
             </span>
           </div>
@@ -695,7 +696,7 @@ const downloadData = [
       {/* RIGHT SIDE */}
 
       <div className="
-      rounded-[32px]
+      rounded-3xl sm:rounded-[32px]
       overflow-hidden
       border border-slate-200
       bg-white
@@ -703,7 +704,7 @@ const downloadData = [
          {/* IMAGE */}
         <div
           className="
-            h-64
+            h-52 sm:h-64
             bg-gradient-to-r
             from-[#1178D4]
             to-[#6C63FF]
@@ -715,14 +716,14 @@ const downloadData = [
          <img
           src={lms}
           alt="Tally Learning"
-          className="w-full h-64 object-cover"
+          className="w-full h-52 sm:h-64 object-cover"
         />
         </div>
 
         {/* CONTENT */}
-        <div className = "p-8">
+        <div className="p-5 sm:p-8">
           <h3 className="
-            text-3xl
+            text-2xl sm:text-3xl
             font-bold
             text-[#071426]
             mb-4"
@@ -758,7 +759,7 @@ const downloadData = [
           </div>
           {/* BENEFITS */}
 
-          <div className="grid sm:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
 
             <div className="text-center">
               <BadgeCheck className="mx-auto mb-3 text-[#2F80FF]"/>
