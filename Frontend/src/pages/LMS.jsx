@@ -1,8 +1,14 @@
 import { motion, AnimatePresence, easeOut } from "framer-motion";
 import lmsHero from "../assets/lmshero.png"
+import lms from "../assets/lms.png"
 import {
   Play, Link2, Box, Sparkles, Clock3, FlaskConical,ArrowRight, FolderDown, NotebookPen, Download,
-  FileText, FileSpreadsheet, Database, FileArchive, MonitorPlay, Globe, Plus
+  FileText, FileSpreadsheet, Database, FileArchive, MonitorPlay, Globe, Plus,
+  BookOpen, Receipt, Users,
+  Boxes,
+  BadgeCheck,
+  BriefcaseBusiness,
+  Building2,
 } from "lucide-react";
 
 import {
@@ -587,6 +593,197 @@ const downloadData = [
       </div>
       </motion.div>
 
+    </div>
+  </div>
+</section>
+
+{/* ================= WHY LEARN TALLY ================= */}
+<section className="relative py-20 md:py-28 px-4 sm:px-6 bg-white overflow-hidden">
+  {/* BACKGROUND GLOW */}
+  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-[#2F80FF]/5 blur-[150px] rounded-full"/>
+
+  <div className="max-w-7xl mx-auto relative z-10">
+
+    <div className="grid lg:grid-cols-2 gap-12 xl:gap-20 items-center">
+
+      {/* LEFT SIDE */}
+      <div>
+
+        <span className="
+        inline-flex 
+        items-center
+        px-4 py-2
+        rounded-full
+        bg-[#EEF4FF]
+        text-[#2F80FF]
+        font-medium
+        text-sm">
+          About TallyPrime
+        </span>
+
+        <h2 className="
+        mt-6
+        text-[4xl]
+        md:text-5xl
+        font-bold
+        text-[#071426]
+        leading-tight">
+          Why Learn
+          <span className="bg-gradient-to-r from-[#2F80FF] to-[#7B61FF] bg-clip-text text-transparent">
+            {" "}TallyPrime?
+          </span>
+        </h2>
+        <p className="
+        mt-6
+        text-[16px] md:text-[17px]
+        text-slate-600
+        leading-relaxed">
+          TallyPrime (previously Tally.ERP) is the leading accounting & business management software used
+          widely by SMEs and Enterprises. Learn how to manage books perform GST compliance, control inventory
+          and process payroll - all within one powerful platform.
+        </p>
+        <p className="
+          mt-4
+          text-[16px] md:text-[17px]
+          text-slate-600
+          leading-relaxed
+        ">
+          Gain practical skills, understand real-world workflows, and become job-ready with industry-relevant
+          training designed for students, professionals, and business owners.
+        </p>
+
+        {/* LEARNING OUTCOMES */}
+        <div className="mt-10 grid sm:grid-cols-2 gap-4">
+
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-xl bg-[#EEF4FF] flex items-center justify-center">
+              <BookOpen className="w-5 h-5 text-[#071426]" /> 
+            </div>
+            <span className="font-medium text-[#071426]">
+              Accounting & BookKeeping
+            </span>
+          </div>
+
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-xl bg-[#EEF4FF] flex items-center justify-center">
+              <Receipt className="w-5 h-5 text-[#071426]" />
+            </div>
+            <span className="font-medium text-[#071426]">
+              GST & TAX compliance
+            </span>
+          </div>
+
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-xl bg-[#EEF4FF] flex items-center justify-center">
+              <Boxes className="w-5 h-5 text-[#071426]" />
+            </div>
+            <span className="font-medium text-[#071426]">
+              Inventory & Stock Management
+            </span>
+          </div>
+
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-xl bg-[#EEF4FF] flex items-center justify-center">
+              <Users className="w-5 h-5 text-[#071426]" />
+            </div>
+            <span className="font-medium text-[#071426]">
+              Payroll Processing
+            </span>
+          </div>
+        </div>
+      </div>
+      {/* RIGHT SIDE */}
+
+      <div className="
+      rounded-[32px]
+      overflow-hidden
+      border border-slate-200
+      bg-white
+      shadow-[0_20px_60px_rgba(0,0,0,0.08)]">
+         {/* IMAGE */}
+        <div
+          className="
+            h-64
+            bg-gradient-to-r
+            from-[#1178D4]
+            to-[#6C63FF]
+            flex
+            items-center
+            justify-center
+          "
+        >
+         <img
+          src={lms}
+          alt="Tally Learning"
+          className="w-full h-64 object-cover"
+        />
+        </div>
+
+        {/* CONTENT */}
+        <div className = "p-8">
+          <h3 className="
+            text-3xl
+            font-bold
+            text-[#071426]
+            mb-4"
+            >
+              Who can Learn?
+          </h3>
+          <p className="
+          text-slate-600
+          leading-relaxed
+          mb-8">
+            Our training programs are designed for beginners as well as professionals looking to strengthen
+            their accounting and business management skills.
+          </p>
+          {/* TARGET AUDIENCE LIST */}
+          <div className="flex flex-wrap gap-3 mb-8">
+
+            <span className="px-4 py-2 rounded-full bg-[#F8FAFC] border border-slate-200">
+              Students
+            </span>
+
+            <span className="px-4 py-2 rounded-full bg-[#F8FAFC] border border-slate-200">
+              Accountants
+            </span>
+
+            <span className="px-4 py-2 rounded-full bg-[#F8FAFC] border border-slate-200">
+              Business Owners
+            </span>
+
+            <span className="px-4 py-2 rounded-full bg-[#F8FAFC] border border-slate-200">
+              Finance Professionals
+            </span>
+
+          </div>
+          {/* BENEFITS */}
+
+          <div className="grid sm:grid-cols-3 gap-4">
+
+            <div className="text-center">
+              <BadgeCheck className="mx-auto mb-3 text-[#2F80FF]"/>
+              <p className="font-medium text-sm">
+                No Prior Experience Needed
+              </p>
+            </div>
+
+            <div className="text-center">
+              <BriefcaseBusiness className="mx-auto mb-3 text-[#2F80FF]"/>
+              <p className="font-medium text-sm">
+                Practical Exercises
+              </p>
+            </div>
+
+            <div className="text-center">
+              <Building2 className="mx-auto mb-3 text-[#2F80FF]"/>
+              <p className="font-medium text-sm">
+                Industry-Relevant Training
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
