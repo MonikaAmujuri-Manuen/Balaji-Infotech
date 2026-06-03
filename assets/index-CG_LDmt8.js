@@ -3879,7 +3879,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
               text-white\r
               font-semibold\r
               flex items-center gap-3\r
-            `,children:[(0,P.jsx)(na,{size:18}),`YouTube Tutorials`]})]})]})})})]})})]}),(0,P.jsxs)(`section`,{className:`relative py-20 md:py-28 px-4 sm:px-6 bg-white overflow-hidden`,children:[(0,P.jsx)(`div`,{className:`absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-[#2F80FF]/5 blur-[150px] rounded-full`}),(0,P.jsx)(`div`,{className:`max-w-7xl mx-auto relative z-10`,children:(0,P.jsxs)(`div`,{className:`grid lg:grid-cols-2 gap-12 xl:gap-20 items-center`,children:[(0,P.jsxs)(`div`,{children:[(0,P.jsx)(`span`,{className:`\r
+            `,children:[(0,P.jsx)(na,{size:18}),`YouTube Tutorials`]})]})]})})})]})})]}),(0,P.jsxs)(`section`,{className:`relative py-16 sm:py-20 md:py-28 px-4 sm:px-6 bg-white overflow-hidden`,children:[(0,P.jsx)(`div`,{className:`absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-[#2F80FF]/5 blur-[150px] rounded-full`}),(0,P.jsx)(`div`,{className:`max-w-7xl mx-auto relative z-10`,children:(0,P.jsxs)(`div`,{className:`grid lg:grid-cols-2 gap-10 md:gap-12 xl:gap-20 items-center`,children:[(0,P.jsxs)(`div`,{children:[(0,P.jsx)(`span`,{className:`\r
         inline-flex \r
         items-center\r
         px-4 py-2\r
@@ -3889,7 +3889,8 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
         font-medium\r
         text-sm`,children:`About TallyPrime`}),(0,P.jsxs)(`h2`,{className:`\r
         mt-6\r
-        text-[4xl]\r
+        text-3xl\r
+        sm:text-4xl\r
         md:text-5xl\r
         font-bold\r
         text-[#071426]\r
@@ -3902,27 +3903,27 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
           text-[16px] md:text-[17px]\r
           text-slate-600\r
           leading-relaxed\r
-        `,children:`Gain practical skills, understand real-world workflows, and become job-ready with industry-relevant training designed for students, professionals, and business owners.`}),(0,P.jsxs)(`div`,{className:`mt-10 grid sm:grid-cols-2 gap-4`,children:[(0,P.jsxs)(`div`,{className:`flex items-center gap-3`,children:[(0,P.jsx)(`div`,{className:`w-10 h-10 rounded-xl bg-[#EEF4FF] flex items-center justify-center`,children:(0,P.jsx)(ur,{className:`w-5 h-5 text-[#071426]`})}),(0,P.jsx)(`span`,{className:`font-medium text-[#071426]`,children:`Accounting & BookKeeping`})]}),(0,P.jsxs)(`div`,{className:`flex items-center gap-3`,children:[(0,P.jsx)(`div`,{className:`w-10 h-10 rounded-xl bg-[#EEF4FF] flex items-center justify-center`,children:(0,P.jsx)(vi,{className:`w-5 h-5 text-[#071426]`})}),(0,P.jsx)(`span`,{className:`font-medium text-[#071426]`,children:`GST & TAX compliance`})]}),(0,P.jsxs)(`div`,{className:`flex items-center gap-3`,children:[(0,P.jsx)(`div`,{className:`w-10 h-10 rounded-xl bg-[#EEF4FF] flex items-center justify-center`,children:(0,P.jsx)(fr,{className:`w-5 h-5 text-[#071426]`})}),(0,P.jsx)(`span`,{className:`font-medium text-[#071426]`,children:`Inventory & Stock Management`})]}),(0,P.jsxs)(`div`,{className:`flex items-center gap-3`,children:[(0,P.jsx)(`div`,{className:`w-10 h-10 rounded-xl bg-[#EEF4FF] flex items-center justify-center`,children:(0,P.jsx)(Ni,{className:`w-5 h-5 text-[#071426]`})}),(0,P.jsx)(`span`,{className:`font-medium text-[#071426]`,children:`Payroll Processing`})]})]})]}),(0,P.jsxs)(`div`,{className:`\r
-      rounded-[32px]\r
+        `,children:`Gain practical skills, understand real-world workflows, and become job-ready with industry-relevant training designed for students, professionals, and business owners.`}),(0,P.jsxs)(`div`,{className:`mt-8 sm:mt-10 grid sm:grid-cols-2 gap-4`,children:[(0,P.jsxs)(`div`,{className:`flex items-center gap-3`,children:[(0,P.jsx)(`div`,{className:`w-10 h-10 rounded-xl bg-[#EEF4FF] flex items-center justify-center`,children:(0,P.jsx)(ur,{className:`w-5 h-5 text-[#071426]`})}),(0,P.jsx)(`span`,{className:`font-medium text-[#071426] text-sm sm:text-base`,children:`Accounting & BookKeeping`})]}),(0,P.jsxs)(`div`,{className:`flex items-center gap-3`,children:[(0,P.jsx)(`div`,{className:`w-10 h-10 rounded-xl bg-[#EEF4FF] flex items-center justify-center`,children:(0,P.jsx)(vi,{className:`w-5 h-5 text-[#071426]`})}),(0,P.jsx)(`span`,{className:`font-medium text-[#071426] text-sm sm:text-base`,children:`GST & TAX compliance`})]}),(0,P.jsxs)(`div`,{className:`flex items-center gap-3`,children:[(0,P.jsx)(`div`,{className:`w-10 h-10 rounded-xl bg-[#EEF4FF] flex items-center justify-center`,children:(0,P.jsx)(fr,{className:`w-5 h-5 text-[#071426]`})}),(0,P.jsx)(`span`,{className:`font-medium text-[#071426] text-sm sm:text-base`,children:`Inventory & Stock Management`})]}),(0,P.jsxs)(`div`,{className:`flex items-center gap-3`,children:[(0,P.jsx)(`div`,{className:`w-10 h-10 rounded-xl bg-[#EEF4FF] flex items-center justify-center`,children:(0,P.jsx)(Ni,{className:`w-5 h-5 text-[#071426]`})}),(0,P.jsx)(`span`,{className:`font-medium text-[#071426] text-sm sm:text-base`,children:`Payroll Processing`})]})]})]}),(0,P.jsxs)(`div`,{className:`\r
+      rounded-3xl sm:rounded-[32px]\r
       overflow-hidden\r
       border border-slate-200\r
       bg-white\r
       shadow-[0_20px_60px_rgba(0,0,0,0.08)]`,children:[(0,P.jsx)(`div`,{className:`\r
-            h-64\r
+            h-52 sm:h-64\r
             bg-gradient-to-r\r
             from-[#1178D4]\r
             to-[#6C63FF]\r
             flex\r
             items-center\r
             justify-center\r
-          `,children:(0,P.jsx)(`img`,{src:Jv,alt:`Tally Learning`,className:`w-full h-64 object-cover`})}),(0,P.jsxs)(`div`,{className:`p-8`,children:[(0,P.jsx)(`h3`,{className:`\r
-            text-3xl\r
+          `,children:(0,P.jsx)(`img`,{src:Jv,alt:`Tally Learning`,className:`w-full h-52 sm:h-64 object-cover`})}),(0,P.jsxs)(`div`,{className:`p-5 sm:p-8`,children:[(0,P.jsx)(`h3`,{className:`\r
+            text-2xl sm:text-3xl\r
             font-bold\r
             text-[#071426]\r
             mb-4`,children:`Who can Learn?`}),(0,P.jsx)(`p`,{className:`\r
           text-slate-600\r
           leading-relaxed\r
-          mb-8`,children:`Our training programs are designed for beginners as well as professionals looking to strengthen their accounting and business management skills.`}),(0,P.jsxs)(`div`,{className:`flex flex-wrap gap-3 mb-8`,children:[(0,P.jsx)(`span`,{className:`px-4 py-2 rounded-full bg-[#F8FAFC] border border-slate-200`,children:`Students`}),(0,P.jsx)(`span`,{className:`px-4 py-2 rounded-full bg-[#F8FAFC] border border-slate-200`,children:`Accountants`}),(0,P.jsx)(`span`,{className:`px-4 py-2 rounded-full bg-[#F8FAFC] border border-slate-200`,children:`Business Owners`}),(0,P.jsx)(`span`,{className:`px-4 py-2 rounded-full bg-[#F8FAFC] border border-slate-200`,children:`Finance Professionals`})]}),(0,P.jsxs)(`div`,{className:`grid sm:grid-cols-3 gap-4`,children:[(0,P.jsxs)(`div`,{className:`text-center`,children:[(0,P.jsx)(cr,{className:`mx-auto mb-3 text-[#2F80FF]`}),(0,P.jsx)(`p`,{className:`font-medium text-sm`,children:`No Prior Experience Needed`})]}),(0,P.jsxs)(`div`,{className:`text-center`,children:[(0,P.jsx)(pr,{className:`mx-auto mb-3 text-[#2F80FF]`}),(0,P.jsx)(`p`,{className:`font-medium text-sm`,children:`Practical Exercises`})]}),(0,P.jsxs)(`div`,{className:`text-center`,children:[(0,P.jsx)(mr,{className:`mx-auto mb-3 text-[#2F80FF]`}),(0,P.jsx)(`p`,{className:`font-medium text-sm`,children:`Industry-Relevant Training`})]})]})]})]})]})})]}),(0,P.jsxs)(`section`,{className:`relative py-14 sm:py-16 md:py-20 overflow-hidden bg-[#F8FAFC]`,children:[(0,P.jsx)(`div`,{className:`absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-blue-500/10 blur-[140px] rounded-full`}),(0,P.jsxs)(`div`,{className:`relative max-w-7xl mx-auto px-4 sm:px-6`,children:[(0,P.jsxs)(`div`,{className:`text-center max-w-3xl mx-auto mb-20`,children:[(0,P.jsxs)(`div`,{className:`\r
+          mb-8`,children:`Our training programs are designed for beginners as well as professionals looking to strengthen their accounting and business management skills.`}),(0,P.jsxs)(`div`,{className:`flex flex-wrap gap-3 mb-8`,children:[(0,P.jsx)(`span`,{className:`px-4 py-2 rounded-full bg-[#F8FAFC] border border-slate-200`,children:`Students`}),(0,P.jsx)(`span`,{className:`px-4 py-2 rounded-full bg-[#F8FAFC] border border-slate-200`,children:`Accountants`}),(0,P.jsx)(`span`,{className:`px-4 py-2 rounded-full bg-[#F8FAFC] border border-slate-200`,children:`Business Owners`}),(0,P.jsx)(`span`,{className:`px-4 py-2 rounded-full bg-[#F8FAFC] border border-slate-200`,children:`Finance Professionals`})]}),(0,P.jsxs)(`div`,{className:`grid grid-cols-1 sm:grid-cols-3 gap-5`,children:[(0,P.jsxs)(`div`,{className:`text-center`,children:[(0,P.jsx)(cr,{className:`mx-auto mb-3 text-[#2F80FF]`}),(0,P.jsx)(`p`,{className:`font-medium text-sm`,children:`No Prior Experience Needed`})]}),(0,P.jsxs)(`div`,{className:`text-center`,children:[(0,P.jsx)(pr,{className:`mx-auto mb-3 text-[#2F80FF]`}),(0,P.jsx)(`p`,{className:`font-medium text-sm`,children:`Practical Exercises`})]}),(0,P.jsxs)(`div`,{className:`text-center`,children:[(0,P.jsx)(mr,{className:`mx-auto mb-3 text-[#2F80FF]`}),(0,P.jsx)(`p`,{className:`font-medium text-sm`,children:`Industry-Relevant Training`})]})]})]})]})]})})]}),(0,P.jsxs)(`section`,{className:`relative py-14 sm:py-16 md:py-20 overflow-hidden bg-[#F8FAFC]`,children:[(0,P.jsx)(`div`,{className:`absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-blue-500/10 blur-[140px] rounded-full`}),(0,P.jsxs)(`div`,{className:`relative max-w-7xl mx-auto px-4 sm:px-6`,children:[(0,P.jsxs)(`div`,{className:`text-center max-w-3xl mx-auto mb-20`,children:[(0,P.jsxs)(`div`,{className:`\r
         inline-flex items-center gap-2\r
         px-5 py-2\r
         rounded-full\r
