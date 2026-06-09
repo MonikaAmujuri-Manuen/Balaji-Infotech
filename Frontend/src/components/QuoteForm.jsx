@@ -117,35 +117,23 @@ const QuoteForm = () => {
               relative
             "
           >
-            {/* FORM GLOW */}
-            <div
-              className="
-                absolute
-                inset-0
-                bg-gradient-to-r
-                from-[#2F80FF]/20
-                to-[#7B61FF]/20
-                blur-3xl
-                rounded-[40px]
-                scale-95
-              "
-            />
 
             <form
             onSubmit={handleSubmit}
             className="
             relative
-                rounded-[36px]
                 border
                 border-white/60
                 bg-white/70
                 backdrop-blur-2xl
-                p-8
-                md:p-10
+                rounded-3xl
+                p-5
+                sm:p-6
+                lg:p-7
                 shadow-[0_20px_60px_rgba(0,0,0,0.08)]
               "
             >
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {/* INPUTS */}
                 {[
                   {
@@ -194,11 +182,12 @@ const QuoteForm = () => {
                       onChange={handleChange}
                       placeholder={field.placeholder}
                       className={`
-                        h-14
-                        rounded-2xl
+                        h-12
+                        rounded-xl
+                        px-4
+                        text-sm
                         border
                         bg-white/80
-                        px-5
                         outline-none
                         transition-all
                         duration-300
@@ -231,7 +220,7 @@ const QuoteForm = () => {
               </div>
 
               {/* DROPDOWN */}
-              <div className="mt-5">
+              <div className="mt-4">
                 <select
                 required
                   name="product"
@@ -239,12 +228,13 @@ const QuoteForm = () => {
                   onChange={handleChange}
                   className="
                     w-full
-                    h-14
-                    rounded-2xl
+                    h-12
+                    rounded-xl
+                    px-4
+                    text-sm
                     border
                     border-gray-200
                     bg-white/80
-                    px-5
                     outline-none
                     transition-all
                     duration-300
@@ -279,16 +269,16 @@ const QuoteForm = () => {
                 }} 
                 className="
                   group
-                  mt-8
                   w-full
-                  h-14
-                  rounded-2xl
+                  mt-5
+                  h-12
+                  rounded-xl
+                  text-sm
                   bg-gradient-to-r
                   from-[#2F80FF]
                   to-[#7B61FF]
                   text-white
                   font-semibold
-                  text-lg
                   shadow-[0_15px_35px_rgba(47,128,255,0.35)]
                   flex
                   items-center

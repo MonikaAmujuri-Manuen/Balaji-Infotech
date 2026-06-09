@@ -28,3 +28,24 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+.sidebar-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.content-scroll {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+
+.content-scroll::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+html {
+  scroll-behavior: smooth;
+}

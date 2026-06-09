@@ -1,14 +1,15 @@
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { motion, AnimatePresence, easeOut } from "framer-motion";
 import lmsHero from "../assets/lmshero.png"
 import lms from "../assets/lms.png"
 import {
   Play, Link2, Box, Sparkles, Clock3, FlaskConical,ArrowRight, FolderDown, NotebookPen, Download,
   FileText, FileSpreadsheet, Database, FileArchive, MonitorPlay, Globe, Plus,
-  BookOpen, Receipt, Users,
-  Boxes,
-  BadgeCheck,
-  BriefcaseBusiness,
-  Building2,
+  BookOpen, Receipt, Users, PlayCircle, BadgePercent, ReceiptText, Package, Wallet, FolderArchive,
+  Boxes, BadgeCheck, BriefcaseBusiness, Building2, CheckCircle, Briefcase, BarChart3, ClipboardCheck,
+  ChevronDown
 } from "lucide-react";
 
 import {
@@ -24,9 +25,12 @@ import advancedImg from "../assets/advanced.jpg"
 
 export default function LMS() {
 
+  const navigate = useNavigate();
+
   const roadmapData = [
   {
     step: "01",
+    slug: "basics-ledgers",
     level: "Beginner",
     title: "Basics & Ledgers",
     description:
@@ -37,6 +41,7 @@ export default function LMS() {
 
   {
     step: "02",
+    slug: "gst-taxation",
     level: "Intermediate",
     title: "GST & Taxation",
     description:
@@ -47,6 +52,7 @@ export default function LMS() {
 
   {
     step: "03",
+    slug: "inventory-stock",
     level: "Intermediate",
     title: "Inventory & Stock",
     description:
@@ -57,6 +63,7 @@ export default function LMS() {
 
   {
     step: "04",
+    slug: "payroll-management",
     level: "Advanced",
     title: "Payroll Management",
     description:
@@ -67,6 +74,7 @@ export default function LMS() {
 
   {
     step: "05",
+    slug: "reports-mis",
     level: "Advanced",
     title: "Reports & MIS",
     description:
@@ -77,6 +85,7 @@ export default function LMS() {
 
   {
     step: "06",
+    slug: "advanced-tallyprime",
     level: "Expert",
     title: "Advanced TallyPrime",
     description:
@@ -86,106 +95,310 @@ export default function LMS() {
   },
 ];
 
-const exerciseData = [
+const resources = [
   {
-    title: "GST Invoice Challenge",
+    title: "Official Tally Resources",
     description:
-      "Create GST invoices, configure taxes, and manage debit/credit notes.",
-    time: "25 Minutes",
-    level: "Intermediate",
+      "Explore official product documentation, learning materials, certifications, and support resources directly from Tally.",
+
+    points: [
+      "Official Documentation",
+      "Learning & Certification",
+      "Support Knowledge Base",
+    ],
+
+    icon: BookOpen,
+    iconBg: "bg-blue-50",
+    iconColor: "text-blue-600",
+    lineColor: "bg-blue-500",
+
+    shadowColor:
+  "hover:shadow-[0_15px_40px_rgba(59,130,246,0.18)]",
+
+    buttonText: "Official Resources",
+    buttonClass:
+      "bg-blue-50 text-blue-600 hover:bg-blue-100",
+
+    link: "https://tallysolutions.com",
   },
 
   {
-    title: "Payroll Workflow Setup",
+    title: "Video Tutorials",
     description:
-      "Configure employee salary structures and process payroll entries.",
-    time: "40 Minutes",
-    level: "Advanced",
+      "Learn through step-by-step video tutorials covering accounting, GST, inventory management, payroll, and business workflows.",
+
+    points: [
+      "Beginner Friendly",
+      "Practical Examples",
+      "Complete Playlists",
+    ],
+
+    icon: PlayCircle,
+    iconBg: "bg-red-50",
+    iconColor: "text-red-500",
+    lineColor: "bg-red-500",
+
+    shadowColor:
+  "hover:shadow-[0_15px_40px_rgba(239,68,68,0.18)]",
+
+    buttonText: "Watch Tutorials",
+    buttonClass:
+      "bg-red-50 text-red-500 hover:bg-red-100",
+
+    link: "https://www.youtube.com/results?search_query=tally+prime+tutorial",
   },
 
   {
-    title: "Inventory Stock Transfer",
+    title: "Guides & Documentation",
     description:
-      "Practice godown transfers, batching, and stock management workflows.",
-    time: "30 Minutes",
-    level: "Intermediate",
+      "Access tutorials, knowledge articles, quick references, and detailed documentation to improve your understanding.",
+
+    points: [
+      "Step-by-Step Guides",
+      "Reference Articles",
+      "Quick Learning Notes",
+    ],
+
+    icon: FileText,
+    iconBg: "bg-slate-100",
+    iconColor: "text-slate-700",
+    lineColor: "bg-slate-500",
+
+    shadowColor:
+  "hover:shadow-[0_15px_40px_rgba(100,116,139,0.18)]",
+
+    buttonText: "View Guides",
+    buttonClass:
+      "bg-slate-100 text-slate-700 hover:bg-slate-200",
+
+    link: "https://help.tallysolutions.com",
+  },
+
+  {
+    title: "GST & Compliance",
+    description:
+      "Stay updated with GST compliance, tax filing procedures, and government resources relevant to business accounting.",
+
+    points: [
+      "GST Portal Access",
+      "Return Filing Help",
+      "Compliance Updates",
+    ],
+
+    icon: BadgeCheck,
+    iconBg: "bg-green-50",
+    iconColor: "text-green-600",
+    lineColor: "bg-green-500",
+
+    shadowColor:
+  "hover:shadow-[0_15px_40px_rgba(34,197,94,0.18)]",
+
+    buttonText: "GST Resources",
+    buttonClass:
+      "bg-green-50 text-green-600 hover:bg-green-100",
+
+    link: "https://www.gst.gov.in",
+  },
+
+  {
+    title: "Practice Materials",
+    description:
+      "Download sample company data, exercises, worksheets, and practice files to build hands-on experience.",
+
+    points: [
+      "Sample Data Files",
+      "Practice Exercises",
+      "Learning Worksheets",
+    ],
+
+    icon: Download,
+    iconBg: "bg-purple-50",
+    iconColor: "text-purple-600",
+    lineColor: "bg-purple-500",
+
+    shadowColor:
+  "hover:shadow-[0_15px_40px_rgba(168,85,247,0.18)]",
+
+    buttonText: "Download Files",
+    buttonClass:
+      "bg-purple-50 text-purple-600 hover:bg-purple-100",
+
+    link: "https://tallysolutions.com/download",
   },
 ];
 
-const downloadData = [
+const practiceExercises = [
   {
-    title: "GST Cheat Sheet",
+    slug: "company-setup",
+    level: "Level 01",
+    title: "Company Setup & Opening Balances",
     description:
-      "Quick GST rates, shortcuts, filing process, and invoice formats.",
-    type: "PDF FILE",
-    icon: <FileText className="w-7 h-7" />,
+      "Create a new company, set financial year, create primary ledgers and enter opening balances. Generate a trial balance.",
+    difficulty: "Beginner",
+    duration: "30-45 mins",
+    icon: Building2,
+    color: "blue",
+  },
+  {
+    slug: "gst-invoice-return",
+    level: "Level 02",
+    title: "GST Invoice & Return",
+    description:
+      "Create GST compliant invoices, post sales & purchases, generate GSTR reports and reconcile data.",
+    difficulty: "Intermediate",
+    duration: "60-90 mins",
+    icon: ReceiptText,
+    color: "purple",
+  },
+  {
+    slug: "inventory-stock",
+    level: "Level 03",
+    title: "Inventory Movement",
+    description:
+      "Configure stock items, manage godowns, stock journals and inventory valuation reports.",
+    difficulty: "Intermediate",
+    duration: "45-60 mins",
+    icon: Package,
+    color: "indigo",
+  },
+  {
+    slug: "payroll-management",
+    level: "Level 04",
+    title: "Payroll Month End",
+    description:
+      "Create employees, assign salary structures and generate payslips.",
+    difficulty: "Advanced",
+    duration: "60 mins",
+    icon: Wallet,
+    color: "orange",
+  },
+];
+
+const styles = {
+  blue: {
+    dot: "from-blue-500 to-cyan-500",
+    badge: "bg-blue-100 text-blue-700",
+    border: "border-blue-500",
+    activeBg: "from-blue-50 to-white",
   },
 
-  {
+  purple: {
+    dot: "from-purple-500 to-pink-500",
+    badge: "bg-purple-100 text-purple-700",
+    border: "border-purple-500",
+    activeBg: "from-purple-50 to-white",
+  },
+
+  indigo: {
+    dot: "from-indigo-500 to-blue-500",
+    badge: "bg-indigo-100 text-indigo-700",
+    border: "border-indigo-500",
+    activeBg: "from-indigo-50 to-white",
+  },
+
+  orange: {
+    dot: "from-orange-500 to-amber-500",
+    badge: "bg-orange-100 text-orange-700",
+    border: "border-orange-500",
+    activeBg: "from-orange-50 to-white",
+  },
+};
+
+const downloads = {
+  software: {
+    title: "TallyPrime Software",
+    description:
+      "Download the latest TallyPrime installer with official updates and business management features.",
+    button: "Download Tally",
+    link: "https://tallysolutions.com",
+  },
+
+  guides: {
+    title: "Cheat Sheets & Guides",
+    description:
+      "GST workflows, voucher shortcuts, accounting references and quick learning PDFs.",
+    button: "Download Guides",
+    link: "https://tallysolutions.com/download/",
+  },
+
+  sampleData: {
     title: "Sample Company Data",
     description:
-      "Practice with real-world TallyPrime business datasets and ledgers.",
-    type: "ZIP FILE",
-    icon: <Database className="w-7 h-7" />,
+      "Practice datasets containing companies, ledgers, vouchers and GST transactions.",
+    button: "Get Sample Data",
+    link: "https://tallysolutions.com/",
   },
+};
 
+const careerRoles = [
   {
-    title: "Payroll Templates",
+    title: "Accounts Executive",
+    level: "Entry Level",
+    salary: "₹2L - ₹4L",
+    icon: Briefcase,
+    color: "blue",
     description:
-      "Ready-to-use employee salary structure and payroll templates.",
-    type: "XLS FILE",
-    icon: <FileSpreadsheet className="w-7 h-7" />,
+      "Manage ledgers, vouchers, bank reconciliation and daily accounting operations.",
   },
-
   {
-    title: "TallyPrime Notes",
+    title: "GST Executive",
+    level: "Intermediate",
+    salary: "₹2.5L - ₹5L",
+    icon: ReceiptText,
+    color: "purple",
     description:
-      "Detailed learning notes covering accounting, GST, and inventory.",
-    type: "DOC FILE",
-    icon: <FileArchive className="w-7 h-7" />,
+      "Handle GST filing, compliance reporting, invoices and tax documentation.",
+  },
+  {
+    title: "MIS Analyst",
+    level: "Intermediate",
+    salary: "₹3L - ₹6L",
+    icon: BarChart3,
+    color: "emerald",
+    description:
+      "Generate reports, business insights and data analysis for management.",
+  },
+  {
+    title: "Payroll Executive",
+    level: "Advanced",
+    salary: "₹3L - ₹5.5L",
+    icon: Wallet,
+    color: "orange",
+    description:
+      "Manage employee salaries, statutory deductions and payroll processing.",
   },
 ];
+
+const [openExercise, setOpenExercise] = useState(0);
+
   return (
     <>
+
+    <div className="overflow-hidden">
     {/* ================= LMS HERO SECTION ================= */}
-<section className="relative overflow-x-hidden pt-32 sm:pt-28 lg:pt-32 pb-14 sm:pb-20">
+<section className=" 
+relative
+overflow-hidden
+scrollbar-hide
+bg-white
+pt-20 sm:pt-24 lg:pt-24
+pb-10 sm:pb-12 md:pb-14
+">
 
-  {/* BACKGROUND IMAGE */}
-  <div className="absolute inset-0">
-    <img
-      src={lmsHero}
-      alt="LMS Hero"
-      className="w-full h-full object-cover"
-    />
-
-    {/* DARK OVERLAY */}
-    <div className="absolute inset-0 bg-[#020817]/70" />
-
-    {/* GRADIENT OVERLAY */}
-    <div className="
-      absolute inset-0
-      bg-gradient-to-r
-      from-[#020817]/80
-      via-[#020817]/50
-      to-[#020817]/35
-    " />
-  </div>
-
-  {/* GLOW EFFECT */}
-  <div className="
+<div
+  className="
+    hidden lg:block
     absolute
-    top-0 left-1/2
+    top-0
+    left-1/2
     -translate-x-1/2
-    w-[400px] h-[400px]
-    sm:w-[550px]
-    sm:h-[550px]
-    lg:w-[700px]
-    lg:h-[700px]
-    bg-[#3B82F6]/20
-    blur-[160px]
+    w-[700px]
+    h-[700px]
+    bg-[#2F80FF]/5
+    blur-[150px]
     rounded-full
-  " />
-
+  "
+/>
   <div className="
     relative z-10
     max-w-7xl mx-auto
@@ -194,8 +407,7 @@ const downloadData = [
 
     <div className="
       grid lg:grid-cols-2
-      gap-10
-      lg:gap-16
+      gap-8 lg:gap-12
       items-center
     ">
 
@@ -212,11 +424,7 @@ const downloadData = [
         <div className="
           flex flex-wrap items-center justify-center sm:justify-start gap-2
           px-5 py-2
-          rounded-full
-          border border-white/15
-          bg-white/10
-          backdrop-blur-xl
-          text-[#3B82F6]
+          text-[#2563EB]
           text-sm font-semibold
           mb-8
         ">
@@ -229,43 +437,31 @@ const downloadData = [
 
         {/* HEADING */}
         <h1 className="
-            text-[26px]
-            sm:text-5xl
-            lg:text-6xl
+            text-[30px]
+sm:text-[38px]
+lg:text-[48px]
             font-black
-            font-semibold
+            font-bold
             leading-[1.1]
             tracking-[-1px]
-            text-white
-            break-words
+            text-[#071426]
+            
             max-w-full
 
         ">
-          Complete TallyPrime LMS —
-          <span className="
-            block
-            mt-3
-            leading-[1.15]
-            break-words
-            bg-gradient-to-r
-            from-[#3B82F6]
-            to-[#8B5CF6]
-            bg-clip-text
-            text-transparent
-          ">
+          Complete TallyPrime LMS-
             From Basics To Payroll & GST
-          </span>
         </h1>
 
         {/* DESCRIPTION */}
         <p className="
-          mt-6 sm:mt-8
+          mt-5
           text-[15px]
           sm:text-[16px]
           md:text-[17px]
           leading-8
           sm:leading-9
-          text-white/70
+          text-slate-600
           max-w-2xl
         ">
           Structured curriculum, practical exercises,
@@ -294,16 +490,15 @@ const downloadData = [
             w-full
             sm:w-auto
             justify-center
-            px-6
-            sm:px-8
-            py-4
+            px-5 sm:px-7
+            py-3
+            text-base
             rounded-2xl
             bg-gradient-to-r
             from-[#2563EB]
             to-[#3B82F6]
             text-white
             font-semibold
-            text-lg
             shadow-[0_20px_50px_rgba(37,99,235,0.35)]
             hover:scale-[1.03]
             transition-all duration-300
@@ -320,16 +515,15 @@ const downloadData = [
           w-full
           sm:w-auto
           justify-center
-          px-6
-          sm:px-8
-          py-4
+          px-5 sm:px-7
+          py-3
+          text-base
           rounded-2xl
           border border-white/15
           bg-white/10
           backdrop-blur-xl
-          text-white
+          text-black
           font-semibold
-          text-lg
           hover:bg-white/15
           transition-all duration-300
           flex items-center gap-3
@@ -360,235 +554,137 @@ const downloadData = [
       viewport={{ once: true}}
       >
       <div className="relative mt-4 lg:mt-0">
+        
 
         {/* FLOATING CARD */}
-        <div className="
-          relative
-          rounded-[24px]
-          sm:rounded-[32px]
-          border border-white/15
-          bg-white/10
-          backdrop-blur-2xl
-          p-5
-          sm:p-8
-          md:p-10
-          shadow-[0_25px_80px_rgba(0,0,0,0.45)]
-        ">
+        <div
+  className="
+    bg-white
+    border border-slate-200
+    rounded-[28px]
+    p-6
+    shadow-sm
+    w-full
+    max-w-full
+    sm:max-w-[500px]
+  "
+>
+  <div className="flex items-center justify-between mb-5">
 
-          {/* TOP */}
-          <div className="
-            flex flex-col sm:flex-row
-            items-start justify-between
-            gap-5 sm:gap-6
-          ">
+    <div>
+      <p className="text-xs uppercase tracking-wider text-[#2563EB] font-semibold">
+        Course Snapshot
+      </p>
 
-            <div>
-              <p className="
-                text-sm
-                font-semibold
-                uppercase
-                tracking-[2px]
-                text-[#3B82F6]
-              ">
-                Course Snapshot
-              </p>
+      <h3 className="mt-2 text-2xl font-bold text-[#071426]">
+        TallyPrime LMS
+      </h3>
+    </div>
 
-              <h3 className="
-                mt-3
-                text-[26px]
-                sm:text-3xl
-                font-black
-                text-white
-                leading-tight
-              ">
-                TallyPrime
-                <span className="text-[#3B82F6]"> • GST • </span>
-                Payroll
-              </h3>
-            </div>
+    <div
+      className="
+        px-3 py-2
+        rounded-xl
+        bg-[#EFF6FF]
+        text-[#2563EB]
+        text-sm
+        font-medium
+      "
+    >
+      Beginner → Advanced
+    </div>
 
-            {/* LEVEL BADGE */}
-            <div className="
-            w-full sm:w-auto
-              px-3
-              sm:px-4
-              py-3
-              rounded-2xl
-              bg-white/10
-              border border-white/10
-              text-center
-            ">
-              <p className="text-xs text-white/60">
-                Level
-              </p>
+  </div>
 
-              <h4 className="
-                mt-1
-                text-base sm:text-lg
-                break-words
-                font-bold
-                text-white
-              ">
-                Beginner →
-                <span className="text-[#3B82F6]">
-                  Advanced
-                </span>
-              </h4>
-            </div>
-          </div>
+  <div className="flex flex-wrap gap-2 mb-6">
 
-          {/* DIVIDER */}
-          <div className="
-            h-px
-            bg-white/10
-            my-8
-          " />
+    {[
+      "Accounting",
+      "GST",
+      "Inventory",
+      "Payroll",
+      "Banking",
+      "Reports",
+    ].map((topic) => (
+      <span
+        key={topic}
+        className="
+          px-3 py-1.5
+          rounded-full
+          bg-[#F8FAFC]
+          border border-slate-200
+          text-sm
+          text-slate-700
+        "
+      >
+        {topic}
+      </span>
+    ))}
 
-          {/* TOPICS */}
-          <div>
+  </div>
 
-            <p className="
-              text-sm
-              text-white/60
-              mb-5
-            ">
-              Core Topics
-            </p>
+  <div className="grid grid-cols-3 gap-3 mb-6">
 
-            <div className="
-              flex flex-wrap
-              gap-3
-            ">
-              {[
-                "Accounting",
-                "GST",
-                "Inventory",
-                "Payroll",
-                "Banking",
-                "Reports",
-              ].map((topic, index) => (
-                <div
-                  key={index}
-                  className="
-                    px-4 py-2
-                    rounded-full
-                    bg-white/10
-                    border border-white/10
-                    text-white
-                    text-sm
-                    font-medium
-                  "
-                >
-                  {topic}
-                </div>
-              ))}
-            </div>
-          </div>
+    <div className="text-center p-4 rounded-2xl bg-[#F8FAFC]">
+      <h4 className="text-2xl font-bold text-[#071426]">
+        40+
+      </h4>
 
-          {/* STATS */}
-          <div className="
-            mt-10
-            grid grid-cols-1
-            sm:grid-cols-3
-            gap-4
-          ">
+      <p className="text-xs text-slate-500">
+        Modules
+      </p>
+    </div>
 
-            {[
-              {
-                number: "40+",
-                label: "Modules",
-              },
-              {
-                number: "120+",
-                label: "Videos",
-              },
-              {
-                number: "25+",
-                label: "Assignments",
-              },
-            ].map((item, index) => (
-              <div
-                key={index}
-                className="
-                  rounded-2xl
-                  border border-white/10
-                  bg-white/5
-                  p-4
-                  sm:p-5
-                  text-center
-                "
-              >
-                <h4 className="
-                  text-2xl
-                  font-black
-                  text-white
-                ">
-                  {item.number}
-                </h4>
+    <div className="text-center p-4 rounded-2xl bg-[#F8FAFC]">
+      <h4 className="text-2xl font-bold text-[#071426]">
+        120+
+      </h4>
 
-                <p className="
-                  mt-1
-                  text-sm
-                  text-white/60
-                ">
-                  {item.label}
-                </p>
-              </div>
-            ))}
-          </div>
+      <p className="text-xs text-slate-500">
+        Videos
+      </p>
+    </div>
 
-          {/* BOTTOM BADGES */}
-          <div className="
-            mt-10
-            flex flex-wrap
-            gap-4
-          ">
+    <div className="text-center p-4 rounded-2xl bg-[#F8FAFC]">
+      <h4 className="text-2xl font-bold text-[#071426]">
+        25+
+      </h4>
 
-            <button
-            onClick={() =>
-              window.open(
-                "https://tallysolutions.com/",
-                "_blank"
-              )
-            }
-            className="
-              px-5 py-3
-              rounded-2xl
-              bg-gradient-to-r
-              from-[#2563EB]
-              to-[#7C3AED]
-              text-white
-              font-semibold
-              flex items-center gap-3
-            "
-          >
-            <Box size={18} />
-            TallyOfficial
-          </button>
+      <p className="text-xs text-slate-500">
+        Assignments
+      </p>
+    </div>
 
-                      <button
-            onClick={() =>
-              window.open(
-                "https://www.youtube.com/@balajiinfotechguntur7060",
-                "_blank"
-              )
-            }
-            className="
-              px-5 py-3
-              rounded-2xl
-              bg-white/10
-              border border-white/10
-              text-white
-              font-semibold
-              flex items-center gap-3
-            "
-          >
-            <FaYoutube size={18} />
-            YouTube Tutorials
-          </button>
+  </div>
 
-          </div>
-        </div>
+  <div className="flex flex-wrap gap-3">
+
+    <button
+      className="
+        px-5 py-3
+        rounded-xl
+        bg-[#2563EB]
+        text-white
+        font-medium
+      "
+    >
+      Tally Official
+    </button>
+
+    <button
+      className="
+        px-5 py-3
+        rounded-xl
+        border border-slate-200
+        text-[#071426]
+        font-medium
+      "
+    >
+      YouTube Tutorials
+    </button>
+
+  </div>
+</div>
 
       </div>
       </motion.div>
@@ -598,13 +694,15 @@ const downloadData = [
 </section>
 
 {/* ================= WHY LEARN TALLY ================= */}
-<section className="relative py-16 sm:py-20 md:py-28 px-4 sm:px-6 bg-white overflow-hidden">
+<section className="relative py-10 sm:py-12 md:py-16 px-4 sm:px-6 bg-white overflow-hidden">
   {/* BACKGROUND GLOW */}
-  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-[#2F80FF]/5 blur-[150px] rounded-full"/>
+  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[350px] h-[350px]
+sm:w-[500px] sm:h-[500px]
+lg:w-[700px] lg:h-[700px] bg-[#2F80FF]/5 blur-[150px] rounded-full"/>
 
   <div className="max-w-7xl mx-auto relative z-10">
 
-    <div className="grid lg:grid-cols-2 gap-10 md:gap-12 xl:gap-20 items-center">
+    <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
 
       {/* LEFT SIDE */}
       <div>
@@ -612,7 +710,7 @@ const downloadData = [
         <span className="
         inline-flex 
         items-center
-        px-4 py-2
+        px-3 py-1.5
         rounded-full
         bg-[#EEF4FF]
         text-[#2F80FF]
@@ -623,9 +721,9 @@ const downloadData = [
 
         <h2 className="
         mt-6
-        text-3xl
-        sm:text-4xl
-        md:text-5xl
+        text-2xl
+sm:text-3xl
+md:text-4xl
         font-bold
         text-[#071426]
         leading-tight">
@@ -635,30 +733,21 @@ const downloadData = [
           </span>
         </h2>
         <p className="
-        mt-6
-        text-[16px] md:text-[17px]
+        mt-4
+text-[15px]
         text-slate-600
         leading-relaxed">
           TallyPrime (previously Tally.ERP) is the leading accounting & business management software used
           widely by SMEs and Enterprises. Learn how to manage books perform GST compliance, control inventory
           and process payroll - all within one powerful platform.
         </p>
-        <p className="
-          mt-4
-          text-[16px] md:text-[17px]
-          text-slate-600
-          leading-relaxed
-        ">
-          Gain practical skills, understand real-world workflows, and become job-ready with industry-relevant
-          training designed for students, professionals, and business owners.
-        </p>
 
         {/* LEARNING OUTCOMES */}
-        <div className="mt-8 sm:mt-10 grid sm:grid-cols-2 gap-4">
+        <div className="mt-6 grid sm:grid-cols-2 gap-4">
 
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-[#EEF4FF] flex items-center justify-center">
-              <BookOpen className="w-5 h-5 text-[#071426]" /> 
+            <div className="w-9 h-9 rounded-xl bg-[#EEF4FF] flex items-center justify-center">
+              <BookOpen className="w-4 h-4 text-[#071426]" /> 
             </div>
             <span className="font-medium text-[#071426] text-sm sm:text-base">
               Accounting & BookKeeping
@@ -666,8 +755,8 @@ const downloadData = [
           </div>
 
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-[#EEF4FF] flex items-center justify-center">
-              <Receipt className="w-5 h-5 text-[#071426]" />
+            <div className="w-9 h-9 rounded-xl bg-[#EEF4FF] flex items-center justify-center">
+              <Receipt className="w-4 h-4 text-[#071426]" />
             </div>
             <span className="font-medium text-[#071426] text-sm sm:text-base">
               GST & TAX compliance
@@ -675,8 +764,8 @@ const downloadData = [
           </div>
 
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-[#EEF4FF] flex items-center justify-center">
-              <Boxes className="w-5 h-5 text-[#071426]" />
+            <div className="w-9 h-9 rounded-xl bg-[#EEF4FF] flex items-center justify-center">
+              <Boxes className="w-4 h-4 text-[#071426]" />
             </div>
             <span className="font-medium text-[#071426] text-sm sm:text-base">
               Inventory & Stock Management
@@ -684,8 +773,8 @@ const downloadData = [
           </div>
 
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-[#EEF4FF] flex items-center justify-center">
-              <Users className="w-5 h-5 text-[#071426]" />
+            <div className="w-9 h-9 rounded-xl bg-[#EEF4FF] flex items-center justify-center">
+              <Users className="w-4 h-4 text-[#071426]" />
             </div>
             <span className="font-medium text-[#071426] text-sm sm:text-base">
               Payroll Processing
@@ -699,31 +788,13 @@ const downloadData = [
       rounded-3xl sm:rounded-[32px]
       overflow-hidden
       border border-slate-200
-      bg-white
-      shadow-[0_20px_60px_rgba(0,0,0,0.08)]">
-         {/* IMAGE */}
-        <div
-          className="
-            h-52 sm:h-64
-            bg-gradient-to-r
-            from-[#1178D4]
-            to-[#6C63FF]
-            flex
-            items-center
-            justify-center
-          "
-        >
-         <img
-          src={lms}
-          alt="Tally Learning"
-          className="w-full h-52 sm:h-64 object-cover"
-        />
-        </div>
+      bg-white/ 70
+      shadow-sm">
 
         {/* CONTENT */}
-        <div className="p-5 sm:p-8">
+        <div className="p-5 sm:p-6">
           <h3 className="
-            text-2xl sm:text-3xl
+            text-xl sm:text-2xl
             font-bold
             text-[#071426]
             mb-4"
@@ -738,21 +809,21 @@ const downloadData = [
             their accounting and business management skills.
           </p>
           {/* TARGET AUDIENCE LIST */}
-          <div className="flex flex-wrap gap-3 mb-8">
+          <div className="flex flex-wrap gap-3 mb-6">
 
-            <span className="px-4 py-2 rounded-full bg-[#F8FAFC] border border-slate-200">
+            <span className="px-3 py-1.5 text-sm rounded-full bg-[#F8FAFC] border border-slate-200">
               Students
             </span>
 
-            <span className="px-4 py-2 rounded-full bg-[#F8FAFC] border border-slate-200">
+            <span className="px-3 py-1.5 text-sm rounded-full bg-[#F8FAFC] border border-slate-200">
               Accountants
             </span>
 
-            <span className="px-4 py-2 rounded-full bg-[#F8FAFC] border border-slate-200">
+            <span className="px-3 py-1.5 text-sm rounded-full bg-[#F8FAFC] border border-slate-200">
               Business Owners
             </span>
 
-            <span className="px-4 py-2 rounded-full bg-[#F8FAFC] border border-slate-200">
+            <span className="px-3 py-1.5 text-sm rounded-full bg-[#F8FAFC] border border-slate-200">
               Finance Professionals
             </span>
 
@@ -790,15 +861,13 @@ const downloadData = [
 </section>
 
 {/* ================= LMS ROADMAP ================= */}
-<section className="relative py-14 sm:py-16 md:py-20 overflow-hidden bg-[#F8FAFC]">
+<section className="relative py-10 sm:py-12 md:py-14 overflow-hidden bg-[#F8FAFC]">
 
-  {/* BACKGROUND GLOW */}
-  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-blue-500/10 blur-[140px] rounded-full" />
-
+  
   <div className="relative max-w-7xl mx-auto px-4 sm:px-6">
 
     {/* SECTION HEADER */}
-    <div className="text-center max-w-3xl mx-auto mb-20">
+    <div className="text-center max-w-3xl mx-auto mb-12">
 
       <div className="
         inline-flex items-center gap-2
@@ -815,28 +884,26 @@ const downloadData = [
       </div>
 
       <h2 className="
-        mt-6
-        text-[30px]
-        sm:text-4xl
-        md:text-5xl
+        mt-5
+        text-2xl
+        sm:text-3xl
+        md:text-4xl
         font-black
         tracking-tight
         text-[#0F172A]
         leading-tight
       ">
         Master TallyPrime{" "}
-        <span className="bg-gradient-to-r from-[#2563EB] to-[#7C3AED] bg-clip-text text-transparent">
+        <span className="bg-gradient-to-r from-[#2563EB] to-[#2563EB] bg-clip-text text-transparent">
           Step By Step
         </span>
       </h2>
 
       <p className="
-        mt-6
-        text-[15px]
-        sm:text-[16px]
-        md:text-[17px]
-        text-[#64748B]
-        leading-8
+        mt-4
+text-[14px]
+sm:text-[15px]
+leading-8
       ">
         A structured roadmap designed to take you from accounting
         fundamentals to advanced GST, payroll, inventory, and reporting workflows.
@@ -845,7 +912,7 @@ const downloadData = [
     </div>
 
     {/* ROADMAP GRID */}
-    <div className="relative grid md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+    <div className="relative grid md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
 
       {roadmapData.map((item, index) => (
 
@@ -854,11 +921,9 @@ const downloadData = [
           className="
             group
             relative
-            rounded-[24px]
-            sm:rounded-[30px]
+            rounded-2xl
             border border-[#E2E8F0]
-            bg-white/70
-            backdrop-blur-xl
+            bg-white
             overflow-hidden
             shadow-[0_10px_40px_rgba(15,23,42,0.05)]
             hover:-translate-y-2
@@ -867,21 +932,10 @@ const downloadData = [
           "
         >
 
-          {/* TOP GRADIENT */}
-          <div className="
-            absolute top-0 left-0
-            h-1.5 w-full
-            bg-gradient-to-r from-[#2563EB] to-[#7C3AED]
-            scale-x-0
-            group-hover:scale-x-100
-            origin-left
-            transition-transform duration-500
-          " />
-
           {/* STEP NUMBER */}
           <div className="
             absolute top-5 right-5
-            text-5xl
+            text-3xl
             font-black
             text-[#E2E8F0]
             select-none
@@ -890,18 +944,19 @@ const downloadData = [
           </div>
 
           {/* IMAGE */}
-          <div className="relative h-[200px] sm:h-[220px] overflow-hidden">
+          <div className="relative h-[150px] sm:h-[170px] overflow-hidden">
 
             <img
-              src={item.image}
-              alt={item.title}
-              className="
-                w-full h-full
-                object-cover
-                group-hover:scale-110
-                transition-transform duration-700
-              "
-            />
+  src={item.image}
+  alt={item.title}
+  className="
+    w-full
+    h-full
+    object-cover
+    group-hover:scale-110
+    transition-transform duration-700
+  "
+/>
 
             {/* OVERLAY */}
             <div className="
@@ -915,7 +970,7 @@ const downloadData = [
             {/* LEVEL BADGE */}
             <div className="
               absolute top-5 left-5
-              px-4 py-2
+              px-3 py-1.5
               rounded-full
               bg-white/20
               backdrop-blur-md
@@ -930,11 +985,11 @@ const downloadData = [
           </div>
 
           {/* CONTENT */}
-          <div className="p-5 sm:p-7">
+          <div className="p-4 sm:p-5">
 
             <h3 className="
-              text-[22px]
-              sm:text-2xl
+              text-lg
+              sm:text-xl
               font-black
               text-[#0F172A]
               leading-snug
@@ -943,23 +998,24 @@ const downloadData = [
             </h3>
 
             <p className="
-              mt-4
+              mt-3
+              text-sm
+              leading-6
               text-[#64748B]
-              leading-7
             ">
               {item.description}
             </p>
 
             {/* TAGS */}
             <div className="
-              mt-7
+              mt-5
               flex flex-wrap gap-3
             ">
 
               {/* TIME */}
               <div className="
                 flex items-center gap-2
-                px-4 py-2
+                px-3 py-1.5
                 rounded-full
                 bg-[#EFF6FF]
                 text-[#2563EB]
@@ -977,7 +1033,7 @@ const downloadData = [
                 rounded-full
                 bg-[#F5F3FF]
                 text-[#7C3AED]
-                text-sm
+                text-xs
                 font-semibold
               ">
                 <FlaskConical className="w-4 h-4" />
@@ -987,17 +1043,22 @@ const downloadData = [
             </div>
 
             {/* CTA */}
-            <button className="
-              mt-8
-              flex items-center gap-2
-              text-[#2563EB]
-              font-bold
-              group-hover:gap-4
-              transition-all duration-300
-            ">
+            <Link
+              to={`/courses/${item.slug}`}
+              className="
+                mt-5
+                inline-flex
+                items-center
+                gap-2
+                text-[#2563EB]
+                font-bold
+                group-hover:gap-4
+                transition-all duration-300
+              "
+            >
               Start Module
               <ArrowRight className="w-5 h-5" />
-            </button>
+            </Link>
 
           </div>
 
@@ -1011,339 +1072,426 @@ const downloadData = [
 
 </section>
 
-{/* ================= INTERACTIVE LEARNING TOOLS ================= */}
-<section className="relative py-14 sm:py-16 md:py-20 bg-[#F8FAFC] overflow-hidden">
+
+{/* ================= LEARNING RESOURCES ================= */}
+<section className="relative py-10 md:py-14 px-4 sm:px-6 bg-[#F8FAFC] overflow-hidden">
 
   {/* BACKGROUND GLOW */}
-  <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-500/10 blur-[120px] rounded-full" />
-  <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-violet-500/10 blur-[120px] rounded-full" />
+  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-[#2F80FF]/5 blur-[150px] rounded-full" />
 
-  <div className="relative max-w-7xl mx-auto px-4 sm:px-6">
+  <div className="max-w-7xl mx-auto relative z-10">
 
     {/* SECTION HEADER */}
-    <div className="text-center max-w-3xl mx-auto mb-20">
+    <div className="text-center max-w-3xl mx-auto mb-10">
 
-      <div className="
-        inline-flex items-center gap-2
-        px-5 py-2
-        rounded-full
-        border border-[#CBD5E1]
-        bg-white
-        text-[#2563EB]
-        text-sm font-semibold
-        shadow-sm
-      ">
-        <Sparkles className="w-4 h-4" />
-        Interactive LMS Resources
-      </div>
+      <span
+        className="
+          inline-flex
+          items-center
+          px-4 py-2
+          rounded-full
+          bg-[#EEF4FF]
+          text-[#2F80FF]
+          font-medium
+          text-sm
+        "
+      >
+        Learning Resources
+      </span>
 
-      <h2 className="
-        mt-6
-        text-3xl md:text-5xl
-        font-black
-        tracking-tight
-        text-[#0F172A]
-        leading-tight
-      ">
-        Practice, Download &
-        <span className="bg-gradient-to-r from-[#2563EB] to-[#7C3AED] bg-clip-text text-transparent">
-          {" "}Master Faster
-        </span>
+      <h2
+        className="
+          mt-6
+          text-2xl
+          sm:text-3xl
+          md:text-4xl
+          font-bold
+          text-[#071426]
+        "
+      >
+        Trusted Learning Resources
       </h2>
 
-      <p className="
-        mt-6
-        text-[16px] md:text-[17px]
-        text-[#64748B]
-        leading-8
-      ">
-        Strengthen your learning with practical exercises,
-        downloadable resources, templates, and real-world accounting scenarios.
+      <p
+        className="
+          mt-6
+          text-slate-600
+          text-base
+          sm:text-lg
+          leading-relaxed
+        "
+      >
+        Access trusted tutorials, documentation, government resources,
+        and practice materials to strengthen your TallyPrime knowledge.
       </p>
 
     </div>
 
-    {/* MAIN GRID */}
-    <div className="grid lg:grid-cols-2 gap-8 lg:gap-10">
-
-      {/* ================= PRACTICE EXERCISES ================= */}
-      <div className="
-        rounded-[28px]
-        border border-[#E2E8F0]
-        bg-white/70
-        backdrop-blur-xl
+    {/* RESOURCE CARDS */}
+    <div className="max-w-5xl mx-auto space-y-4">
+  {resources.map((item, index) => (
+    <a
+      key={index}
+      href={item.link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="
+        flex
+        items-center
+        justify-between
+        gap-6
         p-5
-        sm:p-8
-        md:p-10
-        shadow-[0_20px_60px_rgba(15,23,42,0.05)]
-      ">
-
-        {/* HEADER */}
-        <div className="flex items-center justify-between mb-10">
-
-          <div>
-
-            <h3 className="
-              text-2xl
-              sm:text-3xl
-              font-black
-              text-[#0F172A]
-            ">
-              Practice Exercises
-            </h3>
-
-            <p className="
-              mt-3
-              text-[#64748B]
-              leading-7
-            ">
-              Real business accounting scenarios designed
-              to improve practical TallyPrime skills.
-            </p>
-
-          </div>
-
-          <div className="
-              hidden md:flex
-              items-center justify-center
-              w-14 h-14
-              rounded-2xl
-              bg-gradient-to-br from-[#2563EB] to-[#7C3AED]
-              shadow-lg shadow-blue-500/20
-            ">
-            <NotebookPen className="w-7 h-7 text-white stroke-[2.5]" />
-          </div>
-
+        rounded-2xl
+        border border-slate-200
+        bg-white
+      "
+    >
+      <div className="flex items-start gap-4">
+        
+        <div
+          className="
+            w-12 h-12
+            rounded-xl
+            bg-[#EFF6FF]
+            flex items-center justify-center
+            shrink-0
+          "
+        >
+          <item.icon
+            className="w-5 h-5 text-[#2563EB]"
+          />
         </div>
 
-        {/* EXERCISE LIST */}
-        <div className="space-y-5">
+        <div>
+          <h3
+            className="
+              text-lg
+              font-semibold
+              text-[#071426]
+              mb-1
+            "
+          >
+            {item.title}
+          </h3>
 
-          {exerciseData.map((item, index) => (
+          <p
+            className="
+              text-sm
+              text-slate-600
+            "
+          >
+            {item.description}
+          </p>
+        </div>
 
+      </div>
+
+      <ArrowRight
+        className="
+          w-5 h-5
+          text-[#2563EB]
+          shrink-0
+        "
+      />
+    </a>
+  ))}
+</div>
+  </div>
+</section>
+
+{/* ================= PRACTICE Exercise GRID ================= */}
+<section id="practice-cards" className="py-16 bg-white">
+
+  <div className="max-w-6xl mx-auto px-6">
+
+    {/* Header */}
+    <div className="text-center mb-12">
+
+      <span
+        className="
+          inline-flex
+          items-center
+          px-4 py-2
+          rounded-full
+          bg-[#EEF4FF]
+          text-[#2F80FF]
+          text-sm
+          font-medium
+        "
+      >
+        Practice Lab
+      </span>
+
+      <h2
+        className="
+          mt-5
+          text-2xl
+          sm:text-3xl
+          md:text-4xl
+          font-bold
+          text-[#071426]
+        "
+      >
+        Hands-On Practice Lab
+      </h2>
+
+      <p
+        className="
+          mt-4
+          text-slate-600
+          text-base
+          sm:text-lg
+          leading-relaxed
+        "
+      >
+        Apply your knowledge with real-world accounting,
+        GST, inventory and payroll scenarios.
+      </p>
+
+    </div>
+
+    {/* Accordion */}
+
+    <div className="relative">
+
+      {practiceExercises.map((exercise, index) => {
+
+        console.log("Exercise:", exercise);
+  console.log("Slug:", exercise.slug);
+
+  const current = styles[exercise.color];
+  const Icon = exercise.icon;
+
+  return (
+
+        <div
+          key={index}
+          className="relative pl-12 pb-8"
+        >
+
+          {/* Timeline line */}
+
+          {index !== practiceExercises.length - 1 && (
             <div
-              key={index}
               className="
-                group
-                flex flex-col md:flex-row md:items-center md:justify-between
-                gap-6
-                rounded-[24px]
-                border border-[#E2E8F0]
-                bg-white
-                p-5
-                sm:p-6
-                hover:-translate-y-1
-                hover:shadow-[0_20px_50px_rgba(37,99,235,0.10)]
-                transition-all duration-300
+                absolute
+                left-[15px]
+                top-10
+                w-[2px]
+                h-full
+                bg-slate-200
+              "
+            />
+          )}
+
+          {/* Circle */}
+
+          <div
+            className="
+              absolute
+              left-0
+              top-2
+              w-10 h-10
+              rounded-full
+              bg-gradient-to-r
+              from-[#2F80FF]
+              to-[#7B61FF]
+              text-white
+              flex
+              items-center
+              justify-center
+              font-bold
+              shadow-lg
+            "
+          >
+            {index + 1}
+          </div>
+
+          {/* Card */}
+
+        <div
+            className={`
+              rounded-3xl
+              overflow-hidden
+              border
+              border-slate-200
+              transition-all
+              duration-500
+
+              ${
+                openExercise === index
+                  ? `border-l-4 ${current.border} bg-gradient-to-r ${current.activeBg}`
+                  : "bg-white"
+              }
+
+              hover:shadow-xl
+            `}
+          >
+
+            {/* Header */}
+
+            <button
+              onClick={() =>
+                setOpenExercise(
+                  openExercise === index ? null : index
+                )
+              }
+              className="
+                w-full
+                flex
+                items-center
+                justify-between
+                text-left
+                p-6
               "
             >
 
-              {/* LEFT */}
-              <div>
+              <div className="flex items-start gap-4">
 
-                <h4 className="
-                  text-xl
-                  font-black
-                  text-[#0F172A]
-                ">
-                  {item.title}
-                </h4>
+                <div
+                  className={`
+                    w-14 h-14
+                    rounded-2xl
+                    flex items-center justify-center
+                    ${current.badge}
+                  `}
+                >
+                  <Icon size={28} />
+                </div>
 
-                <p className="
-                  mt-2
-                  text-[#64748B]
-                  leading-7
-                ">
-                  {item.description}
-                </p>
+                <div>
 
-                {/* BADGES */}
-                <div className="flex flex-wrap gap-3 mt-5">
+                  <span
+                    className="
+                      text-xs
+                      font-semibold
+                      uppercase
+                      tracking-[2px]
+                      text-[#2F80FF]
+                    "
+                  >
+                    {exercise.level}
+                  </span>
 
-                  <div className="
-                    flex items-center gap-2
-                    px-4 py-2
-                    rounded-full
-                    bg-[#EFF6FF]
-                    text-[#2563EB]
-                    text-sm font-semibold
-                  ">
-                    <Clock3 className="w-4 h-4" />
-                    {item.time}
-                  </div>
-
-                  <div className="
-                    flex items-center gap-2
-                    px-4 py-2
-                    rounded-full
-                    bg-[#F5F3FF]
-                    text-[#7C3AED]
-                    text-sm font-semibold
-                  ">
-                    <FlaskConical className="w-4 h-4" />
-                    {item.level}
-                  </div>
+                  <h3
+                    className="
+                      mt-2
+                      text-lg
+                      sm:text-xl
+                      font-bold
+                      text-[#071426]
+                    "
+                  >
+                    {exercise.title}
+                  </h3>
 
                 </div>
 
               </div>
 
-              {/* BUTTON */}
-              <button className="
-                shrink-0
-                flex items-center justify-center gap-2
-                px-6 py-4
-                rounded-2xl
-                bg-gradient-to-r from-[#2563EB] to-[#7C3AED]
-                text-white
-                font-semibold
-                shadow-lg shadow-blue-500/20
-                hover:scale-105
-                transition-all duration-300
-              ">
-                Start
-                <ArrowRight className="w-5 h-5" />
-              </button>
-
-            </div>
-
-          ))}
-
-        </div>
-
-      </div>
-
-      {/* ================= DOWNLOAD CENTER ================= */}
-      <div className="
-        rounded-[32px]
-        border border-[#E2E8F0]
-        bg-white/70
-        backdrop-blur-xl
-        p-8 md:p-10
-        shadow-[0_20px_60px_rgba(15,23,42,0.05)]
-      ">
-
-        {/* HEADER */}
-        <div className="flex items-center justify-between mb-10">
-
-          <div>
-
-            <h3 className="
-              text-3xl
-              font-black
-              text-[#0F172A]
-            ">
-              Download Center
-            </h3>
-
-            <p className="
-              mt-3
-              text-[#64748B]
-              leading-7
-            ">
-              Access cheat sheets, sample company data,
-              GST templates, and learning resources.
-            </p>
-
-          </div>
-
-          <div className="
-            hidden md:flex
-            items-center justify-center
-            w-14 h-14
-            rounded-2xl
-            bg-gradient-to-br from-[#2563EB] to-[#7C3AED]
-            shadow-lg shadow-blue-500/20
-          ">
-            <FolderDown className="w-7 h-7 text-white stroke-[2.5]" />
-          </div>
-
-        </div>
-
-        {/* DOWNLOAD GRID */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-
-          {downloadData.map((item, index) => (
-
-            <div
-              key={index}
-              className="
-                group
-                rounded-[20px]
-                sm:rounded-[24px]
-                border border-[#E2E8F0]
-                bg-white
-                p-6
-                hover:-translate-y-1
-                hover:shadow-[0_20px_50px_rgba(37,99,235,0.10)]
-                transition-all duration-300
-              "
-            >
-
-              {/* ICON */}
-              <div className="
-                flex items-center justify-center
-                w-14 h-14
-                rounded-2xl
-                bg-gradient-to-br from-[#2563EB] to-[#7C3AED]
-                text-white
-                shadow-lg
-              ">
-                {item.icon}
+              <div
+                className={`
+                  transition-transform duration-300
+                  ${
+                    openExercise === index
+                      ? "rotate-180"
+                      : ""
+                  }
+                `}
+              >
+                ▼
               </div>
 
-              {/* CONTENT */}
-              <h4 className="
-                mt-6
-                text-xl
-                font-black
-                text-[#0F172A]
-              ">
-                {item.title}
-              </h4>
+            </button>
 
-              <p className="
-                mt-3
-                text-[#64748B]
-                leading-7
-              ">
-                {item.description}
-              </p>
+            {/* Content */}
 
-              {/* FOOTER */}
-              <div className="
-                mt-6
-                flex items-center justify-between
-              ">
+            {openExercise === index && (
 
-                <span className="
-                  text-sm
-                  font-semibold
-                  text-[#2563EB]
-                ">
-                  {item.type}
-                </span>
+              <div
+                className="
+                  px-5
+                  pb-5
+                  border-t
+                  border-slate-100
+                "
+              >
 
-                <button className="
-                  flex items-center gap-2
-                  text-[#7C3AED]
-                  font-bold
-                  hover:gap-3
-                  transition-all duration-300
-                ">
-                  Download
-                  <Download className="w-4 h-4" />
+                <p
+                  className="
+                    mt-4
+                    text-slate-600
+                    leading-relaxed
+                  "
+                >
+                  {exercise.description}
+                </p>
+
+                <div
+                  className="
+                    mt-5
+                    flex
+                    flex-wrap
+                    gap-3
+                  "
+                >
+
+                  <span
+                    className={`
+                      px-4 py-2
+                      rounded-full
+                      text-sm
+                      font-medium
+                      ${current.badge}
+                    `}
+                  >
+                    ● {exercise.difficulty}
+                  </span>
+
+                  <span
+                    className="
+                      px-4 py-2
+                      rounded-full
+                      bg-slate-100
+                      text-slate-600
+                      text-sm
+                      font-medium
+                    "
+                  >
+                    ⏱ {exercise.duration}
+                  </span>
+        
+                </div>
+                
+                <button
+                onClick={() =>
+                  navigate(`/lms/${exercise.slug}`)
+                }
+                  className="
+                    mt-4
+                    flex
+                    items-center
+                    gap-2
+                    text-[#2F80FF]
+                    font-semibold
+                    hover:gap-4
+                    transition-all
+                  "
+                >
+                  Start Exercise →
+
                 </button>
 
               </div>
 
-            </div>
+            )}
 
-          ))}
+          </div>
 
         </div>
 
-      </div>
+      );
+})}
 
     </div>
 
@@ -1351,322 +1499,452 @@ const downloadData = [
 
 </section>
 
-{/* ================= BENTO RESOURCE GRID ================= */}
-<section className="py-14 sm:py-20 px-4 sm:px-6 bg-[#F8FAFC]">
+{/* ================= DOWNLOAD MATERIALS ================= */}
+<section className="py-10 md:py-14 px-4 sm:px-6 bg-[#F8FAFC]">
+  <div className="max-w-7xl mx-auto px-6">
+    <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-[#2F80FF]/5 blur-[150px] rounded-full" />
 
-  <div className="max-w-7xl mx-auto">
 
-    {/* HEADING */}
-    <div className="max-w-3xl mb-14">
+    {/* Header */}
+    <div className="text-center max-w-3xl mx-auto mb-16">
 
-      <span className="
-        inline-flex items-center gap-2
-        px-4 py-2
-        rounded-full
-        border border-[#CBD5E1]
-        bg-white
-        text-sm font-semibold
-        text-[#2563EB]
-      ">
-        Learning Resources
+      <span
+        className="
+          inline-flex
+          items-center
+          px-4 py-2
+          rounded-full
+          bg-[#EEF4FF]
+          text-[#2F80FF]
+          text-sm
+          font-medium
+        "
+      >
+        Downloads
       </span>
 
-      <h2 className="
-        mt-6
-        text-[30px] sm:text-4xl
-        font-black
-        leading-tight
-        text-[#0F172A]
-      ">
-        Explore Learning
-        <span className="bg-gradient-to-r from-[#2563EB] to-[#7C3AED] bg-clip-text text-transparent">
-          {" "}Platforms & Tools
-        </span>
+      <h2
+        className="
+          mt-6
+          text-3xl
+          md:text-5xl
+          font-bold
+          text-[#071426]
+        "
+      >
+        Download Center
       </h2>
 
-      <p className="
-        mt-5
-        text-[16px] md:text-[17px]
-        leading-8
-        text-[#64748B]
-      ">
-        Access curated resources, practice environments,
-        video tutorials, cheat sheets, and external learning
-        platforms to accelerate your TallyPrime mastery.
+      <p
+        className="
+          mt-6
+          text-slate-600
+          text-lg
+          leading-relaxed
+        "
+      >
+        Everything you need to practice, learn, and master TallyPrime.
       </p>
 
     </div>
 
-    {/* BENTO GRID */}
-    <div className="
-      grid grid-cols-1
-      lg:grid-cols-4
-      gap-6
-    ">
+    {/* Layout */}
+    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
 
-      {/* LARGE FEATURE CARD */}
-      <div className="
-        lg:col-span-2
-        lg:row-span-2
-        rounded-[32px]
-        overflow-hidden
-        relative
-        bg-gradient-to-br from-[#0F172A] to-[#1E293B]
-        p-6
-        sm:p-10
-        min-h-[420px]
-        sm:min-h-[520px]
-        group
-      ">
-
-        <div className="
-          absolute inset-0
-          opacity-20
-          bg-[radial-gradient(circle_at_top_right,#3B82F6,transparent_40%)]
-        " />
-
-        <div className="relative z-10">
-
-          <div className="
-            w-16 h-16
-            rounded-2xl
-            bg-white/10
-            backdrop-blur-md
-            flex items-center justify-center
-          ">
-            <MonitorPlay className="w-8 h-8 text-white" />
-          </div>
-
-          <h3 className="
-            mt-8
-            text-2xl
-            sm:text-3xl
-            font-black
-            text-white
-          ">
-            TallyPrime Video Learning Hub
-          </h3>
-
-          <p className="
-            mt-5
-            text-[16px] md:text-[17px]
-            leading-8
-            text-white/70
-            max-w-xl
-          ">
-            Step-by-step visual walkthroughs covering
-            accounting workflows, GST filing, inventory,
-            payroll, banking, and business reporting.
-          </p>
-
-          <div className="
-            mt-10
-            flex flex-wrap gap-3
-          ">
-
-            {[
-              "GST Tutorials",
-              "Payroll Setup",
-              "Inventory",
-              "Advanced Reports",
-            ].map((item, index) => (
-
-              <div
-                key={index}
-                className="
-                  px-4 py-2
-                  rounded-full
-                  bg-white/10
-                  border border-white/10
-                  text-sm
-                  font-medium
-                  text-white
-                "
-              >
-                {item}
-              </div>
-
-            ))}
-
-          </div>
-
-          <button
-  onClick={() =>
-    window.open(
-      "https://www.youtube.com/@balajiinfotechguntur7060",
-      "_blank"
-    )
-  } className="
-            mt-10
-            inline-flex items-center gap-3
-            px-7 py-4
-            rounded-2xl
+      {/* Featured Download */}
+      <div
+          className="
+            flex-1
+            rounded-[28px]
+            border
+            border-slate-200
             bg-white
-            text-[#0F172A]
-            font-bold
-            hover:scale-[1.03]
-            transition-all duration-300
-          ">
-            Start Watching
-            <ArrowRight className="w-5 h-5" />
-          </button>
+            p-5
+            hover:shadow-xl
+            transition-all
+          "
+        >
 
-        </div>
-
-      </div>
-
-      {/* CARD 2 */}
-      <div className="
-        rounded-[28px]
-        border border-[#E2E8F0]
-        bg-white
-        p-6
-        sm:p-8
-        group
-        hover:-translate-y-2
-        transition-all duration-500
-      ">
-
-        <div className="
-          w-14 h-14
-          rounded-2xl
-          bg-gradient-to-br from-[#2563EB] to-[#7C3AED]
-          flex items-center justify-center
-        ">
-          <FileSpreadsheet className="w-7 h-7 text-white" />
-        </div>
-
-        <h3 className="
-          mt-6
-          text-2xl
-          font-black
-          text-[#0F172A]
-        ">
-          GST Cheat Sheets
-        </h3>
-
-        <p className="
-          mt-4
-          text-[#64748B]
-          leading-7
-        ">
-          Download quick GST references,
-          invoice formats, tax rates,
-          and filing shortcuts.
-        </p>
-
-      </div>
-
-      {/* CARD 3 */}
-      <div className="
-        rounded-[28px]
-        border border-[#E2E8F0]
-        bg-white
-        p-6 sm:p-8
-        group
-        hover:-translate-y-2
-        transition-all duration-500
-      ">
-
-        <div className="
-          w-14 h-14
-          rounded-2xl
-          bg-gradient-to-br from-[#2563EB] to-[#7C3AED]
-          flex items-center justify-center
-        ">
-          <Database className="w-7 h-7 text-white" />
-        </div>
-
-        <h3 className="
-          mt-6
-          text-2xl
-          font-black
-          text-[#0F172A]
-        ">
-          Sample Company Data
-        </h3>
-
-        <p className="
-          mt-4
-          text-[#64748B]
-          leading-7
-        ">
-          Practice real accounting scenarios
-          using prebuilt TallyPrime datasets.
-        </p>
-
-      </div>
-
-      {/* WIDE CARD */}
-      <div className="
-        lg:col-span-2
-        rounded-[28px]
-        border border-[#E2E8F0]
-        bg-white
-        p-8
-        flex flex-col md:flex-row
-        items-start md:items-center
-        justify-between
-        gap-8
-      ">
-
-        <div>
-
-          <div className="
-            w-14 h-14
-            rounded-2xl
-            bg-gradient-to-br from-[#2563EB] to-[#7C3AED]
-            flex items-center justify-center
-          ">
-            <Globe className="w-7 h-7 text-white" />
+          <div
+            className="
+              w-10 h-10
+              rounded-2xl
+              bg-purple-100
+              flex
+              items-center
+              justify-center
+            "
+          >
+            <Download
+              size={24}
+              className="text-purple-600"
+            />
           </div>
 
-          <h3 className="
-            mt-6
-            text-2xl
-            sm:text-3xl
-            font-black
-            text-[#0F172A]
-          ">
-            External Learning Platforms
+          <h3
+            className="
+              mt-6
+              text-lg
+              font-bold
+              text-[#071426]
+            "
+          >
+            {downloads.software.title}
           </h3>
 
-          <p className="
-            mt-4
-            text-[#64748B]
-            leading-7
-            max-w-2xl
-          ">
-            Access official Tally resources,
-            certification guides, community forums,
-            and advanced business workflows.
+          <p
+            className="
+              mt-3
+              text-slate-600
+              text-sm leading-6
+            "
+          >
+            {downloads.software.description}
           </p>
+
+          <a
+            href={downloads.software.link}
+            className="
+              mt-4
+              inline-flex
+              items-center
+              gap-2
+              font-semibold
+              text-[#2F80FF]
+            "
+          >
+            {downloads.software.button}
+            <ArrowRight size={18} />
+          </a>
 
         </div>
 
-        <button className="
-          px-6 py-4
-          rounded-2xl
-          bg-gradient-to-r from-[#2563EB] to-[#7C3AED]
-          text-white
-          font-bold
-          whitespace-nowrap
-        ">
-          Explore Resources
-        </button>
+        {/* Guides */}
+        <div
+          className="
+            flex-1
+            rounded-[28px]
+            border
+            border-slate-200
+            bg-white
+            p-5
+            hover:shadow-xl
+            transition-all
+          "
+        >
 
-      </div>
+          <div
+            className="
+              w-10 h-10
+              rounded-2xl
+              bg-purple-100
+              flex
+              items-center
+              justify-center
+            "
+          >
+            <FileText
+              size={24}
+              className="text-purple-600"
+            />
+          </div>
+
+          <h3
+            className="
+              mt-6
+              text-lg
+              font-bold
+              text-[#071426]
+            "
+          >
+            {downloads.guides.title}
+          </h3>
+
+          <p
+            className="
+              mt-3
+              text-slate-600
+              text-sm leading-6
+            "
+          >
+            {downloads.guides.description}
+          </p>
+
+          <a
+            href={downloads.guides.link}
+            className="
+              mt-4
+              inline-flex
+              items-center
+              gap-2
+              font-semibold
+              text-[#2F80FF]
+            "
+          >
+            {downloads.guides.button}
+            <ArrowRight size={18} />
+          </a>
+
+        </div>
+
+        {/* Sample Data */}
+        <div
+          className="
+            flex-1
+            rounded-[28px]
+            border
+            border-slate-200
+            bg-white
+            p-5
+            hover:shadow-xl
+            transition-all
+          "
+        >
+
+          <div
+            className="
+              w-10 h-10
+              rounded-2xl
+              bg-orange-100
+              flex
+              items-center
+              justify-center
+            "
+          >
+            <FolderArchive
+              size={24}
+              className="text-orange-600"
+            />
+          </div>
+
+          <h3
+            className="
+              mt-6
+              text-lg
+              font-bold
+              text-[#071426]
+            "
+          >
+            {downloads.sampleData.title}
+          </h3>
+
+          <p
+            className="
+              mt-3
+              text-slate-600
+              text-sm leading-6
+            "
+          >
+            {downloads.sampleData.description}
+          </p>
+
+          <a
+            href={downloads.sampleData.link}
+            className="
+              mt-4
+              inline-flex
+              items-center
+              gap-2
+              font-semibold
+              text-[#2F80FF]
+            "
+          >
+            {downloads.sampleData.button}
+            <ArrowRight size={18} />
+          </a>
+
+        </div>
+
+      <div
+    className="
+      rounded-2xl
+      border border-slate-200
+      bg-white
+      p-5
+    "
+  >
+    <div
+      className="
+        w-10 h-10
+        rounded-xl
+        bg-green-100
+        flex items-center justify-center
+        mb-4
+      "
+    >
+      <ClipboardCheck
+        size={20}
+        className="text-green-600"
+      />
+    </div>
+
+    <h3
+      className="
+        text-lg
+        font-bold
+        text-[#071426]
+        mb-2
+      "
+    >
+      Practice Worksheets
+    </h3>
+
+    <p
+      className="
+        text-sm
+        text-slate-600
+        leading-6
+        mb-4
+      "
+    >
+      Test your TallyPrime knowledge with practical exercises,
+      worksheets, and real-world accounting scenarios.
+    </p>
+
+    <a
+      href="#practice-cards"
+      className="
+        inline-flex
+        items-center
+        gap-2
+        text-[#2563EB]
+        font-semibold
+      "
+    >
+      Start Practice →
+    </a>
+  </div>
 
     </div>
 
   </div>
+</section>
 
+{/* ================= CAREER PATH ================= */}
+<section className="py-10 md:py-14 px-4 sm:px-6 bg-[#F8FAFC]">
+  <div className="container mx-auto px-6">
+
+    <div className="text-center max-w-4xl mx-auto mb-16">
+      <span className="inline-flex px-4 py-2 rounded-full bg-[#EEF4FF] text-[#2F80FF] text-sm font-medium">
+        Career Opportunities
+      </span>
+
+      <h2 className="mt-6 text-3xl
+          md:text-5xl font-bold text-[#071426]">
+        Career Impact & Job Roles
+      </h2>
+
+      <p className="mt-6 text-lg text-slate-600 leading-relaxed">
+        Build practical accounting skills and qualify for multiple
+        finance and business operation roles across SMEs,
+        retail, manufacturing and enterprise organizations.
+      </p>
+    </div>
+    <div className="relative">
+
+  
+
+  <div className="grid lg:grid-cols-4 gap-8 relative">
+
+    {careerRoles.map((role, index) => {
+      const Icon = role.icon;
+
+      return (
+        <div
+          key={index}
+          className="
+            group
+            bg-white
+            rounded-3xl
+            border border-slate-200
+            p-6
+            text-center
+            hover:-translate-y-2
+            hover:shadow-2xl
+            transition-all
+            duration-300
+          "
+        >
+          <div
+            className="
+              w-16 h-16
+              mx-auto
+              rounded-2xl
+              bg-[#EEF4FF]
+              flex items-center justify-center
+              mb-5
+            "
+          >
+            <Icon className="w-8 h-8 text-[#2F80FF]" />
+          </div>
+
+          <h3 className="text-2xl font-bold text-[#071426]">
+            {role.title}
+          </h3>
+
+          <span
+            className="
+              inline-flex
+              mt-3
+              px-4 py-2
+              rounded-full
+              bg-slate-100
+              text-slate-600
+              text-sm
+            "
+          >
+            {role.level}
+          </span>
+
+          <p className="mt-4 text-slate-600 leading-relaxed">
+            {role.description}
+          </p>
+
+          <div
+            className="
+              mt-5
+              inline-flex
+              px-4 py-2
+              rounded-full
+              bg-green-50
+              text-green-700
+              font-semibold
+            "
+          >
+            {role.salary}
+          </div>
+
+          {index < careerRoles.length - 1 && (
+            <div
+              className="
+                hidden lg:flex
+                absolute
+                top-24
+                -right-5
+                items-center
+                justify-center
+                w-10 h-10
+                rounded-full
+                bg-white
+                border
+                border-slate-200
+              "
+            >
+              →
+            </div>
+          )}
+        </div>
+      );
+    })}
+  </div>
+</div>
+  </div>
 </section>
 
 {/* ================= FAQ SECTION ================= */}
 <section className="py-14 sm:py-20 px-4 sm:px-6 bg-white">
 
-  <div className="max-w-5xl mx-auto">
+  <div className="max-w-6xl mx-auto">
 
     {/* HEADING */}
     <div className="text-center max-w-3xl mx-auto">
@@ -1684,7 +1962,7 @@ const downloadData = [
       </span>
 
       <h2 className="
-        mt-6
+        mt-5
         text-[30px]
         sm:text-4xl
         font-black
@@ -1698,8 +1976,8 @@ const downloadData = [
       </h2>
 
       <p className="
-        mt-5
-        text-[16px] md:text-[17px]
+        mt-4
+        text-[15px] md:text-[16px]
         leading-8
         text-[#64748B]
       ">
@@ -1711,38 +1989,44 @@ const downloadData = [
     </div>
 
     {/* FAQ LIST */}
-    <div className="mt-16 space-y-5">
+    <div className="mt-12 grid md:grid-cols-2 gap-6">
 
       {[
         {
+          category: "Learning",
           question: "Do I need accounting knowledge before starting?",
           answer:
             "No. The LMS roadmap starts from absolute basics including company creation, ledgers, vouchers, and accounting workflows.",
         },
 
         {
+          category: "Practice",
           question: "Will I get practice exercises and sample company data?",
           answer:
             "Yes. Every major module includes practical exercises, downloadable datasets, GST templates, and workflow simulations.",
         },
 
         {
+          category: "Learning",
           question: "Can I learn GST, payroll, and inventory together?",
           answer:
             "Absolutely. The roadmap is designed as a complete business accounting workflow covering GST, payroll, banking, inventory, and reports.",
         },
 
         {
+          category: "Career",
           question: "Is this suitable for job preparation?",
           answer:
             "Yes. The LMS includes real-world accounting scenarios, hands-on labs, invoice exercises, and business reporting workflows used in companies.",
         },
 
         {
+          category: "Certification",
           question: "Do you provide certification guidance?",
           answer:
             "Yes. We help learners prepare for Tally certifications and provide guidance for practical business accounting implementation.",
         },
+
 
       ].map((faq, index) => (
 
@@ -1750,7 +2034,8 @@ const downloadData = [
           key={index}
           className="
             group
-            rounded-[28px]
+            h-fit
+            rounded-[25px]
             border border-[#E2E8F0]
             bg-[#F8FAFC]/70
             backdrop-blur-xl
@@ -1758,35 +2043,67 @@ const downloadData = [
             hover:border-[#CBD5E1]
             hover:shadow-[0_15px_50px_rgba(37,99,235,0.08)]
             transition-all duration-500
-          "
+            "
         >
 
-          <summary className="
-            flex items-center justify-between
-            cursor-pointer
-            list-none
-          ">
+          <summary
+            className="
+              flex items-start justify-between
+              gap-6
+              cursor-pointer
+              list-none
+            "
+          >
 
-            <h3 className="
-              text-[15px] sm:text-base md:text-lg
-              font-bold
-              text-[#0F172A]
-              pr-8
-            ">
-              {faq.question}
-            </h3>
+            {/* Left Content */}
+            <div className="flex-1">
 
-            <div className="
-              flex items-center justify-center
-              w-11 h-11
-              rounded-2xl
-              bg-gradient-to-br from-[#2563EB] to-[#7C3AED]
-              text-white
-              shrink-0
-              transition-transform duration-500
-              group-open:rotate-45
-            ">
-              <Plus className="w-5 h-5" />
+              <span
+                className="
+                  inline-flex
+                  mb-4
+                  px-3 py-1
+                  rounded-full
+                  bg-[#EEF4FF]
+                  text-[#2563EB]
+                  text-xs
+                  font-semibold
+                "
+              >
+                {faq.category}
+              </span>
+
+              <h3
+                className="
+                  text-[15px]
+                  sm:text-[18px]
+                  font-bold
+                  text-[#0F172A]
+                  leading-snug
+                "
+              >
+                {faq.question}
+              </h3>
+
+            </div>
+
+            {/* Plus Button */}
+            <div
+              className="
+                flex items-center justify-center
+                w-12 h-12
+                rounded-2xl
+                bg-gradient-to-br
+                from-[#2563EB]
+                to-[#7C3AED]
+                text-white
+                shrink-0
+                transition-transform
+                duration-500
+                group-open:rotate-45
+              "
+            >
+              <ChevronDown className="w-5 h-5" />
             </div>
 
           </summary>
@@ -1800,9 +2117,9 @@ const downloadData = [
               pt-6
               text-[#64748B]
               leading-8
-              text-[15px]
-              sm:text-[16px]
-              md:text-[17px]
+              text-[12px]
+              sm:text-[15px]
+              md:text-[16px]
               max-w-4xl
             ">
               {faq.answer}
@@ -1819,6 +2136,7 @@ const downloadData = [
   </div>
 
 </section>
+</div>
 </>
   )
 }

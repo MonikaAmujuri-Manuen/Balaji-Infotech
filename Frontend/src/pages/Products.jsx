@@ -13,39 +13,36 @@ export default function Products() {
 
       {/* ================= HERO SECTION ================= */}
       <section
-        className="
-          relative
-          overflow-hidden
-          pt-28
-          sm:pt-32
-          lg:pt-40
-          pb-16
-          sm:pb-24
-          md:pb-32
-          bg-[#0B1120]
-        "
-      >
-        {/* BACKGROUND GLOW */}
+  className="
+    relative
+    overflow-hidden
+    pt-24
+    sm:pt-28
+    lg:pt-32
+    pb-8
+    sm:pb-10
+    bg-white
+  "
+>
         <div
           className="
             absolute
-            top-[-200px]
+            top-0
             left-1/2
             -translate-x-1/2
-            w-[500px]
-            h-[500px]
-            sm:w-[700px]
-            sm:h-[700px]
-            lg:w-[900px]
-            lg:h-[900px]
+            w-[450px]
+            h-[450px]
+            sm:w-[600px]
+            sm:h-[600px]
+            lg:w-[700px]
+            lg:h-[700px]
             bg-gradient-to-r
-            from-[#2F80FF]/20
-            to-[#7B61FF]/20
+            from-[#2F80FF]/10
+            to-[#7B61FF]/10
             blur-3xl
             rounded-full
           "
         />
-
         <div className="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
 
           <div className="text-center max-w-4xl mx-auto">
@@ -59,10 +56,9 @@ export default function Products() {
                 sm:px-5
                 py-2
                 rounded-full
-                border border-white/10
-                bg-white/5
-                backdrop-blur-xl
-                text-white/70
+                border border-slate-200
+                bg-white
+                text-[#2563EB]
                 text-sm
                 mb-8
               "
@@ -77,22 +73,14 @@ export default function Products() {
                 md:text-6xl
                 font-black
                 leading-[1.05]
-                text-white
+                text-[#071426]
                 mb-8
               "
             >
               Powerful Products
               <br />
 
-              <span
-                className="
-                  bg-gradient-to-r
-                  from-[#2F80FF]
-                  to-[#7B61FF]
-                  bg-clip-text
-                  text-transparent
-                "
-              >
+              <span className="text-[#2563EB]">
                 Built For Growth
               </span>
             </h1>
@@ -102,7 +90,7 @@ export default function Products() {
                 text-[15px]
                 sm:text-lg
                 md:text-xl
-                text-white/60
+                text-slate-600
                 leading-relaxed
                 max-w-2xl
                 sm:max-w-3xl

@@ -166,6 +166,7 @@ const [activeTab, setActiveTab] = useState(products[0]);
       <Hero />
 
       {/* WHY CHOOSE US */}
+      {false && (
       <section className="relative py-14 md:py-20 px-4 sm:px-6 bg-white overflow-hidden">
         <div className="max-w-3xl mx-auto text-center mb-12"> 
 
@@ -583,16 +584,335 @@ const [activeTab, setActiveTab] = useState(products[0]);
           </div>
         </div>
 
+      </section>
+      )}
+
+      <section className="relative py-12 md:py-16 px-4 sm:px-6 bg-white overflow-hidden">
+        {/* BACKGROUND GLOW */}
+      <div
+        className="
+          absolute
+          top-0
+          left-1/2
+          -translate-x-1/2
+          w-[700px]
+          h-[700px]
+          bg-gradient-to-r
+          from-[#2F80FF]/10
+          to-[#7B61FF]/10
+          blur-3xl
+          rounded-full
+        "
+      />
+        <div className="max-w-3xl mx-auto text-center mb-10"> 
+
+          <p className="
+            text-sm
+            tracking-[0.25em]
+            uppercase
+            text-[#2F80FF]
+            font-semibold
+            mb-3
+          ">
+            Why Choose Us
+          </p>
+
+          <h2 className="
+            text-3xl
+            md:text-5xl
+            font-bold
+            text-[#071426]
+            mb-4
+          ">
+            Trusted Expertise
+          </h2>
+
+          <p className="
+            text-[15px] md:text-[16px]
+            text-gray-500
+            leading-relaxed
+          ">
+            Over two decades of experience delivering innovative
+            Tally solutions for modern businesses.
+          </p>
+
+        </div>
+        <div
+          className="
+            max-w-6xl
+            mx-auto
+            grid
+            grid-cols-1
+            lg:grid-cols-3
+            gap-5"
+        >
+          {/* LEFT COLUMN */}
+          <div className="flex flex-col gap-6">
+
+            {/* CARD 1 */}
+            <div
+              className="group
+                relative
+                overflow-hidden
+                rounded-[24px]
+                p-5 sm:p-6
+                border border-[#E5E7EB]
+                bg-white
+                "
+              >
+
+              <div className="relative z-10">
+
+                <div className="flex items-start gap-4 mb-4">
+
+                  <div
+                    className="
+                      w-12 h-12
+                      rounded-2xl
+                      bg-[#EFF6FF]
+                      flex items-center justify-center
+                      text-[#2563EB]
+                      shrink-0
+                    "
+                  >
+                    <GraduationCap size={26} />
+                  </div>
+
+                  <div>
+                    <h3
+                      className="
+                        text-2xl
+                        font-semibold
+                        text-[#071426]
+                        leading-tight
+                      "
+                    >
+                      Authorized Training Programs
+                    </h3>
+                  </div>
+                </div>
+
+                <p
+                  className="
+                    text-gray-500
+                    group-hover:text-[#071426]/70
+                    transition-colors
+                    duration-500
+                    leading-relaxed
+                  "
+
+                >
+                  TEPL-certified programs designed to enhance professional accounting and ERP skills.
+                </p>
+              </div>
+            </div>
+
+            {/* CARD 2 */}
+            <div
+              className="group
+                relative
+                overflow-hidden
+                rounded-[24px]
+                p-5 sm:p-6
+                border border-[#E5E7EB]
+                bg-white
+                "
+              >
+
+              <div className="flex items-start gap-4 mb-6">
+
+                <div
+                  className="
+                  w-14 h-14
+                  rounded-2xl
+                  bg-[#EFF6FF]
+                  flex items-center justify-center
+                  text-[#2563EB]
+                  shrink-0
+                "
+                >
+                  <Headphones size={26} />
+                </div>
+
+                <div>
+                  <h3
+                      className="
+                        text-2xl
+                        font-semibold
+                        text-[#071426]
+                        leading-tight
+                      "
+                    >
+                    Comprehensive Support
+                  </h3>
+                </div>
+              </div>
+              <p
+                className="
+                  text-gray-500
+                  leading-relaxed
+                  text-[16px]
+                "
+              >
+                Dedicated assistance to ensure seamless operations.
+              </p>
+            </div>
+          </div>
+
+          {/* BIG RIGHT CARD */}
+          <div
+            className=" group
+              relative
+              overflow-hidden
+              rounded-[28px]
+              lg:col-span-2
+              relative
+              overflow-hidden
+              rounded-[36px]
+              bg-white
+              border border-[#E5E7EB]
+              text-[#071426]
+              p-7
+              lg:min-h-[360px]
+            "
+          >
+
+            {/* CONTENT */}
+            <div className="relative z-10">
+
+              <div
+                className="
+                  inline-flex
+                  items-center
+                  gap-2
+                  px-4 py-2
+                  rounded-full
+                  bg-slate-50
+                  border border-slate-200
+                  border border-black/10
+                  text-[#071426]
+                  text-sm
+                  mb-5
+                "
+              >
+                <span className="w-2 h-2 rounded-full bg-green-400" />
+                Enterprise Support
+              </div>
+
+              <div className="flex items-start gap-4 mb-4 ">
+
+                <div
+                  className="
+                  w-14 h-14
+                  rounded-2xl
+                  bg-[#EFF6FF]
+                  flex items-center justify-center
+                  text-[#2563EB]
+                  shrink-0
+                "
+                >
+                  <Handshake size={26} />
+                </div>
+
+                <div>
+                  <h3
+                    className="
+                      text-3xl
+                      font-semibold
+                      text-[#071426]
+                      leading-tight
+                    "
+                  >
+                    Customer-Centric Approach
+                  </h3>
+                </div>
+              </div>
+
+              <p
+                className="
+                  text-gray-500
+                  text-[15px] md:text-[16px]
+                  leading-relaxed
+                  max-w-[580px]
+                  mb-6
+                "
+              >
+                We prioritize business growth with tailored solutions, reliable service, and long-term support.
+                Your success is our priority with personalized solutions and support.
+              </p>
+
+              {/* STATS */}
+              <div
+                className="
+                  grid
+                  grid-cols-2
+                  md:grid-cols-3
+                  gap-3
+                  max-w-[580px]
+                "
+              >
+                <div
+                  className="
+                  rounded-2xl
+                  border border-slate-200
+                  bg-[#F8FAFC]
+                  p-4
+                "
+                >
+                  <p className="text-slate-500 text-sm mb-2">
+                    Clients Served
+                  </p>
+
+                  <h4 className="text-3xl text-[#071426] font-semibold">
+                    500+
+                  </h4>
+                </div>
+
+                <div
+                  className="
+                  rounded-2xl
+                  border border-slate-200
+                  bg-[#F8FAFC]
+                  p-5
+                ">
+                  <p className="text-slate-500 text-sm mb-2">
+                    Years Experience
+                  </p>
+
+                  <h4 className="text-3xl text-[#071426] font-semibold">
+                    20+
+                  </h4>
+                </div>
+
+                <div
+                  className="
+                  rounded-2xl
+                  border border-slate-200
+                  bg-[#F8FAFC]
+                  p-5
+                ">
+                  <p className="text-slate-500 text-sm mb-2">
+                    Support Access
+                  </p>
+
+                  <h4 className="text-2xl text-[#071426] font-semibold">
+                    24/7
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
       </section>
 
       {/* ABOUT US */}
-    <section className="py-14 md:py-18 px-4 sm:px-6 overflow-hidden bg-gradient-to-b from-white to-[#F8FAFC]">
+    <section className="py-10 md:py-14 px-4 sm:px-6 bg-white">
       
       <div className="max-w-6xl mx-auto">
 
         {/* TOP CONTENT */}
-        <div className="text-center max-w-5xl mx-auto mb-10">
+        <div className="text-center max-w-4xl mx-auto mb-8">
 
           <p className="
             text-[#2F80FF]
@@ -600,7 +920,7 @@ const [activeTab, setActiveTab] = useState(products[0]);
             tracking-[0.3em]
             text-sm
             font-semibold
-            mb-6
+            mb-3
           ">
             ABOUT
           </p>
@@ -608,11 +928,11 @@ const [activeTab, setActiveTab] = useState(products[0]);
           <h2 className="
             text-3xl
             sm:text-4xl
-            md:text-6xl
+            md:text-5xl
             font-bold
             text-[#071426]
             leading-tight
-            mb-8
+            mb-5
           ">
             About Balaji AI Infotech
           </h2>
@@ -634,24 +954,13 @@ const [activeTab, setActiveTab] = useState(products[0]);
         <div className="
           grid
           lg:grid-cols-[1fr_1.1fr]
-          gap-10
+          gap-8 lg:gap-10
           items-center
         ">
 
           {/* LEFT IMAGE */}
           <div className="relative">
 
-            {/* GLOW */}
-            <div className="
-              absolute
-              -top-10
-              -left-10
-              w-60
-              h-60
-              bg-[#7B61FF]/10
-              blur-[100px]
-              rounded-full
-            " />
 
             <div
               className="
@@ -659,12 +968,9 @@ const [activeTab, setActiveTab] = useState(products[0]);
                 overflow-hidden
                 rounded-[28px] sm:rounded-[36px]
 
-                border border-white/40
-
-                bg-white/40
-                backdrop-blur-2xl
-
-                shadow-[0_20px_60px_rgba(0,0,0,0.08)]
+                border border-slate-200
+                bg-white
+                shadow-sm
               "
             >
               <img
@@ -676,26 +982,15 @@ const [activeTab, setActiveTab] = useState(products[0]);
                   object-cover
                 "
               />
-
-              {/* OVERLAY */}
-              <div className="
-                absolute
-                inset-0
-                bg-gradient-to-t
-                from-[#071426]/30
-                via-transparent
-                to-transparent
-              " />
             </div>
             <div
   className="
     mt-6
     rounded-[28px]
     border border-gray-200
-    bg-white/70
-    backdrop-blur-xl
+    bg-white
+    shadow-sm
     p-5 sm:p-6
-    shadow-[0_10px_30px_rgba(0,0,0,0.05)]
   "
 >
   <div className="flex items-center gap-3 mb-4">
@@ -773,7 +1068,7 @@ const [activeTab, setActiveTab] = useState(products[0]);
               text-[#2F80FF]
               text-sm
               font-medium
-              mb-6
+              mb-4
             ">
               <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
               Enterprise Expertise
@@ -781,11 +1076,11 @@ const [activeTab, setActiveTab] = useState(products[0]);
 
             <h3 className="
               text-3xl
-              md:text-5xl
+              md:text-4xl
               font-bold
               text-[#071426]
               leading-tight
-              mb-8
+              mb-5
             ">
               About Balaji Infotech Tally Experts
             </h3>
@@ -794,7 +1089,7 @@ const [activeTab, setActiveTab] = useState(products[0]);
               text-[16px] md:text-[17px]
               text-gray-600
               leading-relaxed
-              mb-12
+              mb-8
             ">
               At Balaji Ai Infotech Pvt Ltd, we make it easier for businesses to manage their accounts and 
               operations using Tally software. Since  2000, we have been helping businesses improve efficiency, 
@@ -802,340 +1097,50 @@ const [activeTab, setActiveTab] = useState(products[0]);
             </p>
 
             {/* CORE COMPETENCIES */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
 
-              {/* SALES */}
-              <div
-                className="
-                  group
-                  relative
-                  overflow-hidden
-                  rounded-[28px]
-                  p-6
+          <div className="space-y-5">
 
-                  bg-white/70
-                  backdrop-blur-2xl
+  <div className="flex items-center gap-4 pb-4 border-b border-slate-200">
+    <BriefcaseBusiness
+      size={20}
+      className="text-[#2563EB]"
+    />
+    <h4 className="text-xl font-semibold text-[#071426]">
+      Tally Sales
+    </h4>
+  </div>
 
-                  border border-white/50
+  <div className="flex items-center gap-4 pb-4 border-b border-slate-200">
+    <Code2
+      size={20}
+      className="text-[#2563EB]"
+    />
+    <h4 className="text-xl font-semibold text-[#071426]">
+      Tally API Integration
+    </h4>
+  </div>
 
-                  shadow-[0_10px_30px_rgba(0,0,0,0.05)]
+  <div className="flex items-center gap-4 pb-4 border-b border-slate-200">
+    <Settings2
+      size={20}
+      className="text-[#2563EB]"
+    />
+    <h4 className="text-xl font-semibold text-[#071426]">
+      Tally Customization
+    </h4>
+  </div>
 
-                  hover:-translate-y-2
-                  hover:shadow-[0_20px_60px_rgba(123,97,255,0.12)]
+  <div className="flex items-center gap-4">
+    <GraduationCap
+      size={20}
+      className="text-[#2563EB]"
+    />
+    <h4 className="text-xl font-semibold text-[#071426]">
+      Tally Training
+    </h4>
+  </div>
 
-                  transition-all
-                  duration-500
-                "
-              >
-                {/* GRADIENT HOVER */}
-                <div className="
-                  absolute
-                  inset-0
-                  bg-gradient-to-br
-                  from-[#2F80FF]/10
-                  via-[#7B61FF]/5
-                  to-transparent
-                  opacity-0
-                  group-hover:opacity-100
-                  transition-all
-                  duration-500
-                " />
-
-                {/* GLOW */}
-                <div className="
-                  absolute
-                  -top-10
-                  -right-10
-                  w-32
-                  h-32
-                  bg-[#7B61FF]/10
-                  blur-[70px]
-                  opacity-0
-                  group-hover:opacity-100
-                  transition-all
-                  duration-700
-                " />
-
-                <div className="relative z-10">
-
-                  <div className="
-                    flex
-                    items-center
-                    gap-4
-                    mb-6
-                  ">
-                    <div className="
-                      w-14 h-14
-                      rounded-2xl
-                      bg-gradient-to-br
-                      from-[#2F80FF]
-                      to-[#7B61FF]
-
-                      flex items-center justify-center
-                      shrink-0
-                      text-white
-                    ">
-                    
-                      <BriefcaseBusiness size={24} />
-                    </div>
-
-                    <h4 className="
-                      text-[20px] sm:text-[22px]
-                      font-semibold
-                      text-[#071426]
-                      leading-tight
-                      mb-2
-                    ">
-                      Tally Sales
-                    </h4>
-                  </div>
-
-                  <p className="
-                    text-gray-500
-                    text-sm
-                    leading-relaxed
-                  ">
-                    Expert Software sales and support for modern businesses.
-                  </p>
-                </div>
-              </div>
-
-              {/* API */}
-              <div
-                className="
-                  group
-                  relative
-                  overflow-hidden
-                  rounded-[28px]
-                  p-6
-
-                  bg-white/70
-                  backdrop-blur-2xl
-
-                  border border-white/50
-
-                  shadow-[0_10px_30px_rgba(0,0,0,0.05)]
-
-                  hover:-translate-y-2
-                  hover:shadow-[0_20px_60px_rgba(47,128,255,0.12)]
-
-                  transition-all
-                  duration-500
-                "
-              >
-                <div className="
-                  absolute
-                  inset-0
-                  bg-gradient-to-br
-                  from-[#7B61FF]/10
-                  via-[#2F80FF]/5
-                  to-transparent
-                  opacity-0
-                  group-hover:opacity-100
-                  transition-all
-                  duration-500
-                " />
-
-                <div className="
-                  absolute
-                  -top-10
-                  -right-10
-                  w-32
-                  h-32
-                  bg-[#2F80FF]/10
-                  blur-[70px]
-                  opacity-0
-                  group-hover:opacity-100
-                  transition-all
-                  duration-700
-                " />
-
-                <div className="relative z-10">
-
-                  <div className="flex items-center gap-4 mb-6">
-
-                    <div className="
-                      w-14 h-14
-                      rounded-2xl
-                      bg-gradient-to-br
-                      from-[#2F80FF]
-                      to-[#7B61FF]
-
-                      flex items-center justify-center
-                      shrink-0
-                      text-white
-                    ">
-                      <Code2 size={24} />
-                    </div>
-
-                    <h4 className="
-                      text-[22px]
-                      font-semibold
-                      text-[#071426]
-                      leading-tight
-                      mb-2
-                    ">
-                      Tally API 
-                    </h4>
-                  </div>
-
-                  <p className="
-                    text-gray-500
-                    text-sm
-                    leading-relaxed
-                  ">
-                    Seamless automation and integration services for enterprise workflows.
-                  </p>
-                </div>
-              </div>
-
-              {/* CUSTOMIZATION */}
-              <div
-                className="
-                  group
-                  relative
-                  overflow-hidden
-                  rounded-[28px]
-                  p-6
-
-                  bg-white/70
-                  backdrop-blur-2xl
-
-                  border border-white/50
-
-                  shadow-[0_10px_30px_rgba(0,0,0,0.05)]
-
-                  hover:-translate-y-2
-                  hover:shadow-[0_20px_60px_rgba(123,97,255,0.12)]
-
-                  transition-all
-                  duration-500
-                "
-              >
-                <div className="
-                  absolute
-                  inset-0
-                  bg-gradient-to-br
-                  from-[#2F80FF]/10
-                  via-[#7B61FF]/5
-                  to-transparent
-                  opacity-0
-                  group-hover:opacity-100
-                  transition-all
-                  duration-500
-                " />
-
-                <div className="relative z-10">
-
-                  <div className="flex items-center gap-4 mb-6">
-
-                    <div className="
-                      w-14 h-14
-                      rounded-2xl
-                      bg-gradient-to-br
-                      from-[#2F80FF]
-                      to-[#7B61FF]
-
-                      flex items-center justify-center
-                      shrink-0
-                      text-white
-                    ">
-                      <Settings2 size={24} />
-                    </div>
-
-                    <h4 className="
-                      text-[22px]
-                      font-semibold
-                      text-[#071426]
-                    ">
-                      Customization
-                    </h4>
-                  </div>
-
-                  <p className="
-                    text-gray-500
-                    text-sm
-                    leading-relaxed
-                  ">
-                    Personalized Tally solutions designed specifically around your operations.
-                  </p>
-                </div>
-              </div>
-
-              {/* TRAINING */}
-              <div
-                className="
-                  group
-                  relative
-                  overflow-hidden
-                  rounded-[28px]
-                  p-6
-
-                  bg-white/70
-                  backdrop-blur-2xl
-
-                  border border-white/50
-
-                  shadow-[0_10px_30px_rgba(0,0,0,0.05)]
-
-                  hover:-translate-y-2
-                  hover:shadow-[0_20px_60px_rgba(47,128,255,0.12)]
-
-                  transition-all
-                  duration-500
-                "
-              >
-                <div className="
-                  absolute
-                  inset-0
-                  bg-gradient-to-br
-                  from-[#7B61FF]/10
-                  via-[#2F80FF]/5
-                  to-transparent
-                  opacity-0
-                  group-hover:opacity-100
-                  transition-all
-                  duration-500
-                " />
-
-                <div className="relative z-10">
-
-                  <div className="flex items-center gap-4 mb-6">
-
-                    <div className="
-                      w-14 h-14
-                      rounded-2xl
-                      bg-gradient-to-br
-                      from-[#2F80FF]
-                      to-[#7B61FF]
-
-                      flex items-center justify-center
-                      shrink-0
-                      text-white
-                    ">
-                      <GraduationCap size={24} />
-                    </div>
-
-                    <h4 className="
-                      text-[22px]
-                      font-semibold
-                      text-[#071426]
-                    ">
-                      Training
-                    </h4>
-                  </div>
-
-                  <p className="
-                    text-gray-500
-                    text-sm
-                    leading-relaxed
-                  ">
-                    Industry-focused education and practical Tally expertise programs.
-                  </p>
-                </div>
-              </div>
-
-            </div>
+</div>
 
           </div>
         </div>
@@ -1143,7 +1148,7 @@ const [activeTab, setActiveTab] = useState(products[0]);
     </section>
 
     {/* SERVICES SECTION */}
-    <section className="relative py-16 md:py-20 px-4 sm:px-6 bg-white overflow-hidden">
+    <section className="relative py-14 md:py-16 px-4 sm:px-6 bg-white overflow-hidden">
 
   {/* BACKGROUND GLOW */}
   <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-[#2F80FF]/5 blur-[140px] rounded-full" />
@@ -1167,7 +1172,7 @@ const [activeTab, setActiveTab] = useState(products[0]);
       <h2
         className="
           text-3xl
-          md:text-6xl
+          md:text-5xl
           font-bold
           tracking-tight
           text-[#071426]
@@ -1176,9 +1181,7 @@ const [activeTab, setActiveTab] = useState(products[0]);
         "
       >
         What We Do
-        <span className="bg-gradient-to-r from-[#2F80FF] to-[#7B61FF] bg-clip-text text-transparent">
-          {" "}?
-        </span>
+        ?
       </h2>
 
       <p
@@ -1820,7 +1823,7 @@ const [activeTab, setActiveTab] = useState(products[0]);
     </section>
 
 {/* PRODUCTS SECTION */}
-    <section className="relative py-16 md:py-20 overflow-hidden bg-white">
+    <section className="relative py-10 md:py-14 overflow-hidden bg-white">
 
       {/* BACKGROUND GLOW */}
       <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500/10 blur-3xl rounded-full" />
@@ -1829,7 +1832,7 @@ const [activeTab, setActiveTab] = useState(products[0]);
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
 
         {/* SECTION HEADER */}
-        <div className="text-center max-w-3xl mx-auto mb-10">
+        <div className="text-center max-w-3xl mx-auto mb-8">
 
           <p className="
             text-[#2F80FF]
@@ -1845,19 +1848,19 @@ const [activeTab, setActiveTab] = useState(products[0]);
           <h2
             className="
               text-3xl
-              md:text-6xl
+              md:text-5xl
               font-bold
               text-[#071426]
               leading-tight
               tracking-tight
             "
           >
-            Our Products
+            Solutions Built For Your Business
           </h2>
 
           <p
             className="
-              mt-6
+              mt-4
               text-[16px] md:text-[17px]
               text-gray-500
               leading-relaxed
@@ -1869,7 +1872,7 @@ const [activeTab, setActiveTab] = useState(products[0]);
         </div>
 
         {/* TAB SWITCHER */}
-        <div className="flex justify-center mb-14">
+        <div className="flex justify-center mb-8">
 
           <div
             className="
@@ -1940,9 +1943,9 @@ const [activeTab, setActiveTab] = useState(products[0]);
                 grid
                 grid-cols-1
                 lg:grid-cols-2
-                gap-10 lg:gap-14
+                gap-6 lg:gap-8
                 items-center
-                p-5 sm:p-8 md:p-14
+                p-5 sm:p-6 md:p-8
               "
             >
 
@@ -1951,9 +1954,9 @@ const [activeTab, setActiveTab] = useState(products[0]);
 
                 <h3
                   className="
-                    text-2xl
-                    sm:text-3xl
-                    md:text-4xl
+                    text-xl
+                    sm:text-2xl
+                    md:text-3xl
                     font-bold
                     text-[#071426]
                     leading-tight
@@ -1969,14 +1972,14 @@ const [activeTab, setActiveTab] = useState(products[0]);
                     text-gray-500
                     text-[15px] md:text-[16px]
                     leading-relaxed
-                    mb-10
+                    mb-6
                   "
                 >
                   {activeTab.description}
                 </p>
 
                 {/* FEATURES */}
-                <div className="space-y-5 mb-10">
+                <div className="space-y-3 mb-6">
 
                   {activeTab.features.map((feature, index) => (
                     <motion.div
@@ -2029,8 +2032,8 @@ const [activeTab, setActiveTab] = useState(products[0]);
 
   className="
     inline-flex items-center justify-center
-    px-7 py-4
-    rounded-2xl
+    px-5 py-3
+rounded-xl
     bg-gradient-to-r
     from-[#2F80FF]
     to-[#7B61FF]
@@ -2051,13 +2054,6 @@ const [activeTab, setActiveTab] = useState(products[0]);
 
               {/* RIGHT IMAGE */}
 <motion.div
-  animate={{
-    y: [0, -10, 0],
-  }}
-  transition={{
-    duration: 5,
-    repeat: Infinity,
-  }}
   className="relative"
 >
 
@@ -2106,7 +2102,7 @@ const [activeTab, setActiveTab] = useState(products[0]);
     </section>
 
   {/* Testimonials SECTION */}
-    <section className=" relative py-16 md:py-20">
+    <section className=" relative py-10 md:py-14">
 
       {/* BACKGROUND GLOW */}
       <div
@@ -2128,7 +2124,7 @@ const [activeTab, setActiveTab] = useState(products[0]);
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
         
         {/* HEADING */}
-        <div className="text-center mb-10">
+        <div className="text-center mb-8">
           <p
             className="
               text-[#2F80FF]
@@ -2143,8 +2139,9 @@ const [activeTab, setActiveTab] = useState(products[0]);
 
           <h2
             className="
-              text-3xl
-              md:text-6xl
+              text-2xl
+              sm:text-3xl
+              md:text-4xl
               font-bold
               text-[#071426]
               leading-tight
@@ -2157,8 +2154,8 @@ const [activeTab, setActiveTab] = useState(products[0]);
             className="
               max-w-2xl
               mx-auto
-              mt-6
-              text-[16px] md:text-[17px]
+              mt-4
+              text-sm sm:text-[15px]
               text-gray-500
               leading-relaxed
             "
@@ -2171,7 +2168,7 @@ const [activeTab, setActiveTab] = useState(products[0]);
         {/* CAROUSEL */}
         <Swiper
           modules={[Autoplay]}
-          spaceBetween={28}
+          spaceBetween={20}
           slidesPerView={1.1}
           centeredSlides={true}
           loop={true}
@@ -2206,14 +2203,14 @@ const [activeTab, setActiveTab] = useState(products[0]);
                   group
                   relative
                   h-full
-                  min-h-[340px] sm:min-h-[400px]
+                  min-h-[260px] sm:min-h-[300px]
                   rounded-[28px]
                   border
                   border-white/60
                   bg-white
                   
                   shadow-[0_10px_30px_rgba(0,0,0,0.04)]
-                  p-5 sm:p-6 lg:p-7
+                  p-4 sm:p-5
                   overflow-hidden
                 "
               >
@@ -2238,8 +2235,7 @@ const [activeTab, setActiveTab] = useState(products[0]);
                     absolute
                     right-8
                     bottom-8
-                    w-16
-                    h-16
+                    w-10 h-10
                     text-[#2F80FF]/10
                   "
                 />
@@ -2263,10 +2259,9 @@ const [activeTab, setActiveTab] = useState(products[0]);
                 <p
                   className="
                     text-gray-600
-                    leading-8
-                    text-[15px]
-                    md:text-base
-                    mb-10
+                    leading-7
+                    text-sm
+                    mb-6
                     relative
                     z-10
                   "
@@ -2288,8 +2283,7 @@ const [activeTab, setActiveTab] = useState(products[0]);
                     src={item.image}
                     alt={item.name}
                     className="
-                      w-12
-                      h-12
+                      w-10 h-10
                       rounded-full
                       object-cover
                       border-2
@@ -2301,7 +2295,7 @@ const [activeTab, setActiveTab] = useState(products[0]);
                   <div>
                     <h4
                       className="
-                        text-lg sm:text-xl
+                        text-base sm:text-lg
                         font-semibold
                         text-[#071426]
                       "
@@ -2309,28 +2303,12 @@ const [activeTab, setActiveTab] = useState(products[0]);
                       {item.name}
                     </h4>
 
-                    <p className="text-gray-500">
+                    <p className="text-sm text-gray-500">
                       {item.role}
                     </p>
                   </div>
                 </div>
 
-                {/* BOTTOM LINE */}
-                <div
-                  className="
-                    absolute
-                    bottom-0
-                    left-0
-                    h-[3px]
-                    w-0
-                    group-hover:w-full
-                    transition-all
-                    duration-500
-                    bg-gradient-to-r
-                    from-[#2F80FF]
-                    to-[#7B61FF]
-                  "
-                />
               </motion.div>
             </SwiperSlide>
           ))}
@@ -2339,23 +2317,9 @@ const [activeTab, setActiveTab] = useState(products[0]);
     </section>
 
     {/* CTA SECTION */}
-    <section className=" relative py-16 md:py-20 overflow-hidden bg-[#F8FAFC]">    
+    <section className=" relative py-10 md:py-14 overflow-hidden bg-[#F8FAFC]">    
       {/* BACKGROUND GLOW */}
-      <div
-        className="
-          absolute
-          top-0
-          left-1/2
-          -translate-x-1/2
-          w-[700px]
-          h-[700px]
-          bg-gradient-to-r
-          from-[#2F80FF]/10
-          to-[#7B61FF]/10
-          blur-3xl
-          rounded-full
-        "
-      />
+      
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
         <div
@@ -2363,7 +2327,7 @@ const [activeTab, setActiveTab] = useState(products[0]);
             grid
             grid-cols-1
             lg:grid-cols-2
-            gap-10 lg:gap-14
+            gap-8 lg:gap-10
             items-center
           "
         >
@@ -2380,14 +2344,16 @@ const [activeTab, setActiveTab] = useState(products[0]);
                 inline-flex
                 items-center
                 gap-2
-                px-5
-                py-2
+                px-4
+                py-1.5
+                mb-4
+                text-sm
                 rounded-full
                 bg-[#2F80FF]/10
                 border border-[#2F80FF]/10
                 text-[#2F80FF]
                 font-medium
-                mb-6
+                
               "
             >
               <BadgeCheck className="w-4 h-4" />
@@ -2397,13 +2363,13 @@ const [activeTab, setActiveTab] = useState(products[0]);
             {/* HEADING */}
             <h2
               className="
-                text-3xl
-                sm:text-4xl
-                md:text-6xl
+                text-2xl
+                sm:text-3xl
+                md:text-4xl
                 font-bold
                 text-[#071426]
                 leading-tight
-                mb-6
+                mb-4
               "
             >
               Request A
@@ -2424,7 +2390,9 @@ const [activeTab, setActiveTab] = useState(products[0]);
             {/* DESCRIPTION */}
             <p
               className="
-                text-[16px] md:text-[17px]
+                text-sm sm:text-[15px]
+                leading-7
+                mb-6
                 text-gray-600
                 leading-relaxed
                 max-w-xl
@@ -2438,7 +2406,7 @@ const [activeTab, setActiveTab] = useState(products[0]);
             </p>
 
             {/* TRUST POINTS */}
-            <div className="space-y-5 mb-10">
+            <div className="space-y-3 mb-6">
               {[
                 {
                   icon: ShieldCheck,
@@ -2464,9 +2432,9 @@ const [activeTab, setActiveTab] = useState(products[0]);
                 >
                   <div
                     className="
-                      w-12
-                      h-12
-                      rounded-2xl
+                      w-10
+                      h-10
+                      rounded-xl
                       flex
                       items-center
                       justify-center
@@ -2476,12 +2444,12 @@ const [activeTab, setActiveTab] = useState(products[0]);
                       shadow-lg
                     "
                   >
-                    <item.icon className="w-5 h-5 text-white" />
+                    <item.icon className="w-4 h-4 text-white" />
                   </div>
 
                   <p
                     className="
-                      text-base sm:text-lg
+                      text-sm sm:text-base
                       font-medium
                       text-[#071426]
                     "

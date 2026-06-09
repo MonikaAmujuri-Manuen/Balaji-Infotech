@@ -272,7 +272,8 @@ const filteredCourses = courses.filter(
     <>
     {/* ================= EDUCATION HERO SECTION ================= */}
 
-<section className="relative overflow-hidden bg-white pt-24 sm:pt-28 lg:pt-32 pb-14 sm:pb-18 md:pb-20">
+<section className="relative overflow-hidden bg-white pt-20 sm:pt-24 lg:pt-24
+pb-10 sm:pb-12 md:pb-14">
 
   {/* SOFT BACKGROUND GLOWS */}
   <div className="
@@ -335,9 +336,9 @@ const filteredCourses = courses.filter(
 
         {/* HEADING */}
         <h1 className="
-          text-[34px]
-          sm:text-4xl
-          lg:text-6xl
+          text-[30px]
+          sm:text-[38px]
+          lg:text-[48px]
           font-bold
           leading-[1.05]
           tracking-[-0.03em]
@@ -358,7 +359,7 @@ const filteredCourses = courses.filter(
 
         {/* DESCRIPTION */}
         <p className="
-          mt-8
+          mt-5
           max-w-2xl
           text-[15px]
           sm:text-[16px]
@@ -374,7 +375,7 @@ const filteredCourses = courses.filter(
 
         {/* BUTTONS */}
         <div className="
-          mt-10
+          mt-6
           flex flex-col sm:flex-row
           gap-5
         ">
@@ -457,7 +458,7 @@ const filteredCourses = courses.filter(
 
         {/* STATS */}
         <div className="
-          mt-14
+          mt-8
           flex flex-wrap
           gap-8
           sm:gap-10
@@ -465,8 +466,8 @@ const filteredCourses = courses.filter(
 
           <div>
             <h3 className="
-              text-2xl
-              sm:text-3xl font-bold
+              text-xl
+              sm:text-2xl font-bold
               text-[#0F172A]
             ">
               10K+
@@ -482,7 +483,8 @@ const filteredCourses = courses.filter(
 
           <div>
             <h3 className="
-              text-3xl font-bold
+              text-xl
+              sm:text-2xl  font-bold
               text-[#0F172A]
             ">
               100%
@@ -498,7 +500,8 @@ const filteredCourses = courses.filter(
 
           <div>
             <h3 className="
-              text-3xl font-bold
+              text-xl
+              sm:text-2xl  font-bold
               text-[#0F172A]
             ">
               Industry
@@ -543,10 +546,10 @@ const filteredCourses = courses.filter(
           bg-gradient-to-br
           from-[#F8FBFF]
           to-[#EEF2FF]
-          p-5
-          sm:p-8
-          md:p-10
-          shadow-[0_30px_80px_rgba(15,23,42,0.08)]
+          p-4
+          sm:p-6
+          md:p-7
+          shadow-sm
         ">
 
           {/* TOP BAR */}
@@ -603,7 +606,7 @@ const filteredCourses = courses.filter(
           </div>
 
           {/* COURSE LIST */}
-          <div className="space-y-5">
+          <div className="space-y-3">
 
             {[
               "Advanced TallyPrime",
@@ -689,16 +692,10 @@ const filteredCourses = courses.filter(
 
 {/* ================= EDUCATION CATEGORY + COURSES ================= */}
 
-<section id="courses" className="relative py-14 sm:py-16 md:py-24 bg-white overflow-hidden">
+<section id="courses" className="relative py-10 sm:py-12 md:py-14 bg-white overflow-hidden">
 
   {/* BACKGROUND GLOWS */}
-  <div className="
-    absolute top-0 left-1/2 -translate-x-1/2
-    w-[500px] h-[250px]
-    bg-[#1178D4]/5
-    blur-[120px]
-    rounded-full
-  " />
+  
 
   <div className="
     absolute bottom-0 right-0
@@ -737,9 +734,9 @@ const filteredCourses = courses.filter(
 
       {/* DYNAMIC TITLE */}
       <h2 className="
-        text-[30px]
-        sm:text-4xl
-        lg:text-5xl
+        text-[26px]
+        sm:text-3xl
+        lg:text-4xl
         font-bold
         tracking-[-0.03em]
         text-[#0F172A]
@@ -778,7 +775,7 @@ const filteredCourses = courses.filter(
 
     {/* ================= TABS ================= */}
     <div className="
-      mt-12
+      mt-8
       flex justify-center
     ">
 
@@ -863,7 +860,7 @@ const filteredCourses = courses.filter(
     </div>
 
     {/* ================= COURSE GRID ================= */}
-    <div className="mt-16">
+    <div className="mt-10">
 
       <AnimatePresence mode="wait">
 
@@ -903,8 +900,6 @@ const filteredCourses = courses.filter(
 
                   shadow-[0_10px_40px_rgba(15,23,42,0.06)]
 
-                  hover:shadow-[0_25px_70px_rgba(17,120,212,0.12)]
-                  transition-all duration-500
                 "
               >
 
@@ -918,7 +913,7 @@ const filteredCourses = courses.filter(
                 " />
 
                 {/* CONTENT */}
-                <div className="p-5 sm:p-8">
+                <div className="p-4 sm:p-6">
 
                   {/* ICON + BADGES */}
                   <div className="
@@ -984,9 +979,9 @@ const filteredCourses = courses.filter(
 
                   {/* TITLE */}
                   <h3 className="
-                    mt-8
-                    text-[22px]
-                    sm:text-2xl
+                    mt-5
+                    text-[20px]
+                    sm:text-[22px]
                     font-bold
                     leading-tight
                     text-[#0F172A]
@@ -1010,7 +1005,7 @@ const filteredCourses = courses.filter(
 
                   {/* SKILLS */}
                   <div className="
-                    mt-8
+                    mt-5
                     flex flex-wrap
                     gap-3
                   ">
@@ -1042,7 +1037,7 @@ const filteredCourses = courses.filter(
                   <Link to="/contact">
                   <button className="
                     group/btn
-                    mt-10
+                    mt-6
                     w-full
                     flex items-center justify-center gap-3
                     px-5
@@ -1107,24 +1102,8 @@ const filteredCourses = courses.filter(
 
 {/* ================= WHY CHOOSE TALLY EDUCATION ================= */}
 
-<section className="relative py-14 sm:py-20 md:py-24 bg-[#F8FBFF] overflow-hidden">
+<section className="relative py-10 sm:py-12 md:py-14 bg-[#F8FBFF] overflow-hidden">
 
-  {/* BACKGROUND GLOW */}
-  <div className="
-    absolute top-0 left-0
-    w-[350px] h-[350px]
-    bg-[#1178D4]/5
-    blur-[120px]
-    rounded-full
-  " />
-
-  <div className="
-    absolute bottom-0 right-0
-    w-[350px] h-[350px]
-    bg-[#6C63FF]/5
-    blur-[120px]
-    rounded-full
-  " />
 
   <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -1155,7 +1134,9 @@ const filteredCourses = courses.filter(
       </div>
 
       {/* TITLE */}
-      <h2 className="text-[30px] sm:text-4xl lg:text-5xltext-3xl sm:text-4xl lg:text-5xl
+      <h2 className="text-[26px]
+sm:text-3xl
+lg:text-4xl
         font-bold
         tracking-[-0.03em]
         text-[#0F172A]
@@ -1193,7 +1174,7 @@ const filteredCourses = courses.filter(
 
     {/* ================= BENEFITS GRID ================= */}
     <div className="
-      mt-16
+      mt-10
       grid
       sm:grid-cols-2
       xl:grid-cols-4
@@ -1246,15 +1227,10 @@ const filteredCourses = courses.filter(
               sm:rounded-[28px]
               border border-[#E2E8F0]
               bg-white
-              p-6
-              sm:p-8
+              p-5
+              sm:p-6
 
               shadow-[0_10px_40px_rgba(15,23,42,0.05)]
-
-              hover:border-[#1178D4]/20
-              hover:shadow-[0_20px_60px_rgba(17,120,212,0.12)]
-
-              transition-all duration-500
             "
           >
 
@@ -1280,8 +1256,8 @@ const filteredCourses = courses.filter(
             {/* TITLE */}
             <h3 className="
               mt-7
-              text-[22px]
-              sm:text-2xl
+              text-[20px]
+              sm:text-[22px]
               font-bold
               text-[#0F172A]
             ">

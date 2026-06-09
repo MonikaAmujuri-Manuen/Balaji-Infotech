@@ -44,42 +44,24 @@ export default function ProductDetail() {
         className="
           relative
           overflow-hidden
-          pt-24
-          sm:pt-28
-          md:pt-36
-          pb-14
-          sm:pb-20
-          md:pb-32
+          pt-20
+          sm:pt-24
+          md:pt-28
+
+          pb-10
+          sm:pb-12
+          md:pb-16
           bg-[#F5F7FF]
         "
       >
-        {/* BACKGROUND GLOW */}
-        <div
-          className="
-            absolute
-            top-0
-            left-1/2
-            -translate-x-1/2
-            w-[400px]
-            h-[400px]
-            sm:w-[550px]
-            sm:h-[550px]
-            lg:w-[700px]
-            lg:h-[700px]
-            bg-gradient-to-r
-            from-[#2F80FF]/10
-            to-[#7B61FF]/10
-            blur-3xl
-            rounded-full
-          "
-        />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
           <div
             className="
               grid
               lg:grid-cols-2
-              gap-10
+              gap-6
+              lg:gap-10
               lg:gap-16
               items-center
             "
@@ -99,7 +81,7 @@ export default function ProductDetail() {
                   bg-white
                   border border-[#E5E7EB]
                   shadow-sm
-                  mb-8
+                  mb-5
                 "
               >
                 <div
@@ -139,7 +121,7 @@ export default function ProductDetail() {
                   font-semibold
                   uppercase
                   tracking-[0.2em]
-                  mb-4
+                  mb-3
                 "
               >
                 Professional Tally Solution
@@ -147,13 +129,13 @@ export default function ProductDetail() {
 
               <h1
                 className="
-                  text-[36px]
-                  sm:text-5xl
-                  md:text-6xl
+                  text-[28px]
+                  sm:text-[36px]
+                  md:text-[40px]
                   font-black
                   leading-tight
                   text-[#111827]
-                  mb-6
+                  mb-4
                 "
               >
                 {product.subtitle}
@@ -166,7 +148,7 @@ export default function ProductDetail() {
                   md:text-lg
                   leading-relaxed
                   text-[#6B7280]
-                  mb-10
+                  mb-6
                   max-w-xl
                 "
               >
@@ -253,9 +235,9 @@ export default function ProductDetail() {
                   alt={product.title}
                   className="
                     w-full
-                    h-[260px]
-                    sm:h-[400px]
-                    lg:h-[500px]
+                    h-[200px]
+                    sm:h-[300px]
+                    lg:h-[380px]
                     object-cover
                   "
                 />
@@ -266,30 +248,15 @@ export default function ProductDetail() {
       </section>
 
       {/* ================= KEY FEATURES SECTION ================= */}
-      {false && ( 
-      <section className="relative py-16 sm:py-20 md:py-32 bg-white overflow-hidden">
-        {/* BACKGROUND GLOW */}
-        <div
-          className="
-            absolute
-            top-0
-            left-1/2
-            -translate-x-1/2
-            w-[700px]
-            h-[700px]
-            bg-gradient-to-r
-            from-[#2F80FF]/10
-            to-[#7B61FF]/10
-            blur-3xl
-            rounded-full
-          "
-        />
+       
+      <section className="relative py-10 sm:py-12 md:py-16 bg-white overflow-hidden">
+        
 
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 relative z-10">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
 
           {/* HEADING */}
 
-          <div className="text-center mb-24">
+          <div className="text-center mb-12">
             <p
               className="
                 text-[#2F80FF]
@@ -304,9 +271,9 @@ export default function ProductDetail() {
 
             <h2
               className="
-                text-[32px]
-                sm:text-4xl
-                md:text-5xl
+                text-[28px]
+                sm:text-[36px]
+                md:text-[42px]
                 font-black
                 text-[#111827]
                 mb-6
@@ -386,27 +353,13 @@ export default function ProductDetail() {
                     "
                   >
 
-                    {/* GLOW */}
-
-                    <div
-                      className="
-                        absolute
-                        inset-0
-                        bg-gradient-to-r
-                        from-[#2F80FF]/20
-                        to-[#7B61FF]/20
-                        blur-2xl
-                        rounded-full
-                      "
-                    />
-
                     {/* ICON BOX */}
 
                     <div
                       className="
                         relative
-                        w-16
-                        h-16
+                        w-14
+                        h-14
                         rounded-[20px]
                         bg-gradient-to-r
                         from-[#2F80FF]
@@ -415,10 +368,10 @@ export default function ProductDetail() {
                         items-center
                         justify-center
                         text-white
-                        shadow-[0_15px_40px_rgba(47,128,255,0.25)]
+                       
                       "
                     >
-                      <FeatureIcon size={28} />
+                      <FeatureIcon size={20} />
                     </div>
                   </div>
 
@@ -449,9 +402,9 @@ export default function ProductDetail() {
 
                     <h3
                       className="
-                        text-[28px]
-                        sm:text-3xl
-                        md:text-4xl
+                        text-[20px]
+                        sm:text-2xl
+                        md:text-3xl
                         font-black
                         text-[#111827]
                         leading-tight
@@ -545,10 +498,10 @@ export default function ProductDetail() {
           </div>
         </div>
       </section>
-      )}
+      
 
       {/* ================= KEY FEATURES SECTION ================= */}
-     
+     {false && (
 <section className="relative py-16 sm:py-20 md:py-32 bg-white overflow-hidden">
         {/* BACKGROUND GLOW */}
         <div
@@ -845,11 +798,12 @@ export default function ProductDetail() {
 </div>
         </div>
       </section>
+      )}
 
        
       {/* ================= WHY CHOOSE SECTION ================= */}
 {product?.whyChooseCards?.length > 0 && (
-<section className="relative py-16 sm:py-20 md:py-28 px-4 sm:px-6 overflow-hidden bg-[#F7FAFF]">
+<section className="relative py-10 sm:py-12 md:py-16 px-4 sm:px-6 overflow-hidden bg-[#F7FAFF]">
 
   {/* BACKGROUND GLOW */}
   <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-blue-500/10 blur-3xl rounded-full" />
@@ -857,13 +811,15 @@ export default function ProductDetail() {
   <div className="relative max-w-7xl mx-auto">
 
     {/* HEADING */}
-    <div className="text-center max-w-4xl mx-auto mb-16 md:mb-20">
+    <div className="text-center max-w-4xl mx-auto mb-10 md:mb-12">
 
       <p className="text-sm md:text-base tracking-[0.3em] uppercase text-[#1E73E8] font-semibold mb-4">
         Why Choose
       </p>
 
-      <h2 className="text-[32px] sm:text-5xl md:text-6xl font-bold leading-tight text-[#0B132B]">
+      <h2 className="text-[28px]
+sm:text-[38px]
+md:text-[44px] font-bold leading-tight text-[#0B132B]">
 
         Why Businesses Choose{" "}
 
@@ -957,15 +913,12 @@ export default function ProductDetail() {
 )}
 
  {product?.pricing?.length > 0 && (
-  <section   id="pricing" className="relative py-14 sm:py-16 md:py-20 px-4 sm:px-6 bg-[#F8FAFC] overflow-hidden">
+  <section   id="pricing" className="relative py-10 sm:py-12 md:py-16 px-4 sm:px-6 bg-[#F8FAFC] overflow-hidden">
 
-    {/* BACKGROUND GLOW */}
-    <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-blue-500/10 blur-3xl rounded-full" />
-
-    <div className="max-w-7xl mx-auto relative z-10">
+    <div className="max-w-5xl mx-auto relative z-10">
 
       {/* HEADING */}
-      <div className="text-center mb-14 md:mb-20">
+      <div className="text-center mb-10 md:mb-12">
 
         <p
           className="
@@ -979,11 +932,8 @@ export default function ProductDetail() {
           Pricing
         </p>
 
-        <h2 className="mt-6 text-[32px] sm:text-5xl md:text-6xl font-black tracking-tight text-[#111827]">
-          Choose Your
-          <span className="block text-[#1178D4]">
-            {product.title}
-          </span>
+        <h2 className="mt-6 text-[28px] sm:text-[38px] md:text-[46px] font-black tracking-tight text-[#111827]">
+          Choose Your {product.title}
         </h2>
 
         <p className="mt-6 max-w-2xl mx-auto text-base md:text-lg leading-8 text-[#6B7280]">
@@ -996,10 +946,10 @@ export default function ProductDetail() {
       {/* PRICING CARDS */}
       <div
         className={`
-          grid gap-8 mx-auto
+          grid gap-5 mx-auto
           ${
             product.pricing?.length === 2
-              ? "grid-cols-1 md:grid-cols-2 max-w-5xl"
+              ? "grid-cols-1 md:grid-cols-2 max-w-4xl"
               : "grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-7xl"
           }
         `}
@@ -1020,25 +970,20 @@ export default function ProductDetail() {
 
 {/* ================= TESTIMONIALS ================= */}
 {product.testimonials && (
-<section className="relative py-16 sm:py-20 md:py-24 px-4 sm:px-6 bg-[#F8FAFC] overflow-hidden">
+<section className="relative py-8 sm:py-10 md:py-12 px-4 sm:px-4 bg-[#F8FAFC] overflow-hidden">
 
-  {/* BACKGROUND GLOW */}
-  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-[#1178D4]/10 blur-[120px] rounded-full" />
-
+  
   <div className="relative max-w-7xl mx-auto">
 
     {/* HEADING */}
-    <div className="text-center mb-16">
+    <div className="text-center mb-8">
 
       <span className="inline-block text-[#1178D4] text-sm tracking-[0.25em] uppercase font-semibold mb-5">
         Success Stories
       </span>
 
-      <h2 className="text-3xl md:text-6xl font-bold text-[#0F172A] leading-tight">
-        What Businesses Say About{" "}
-        <span className="text-[#1178D4]">
-          {product.name}
-        </span>
+      <h2 className="text-[28px] sm:text-[38px] md:text-[46px] font-bold text-[#0F172A] leading-tight">
+        What Businesses Say About{" "}{product.name}
       </h2>
 
       <p className="mt-6 text-[#64748B] text-[16px] md:text-[17px] max-w-3xl mx-auto leading-relaxed">
@@ -1153,40 +1098,8 @@ export default function ProductDetail() {
 
       {/* ================= CTA SECTION ================= */}
 {product.cta && (
-<section className="relative py-16 sm:py-20 md:py-24 bg-white overflow-hidden">
+<section className="relative py-10 sm:py-12 md:py-14 bg-white overflow-hidden">
 
-  <div
-        className="
-          absolute
-          top-0
-          left-1/2
-          -translate-x-1/2
-          w-[700px]
-          h-[700px]
-          bg-gradient-to-r
-          from-[#2F80FF]/10
-          to-[#7B61FF]/10
-          blur-3xl
-          rounded-full
-        "
-      />
-
-  {/* SOFT GLOWS */}
-  <div className="
-    absolute top-0 left-1/4
-    w-[350px] h-[350px]
-    bg-[#1178D4]/[0.06]
-    blur-[120px]
-    rounded-full
-  " />
-
-  <div className="
-    absolute bottom-0 right-1/4
-    w-[350px] h-[350px]
-    bg-[#6C63FF]/[0.06]
-    blur-[120px]
-    rounded-full
-  " />
 
   <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center">
 
@@ -1202,16 +1115,14 @@ export default function ProductDetail() {
       font-semibold
       tracking-[0.22em]
       uppercase
-      mb-8
+      mb-5
     ">
       {product.cta.badge}
     </div>
 
     {/* TITLE */}
     <h2 className="
-      text-[35px]
-      sm:text-[48px]
-      lg:text-[58px]
+      text-[24px] sm:text-[34px] md:text-[40px]
       leading-[1.05]
       font-[800]
       text-[#071426]
@@ -1223,10 +1134,10 @@ export default function ProductDetail() {
 
     {/* DESCRIPTION */}
     <p className="
-      mt-8
+      mt-5
       text-[16px]
       md:text-[17px]
-      leading-[1.9]
+      leading-7
       text-[#5B6475]
       max-w-3xl
       mx-auto
@@ -1236,10 +1147,10 @@ export default function ProductDetail() {
 
     {/* BUTTONS */}
     <div className="
-      mt-14
+      mt-8
       flex flex-col sm:flex-row
       items-center justify-center
-      gap-5
+      gap-3
     ">
 
       {/* PRIMARY BUTTON */}
@@ -1255,10 +1166,8 @@ export default function ProductDetail() {
 
       <button className="
         group relative overflow-hidden
-        px-6
-        sm:px-10
-        py-4
-        sm:py-5
+        px-5 sm:px-8
+        py-3 sm:py-4
         rounded-2xl
         bg-gradient-to-r
         from-[#1178D4]
@@ -1303,10 +1212,8 @@ export default function ProductDetail() {
       <a href={product.cta.secondaryLink}>
 
       <button className="
-        px-6
-        sm:px-10
-        py-4
-        sm:py-5
+        px-5 sm:px-8
+        py-3 sm:py-4
         rounded-2xl
         border border-[#DDE7F5]
         bg-white
@@ -1326,11 +1233,10 @@ export default function ProductDetail() {
 
     {/* TRUST POINTS */}
     <div className="
-      mt-14
+      mt-8
       flex flex-wrap
       items-center justify-center
-      gap-4
-      sm:gap-6
+      gap-3 sm:gap-4
       text-[#64748B]
       text-sm
     ">

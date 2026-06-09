@@ -31,8 +31,8 @@ useEffect(() => {
   <section className="
     relative
     overflow-hidden
-    pt-32 sm:pt-36 md:pt-36
-    pb-14 sm:pb-16 md:pb-24
+    pt-24 sm:pt-28
+    pb-10 sm:pb-12
     bg-white
   ">
 
@@ -70,7 +70,7 @@ useEffect(() => {
           rounded-full
           border border-[#1178D4]/15
           bg-[#F8FBFF]
-          mb-6
+          mb-4
         ">
 
           <div className="
@@ -92,9 +92,9 @@ useEffect(() => {
 
         {/* HEADING */}
         <h1 className="
-          text-[32px]
+          text-3xl
           sm:text-4xl
-          lg:text-5xl
+          lg:text-[44px]
           font-black
           leading-[1.05]
           tracking-[-0.03em]
@@ -119,9 +119,10 @@ useEffect(() => {
 
         {/* DESCRIPTION */}
         <p className="
-          mt-6 sm:mt-8
-          text-[15px] sm:text-[16px] md:text-[17px]
-          leading-8 sm:leading-9
+  mt-4 sm:mt-5
+          text-sm
+          sm:text-base
+          leading-7
           text-[#475569]
           max-w-2xl
         ">
@@ -134,7 +135,7 @@ useEffect(() => {
         <div className="
           flex flex-col sm:flex-row sm:flex-wrap
           gap-4
-          mt-8 sm:mt-10
+          mt-5 sm:mt-6
         ">
 
           {/* LOCATION */}
@@ -142,17 +143,14 @@ useEffect(() => {
           w-full sm:w-auto
             flex items-center
             gap-3
-            px-5 py-3
-            rounded-2xl
-            border border-[#E2E8F0]
-            bg-white
-            shadow-[0_10px_30px_rgba(15,23,42,0.04)]
+            px-4 py-2.5
+            
           ">
 
             <MapPin className="w-5 h-5 text-[#1178D4]" />
 
             <span className="
-              text-sm md:text-base
+              text-sm
               font-medium
               text-[#334155]
             ">
@@ -165,11 +163,7 @@ useEffect(() => {
           <div className="w-full sm:w-auto
             flex items-center
             gap-3
-            px-5 py-3
-            rounded-2xl
-            border border-[#E2E8F0]
-            bg-white
-            shadow-[0_10px_30px_rgba(15,23,42,0.04)]
+            px-4 py-2.5
           ">
 
             <Phone className="w-5 h-5 text-[#1178D4]" />
@@ -188,11 +182,7 @@ useEffect(() => {
           <div className="w-full sm:w-auto
             flex items-center
             gap-3
-            px-5 py-3
-            rounded-2xl
-            border border-[#E2E8F0]
-            bg-white
-            shadow-[0_10px_30px_rgba(15,23,42,0.04)]
+            px-4 py-2.5
           ">
 
             <Mail className="w-5 h-5 text-[#1178D4]" />
@@ -214,7 +204,7 @@ useEffect(() => {
           flex flex-col sm:flex-row
           items-stretch sm:items-center
           gap-4 sm:gap-5
-          mt-10 sm:mt-12
+          mt-6 sm:mt-7
         ">
 
           {/* PRIMARY BUTTON */}
@@ -224,14 +214,14 @@ useEffect(() => {
             group
             inline-flex items-center justify-center
             gap-3
-            px-8 py-5
+            px-6 py-3
+            text-sm
             rounded-2xl
             bg-gradient-to-r
             from-[#1178D4]
             to-[#6C63FF]
             text-white
             font-semibold
-            text-lg
             shadow-[0_20px_50px_rgba(17,120,212,0.20)]
             hover:scale-[1.02]
             transition-all duration-300
@@ -253,13 +243,13 @@ useEffect(() => {
           <button className="w-full sm:w-auto
             inline-flex items-center justify-center
             gap-3
-            px-8 py-5
+            px-6 py-3
+            text-sm
             rounded-2xl
             border border-[#DCE3EE]
             bg-white
             text-[#0F172A]
             font-semibold
-            text-lg
             hover:border-[#1178D4]/30
             hover:bg-[#F8FBFF]
             transition-all duration-300
@@ -296,7 +286,7 @@ useEffect(() => {
         {/* MAIN IMAGE CONTAINER */}
         <div className="
           relative
-          rounded-[36px]
+          rounded-[28px]
           overflow-hidden
           border border-[#E2E8F0]
           shadow-[0_30px_80px_rgba(15,23,42,0.10)]
@@ -308,9 +298,9 @@ useEffect(() => {
             alt="Contact Balaji Infotech"
             className="
               w-full
-              h-[420px]
-              sm:h-[520px]
-              lg:h-[620px]
+              h-[320px]
+              sm:h-[320px]
+              lg:h-[420px]
               object-cover
             "
           />
@@ -334,14 +324,14 @@ useEffect(() => {
           bg-white/90
           backdrop-blur-xl
           border border-white/60
-          rounded-3xl
-          px-4 sm:px-6
-          py-4 sm:py-5
+          rounded-2xl
+          px-3 sm:px-4
+          py-3
           shadow-[0_20px_60px_rgba(15,23,42,0.12)]
         ">
 
           <p className="
-            text-2xl sm:text-3xl
+            text-xl sm:text-2xl
             font-black
             text-[#0F172A]
           ">
@@ -367,14 +357,14 @@ useEffect(() => {
           bg-white/90
           backdrop-blur-xl
           border border-white/60
-          rounded-3xl
-          px-4 sm:px-6
-          py-4 sm:py-5
+          rounded-2xl
+          px-3 sm:px-4
+          py-3
           shadow-[0_20px_60px_rgba(15,23,42,0.12)]
         ">
 
           <p className="
-            text-2xl sm:text-3xl
+            text-xl sm:text-2xl
             font-black
             text-[#0F172A]
           ">
@@ -401,7 +391,7 @@ useEffect(() => {
   {/* ================= CONTACT FORM ================= */}
 <section id="contact-form" className="
   relative
-  py-16 sm:py-24 md:py-32
+  py-10 sm:py-14
   bg-[#F8FBFF]
   overflow-hidden
 ">
@@ -423,7 +413,7 @@ useEffect(() => {
       text-center
       max-w-3xl
       mx-auto
-      mb-16
+      mb-10
     ">
 
       {/* BADGE */}
@@ -457,9 +447,9 @@ useEffect(() => {
 
       {/* HEADING */}
       <h2 className="
-        text-[30px]
-        sm:text-4xl
-        md:text-5xl
+        text-2xl
+        sm:text-3xl
+        md:text-4xl
         font-black
         leading-tight
         tracking-[-0.03em]
@@ -480,8 +470,8 @@ useEffect(() => {
       {/* DESCRIPTION */}
       <p className="
         mt-6
-        text-[15px]
-        sm:text-lg
+        text-sm
+        sm:text-base
         leading-7 sm:leading-8
         leading-8
         text-[#64748B]
@@ -505,7 +495,7 @@ useEffect(() => {
   flex flex-col
   justify-center
   h-full
-  space-y-8 sm:space-y-10
+  space-y-6
 ">
 
   {[
@@ -549,7 +539,7 @@ useEffect(() => {
 
         {/* ICON */}
         <div className="
-          w-14 h-14
+          w-12 h-12
           rounded-2xl
           bg-gradient-to-br from-[#1178D4] to-[#6C63FF]
           flex items-center justify-center
@@ -565,8 +555,8 @@ useEffect(() => {
         <div>
 
           <h3 className="
-            text-[22px]
-            sm:text-[25px]
+            text-lg
+            sm:text-xl
             font-bold
             text-[#0F172A]
             mb-2
@@ -582,7 +572,7 @@ useEffect(() => {
                 key={i}
                 className="
                   text-[#475569]
-                  text-[15px] md:text-[16px]
+                  text-sm
                   leading-relaxed
                 "
               >
@@ -636,7 +626,7 @@ useEffect(() => {
           href={item.link}
           className="
             group
-            w-14 h-14
+            w-11 h-11
             rounded-2xl
             border border-[#E2E8F0]
             bg-white
@@ -676,8 +666,8 @@ useEffect(() => {
   <div className="mb-8">
 
     <h3 className="
-      text-2xl
-      md:text-4xl
+      text-xl
+md:text-3xl
       font-black
       text-[#0F172A]
     ">
@@ -686,16 +676,6 @@ useEffect(() => {
         {" "}Free Quote
       </span>
     </h3>
-
-    <p className="
-      mt-4
-      text-[#64748B]
-      leading-6
-      max-w-xl
-    ">
-      Fill out the form below and our experts will
-      contact you with the best solution for your business.
-    </p>
 
   </div>
 
@@ -712,7 +692,7 @@ useEffect(() => {
 
 {/* ================= MAP SECTION ================= */}
 <section className="
-  py-10 sm:py-12 md:py-15
+ py-8 sm:py-10
   px-4 sm:px-6
   bg-[#F8FAFC]
 ">
@@ -722,7 +702,7 @@ useEffect(() => {
     {/* SECTION HEADER */}
     <div className="
       text-center
-      mb-14
+      mb-8
     ">
 
       <div className="
@@ -748,9 +728,9 @@ useEffect(() => {
       </div>
 
       <h2 className="
-        text-[30px]
-        sm:text-4xl
-        md:text-5xl
+        text-2xl
+sm:text-3xl
+md:text-4xl
         font-black
         leading-tight
         text-[#0F172A]
@@ -811,8 +791,8 @@ useEffect(() => {
         bg-white/95
         backdrop-blur-xl
         border border-white/50
-        rounded-3xl
-        p-5
+        rounded-2xl
+        p-4
         shadow-[0_10px_40px_rgba(15,23,42,0.12)]
       ">
 

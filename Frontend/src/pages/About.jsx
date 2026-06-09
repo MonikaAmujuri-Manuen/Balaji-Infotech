@@ -66,13 +66,13 @@ export default function About() {
         relative
         overflow-hidden
         bg-[#F8FAFC]
-        lg:min-h-[85vh]
         flex
         items-center
-        pt-28
-        sm:pt-32
-        pb-16
-        sm:pb-20
+        lg:min-h-[70vh]
+        pt-24
+        sm:pt-28
+        pb-10
+        sm:pb-14
       "
     >
 
@@ -164,10 +164,10 @@ export default function About() {
           {/* HEADING */}
           <h1
             className="
-              text-[42px]
-              sm:text-5xl
-              md:text-6xl
-              lg:text-7xl
+              text-[32px]
+              sm:text-4xl
+              md:text-5xl
+              lg:text-6xl
               font-bold
               leading-[1.05]
               tracking-[-2px]
@@ -196,8 +196,8 @@ export default function About() {
           {/* DESCRIPTION */}
           <p
             className="
-              mt-6
-              sm:mt-8
+              mt-4 sm:mt-5
+              leading-7
               text-[15px]
               md:text-[16px]
               leading-8
@@ -220,8 +220,7 @@ export default function About() {
               sm:flex-row
               flex-wrap
               gap-4
-              mt-10
-              sm:mt-12
+              mt-6 sm:mt-8
             "
           >
 
@@ -311,7 +310,7 @@ export default function About() {
           {/* IMAGE CARD */}
           <div
             className="relative mt-4 lg:mt-0
-              rounded-[36px]
+              rounded-[28px]
               overflow-hidden
               border border-white/50
               shadow-[0_20px_80px_rgba(0,0,0,0.12)]
@@ -324,9 +323,9 @@ export default function About() {
               alt="About Balaji Infotech"
               className="
                 w-full
-                h-[320px]
-                sm:h-[420px]
-                lg:h-[520px]
+                h-[280px]
+                sm:h-[400px]
+                lg:h-[500px]
                 object-cover
               "
             />
@@ -380,9 +379,9 @@ export default function About() {
   <section
   className="
     relative
-    py-14
-    sm:py-16
-    md:py-20
+    py-10
+sm:py-12
+md:py-14
     overflow-hidden
   "
 >
@@ -407,7 +406,7 @@ export default function About() {
   <div className="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
 
     {/* HEADING */}
-    <div className="text-center max-w-3xl mx-auto mb-16">
+    <div className="text-center max-w-3xl mx-auto mb-10">
       <p
         className="
           text-[#2F80FF]
@@ -422,9 +421,9 @@ export default function About() {
 
       <h2
         className="
-          text-[32px]
-          sm:text-4xl
-          md:text-6xl
+          text-2xl
+sm:text-3xl
+md:text-4xl
           font-bold
           leading-tight
           text-[#0B1220]
@@ -553,8 +552,9 @@ export default function About() {
           bg-white/80
           backdrop-blur-xl
           border border-white/60
-          rounded-[32px]
-          p-10
+          rounded-[24px]
+          p-5
+          sm:p-6
           shadow-[0_20px_60px_rgba(0,0,0,0.06)]
           overflow-hidden
         "
@@ -596,8 +596,8 @@ export default function About() {
 
         <h3
           className="
-            text-2xl
-            sm:text-3xl
+            text-xl
+            sm:text-2xl
             font-bold
             text-[#0B1220]
             mb-5
@@ -658,8 +658,8 @@ export default function About() {
         <div
           className="
             relative
-            w-14
-            h-14
+            w-12 h-12
+            mb-5
             rounded-2xl
             bg-gradient-to-r
             from-[#2F80FF]
@@ -668,7 +668,6 @@ export default function About() {
             items-center
             justify-center
             shadow-lg
-            mb-8
           "
         >
           <Flag className="w-7 h-7 text-white" />
@@ -708,7 +707,7 @@ export default function About() {
   <section
     className="
       relative
-      py-16 md:py-20
+      py-10 md:py-14
       overflow-hidden
     "
   >
@@ -748,8 +747,8 @@ export default function About() {
 
         <h2
           className="
-            text-3xl
-            md:text-5xl
+            text-2xl
+            md:text-4xl
             font-bold
             text-[#0B1220]
             leading-tight
@@ -797,8 +796,8 @@ export default function About() {
   >
     <h3
   className="
-    text-4xl
-    md:text-6xl
+    text-3xl
+md:text-5xl
     font-bold
     bg-gradient-to-r
     from-[#2F80FF]
@@ -907,9 +906,9 @@ export default function About() {
 <section
   className="
     relative
-    py-14
-    sm:py-20
-    md:py-24
+    py-10
+sm:py-12
+md:py-14
     overflow-hidden
   "
 >
@@ -935,7 +934,7 @@ export default function About() {
   <div className="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
 
     {/* HEADING */}
-    <div className="text-center max-w-3xl mx-auto mb-16">
+    <div className="text-center max-w-3xl mx-auto mb-10">
 
       <p
         className="
@@ -951,8 +950,8 @@ export default function About() {
 
       <h2
         className="
-          text-3xl
-          md:text-5xl
+          text-2xl
+md:text-4xl
           font-bold
           text-[#0B1220]
           leading-tight
@@ -1059,8 +1058,8 @@ export default function About() {
           flex
           gap-5
           items-start
-          p-7
-          rounded-[28px]
+          p-5
+          rounded-[22px]
           bg-white/80
           backdrop-blur-xl
           border border-white/60
@@ -1088,7 +1087,7 @@ export default function About() {
         <div>
           <h3
             className="
-              text-xl
+              text-lg
               font-semibold
               text-[#071426]
               mb-3
@@ -1130,8 +1129,8 @@ export default function About() {
 
         <div
           className="
-            min-w-[58px]
-            h-[58px]
+            min-w-[48px]
+            h-[48px]
             rounded-2xl
             bg-gradient-to-r
             from-[#2F80FF]

@@ -13,20 +13,20 @@ export default function Navbar() {
     <>
       {/* BACKGROUND WRAPPER */}
       {/* BACKGROUND WRAPPER */}
-<header className="fixed inset-x-0 top-0 z-50 px-3 sm:px-6 lg:px-10 py-2">
+<header className="fixed inset-x-0 top-0 z-100 px-3 sm:px-6 lg:px-10 py-0">
   
   {/* GLASS NAVBAR */}
   <nav
     className="
-      max-w-7xl mx-auto w-full
+      max-w-7xl mx-auto 
       flex items-center justify-between
-      px-4 sm:px-5 lg:px-7
+      px-4 lg:px-5
       py-3
       rounded-2xl
-      bg-[#0B1220]/70
-      border border-white/10
-      backdrop-blur-2xl
-      shadow-[0_8px_32px_rgba(0,0,0,0.35)]
+      bg-white
+border border-slate-200
+backdrop-blur-2xl
+shadow-lg
     "
   >
 
@@ -35,7 +35,7 @@ export default function Navbar() {
 
       <div
         className="
-          h-10 w-10 sm:h-11 sm:w-11
+          h-9 w-9
           rounded-xl
           bg-gradient-to-br from-[#2F80FF] to-[#7B61FF]
           flex items-center justify-center
@@ -48,11 +48,11 @@ export default function Navbar() {
       </div>
 
       <div className="leading-tight">
-        <h1 className="text-white text-base sm:text-lg font-semibold">
+        <h1 className="text-[#071426] text-[15px] font-semibold">
           Balaji Infotech
         </h1>
 
-        <p className="text-white/60 text-[10px] sm:text-xs">
+        <p className="text-black text-[10px] sm:text-xs">
           Tally Solutions Partner
         </p>
       </div>
@@ -65,13 +65,14 @@ export default function Navbar() {
         to="/"
         className={({ isActive }) =>
           `relative
-           px-4 py-2.5
+           px-3 py-2
+           text-[15px]
            rounded-full
            transition-all duration-300
            ${
              isActive
-               ? "bg-white/10 backdrop-blur-xl border border-white/10 text-white shadow-[0_4px_20px_rgba(255,255,255,0.08)]"
-               : "text-white/70 hover:text-white hover:bg-white/5"
+               ? "bg-[#EEF4FF] text-[#2563EB] font-medium"
+               : "text-slate-600 hover:text-[#2563EB]"
            }`
         }
       >
@@ -87,8 +88,8 @@ export default function Navbar() {
            transition-all duration-300
            ${
              isActive
-               ? "bg-white/10 backdrop-blur-xl border border-white/10 text-white shadow-[0_4px_20px_rgba(255,255,255,0.08)]"
-               : "text-white/70 hover:text-white hover:bg-white/5"
+               ? "bg-[#EEF4FF] text-[#2563EB] font-medium"
+               : "text-black hover:text-[#2563EB]"
            }`
         }
       >
@@ -107,10 +108,10 @@ export default function Navbar() {
             transition-all duration-300
             flex items-center gap-1
             ${
-              isActive
-                ? "bg-white/10 backdrop-blur-xl border border-white/10 text-white shadow-[0_4px_20px_rgba(255,255,255,0.08)]"
-                : "text-white/70 hover:text-white hover:bg-white/5"
-            }`
+             isActive
+               ? "bg-[#EEF4FF] text-[#2563EB] font-medium"
+               : "text-black hover:text-[#2563EB]"
+           }`
           }
         >
           Products
@@ -133,9 +134,9 @@ export default function Navbar() {
             -translate-x-1/2
             w-[300px]
             rounded-2xl
-            bg-[#1F2937]/95
-            backdrop-blur-xl
-            border border-white/10
+            bg-white
+            border border-slate-200
+            shadow-xl
             shadow-[0_20px_60px_rgba(0,0,0,0.35)]
             overflow-hidden
             opacity-0
@@ -174,9 +175,9 @@ export default function Navbar() {
                 px-6 py-4
                 text-[15px]
                 font-medium
-                text-white/70
-                hover:text-white
-                hover:bg-white/5
+                text-black
+                hover:text-[#2563EB]
+                hover:bg-[#F8FAFC]
                 transition-all duration-300
                 border-b border-white/5
                 last:border-none
@@ -200,10 +201,10 @@ export default function Navbar() {
             transition-all duration-300
             flex items-center gap-1
             ${
-              isActive
-                ? "bg-white/10 backdrop-blur-xl border border-white/10 text-white shadow-[0_4px_20px_rgba(255,255,255,0.08)]"
-                : "text-white/70 hover:text-white hover:bg-white/5"
-            }`
+             isActive
+               ? "bg-[#EEF4FF] text-[#2563EB] font-medium"
+               : "text-black hover:text-[#2563EB]"
+           }`
           }
         >
           Services
@@ -226,10 +227,9 @@ export default function Navbar() {
             -translate-x-1/2
             w-[300px]
             rounded-2xl
-            bg-[#1F2937]/95
-            backdrop-blur-xl
-            border border-white/10
-            shadow-[0_20px_60px_rgba(0,0,0,0.35)]
+            bg-white
+            border border-slate-200
+            shadow-xl
             overflow-hidden
             opacity-0
             invisible
@@ -275,9 +275,9 @@ export default function Navbar() {
                 px-6 py-4
                 text-[15px]
                 font-medium
-                text-white/70
-                hover:text-white
-                hover:bg-white/5
+                text-slate-600
+                hover:text-[#2563EB]
+                hover:bg-[#F8FAFC]
                 transition-all duration-300
                 border-b border-white/5
                 last:border-none
@@ -298,8 +298,8 @@ export default function Navbar() {
            transition-all duration-300
            ${
              isActive
-               ? "bg-white/10 backdrop-blur-xl border border-white/10 text-white shadow-[0_4px_20px_rgba(255,255,255,0.08)]"
-               : "text-white/70 hover:text-white hover:bg-white/5"
+               ? "bg-[#EEF4FF] text-[#2563EB] font-medium"
+               : "text-black hover:text-[#2563EB]"
            }`
         }
       >
@@ -315,8 +315,8 @@ export default function Navbar() {
            transition-all duration-300
            ${
              isActive
-               ? "bg-white/10 backdrop-blur-xl border border-white/10 text-white shadow-[0_4px_20px_rgba(255,255,255,0.08)]"
-               : "text-white/70 hover:text-white hover:bg-white/5"
+               ? "bg-[#EEF4FF] text-[#2563EB] font-medium"
+               : "text-black hover:text-[#2563EB]"
            }`
         }
       >
@@ -332,8 +332,8 @@ export default function Navbar() {
            transition-all duration-300
            ${
              isActive
-               ? "bg-white/10 backdrop-blur-xl border border-white/10 text-white shadow-[0_4px_20px_rgba(255,255,255,0.08)]"
-               : "text-white/70 hover:text-white hover:bg-white/5"
+               ? "bg-[#EEF4FF] text-[#2563EB] font-medium"
+               : "text-black hover:text-[#2563EB]"
            }`
         }
       >
@@ -347,9 +347,10 @@ export default function Navbar() {
   <button
     onClick={() => navigate("/contact#contact-form")}
     className="
-      px-5 py-3
+      px-4 py-2.5
+      rounded-lg
+      text-sm
       whitespace-nowrap
-      rounded-xl
       text-white
       font-medium
       bg-gradient-to-r from-[#2F80FF] to-[#7B61FF]
@@ -368,7 +369,7 @@ export default function Navbar() {
       onClick={() => setMobileMenu(!mobileMenu)}
       className="
         lg:hidden
-        text-white
+        text-[#071426]
         flex items-center justify-center
       "
     >
@@ -383,9 +384,9 @@ export default function Navbar() {
         lg:hidden
         mt-3
         rounded-2xl
-        border border-white/10
-        bg-[#071426]/95
-        backdrop-blur-xl
+        bg-white
+border border-slate-200
+shadow-xl
         p-6
         shadow-2xl
         mx-1
@@ -395,7 +396,7 @@ export default function Navbar() {
 
         <NavLink
           to="/"
-          className="text-white/90 py-3 border-b border-white/5"
+          className="text-black py-3 border-b border-black/50"
           onClick={() => setMobileMenu(false)}
         >
           Home
@@ -403,7 +404,7 @@ export default function Navbar() {
 
         <NavLink
           to="/about"
-          className="text-white/70 py-3 border-b border-white/5"
+          className="text-slate-700 py-3 border-b border-black/50"
           onClick={() => setMobileMenu(false)}
         >
           About
@@ -411,7 +412,7 @@ export default function Navbar() {
 
         <NavLink
           to="/products"
-          className="text-white/70 py-3 border-b border-white/5"
+          className="text-slate-700 py-3 border-b border-black/50"
           onClick={() => setMobileMenu(false)}
         >
           Products
@@ -419,7 +420,7 @@ export default function Navbar() {
 
         <NavLink
           to="/services"
-          className="text-white/70 py-3 border-b border-white/5"
+          className="text-slate-700 py-3 border-b border-black/50"
           onClick={() => setMobileMenu(false)}
         >
           Services
@@ -427,7 +428,7 @@ export default function Navbar() {
 
         <NavLink
           to="/education"
-          className="text-white/70 py-3 border-b border-white/5"
+          className="text-slate-700 py-3 border-b border-black/50"
           onClick={() => setMobileMenu(false)}
         >
           Education
@@ -435,7 +436,7 @@ export default function Navbar() {
 
         <NavLink
           to="/lms"
-          className="text-white/70 py-3 border-b border-white/5"
+          className="text-slate-700 py-3 border-b border-black/50"
           onClick={() => setMobileMenu(false)}
         >
           LMS
@@ -443,7 +444,7 @@ export default function Navbar() {
 
         <NavLink
           to="/contact"
-          className="text-white/70 py-3"
+          className="text-slate-700 py-3"
           onClick={() => setMobileMenu(false)}
         >
           Contact
@@ -455,7 +456,9 @@ export default function Navbar() {
             w-full
             py-3
             rounded-xl
-            bg-gradient-to-r from-[#2F80FF] to-[#7B61FF]
+            bg-gradient-to-r
+            from-[#2F80FF]
+            to-[#7B61FF]
             text-white
             font-medium
           "

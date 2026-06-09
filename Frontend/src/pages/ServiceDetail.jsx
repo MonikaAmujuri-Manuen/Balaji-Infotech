@@ -42,26 +42,6 @@ const ServiceDetail = () => {
       {service.hero && (
         <section className="relative overflow-hidden bg-white">
 
-            <div
-        className="
-          absolute
-          top-0
-          left-1/2
-          -translate-x-1/2
-          w-[400px]
-          h-[400px]
-          sm:w-[550px]
-          sm:h-[550px]
-          lg:w-[700px]
-          lg:h-[700px]
-          bg-gradient-to-r
-          from-[#2F80FF]/10
-          to-[#7B61FF]/10
-          blur-3xl
-          rounded-full
-        "
-      />
-
   {/* LIGHT GRADIENTS */}
   <div className="absolute inset-0 overflow-hidden">
 
@@ -87,11 +67,11 @@ const ServiceDetail = () => {
     relative z-10
     max-w-7xl mx-auto
     px-4 sm:px-6
-    pt-24
-    sm:pt-28
-    lg:pt-32
-    pb-16
-    sm:pb-24
+    pt-20
+    sm:pt-24
+    lg:pt-24
+    pb-10
+    sm:pb-12
     text-center
   ">
 
@@ -116,9 +96,9 @@ const ServiceDetail = () => {
 
     {/* TITLE */}
     <h1 className="
-      text-[34px]
-      sm:text-[48px]
-      lg:text-[60px]
+      text-[30px]
+      sm:text-[40px]
+      lg:text-[48px]
       leading-[1]
       font-[800]
       text-[#071426]
@@ -128,13 +108,7 @@ const ServiceDetail = () => {
 
       {service.hero.title}
 
-      <span className="
-                bg-gradient-to-r
-                from-[#2F80FF]
-                to-[#7B61FF]
-                bg-clip-text
-                text-transparent
-              ">
+      <span className="text-[#2563EB]">
         {service.hero.highlight}
       </span>
 
@@ -142,10 +116,10 @@ const ServiceDetail = () => {
 
     {/* DESCRIPTION */}
     <p className="
-      mt-8
+      mt-6
       text-[15px]
-      sm:text-[16px]
-      md:text-[17px]
+      sm:text-[15px]
+      md:text-[16px]
       leading-[1.9]
       text-[#475569]
       max-w-3xl
@@ -171,13 +145,11 @@ const ServiceDetail = () => {
         sm:px-8
         py-4
         rounded-2xl
-        bg-gradient-to-r
-        from-[#1178D4]
-        to-[#6C63FF]
+        bg-[#2563EB]
+        hover:bg-[#1D4ED8]
         text-white
         font-semibold
         text-lg
-        shadow-[0_10px_40px_rgba(17,120,212,0.20)]
         hover:scale-[1.03]
         transition-all duration-300
       ">
@@ -195,7 +167,7 @@ const ServiceDetail = () => {
       
       {/* TABS SECTION */}
       {service.subServices &&(
-      <section className="py-14 sm:py-20 md:py-24 px-4 sm:px-6 bg-white">
+      <section className="py-8 sm:py-10 md:py-12 px-4 sm:px-4 bg-white">
 
       <div className="max-w-7xl mx-auto">
 
@@ -219,9 +191,9 @@ const ServiceDetail = () => {
       </div>
 
       <h2 className="
-        text-[30px]
-        sm:text-4xl
-        lg:text-5xl
+        text-[26px]
+        sm:text-3xl
+        lg:text-4xl
         font-bold
         text-[#071426]
         leading-tight
@@ -237,25 +209,9 @@ const ServiceDetail = () => {
         rounded-[24px]
         sm:rounded-[36px]
         border border-[#D9E3F0]
-        bg-gradient-to-br
-        from-white
-        to-[#F8FBFF]
-        overflow-hidden
-
-        shadow-[0_10px_40px_rgba(15,23,42,0.06)]
-
-        before:absolute
-        before:inset-0
-        before:rounded-[36px]
-        before:border
-        before:border-white/60
-        before:pointer-events-none"
+        bg-white
+        overflow-hidden"
     >
-        <div className="
-            absolute inset-0
-            bg-[radial-gradient(circle_at_top_left,rgba(17,120,212,0.05),transparent_35%)]
-            pointer-events-none
-            " />
 
       <div className="flex flex-col lg:flex-row">
 
@@ -308,7 +264,7 @@ const ServiceDetail = () => {
                     shrink-0
 
                     ${isActive
-                      ? "bg-gradient-to-r from-[#1178D4] to-[#6C63FF] text-white border-transparent shadow-[0_10px_30px_rgba(17,120,212,0.20)]"
+                      ? "bg-[#2563EB] text-white border-transparent"
                       : "bg-white border-[#E2E8F0] text-[#0F172A] hover:border-[#1178D4]/40 hover:bg-[#F8FBFF]"
                     }
                   `}
@@ -355,41 +311,6 @@ const ServiceDetail = () => {
 
         <div className="flex-1 relative overflow-hidden">
 
-            <div
-        className="
-          absolute
-          top-0
-          left-1/2
-          -translate-x-1/2
-          w-[350px]
-          h-[350px]
-          sm:w-[500px]
-          sm:h-[500px]
-          lg:w-[700px]
-          lg:h-[700px]
-          bg-gradient-to-r
-          from-[#2F80FF]/10
-          to-[#7B61FF]/10
-          blur-3xl
-          rounded-full
-        "
-      />
-
-            <div className="
-            absolute top-[-120px] right-[-120px]
-            w-[320px] h-[320px]
-            bg-[#1178D4]/10
-            blur-[100px]
-            rounded-full
-            " />
-
-            <div className="
-            absolute bottom-[-120px] left-[-120px]
-            w-[320px] h-[320px]
-            bg-[#6C63FF]/10
-            blur-[100px]
-            rounded-full
-            " />
 
           <AnimatePresence mode="wait">
 
@@ -401,9 +322,9 @@ const ServiceDetail = () => {
               transition={{ duration: 0.35 }}
               className="
                 p-5
-                sm:p-8
-                md:p-12
-                lg:p-16
+                sm:p-6
+                md:p-8
+                lg:p-10
               "
             >
 
@@ -445,9 +366,9 @@ const ServiceDetail = () => {
                 </p>
 
                 <h3 className="
-                text-[24px]
-                sm:text-2xl
-                md:text-3xl
+                text-[22px]
+                sm:text-[24px]
+                md:text-[28px]
                 font-bold
                 text-[#071426]
                 leading-tight
@@ -473,10 +394,10 @@ const ServiceDetail = () => {
 
               {/* FEATURES */}
               <div className="
-                mt-10
+                mt-8
+                gap-x-6
+                gap-y-4
                 grid grid-cols-1 sm:grid-cols-2
-                gap-x-10
-                gap-y-6
                 max-w-4xl
               ">
 
@@ -537,7 +458,7 @@ const ServiceDetail = () => {
       
       {/* CTA SECTION */}
       {service.cta && (
-        <section className="py-14 sm:py-16 md:py-20 px-4 sm:px-6 bg-white">
+        <section className="py-8 sm:py-10 md:py-12 px-4 sm:px-4 bg-white">
             
 
           <div className="max-w-5xl mx-auto text-center">
@@ -561,9 +482,9 @@ const ServiceDetail = () => {
 
             {/* TITLE */}
             <h2 className="
-              text-[30px]
-              sm:text-5xl
-              lg:text-6xl
+              text-[26px]
+              sm:text-3xl
+              lg:text-4xl
               font-bold
               leading-tight
               text-[#071426]
@@ -573,7 +494,7 @@ const ServiceDetail = () => {
 
             {/* DESCRIPTION */}
             <p className="
-              mt-8
+              mt-5
               text-[15px]
               sm:text-lg
               md:text-xl
@@ -587,7 +508,7 @@ const ServiceDetail = () => {
 
             {/* BUTTONS */}
             <div className="
-              mt-10
+              mt-6
               flex flex-col sm:flex-row
               items-center justify-center
               gap-5
@@ -601,13 +522,11 @@ const ServiceDetail = () => {
                 sm:px-8
                 py-4
                 rounded-2xl
-                bg-gradient-to-r
-                from-[#1178D4]
-                to-[#6C63FF]
+                bg-[#2563EB]
+                hover:bg-[#1D4ED8]
                 text-white
                 font-semibold
                 text-lg
-                shadow-[0_10px_40px_rgba(17,120,212,0.20)]
                 hover:scale-[1.03]
                 transition-all duration-300
               ">
@@ -641,28 +560,6 @@ const ServiceDetail = () => {
 
         </section>
       )}
-
-      
-      {/* FLOATING BUTTON */}
-
-      <button className="
-        fixed bottom-6 right-6 z-50
-        w-14 h-14
-        sm:w-16 sm:h-16
-        rounded-full
-        bg-gradient-to-r
-        from-[#1178D4]
-        to-[#6C63FF]
-        text-white
-        shadow-[0_15px_50px_rgba(17,120,212,0.35)]
-        flex items-center justify-center
-        hover:scale-110
-        transition-all duration-300
-      ">
-
-        <Phone className="w-6 h-6 sm:w-7 sm:h-7" />
-
-      </button>
 
     </>
   );
