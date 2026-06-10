@@ -5,6 +5,7 @@ import tallyPrime from "../assets/tallyPrime.png";
 import tallyServer from "../assets/tallyServer.png";
 import tallyAws from "../assets/tallyAws.png"
 import tallyMobile from "../assets/tallyMobile.png"
+import dashboardImage from "../assets/products-dashboard.png";
 
 
 export default function Products() {
@@ -12,6 +13,7 @@ export default function Products() {
     <>
 
       {/* ================= HERO SECTION ================= */}
+      {false && (
       <section
   className="
     relative
@@ -103,6 +105,203 @@ export default function Products() {
             </p>
           </div>
         </div>
+      </section>
+      )}
+
+      <section
+  className="
+    relative
+    pt-24
+    pb-10
+    lg:pt-24
+    lg:pb-12
+    overflow-hidden
+    bg-gradient-to-br
+    from-slate-50
+    via-white
+    to-blue-50
+  "
+>
+  {/* Background Glow */}
+  <div
+    className="
+      absolute
+      top-0
+      left-1/2
+      -translate-x-1/2
+      w-[700px]
+      h-[700px]
+      bg-gradient-to-r
+      from-[#2563EB]/10
+      to-[#7B61FF]/10
+      rounded-full
+      blur-3xl
+    "
+  />
+
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+    <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+
+      {/* LEFT CONTENT */}
+      <div>
+
+        <span
+          className="
+            inline-flex
+            items-center
+            px-5
+            py-2
+            rounded-full
+            bg-white
+            border
+            border-slate-200
+            text-[#2563EB]
+            text-sm
+            font-medium
+            shadow-sm
+          "
+        >
+          Enterprise Tally Solutions
+        </span>
+
+        <h1
+          className="
+            mt-5
+            text-3xl sm:text-4xl lg:text-[44px]
+            font-black
+            leading-tight
+            text-[#071426]
+          "
+        >
+          Smart Tally Solutions
+          <br />
+
+          <span className="text-[#2563EB]">
+            For Modern Businesses
+          </span>
+        </h1>
+
+        <p
+          className="
+            mt-4
+            text-base lg:text-lg
+            text-slate-600
+            leading-8
+            max-w-xl
+          "
+        >
+          Explore intelligent Tally solutions designed for accounting,
+          automation, cloud infrastructure, business management and
+          enterprise productivity.
+        </p>
+
+        {/* CTA BUTTONS */}
+        <div className="flex flex-col sm:flex-row gap-4 mt-8">
+          <button
+            className="
+              px-7
+              py-3.5
+              rounded-xl
+              bg-[#2563EB]
+              text-white
+              font-semibold
+              shadow-lg
+              hover:shadow-xl
+              transition
+            "
+          >
+            Explore Products
+          </button>
+
+          <button
+            className="
+              px-7
+              py-3.5
+              rounded-xl
+              border
+              border-slate-300
+              bg-white
+              font-semibold
+              hover:bg-slate-50
+              transition
+            "
+          >
+            Book Free Demo
+          </button>
+        </div>
+
+        {/* STATS */}
+        <div className="flex flex-wrap gap-8 mt-8">
+
+          <div>
+            <h3 className="text-2xl font-bold text-[#071426]">
+              5000+
+            </h3>
+            <p className="text-slate-500 text-sm">
+              Businesses Served
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-2xl font-bold text-[#071426]">
+              15+
+            </h3>
+            <p className="text-slate-500 text-sm">
+              Years Experience
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-2xl font-bold text-[#071426]">
+              24/7
+            </h3>
+            <p className="text-slate-500 text-sm">
+              Support
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      {/* RIGHT SIDE */}
+      <div className="relative">
+
+        <div className="
+        absolute
+        top-8
+        right-8
+        bg-white
+        rounded-xl
+        shadow-lg
+        px-4
+        py-3
+        ">
+          <p className="text-xs text-slate-500">
+            Trusted Solution
+          </p>
+          <p className="font-semibold">
+            TallyPrime Partner
+          </p>
+        </div>
+
+        {/* Illustration Container */}
+        <div
+          className="
+            relative
+            p-4
+          "
+        >
+          <img
+            src={dashboardImage}
+            alt="Business Dashboard"
+            className="w-[80%] mx-auto h-auto"
+          />
+        </div>
+
+      </div>
+
+    </div>
+  </div>
       </section>
 
       {/* ================= PRODUCTS GRID ================= */}
