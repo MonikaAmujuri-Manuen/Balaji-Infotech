@@ -1,10 +1,12 @@
 import { motion } from "framer-motion";
-import { useInView } from "framer-motion";
+import { Fragment } from "react";
+import { default as CountUp } from "react-countup";
+import { useInView } from "react-intersection-observer";
 import { useNavigate } from "react-router-dom";
 
 import { useEffect, useState, useRef } from "react";
 import {
-  ArrowRight,
+  ArrowRight, Building2, CalendarDays, 
   ShieldCheck,
   BadgeCheck,
   Clock3,
@@ -14,30 +16,19 @@ import {
 
 import aboutImg from "../assets/about-hero.png";
 
-  const AnimatedCounter = ({ end, suffix = "" }) => {
+function AnimatedCounter({ value, suffix = "" }) {
   const [count, setCount] = useState(0);
 
-  const ref = useRef(null);
-
-  const isInView = useInView(ref, {
-    once: true,
-    margin : "-100px"
-  });
-
   useEffect(() => {
-
-    if(!isInView) return;
-
     let start = 0;
-
-    const duration = 2000;
-    const increment = end / (duration / 16);
+    const duration = 1500;
+    const increment = value / (duration / 16);
 
     const timer = setInterval(() => {
       start += increment;
 
-      if (start >= end) {
-        setCount(end);
+      if (start >= value) {
+        setCount(value);
         clearInterval(timer);
       } else {
         setCount(Math.floor(start));
@@ -45,18 +36,48 @@ import aboutImg from "../assets/about-hero.png";
     }, 16);
 
     return () => clearInterval(timer);
-  }, [end, isInView]);
+  }, [value]);
 
   return (
-    <span ref={ref}>
+    <>
       {count}
       {suffix}
-    </span>
+    </>
   );
-};
-
+}
 export default function About() {
   const navigate = useNavigate();
+
+  const { ref, inView } = useInView({
+  triggerOnce: true,
+  threshold: 0.3,
+});
+
+const [activeStep, setActiveStep] = useState(0);
+
+const foundationData = [
+  {
+    icon: Target,
+    title: "Our Mission",
+    description:
+      "Our mission is to provide tailored, efficient, and user-friendly Tally solutions that enhance operational efficiency, improve financial accuracy, and support sustainable business growth.",
+    chips: ["Efficiency", "Accuracy", "Growth", "Support", "Compliance"],
+  },
+  {
+    icon: Eye,
+    title: "Our Vision",
+    description:
+      "To be a leading provider of innovative Tally solutions recognized for excellence, customer satisfaction, and continuous improvement in financial management.",
+    chips: ["Innovation", "Trust", "Excellence", "Leadership", "Technology"],
+  },
+  {
+    icon: Flag,
+    title: "Our Goals",
+    description:
+      "Deliver comprehensive Tally solutions that simplify accounting, inventory management, payroll processing, taxation, and compliance operations.",
+    chips: ["GST", "Payroll", "Inventory", "Training", "Automation"],
+  },
+];
   return (
 
     <>
@@ -65,7 +86,7 @@ export default function About() {
       className="
         relative
         overflow-hidden
-        bg-[#F8FAFC]
+        bg-white
         flex
         items-center
         lg:min-h-[70vh]
@@ -80,17 +101,17 @@ export default function About() {
       <div className="absolute inset-0 overflow-hidden">
 
         <div
-          className="
-            absolute
-            top-[-10%]
-            left-[-10%]
-            w-[500px]
-            h-[500px]
-            rounded-full
-            bg-[#2F80FF]/10
-            blur-3xl
-          "
-        />
+        className="
+          absolute
+          top-[-200px]
+          right-[-100px]
+          w-[700px]
+          h-[700px]
+          rounded-full
+          bg-[#155A96]/10
+          blur-3xl
+        "
+      />
 
         <div
           className="
@@ -138,8 +159,8 @@ export default function About() {
               px-4
               py-2
               rounded-full
-              bg-white
-              border border-gray-200
+              bg-[#155A96]/8
+              border-[#155A96]/15
               shadow-sm
               mb-6
             "
@@ -147,14 +168,14 @@ export default function About() {
 
             <ShieldCheck
               size={18}
-              className="text-[#2F80FF]"
+              className="text-[#155A96]"
             />
 
             <span
               className="
                 text-sm
                 font-medium
-                text-[#071426]
+                text-[#155A96]
               "
             >
               Trusted Tally Solutions Partner
@@ -164,7 +185,7 @@ export default function About() {
           {/* HEADING */}
           <h1
             className="
-              text-[32px]
+              text-[30px]
               sm:text-4xl
               md:text-5xl
               lg:text-6xl
@@ -179,11 +200,9 @@ export default function About() {
 
             <span
               className="
-                bg-gradient-to-r
-                from-[#2F80FF]
-                to-[#7B61FF]
+                text-[#155A96]
                 bg-clip-text
-                text-transparent
+                
               "
             >
               of Excellence
@@ -235,8 +254,8 @@ export default function About() {
                 py-4
                 rounded-2xl
                 bg-gradient-to-r
-                from-[#2F80FF]
-                to-[#7B61FF]
+                bg-[#155A96]
+                hover:bg-[#124A7C]
                 text-white
                 font-medium
                 flex
@@ -274,8 +293,8 @@ export default function About() {
                 font-medium
                 transition-all
                 duration-300
-                hover:border-[#2F80FF]
-                hover:text-[#2F80FF]
+                hover:border-[#155A96]
+                hover:text-[#155A96]
                 hover:shadow-lg
               "
             >
@@ -312,7 +331,7 @@ export default function About() {
             className="relative mt-4 lg:mt-0
               rounded-[28px]
               overflow-hidden
-              border border-white/50
+              border border-[#155A96]/10
               shadow-[0_20px_80px_rgba(0,0,0,0.12)]
               bg-white
             "
@@ -323,69 +342,147 @@ export default function About() {
               alt="About Balaji Infotech"
               className="
                 w-full
-                h-[280px]
-                sm:h-[400px]
-                lg:h-[500px]
+                h-[240px]
+                sm:h-[360px]
+                lg:h-[460px]
                 object-cover
               "
             />
             <div className="absolute inset-0 bg-black/10" />
           </div>
 
-          {/* FLOATING CARD */}
-          <div
-            className="
-              absolute
-              -bottom-6
-              left-4
-              sm:left-8
-              bg-white/80
-              backdrop-blur-xl
-              border border-white/60
-              rounded-3xl
-              px-5
-              sm:px-6
-              py-4
-              sm:py-5
-              shadow-[0_20px_40px_rgba(0,0,0,0.08)]
-            "
-          >
-
-            <p
-              className="
-                text-sm
-                text-gray-500
-              "
-            >
-              Trusted by Businesses
-            </p>
-
-            <h3
-              className="
-                text-3xl
-                font-bold
-                text-[#071426]
-                mt-1
-              "
-            >
-              5000+
-            </h3>
-          </div>
         </motion.div>
       </div>
     </section>
 
+    <section ref={ref} className="relative z-28 -mt-12 lg:-mt-6">
+  <div className="max-w-5xl mx-auto px-4 sm:px-6">
+
+    <div
+      className="
+        bg-[#155A96]
+        rounded-[24px]
+        border border-white/10
+        shadow-[0_15px_40px_rgba(21,90,150,0.18)]
+        overflow-hidden
+      "
+    >
+      <div
+        className="
+          grid
+          grid-cols-2
+          lg:grid-cols-4
+        "
+      >
+        {[
+          {
+            value: 24,
+            suffix: "+",
+            label: "Years Experience",
+            icon: CalendarDays,
+          },
+          {
+            value: 1000,
+            suffix: "+",
+            label: "Happy Clients",
+            icon: Users,
+          },
+          {
+            value: 500,
+            suffix: "+",
+            label: "Business Partners",
+            icon: Building2,
+          },
+          {
+            value: 99,
+            suffix: "%",
+            label: "Customer Satisfaction",
+            icon: BadgeCheck,
+          },
+        ].map((item, index) => (
+          <div 
+            key={index}
+            className="
+              relative
+              px-5
+              py-3 lg:py-4
+              text-center
+            "
+          >
+            {/* Divider */}
+            {index !== 3 && (
+              <div
+                className="
+                  hidden
+                  lg:block
+                  absolute
+                  right-0
+                  top-1/2
+                  -translate-y-1/2
+                  h-20
+                  w-px
+                  bg-white/10
+                "
+              />
+            )}
+
+            <div
+              className="
+                w-8 h-8
+                mx-auto
+                mb-3
+                rounded-2xl
+                bg-white/10
+                flex
+                items-center
+                justify-center
+              "
+            >
+              <item.icon
+                className="
+                  w-5
+                  h-5
+                  text-[#F0AE11]
+                "
+              />
+            </div>
+
+            <h3
+              className="
+                text-2xl lg:text-3xl
+                font-bold
+                text-white
+                mb-2
+              "
+            >
+              {inView && (
+                <AnimatedCounter
+                  value={item.value}
+                  suffix={item.suffix}
+                />
+              )}
+            </h3>
+
+            <p
+              className="
+                text-white/80
+                text-xs lg:text-sm
+              "
+            >
+              {item.label}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+
+  </div>
+</section>
+
     {/* MISSION SECTION */}
-  <section
-  className="
-    relative
-    py-10
-sm:py-12
-md:py-14
-    overflow-hidden
-  "
->
-  {/* BACKGROUND GLOW */}
+  <section className="relative py-10 lg:py-14 overflow-hidden">
+
+  {/* Background Glow */}
   <div
     className="
       absolute
@@ -395,21 +492,20 @@ md:py-14
       -translate-y-1/2
       w-[700px]
       h-[700px]
-      bg-gradient-to-r
-      from-[#2F80FF]/10
-      to-[#7B61FF]/10
-      blur-3xl
       rounded-full
+      bg-[#155A96]/5
+      blur-3xl
     "
   />
 
   <div className="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
 
-    {/* HEADING */}
+    {/* Heading */}
     <div className="text-center max-w-3xl mx-auto mb-10">
+
       <p
         className="
-          text-[#2F80FF]
+          text-[#155A96]
           font-semibold
           tracking-[0.25em]
           uppercase
@@ -421,13 +517,11 @@ md:py-14
 
       <h2
         className="
-          text-2xl
-sm:text-3xl
-md:text-4xl
+          text-3xl
+          md:text-4xl
           font-bold
-          leading-tight
-          text-[#0B1220]
-          mb-6
+          text-[#071426]
+          mb-4
         "
       >
         Mission, Vision & Goals
@@ -435,8 +529,8 @@ md:text-4xl
 
       <p
         className="
-          text-[16px] md:text-[17px]
           text-[#5B6475]
+          text-lg
           leading-relaxed
         "
       >
@@ -444,463 +538,262 @@ md:text-4xl
         enterprise support, and modern accounting systems
         designed for long-term growth.
       </p>
-    </div>
-
-    {/* GRID */}
-    <div
-      className="
-        grid
-        grid-cols-1
-        md:grid-cols-3
-        gap-8
-      "
-    >
-
-      {/* CARD 1 */}
-      <motion.div
-        whileHover={{
-          y: -10,
-        }}
-        transition={{
-          duration: 0.3,
-        }}
-        className="
-          group
-          relative
-          bg-white/80
-          backdrop-blur-xl
-          border border-white/60
-          rounded-[32px]
-          p-7
-          sm:p-10
-          shadow-[0_20px_60px_rgba(0,0,0,0.06)]
-          overflow-hidden
-        "
-      >
-
-        {/* CARD GLOW */}
-        <div
-          className="
-            absolute
-            inset-0
-            opacity-0
-            group-hover:opacity-100
-            transition
-            duration-500
-            bg-gradient-to-br
-            from-[#2F80FF]/5
-            to-[#7B61FF]/10
-          "
-        />
-
-        {/* ICON */}
-        <div
-          className="
-            relative
-            w-14
-            h-14
-            rounded-2xl
-            bg-gradient-to-r
-            from-[#2F80FF]
-            to-[#7B61FF]
-            flex
-            items-center
-            justify-center
-            shadow-lg
-            mb-8
-          "
-        >
-          <Target className="w-7 h-7 text-white" />
-        </div>
-
-        <h3
-          className="
-            text-2xl
-            sm:text-3xl
-            font-bold
-            text-[#0B1220]
-            mb-5
-          "
-        >
-          Our Mission
-        </h3>
-
-        <p
-          className="
-            text-[#5B6475]
-            leading-relaxed
-            text-[15px] md:text-[16px]
-          "
-        >
-          Our mission is to provide tailored, efficient, and user-friendly solutions that 
-          enhance operational efficiency and financial accuracy for our clients.
-        </p>
-
-      </motion.div>
-
-      {/* CARD 2 */}
-      <motion.div
-        whileHover={{
-          y: -10,
-        }}
-        transition={{
-          duration: 0.3,
-        }}
-        className="
-          group
-          relative
-          bg-white/80
-          backdrop-blur-xl
-          border border-white/60
-          rounded-[24px]
-          p-5
-          sm:p-6
-          shadow-[0_20px_60px_rgba(0,0,0,0.06)]
-          overflow-hidden
-        "
-      >
-
-        <div
-          className="
-            absolute
-            inset-0
-            opacity-0
-            group-hover:opacity-100
-            transition
-            duration-500
-            bg-gradient-to-br
-            from-[#2F80FF]/5
-            to-[#7B61FF]/10
-          "
-        />
-
-        {/* ICON */}
-        <div
-          className="
-            relative
-            w-14
-            h-14
-            rounded-2xl
-            bg-gradient-to-r
-            from-[#2F80FF]
-            to-[#7B61FF]
-            flex
-            items-center
-            justify-center
-            shadow-lg
-            mb-8
-          "
-        >
-          <Eye className="w-7 h-7 text-white" />
-        </div>
-
-        <h3
-          className="
-            text-xl
-            sm:text-2xl
-            font-bold
-            text-[#0B1220]
-            mb-5
-          "
-        >
-          Our Vision
-        </h3>
-
-        <p
-          className="
-            text-[#5B6475]
-            leading-relaxed
-            text-[15px] md:text-[16px]
-          "
-        >
-          To be a leading provider of innovative Tally solutions, recognized for our 
-          commitment to excellence, customer satisfaction, and continuous improvement in financial management.
-        </p>
-
-      </motion.div>
-
-      {/* CARD 3 */}
-      <motion.div
-        whileHover={{
-          y: -10,
-        }}
-        transition={{
-          duration: 0.3,
-        }}
-        className="
-          group
-          relative
-          bg-white/80
-          backdrop-blur-xl
-          border border-white/60
-          rounded-[32px]
-          p-10
-          shadow-[0_20px_60px_rgba(0,0,0,0.06)]
-          overflow-hidden
-        "
-      >
-
-        <div
-          className="
-            absolute
-            inset-0
-            opacity-0
-            group-hover:opacity-100
-            transition
-            duration-500
-            bg-gradient-to-br
-            from-[#2F80FF]/5
-            to-[#7B61FF]/10
-          "
-        />
-
-        {/* ICON */}
-        <div
-          className="
-            relative
-            w-12 h-12
-            mb-5
-            rounded-2xl
-            bg-gradient-to-r
-            from-[#2F80FF]
-            to-[#7B61FF]
-            flex
-            items-center
-            justify-center
-            shadow-lg
-          "
-        >
-          <Flag className="w-7 h-7 text-white" />
-        </div>
-
-        <h3
-          className="
-            text-2xl
-            sm:text-3xl
-            font-bold
-            text-[#0B1220]
-            mb-5
-          "
-        >
-          Our Goals
-        </h3>
-
-        <p
-          className="
-            text-[#5B6475]
-            leading-relaxed
-            text-[15px] md:text-[16px]
-          "
-        >
-          At Balaji Ai Infotech, we are dedicated to delivering comprehensive 
-          Tally-based solutions and services that empower businesses to streamline their accounting, 
-          inventory, and compliance processes.
-        </p>
-
-      </motion.div>
 
     </div>
-  </div>
-  </section>
+    <div className="grid lg:grid-cols-[180px_1fr] gap-8 items-start">
 
-  {/*  STATS SECTION  */}
-  <section
-    className="
-      relative
-      py-10 md:py-14
-      overflow-hidden
-    "
-  >
-    {/* BACKGROUND GLOW */}
-    <div
-      className="
-        absolute
-        top-1/2
-        left-1/2
-        -translate-x-1/2
-        -translate-y-1/2
-        w-[600px]
-        h-[600px]
-        bg-gradient-to-r
-        from-[#2F80FF]/10
-        to-[#7B61FF]/10
-        blur-3xl
-        rounded-full
-      "
-    />
+    {/* Timeline */}
+    {/* Vertical Timeline */}
+<div className="hidden lg:flex justify-center self-stretch">
 
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
+  <div className="sticky top-32">
 
-      {/* HEADING */}
-      <div className="text-center max-w-3xl mx-auto mb-16">
-        <p
-          className="
-            text-[#2F80FF]
-            font-semibold
-            tracking-[0.25em]
-            uppercase
-            mb-4
-          "
-        >
-          Our Achievements
-        </p>
-
-        <h2
-          className="
-            text-2xl
-            md:text-4xl
-            font-bold
-            text-[#0B1220]
-            leading-tight
-            mb-6
-          "
-        >
-          Trusted By Businesses
-          Across Industries
-        </h2>
-
-        <p
-          className="
-            text-[16px] md:text-[17px]
-            text-[#5B6475]
-            leading-relaxed
-          "
-        >
-          With decades of experience and long-term client trust,
-          we continue delivering reliable Tally solutions and
-          enterprise support services.
-        </p>
-      </div>
-
-      
-      {/* STATS GRID */}
+    {/* Grey Line */}
 <div
   className="
-    grid
-    grid-cols-1
-    md:grid-cols-3
-    gap-10
-    md:gap-12
-    text-center
+    absolute
+    left-4
+    top-8
+    h-[320px]
+    w-[2px]
+    bg-slate-200
   "
->
+/>
 
-  {/* ITEM 1 */}
-  <div
-    className="
-      flex
-      flex-col
-      items-center
-      justify-center
-    "
-  >
-    <h3
+{/* Active Blue Line */}
+<div
   className="
-    text-3xl
-md:text-5xl
-    font-bold
-    bg-gradient-to-r
-    from-[#2F80FF]
-    to-[#7B61FF]
-    bg-clip-text
-    text-transparent
-    mb-4
+    absolute
+    left-4
+    top-4
+    w-[2px]
+    bg-[#155A96]
+    transition-all
+    duration-500
   "
->
-  <AnimatedCounter end={24} suffix="+" />
-</h3>
+  style={{
+    height:
+      activeStep === 0
+        ? "0px"
+        : activeStep === 1
+        ? "210px"
+        : "335px",
+  }}
+/>
 
-    <p
-      className="
-        text-lg
-        md:text-xl
-        font-semibold
-        text-[#0B1220]
-      "
-    >
-      Years of Experience
-    </p>
-  </div>
+    {[
+      "Mission",
+      "Vision",
+      "Goals"
+    ].map((item, index) => (
 
-  {/* ITEM 2 */}
-  <div
-    className="
-      flex
-      flex-col
-      items-center
-      justify-center
-      md:border-x
-      border-gray-200
-    "
-  >
-    <h3
-  className="
-    text-4xl
-    md:text-6xl
-    font-bold
-    bg-gradient-to-r
-    from-[#2F80FF]
-    to-[#7B61FF]
-    bg-clip-text
-    text-transparent
-    mb-4
-  "
->
-  <AnimatedCounter end={100} suffix="%" />
-</h3>
+      <div
+        key={index}
+        onClick={() => setActiveStep(index)}
+        className={`
+          relative
+          flex
+          items-start
+          gap-4
+          cursor-pointer
+          z-10
+          ${index !== 2 ? "pb-35" : ""}
+        `}
+      >
+        {/* Circle */}
+        <div
+          className={`
+            w-8
+            h-8
+            rounded-full
+            flex
+            items-center
+            justify-center
+            font-semibold
+            z-10
+            transition-all
+            ${
+              activeStep >= index
+                ? "bg-[#155A96] text-white"
+                : "bg-slate-200 text-slate-500"
+            }
+          `}
+        >
+          {index + 1}
+        </div>
 
-    <p
-      className="
-        text-lg
-        md:text-xl
-        font-semibold
-        text-[#0B1220]
-      "
-    >
-      Customer Satisfaction
-    </p>
-  </div>
+        {/* Label */}
+        <div>
+          <h4
+            className={`
+              text-2xl
+              font-bold
+              transition-all
+              ${
+                activeStep === index
+                  ? "text-[#155A96]"
+                  : "text-slate-500"
+              }
+            `}
+          >
+            {item}
+          </h4>
+        </div>
 
-  {/* ITEM 3 */}
-  <div
-    className="
-      flex
-      flex-col
-      items-center
-      justify-center
-    "
-  >
-    <h3
-  className="
-    text-4xl
-    md:text-6xl
-    font-bold
-    bg-gradient-to-r
-    from-[#2F80FF]
-    to-[#7B61FF]
-    bg-clip-text
-    text-transparent
-    mb-4
-  "
->
-  <AnimatedCounter end={1000} suffix="+" />
-</h3>
+      </div>
+    ))}
 
-    <p
-      className="
-        text-lg
-        md:text-xl
-        font-semibold
-        text-[#0B1220]
-      "
-    >
-      Happy Clients
-    </p>
   </div>
 
 </div>
+
+    {/* Content Card */}
+    <div
+      className="
+        max-w-3xl
+        mx-auto
+        bg-white
+        rounded-[32px]
+        border
+        border-slate-200
+        p-5
+        md:p-8
+        shadow-[0_15px_50px_rgba(0,0,0,0.05)]
+      "
+    >
+      {(() => {
+        const current = foundationData[activeStep];
+        const Icon = current.icon;
+
+        return (
+          <>
+            <div className="flex items-center gap-5 mb-5">
+
+              <div
+                className="
+                  w-16 h-16
+                  rounded-2xl
+                  bg-[#155A96]
+                  flex items-center justify-center
+                  shrink-0
+                "
+              >
+                <Icon className="w-8 h-8 text-white" />
+              </div>
+
+              <div>
+                <p className="text-[#155A96] font-medium">
+                  Foundation Pillar
+                </p>
+
+                <h3 className="text-4xl font-bold text-[#071426]">
+                  {current.title}
+                </h3>
+                <p
+                  className="
+                    text-xl
+                    font-medium
+                    text-[#155A96]
+                    mb-5
+                  "
+                >
+                  Driving Business Growth Through Smarter Tally Solutions
+                </p>
+              </div>
+
+            </div>
+
+            {/* Description */}
+            <p
+              className="
+                text-[#5B6475]
+                leading-8
+                text-lg
+                max-w-3xl
+              "
+            >
+              {current.description}
+            </p>
+
+            {/* Chips */}
+            <div className="flex flex-wrap gap-3 mt-8">
+
+              {current.chips.map((chip, index) => (
+                <div
+                  key={index}
+                  className="
+                    px-4
+                    py-2
+                    rounded-full
+                    bg-[#155A96]/10
+                    text-[#155A96]
+                    font-medium
+                  "
+                >
+                  {chip}
+                </div>
+              ))}
+
+            </div>
+
+            {/* Navigation */}
+            <div
+              className="
+                flex
+                justify-between
+                items-center
+                mt-8
+                pt-4
+                border-t
+                border-slate-200
+              "
+            >
+
+              <button
+                onClick={() =>
+                  setActiveStep(
+                    Math.max(activeStep - 1, 0)
+                  )
+                }
+                disabled={activeStep === 0}
+                className="
+                  text-slate-500
+                  font-medium
+                  disabled:opacity-30
+                "
+              >
+                ← Previous
+              </button>
+
+              <button
+                onClick={() =>
+                  setActiveStep(
+                    Math.min(activeStep + 1, 2)
+                  )
+                }
+                disabled={activeStep === 2}
+                className="
+                  px-5
+                  py-3
+                  rounded-xl
+                  bg-[#155A96]
+                  text-white
+                  font-medium
+                  disabled:opacity-30
+                "
+              >
+                Next →
+              </button>
+
+            </div>
+          </>
+        );
+      })()}
     </div>
-  </section>
+  </div>
+  </div>
+
+</section>
 
   {/* BUSINESS OBJECTIVES SECTION */}
 <section
@@ -923,9 +816,7 @@ md:py-14
       -translate-y-1/2
       w-[700px]
       h-[700px]
-      bg-gradient-to-r
-      from-[#2F80FF]/10
-      to-[#7B61FF]/10
+      bg-[#155A96]/8
       blur-3xl
       rounded-full
     "
@@ -938,7 +829,7 @@ md:py-14
 
       <p
         className="
-          text-[#2F80FF]
+          text-[#155A96]
           font-semibold
           tracking-[0.25em]
           uppercase
@@ -950,8 +841,8 @@ md:py-14
 
       <h2
         className="
-          text-2xl
-md:text-4xl
+          text-3xl
+          md:text-4xl
           font-bold
           text-[#0B1220]
           leading-tight
@@ -988,7 +879,10 @@ md:text-4xl
 
       {/* ITEM */}
       <motion.div
-        whileHover={{ y: -6 }}
+        whileHover={{
+          y: -6,
+          boxShadow: "0 20px 50px rgba(21,90,150,0.12)"
+        }}
         transition={{ duration: 0.3 }}
         className="
           group
@@ -1002,7 +896,10 @@ md:text-4xl
           rounded-[28px]
           bg-white/80
           backdrop-blur-xl
-          border border-white/60
+          border border-slate-200
+          hover:border-[#155A96]/30
+          transition-all
+          duration-300
           shadow-[0_15px_40px_rgba(0,0,0,0.05)]
         "
       >
@@ -1012,9 +909,7 @@ md:text-4xl
             min-w-[58px]
             h-[58px]
             rounded-2xl
-            bg-gradient-to-r
-            from-[#2F80FF]
-            to-[#7B61FF]
+            bg-[#155A96]
             flex
             items-center
             justify-center
@@ -1051,7 +946,10 @@ md:text-4xl
 
       {/* ITEM */}
       <motion.div
-        whileHover={{ y: -6 }}
+        whileHover={{
+          y: -6,
+          boxShadow: "0 20px 50px rgba(21,90,150,0.12)"
+        }}
         transition={{ duration: 0.3 }}
         className="
           group
@@ -1062,7 +960,10 @@ md:text-4xl
           rounded-[22px]
           bg-white/80
           backdrop-blur-xl
-          border border-white/60
+          border border-slate-200
+          hover:border-[#155A96]/30
+          transition-all
+          duration-300
           shadow-[0_15px_40px_rgba(0,0,0,0.05)]
         "
       >
@@ -1072,9 +973,7 @@ md:text-4xl
             min-w-[58px]
             h-[58px]
             rounded-2xl
-            bg-gradient-to-r
-            from-[#2F80FF]
-            to-[#7B61FF]
+            bg-[#155A96]
             flex
             items-center
             justify-center
@@ -1111,7 +1010,10 @@ md:text-4xl
 
       {/* ITEM */}
       <motion.div
-        whileHover={{ y: -6 }}
+        whileHover={{
+          y: -6,
+          boxShadow: "0 20px 50px rgba(21,90,150,0.12)"
+        }}
         transition={{ duration: 0.3 }}
         className="
           group
@@ -1122,7 +1024,10 @@ md:text-4xl
           rounded-[28px]
           bg-white/80
           backdrop-blur-xl
-          border border-white/60
+          border border-slate-200
+          hover:border-[#155A96]/30
+          transition-all
+          duration-300
           shadow-[0_15px_40px_rgba(0,0,0,0.05)]
         "
       >
@@ -1132,9 +1037,7 @@ md:text-4xl
             min-w-[48px]
             h-[48px]
             rounded-2xl
-            bg-gradient-to-r
-            from-[#2F80FF]
-            to-[#7B61FF]
+            bg-[#155A96]
             flex
             items-center
             justify-center
@@ -1171,7 +1074,10 @@ md:text-4xl
 
       {/* ITEM */}
       <motion.div
-        whileHover={{ y: -6 }}
+        whileHover={{
+          y: -6,
+          boxShadow: "0 20px 50px rgba(21,90,150,0.12)"
+        }}
         transition={{ duration: 0.3 }}
         className="
           group
@@ -1182,7 +1088,10 @@ md:text-4xl
           rounded-[28px]
           bg-white/80
           backdrop-blur-xl
-          border border-white/60
+          border border-slate-200
+          hover:border-[#155A96]/30
+          transition-all
+          duration-300
           shadow-[0_15px_40px_rgba(0,0,0,0.05)]
         "
       >
@@ -1192,9 +1101,7 @@ md:text-4xl
             min-w-[58px]
             h-[58px]
             rounded-2xl
-            bg-gradient-to-r
-            from-[#2F80FF]
-            to-[#7B61FF]
+            bg-[#155A96]
             flex
             items-center
             justify-center

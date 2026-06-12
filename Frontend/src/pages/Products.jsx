@@ -1,14 +1,15 @@
 import { Link } from "react-router-dom";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, PieChart, Settings, Users, BarChart3 } from "lucide-react";
 
 import tallyPrime from "../assets/tallyPrime.png";
 import tallyServer from "../assets/tallyServer.png";
 import tallyAws from "../assets/tallyAws.png"
 import tallyMobile from "../assets/tallyMobile.png"
-import dashboardImage from "../assets/products-dashboard.png";
+import dashboardImage from "../assets/products-hero.png";
 
 
 export default function Products() {
+  
   return (
     <>
 
@@ -113,7 +114,7 @@ export default function Products() {
     relative
     pt-24
     pb-10
-    lg:pt-24
+    lg:pt-20
     lg:pb-12
     overflow-hidden
     bg-gradient-to-br
@@ -131,9 +132,7 @@ export default function Products() {
       -translate-x-1/2
       w-[700px]
       h-[700px]
-      bg-gradient-to-r
-      from-[#2563EB]/10
-      to-[#7B61FF]/10
+      bg-[#155A96]/10
       rounded-full
       blur-3xl
     "
@@ -155,7 +154,7 @@ export default function Products() {
             bg-white
             border
             border-slate-200
-            text-[#2563EB]
+            text-[#155A96]
             text-sm
             font-medium
             shadow-sm
@@ -176,7 +175,7 @@ export default function Products() {
           Smart Tally Solutions
           <br />
 
-          <span className="text-[#2563EB]">
+          <span className="text-[#155A96]">
             For Modern Businesses
           </span>
         </h1>
@@ -197,12 +196,13 @@ export default function Products() {
 
         {/* CTA BUTTONS */}
         <div className="flex flex-col sm:flex-row gap-4 mt-8">
-          <button
+          <a href="#products"
+           
             className="
               px-7
               py-3.5
               rounded-xl
-              bg-[#2563EB]
+              bg-[#155A96]
               text-white
               font-semibold
               shadow-lg
@@ -211,8 +211,10 @@ export default function Products() {
             "
           >
             Explore Products
-          </button>
+          
+          </a>
 
+          <a href="tel:+919849431943">
           <button
             className="
               px-7
@@ -228,10 +230,13 @@ export default function Products() {
           >
             Book Free Demo
           </button>
+          </a>
+          
         </div>
 
         {/* STATS */}
-        <div className="flex flex-wrap gap-8 mt-8">
+        
+        <div className="flex flex-wrap gap-8 mt-6">
 
           <div>
             <h3 className="text-2xl font-bold text-[#071426]">
@@ -264,47 +269,55 @@ export default function Products() {
       </div>
 
       {/* RIGHT SIDE */}
-      <div className="relative">
+<div className="relative flex justify-center items-center">
 
-        <div className="
-        absolute
-        top-8
-        right-8
-        bg-white
-        rounded-xl
-        shadow-lg
-        px-4
-        py-3
-        ">
-          <p className="text-xs text-slate-500">
-            Trusted Solution
-          </p>
-          <p className="font-semibold">
-            TallyPrime Partner
-          </p>
-        </div>
+  {/* Background Glow */}
+  <div
+    className="
+      absolute
+      w-[550px]
+      h-[550px]
+      rounded-full
+      bg-gradient-to-br
+      from-[#155A96]/10
+      to-[#2F80FF]/5
+      blur-3xl
+    "
+  />
 
-        {/* Illustration Container */}
-        <div
-          className="
-            relative
-            p-4
-          "
-        >
-          <img
-            src={dashboardImage}
-            alt="Business Dashboard"
-            className="w-[80%] mx-auto h-auto"
-          />
-        </div>
+  {/* Soft Circle Background */}
+  <div
+    className="
+      absolute
+      w-[400px]
+      h-[400px]
+      rounded-full
+      bg-[#155A96]/5
+    "
+  />
 
-      </div>
+  {/* Laptop */}
+  <img
+    src={dashboardImage}
+    alt="Tally Dashboard"
+    className="
+      relative
+      z-10
+      w-full
+      max-w-[650px]
+      object-contain
+      drop-shadow-[0_40px_60px_rgba(0,0,0,0.15)]
+    "
+  />
+
+</div>
 
     </div>
   </div>
       </section>
 
       {/* ================= PRODUCTS GRID ================= */}
+      {false && (
       <section
         className="
           relative
@@ -571,6 +584,189 @@ export default function Products() {
           </div>
         </div>
       </section>
+      )}
+
+      <section id="products" className="relative py-16 bg-[#F8FAFC] overflow-hidden">
+  <div className="max-w-7xl mx-auto px-6">
+
+    {/* Heading */}
+    <div className="text-center mb-16">
+      <p className="text-[#155A96] font-semibold uppercase tracking-[0.25em] mb-4">
+        Our Products
+      </p>
+
+      <h2 className="text-4xl font-bold text-[#071426] mb-5">
+        Smart Tally Solutions
+      </h2>
+
+      <p className="max-w-3xl mx-auto text-lg text-slate-600">
+        Powerful accounting, cloud and automation solutions
+        designed to help businesses grow efficiently.
+      </p>
+    </div>
+
+    {/* FEATURED PRODUCT */}
+    <Link
+      to="/products/tallyprime"
+      className="
+        group
+        grid
+        lg:grid-cols-2
+        gap-10
+        items-center
+        bg-white
+        rounded-[32px]
+        border border-slate-200
+        overflow-hidden
+        shadow-[0_20px_60px_rgba(0,0,0,0.06)]
+        hover:-translate-y-1
+        transition-all
+      "
+    >
+      {/* Image */}
+      <div className="bg-[#EDF4FB] p-10">
+        <img
+          src={tallyPrime}
+          alt="TallyPrime"
+          className="
+            w-full
+            rounded-[28px]
+            transition-transform
+            duration-700
+            group-hover:scale-105
+          "
+        />
+      </div>
+
+      {/* Content */}
+      <div className="p-10">
+
+        <div
+          className="
+            inline-flex
+            px-4
+            py-2
+            rounded-full
+            bg-[#155A96]/10
+            text-[#155A96]
+            font-medium
+            mb-5
+          "
+        >
+          Featured Product
+        </div>
+
+        <h3 className="text-3xl font-bold text-[#071426] mb-4">
+          TallyPrime
+        </h3>
+
+        <p className="text-lg text-slate-600 leading-relaxed mb-6">
+          Complete business accounting, GST compliance,
+          inventory management and financial reporting
+          in one powerful platform.
+        </p>
+
+        <div className="grid grid-cols-2 gap-4 mb-6">
+
+          {[
+            "GST Billing",
+            "Inventory",
+            "Accounting",
+            "Reports",
+          ].map((item) => (
+            <div
+              key={item}
+              className="flex items-center gap-3"
+            >
+              <div className="w-2 h-2 rounded-full bg-[#155A96]" />
+              <span>{item}</span>
+            </div>
+          ))}
+
+        </div>
+
+        <div className="flex items-center gap-3 text-[#155A96] font-semibold">
+          Explore Product
+          <ArrowRight size={18} />
+        </div>
+
+      </div>
+    </Link>
+
+    {/* SMALL PRODUCTS */}
+    <div className="grid md:grid-cols-3 gap-6 mt-10">
+
+      {[
+        {
+          title: "TallyPrime Server",
+          image: tallyServer,
+          route: "/products/tally-server",
+        },
+        {
+          title: "TallyPrime on AWS",
+          image: tallyAws,
+          route: "/products/aws",
+        },
+        {
+          title: "Tally + WhatsApp",
+          image: tallyMobile,
+          route: "/products/whatsapp",
+        },
+      ].map((item) => (
+
+        <Link
+          key={item.title}
+          to={item.route}
+          className="
+            group
+            bg-white
+            rounded-[28px]
+            border
+            border-slate-200
+            overflow-hidden
+            shadow-[0_10px_40px_rgba(0,0,0,0.05)]
+            hover:-translate-y-2
+            hover:border-[#155A96]/30
+            transition-all
+          "
+        >
+
+          <div className="bg-[#EDF4FB] p-6">
+            <img
+              src={item.image}
+              alt={item.title}
+              className="
+                w-full
+                h-44
+                object-cover
+                rounded-2xl
+                transition-transform
+                duration-700
+                group-hover:scale-105
+              "
+            />
+          </div>
+
+          <div className="p-6">
+
+            <h3 className="text-2xl font-bold text-[#071426] mb-3">
+              {item.title}
+            </h3>
+
+            <div className="flex items-center gap-2 text-[#155A96] font-medium">
+              Explore
+              <ArrowRight size={16} />
+            </div>
+
+          </div>
+
+        </Link>
+
+      ))}
+    </div>
+
+  </div>
+</section>
     </>
   );
 }

@@ -274,9 +274,7 @@ const QuoteForm = () => {
                   h-12
                   rounded-xl
                   text-sm
-                  bg-gradient-to-r
-                  from-[#2F80FF]
-                  to-[#7B61FF]
+                  bg-[#155A96]
                   text-white
                   font-semibold
                   shadow-[0_15px_35px_rgba(47,128,255,0.35)]

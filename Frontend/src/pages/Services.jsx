@@ -1,5 +1,14 @@
 import { services } from "../data/servicesData";
 import { ArrowRight, CheckCircle } from "lucide-react";
+import {
+  Briefcase,
+  Cloud,
+  Headphones,
+  GraduationCap,
+  Settings,
+  Rocket,
+  Database,
+} from "lucide-react";
 import { Link } from "react-router-dom";
 
 export default function Services() {
@@ -11,7 +20,7 @@ export default function Services() {
     relative
     lg:min-h-[50vh]
     overflow-hidden
-    bg-[#F5F7FF]
+    bg-[#F4F8FC]
     px-4 sm:px-4 lg:px-8
     pt-12
     
@@ -42,8 +51,8 @@ export default function Services() {
             sm:px-5
             py-2
             rounded-full
-            bg-[#EFF6FF]
-            text-[#2563EB]
+            bg-[#EDF4FA]
+            text-[#155A96]
             text-sm
             font-medium
             mb-6
@@ -55,9 +64,9 @@ export default function Services() {
         {/* HEADING */}
         <h1
           className="
-            text-[32px]
-            sm:text-[42px]
-            md:text-[52px]
+            text-3xl
+            sm:text-4xl
+            md:text-[42px]
             font-bold
             text-[#071426]
             leading-[1.05]
@@ -103,9 +112,8 @@ export default function Services() {
                 px-6 sm:px-8
                 py-4
                 rounded-2xl
-                bg-gradient-to-r
-                from-[#1178D4]
-                to-[#6C63FF]
+                bg-[#155A96]
+                hover:bg-[#1D6FB8]
                 text-white
                 font-semibold
                 transition-all
@@ -124,11 +132,11 @@ export default function Services() {
                 py-4
                 rounded-2xl
                 border
-                border-slate-200
+                border-[#D9E7F5]
+                hover:border-[#155A96]
                 bg-white
                 text-[#071426]
                 font-semibold
-                hover:bg-slate-50
                 transition-all
                 duration-300
               "
@@ -140,113 +148,97 @@ export default function Services() {
 
       </div>
 
-      {/* RIGHT SIDE BENEFITS CARD */}
-      <div
-        className="
-          hidden
-          lg:block
-        "
-      >
-        <div
-          className="
-            p-8
-          "
-        >
+      {/* RIGHT SIDE SERVICE ECOSYSTEM */}
+<div className="hidden lg:flex justify-center items-center">
 
-          <span
-            className="
-              inline-flex
-              items-center
-              px-4 py-2
-              rounded-full
-              bg-[#EFF6FF]
-              text-[#2563EB]
-              text-sm
-              font-medium
-              mb-6
-            "
-          >
-            Business Benefits
-          </span>
+  <div className="w-[520px]">
 
-          <h3
-            className="
-              text-2xl
-              font-bold
-              text-[#071426]
-              mb-6
-            "
-          >
-            What You Gain
-          </h3>
-
-          <div className="space-y-5">
-
-            <div className="flex items-center gap-3">
-              <CheckCircle
-                size={18}
-                className="text-[#2563EB]"
-              />
-              <span className="text-slate-700 font-medium">
-                Faster Accounting
-              </span>
-            </div>
-
-            <div className="flex items-center gap-3">
-              <CheckCircle
-                size={18}
-                className="text-[#2563EB]"
-              />
-              <span className="text-slate-700 font-medium">
-                Simplified GST Filing
-              </span>
-            </div>
-
-            <div className="flex items-center gap-3">
-              <CheckCircle
-                size={18}
-                className="text-[#2563EB]"
-              />
-              <span className="text-slate-700 font-medium">
-                Better Inventory Control
-              </span>
-            </div>
-
-            <div className="flex items-center gap-3">
-              <CheckCircle
-                size={18}
-                className="text-[#2563EB]"
-              />
-              <span className="text-slate-700 font-medium">
-                Automated Payroll
-              </span>
-            </div>
-
-            <div className="flex items-center gap-3">
-              <CheckCircle
-                size={18}
-                className="text-[#2563EB]"
-              />
-              <span className="text-slate-700 font-medium">
-                Accurate Business Reports
-              </span>
-            </div>
-
-          </div>
-
-        </div>
+    {/* Top */}
+    <div className="flex justify-center mb-5">
+      <div className="service-pill">
+        <Headphones size={18} />
+        Support
       </div>
+    </div>
+
+    {/* Middle */}
+    <div className="flex justify-center gap-4 items-center mb-5">
+
+      <div className="service-pill">
+        <Settings size={18} />
+        Customization
+      </div>
+
+      <div
+  className="
+    px-7
+    py-4
+    rounded-2xl
+    bg-[#155A96]
+    text-white
+    shadow-[0_20px_40px_rgba(21,90,150,0.20)]
+    flex
+    items-center
+    gap-4
+  "
+>
+  <div
+    className="
+      w-10 h-10
+      rounded-xl
+      bg-white/15
+      flex
+      items-center
+      justify-center
+    "
+  >
+    <Briefcase size={18} />
+  </div>
+
+  <div>
+    <p className="font-bold text-lg">
+      Tally Services
+    </p>
+
+  </div>
+</div>
+
+      <div className="service-pill">
+        <Cloud size={18} />
+        Cloud Hosting
+      </div>
+
+    </div>
+
+    {/* Bottom */}
+    <div className="flex justify-center gap-4">
+
+      <div className="service-pill">
+        <GraduationCap size={18} />
+        Training
+      </div>
+
+      <div className="service-pill">
+        <Rocket size={18} />
+        Implementation
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
 
     </div>
   </div>
 </section>
 
-    <section id="services" className="relative bg-[#F8FBFF] py-10 sm:py-12 md:py-14 overflow-hidden">
+    <section id="services" className="relative bg-white py-10 sm:py-12 md:py-14 overflow-hidden">
 
   <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6">
 
     {/* SECTION HEADER */}
-    <div className="text-center max-w-3xl mx-auto mb-12">
+    <div className="text-center max-w-3xl mx-auto mb-10">
 
       <div className="
               inline-flex
@@ -255,8 +247,8 @@ export default function Services() {
               px-4
               py-2
               rounded-full
-              bg-[#2F80FF]/10
-              text-[#2F80FF]
+              bg-[#EEF4F8]
+              text-[#155A96]
               text-sm
               font-medium
               mb-6
@@ -266,8 +258,8 @@ export default function Services() {
             </div>
 
       <h2 className="
-        text-[28px]
-        sm:text-[38px]
+        text-3xl
+        sm:text-4xl
         md:text-[46px]
         font-black
         text-[#071426]
@@ -281,7 +273,7 @@ export default function Services() {
         mt-6
         text-[15px]
         sm:text-lg
-        text-[#A8B3C7]
+        text-[#64748B]
         leading-relaxed
       ">
         From Tally implementation to cloud infrastructure,
@@ -314,8 +306,12 @@ export default function Services() {
               group relative overflow-hidden
               rounded-[22px]
               sm:rounded-[28px]
-              border border-[#E5EAF2]
+              border border-[#E2E8F0]
               bg-white
+              hover:border-[#155A96]/20
+              hover:shadow-[0_20px_60px_rgba(21,90,150,0.08)]
+              transition-all duration-500
+              hover:-translate-y-2
               p-5
               sm:p-6
               lg:p-7
@@ -328,18 +324,17 @@ export default function Services() {
               className="
               w-14 h-14
               sm:w-16 sm:h-16 rounded-3xl
-              bg-[#F5F7FF]
-              border border-[#E8EEFF]
+              bg-[#F4F7FA]
+              border border-[#E2E8F0]
               flex items-center justify-center
               transition-all duration-500
               group-hover:bg-gradient-to-br
-              group-hover:from-[#1178D4]
-              group-hover:to-[#6C63FF]
-              group-hover:shadow-[0_10px_30px_rgba(108,99,255,0.25)]
+              group-hover:bg-[#155A96]
+              group-hover:shadow-[0_10px_30px_rgba(21,90,150,0.18)]
             "
             >
 
-              <Icon className="w-7 h-7 sm:w-8 sm:h-8 text-[#1178D4] transition-all duration-500 group-hover:text-white" />
+              <Icon className="w-7 h-7 sm:w-8 sm:h-8 text-[#155A96] transition-all duration-500 group-hover:text-white" />
 
             </div>
 
@@ -368,11 +363,12 @@ export default function Services() {
             {/* FOOTER */}
             <div className="
                 mt-10 flex items-center gap-3
-                text-[#1178D4]
+                text-[#155A96]
+                group-hover:text-[#0F4D82]
                 font-[600]
                 text-[17px]
                 transition-all duration-300
-                group-hover:text-[#6C63FF]
+                
               ">
               <span>Explore Service</span>
 
@@ -388,7 +384,7 @@ export default function Services() {
             <div className="
               absolute bottom-0 left-0
               h-[3px] w-0
-              bg-gradient-to-r from-[#1178D4] to-[#6C63FF]
+              bg-[#155A96]
               transition-all duration-500
               group-hover:w-full
               " />
@@ -420,9 +416,7 @@ export default function Services() {
           sm:h-[550px]
           lg:w-[700px]
           lg:h-[700px]
-          bg-gradient-to-r
-          from-[#2F80FF]/10
-          to-[#7B61FF]/10
+          bg-[#155A96]/10
           blur-3xl
           rounded-full
         "
@@ -437,9 +431,9 @@ export default function Services() {
       inline-flex items-center
       px-5 py-2
       rounded-full
-      border border-[#D8E6FF]
+      border border-[#155A96]
       bg-[#F8FBFF]
-      text-[#1178D4]
+      text-[#155A96]
       text-sm font-semibold
       tracking-[0.22em]
       uppercase
@@ -493,13 +487,11 @@ export default function Services() {
         px-5 sm:px-7
         py-3 sm:py-4
         rounded-2xl
-        bg-gradient-to-r
-        from-[#1178D4]
-        to-[#6C63FF]
+        bg-[#155A96]
         text-white
         text-[17px]
         font-semibold
-        shadow-[0_10px_40px_rgba(108,99,255,0.25)]
+        shadow-[0_10px_30px_rgba(21,90,150,0.08)]
         transition-all duration-300
         hover:scale-[1.04]
         "
@@ -514,15 +506,15 @@ export default function Services() {
         className="
         px-10 py-5
         rounded-2xl
-        border border-[#DDE7F5]
+        border border-[#155A96]
         bg-white
         text-[#071426]
         text-[17px]
         font-semibold
         transition-all duration-300
-        hover:border-[#1178D4]
+        hover:border-[#155A96]
         hover:text-[#1178D4]
-        hover:shadow-[0_10px_30px_rgba(17,120,212,0.08)]
+        shadow-[0_10px_30px_rgba(21,90,150,0.08)]
         "
       >
         Talk To Experts

@@ -49,3 +49,30 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.service-pill {
+  @apply flex items-center gap-3
+  px-5 py-4
+  rounded-2xl
+  bg-white
+  border border-[#E5EDF5]
+  text-[#0B1F33]
+  font-medium
+  shadow-[0_10px_30px_rgba(0,0,0,0.05)]
+  hover:-translate-y-1
+  hover:shadow-[0_15px_40px_rgba(21,90,150,0.12)]
+  transition-all duration-300;
+}
+
+.service-pill svg {
+  color: #155A96;
+}

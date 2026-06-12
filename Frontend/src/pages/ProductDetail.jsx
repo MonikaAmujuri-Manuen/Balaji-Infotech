@@ -1,7 +1,8 @@
 import React from "react";
 import { useParams, Link } from "react-router-dom";
+import { useState } from "react";
 import {
-  CheckCircle, ArrowRight, BarChart3, ShieldCheck, CheckCircle2
+  CheckCircle, ArrowRight, BarChart3, ShieldCheck, CheckCircle2, ChevronRight, ChevronUp
 } from "lucide-react";
 import PricingCard from "../components/PricingCard";
 import { productsData } from "../data/productsData";
@@ -9,12 +10,12 @@ import { productsData } from "../data/productsData";
 
 export default function ProductDetail() {
   const { slug } = useParams();
+  const [expandedFeature, setExpandedFeature] = useState(null);
+  const [activeTestimonial, setActiveTestimonial] = useState(0);
 
   const product = productsData[slug];
   const pricing = product?.pricing || [];
   const ProductIcon = product.icon;
-  
-  
 
   if (!product) {
     return (
@@ -86,26 +87,24 @@ export default function ProductDetail() {
               >
                 <div
                   className="
-                    w-10
-                    h-10
+                    w-6
+                    h-6
                     sm:w-12
                     sm:h-12
                     rounded-2xl
-                    bg-gradient-to-r
-                    from-[#2F80FF]
-                    to-[#7B61FF]
+                    bg-[#155A96]
                     flex
                     items-center
                     justify-center
                     text-white
                   "
                 >
-                  <ProductIcon size={28} />
+                  <ProductIcon size={20} />
                 </div>
 
                 <span
                   className="
-                    text-[#111827]
+                    text-[#071426]
                     font-semibold
                     text-[15px]
                     sm:text-lg
@@ -117,7 +116,7 @@ export default function ProductDetail() {
 
               <p
                 className="
-                  text-[#2F80FF]
+                  text-[#155A96]
                   font-semibold
                   uppercase
                   tracking-[0.2em]
@@ -165,9 +164,8 @@ export default function ProductDetail() {
                     sm:px-8
                     py-4
                     rounded-2xl
-                    bg-gradient-to-r
-                    from-[#2F80FF]
-                    to-[#7B61FF]
+                    bg-[#155A96]
+                    hover:bg-[#124A7C]
                     text-white
                     font-semibold
                     shadow-lg
@@ -191,8 +189,8 @@ export default function ProductDetail() {
                     bg-white
                     text-[#111827]
                     font-semibold
-                    hover:border-[#2F80FF]
-                    hover:text-[#2F80FF]
+                    hover:border-[#155A96]
+                    hover:text-[#155A96]
                     transition-all
                     duration-300
                   "
@@ -209,9 +207,7 @@ export default function ProductDetail() {
                 className="
                   absolute
                   inset-0
-                  bg-gradient-to-r
-                  from-[#2F80FF]/20
-                  to-[#7B61FF]/20
+                  bg-[#155A96]/10
                   blur-3xl
                   rounded-[40px]
                 "
@@ -225,8 +221,7 @@ export default function ProductDetail() {
                   sm:rounded-[32px]
                   border
                   border-white/40
-                  bg-white/70
-                  backdrop-blur-xl
+                  bg-[#EDF4FB]
                   shadow-[0_20px_80px_rgba(0,0,0,0.12)]
                 "
               >
@@ -259,7 +254,7 @@ export default function ProductDetail() {
           <div className="text-center mb-12">
             <p
               className="
-                text-[#2F80FF]
+                text-[#155A96]
                 font-semibold
                 uppercase
                 tracking-[0.2em]
@@ -272,8 +267,8 @@ export default function ProductDetail() {
             <h2
               className="
                 text-[28px]
-                sm:text-[36px]
-                md:text-[42px]
+                sm:text-[34px]
+                md:text-[40px]
                 font-black
                 text-[#111827]
                 mb-6
@@ -301,201 +296,208 @@ export default function ProductDetail() {
 
           {/* FEATURES LIST */}
 
-          <div className="space-y-12 sm:space-y-16">
+          {/* FEATURES SECTION */}
 
-            {product.keyFeatures.map((feature, index) => {
-              const FeatureIcon = feature.icon;
+<div
+  className="
+    grid
+    lg:grid-cols-[320px_1fr]
+    gap-8
+    lg:gap-12
+    items-start
+  "
+>
 
-              return (
+  {/* LEFT SIDE */}
 
-              <div
-                key={index}
-                className="
-                  relative
-                  group
-                "
-              >
+  <div className="lg:sticky lg:top-32">
 
-                {/* DIVIDER */}
+    <p
+      className="
+        text-[#155A96]
+        font-semibold
+        uppercase
+        tracking-[0.25em]
+        mb-4
+      "
+    >
+      Capabilities
+    </p>
 
-                {index !== 0 && (
-                  <div
-                    className="
-                      absolute
-                      -top-8
-                      left-0
-                      w-full
-                      h-[1px]
-                      bg-gradient-to-r
-                      from-transparent
-                      via-[#D1D5DB]
-                      to-transparent
-                    "
-                  />
-                )}
+    <h3
+      className="
+        text-3xl
+        md:text-4xl
+        font-bold
+        text-[#071426]
+        leading-tight
+        mb-5
+      "
+    >
+      What Makes
+      <br />
+      {product.title}
+      <br />
+      Powerful?
+    </h3>
 
-                <div
-                  className="
-                    flex
-                    flex-col
-                    md:flex-row
-                    gap-8
-                    md:gap-10
-                  "
-                >
+    <p
+      className="
+        text-[#64748B]
+        leading-relaxed
+        max-w-sm
+      "
+    >
+      Explore the key capabilities that help businesses
+      simplify operations, improve productivity, and
+      accelerate growth.
+    </p>
 
-                  {/* ICON */}
+  </div>
 
-                  <div
-                    className="
-                      relative
-                      flex-shrink-0
-                    "
-                  >
+  {/* RIGHT SIDE */}
 
-                    {/* ICON BOX */}
+  <div
+    className="
+      flex
+      gap-5
+      overflow-x-auto
+      pb-4
+      snap-x
+      snap-mandatory
+      scrollbar-hide
+    "
+  >
 
-                    <div
-                      className="
-                        relative
-                        w-14
-                        h-14
-                        rounded-[20px]
-                        bg-gradient-to-r
-                        from-[#2F80FF]
-                        to-[#7B61FF]
-                        flex
-                        items-center
-                        justify-center
-                        text-white
-                       
-                      "
-                    >
-                      <FeatureIcon size={20} />
-                    </div>
-                  </div>
+    {product.keyFeatures.map((feature, index) => {
+      const FeatureIcon = feature.icon;
 
-                  {/* CONTENT */}
+      return (
 
-                  <div className="flex-1">
+        <div
+          key={index}
+          className="
+            snap-start
+            min-w-[300px]
+            sm:min-w-[340px]
+            lg:min-w-[380px]
 
-                    {/* TAG */}
+            bg-white
+            border
+            border-[#E5E7EB]
+            rounded-[32px]
 
-                    <div
-                      className="
-                        inline-flex
-                        items-center
-                        px-4
-                        py-2
-                        rounded-full
-                        bg-[#EEF4FF]
-                        text-[#2F80FF]
-                        font-semibold
-                        text-sm
-                        mb-5
-                      "
-                    >
-                      {feature.tag}
-                    </div>
+            p-6
 
-                    {/* TITLE */}
+            hover:-translate-y-2
+            hover:border-[#155A96]/20
+            hover:shadow-[0_20px_60px_rgba(21,90,150,0.08)]
 
-                    <h3
-                      className="
-                        text-[20px]
-                        sm:text-2xl
-                        md:text-3xl
-                        font-black
-                        text-[#111827]
-                        leading-tight
-                        mb-5
-                      "
-                    >
-                      {feature.title}
-                    </h3>
+            transition-all
+            duration-300
 
-                    {/* DESCRIPTION */}
+            relative
+            overflow-hidden
+          "
+        >
 
-                    <p
-                      className="
-                        text-[16px] md:text-[17px]
-                        text-[#6B7280]
-                        leading-relaxed
-                        max-w-3xl
-                        mb-8
-                      "
-                    >
-                      {feature.description}
-                    </p>
+          {/* NUMBER */}
 
-                    {/* POINTS */}
+          <div
+            className="
+              absolute
+              top-4
+              right-6
 
-                    <div
-                      className="
-                        grid
-                        sm:grid-cols-2
-                        gap-4
-                      "
-                    >
-
-                      {feature.points.map((point, idx) => (
-
-                        <div
-                          key={idx}
-                          className="
-                            flex
-                            items-center
-                            gap-3
-                            rounded-2xl
-                            border
-                            border-[#E5E7EB]
-                            bg-[#FAFBFF]
-                            px-4
-                            sm:px-5
-                            py-4
-                          "
-                        >
-
-                          <div
-                            className="
-                              w-8
-                              h-8
-                              rounded-full
-                              bg-gradient-to-r
-                              from-[#2F80FF]
-                              to-[#7B61FF]
-                              flex
-                              items-center
-                              justify-center
-                              text-white
-                              flex-shrink-0
-                            "
-                          >
-                            <CheckCircle size={16} />
-                          </div>
-
-                          <p
-                            className="
-                              text-[#374151]
-                              font-medium
-                            "
-                          >
-                            {point}
-                          </p>
-
-                        </div>
-
-                      ))}
-
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-              );
-              })}
-          
+              text-7xl
+              font-black
+              text-[#155A96]/10
+              select-none
+            "
+          >
+            {String(index + 1).padStart(2, "0")}
           </div>
+
+          {/* ICON */}
+
+          <div
+            className="
+              w-12
+              h-12
+              rounded-2xl
+
+              bg-[#155A96]
+
+              flex
+              items-center
+              justify-center
+
+              text-white
+
+              mb-8
+            "
+          >
+            <FeatureIcon size={24} />
+          </div>
+
+          {/* TITLE */}
+
+          <h4
+            className="
+              text-xl
+              font-semibold
+              text-[#071426]
+              mb-4
+              leading-tight
+              max-w-[220px]
+            "
+          >
+            {feature.title}
+          </h4>
+
+          {/* DESCRIPTION */}
+
+          <p className="text-[#64748B] leading-relaxed mb-4">
+          {expandedFeature === index
+            ? feature.description
+            : `${feature.description.slice(0, 90)}...`}
+        </p>
+
+          {/* FOOTER */}
+
+          <button
+          onClick={() =>
+            setExpandedFeature(
+              expandedFeature === index ? null : index
+            )
+          }
+          className="
+            flex
+            items-center
+            gap-2
+            text-[#155A96]
+            font-semibold
+            hover:gap-3
+            transition-all
+          "
+        >
+          {expandedFeature === index
+            ? "Show Less"
+            : "Learn More"}
+
+          {expandedFeature === index
+            ? <ChevronUp size={18} />
+            : <ChevronRight size={18} />}
+        </button>
+
+        </div>
+
+      );
+    })}
+
+  </div>
+
+</div>
         </div>
       </section>
       
@@ -805,138 +807,174 @@ export default function ProductDetail() {
 {product?.whyChooseCards?.length > 0 && (
 <section className="relative py-10 sm:py-12 md:py-16 px-4 sm:px-6 overflow-hidden bg-[#F7FAFF]">
 
-  {/* BACKGROUND GLOW */}
-  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-blue-500/10 blur-3xl rounded-full" />
-
   <div className="relative max-w-7xl mx-auto">
 
     {/* HEADING */}
     <div className="text-center max-w-4xl mx-auto mb-10 md:mb-12">
 
-      <p className="text-sm md:text-base tracking-[0.3em] uppercase text-[#1E73E8] font-semibold mb-4">
+      <p className="text-[#155A96] font-semibold uppercase tracking-[0.25em] mb-4">
         Why Choose
       </p>
 
       <h2 className="text-[28px]
 sm:text-[38px]
-md:text-[44px] font-bold leading-tight text-[#0B132B]">
+md:text-[40px] font-bold leading-tight text-[#0B132B]">
 
         Why Businesses Choose{" "}
 
-        <span className="bg-gradient-to-r from-[#1E73E8] to-[#4F8CFF] bg-clip-text text-transparent">
-          TallyPrime Server
+        <span className="text-[#155A96]">
+          {product.title}
         </span>
 
       </h2>
 
-      <p className="mt-6 text-lg md:text-xl text-[#5B6475] leading-relaxed">
+      <p className="mt-4 text-base md:text-lg text-[#5B6475] leading-relaxed">
         Built for growing businesses that need speed, security,
         multi-user efficiency, and uninterrupted access to critical data.
       </p>
 
     </div>
 
-    {/* CARDS */}
-    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+    {/* ADVANTAGES TIMELINE */}
 
-      {product.whyChooseCards.map((card, index) => {
-        const Icon = card.icon;
+<div className="max-w-5xl mx-auto">
 
-        return (
+  {product.whyChooseCards.map((card, index) => {
+    const Icon = card.icon;
+
+    return (
+
+      <div
+        key={index}
+        className="relative"
+      >
+
+        {/* Divider */}
+
+        {index !== 0 && (
           <div
-            key={index}
             className="
-              group relative
-              bg-white
-              border border-[#E7ECF3]
-              rounded-[28px]
-              p-6
-              sm:p-8
-              md:p-9
-              shadow-[0_10px_40px_rgba(0,0,0,0.04)]
-              hover:shadow-[0_20px_60px_rgba(30,115,232,0.12)]
-              hover:-translate-y-2
-              transition-all duration-500
+              w-full
+              h-px
+              bg-gradient-to-r
+              from-transparent
+              via-slate-300
+              to-transparent
+              my-8
+            "
+          />
+        )}
+
+        <div
+          className="
+            grid
+            md:grid-cols-[120px_80px_1fr]
+            gap-5
+            items-start
+          "
+        >
+
+          {/* Number */}
+
+          <div
+            className="
+              text-5xl
+              md:text-6xl
+              font-black
+              text-[#155A96]/10
+              leading-none
             "
           >
+            {String(index + 1).padStart(2, "0")}
+          </div>
 
-            {/* ICON */}
-            <div className="
-              w-16 h-16
+          {/* Icon */}
+
+          <div
+            className="
+              w-14
+              h-14
               rounded-2xl
-              bg-[#EEF5FF]
-              flex items-center justify-center
-              mb-7
-              group-hover:bg-[#1E73E8]
-              transition-all duration-500
-            ">
+              bg-[#EDF4FB]
+              flex
+              items-center
+              justify-center
+            "
+          >
+            <Icon
+              size={25}
+              className="text-[#155A96]"
+            />
+          </div>
 
-              <Icon
-                size={30}
-                className="
-                  text-[#1E73E8]
-                  group-hover:text-white
-                  transition-all duration-500
-                "
-              />
+          {/* Content */}
 
-            </div>
+          <div>
 
-            {/* TITLE */}
-            <h3 className="text-2xl font-bold text-[#111827] leading-snug mb-5">
+            <h3
+              className="
+                text-xl
+                md:text-2xl
+                font-bold
+                text-[#071426]
+                mb-3
+                leading-tight
+              "
+            >
               {card.title}
             </h3>
 
-            {/* DESCRIPTION */}
-            <p className="text-[17px] leading-8 text-[#5B6475]">
+            <p
+              className="
+                text-[#64748B]
+                text-base
+                leading-relaxed
+                max-w-3xl
+              "
+            >
               {card.description}
             </p>
 
-            {/* HOVER BORDER */}
-            <div className="
-              absolute inset-0
-              rounded-[28px]
-              border border-transparent
-              group-hover:border-[#1E73E8]/20
-              transition-all duration-500
-              pointer-events-none
-            " />
-
           </div>
-        );
-      })}
 
-    </div>
+        </div>
+
+      </div>
+
+    );
+  })}
+
+</div>
 
   </div>
 </section>
 )}
 
  {product?.pricing?.length > 0 && (
-  <section   id="pricing" className="relative py-10 sm:py-12 md:py-16 px-4 sm:px-6 bg-[#F8FAFC] overflow-hidden">
+  <section   id="pricing" className="relative py-10 sm:py-12 md:py-12 px-4 sm:px-6 bg-[#F5F8FB] overflow-hidden">
 
     <div className="max-w-5xl mx-auto relative z-10">
 
       {/* HEADING */}
-      <div className="text-center mb-10 md:mb-12">
+      <div className="text-center mb-10 md:mb-8">
 
         <p
           className="
-            text-[#2F80FF]
+            text-[#155A96]
             font-semibold
             uppercase
             tracking-[0.2em]
-            mb-4
+            mb-3
           "
         >
           Pricing
         </p>
 
-        <h2 className="mt-6 text-[28px] sm:text-[38px] md:text-[46px] font-black tracking-tight text-[#111827]">
+        <h2 className="mt-6 text-3xl sm:text-4xl md:text-[46px] font-black tracking-tight text-[#071426]">
           Choose Your {product.title}
         </h2>
 
-        <p className="mt-6 max-w-2xl mx-auto text-base md:text-lg leading-8 text-[#6B7280]">
+        <p className="mt-6 max-w-2xl mx-auto text-base md:text-lg leading-8 text-[#64748B]">
           Flexible pricing plans designed for businesses of every size —
           from standalone systems to enterprise-scale infrastructure.
         </p>
@@ -970,123 +1008,299 @@ md:text-[44px] font-bold leading-tight text-[#0B132B]">
 
 {/* ================= TESTIMONIALS ================= */}
 {product.testimonials && (
-<section className="relative py-8 sm:py-10 md:py-12 px-4 sm:px-4 bg-[#F8FAFC] overflow-hidden">
+<section className="relative py-10 md:py-12 bg-[#F8FAFC] overflow-hidden">
 
-  
-  <div className="relative max-w-7xl mx-auto">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6">
 
-    {/* HEADING */}
+    {/* Heading */}
+
     <div className="text-center mb-8">
 
-      <span className="inline-block text-[#1178D4] text-sm tracking-[0.25em] uppercase font-semibold mb-5">
+      <p
+        className="
+          text-[#155A96]
+          font-semibold
+          uppercase
+          tracking-[0.25em]
+          mb-4
+        "
+      >
         Success Stories
-      </span>
+      </p>
 
-      <h2 className="text-[28px] sm:text-[38px] md:text-[46px] font-bold text-[#0F172A] leading-tight">
-        What Businesses Say About{" "}{product.name}
+      <h2
+        className="
+          text-3xl
+          md:text-4xl
+          font-bold
+          text-[#071426]
+          leading-tight
+        "
+      >
+        What Businesses Say About {product.name}
       </h2>
 
-      <p className="mt-6 text-[#64748B] text-[16px] md:text-[17px] max-w-3xl mx-auto leading-relaxed">
-        Trusted by growing businesses across industries for smarter accounting,
-        faster operations, and reliable business management.
+      <p
+        className="
+          mt-3
+          text-[#64748B]
+          max-w-3xl
+          mx-auto
+          leading-relaxed
+        "
+      >
+        Trusted by businesses across industries for smarter
+        accounting, faster operations and reliable management.
       </p>
 
     </div>
 
-    {/* TESTIMONIAL GRID */}
-    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+    {/* Main Layout */}
 
-      {product.testimonials.map((item, index) => (
-
-        <div
-          key={index}
-          className="
-            group relative
-            rounded-[32px]
-            bg-white
-            border border-[#E2E8F0]
-            p-6
-            sm:p-8
-            md:p-10
-            shadow-[0_10px_40px_rgba(15,23,42,0.06)]
-            hover:shadow-[0_20px_60px_rgba(17,120,212,0.12)]
-            hover:-translate-y-2
-            transition-all duration-500
-            overflow-hidden
-          "
-        >
-
-          {/* TOP ACCENT */}
-          <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#1178D4] to-[#4F46E5]" />
-
-          
-          {/* STAR RATING */}
-<div className="flex items-center gap-1 mb-8">
-
-  {[1, 2, 3, 4, 5].map((star) => (
-    <svg
-      key={star}
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className="w-6 h-6 text-[#FBBF24]"
+    <div
+      className="
+        grid
+        lg:grid-cols-[320px_1fr]
+        gap-4
+        items-center
+      "
     >
-      <path
-        fillRule="evenodd"
-        d="M10.788 3.21c.448-1.077 1.976-1.077 
-        2.424 0l2.082 5.006 5.404.434c1.164.093 
-        1.636 1.545.749 2.305l-4.117 3.527 
-        1.258 5.273c.271 1.136-.964 2.033-1.96 
-        1.425L12 18.354 7.372 21.18c-.996.608-2.231-.29-1.96-1.425 
-        l1.258-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305 
-        l5.404-.434 2.082-5.005z"
-        clipRule="evenodd"
-      />
-    </svg>
-  ))}
 
-</div>
+      {/* LEFT STATS */}
 
-          {/* REVIEW */}
-          <p className="
-            text-[#334155]
-            text-lg
-            leading-relaxed
-            mb-10
-          ">
-            “{item.review}”
+      <div
+        className="
+          bg-white
+          border
+          border-slate-200
+          rounded-[32px]
+          p-4
+        "
+      >
+
+        <div className="mb-6">
+
+          <h3
+            className="
+              text-4xl
+              font-black
+              text-[#155A96]
+            "
+          >
+            4.9
+          </h3>
+
+          <p className="text-[#64748B] mt-2">
+            Average Customer Rating
           </p>
 
-          {/* USER */}
+        </div>
+
+        <div className="space-y-5">
+
+          <div>
+            <h4 className="text-2xl font-bold text-[#071426]">
+              500+
+            </h4>
+
+            <p className="text-[#64748B]">
+              Businesses Served
+            </p>
+          </div>
+
+          <div>
+            <h4 className="text-2xl font-bold text-[#071426]">
+              98%
+            </h4>
+
+            <p className="text-[#64748B]">
+              Client Satisfaction
+            </p>
+          </div>
+
+          <div>
+            <h4 className="text-2xl font-bold text-[#071426]">
+              24+
+            </h4>
+
+            <p className="text-[#64748B]">
+              Years Experience
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+      {/* TESTIMONIAL CARD */}
+
+      <div
+        className="
+          bg-white
+          border
+          border-slate-200
+          rounded-[32px]
+          p-6
+          md:p-10
+          shadow-[0_20px_50px_rgba(0,0,0,0.05)]
+        "
+      >
+
+        {/* Stars */}
+
+        <div className="flex gap-1 mb-4">
+
+          {[1, 2, 3, 4, 5].map((star) => (
+            <span
+              key={star}
+              className="text-[#F0AE11] text-2xl"
+            >
+              ★
+            </span>
+          ))}
+
+        </div>
+
+        {/* Review */}
+
+        <blockquote
+          className="
+            text-lg
+            md:text-xl
+            leading-relaxed
+            text-[#334155]
+            mb-8
+          "
+        >
+          "{product.testimonials[activeTestimonial].review}"
+        </blockquote>
+
+        {/* User */}
+
+        <div className="flex items-center justify-between flex-wrap gap-4">
+
           <div className="flex items-center gap-4">
 
-            <div className="
-              w-14 h-14 rounded-full
-              bg-gradient-to-br from-[#1178D4] to-[#4F46E5]
-              flex items-center justify-center
-              text-white font-bold text-lg
-              shrink-0
-            ">
-              {item.name.charAt(0)}
+            <div
+              className="
+                w-10
+                h-10
+                rounded-full
+                bg-[#155A96]
+                text-white
+                flex
+                items-center
+                justify-center
+                font-bold
+                text-lg
+              "
+            >
+              {product.testimonials[
+                activeTestimonial
+              ].name.charAt(0)}
             </div>
 
             <div>
 
-              <h4 className="text-[#0F172A] font-semibold text-lg">
-                {item.name}
+              <h4
+                className="
+                  font-bold
+                  text-[#071426]
+                "
+              >
+                {
+                  product.testimonials[
+                    activeTestimonial
+                  ].name
+                }
               </h4>
 
-              <p className="text-[#64748B] text-sm">
-                {item.role}
+              <p className="text-[#64748B]">
+                {
+                  product.testimonials[
+                    activeTestimonial
+                  ].role
+                }
               </p>
 
             </div>
 
           </div>
 
+          {/* Navigation */}
+
+          <div className="flex gap-3">
+
+            <button
+              onClick={() =>
+                setActiveTestimonial(
+                  activeTestimonial === 0
+                    ? product.testimonials.length - 1
+                    : activeTestimonial - 1
+                )
+              }
+              className="
+                w-11
+                h-11
+                rounded-full
+                border
+                border-slate-200
+                hover:border-[#155A96]
+              "
+            >
+              ←
+            </button>
+
+            <button
+              onClick={() =>
+                setActiveTestimonial(
+                  activeTestimonial ===
+                    product.testimonials.length - 1
+                    ? 0
+                    : activeTestimonial + 1
+                )
+              }
+              className="
+                w-11
+                h-11
+                rounded-full
+                bg-[#155A96]
+                text-white
+              "
+            >
+              →
+            </button>
+
+          </div>
+
         </div>
 
-      ))}
+        {/* Dots */}
+
+        <div className="flex gap-2 mt-8">
+
+          {product.testimonials.map((_, index) => (
+            <button
+              key={index}
+              onClick={() =>
+                setActiveTestimonial(index)
+              }
+              className={`
+                h-2
+                rounded-full
+                transition-all
+                ${
+                  activeTestimonial === index
+                    ? "w-8 bg-[#155A96]"
+                    : "w-2 bg-slate-300"
+                }
+              `}
+            />
+          ))}
+
+        </div>
+
+      </div>
 
     </div>
 
@@ -1098,8 +1312,21 @@ md:text-[44px] font-bold leading-tight text-[#0B132B]">
 
       {/* ================= CTA SECTION ================= */}
 {product.cta && (
-<section className="relative py-10 sm:py-12 md:py-14 bg-white overflow-hidden">
+<section className="relative py-10 sm:py-12 md:py-12 bg-white overflow-hidden">
 
+  <div
+  className="
+    absolute
+    top-0
+    left-1/2
+    -translate-x-1/2
+    w-[700px]
+    h-[700px]
+    rounded-full
+    bg-[#155A96]/5
+    blur-3xl
+  "
+/>
 
   <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center">
 
@@ -1108,9 +1335,9 @@ md:text-[44px] font-bold leading-tight text-[#0B132B]">
       inline-flex items-center
       px-5 py-2
       rounded-full
-      border border-[#D8E6FF]
-      bg-[#F8FBFF]
-      text-[#1178D4]
+      border-[#D9E7F5]
+      bg-[#EDF4FA]
+      text-[#155A96]
       text-sm
       font-semibold
       tracking-[0.22em]
@@ -1169,13 +1396,12 @@ md:text-[44px] font-bold leading-tight text-[#0B132B]">
         px-5 sm:px-8
         py-3 sm:py-4
         rounded-2xl
-        bg-gradient-to-r
-        from-[#1178D4]
-        to-[#6C63FF]
+        bg-[#155A96]
+        hover:bg-[#1D6FB8]
         text-white
         text-[17px]
         font-semibold
-        shadow-[0_10px_40px_rgba(108,99,255,0.25)]
+        shadow-[0_10px_30px_rgba(21,90,150,0.08)]
         hover:scale-[1.04]
         transition-all duration-300
       ">
@@ -1221,9 +1447,9 @@ md:text-[44px] font-bold leading-tight text-[#0B132B]">
         text-[17px]
         font-semibold
         transition-all duration-300
-        hover:border-[#1178D4]
-        hover:text-[#1178D4]
-        hover:shadow-[0_10px_30px_rgba(17,120,212,0.08)]
+        hover:border-[#155A96]
+        hover:text-[#155A96]
+        hover:shadow-[0_10px_30px_rgba(21,90,150,0.08)]
       ">
         {product.cta.secondaryBtn}
       </button>
@@ -1242,17 +1468,17 @@ md:text-[44px] font-bold leading-tight text-[#0B132B]">
     ">
 
       <div className="flex items-center gap-2">
-        <div className="w-2 h-2 rounded-full bg-[#22C55E]" />
+        <div className="w-2 h-2 rounded-full bg-[#F0AE11]" />
         Trusted Business Solution
       </div>
 
       <div className="flex items-center gap-2">
-        <div className="w-2 h-2 rounded-full bg-[#22C55E]" />
+        <div className="w-2 h-2 rounded-full bg-[#F0AE11]" />
         Expert Support Available
       </div>
 
       <div className="flex items-center gap-2">
-        <div className="w-2 h-2 rounded-full bg-[#22C55E]" />
+        <div className="w-2 h-2 rounded-full bg-[#F0AE11]" />
         Fast & Secure Setup
       </div>
 

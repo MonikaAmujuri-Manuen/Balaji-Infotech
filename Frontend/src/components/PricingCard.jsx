@@ -25,7 +25,7 @@ useEffect(() => {
     hover:shadow-[0_20px_60px_rgba(17,120,212,0.12)]
     ${
       index === 1
-        ? "border-[#1178D4] shadow-[0_10px_40px_rgba(17,120,212,0.10)]"
+        ? "border-[#155A96] shadow-[0_10px_40px_rgba(17,120,212,0.10)]"
         : "border-gray-200"
     }
   `}
@@ -37,8 +37,8 @@ useEffect(() => {
       h-[4px] w-full
       ${
         index === 1
-          ? "bg-[#1178D4]"
-          : "bg-[#22C7F8]"
+          ? "bg-[#155A96]"
+          : "bg-[#D6E6F5]"
       }
     `}
   />
@@ -48,8 +48,8 @@ useEffect(() => {
     {/* HEADER */}
     <div className="flex flex-col items-center text-center gap-4">
 
-      <div className="w-14 h-14 rounded-2xl bg-[#F1F6FE] flex items-center justify-center shrink-0">
-        <Layers3 className="w-7 h-7 text-[#1178D4]" />
+      <div className="w-14 h-14 rounded-2xl bg-[#EDF4FA] flex items-center justify-center shrink-0">
+        <Layers3 className="w-7 h-7 text-[#155A96]" />
       </div>
 
       <div>
@@ -84,8 +84,8 @@ useEffect(() => {
               transition-all duration-300
               ${
                 selectedVariant?.pack === variant.pack
-                  ? "bg-[#1178D4] text-white border-[#1178D4]"
-                  : "border-[#1178D4] text-[#1178D4] hover:bg-[#1178D4] hover:text-white"
+                  ? "bg-[#155A96] text-white border-[#155A96]"
+                  : "border-[#155A96] text-[#155A96] hover:bg-[#155A96] hover:text-white"
               }
             `}
           >
@@ -109,12 +109,12 @@ useEffect(() => {
 
       <div className="flex items-end justify-center gap-2">
 
-        <span className="text-[18px] font-semibold text-gray-500 mb-2">
+        <span className="text-[14px] font-semibold text-gray-500 mb-2">
           INR
         </span>
 
 
-        <h2 className="text-[50px] leading-none font-[900] text-[#0B132B]">
+        <h2 className="text-[30px] leading-none font-[900] text-[#0B132B]">
           {isInteractive
             ? selectedVariant?.price
             : plan.price}
@@ -130,7 +130,7 @@ useEffect(() => {
   <div className="relative">
     <Info
       size={16}
-      className="text-[#1178D4] cursor-pointer"
+      className="text-[#155A96] cursor-pointer"
     />
 
     {/* TOOLTIP */}
@@ -161,7 +161,7 @@ useEffect(() => {
 
     {/* FEATURES */}
     {((isInteractive && selectedVariant) || plan.features) && (
-  <div className="mt-8 space-y-4 flex-1 max-w-[260px] mx-auto">
+  <div className="mt-4 space-y-4 flex-1 max-w-[260px] mx-auto">
 
       {(isInteractive
         ? [
@@ -180,11 +180,11 @@ useEffect(() => {
           className="flex items-center justify-start gap-3"
         >
 
-          <div className="w-8 h-8 rounded-full bg-[#F1F6FE] flex items-center justify-center shrink-0">
-            <Check className="w-4 h-4 text-[#1178D4]" />
+          <div className="w-8 h-8 rounded-full bg-[#EDF4FA] flex items-center justify-center shrink-0">
+            <Check className="w-4 h-4 text-[#155A96]" />
           </div>
 
-          <span className="text-[18px] text-[#1E293B]">
+          <span className="text-[15px] text-[#1E293B]">
             {feature}
           </span>
 
@@ -197,15 +197,15 @@ useEffect(() => {
     {/* BUTTON */}
     <button
       className={`
-        mt-10 w-full h-[62px]
+        mt-6 w-full h-[50px]
         rounded-[18px]
         text-[22px]
         font-[700]
         transition-all duration-300
         ${
           index === 1
-            ? "bg-[#1178D4] text-white hover:bg-[#0F6DC2]"
-            : "bg-[#0B132B] text-white hover:bg-[#111C3A]"
+            ? "bg-[#155A96] text-white hover:bg-[#1D6FB8]"
+            : "bg-[#071426] text-white hover:bg-[#0D223C]"
         }
       `}
     >

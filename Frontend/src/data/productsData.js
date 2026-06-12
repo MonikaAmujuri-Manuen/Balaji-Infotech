@@ -54,12 +54,6 @@ export const productsData = {
 
         icon: TrendingUp,
 
-        points: [
-            "Multi-company Management",
-            "Advanced Financial Reporting",
-            "Faster Decision Making",
-            "Business Performance Insights",
-        ],
         },
 
         {
@@ -72,12 +66,6 @@ export const productsData = {
 
         icon: Wallet,
 
-        points: [
-            "Track Receivables & Payables",
-            "Real-Time Cash Flow Insights",
-            "Smart Stock Movement Tracking",
-            "Instant Financial Reports",
-        ],
         },
 
         {
@@ -90,12 +78,6 @@ export const productsData = {
 
         icon: Zap,
 
-        points: [
-            "Faster Workflow Management",
-            "Multi-Tasking Capabilities",
-            "Instant Operational Insights",
-            "Seamless Navigation Experience",
-        ],
         },
 
         {
@@ -107,12 +89,7 @@ export const productsData = {
             "TallyPrime makes GST and tax compliance effortless with integrated tools for return filing, reconciliation, e-invoicing, and e-way bill generation. Stay compliant, reduce manual errors, and manage taxation confidently from a single platform.",
 
         icon: ShieldCheck,
-        points: [
-            "GST Return Filing",
-            "E-Invoicing & E-Way Bills",
-            "Automatic Tax Reconciliation",
-            "Accurate Compliance Reports",
-        ],
+
         },
 
     ],
@@ -201,12 +178,6 @@ cta: {
     description:
       "With TallyPrime Server, multiple users can effortlessly perform data-intensive operations simultaneously without any delays. Whether it’s loading companies, recording transactions, exporting reports, or taking backups, every activity is executed smoothly in a frictionless environment. This ensures optimal utilization of time and resources, allowing tasks to be completed faster and with greater efficiency.",
 
-    points: [
-      "Multi-user simultaneous access",
-      "Faster report generation",
-      "Smooth data-intensive operations",
-      "Improved operational efficiency",
-    ],
   },
 
   {
@@ -218,12 +189,6 @@ cta: {
     description:
       "TallyPrime Server ensures enterprise-grade data security with its robust permission-based architecture. Critical operations such as backup, restore, and data management are safeguarded with server-level permissions accessible only through proper authorization. This guarantees enhanced control over user access and ensures your business data remains secure, organized, and protected at all times.",
 
-    points: [
-      "Server-level access permissions",
-      "Secure backup & restore",
-      "Controlled user authorization",
-      "Enhanced data protection",
-    ],
   },
 
   {
@@ -235,12 +200,6 @@ cta: {
     description:
       "TallyPrime Server delivers uninterrupted productivity by ensuring seamless access to reports and transactions even during backup processes. Any discrepancies are isolated at the client level, ensuring server operations remain unaffected. This reliability minimizes downtime, improves accuracy, and guarantees continuous business performance without disruption.",
 
-    points: [
-      "Uninterrupted workflow",
-      "Reliable server operations",
-      "Minimal downtime",
-      "Continuous productivity",
-    ],
   },
 
   {
@@ -252,12 +211,6 @@ cta: {
     description:
       "TallyPrime Server provides powerful monitoring capabilities that help businesses optimize workflows and track system activities efficiently. Authorized users can manage sessions, monitor active users, and even disconnect operations when necessary. This feature ensures better resource utilization, smoother workflows, and increased business productivity.",
 
-    points: [
-      "User session monitoring",
-      "Better workflow management",
-      "Performance optimization tools",
-      "Improved resource utilization",
-    ],
   },
 
     ],
@@ -343,12 +296,6 @@ cta: {
     description:
       "TallyPrime powered by AWS allows you to securely access your business data from anywhere through web browsers or virtual clients. Whether you're working remotely, traveling, or managing multiple offices, your operations stay connected and uninterrupted. Experience seamless accessibility with enterprise-grade AWS reliability and security.",
 
-    points: [
-      "Access from anywhere",
-      "Browser & virtual client support",
-      "Secure remote connectivity",
-      "Reliable AWS infrastructure",
-    ],
   },
 
   {
@@ -360,12 +307,6 @@ cta: {
     description:
       "Protect your business data with dual-factor authentication powered by AWS. TallyPrime combines Tally.NET credentials with Secure PIN protection to ensure only authorized users can access your system. With advanced cloud security and encrypted access, your operations remain safe, protected, and fully under your control.",
 
-    points: [
-      "Dual-factor authentication",
-      "Secure PIN protection",
-      "Encrypted cloud access",
-      "Enterprise-grade security",
-    ],
   },
 
   {
@@ -377,12 +318,6 @@ cta: {
     description:
       "Manage users, systems, and backups effortlessly through the intuitive Self-Service Portal. Designed for flexibility and control, SSP allows businesses to monitor and manage virtual workspaces with ease. Simplify administrative operations while improving efficiency and user management from a single platform.",
 
-    points: [
-      "Centralized management",
-      "Easy user administration",
-      "Backup monitoring",
-      "Flexible workspace control",
-    ],
   },
 
   {
@@ -394,12 +329,6 @@ cta: {
     description:
       "Never worry about losing critical business data again. TallyPrime powered by AWS automatically secures backups in the cloud with enhanced encryption and reliable recovery options. Access and restore your data quickly whenever needed while ensuring business continuity without disruptions.",
 
-    points: [
-      "Automatic cloud backups",
-      "Quick data recovery",
-      "Encrypted storage",
-      "Business continuity support",
-    ],
   },
 
   {
@@ -411,12 +340,6 @@ cta: {
     description:
       "Control how your business data is shared with selective access permissions. Administrators can define who can access, restrict, or manage specific information in TallyPrime. This feature improves confidentiality, enhances collaboration, and gives businesses complete control over sensitive data.",
 
-    points: [
-      "Selective access permissions",
-      "Controlled data sharing",
-      "Enhanced confidentiality",
-      "Admin-level control",
-    ],
   },
 
   {
@@ -428,12 +351,6 @@ cta: {
     description:
       "Stay ahead with effortless upgrades and instant access to the latest TallyPrime features. Businesses can switch between versions smoothly without technical complexity or downtime. AWS-powered infrastructure ensures updates are reliable, fast, and optimized for business growth.",
 
-    points: [
-      "Instant feature upgrades",
-      "Smooth version transitions",
-      "Minimal downtime",
-      "Future-ready platform",
-    ],
   },
 
   {
@@ -445,12 +362,6 @@ cta: {
     description:
       "Integrate third-party applications with TallyPrime effortlessly to streamline business operations and improve workflow efficiency. Share data securely between systems, automate processes, and unlock greater operational flexibility through robust integration capabilities powered by AWS.",
 
-    points: [
-      "Third-party integrations",
-      "Secure data exchange",
-      "Workflow automation",
-      "Operational flexibility",
-    ],
   },
 
   {
@@ -462,12 +373,6 @@ cta: {
     description:
       "Scale your business confidently with flexible and cost-effective AWS-powered solutions. TallyPrime adapts to your evolving operational needs while maintaining high performance and reliability. Designed for growing businesses, it provides enterprise-grade capabilities without increasing complexity.",
 
-    points: [
-      "Cost-effective scalability",
-      "Flexible business plans",
-      "Enterprise-level performance",
-      "Supports business growth",
-    ],
   },
 
   {
@@ -479,12 +384,6 @@ cta: {
     description:
       "Boost productivity with built-in tools that simplify document management, collaboration, and daily business tasks. TallyPrime powered by AWS creates a fully integrated virtual workspace where users can manage operations efficiently without switching between multiple platforms.",
 
-    points: [
-      "Integrated productivity tools",
-      "Simplified collaboration",
-      "Document management support",
-      "All-in-one virtual workspace",
-    ],
   },
     ],
 
@@ -769,12 +668,6 @@ cta: {
     description:
       "Share invoices, reports, orders, payment reminders, and business documents instantly through WhatsApp with just a single click. Improve communication speed, reduce manual effort, and deliver a smoother customer experience with real-time document delivery.",
 
-    points: [
-      "One-click document sharing",
-      "Instant customer communication",
-      "Faster response time",
-      "Improved productivity",
-    ],
   },
 
   {
@@ -786,12 +679,6 @@ cta: {
     description:
       "Connect with multiple customers simultaneously by sharing documents, updates, and notifications in bulk through WhatsApp. Save time, simplify customer outreach, and manage large-scale communication more efficiently from within TallyPrime.",
 
-    points: [
-      "Bulk document sharing",
-      "Connect with multiple customers",
-      "Save time and effort",
-      "Efficient communication management",
-    ],
   },
 
   {
@@ -803,12 +690,6 @@ cta: {
     description:
       "Easily share business documents in multiple formats including PDF, JPEG, and Excel. Provide customers and teams with the flexibility to access files in the format most convenient for them while maintaining seamless communication workflows.",
 
-    points: [
-      "PDF, JPEG & Excel support",
-      "Flexible file sharing",
-      "Easy customer access",
-      "Smooth document management",
-    ],
   },
 
   {
@@ -820,12 +701,6 @@ cta: {
     description:
       "Speed up payment collection by sending invoices directly through WhatsApp with embedded payment links and QR codes. Help customers make payments quickly while reducing delays and improving cash flow management for your business.",
 
-    points: [
-      "Embedded payment links",
-      "QR code enabled invoices",
-      "Faster payment collection",
-      "Improved cash flow",
-    ],
   },
 
   {
@@ -837,12 +712,6 @@ cta: {
     description:
       "Choose from professionally designed and ready-to-use WhatsApp templates for invoices, reminders, confirmations, and customer communication. Deliver consistent and personalized messages while reducing manual typing and repetitive tasks.",
 
-    points: [
-      "Ready-to-use templates",
-      "Consistent communication",
-      "Personalized messaging",
-      "Reduced manual effort",
-    ],
   },
 
   {
@@ -854,12 +723,6 @@ cta: {
     description:
       "Manage customer conversations and business communications effortlessly through a dedicated centralized WhatsApp inbox. Keep track of messages, improve response management, and maintain organized communication from a single place.",
 
-    points: [
-      "Dedicated communication inbox",
-      "Organized customer conversations",
-      "Easy response management",
-      "Improved communication tracking",
-    ],
   },
     ],
 

@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import {
   GraduationCap, Handshake, Headphones, BriefcaseBusiness, Code2,
   Settings2, MonitorCog, Headset, Smartphone, Puzzle, CheckCircle2,
-  Server, Cloud, MessageCircleCheckIcon, Star, Quote,
+  Server, Cloud, MessageCircleCheckIcon, Star, Quote, Award, Check, 
   Building2, Users, FileText, ShieldCheck, BadgeCheck, ArrowRight,
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -16,12 +16,21 @@ import QuoteForm from "../components/QuoteForm";
 import "swiper/css";
 
 import aboutImage from "../assets/about.png";
+import testimonial from "../assets/testimonial.png";
+
+import tallysoftware from "../assets/tally-software.png"
+import tallyservices from "../assets/tally-services.png"
+import tallyapps from "../assets/tally-apps.png"
+import tallysolutions from "../assets/tally-solutions.png"
+import tallyerp from "../assets/tally-erp.png"
+import tallyaddon from "../assets/tally-addon.png"
 
 
 import tallyPrime from "../assets/tallyPrime.png";
 import tallyServer from "../assets/tallyServer.png";
 import tallyAws from "../assets/tallyAws.png"
 import tallyMobile from "../assets/tallyMobile.png"
+
 
 
 const Home = () => {
@@ -156,9 +165,52 @@ const testimonials = [
   },
 ];
 
+const services = [
+  {
+    title: "Tally Software",
+    description:
+      "Complete accounting, GST billing, inventory, and business management.",
+    image: tallysoftware,
+    link: "/services/tally-software",
+  },
+  {
+    title: "Tally Services",
+    description:
+      "Professional installation, troubleshooting, remote support, and operational assistance.",
+    image: tallyservices,
+    link: "/services/tally-services",
+  },
+  {
+    title: "Tally Apps for Mobile",
+    description:
+      "Access business reports, invoices, and analytics securely from anywhere using mobile integrations.",
+    image: tallyapps,
+    link: "/services/tally-mobile",
+  },
+  {
+    title: "Tally Solutions",
+    description:
+      "Tailored enterprise solutions designed to simplify workflow automation.",
+    image: tallysolutions,
+    link: "/services/tally-solutions",
+  },
+  {
+    title: "Tally ERP 9 Solutions",
+    description:
+      "Legacy Tally ERP 9 implementation, migration support, and business continuity services.",
+    image: tallyerp,
+    link: "/services/tally-erp",
+  },
+  {
+    title: "Tally Add-Ons",
+    description:
+      "Enhance Tally functionality with specialized plugins, integrations, and smart business tools.",
+    image: tallyaddon,
+    link: "/services/tally-addon",
+  },
+];
 
 const [activeTab, setActiveTab] = useState(products[0]);
-
 
 
   return (
@@ -587,324 +639,547 @@ const [activeTab, setActiveTab] = useState(products[0]);
       </section>
       )}
 
-      <section className="relative py-12 md:py-16 px-4 sm:px-6 bg-white overflow-hidden">
-        {/* BACKGROUND GLOW */}
-      <div
-        className="
-          absolute
-          top-0
-          left-1/2
-          -translate-x-1/2
-          w-[700px]
-          h-[700px]
-          bg-gradient-to-r
-          from-[#2F80FF]/10
-          to-[#7B61FF]/10
-          blur-3xl
-          rounded-full
-        "
-      />
-        <div className="max-w-3xl mx-auto text-center mb-10"> 
+      <section className="relative py-14 lg:py-16 px-4 sm:px-6 overflow-hidden bg-white">
 
-          <p className="
-            text-sm
-            tracking-[0.25em]
-            uppercase
-            text-[#2F80FF]
-            font-semibold
-            mb-3
-          ">
-            Why Choose Us
-          </p>
+  {/* BACKGROUND GLOW */}
+  <div
+    className="
+      absolute
+      top-1/2
+      left-1/2
+      -translate-x-1/2
+      -translate-y-1/2
+      w-[700px]
+      h-[700px]
+      rounded-full
+      bg-[#155A96]/5
+      blur-3xl
+    "
+  />
 
-          <h2 className="
-            text-3xl
-            md:text-5xl
-            font-bold
-            text-[#071426]
-            mb-4
-          ">
-            Trusted Expertise
-          </h2>
+  <div className="max-w-4xl mx-auto text-center mb-14">
 
-          <p className="
-            text-[15px] md:text-[16px]
-            text-gray-500
-            leading-relaxed
-          ">
-            Over two decades of experience delivering innovative
-            Tally solutions for modern businesses.
-          </p>
+  <div
+    className="
+      inline-flex
+      items-center
+      gap-2
+      px-4 py-2
+      rounded-full
+      border
+      border-[#155A96]/10
+      bg-[#155A96]/5
+      text-[#155A96]
+      text-sm
+      font-medium
+      mb-5
+    "
+  >
+    <ShieldCheck size={16}/>
+    Why Choose Balaji
+  </div>
 
-        </div>
-        <div
-          className="
-            max-w-6xl
-            mx-auto
-            grid
-            grid-cols-1
-            lg:grid-cols-3
-            gap-5"
-        >
-          {/* LEFT COLUMN */}
-          <div className="flex flex-col gap-6">
+  <h2
+    className="
+      text-3xl
+      md:text-4xl
+      font-bold
+      text-[#071426]
+      leading-tight
+      mb-5
+    "
+  >
+    Trusted Expertise
+  </h2>
 
-            {/* CARD 1 */}
-            <div
-              className="group
-                relative
-                overflow-hidden
-                rounded-[24px]
-                p-5 sm:p-6
-                border border-[#E5E7EB]
-                bg-white
-                "
-              >
+  <div
+  className="
+    w-20
+    h-1
+    bg-[#F0AE11]
+    rounded-full
+    mx-auto
+    mt-5
+    mb-6
+  "
+/>
 
-              <div className="relative z-10">
+</div>
 
-                <div className="flex items-start gap-4 mb-4">
+  <div
+    className="
+      relative
+      max-w-7xl
+      mx-auto
+      grid
+      grid-cols-1
+      lg:grid-cols-2
+      gap-6 lg:gap-8
+      items-center
+    "
+  >
+    {/* LEFT CONTENT */}
+    <div>
+      {/* FEATURES */}
+      <div className="space-y-4">
 
-                  <div
-                    className="
-                      w-12 h-12
-                      rounded-2xl
-                      bg-[#EFF6FF]
-                      flex items-center justify-center
-                      text-[#2563EB]
-                      shrink-0
-                    "
-                  >
-                    <GraduationCap size={26} />
-                  </div>
+        <h3 className="
+      text-xl
+      md:text-2xl
+      lg:text-3xl
+      font-semibold
+      text-[#071426]
+      leading-tight
+      mb-4
+    ">
+      Built on Experience. Driven by Results.
+        </h3>
 
-                  <div>
-                    <h3
-                      className="
-                        text-2xl
-                        font-semibold
-                        text-[#071426]
-                        leading-tight
-                      "
-                    >
-                      Authorized Training Programs
-                    </h3>
-                  </div>
-                </div>
+        <p
+    className="
+      text-slate-600
+      max-w-2xl
+      mx-auto
+      leading-8
+    "
+  >
+    Over two decades of experience delivering innovative Tally solutions.
+  </p>
 
-                <p
-                  className="
-                    text-gray-500
-                    group-hover:text-[#071426]/70
-                    transition-colors
-                    duration-500
-                    leading-relaxed
-                  "
-
-                >
-                  TEPL-certified programs designed to enhance professional accounting and ERP skills.
-                </p>
-              </div>
-            </div>
-
-            {/* CARD 2 */}
-            <div
-              className="group
-                relative
-                overflow-hidden
-                rounded-[24px]
-                p-5 sm:p-6
-                border border-[#E5E7EB]
-                bg-white
-                "
-              >
-
-              <div className="flex items-start gap-4 mb-6">
-
-                <div
-                  className="
-                  w-14 h-14
-                  rounded-2xl
-                  bg-[#EFF6FF]
-                  flex items-center justify-center
-                  text-[#2563EB]
-                  shrink-0
-                "
-                >
-                  <Headphones size={26} />
-                </div>
-
-                <div>
-                  <h3
-                      className="
-                        text-2xl
-                        font-semibold
-                        text-[#071426]
-                        leading-tight
-                      "
-                    >
-                    Comprehensive Support
-                  </h3>
-                </div>
-              </div>
-              <p
-                className="
-                  text-gray-500
-                  leading-relaxed
-                  text-[16px]
-                "
-              >
-                Dedicated assistance to ensure seamless operations.
-              </p>
-            </div>
-          </div>
-
-          {/* BIG RIGHT CARD */}
+        {[
+          "Authorized Training Programs",
+          "TallyPrime Implementation",
+          "GST & Accounting Solutions",
+          "Dedicated Technical Support",
+        ].map((item) => (
           <div
-            className=" group
-              relative
-              overflow-hidden
-              rounded-[28px]
-              lg:col-span-2
-              relative
-              overflow-hidden
-              rounded-[36px]
-              bg-white
-              border border-[#E5E7EB]
-              text-[#071426]
-              p-7
-              lg:min-h-[360px]
+            key={item}
+            className="
+              flex
+              items-center
+              gap-4
             "
           >
+            <div
+              className="
+                flex
+                items-center
+                justify-center
+                w-7
+                h-7
+                rounded-full
+                bg-[#155A96]
+                shrink-0
+              "
+            >
+              <BadgeCheck
+                size={14}
+                className="text-white"
+              />
+            </div>
 
-            {/* CONTENT */}
-            <div className="relative z-10">
+            <span
+              className="
+                text-[#071426]
+                font-medium
+                text-lg
+              "
+            >
+              {item}
+            </span>
+          </div>
+        ))}
+      </div>
+    </div>
 
-              <div
-                className="
-                  inline-flex
-                  items-center
-                  gap-2
-                  px-4 py-2
-                  rounded-full
-                  bg-slate-50
-                  border border-slate-200
-                  border border-black/10
-                  text-[#071426]
-                  text-sm
-                  mb-5
-                "
-              >
-                <span className="w-2 h-2 rounded-full bg-green-400" />
-                Enterprise Support
-              </div>
+    {/* RIGHT STATS */}
+    <div
+      className="
+        grid
+        grid-cols-2
+        gap-5
+      "
+    >
+      {/* CARD 1 */}
+      <div
+        className="
+          bg-white
+          border
+          border-slate-200
+          rounded-[28px]
+          p-6
+          shadow-sm
+          hover:-translate-y-1
+          hover:shadow-lg
+          transition-all
+          duration-300
+        "
+      >
+        <h3
+          className="
+            text-4xl
+            font-bold
+            text-[#155A96]
+            text-center
+          "
+        >
+          500+
+        </h3>
 
-              <div className="flex items-start gap-4 mb-4 ">
+        <p className="mt-3 text-center text-slate-500">
+          Businesses Served
+        </p>
+      </div>
 
-                <div
-                  className="
-                  w-14 h-14
-                  rounded-2xl
-                  bg-[#EFF6FF]
-                  flex items-center justify-center
-                  text-[#2563EB]
-                  shrink-0
-                "
-                >
-                  <Handshake size={26} />
-                </div>
+      {/* CARD 2 */}
+      <div
+        className="
+          bg-white
+          border
+          border-slate-200
+          rounded-[28px]
+          p-6
+          shadow-sm
+          hover:-translate-y-1
+          hover:shadow-lg
+          transition-all
+          duration-300
+        "
+      >
+        <h3
+          className="
+            text-4xl
+            font-bold
+            text-center
+            text-[#155A96]
+          "
+        >
+          20+
+        </h3>
 
-                <div>
-                  <h3
-                    className="
-                      text-3xl
-                      font-semibold
-                      text-[#071426]
-                      leading-tight
-                    "
-                  >
-                    Customer-Centric Approach
-                  </h3>
-                </div>
-              </div>
+        <p className="mt-3 text-center text-slate-500">
+          Years Experience
+        </p>
+      </div>
 
-              <p
-                className="
-                  text-gray-500
-                  text-[15px] md:text-[16px]
-                  leading-relaxed
-                  max-w-[580px]
-                  mb-6
-                "
-              >
-                We prioritize business growth with tailored solutions, reliable service, and long-term support.
-                Your success is our priority with personalized solutions and support.
+      {/* CARD 3 */}
+      <div
+        className="
+          bg-white
+          border
+          border-slate-200
+          rounded-[28px]
+          p-6
+          shadow-sm
+          hover:-translate-y-1
+          hover:shadow-lg
+          transition-all
+          duration-300
+        "
+      >
+        <h3
+          className="
+            text-4xl
+            font-bold
+            text-center
+            text-[#155A96]
+          "
+        >
+          24/7
+        </h3>
+
+        <p className="mt-3 text-center text-slate-500">
+          Support Assistance
+        </p>
+      </div>
+      <div
+        className="
+          bg-white
+          border
+          border-slate-200
+          rounded-[28px]
+          p-6
+          shadow-sm
+          hover:-translate-y-1
+          hover:shadow-lg
+          transition-all
+          duration-300
+        "
+      >
+        <h3
+          className="
+            text-4xl
+            text-center
+            font-bold
+            text-[#155A96]
+          "
+        >
+          100+
+        </h3>
+
+        <p className="mt-3 text-center text-slate-500">
+          Students Trained
+        </p>
+      </div>
+
+      
+    </div>
+  </div>
+      </section>
+      
+{false && (
+<section className="relative py-20 lg:py-24 bg-white overflow-hidden">
+
+  {/* Background Glow */}
+  <div
+    className="
+      absolute
+      top-0
+      left-1/2
+      -translate-x-1/2
+      w-[700px]
+      h-[700px]
+      bg-gradient-to-r
+      from-[#2F80FF]/10
+      to-[#7B61FF]/10
+      blur-3xl
+      rounded-full
+    "
+  />
+
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
+
+    <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+
+      {/* LEFT CONTENT */}
+      <div>
+
+        <span
+          className="
+            inline-flex
+            items-center
+            px-4
+            py-2
+            rounded-full
+            border
+            border-slate-200
+            bg-white
+            text-[#2563EB]
+            text-sm
+            font-medium
+            shadow-sm
+          "
+        >
+          Why Choose Us
+        </span>
+
+        <h2
+          className="
+            mt-6
+            text-3xl
+            sm:text-4xl
+            lg:text-5xl
+            font-bold
+            text-[#071426]
+            leading-tight
+          "
+        >
+          Trusted By Businesses
+          <span className="block text-[#2563EB]">
+            For Over 20 Years
+          </span>
+        </h2>
+
+        <p
+          className="
+            mt-6
+            text-base
+            lg:text-lg
+            text-slate-600
+            leading-relaxed
+            max-w-xl
+          "
+        >
+          We help businesses streamline accounting,
+          inventory management, compliance, and enterprise
+          operations through trusted Tally solutions and
+          professional training programs.
+        </p>
+
+        {/* FEATURES */}
+        <div className="mt-8 space-y-5">
+
+          <div className="flex items-start gap-4">
+            <ShieldCheck
+              className="text-[#2563EB] shrink-0 mt-1"
+              size={22}
+            />
+            <div>
+              <h4 className="font-semibold text-[#071426]">
+                Authorized Tally Partner
+              </h4>
+              <p className="text-slate-500 text-sm">
+                Certified implementation and support services.
               </p>
-
-              {/* STATS */}
-              <div
-                className="
-                  grid
-                  grid-cols-2
-                  md:grid-cols-3
-                  gap-3
-                  max-w-[580px]
-                "
-              >
-                <div
-                  className="
-                  rounded-2xl
-                  border border-slate-200
-                  bg-[#F8FAFC]
-                  p-4
-                "
-                >
-                  <p className="text-slate-500 text-sm mb-2">
-                    Clients Served
-                  </p>
-
-                  <h4 className="text-3xl text-[#071426] font-semibold">
-                    500+
-                  </h4>
-                </div>
-
-                <div
-                  className="
-                  rounded-2xl
-                  border border-slate-200
-                  bg-[#F8FAFC]
-                  p-5
-                ">
-                  <p className="text-slate-500 text-sm mb-2">
-                    Years Experience
-                  </p>
-
-                  <h4 className="text-3xl text-[#071426] font-semibold">
-                    20+
-                  </h4>
-                </div>
-
-                <div
-                  className="
-                  rounded-2xl
-                  border border-slate-200
-                  bg-[#F8FAFC]
-                  p-5
-                ">
-                  <p className="text-slate-500 text-sm mb-2">
-                    Support Access
-                  </p>
-
-                  <h4 className="text-2xl text-[#071426] font-semibold">
-                    24/7
-                  </h4>
-                </div>
-              </div>
             </div>
           </div>
+
+          <div className="flex items-start gap-4">
+            <GraduationCap
+              className="text-[#2563EB] shrink-0 mt-1"
+              size={22}
+            />
+            <div>
+              <h4 className="font-semibold text-[#071426]">
+                TEPL Certified Training
+              </h4>
+              <p className="text-slate-500 text-sm">
+                Industry-recognized professional programs.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex items-start gap-4">
+            <Headphones
+              className="text-[#2563EB] shrink-0 mt-1"
+              size={22}
+            />
+            <div>
+              <h4 className="font-semibold text-[#071426]">
+                Dedicated Support Team
+              </h4>
+              <p className="text-slate-500 text-sm">
+                Fast assistance whenever your business needs it.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex items-start gap-4">
+            <Award
+              className="text-[#2563EB] shrink-0 mt-1"
+              size={22}
+            />
+            <div>
+              <h4 className="font-semibold text-[#071426]">
+                20+ Years Of Experience
+              </h4>
+              <p className="text-slate-500 text-sm">
+                Proven expertise serving businesses across industries.
+              </p>
+            </div>
+          </div>
+
         </div>
 
-      </section>
+      </div>
+
+      {/* RIGHT SIDE */}
+      <div className="relative">
+
+        <div
+          className="
+            bg-white
+            border
+            border-slate-200
+            rounded-[32px]
+            p-8
+            shadow-xl
+          "
+        >
+
+          <img
+            src={dashboardImage}
+            alt="Business Growth"
+            className="w-full max-w-md mx-auto"
+          />
+
+          {/* STATS */}
+          <div className="grid grid-cols-2 gap-4 mt-8">
+
+            <div
+              className="
+                rounded-2xl
+                bg-slate-50
+                border
+                border-slate-200
+                p-5
+              "
+            >
+              <p className="text-slate-500 text-sm">
+                Clients Served
+              </p>
+
+              <h3 className="text-3xl font-bold text-[#071426] mt-2">
+                500+
+              </h3>
+            </div>
+
+            <div
+              className="
+                rounded-2xl
+                bg-slate-50
+                border
+                border-slate-200
+                p-5
+              "
+            >
+              <p className="text-slate-500 text-sm">
+                Experience
+              </p>
+
+              <h3 className="text-3xl font-bold text-[#071426] mt-2">
+                20+
+              </h3>
+            </div>
+
+            <div
+              className="
+                rounded-2xl
+                bg-slate-50
+                border
+                border-slate-200
+                p-5
+              "
+            >
+              <p className="text-slate-500 text-sm">
+                Support
+              </p>
+
+              <h3 className="text-3xl font-bold text-[#071426] mt-2">
+                24/7
+              </h3>
+            </div>
+
+            <div
+              className="
+                rounded-2xl
+                bg-slate-50
+                border
+                border-slate-200
+                p-5
+              "
+            >
+              <p className="text-slate-500 text-sm">
+                Success Rate
+              </p>
+
+              <h3 className="text-3xl font-bold text-[#071426] mt-2">
+                99%
+              </h3>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+)}
 
       {/* ABOUT US */}
     <section className="py-10 md:py-14 px-4 sm:px-6 bg-white">
@@ -914,21 +1189,34 @@ const [activeTab, setActiveTab] = useState(products[0]);
         {/* TOP CONTENT */}
         <div className="text-center max-w-4xl mx-auto mb-8">
 
-          <p className="
-            text-[#2F80FF]
-            uppercase
-            tracking-[0.3em]
-            text-sm
-            font-semibold
-            mb-3
-          ">
-            ABOUT
-          </p>
+          {/* BADGE */}
+    <div
+      className="
+        inline-flex
+        items-center
+        gap-2
+        px-4
+        py-2
+        rounded-full
+        bg-[#155A96]/5
+        border
+        border-[#155A96]/10
+        text-[#155A96]
+        text-sm
+        font-medium
+        mb-5
+      "
+    >
+      <BadgeCheck
+        size={16}
+        className="text-[#155A96]"
+      />
+      Trusted Tally Partner
+    </div>
 
           <h2 className="
             text-3xl
             sm:text-4xl
-            md:text-5xl
             font-bold
             text-[#071426]
             leading-tight
@@ -937,897 +1225,331 @@ const [activeTab, setActiveTab] = useState(products[0]);
             About Balaji AI Infotech
           </h2>
 
-          <p className="
-            text-[15px] md:text-[16px]
-            md:text-xl
-            text-gray-600
-            leading-relaxed
-          ">
-            At Balaji Ai Infotech Pvt. Ltd., we are committed to empowering businesses and individuals through Tally
-            Application based solutions and training. As a trusted provider of Tally Software as a Service (SAAS) and 
-            Tally Education (TEPL), our purpose is to bridge the gap between skill development and accounting automation, 
-            ensuring every organization can achieve seamless financial management.
-          </p>
+          {/* GOLD ACCENT */}
+    <div
+  className="
+    w-20
+    h-1
+    bg-[#F0AE11]
+    rounded-full
+    mx-auto
+    mt-5
+    mb-6
+  "
+/>
+
         </div>
 
         {/* MAIN GRID */}
-        <div className="
-          grid
-          lg:grid-cols-[1fr_1.1fr]
-          gap-8 lg:gap-10
-          items-center
-        ">
-
-          {/* LEFT IMAGE */}
-          <div className="relative">
-
-
-            <div
-              className="
-                relative
-                overflow-hidden
-                rounded-[28px] sm:rounded-[36px]
-
-                border border-slate-200
-                bg-white
-                shadow-sm
-              "
-            >
-              <img
-                src={aboutImage}
-                alt="About Balaji AI Infotech"
-                className="
-                  w-full
-                  h-full
-                  object-cover
-                "
-              />
-            </div>
-            <div
+        {/* MAIN GRID */}
+<div
   className="
-    mt-6
-    rounded-[28px]
-    border border-gray-200
-    bg-white
-    shadow-sm
-    p-5 sm:p-6
+    grid
+    lg:grid-cols-[1fr_1fr]
+    gap-10
+    items-center
   "
 >
-  <div className="flex items-center gap-3 mb-4">
-    <div className="
-      w-3 h-3
-      rounded-full
-      bg-green-500
-      animate-pulse
-    " />
+  {/* LEFT SIDE */}
+  <div>
 
-    <p className="
-      text-sm
-      font-medium
-      tracking-wide
-      text-[#071426]
-    ">
-      Trusted by modern businesses
+    {/* IMAGE */}
+    <div
+      className="
+        overflow-hidden
+        rounded-[32px]
+        border
+        border-slate-200
+        
+        shadow-sm
+      "
+    >
+      <img
+        src={aboutImage}
+        alt="About Balaji AI Infotech"
+        className="
+          w-full
+          h-[460px]
+          object-cover
+          
+        "
+      />
+    </div>
+  </div>
+
+  {/* RIGHT SIDE */}
+  <div>
+
+    {/* HEADING */}
+    <h3
+      className="
+        text-3xl
+        md:text-3xl
+        font-semibold
+        text-[#155A96]
+        leading-tight
+        mb-5
+      "
+    >
+        Your Trusted Tally Partner
+    </h3>
+
+    {/* DESCRIPTION */}
+    <p
+      className="
+        text-slate-600
+        leading-8
+        text-lg
+        mb-8
+      "
+    >
+      Since 2000, Balaji AI Infotech has been helping
+      businesses streamline accounting, GST compliance,
+      inventory management, payroll processing, and
+      financial operations through trusted Tally
+      solutions and certified training programs.
     </p>
-  </div>
 
-  <div className="
-    grid grid-cols-2
-    gap-4
-  ">
-    <div>
-      <p className="text-2xl font-bold text-[#071426]">
-        ERP
-      </p>
-      <p className="text-sm text-gray-500 mt-1">
-        Smart accounting workflows
-      </p>
+    {/* SERVICES */}
+    <div className="space-y-5 mt-8">
+
+  {[
+    "Tally Software Sales and Support",
+    "Tally API Service",
+    "Training and Consultation",
+    "Tally Customization",
+  ].map((item) => (
+    <div
+      key={item}
+      className="
+        flex
+        items-center
+        gap-3
+        pb-3
+        
+      "
+    >
+      <div
+        className="
+          w-8
+          h-8
+          rounded-xl
+          bg-[#155A96]
+          flex
+          items-center
+          justify-center
+          shrink-0
+        "
+      >
+        <BadgeCheck
+          size={18}
+          className="text-white"
+        />
+      </div>
+
+      <h4
+        className="
+          text-xl
+          font-semibold
+          text-[#071426]
+        "
+      >
+        {item}
+      </h4>
     </div>
-
-    <div>
-      <p className="text-2xl font-bold text-[#071426]">
-        GST
-      </p>
-      <p className="text-sm text-gray-500 mt-1">
-        Seamless tax management
-      </p>
-    </div>
-
-    <div>
-      <p className="text-2xl font-bold text-[#071426]">
-        Payroll
-      </p>
-      <p className="text-sm text-gray-500 mt-1">
-        Employee salary automation
-      </p>
-    </div>
-
-    <div>
-      <p className="text-2xl font-bold text-[#071426]">
-        TEPL
-      </p>
-      <p className="text-sm text-gray-500 mt-1">
-        Certified training programs
-      </p>
-    </div>
-  </div>
-</div>
-          </div>
-
-          {/* RIGHT CONTENT */}
-          <div>
-
-            <div className="
-              inline-flex
-              items-center
-              gap-2
-              px-4
-              py-2
-              rounded-full
-              bg-[#2F80FF]/10
-              text-[#2F80FF]
-              text-sm
-              font-medium
-              mb-4
-            ">
-              <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-              Enterprise Expertise
-            </div>
-
-            <h3 className="
-              text-3xl
-              md:text-4xl
-              font-bold
-              text-[#071426]
-              leading-tight
-              mb-5
-            ">
-              About Balaji Infotech Tally Experts
-            </h3>
-
-            <p className="
-              text-[16px] md:text-[17px]
-              text-gray-600
-              leading-relaxed
-              mb-8
-            ">
-              At Balaji Ai Infotech Pvt Ltd, we make it easier for businesses to manage their accounts and 
-              operations using Tally software. Since  2000, we have been helping businesses improve efficiency, 
-              manage accounts, track inventory, handle payroll, and meet tax compliance.
-            </p>
-
-            {/* CORE COMPETENCIES */}
-
-          <div className="space-y-5">
-
-  <div className="flex items-center gap-4 pb-4 border-b border-slate-200">
-    <BriefcaseBusiness
-      size={20}
-      className="text-[#2563EB]"
-    />
-    <h4 className="text-xl font-semibold text-[#071426]">
-      Tally Sales
-    </h4>
-  </div>
-
-  <div className="flex items-center gap-4 pb-4 border-b border-slate-200">
-    <Code2
-      size={20}
-      className="text-[#2563EB]"
-    />
-    <h4 className="text-xl font-semibold text-[#071426]">
-      Tally API Integration
-    </h4>
-  </div>
-
-  <div className="flex items-center gap-4 pb-4 border-b border-slate-200">
-    <Settings2
-      size={20}
-      className="text-[#2563EB]"
-    />
-    <h4 className="text-xl font-semibold text-[#071426]">
-      Tally Customization
-    </h4>
-  </div>
-
-  <div className="flex items-center gap-4">
-    <GraduationCap
-      size={20}
-      className="text-[#2563EB]"
-    />
-    <h4 className="text-xl font-semibold text-[#071426]">
-      Tally Training
-    </h4>
-  </div>
+  ))}
 
 </div>
 
-          </div>
-        </div>
+  </div>
+</div>
       </div>
     </section>
 
+  
     {/* SERVICES SECTION */}
-    <section className="relative py-14 md:py-16 px-4 sm:px-6 bg-white overflow-hidden">
+<section className="relative py-10 md:py-14 bg-white overflow-hidden">
 
-  {/* BACKGROUND GLOW */}
-  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-[#2F80FF]/5 blur-[140px] rounded-full" />
+  {/* Background Glow */}
+  <div
+    className="
+      absolute
+      top-0
+      left-1/2
+      -translate-x-1/2
+      w-[700px]
+      h-[700px]
+      rounded-full
+      bg-[#155A96]/5
+      blur-[140px]
+    "
+  />
 
-  <div className="max-w-6xl mx-auto relative z-10">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
 
-    {/* SECTION HEADER */}
+    {/* Header */}
     <div className="text-center max-w-3xl mx-auto mb-12">
 
-      <p className="
-            text-[#2F80FF]
-            uppercase
-            tracking-[0.3em]
-            text-sm
-            font-semibold
-            mb-6
-          ">
-            Services
+      <p
+        className="
+          text-[#155A96]
+          uppercase
+          tracking-[0.25em]
+          text-sm
+          font-semibold
+          mb-4
+        "
+      >
+        Services
       </p>
 
       <h2
         className="
           text-3xl
-          md:text-5xl
+          md:text-4xl
           font-bold
-          tracking-tight
           text-[#071426]
-          leading-[1.05]
-          mb-6
+          mb-5
         "
       >
-        What We Do
-        ?
+        Complete Tally Solutions
       </h2>
 
       <p
         className="
-          text-[16px] md:text-[17px]
-          text-gray-600
+          text-slate-600
+          text-lg
           leading-relaxed
         "
       >
-        Empowering businesses and individuals with tailored Tally solutions, certified training, 
-        and exceptional support to simplify accounting and boost productivity.
+        Everything your business needs—from implementation and cloud hosting
+        to customization, training, and ongoing support.
       </p>
     </div>
 
-    {/* SERVICES GRID */}
+    {/* Horizontal Scroll */}
     <div
       className="
-        grid
-        grid-cols-1
-        md:grid-cols-2
-        xl:grid-cols-3
-        gap-5 sm:gap-7
+        flex
+        gap-5
+        overflow-x-auto
+        snap-x
+        snap-mandatory
+        pb-3
+        scrollbar-hide
       "
     >
 
-      {/* CARD 1 */}
-      <motion.div
-        whileHover={{
-          y: -8,
-        }}
-        transition={{
-          type: "spring",
-          stiffness: 220,
-          damping: 18,
-        }}
-        className="
-          group
-          relative
-          rounded-[28px]
-          border border-gray-200
-          bg-white/70
-          backdrop-blur-xl
-          p-5 sm:p-6
-          min-h-[240px]
-          overflow-hidden
-          shadow-[0_10px_40px_rgba(0,0,0,0.05)]
-        "
-      >
-        {/* HOVER GLOW */}
-        <div className="
-          absolute inset-0
-          opacity-0
-          group-hover:opacity-100
-          transition duration-500
-          bg-gradient-to-br
-          from-[#2F80FF]/10
-          to-[#7B61FF]/10
-        " />
+      {services.map((service, index) => (
+        <Link
+        to={service.link}
+          key={index}
+          className="
+            min-w-[300px]
+            md:min-w-[320px]
+            max-w-[320px]
+            snap-start
+            shrink-0
+            rounded-[28px]
+            bg-[#F8FBFF]
+            border
+            border-slate-200
+            overflow-hidden
+            hover:-translate-y-1
+            hover:shadow-xl
+            transition-all
+            duration-300
+          "
+        >
 
-        <div className="relative z-10">
-
-          <div
-            className="
-              w-14 h-14
-              rounded-2xl
-              flex items-center justify-center
-              bg-[#F4F7FF]
-              
-
-              group-hover:bg-gradient-to-br
-              group-hover:from-[#2F80FF]
-              group-hover:to-[#7B61FF]
-
-              group-hover:text-white
-
-              transition-all
-              duration-500
-            "
-          >
-            <MonitorCog
+          {/* Image */}
+          <div className="h-50 bg-[#F5F9FF] overflow-hidden">
+            <img
+              src={service.image}
+              alt={service.title}
               className="
-                w-7 h-7
-                text-[#4F7DFF]
-                group-hover:text-white
-                transition-colors duration-500
-              "
-            />
-        </div>
-
-          <h3 className="
-            text-[20px] sm:text-[22px]
-            font-bold
-            text-[#071426]
-            mb-4
-          ">
-            Tally Software
-          </h3>
-          <p className="
-            text-gray-600
-            leading-relaxed
-            text-[15px] md:text-[16px]
-          ">
-           Official Tally software solutions for accounting,
-           GST billing, inventory, and business management.
-          </p>
-
-        </div>
-        <div
-          className="
-            absolute
-            bottom-0
-            left-0
-            h-[3px]
-            w-0
-            bg-gradient-to-r
-            from-[#2F80FF]
-            to-[#7B61FF]
-
-            group-hover:w-full
-
-            transition-all
-            duration-500
-          "
-        />
-      </motion.div>
-
-      {/* CARD 2 */}
-      <motion.div
-        whileHover={{
-          y: -8,
-        }}
-        transition={{
-          type: "spring",
-          stiffness: 220,
-          damping: 18,
-        }}
-        className="
-          group
-          relative
-          rounded-[28px]
-          border border-gray-200
-          bg-white/70
-          backdrop-blur-xl
-          p-5 sm:p-6
-          min-h-[240px]
-          overflow-hidden
-          shadow-[0_10px_40px_rgba(0,0,0,0.05)]
-        "
-      >
-
-        <div className="
-          absolute inset-0
-          opacity-0
-          group-hover:opacity-100
-          transition duration-500
-          bg-gradient-to-br
-          from-[#2F80FF]/10
-          to-[#7B61FF]/10
-        " />
-
-        <div className="relative z-10">
-
-          <div
-            className="
-              w-14 h-14
-              rounded-2xl
-              flex items-center justify-center
-              bg-[#F4F7FF]
-              
-
-              group-hover:bg-gradient-to-br
-              group-hover:from-[#2F80FF]
-              group-hover:to-[#7B61FF]
-
-              group-hover:text-white
-
-              transition-all
-              duration-500
-            "
-          >
-            <Headset 
-            className="
-                w-7 h-7
-                text-[#4F7DFF]
-                group-hover:text-white
-                transition-colors duration-500
+                w-full
+                h-full
+                object-cover
+                transition-transform
+                duration-500
+                hover:scale-105
               "
             />
           </div>
 
-          <h3 className="
-            text-[20px] sm:text-[22px]
-            font-bold
-            text-[#071426]
-            mb-4
-          ">
-            Tally Services
-          </h3>
+          {/* Content */}
+          <div className="p-5">
 
-          <p className="
-            text-gray-600
-            leading-relaxed
-            text-[15px] md:text-[16px]
-          ">
-           Professional installation, troubleshooting,
-           remote support, and operational assistance.
-          </p>
-
-        </div>
-        <div
-          className="
-            absolute
-            bottom-0
-            left-0
-            h-[3px]
-            w-0
-            bg-gradient-to-r
-            from-[#2F80FF]
-            to-[#7B61FF]
-
-            group-hover:w-full
-
-            transition-all
-            duration-500
-          "
-        />
-      </motion.div>
-
-      {/* CARD 3 */}
-      <motion.div
-        whileHover={{
-          y: -8,
-        }}
-        transition={{
-          type: "spring",
-          stiffness: 220,
-          damping: 18,
-        }}
-        className="
-          group
-          relative
-          rounded-[28px]
-          border border-gray-200
-          bg-white/70
-          backdrop-blur-xl
-          p-5 sm:p-6
-          min-h-[240px]
-          overflow-hidden
-          shadow-[0_10px_40px_rgba(0,0,0,0.05)]
-        "
-      >
-
-        <div className="
-          absolute inset-0
-          opacity-0
-          group-hover:opacity-100
-          transition duration-500
-          bg-gradient-to-br
-          from-[#2F80FF]/10
-          to-[#7B61FF]/10
-        " />
-
-        <div className="relative z-10">
-
-          <div
-            className="
-              w-14 h-14
-              rounded-2xl
-              flex items-center justify-center
-              bg-[#F4F7FF]
-              
-
-              group-hover:bg-gradient-to-br
-              group-hover:from-[#2F80FF]
-              group-hover:to-[#7B61FF]
-
-              group-hover:text-white
-
-              transition-all
-              duration-500
-            "
-          >
-            <Smartphone 
-            className="
-                w-7 h-7
-                text-[#4F7DFF]
-                group-hover:text-white
-                transition-colors duration-500
-              "
-            />
-          </div>
-
-          <h3 className="
-            text-[20px] sm:text-[22px]
-            font-bold
-            text-[#071426]
-            mb-4
-          ">
-            Tally Apps For Mobile
-          </h3>
-
-          <p className="
-            text-gray-600
-            leading-relaxed
-            text-[15px] md:text-[16px]
-          ">
-            Access business reports, invoices, and analytics
-            securely from anywhere using mobile integrations.
-          </p>
-
-        </div>
-        <div
-          className="
-            absolute
-            bottom-0
-            left-0
-            h-[3px]
-            w-0
-            bg-gradient-to-r
-            from-[#2F80FF]
-            to-[#7B61FF]
-
-            group-hover:w-full
-
-            transition-all
-            duration-500
-          "
-        />
-      </motion.div>
-
-      {/* CARD 4 */}
-      <motion.div
-        whileHover={{
-          y: -8,
-        }}
-        transition={{
-          type: "spring",
-          stiffness: 220,
-          damping: 18,
-        }}
-        className="
-          group
-          relative
-          rounded-[28px]
-          border border-gray-200
-          bg-white/70
-          backdrop-blur-xl
-          p-5 sm:p-6
-          min-h-[240px]
-          overflow-hidden
-          shadow-[0_10px_40px_rgba(0,0,0,0.05)]
-        "
-      >
-        <div className="
-          absolute inset-0
-          opacity-0
-          group-hover:opacity-100
-          transition duration-500
-          bg-gradient-to-br
-          from-[#2F80FF]/10
-          to-[#7B61FF]/10
-        " />
-
-        <div className="relative z-10">
-
-          <div
-            className="
-              w-14 h-14
-              rounded-2xl
-              flex items-center justify-center
-              bg-[#F4F7FF]
-              
-
-              group-hover:bg-gradient-to-br
-              group-hover:from-[#2F80FF]
-              group-hover:to-[#7B61FF]
-
-              group-hover:text-white
-
-              transition-all
-              duration-500
-            "
-          >
-            <BriefcaseBusiness 
+            <h3
               className="
-                w-7 h-7
-                text-[#4F7DFF]
-                group-hover:text-white
-                transition-colors duration-500
+                text-2xl
+                font-bold
+                text-[#071426]
+                mb-3
               "
-            />
-          </div>
-
-          <h3 className="
-            text-[20px] sm:text-[22px]
-            font-bold
-            text-[#071426]
-            mb-4
-          ">
-            Tally Solutions
-          </h3>
-
-          <p className="
-            text-gray-600
-            leading-relaxed
-            text-[15px] md:text-[16px]
-          ">
-           Tailored enterprise solutions designed to simplify
-           finance, payroll, taxation, and workflow automation.
-          </p>
-
-        </div>
-        <div
-          className="
-            absolute
-            bottom-0
-            left-0
-            h-[3px]
-            w-0
-            bg-gradient-to-r
-            from-[#2F80FF]
-            to-[#7B61FF]
-
-            group-hover:w-full
-
-            transition-all
-            duration-500
-          "
-        />
-      </motion.div>
-
-      {/* CARD 5 */}
-      <motion.div
-        whileHover={{
-          y: -8,
-        }}
-        transition={{
-          type: "spring",
-          stiffness: 220,
-          damping: 18,
-        }}
-        className="
-          group
-          relative
-          rounded-[28px]
-          border border-gray-200
-          bg-white/70
-          backdrop-blur-xl
-          p-5 sm:p-6
-          min-h-[240px]
-          overflow-hidden
-          shadow-[0_10px_40px_rgba(0,0,0,0.05)]
-        "
-      >
-
-        <div className="
-          absolute inset-0
-          opacity-0
-          group-hover:opacity-100
-          transition duration-500
-          bg-gradient-to-br
-          from-[#2F80FF]/10
-          to-[#7B61FF]/10
-        " />
-
-        <div className="relative z-10">
-
-          <div
-            className="
-              w-14 h-14
-              rounded-2xl
-              flex items-center justify-center
-              bg-[#F4F7FF]
-              text-[#2F80FF]
-
-              group-hover:bg-gradient-to-br
-              group-hover:from-[#2F80FF]
-              group-hover:to-[#7B61FF]
-
-              group-hover:text-white
-
-              transition-all
-              duration-500
-            "
-          >
-            <svg
-              className="w-8 h-8 text-[#4F7DFF] group-hover:text-white transition-colors duration-500"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="1.8"
-              viewBox="0 0 24 24"
             >
-              <path d="M12 14l9-5-9-5-9 5 9 5zm0 0v6" />
-            </svg>
-          </div>
+              {service.title}
+            </h3>
 
-          <h3 className="
-            text-[20px] sm:text-[22px]
-            font-bold
-            text-[#071426]
-            mb-4
-          ">
-            Tally ERP 9 Solutions
-          </h3>
+            <p
+              className="
+                text-slate-600
+                leading-relaxed
+                mb-4
+              "
+            >
+              {service.description}
+            </p>
 
-          <p className="
-            text-gray-600
-            leading-relaxed
-            text-[15px] md:text-[16px]
-          ">
-           Professional installation, troubleshooting,
-           remote support, and operational assistance.
-          </p>
-
-        </div>
-        <div
-          className="
-            absolute
-            bottom-0
-            left-0
-            h-[3px]
-            w-0
-            bg-gradient-to-r
-            from-[#2F80FF]
-            to-[#7B61FF]
-
-            group-hover:w-full
-
-            transition-all
-            duration-500
-          "
-        />
-      </motion.div>
-
-      {/* CARD 6 */}
-      <motion.div
-        whileHover={{
-          y: -8,
-        }}
-        transition={{
-          type: "spring",
-          stiffness: 220,
-          damping: 18,
-        }}
-        className="
-          group
-          relative
-          rounded-[28px]
-          border border-gray-200
-          bg-white/70
-          backdrop-blur-xl
-          p-5 sm:p-6
-          min-h-[240px]
-          overflow-hidden
-          shadow-[0_10px_40px_rgba(0,0,0,0.05)]
-        "
-      >
-
-        <div className="
-          absolute inset-0
-          opacity-0
-          group-hover:opacity-100
-          transition duration-500
-          bg-gradient-to-br
-          from-[#2F80FF]/10
-          to-[#7B61FF]/10
-        " />
-
-        <div className="relative z-10">
-
-          <div
+            <Link
+            to={service.link}
             className="
-              w-14 h-14
-              rounded-2xl
-              flex items-center justify-center
-              bg-[#F4F7FF]
-              
-
-              group-hover:bg-gradient-to-br
-              group-hover:from-[#2F80FF]
-              group-hover:to-[#7B61FF]
-
-              group-hover:text-white
-
+              inline-flex
+              items-center
+              gap-2
+              text-[#155A96]
+              font-semibold
+              hover:gap-3
               transition-all
-              duration-500
+              duration-300
             "
           >
-            <Puzzle 
-            className="
-                w-7 h-7
-                text-[#4F7DFF]
-                group-hover:text-white
-                transition-colors duration-500
-              "
-            />
+            Learn More →
+          </Link>
+
           </div>
 
-          <h3 className="
-            text-[20px] sm:text-[22px]
-            font-bold
-            text-[#071426]
-            mb-4
-          ">
-            Tally Add-Ons
-          </h3>
-
-          <p className="
-            text-gray-600
-            leading-relaxed
-            text-[15px] md:text-[16px]
-          ">
-            Enhance Tally functionality with specialized
-            plugins, integrations, and smart business tools.
-          </p>
-
-        </div>
-        <div
-          className="
-            absolute
-            bottom-0
-            left-0
-            h-[3px]
-            w-0
-            bg-gradient-to-r
-            from-[#2F80FF]
-            to-[#7B61FF]
-
-            group-hover:w-full
-
-            transition-all
-            duration-500
-          "
-        />
-      </motion.div>
-
+        </Link>
+      ))}
     </div>
+
+    {/* Scroll Hint */}
+    <div className="flex justify-center mt-4">
+      <div
+        className="
+          px-4
+          py-2
+          rounded-full
+          bg-[#F0AE11]/10
+          text-[#F0AE11]
+          text-sm
+          font-medium
+        "
+      >
+        ← Scroll to explore services →
+      </div>
+    </div>
+
   </div>
-    </section>
+</section>
 
 {/* PRODUCTS SECTION */}
-    <section className="relative py-10 md:py-14 overflow-hidden bg-white">
+    <section className="relative pt-4 pb-10 md:pt-6 md:pb-14 overflow-hidden bg-white">
 
       {/* BACKGROUND GLOW */}
-      <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500/10 blur-3xl rounded-full" />
-      <div className="absolute bottom-0 right-10 w-72 h-72 bg-purple-500/10 blur-3xl rounded-full" />
+      <div className="absolute top-20 left-10 w-72 h-72 bg-[#155A96]/8 blur-3xl rounded-full" />
+      <div className="absolute bottom-0 right-10 w-72 h-72 bg-[#F0AE11]/8 blur-3xl rounded-full" />
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
 
@@ -1835,12 +1557,12 @@ const [activeTab, setActiveTab] = useState(products[0]);
         <div className="text-center max-w-3xl mx-auto mb-8">
 
           <p className="
-            text-[#2F80FF]
+            text-[#155A96]
             uppercase
             tracking-[0.3em]
             text-sm
             font-semibold
-            mb-6
+            mb-4
           ">
             PRODUCTS
           </p>
@@ -1848,7 +1570,7 @@ const [activeTab, setActiveTab] = useState(products[0]);
           <h2
             className="
               text-3xl
-              md:text-5xl
+              md:text-4xl
               font-bold
               text-[#071426]
               leading-tight
@@ -1858,11 +1580,24 @@ const [activeTab, setActiveTab] = useState(products[0]);
             Solutions Built For Your Business
           </h2>
 
+          {/* GOLD ACCENT */}
+          <div
+          className="
+            w-20
+            h-1
+            bg-[#F0AE11]
+            rounded-full
+            mx-auto
+            mt-5
+            mb-6
+          "
+        />
+
           <p
             className="
               mt-4
               text-[16px] md:text-[17px]
-              text-gray-500
+              text-slate-600
               leading-relaxed
             "
           >
@@ -1907,7 +1642,7 @@ const [activeTab, setActiveTab] = useState(products[0]);
 
                   ${
                     activeTab.id === item.id
-                      ? "bg-gradient-to-r from-[#2F80FF] to-[#7B61FF] text-white shadow-lg"
+                      ? "bg-[#155A96] text-white shadow-lg"
                       : "text-gray-500 hover:text-[#071426]"
                   }
                 `}
@@ -1956,12 +1691,12 @@ const [activeTab, setActiveTab] = useState(products[0]);
                   className="
                     text-xl
                     sm:text-2xl
-                    md:text-3xl
+                    md:text-2xl
                     font-bold
                     text-[#071426]
                     leading-tight
                     tracking-tight
-                    mb-6
+                    mb-5
                   "
                 >
                   {activeTab.title}
@@ -1999,9 +1734,7 @@ const [activeTab, setActiveTab] = useState(products[0]);
                         className="
                           w-6 h-6
                           rounded-full
-                          bg-gradient-to-r
-                          from-[#2F80FF]
-                          to-[#7B61FF]
+                          bg-[#155A96]
                           flex
                           items-center
                           justify-center
@@ -2034,9 +1767,8 @@ const [activeTab, setActiveTab] = useState(products[0]);
     inline-flex items-center justify-center
     px-5 py-3
 rounded-xl
-    bg-gradient-to-r
-    from-[#2F80FF]
-    to-[#7B61FF]
+    bg-[#155A96]
+    hover:bg-[#124C80]
     text-white
     font-medium
     shadow-lg
@@ -2062,9 +1794,7 @@ rounded-xl
     className="
       absolute
       inset-0
-      bg-gradient-to-r
-      from-[#2F80FF]/20
-      to-[#7B61FF]/20
+      bg-[#155A96]/10
       blur-3xl
       rounded-full
       scale-90
@@ -2100,8 +1830,9 @@ rounded-xl
         </div>
       </div>
     </section>
-
+    
   {/* Testimonials SECTION */}
+  {false && (
     <section className=" relative py-10 md:py-14">
 
       {/* BACKGROUND GLOW */}
@@ -2315,6 +2046,249 @@ rounded-xl
         </Swiper>
       </div>
     </section>
+  )}
+    
+    <section className="py-10 lg:py-14 bg-[#F8FAFC]">
+  <div className="max-w-6xl mx-auto px-4 sm:px-6">
+
+    {/* Main White Container */}
+    <div
+      className="
+        bg-white
+        rounded-[40px]
+        border border-slate-200
+        p-5 md:p-6
+        shadow-sm
+      "
+    >
+
+      <div className="grid lg:grid-cols-[1.2fr_0.8fr] gap-6">
+
+        {/* LEFT SIDE */}
+        <div className="relative">
+
+          {/* IMAGE */}
+          <div
+            className="
+              relative
+              overflow-hidden
+              rounded-[32px]
+              h-[600px]
+            "
+          >
+            <img
+              src={testimonial}
+              alt="Client Success"
+              className="
+                w-full
+                h-full
+                object-cover
+              "
+            />
+          </div>
+
+          {/* FLOATING TITLE CARD */}
+          <div
+            className="
+              absolute
+              top-0
+              left-0
+              bg-white
+              px-8
+              py-7
+              max-w-[340px]
+              rounded-tl-[30px]
+              rounded-tr-[32px]
+              rounded-br-[80px]
+            "
+          >
+            <h2
+              className="
+                text-3xl
+                font-bold
+                text-[#071426]
+                leading-tight
+              "
+            >
+              Hear From Our
+              <br />
+              Satisfied Clients
+            </h2>
+
+            <div className="mt-5">
+              <p className="text-[#155A96] font-semibold">
+                Trusted By 500+ Businesses
+              </p>
+
+              <p className="text-slate-500 text-sm mt-1">
+                Delivering Tally excellence since 2000.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        {/* RIGHT SIDE */}
+        <div className="flex flex-col gap-4">
+
+          {[
+            {
+              name: "Rajesh Kumar",
+              role: "Manufacturing Business",
+              quote:
+                "Excellent support during TallyPrime implementation. The team handled migration and training smoothly."
+            },
+            {
+              name: "Suresh Reddy",
+              role: "Retail Store Owner",
+              quote:
+                "Quick GST setup and reliable technical assistance whenever required. Highly recommended."
+            },
+            {
+              name: "Anita Sharma",
+              role: "Accounting Professional",
+              quote:
+                "The training programs were practical and easy to understand. Great experience overall."
+            }
+          ].map((item, index) => (
+            <div
+              key={index}
+              className={`
+              rounded-[28px]
+              border
+              p-3
+              transition-all
+              hover:shadow-md
+
+              ${
+                index === 0
+                  ? `
+                    bg-[#155A96]
+                    backdrop-blur-xl
+                    border-white/20
+                    shadow-[0_10px_40px_rgba(21,90,150,0.25)]
+                  `
+                  : `
+                    bg-[#FCFCFD]
+                    border-slate-200
+                  `
+              }
+            `}
+            >
+              {/* Glass Highlight */}
+              {index === 0 && (
+                <div
+                  className="
+                    absolute
+                    inset-0
+                    bg-gradient-to-br
+                    from-white/10
+                    via-transparent
+                    to-transparent
+                    pointer-events-none
+                    rounded-[28px]
+                  "
+                />
+              )}
+              <div
+                className={`
+                  text-base mb-3
+                  ${index === 0 ? "text-[#F0AE11]" : "text-[#F0AE11]"}
+                `}
+              >
+                ★★★★★
+              </div>
+
+              <p
+                className={`
+                  leading-relaxed mb-3
+                  ${
+                    index === 0
+                      ? "text-white/90"
+                      : "text-slate-600"
+                  }
+                `}
+              >
+                "{item.quote}"
+              </p>
+
+              <div>
+                <h4
+                  className={`
+                    text-lg font-bold
+                    ${
+                      index === 0
+                        ? "text-white"
+                        : "text-[#071426]"
+                    }
+                  `}
+                >
+                  {item.name}
+                </h4>
+
+                <p
+                  className={
+                    index === 0
+                      ? "text-white/70"
+                      : "text-slate-500"
+                  }
+                >
+                  {item.role}
+                </p>
+              </div>
+            </div>
+          ))}
+
+        </div>
+
+      </div>
+
+      {/* Bottom CTA */}
+      <div
+        className="
+          mt-4
+          bg-[#155A96]
+          rounded-[28px]
+          px-5
+          py-3
+          flex
+          flex-col
+          md:flex-row
+          items-center
+          justify-between
+          gap-4
+        "
+      >
+        <h3
+          className="
+            text-white
+            text-2xl
+            font-semibold
+          "
+        >
+          Ready To Simplify Your Business Operations?
+        </h3>
+
+        <button onClick={() => navigate(`/contact`) }
+          className="
+            bg-white
+            text-[#155A96]
+            px-5
+            py-3
+            rounded-xl
+            font-semibold
+            hover:scale-105
+            transition-all
+          "
+        >
+          Get Started
+        </button>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
     {/* CTA SECTION */}
     <section className=" relative py-10 md:py-14 overflow-hidden bg-[#F8FAFC]">    
@@ -2349,9 +2323,9 @@ rounded-xl
                 mb-4
                 text-sm
                 rounded-full
-                bg-[#2F80FF]/10
-                border border-[#2F80FF]/10
-                text-[#2F80FF]
+                bg-[#155A96]/10
+                border border-[#155A96]/20
+                text-[#155A96]
                 font-medium
                 
               "
@@ -2363,9 +2337,9 @@ rounded-xl
             {/* HEADING */}
             <h2
               className="
-                text-2xl
-                sm:text-3xl
-                md:text-4xl
+                text-3xl
+                sm:text-4xl
+                md:text-5xl
                 font-bold
                 text-[#071426]
                 leading-tight
@@ -2373,15 +2347,7 @@ rounded-xl
               "
             >
               Request A
-              <span
-                className="
-                  bg-gradient-to-r
-                  from-[#2F80FF]
-                  to-[#7B61FF]
-                  bg-clip-text
-                  text-transparent
-                "
-              >
+              <span className="text-[#155A96]">
                 {" "}
                 Quote
               </span>
@@ -2395,7 +2361,7 @@ rounded-xl
                 mb-6
                 text-gray-600
                 leading-relaxed
-                max-w-xl
+                max-w-lg
                 mb-10
               "
             >
@@ -2438,9 +2404,7 @@ rounded-xl
                       flex
                       items-center
                       justify-center
-                      bg-gradient-to-br
-                      from-[#2F80FF]
-                      to-[#7B61FF]
+                      bg-[#155A96]
                       shadow-lg
                     "
                   >

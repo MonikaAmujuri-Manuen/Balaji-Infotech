@@ -1,21 +1,307 @@
 import React from "react";
 import {
-  ArrowRight,
+  ArrowRight, CheckCircle, Users, Award, MessageCircle, Phone, Building2,
   ShieldCheck,
   BadgeCheck,
   Headphones,
   PhoneCall,
-  MessageCircleCheck,
+  MessageCircleCheck, 
 } from "lucide-react";
 
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 
-import dashboard from "../assets/dashboard2.png";
+import dashboard from "../assets/dashboard4.png";
 
 export default function HeroSection() {
+
   return (
     <>
+
+    {false && (
+    <section
+      className="
+        relative
+        overflow-hidden
+        bg-white
+        min-h-[90vh]
+        flex
+        items-center
+        px-4
+        sm:px-6
+        lg:px-10
+      "
+    >
+      {/* BACKGROUND GLOW */}
+      <div
+        className="
+          absolute
+          top-[-200px]
+          right-[-100px]
+          w-[700px]
+          h-[700px]
+          rounded-full
+          bg-[#155A96]/10
+          blur-3xl
+        "
+      />
+
+      <div
+        className="
+          relative
+          max-w-7xl
+          mx-auto
+          w-full
+          grid
+          lg:grid-cols-[1.15fr_0.85fr]
+          gap-16
+          items-center
+          pt-24
+        "
+      >
+        {/* LEFT */}
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 0.8,
+            ease: [0.22, 1, 0.36, 1],
+          }}
+        >
+          {/* BADGE */}
+          <div
+            className="
+              inline-flex
+              items-center
+              gap-2
+              px-4
+              py-2
+              rounded-full
+              border
+              border-[#155A96]/15
+              bg-[#155A96]/5
+              text-[#155A96]
+              text-sm
+              font-medium
+              mb-6
+            "
+          >
+            <span className="h-2 w-2 rounded-full bg-green-500 animate-pulse" />
+            Authorized Tally Partner
+          </div>
+
+          {/* HEADING */}
+          <h1
+            className="
+              text-[#071426]
+              font-bold
+              leading-[0.95]
+              tracking-[-0.04em]
+              text-[32px]
+              sm:text-[38px]
+              lg:text-[42px]
+              xl:text-[48px]
+              max-w-[800px]
+            "
+          >
+            Balaji AI Infotech
+
+            <span className="block text-[#155A96] mt-2">
+              With Tally Solutions
+            </span>
+          </h1>
+
+          {/* TYPEWRITER */}
+          <div className="mt-5 h-[40px]">
+            <TypeAnimation
+              sequence={[
+                "Authorized Tally Partner",
+                2000,
+                "GST & Accounting Experts",
+                2000,
+                "TallyPrime Implementation",
+                2000,
+                "Training & Business Support",
+                2000,
+              ]}
+              speed={50}
+              repeat={Infinity}
+              className="
+                text-lg
+                sm:text-xl
+                lg:text-2xl
+                font-semibold
+                text-[#155A96]
+              "
+            />
+          </div>
+
+          {/* DESCRIPTION */}
+          <p
+            className="
+              mt-6
+              max-w-[620px]
+              text-slate-600
+              text-base
+              sm:text-lg
+              leading-8
+            "
+          >
+            Helping businesses streamline accounting, GST compliance,
+            inventory management and financial operations through
+            professional Tally solutions, training and dedicated support.
+          </p>
+
+          {/* BUTTONS */}
+          <div className="mt-8 flex flex-col sm:flex-row gap-4">
+            <motion.a
+              whileHover={{ scale: 1.03 }}
+              whileTap={{ scale: 0.98 }}
+              href="tel:+919849431943"
+              className="
+                inline-flex
+                items-center
+                justify-center
+                gap-2
+                px-8
+                py-4
+                rounded-2xl
+                bg-[#155A96]
+                text-white
+                font-medium
+                shadow-lg
+                shadow-[#155A96]/20
+              "
+            >
+              Call Us
+              <PhoneCall size={18} />
+            </motion.a>
+
+            <motion.a
+              whileHover={{ scale: 1.03 }}
+              whileTap={{ scale: 0.98 }}
+              href="https://wa.me/919849431943"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+                inline-flex
+                items-center
+                justify-center
+                gap-2
+                px-8
+                py-4
+                rounded-2xl
+                border
+                border-slate-200
+                bg-white
+                text-[#071426]
+                font-medium
+              "
+            >
+              WhatsApp Us
+              <MessageCircleCheck size={18} />
+            </motion.a>
+          </div>
+
+          {/* TRUST POINTS */}
+          <div
+            className="
+              mt-10
+              flex
+              flex-wrap
+              gap-5
+            "
+          >
+            <div className="flex items-center gap-3">
+              <ShieldCheck
+                size={22}
+                className="text-[#155A96]"
+              />
+              <span className="text-slate-700 font-medium">
+                20+ Years Experience
+              </span>
+            </div>
+
+            <div className="flex items-center gap-3">
+              <BadgeCheck
+                size={22}
+                className="text-[#155A96]"
+              />
+              <span className="text-slate-700 font-medium">
+                5000+ Businesses Served
+              </span>
+            </div>
+
+            <div className="flex items-center gap-3">
+              <Award
+                size={22}
+                className="text-[#155A96]"
+              />
+              <span className="text-slate-700 font-medium">
+                Certified Tally Experts
+              </span>
+            </div>
+          </div>
+        </motion.div>
+
+        {/* RIGHT SIDE */}
+        <motion.div
+          initial={{
+            opacity: 0,
+            scale: 0.9,
+            rotate: -3,
+          }}
+          animate={{
+            opacity: 1,
+            scale: 1,
+            rotate: 0,
+          }}
+          transition={{
+            duration: 1,
+          }}
+          className="
+            relative
+            flex
+            justify-center
+            lg:justify-end
+          "
+        >
+          <motion.div
+            animate={{
+              y: [0, -10, 0],
+            }}
+            transition={{
+              duration: 5,
+              repeat: Infinity,
+              ease: "easeInOut",
+            }}
+            className="
+              relative
+              w-full
+              max-w-[520px]
+              rounded-[32px]
+              overflow-hidden
+              border
+              border-slate-200
+              bg-white
+              shadow-2xl
+            "
+          >
+            <img
+              src={dashboard}
+              alt="Tally Dashboard"
+              className="
+                w-full
+                h-[320px]
+                sm:h-[420px]
+                object-cover
+              "
+            />
+          </motion.div>
+        </motion.div>
+      </div>
+    </section>
+    )}
     
     <section
   className="
@@ -31,16 +317,13 @@ export default function HeroSection() {
       <div
         className="
           absolute
-          top-0
-          left-1/2
-          -translate-x-1/2
+          top-[-200px]
+          right-[-100px]
           w-[700px]
           h-[700px]
-          bg-gradient-to-r
-          from-[#2F80FF]/10
-          to-[#7B61FF]/10
-          blur-3xl
           rounded-full
+          bg-[#155A96]/10
+          blur-3xl
         "
       />
 
@@ -80,13 +363,28 @@ export default function HeroSection() {
           px-4 py-2
           rounded-full
           border border-slate-200
-          bg-white
-          text-[#2563EB]
+          bg-[#155A96]/5
+          text-[#155A96]
           text-sm
           mb-5
           "
           >
-            <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse shrink-0" />
+            <div
+  className="
+    flex
+    items-center
+    justify-center
+    w-6
+    h-6
+    rounded-full
+    bg-[#155A96]
+  "
+>
+  <BadgeCheck
+    size={14}
+    className="text-white"
+  />
+</div>
 
             <span className="truncate">
               Trusted Tally Solutions Partner
@@ -124,9 +422,9 @@ export default function HeroSection() {
                   text-[20px]
                   sm:text-[26px]
                   lg:text-[30px]
-                  font-semibold
+                  font-bold
                   leading-[1.3]
-                  text-[#2563EB]
+                  text-[#155A96]
                 "
               />
             </div>
@@ -156,8 +454,7 @@ export default function HeroSection() {
                 group
                 px-7 py-4
                 rounded-2xl
-                bg-[#2563EB]
-                hover:bg-[#1D4ED8]
+                bg-[#155A96]
                 text-white
                 font-medium
                 flex items-center justify-center gap-2
@@ -223,12 +520,12 @@ export default function HeroSection() {
               "
             >
               <ShieldCheck
-                className="text-[#2563EB] shrink-0"
+                className="text-[#155A96] shrink-0"
                 size={24}
               />
 
               <div>
-                <h4 className="text-[#2563EB] font-medium text-sm sm:text-base">
+                <h4 className="text-[#155A96] font-medium text-sm sm:text-base">
                   Trusted Experts
                 </h4>
               </div>
@@ -241,12 +538,12 @@ export default function HeroSection() {
               "
             >
               <BadgeCheck
-                className="text-[#2563EB] shrink-0"
+                className="text-[#155A96] shrink-0"
                 size={24}
               />
 
               <div>
-                <h4 className="text-[#2563EB] font-medium text-sm sm:text-base">
+                <h4 className="text-[#155A96] font-medium text-sm sm:text-base">
                   Experienced
                 </h4>
               </div>
@@ -259,12 +556,12 @@ export default function HeroSection() {
               "
             >
               <BadgeCheck
-                className="text-[#2563EB] shrink-0"
+                className="text-[#155A96] shrink-0"
                 size={24}
               />
 
               <div>
-                <h4 className="text-[#2563EB] font-medium text-sm sm:text-base">
+                <h4 className="text-[#155A96] font-medium text-sm sm:text-base">
                   Professional
                 </h4>
               </div>
@@ -289,41 +586,58 @@ export default function HeroSection() {
           viewport={{ once: true }}
         >
           {/* IMAGE CARD */}
+
           <div
   className="
-    relative
-    w-full
-    max-w-[460px]
-    rounded-[32px]
-    border
-    border-slate-200
-    bg-white
+    absolute
+    -top-4
+    right-10
+    bg-[#F4B400]/85
+    text-white
+    px-4
+    py-2
+    rounded-xl
     shadow-lg
-    overflow-hidden
+    font-medium
+    z-20
   "
 >
+  GST Ready ✓
+</div>
+          
             <div
               className="
-                rounded-[26px] sm:rounded-[30px]
+                rounded-[28px] sm:rounded-[30px]
                 overflow-hidden
-                bg-white
               "
             >
+              <div
+        className="
+          absolute
+          top-[-200px]
+          right-[-100px]
+          w-[700px]
+          h-[700px]
+          rounded-full
+          bg-[#155A96]/10
+          blur-3xl
+        "
+      />
               <img
                 src={dashboard}
                 alt="Dashboard"
                 className="
                   w-full
-                  h-[240px] sm:h-[360px]
-                  object-cover
-                  scale-105
+                  h-auto
+                  object-contain
                 "
               />
             </div>
-          </div>
+          
         </motion.div>
       </div>
     </section>
+    
     
     {false && (
     <section

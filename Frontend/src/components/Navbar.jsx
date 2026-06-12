@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { NavLink } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import logo from "../assets/logo.png"
 
 
 export default function Navbar() {
@@ -13,7 +14,19 @@ export default function Navbar() {
     <>
       {/* BACKGROUND WRAPPER */}
       {/* BACKGROUND WRAPPER */}
-<header className="fixed inset-x-0 top-0 z-100 px-3 sm:px-6 lg:px-10 py-0">
+<header
+  className="
+    fixed
+    top-0
+    left-0
+    right-0
+    z-50
+    bg-white/95
+    backdrop-blur-md
+    border-b
+    border-slate-200
+  "
+>
   
   {/* GLASS NAVBAR */}
   <nav
@@ -22,41 +35,30 @@ export default function Navbar() {
       flex items-center justify-between
       px-4 lg:px-5
       py-3
-      rounded-2xl
-      bg-white
-border border-slate-200
-backdrop-blur-2xl
-shadow-lg
+      bg-white/95
+      backdrop-blur-md
+      border-b border-slate-200
     "
   >
 
     {/* LOGO */}
-    <div className="flex items-center gap-2 sm:gap-3">
+    <div className="flex items-center gap-3">
+  <img
+    src={logo}
+    alt="Balaji Infotech"
+    className="h-12 w-auto object-contain"
+  />
 
-      <div
-        className="
-          h-9 w-9
-          rounded-xl
-          bg-gradient-to-br from-[#2F80FF] to-[#7B61FF]
-          flex items-center justify-center
-          text-white font-bold text-base sm:text-lg
-          shadow-lg
-          shrink-0
-        "
-      >
-        B
-      </div>
+  <div>
+    <h1 className="text-[15px] font-semibold text-[#071426]">
+      Balaji Infotech
+    </h1>
 
-      <div className="leading-tight">
-        <h1 className="text-[#071426] text-[15px] font-semibold">
-          Balaji Infotech
-        </h1>
-
-        <p className="text-black text-[10px] sm:text-xs">
-          Tally Solutions Partner
-        </p>
-      </div>
-    </div>
+    <p className="text-xs text-slate-500">
+      Tally Solutions Partner
+    </p>
+  </div>
+</div>
 
     {/* DESKTOP MENU */}
     <div className="hidden lg:flex items-center gap-2 xl:gap-3">
@@ -64,17 +66,21 @@ shadow-lg
       <NavLink
         to="/"
         className={({ isActive }) =>
-          `relative
-           px-3 py-2
-           text-[15px]
-           rounded-full
-           transition-all duration-300
-           ${
-             isActive
-               ? "bg-[#EEF4FF] text-[#2563EB] font-medium"
-               : "text-slate-600 hover:text-[#2563EB]"
-           }`
+          `
+          relative
+          px-2
+          py-2
+          rounded-full
+          transition-all
+          ${
+            isActive
+              ? "bg-[#EEF4FF] text-[#155A96] font-medium"
+              : "text-slate-700 hover:text-[#155A96]"
+          }
+          
+        `
         }
+        
       >
         Home
       </NavLink>
@@ -88,8 +94,8 @@ shadow-lg
            transition-all duration-300
            ${
              isActive
-               ? "bg-[#EEF4FF] text-[#2563EB] font-medium"
-               : "text-black hover:text-[#2563EB]"
+              ? "bg-[#EEF4FF] text-[#155A96] font-medium"
+              : "text-slate-700 hover:text-[#155A96]"
            }`
         }
       >
@@ -109,8 +115,8 @@ shadow-lg
             flex items-center gap-1
             ${
              isActive
-               ? "bg-[#EEF4FF] text-[#2563EB] font-medium"
-               : "text-black hover:text-[#2563EB]"
+               ? "bg-[#EEF4FF] text-[#155A96] font-medium"
+              : "text-slate-700 hover:text-[#155A96]"
            }`
           }
         >
@@ -176,10 +182,10 @@ shadow-lg
                 text-[15px]
                 font-medium
                 text-black
-                hover:text-[#2563EB]
+                hover:text-[#155A96]
                 hover:bg-[#F8FAFC]
                 transition-all duration-300
-                border-b border-white/5
+                border-b border-slate-100
                 last:border-none
               "
             >
@@ -202,8 +208,8 @@ shadow-lg
             flex items-center gap-1
             ${
              isActive
-               ? "bg-[#EEF4FF] text-[#2563EB] font-medium"
-               : "text-black hover:text-[#2563EB]"
+              ? "bg-[#EEF4FF] text-[#155A96] font-medium"
+              : "text-slate-700 hover:text-[#155A96]"
            }`
           }
         >
@@ -276,10 +282,10 @@ shadow-lg
                 text-[15px]
                 font-medium
                 text-slate-600
-                hover:text-[#2563EB]
+                hover:text-[#155A96]
                 hover:bg-[#F8FAFC]
                 transition-all duration-300
-                border-b border-white/5
+                border-b border-slate-100
                 last:border-none
               "
             >
@@ -298,8 +304,8 @@ shadow-lg
            transition-all duration-300
            ${
              isActive
-               ? "bg-[#EEF4FF] text-[#2563EB] font-medium"
-               : "text-black hover:text-[#2563EB]"
+              ? "bg-[#EEF4FF] text-[#155A96] font-medium"
+              : "text-slate-700 hover:text-[#155A96]"
            }`
         }
       >
@@ -315,8 +321,8 @@ shadow-lg
            transition-all duration-300
            ${
              isActive
-               ? "bg-[#EEF4FF] text-[#2563EB] font-medium"
-               : "text-black hover:text-[#2563EB]"
+              ? "bg-[#EEF4FF] text-[#155A96] font-medium"
+              : "text-slate-700 hover:text-[#155A96]"
            }`
         }
       >
@@ -332,8 +338,8 @@ shadow-lg
            transition-all duration-300
            ${
              isActive
-               ? "bg-[#EEF4FF] text-[#2563EB] font-medium"
-               : "text-black hover:text-[#2563EB]"
+              ? "bg-[#EEF4FF] text-[#155A96] font-medium"
+              : "text-slate-700 hover:text-[#155A96]"
            }`
         }
       >
@@ -353,10 +359,9 @@ shadow-lg
       whitespace-nowrap
       text-white
       font-medium
-      bg-gradient-to-r from-[#2F80FF] to-[#7B61FF]
+      bg-[#155A96]
       hover:scale-105
       transition duration-300
-      shadow-[0_8px_20px_rgba(123,97,255,0.35)]
     "
   >
     Get Started
@@ -369,7 +374,7 @@ shadow-lg
       onClick={() => setMobileMenu(!mobileMenu)}
       className="
         lg:hidden
-        text-[#071426]
+        text-[#155A96]
         flex items-center justify-center
       "
     >
@@ -396,7 +401,7 @@ shadow-xl
 
         <NavLink
           to="/"
-          className="text-black py-3 border-b border-black/50"
+          className="text-[#155A96] py-3 border-b border-slate-200"
           onClick={() => setMobileMenu(false)}
         >
           Home
@@ -404,7 +409,7 @@ shadow-xl
 
         <NavLink
           to="/about"
-          className="text-slate-700 py-3 border-b border-black/50"
+          className="text-[#155A96] py-3 border-b border-slate-200"
           onClick={() => setMobileMenu(false)}
         >
           About
@@ -412,7 +417,7 @@ shadow-xl
 
         <NavLink
           to="/products"
-          className="text-slate-700 py-3 border-b border-black/50"
+          className="text-[#155A96] py-3 border-b border-slate-200"
           onClick={() => setMobileMenu(false)}
         >
           Products
@@ -420,7 +425,7 @@ shadow-xl
 
         <NavLink
           to="/services"
-          className="text-slate-700 py-3 border-b border-black/50"
+          className="text-[#155A96] py-3 border-b border-slate-200"
           onClick={() => setMobileMenu(false)}
         >
           Services
@@ -428,7 +433,7 @@ shadow-xl
 
         <NavLink
           to="/education"
-          className="text-slate-700 py-3 border-b border-black/50"
+          className="text-[#155A96] py-3 border-b border-slate-200"
           onClick={() => setMobileMenu(false)}
         >
           Education
@@ -436,7 +441,7 @@ shadow-xl
 
         <NavLink
           to="/lms"
-          className="text-slate-700 py-3 border-b border-black/50"
+          className="text-[#155A96] py-3 border-b border-slate-200"
           onClick={() => setMobileMenu(false)}
         >
           LMS
@@ -444,7 +449,7 @@ shadow-xl
 
         <NavLink
           to="/contact"
-          className="text-slate-700 py-3"
+          className="text-[#155A96] py-3"
           onClick={() => setMobileMenu(false)}
         >
           Contact
@@ -456,9 +461,7 @@ shadow-xl
             w-full
             py-3
             rounded-xl
-            bg-gradient-to-r
-            from-[#2F80FF]
-            to-[#7B61FF]
+            bg-[#155A96]
             text-white
             font-medium
           "
