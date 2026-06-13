@@ -2224,7 +2224,7 @@ md:text-[40px] font-bold leading-tight text-[#0B132B]`,children:[`Why Businesses
       gap-3 sm:gap-4\r
       text-[#64748B]\r
       text-sm\r
-    `,children:[(0,F.jsxs)(`div`,{className:`flex items-center gap-2`,children:[(0,F.jsx)(`div`,{className:`w-2 h-2 rounded-full bg-[#F0AE11]`}),`Trusted Business Solution`]}),(0,F.jsxs)(`div`,{className:`flex items-center gap-2`,children:[(0,F.jsx)(`div`,{className:`w-2 h-2 rounded-full bg-[#F0AE11]`}),`Expert Support Available`]}),(0,F.jsxs)(`div`,{className:`flex items-center gap-2`,children:[(0,F.jsx)(`div`,{className:`w-2 h-2 rounded-full bg-[#F0AE11]`}),`Fast & Secure Setup`]})]})]})]})]}):(0,F.jsx)(`div`,{className:`min-h-screen flex items-center justify-center text-center px-4`,children:(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`h1`,{className:`text-4xl font-bold mb-4`,children:`Product Not Found`}),(0,F.jsx)(Mn,{to:`/products`,className:`text-[#2F80FF] font-semibold`,children:`Back to Products`})]})})}var gy=[{title:`Tally Software`,description:`Complete Tally solutions for accounting, GST, inventory, payroll, and business management.`,icon:Lr,path:`/services/tally-software`},{title:`Tally Services`,description:`Professional support, implementation, migration and training services for businesses.`,icon:Ii,path:`/services/tally-services`},{title:`Tally Apps For Mobile`,description:`Access reports, inventory, and business insights securely from anywhere on mobile.`,icon:N,path:`/services/tally-mobile`},{title:`Tally Solutions`,description:`Tailor-made integrations and workflow automations designed for your operations.`,icon:Ci,path:`/services/tally-solutions`},{title:`Tally ERP 9 Solutions`,description:`Advanced ERP solutions for enterprise accounting, reporting, and multi-user management.`,icon:Vi,path:`/services/tally-erp`},{title:`Tally Add-Ons`,description:`Powerful Tally add-ons for scalability. Seamless connectivity and secure operations in one platform`,icon:Ni,path:`/services/tally-addon`}],_y=[{slug:`tally-software`,hero:{badge:`Business Accounting Solutions`,title:`Smart Tally Software For`,highlight:` Every Business`,description:`Manage accounting, GST, inventory, payroll, banking, and business operations seamlessly with powerful Tally software solutions tailored for modern businesses.`,primaryBtn:`Book Free Demo`,primaryLink:`tel:+919849431943`},subServices:[{id:`tally-prime-silver`,tab:`Tally Prime Silver`,title:`Tally Prime Silver (Single-User)`,icon:Wi,description:`TallyPrime Silver is a single-user edition designed for small businesses and individual users. This version allows seamless management of accounts, inventory, taxation, and other financial tasks on a single computer. With its intuitive interface and robust features, TallyPrime Silver is perfect for efficient and reliable business operations.`,points:[`Simplified Accounting`,`Comprehensive GST Support`,`Inventory Management`,`Banking Integration`,`Data Security`,`Customizable Reports`]},{id:`tally-prime-gold`,tab:`TallyPrime Gold`,title:`TallyPrime Gold (Multi-User)`,icon:Ki,description:`TallyPrime Gold is the multi-user edition designed for businesses that require concurrent access to Tally across multiple systems within the same network. It is ideal for organizations with multiple departments or users, enabling seamless collaboration, data sharing, and efficient management of business operations.`,points:[`Multi-User Access`,`Comprehensive Inventory Management`,`Efficient Collaboration`,`Advanced Security Controls`,`GST Compliance`,`Real-Time Data Synchronization`]},{id:`tvu`,tab:`TVU`,title:`Tally Virtual User (TVU)`,icon:Li,description:`The Tally Virtual User (TVU) License is a specially designed licensing option that allows businesses to access TallyPrime over a virtual environment. Ideal for remote work setups or businesses using cloud infrastructure, TVU licenses enable secure and efficient usage of Tally across diverse locations without compromising performance or data security.`,points:[`Remote Accessibility`,`Cost-Efficient Scalability`,`Cloud Compatibility`,`Multi-Device Support`,`Enhanced Security`,`Centralized Data Management`]},{id:`tally-erp-9`,tab:`Tally ERP 9`,title:`Tally ERP 9 Solutions`,icon:Lr,description:`Tally.ERP 9 is a comprehensive business management software designed to streamline accounting, inventory, payroll, and taxation processes. It is a trusted solution for small to medium-sized businesses, offering advanced features to simplify operations, enhance compliance, and provide valuable insights for decision-making.`,points:[`Complete Accounting Solutions`,`Advanced Inventory Tracking`,`Payroll Management`,`GST & Tax Compliance`,`Multi-Language Support`,`Remote Access`]},{id:`tss`,tab:`TSS`,title:`Tally Software Services (TSS)`,icon:Ii,description:`Tally Software Services (TSS) is a subscription-based service that ensures your TallyPrime software remains up-to-date with the latest features, security patches, and compliance updates. TSS offers access to a range of value-added services, including product support, data synchronization, and cloud access, helping businesses optimize their use of Tally software for smoother operations.`,points:[`Latest Product Updates`,`Cloud Access`,`Product Support`,`Remote Access`,`Data Synchronization`,`Enhanced Security`]},{id:`auditors-edition`,tab:`Auditors Edition`,title:`TallyPrime Auditors Edition`,icon:Hr,description:`TallyPrime Auditors Edition is a specialized version of TallyPrime designed to cater to the needs of auditors and tax professionals. It provides advanced features for auditing, compliance, and detailed financial analysis. This edition allows auditors to access client data securely, perform audits efficiently, and ensure complete compliance with regulatory standards.`,points:[`Detailed Financial Reports`,`Remote Access`,`Tax Compliance`,`Data Integrity`,`Audit Trail`,`Client Data Management`]}],cta:{badge:`Free Consultation`,title:`Upgrade Your Business With Tally Solutions`,description:`Connect with our experts to discover the right Tally software package tailored for your accounting and business management needs.`,primaryBtn:`Enquire Now`,primaryLink:`/contact`,secondaryBtn:`Talk To Expert`,secondaryLink:`tel:+919849431943`}},{slug:`tally-services`,hero:{badge:`Business Support Services`,title:`Professional Tally Services`,highlight:` For Smooth Operations`,description:`Get expert assistance for installation, migration, customization, AMC support, troubleshooting, and training services designed to keep your business operations running efficiently.`,primaryBtn:`Book Free Demo`,primaryLink:`tel:+919849431943`},subServices:[{id:`tally-on-cloud`,tab:`Tally On Cloud`,title:`Simplify Business Operations with Tally on Cloud`,icon:Pr,description:`Tally on Cloud is a revolutionary solution designed to make TallyPrime accessible from anywhere, anytime. By hosting Tally on a secure cloud platform, businesses can eliminate the need for traditional hardware and infrastructure while enjoying the flexibility and scalability of the cloud. This solution ensures secure data access, enhanced collaboration, and cost efficiency, making it an ideal choice for businesses of all sizes.`,points:[`Anywhere, Anytime Accessibility`,`Multi-User Collaboration`,`Cost-Effective Solution`,`Scalable and Flexible`,`Enhanced Data Security`,`Reduced IT Overhead`]},{id:`tally-support`,tab:`Tally Support`,title:`Unparalleled Support for Seamless Business Operations`,icon:ei,description:`Support is the backbone of any successful business solution, and with Tally, you get top-notch assistance to ensure your operations run smoothly. Tally’s support services are designed to address your queries, resolve issues promptly, and provide expert guidance to maximize the efficiency of your business processes.`,points:[`24/7 Assistance`,`Regular Updates and Training`,`Expert Guidance`,`Custom Solutions`,`On-Demand Troubleshooting`,`Proactive Maintenance`]},{id:`amc`,tab:`AMC`,title:`Ensure Hassle-Free Operations with Tally Annual Maintenance Contract (AMC)`,icon:$r,description:`Tally AMC (Annual Maintenance Contract) is designed to provide businesses with continuous support, timely updates, and uninterrupted access to Tally services. With a focus on proactive maintenance and expert assistance, AMC ensures your Tally system operates smoothly and remains up-to-date with the latest features and compliance requirements.`,points:[`Regular Updates and Upgrades`,`Data Security and Backup Support`,`Priority Support`,`Custom Solutions`,`Proactive System Maintenance`,`Cost-Effective and Time-Saving`]},{id:`data-synchronization`,tab:`Data Synchronization`,title:`Streamline Business Operations with Tally Data Synchronization`,icon:Rr,description:`Tally Data Synchronization ensures seamless sharing and updating of data across multiple locations, enabling businesses to operate efficiently and maintain consistency in their financial and operational records. This feature is ideal for businesses with distributed operations, ensuring that all users work with the latest and most accurate data.`,points:[`Real-Time Data Updates`,`Multi-Loacation Accessibility`,`Centralized Control`,`Offline Synchronization`,`Secure Data Exchange`,`Improved Efficiency`]},{id:`tally-training`,tab:`Tally Training`,title:`Empower Your Team with Tally Training`,icon:Zr,description:`Tally Training is designed to equip businesses and their teams with the skills and knowledge to use Tally solutions effectively. Whether you’re a beginner or an experienced user, comprehensive training programs ensure you unlock the full potential of Tally, driving efficiency and accuracy in your business operations.`,points:[`Comprehensive Learning Modules`,`Customizable Training Programs`,`Hands-On Practice`,`On-site and Online Options`,`Expert Trainers`,`Certification for Users`]},{id:`invoice-customization`,tab:`Invoice Customization`,title:`Billing Your Process with Tally Invoice Customization`,icon:Wr,description:`Tally Invoice Customization enables businesses to create personalized invoices that reflect their brand identity and meet their specific operational needs. With the flexibility to design and modify invoice formats, this feature ensures that your billing process is both professional and efficient.`,points:[`Brand Identity Integration`,`Industry-Specific Templates`,`Customizable Fields`,`Language and Regional Adaptability`,`Multiple Format Options`,`Seamless Automation`]},{id:`priority-support-services`,tab:`Priority Support Services`,title:`Experience Seamless Assistance with Tally Priority Support Services`,icon:ur,description:`Tally Priority Support Services are designed to provide businesses with quick and dedicated assistance, ensuring uninterrupted operations and maximum efficiency. With a focus on delivering expert guidance and faster issue resolution, this service ensures your Tally experience remains smooth and hassle-free.`,points:[`Dedicated Support`,`24/7 Availability`,`Faster Response Times`,`Tailored Solutions`,`Proactive Assistance`,`Comprehensive Troubleshooting`]}],cta:{badge:`FREE CONSULTATION`,title:`Need Expert Tally Service Assistance?`,description:`Connect with our specialists for installation, customization, AMC support, migration, and cloud solutions tailored to your business needs.`,primaryBtn:`Get Started`,primaryLink:`/contact`,secondaryBtn:`Talk To Expert`,secondaryLink:`tel:+919849431943`}},{slug:`tally-mobile`,hero:{badge:`Mobile Business Solutions`,title:`Manage Tally Anywhere With `,highlight:` Mobile Apps`,description:`Access reports, approvals, inventory, sales, and financial insights securely from your mobile device with powerful Tally-integrated mobile applications.`,primaryBtn:`Book Free Demo`,primaryLink:`tel:+919849431943`},subServices:[{id:`bizanalyst-for-tally`,tab:`BizAnalyst for Tally`,title:`Unlock Business Insights with BizAnalyst for Tally`,icon:br,description:`BizAnalyst is a powerful mobile and web-based solution designed to work seamlessly with Tally, empowering businesses to access real-time insights and reports on the go. By bridging the gap between your financial data and actionable decisions, BizAnalyst enhances productivity, streamlines operations, and provides better control over your business.`,points:[`Real-Time Access to Data`,`Seamless Data Synchronization`,`Smart Notifications`,`Collaborative Tools`,`Advanced Business Analytics`,`Secure and Reliable`]},{id:`credflow-for-tally`,tab:`CredFlow for Tally`,title:`Optimize Cash Flow Management with Credflow for Tally`,icon:qi,description:`Credflow is an advanced cash flow management solution integrated with Tally, designed to help businesses manage their finances efficiently. By automating accounts receivables, improving collection processes, and providing real-time insights, Credflow empowers businesses to maintain a healthy cash flow and ensure financial stability.`,points:[`Automated Payment Reminders`,`Credit Risk Management`,`Real-Time Cash Flow Tracking `,`Seamless Tally Integration`,`Customizable Reports and Dashboards`,`Improved Collection Efficiency`]}],cta:{badge:`FREE CONSULTATION`,title:`Need Mobile Access To Your Tally Business Data?`,description:`Connect with our experts to discover the best Tally mobile apps for analytics, collections, payroll, sales, attendance, and business automation.`,primaryBtn:`Get Started`,primaryLink:`/contact`,secondaryBtn:`Talk To Expert`,secondaryLink:`tel:+919849431943`}},{slug:`tally-solutions`,hero:{badge:`Smart Business Solutions`,title:`Powerful Tally Solutions  `,highlight:`For Modern Businesses `,description:`Enhance productivity, automate workflows, streamline reporting, and integrate Tally with advanced business solutions designed for scalable operations.`,primaryBtn:`Book Free Demo`,primaryLink:`tel:+919849431943`},subServices:[{id:`tally-api-integration`,tab:`Tally API Integration`,title:`Enhance Functionality with Tally API Integration`,icon:Yi,description:`Tally API Integration enables seamless connectivity between Tally and other business applications, allowing for streamlined operations and real-time data synchronization. By integrating Tally with your existing systems, you can automate workflows, reduce manual tasks, and improve efficiency across various business processes.`,points:[`Seamless Data Exchange`,`Advanced Reporting and Analytics`,`Custom Workflow Automation`,`Secure and Reliable Integration`,`Third-Party Application Compatibility`,`Scalable Solutions`]},{id:`quickbooks-and-tally-integration`,tab:`QuickBooks and Tally Integration`,title:`Streamline Your Accounting with QuickBooks and Tally Integration`,icon:Di,description:`Integrating QuickBooks with Tally allows businesses to combine the strengths of both platforms—QuickBooks for managing accounting and Tally for financial and operational data. This integration ensures seamless data transfer, improved accuracy, and enhanced business efficiency by eliminating the need for manual data entry and duplication.`,points:[`Automated Data Synchronization`,`Minimized Data Entry Errors`,`Simplified Accounting and Taxation`,`Centralized Financial Management`,`Efficient Financial Reporting`,`Customizable Integration`]},{id:`excel-to-tally-import-utility`,tab:`Excel To Tally Import Utility`,title:`Simplify Data Import with Excel to Tally Import Utility`,icon:Ur,description:`The Excel to Tally Import Utility is a powerful tool designed to simplify the process of transferring data from Excel sheets into Tally. Whether it’s for managing transactions, inventory, or financial data, this utility streamlines data entry, reduces errors, and saves valuable time by automating the import process from Excel to Tally.`,points:[`Effortless Data Transfer`,`Error-Free Data Mapping`,`Customizable Import Formats`,`Real-Time Updates`,`Bulk Data Import`,`Seamless Integration`]},{id:`tally-invoice-customization`,tab:`Tally Invoice Customization`,title:`Billing Process with Tally Invoice Customization`,icon:Wr,description:`Tally Invoice Customization enables businesses to create personalized invoices that reflect their brand identity and meet their specific operational needs. With the flexibility to design and modify invoice formats, this feature ensures that your billing process is both professional and efficient.`,points:[`Brand Identity Integration`,`Industry-Specific Templates`,`Customizable Fields`,`Language and Regional Adaptability`,`Multiple Format Options`,`Seamless Automation`]},{id:`tally-voucher-customization`,tab:`Tally Voucher Formats Customization`,title:`Your Financial Transactions with Tally Voucher Formats Customization`,icon:Ti,description:`Tally Voucher Formats Customization allows businesses to modify and design voucher templates to suit their specific accounting needs. Whether it’s for sales, purchases, payments, receipts, or journal entries, this feature ensures that all financial transactions are documented in a format that aligns with your business processes and compliance requirements.`,points:[`Customizable Voucher Layouts`,`Industry-Specific Formats`,`Inclusion of Business-Specific Fields`,`Multi-Language Support`,`Branding Integration`,`Flexible Reporting and Export Options`]},{id:`tally-gst-reports-customization`,tab:`Tally GST Reports Customization`,title:`Simplify GST Compliance with Tally GST Reports Customization`,icon:Qr,description:`Tally GST Reports Customization allows businesses to tailor their GST reports to meet specific compliance requirements, ensuring accurate tax calculations and streamlined reporting. By customizing GST reports, businesses can generate precise tax summaries, invoices, and returns that align with statutory norms while providing insights into the financial health of the business.`,points:[`Tailored GST Returns`,`Multi-Period Reporting`,`Dynamic Tax Classification`,`Detailed Summary and Ledger Reports`,`Customizable Tax Rate Setup`,`Easy Integration with GSTR Filing`]},{id:`vertical-solutions`,tab:`Vertical Solutions With Tally`,title:`Industry-Specific Vertical Solutions with Tally`,icon:gr,description:`Tally’s Vertical Solutions offer customized tools and features tailored to meet the specific needs of different industries. Whether you’re in retail, manufacturing, healthcare, or services, Tally provides specialized solutions designed to streamline operations, improve accuracy, and enhance efficiency across various business functions.`,points:[`Customized Features for Industry Needs`,`Seamless Integration`,`Enhanced Reporting for Each Industry`,`Scalable and Flexible Solutions`,`Compliance with Industry Regulations`,`Improved Decision-Making`]}],cta:{badge:`FREE CONSULTATION`,title:`Need Mobile Access To Your Tally Business Data?`,description:`Connect with our experts to discover the best Tally mobile apps for analytics, collections, payroll, sales, attendance, and business automation.`,primaryBtn:`Get Started`,primaryLink:`/contact`,secondaryBtn:`Talk To Expert`,secondaryLink:`tel:+919849431943`}},{slug:`tally-erp`,hero:{badge:`Enterprise ERP Solutions`,title:`Advanced Tally ERP 9 Solutions `,highlight:`For Smarter Operations`,description:`Optimize inventory, production, sales, finance, and operational workflows with powerful Tally ERP 9 enterprise-grade business solutions.`,primaryBtn:`Talk To Expert`,primaryLink:`tel:+919849431943`},subServices:[{id:`supply-chain-visibility`,tab:`Supply Chain Visibility`,title:`Achieve Full Supply Chain Transparency with Tally’s Supply Chain Visibility`,icon:Yr,description:`Tally’s Supply Chain Visibility feature provides businesses with real-time insights into their supply chain operations, enabling better decision-making, improved efficiency, and enhanced customer satisfaction. By tracking every step of the process, businesses can optimize inventory, streamline logistics, and reduce bottlenecks.`,points:[`Real-Time Inventory Tracking`,`Logistics and Shipment Tracking`,`Order Lifecycle Monitoring`,`Customizable Supply Chain Reports`,`Comprehensive Vendor and Supplier Insights`,`Enhanced Demand Forecasting`]},{id:`serial-number-management`,tab:`Serial Number Management`,title:`Streamline Inventory with Tally’s Serial Number Management`,icon:li,description:`Tally’s Serial Number Management feature enables businesses to track individual products and assets in their inventory through unique serial numbers. This enhances traceability, improves stock control, and simplifies warranty or service management, providing a complete overview of each item in the supply chain.`,points:[`Unique Serial Number Assignment`,`Batch and Serial Number Integration`,`Complete Traceability`,`Inventory Control and Stock Visibility`,`Warranty and Service Management`,`Customizable Reporting`]},{id:`kit-items-sales`,tab:`KIT Items Sales`,title:`Boost Sales Efficiency with Tally’s KIT Items Sales Management`,icon:vi,description:`Tally’s KIT Items Sales feature enables businesses to manage and sell bundled products or services efficiently. This functionality allows you to combine multiple items into a single sales unit or kit, simplifying the sales process, improving stock management, and providing a better experience for both the business and its customers.`,points:[`Bundling of Multiple Products`,`Simplified Billing and Invoicing`,`Automatic Stock Tracking`,`Comprehensive Sales Reporting`,`Customizable KIT Configuration`,`Discounts and Promotions`]},{id:`sales-activity-management`,tab:`Sales Activity Management`,title:`Optimize Sales Performance with Tally’s Sales Activity Management`,icon:xr,description:`Tally’s Sales Activity Management feature helps businesses track, analyze, and manage their sales activities efficiently. This functionality provides a comprehensive view of sales interactions, customer touchpoints, and performance metrics, empowering businesses to enhance sales productivity, drive growth, and improve customer relationships.`,points:[`Sales Tracking and Monitoring`,`Task Assignment and Collaboration`,`Lead and Opportunity Management`,`Customer Interaction History`,`Activy-Based Reporting`,`Sales Performance Analytics`]},{id:`quality-control`,tab:`Quality Control`,title:`Ensure Product Excellence with Tally’s Quality Control (QC)`,icon:Ii,description:`Tally’s Quality Control (QC) feature enables businesses to monitor and maintain the quality of their products throughout the manufacturing and procurement process. By incorporating quality checks at every stage, this functionality helps businesses reduce defects, improve product consistency, and meet customer expectations.`,points:[`Customizable Quality Parameters`,`Batch-wise Quality Control`,`Multiple Quality Checks`,`Quality Certificate Management`,`Defect Tracking and Reporting`,`Integration with Inventory Management`]}],cta:{badge:`FREE CONSULTATION`,title:`Need Mobile Access To Your Tally Business Data?`,description:`Connect with our experts to discover the best Tally mobile apps for analytics, collections, payroll, sales, attendance, and business automation.`,primaryBtn:`Get Started`,primaryLink:`/contact`,secondaryBtn:`Talk To Expert`,secondaryLink:`tel:+919849431943`}},{slug:`tally-addon`,hero:{badge:`Powerful Tally Add-Ons`,title:`Extend Tally Functionality With Smart`,highlight:` Business Add-Ons`,description:`Enhance accounting, compliance, billing, inventory, and workflow efficiency with advanced Tally add-ons customized for modern business operations.`,primaryBtn:`Talk To Expert`},subServices:[{id:`e-way-bill-management`,tab:`E-Way Bill Management`,title:`Simplify Compliance with Tally’s E-way Bill Management`,icon:Ei,description:`Tally’s E-way Bill feature allows businesses to generate, track, and manage e-way bills seamlessly, ensuring compliance with GST regulations. This functionality streamlines the process of transporting goods and ensures that businesses stay on top of the documentation required for interstate and intrastate shipments.`,points:[`Automatic E-way Bill Generation`,`Bulk E-way Bill Generation`,`Real-Time E-way Bill Tracking`,`E-way Bill Reports`,`GST Integration`,`Validations and Compliance Checks`]},{id:`digitally-signed-invoices`,tab:`Digitally Signed Invoices`,title:`Ensure Authenticity with Digitally Signed Invoices in Tally`,icon:Vr,description:`Tally’s Digitally Signed Invoice feature enables businesses to generate invoices that are digitally signed, ensuring authenticity, security, and legal compliance. This feature helps streamline invoice validation processes, enhance trust with customers and partners, and ensure that invoices meet regulatory requirements.`,points:[`Secure Digital Signature Integration`,`Enhanced Invoice Authenticity`,`Compliance with Legal Requirements`,`Efficient Invoice Management`,`Automatic Signature Generation`,`Audit-Ready Records`]},{id:`gst-reminder`,tab:`GST Reminder`,title:`Stay Compliant with Tally’s GST Reminder Feature`,icon:dr,description:`Tally’s GST Reminder feature helps businesses stay on top of their tax filing deadlines by sending timely reminders for GST returns and other important compliance dates. This functionality ensures that you never miss a filing deadline, reducing the risk of penalties and ensuring seamless tax compliance.`,points:[`Automated GST Filing Reminders`,`Reminder Notifications via Email/SMS`,`Customizable Reminder Settings`,`Integrated with GST Reports`,`Multi-Return Support`,`Dashboard Overview of Due Dates`]},{id:`transaction-authorization`,tab:`Transaction Authorization`,title:`Secure Your Business Operations with Tally’s Transaction Authorization`,icon:Ni,description:`Tally’s Transaction Authorization feature ensures that all financial transactions within your business are authorized by the relevant personnel before being recorded. This adds an extra layer of security and control, preventing unauthorized or erroneous transactions and ensuring accurate financial reporting.`,points:[`Role-Based Authorization`,`Real-Time Authorization Alerts`,`Multi-Level Authorization`,`Customizable Approval Workflow`,`Audit Trail of Authorizations`,`Integration with Financial Data`]},{id:`material-requirement-planning`,tab:`Material Requirement Planning`,title:`Optimize Inventory Management with Tally’s Material Requirement Planning`,icon:pr,description:`Tally’s Material Requirement Planning (MRP) feature enables businesses to forecast and manage their material needs, ensuring that the right materials are available at the right time for production. This functionality helps prevent overstocking or stockouts, reduces costs, and ensures smooth production processes by optimizing material flow.`,points:[`Automated Material Planning`,`Real-Time Inventory Monitoring`,`Forecasting and Demand Planning`,`Vendor and Supplier Integration`,`Multi-Item and Multi-Level BOM Support`,`Detailed MRP Reports`]}],cta:{badge:`SMART BUSINESS AUTOMATION`,title:`Upgrade Your Tally Experience With Powerful Add-Ons`,description:`Connect with our experts to discover custom Tally add-ons that improve productivity, compliance, automation, and business performance.`,primaryBtn:`Book Free Consultation`,primaryLink:`/contact`,secondaryBtn:`Contact Our Team`,secondaryLink:`tel:+919849431943`}}];function vy(){return(0,F.jsxs)(F.Fragment,{children:[(0,F.jsx)(`section`,{className:`\r
+    `,children:[(0,F.jsxs)(`div`,{className:`flex items-center gap-2`,children:[(0,F.jsx)(`div`,{className:`w-2 h-2 rounded-full bg-[#F0AE11]`}),`Trusted Business Solution`]}),(0,F.jsxs)(`div`,{className:`flex items-center gap-2`,children:[(0,F.jsx)(`div`,{className:`w-2 h-2 rounded-full bg-[#F0AE11]`}),`Expert Support Available`]}),(0,F.jsxs)(`div`,{className:`flex items-center gap-2`,children:[(0,F.jsx)(`div`,{className:`w-2 h-2 rounded-full bg-[#F0AE11]`}),`Fast & Secure Setup`]})]})]})]})]}):(0,F.jsx)(`div`,{className:`min-h-screen flex items-center justify-center text-center px-4`,children:(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`h1`,{className:`text-4xl font-bold mb-4`,children:`Product Not Found`}),(0,F.jsx)(Mn,{to:`/products`,className:`text-[#2F80FF] font-semibold`,children:`Back to Products`})]})})}var gy=[{title:`Tally Software`,description:`Complete Tally solutions for accounting, GST, inventory, payroll, and business management.`,icon:Lr,path:`/services/tally-software`},{title:`Tally Services`,description:`Professional support, implementation, migration and training services for businesses.`,icon:Ii,path:`/services/tally-services`},{title:`Tally Apps For Mobile`,description:`Access reports, inventory, and business insights securely from anywhere on mobile.`,icon:N,path:`/services/tally-mobile`},{title:`Tally Solutions`,description:`Tailor-made integrations and workflow automations designed for your operations.`,icon:Ci,path:`/services/tally-solutions`},{title:`Tally ERP 9 Solutions`,description:`Advanced ERP solutions for enterprise accounting, reporting, and multi-user management.`,icon:Vi,path:`/services/tally-erp`},{title:`Tally Add-Ons`,description:`Powerful Tally add-ons for scalability. Seamless connectivity and secure operations in one platform`,icon:Ni,path:`/services/tally-addon`}],_y=[{slug:`tally-software`,hero:{badge:`Business Accounting Solutions`,title:`Smart Tally Software For`,highlight:` Every Business`,description:`Manage accounting, GST, inventory, payroll, banking, and business operations seamlessly with powerful Tally software solutions tailored for modern businesses.`,primaryBtn:`Book Free Demo`,primaryLink:`tel:+919849431943`},subServices:[{id:`tally-prime-silver`,tab:`Tally Prime Silver`,title:`Tally Prime Silver (Single-User)`,icon:Wi,description:`TallyPrime Silver is a single-user edition designed for small businesses and individual users. This version allows seamless management of accounts, inventory, taxation, and other financial tasks on a single computer. With its intuitive interface and robust features, TallyPrime Silver is perfect for efficient and reliable business operations.`,points:[`Simplified Accounting`,`Comprehensive GST Support`,`Inventory Management`,`Banking Integration`,`Data Security`,`Customizable Reports`]},{id:`tally-prime-gold`,tab:`TallyPrime Gold`,title:`TallyPrime Gold (Multi-User)`,icon:Ki,description:`TallyPrime Gold is the multi-user edition designed for businesses that require concurrent access to Tally across multiple systems within the same network. It is ideal for organizations with multiple departments or users, enabling seamless collaboration, data sharing, and efficient management of business operations.`,points:[`Multi-User Access`,`Comprehensive Inventory Management`,`Efficient Collaboration`,`Advanced Security Controls`,`GST Compliance`,`Real-Time Data Synchronization`]},{id:`tvu`,tab:`TVU`,title:`Tally Virtual User (TVU)`,icon:Li,description:`The Tally Virtual User (TVU) License is a specially designed licensing option that allows businesses to access TallyPrime over a virtual environment. Ideal for remote work setups or businesses using cloud infrastructure, TVU licenses enable secure and efficient usage of Tally across diverse locations without compromising performance or data security.`,points:[`Remote Accessibility`,`Cost-Efficient Scalability`,`Cloud Compatibility`,`Multi-Device Support`,`Enhanced Security`,`Centralized Data Management`]},{id:`tally-erp-9`,tab:`Tally ERP 9`,title:`Tally ERP 9 Solutions`,icon:Lr,description:`Tally.ERP 9 is a comprehensive business management software designed to streamline accounting, inventory, payroll, and taxation processes. It is a trusted solution for small to medium-sized businesses, offering advanced features to simplify operations, enhance compliance, and provide valuable insights for decision-making.`,points:[`Complete Accounting Solutions`,`Advanced Inventory Tracking`,`Payroll Management`,`GST & Tax Compliance`,`Multi-Language Support`,`Remote Access`]},{id:`tss`,tab:`TSS`,title:`Tally Software Services (TSS)`,icon:Ii,description:`Tally Software Services (TSS) is a subscription-based service that ensures your TallyPrime software remains up-to-date with the latest features, security patches, and compliance updates. TSS offers access to a range of value-added services, including product support, data synchronization, and cloud access, helping businesses optimize their use of Tally software for smoother operations.`,points:[`Latest Product Updates`,`Cloud Access`,`Product Support`,`Remote Access`,`Data Synchronization`,`Enhanced Security`]},{id:`auditors-edition`,tab:`Auditors Edition`,title:`TallyPrime Auditors Edition`,icon:Hr,description:`TallyPrime Auditors Edition is a specialized version of TallyPrime designed to cater to the needs of auditors and tax professionals. It provides advanced features for auditing, compliance, and detailed financial analysis. This edition allows auditors to access client data securely, perform audits efficiently, and ensure complete compliance with regulatory standards.`,points:[`Detailed Financial Reports`,`Remote Access`,`Tax Compliance`,`Data Integrity`,`Audit Trail`,`Client Data Management`]}],cta:{badge:`Free Consultation`,title:`Upgrade Your Business With Tally Solutions`,description:`Connect with our experts to discover the right Tally software package tailored for your accounting and business management needs.`,primaryBtn:`Enquire Now`,primaryLink:`/contact`,secondaryBtn:`Talk To Expert`,secondaryLink:`tel:+919849431943`}},{slug:`tally-services`,hero:{badge:`Business Support Services`,title:`Professional Tally Services`,highlight:` For Smooth Operations`,description:`Get expert assistance for installation, migration, customization, AMC support, troubleshooting, and training services designed to keep your business operations running efficiently.`,primaryBtn:`Book Free Demo`,primaryLink:`tel:+919849431943`},subServices:[{id:`tally-on-cloud`,tab:`Tally On Cloud`,title:`Simplify Business Operations with Tally on Cloud`,icon:Pr,description:`Tally on Cloud is a revolutionary solution designed to make TallyPrime accessible from anywhere, anytime. By hosting Tally on a secure cloud platform, businesses can eliminate the need for traditional hardware and infrastructure while enjoying the flexibility and scalability of the cloud. This solution ensures secure data access, enhanced collaboration, and cost efficiency, making it an ideal choice for businesses of all sizes.`,points:[`Anywhere, Anytime Accessibility`,`Multi-User Collaboration`,`Cost-Effective Solution`,`Scalable and Flexible`,`Enhanced Data Security`,`Reduced IT Overhead`]},{id:`tally-support`,tab:`Tally Support`,title:`Unparalleled Support for Seamless Business Operations`,icon:ei,description:`Support is the backbone of any successful business solution, and with Tally, you get top-notch assistance to ensure your operations run smoothly. Tally’s support services are designed to address your queries, resolve issues promptly, and provide expert guidance to maximize the efficiency of your business processes.`,points:[`24/7 Assistance`,`Regular Updates and Training`,`Expert Guidance`,`Custom Solutions`,`On-Demand Troubleshooting`,`Proactive Maintenance`]},{id:`amc`,tab:`AMC`,title:`Ensure Hassle-Free Operations with Tally Annual Maintenance Contract (AMC)`,icon:$r,description:`Tally AMC (Annual Maintenance Contract) is designed to provide businesses with continuous support, timely updates, and uninterrupted access to Tally services. With a focus on proactive maintenance and expert assistance, AMC ensures your Tally system operates smoothly and remains up-to-date with the latest features and compliance requirements.`,points:[`Regular Updates and Upgrades`,`Data Security and Backup Support`,`Priority Support`,`Custom Solutions`,`Proactive System Maintenance`,`Cost-Effective and Time-Saving`]},{id:`data-synchronization`,tab:`Data Synchronization`,title:`Streamline Business Operations with Tally Data Synchronization`,icon:Rr,description:`Tally Data Synchronization ensures seamless sharing and updating of data across multiple locations, enabling businesses to operate efficiently and maintain consistency in their financial and operational records. This feature is ideal for businesses with distributed operations, ensuring that all users work with the latest and most accurate data.`,points:[`Real-Time Data Updates`,`Multi-Loacation Accessibility`,`Centralized Control`,`Offline Synchronization`,`Secure Data Exchange`,`Improved Efficiency`]},{id:`tally-training`,tab:`Tally Training`,title:`Empower Your Team with Tally Training`,icon:Zr,description:`Tally Training is designed to equip businesses and their teams with the skills and knowledge to use Tally solutions effectively. Whether you’re a beginner or an experienced user, comprehensive training programs ensure you unlock the full potential of Tally, driving efficiency and accuracy in your business operations.`,points:[`Comprehensive Learning Modules`,`Customizable Training Programs`,`Hands-On Practice`,`On-site and Online Options`,`Expert Trainers`,`Certification for Users`]},{id:`invoice-customization`,tab:`Invoice Customization`,title:`Billing Your Process with Tally Invoice Customization`,icon:Wr,description:`Tally Invoice Customization enables businesses to create personalized invoices that reflect their brand identity and meet their specific operational needs. With the flexibility to design and modify invoice formats, this feature ensures that your billing process is both professional and efficient.`,points:[`Brand Identity Integration`,`Industry-Specific Templates`,`Customizable Fields`,`Language and Regional Adaptability`,`Multiple Format Options`,`Seamless Automation`]},{id:`priority-support-services`,tab:`Priority Support Services`,title:`Experience Seamless Assistance with Tally Priority Support Services`,icon:ur,description:`Tally Priority Support Services are designed to provide businesses with quick and dedicated assistance, ensuring uninterrupted operations and maximum efficiency. With a focus on delivering expert guidance and faster issue resolution, this service ensures your Tally experience remains smooth and hassle-free.`,points:[`Dedicated Support`,`24/7 Availability`,`Faster Response Times`,`Tailored Solutions`,`Proactive Assistance`,`Comprehensive Troubleshooting`]}],cta:{badge:`FREE CONSULTATION`,title:`Need Expert Tally Service Assistance?`,description:`Connect with our specialists for installation, customization, AMC support, migration, and cloud solutions tailored to your business needs.`,primaryBtn:`Get Started`,primaryLink:`/contact`,secondaryBtn:`Talk To Expert`,secondaryLink:`tel:+919849431943`}},{slug:`tally-mobile`,hero:{badge:`Mobile Business Solutions`,title:`Manage Tally Anywhere With `,highlight:` Mobile Apps`,description:`Access reports, approvals, inventory, sales, and financial insights securely from your mobile device with powerful Tally-integrated mobile applications.`,primaryBtn:`Book Free Demo`,primaryLink:`tel:+919849431943`},subServices:[{id:`bizanalyst-for-tally`,tab:`BizAnalyst for Tally`,title:`Unlock Business Insights with BizAnalyst for Tally`,icon:br,description:`BizAnalyst is a powerful mobile and web-based solution designed to work seamlessly with Tally, empowering businesses to access real-time insights and reports on the go. By bridging the gap between your financial data and actionable decisions, BizAnalyst enhances productivity, streamlines operations, and provides better control over your business.`,points:[`Real-Time Access to Data`,`Seamless Data Synchronization`,`Smart Notifications`,`Collaborative Tools`,`Advanced Business Analytics`,`Secure and Reliable`]},{id:`credflow-for-tally`,tab:`CredFlow for Tally`,title:`Optimize Cash Flow Management with Credflow for Tally`,icon:qi,description:`Credflow is an advanced cash flow management solution integrated with Tally, designed to help businesses manage their finances efficiently. By automating accounts receivables, improving collection processes, and providing real-time insights, Credflow empowers businesses to maintain a healthy cash flow and ensure financial stability.`,points:[`Automated Payment Reminders`,`Credit Risk Management`,`Real-Time Cash Flow Tracking `,`Seamless Tally Integration`,`Customizable Reports and Dashboards`,`Improved Collection Efficiency`]}],cta:{badge:`FREE CONSULTATION`,title:`Need Mobile Access To Your Tally Business Data?`,description:`Connect with our experts to discover the best Tally mobile apps for analytics, collections, payroll, sales, attendance, and business automation.`,primaryBtn:`Get Started`,primaryLink:`/contact`,secondaryBtn:`Talk To Expert`,secondaryLink:`tel:+919849431943`}},{slug:`tally-solutions`,hero:{badge:`Smart Business Solutions`,title:`Powerful Tally Solutions  `,highlight:`For Modern Businesses `,description:`Enhance productivity, automate workflows, streamline reporting, and integrate Tally with advanced business solutions designed for scalable operations.`,primaryBtn:`Book Free Demo`,primaryLink:`tel:+919849431943`},subServices:[{id:`tally-api-integration`,tab:`Tally API Integration`,title:`Enhance Functionality with Tally API Integration`,icon:Yi,description:`Tally API Integration enables seamless connectivity between Tally and other business applications, allowing for streamlined operations and real-time data synchronization. By integrating Tally with your existing systems, you can automate workflows, reduce manual tasks, and improve efficiency across various business processes.`,points:[`Seamless Data Exchange`,`Advanced Reporting and Analytics`,`Custom Workflow Automation`,`Secure and Reliable Integration`,`Third-Party Application Compatibility`,`Scalable Solutions`]},{id:`quickbooks-and-tally-integration`,tab:`QuickBooks and Integration`,title:`Streamline Your Accounting with QuickBooks and Tally Integration`,icon:Di,description:`Integrating QuickBooks with Tally allows businesses to combine the strengths of both platforms—QuickBooks for managing accounting and Tally for financial and operational data. This integration ensures seamless data transfer, improved accuracy, and enhanced business efficiency by eliminating the need for manual data entry and duplication.`,points:[`Automated Data Synchronization`,`Minimized Data Entry Errors`,`Simplified Accounting and Taxation`,`Centralized Financial Management`,`Efficient Financial Reporting`,`Customizable Integration`]},{id:`excel-to-tally-import-utility`,tab:`Excel To Tally Import Utility`,title:`Simplify Data Import with Excel to Tally Import Utility`,icon:Ur,description:`The Excel to Tally Import Utility is a powerful tool designed to simplify the process of transferring data from Excel sheets into Tally. Whether it’s for managing transactions, inventory, or financial data, this utility streamlines data entry, reduces errors, and saves valuable time by automating the import process from Excel to Tally.`,points:[`Effortless Data Transfer`,`Error-Free Data Mapping`,`Customizable Import Formats`,`Real-Time Updates`,`Bulk Data Import`,`Seamless Integration`]},{id:`tally-invoice-customization`,tab:`Tally Invoice`,title:`Billing Process with Tally Invoice Customization`,icon:Wr,description:`Tally Invoice Customization enables businesses to create personalized invoices that reflect their brand identity and meet their specific operational needs. With the flexibility to design and modify invoice formats, this feature ensures that your billing process is both professional and efficient.`,points:[`Brand Identity Integration`,`Industry-Specific Templates`,`Customizable Fields`,`Language and Regional Adaptability`,`Multiple Format Options`,`Seamless Automation`]},{id:`tally-voucher-customization`,tab:`Tally Voucher`,title:`Your Financial Transactions with Tally Voucher Formats Customization`,icon:Ti,description:`Tally Voucher Formats Customization allows businesses to modify and design voucher templates to suit their specific accounting needs. Whether it’s for sales, purchases, payments, receipts, or journal entries, this feature ensures that all financial transactions are documented in a format that aligns with your business processes and compliance requirements.`,points:[`Customizable Voucher Layouts`,`Industry-Specific Formats`,`Inclusion of Business-Specific Fields`,`Multi-Language Support`,`Branding Integration`,`Flexible Reporting and Export Options`]},{id:`tally-gst-reports-customization`,tab:`Tally GST Reports`,title:`Simplify GST Compliance with Tally GST Reports Customization`,icon:Qr,description:`Tally GST Reports Customization allows businesses to tailor their GST reports to meet specific compliance requirements, ensuring accurate tax calculations and streamlined reporting. By customizing GST reports, businesses can generate precise tax summaries, invoices, and returns that align with statutory norms while providing insights into the financial health of the business.`,points:[`Tailored GST Returns`,`Multi-Period Reporting`,`Dynamic Tax Classification`,`Detailed Summary and Ledger Reports`,`Customizable Tax Rate Setup`,`Easy Integration with GSTR Filing`]},{id:`vertical-solutions`,tab:`Vertical Solutions`,title:`Industry-Specific Vertical Solutions with Tally`,icon:gr,description:`Tally’s Vertical Solutions offer customized tools and features tailored to meet the specific needs of different industries. Whether you’re in retail, manufacturing, healthcare, or services, Tally provides specialized solutions designed to streamline operations, improve accuracy, and enhance efficiency across various business functions.`,points:[`Customized Features for Industry Needs`,`Seamless Integration`,`Enhanced Reporting for Each Industry`,`Scalable and Flexible Solutions`,`Compliance with Industry Regulations`,`Improved Decision-Making`]}],cta:{badge:`FREE CONSULTATION`,title:`Need Mobile Access To Your Tally Business Data?`,description:`Connect with our experts to discover the best Tally mobile apps for analytics, collections, payroll, sales, attendance, and business automation.`,primaryBtn:`Get Started`,primaryLink:`/contact`,secondaryBtn:`Talk To Expert`,secondaryLink:`tel:+919849431943`}},{slug:`tally-erp`,hero:{badge:`Enterprise ERP Solutions`,title:`Advanced Tally ERP 9 Solutions `,highlight:`For Smarter Operations`,description:`Optimize inventory, production, sales, finance, and operational workflows with powerful Tally ERP 9 enterprise-grade business solutions.`,primaryBtn:`Talk To Expert`,primaryLink:`tel:+919849431943`},subServices:[{id:`supply-chain-visibility`,tab:`Supply Chain Visibility`,title:`Achieve Full Supply Chain Transparency with Tally’s Supply Chain Visibility`,icon:Yr,description:`Tally’s Supply Chain Visibility feature provides businesses with real-time insights into their supply chain operations, enabling better decision-making, improved efficiency, and enhanced customer satisfaction. By tracking every step of the process, businesses can optimize inventory, streamline logistics, and reduce bottlenecks.`,points:[`Real-Time Inventory Tracking`,`Logistics and Shipment Tracking`,`Order Lifecycle Monitoring`,`Customizable Supply Chain Reports`,`Comprehensive Vendor and Supplier Insights`,`Enhanced Demand Forecasting`]},{id:`serial-number-management`,tab:`Serial Number Management`,title:`Streamline Inventory with Tally’s Serial Number Management`,icon:li,description:`Tally’s Serial Number Management feature enables businesses to track individual products and assets in their inventory through unique serial numbers. This enhances traceability, improves stock control, and simplifies warranty or service management, providing a complete overview of each item in the supply chain.`,points:[`Unique Serial Number Assignment`,`Batch and Serial Number Integration`,`Complete Traceability`,`Inventory Control and Stock Visibility`,`Warranty and Service Management`,`Customizable Reporting`]},{id:`kit-items-sales`,tab:`KIT Items Sales`,title:`Boost Sales Efficiency with Tally’s KIT Items Sales Management`,icon:vi,description:`Tally’s KIT Items Sales feature enables businesses to manage and sell bundled products or services efficiently. This functionality allows you to combine multiple items into a single sales unit or kit, simplifying the sales process, improving stock management, and providing a better experience for both the business and its customers.`,points:[`Bundling of Multiple Products`,`Simplified Billing and Invoicing`,`Automatic Stock Tracking`,`Comprehensive Sales Reporting`,`Customizable KIT Configuration`,`Discounts and Promotions`]},{id:`sales-activity-management`,tab:`Sales Activity Management`,title:`Optimize Sales Performance with Tally’s Sales Activity Management`,icon:xr,description:`Tally’s Sales Activity Management feature helps businesses track, analyze, and manage their sales activities efficiently. This functionality provides a comprehensive view of sales interactions, customer touchpoints, and performance metrics, empowering businesses to enhance sales productivity, drive growth, and improve customer relationships.`,points:[`Sales Tracking and Monitoring`,`Task Assignment and Collaboration`,`Lead and Opportunity Management`,`Customer Interaction History`,`Activy-Based Reporting`,`Sales Performance Analytics`]},{id:`quality-control`,tab:`Quality Control`,title:`Ensure Product Excellence with Tally’s Quality Control (QC)`,icon:Ii,description:`Tally’s Quality Control (QC) feature enables businesses to monitor and maintain the quality of their products throughout the manufacturing and procurement process. By incorporating quality checks at every stage, this functionality helps businesses reduce defects, improve product consistency, and meet customer expectations.`,points:[`Customizable Quality Parameters`,`Batch-wise Quality Control`,`Multiple Quality Checks`,`Quality Certificate Management`,`Defect Tracking and Reporting`,`Integration with Inventory Management`]}],cta:{badge:`FREE CONSULTATION`,title:`Need Mobile Access To Your Tally Business Data?`,description:`Connect with our experts to discover the best Tally mobile apps for analytics, collections, payroll, sales, attendance, and business automation.`,primaryBtn:`Get Started`,primaryLink:`/contact`,secondaryBtn:`Talk To Expert`,secondaryLink:`tel:+919849431943`}},{slug:`tally-addon`,hero:{badge:`Powerful Tally Add-Ons`,title:`Extend Tally Functionality With Smart`,highlight:` Business Add-Ons`,description:`Enhance accounting, compliance, billing, inventory, and workflow efficiency with advanced Tally add-ons customized for modern business operations.`,primaryBtn:`Talk To Expert`},subServices:[{id:`e-way-bill-management`,tab:`E-Way Bill Management`,title:`Simplify Compliance with Tally’s E-way Bill Management`,icon:Ei,description:`Tally’s E-way Bill feature allows businesses to generate, track, and manage e-way bills seamlessly, ensuring compliance with GST regulations. This functionality streamlines the process of transporting goods and ensures that businesses stay on top of the documentation required for interstate and intrastate shipments.`,points:[`Automatic E-way Bill Generation`,`Bulk E-way Bill Generation`,`Real-Time E-way Bill Tracking`,`E-way Bill Reports`,`GST Integration`,`Validations and Compliance Checks`]},{id:`digitally-signed-invoices`,tab:`Digitally Signed Invoices`,title:`Ensure Authenticity with Digitally Signed Invoices in Tally`,icon:Vr,description:`Tally’s Digitally Signed Invoice feature enables businesses to generate invoices that are digitally signed, ensuring authenticity, security, and legal compliance. This feature helps streamline invoice validation processes, enhance trust with customers and partners, and ensure that invoices meet regulatory requirements.`,points:[`Secure Digital Signature Integration`,`Enhanced Invoice Authenticity`,`Compliance with Legal Requirements`,`Efficient Invoice Management`,`Automatic Signature Generation`,`Audit-Ready Records`]},{id:`gst-reminder`,tab:`GST Reminder`,title:`Stay Compliant with Tally’s GST Reminder Feature`,icon:dr,description:`Tally’s GST Reminder feature helps businesses stay on top of their tax filing deadlines by sending timely reminders for GST returns and other important compliance dates. This functionality ensures that you never miss a filing deadline, reducing the risk of penalties and ensuring seamless tax compliance.`,points:[`Automated GST Filing Reminders`,`Reminder Notifications via Email/SMS`,`Customizable Reminder Settings`,`Integrated with GST Reports`,`Multi-Return Support`,`Dashboard Overview of Due Dates`]},{id:`transaction-authorization`,tab:`Transaction Authorization`,title:`Secure Your Business Operations with Tally’s Transaction Authorization`,icon:Ni,description:`Tally’s Transaction Authorization feature ensures that all financial transactions within your business are authorized by the relevant personnel before being recorded. This adds an extra layer of security and control, preventing unauthorized or erroneous transactions and ensuring accurate financial reporting.`,points:[`Role-Based Authorization`,`Real-Time Authorization Alerts`,`Multi-Level Authorization`,`Customizable Approval Workflow`,`Audit Trail of Authorizations`,`Integration with Financial Data`]},{id:`material-requirement-planning`,tab:`Material Requirement Planning`,title:`Optimize Inventory Management with Tally’s Material Requirement Planning`,icon:pr,description:`Tally’s Material Requirement Planning (MRP) feature enables businesses to forecast and manage their material needs, ensuring that the right materials are available at the right time for production. This functionality helps prevent overstocking or stockouts, reduces costs, and ensures smooth production processes by optimizing material flow.`,points:[`Automated Material Planning`,`Real-Time Inventory Monitoring`,`Forecasting and Demand Planning`,`Vendor and Supplier Integration`,`Multi-Item and Multi-Level BOM Support`,`Detailed MRP Reports`]}],cta:{badge:`SMART BUSINESS AUTOMATION`,title:`Upgrade Your Tally Experience With Powerful Add-Ons`,description:`Connect with our experts to discover custom Tally add-ons that improve productivity, compliance, automation, and business performance.`,primaryBtn:`Book Free Consultation`,primaryLink:`/contact`,secondaryBtn:`Contact Our Team`,secondaryLink:`tel:+919849431943`}}];function vy(){return(0,F.jsxs)(F.Fragment,{children:[(0,F.jsx)(`section`,{className:`\r
     relative\r
     lg:min-h-[50vh]\r
     overflow-hidden\r
@@ -2467,7 +2467,7 @@ md:text-[40px] font-bold leading-tight text-[#0B132B]`,children:[`Why Businesses
         `,children:`Talk To Experts`})})]})]})]})]})}var yy=()=>{let{slug:e}=ht(),t=_y.find(t=>t.slug===e),[n,r]=(0,w.useState)(t?.subServices?.[0]||null);if((0,w.useEffect)(()=>{t?.subServices?.length>0&&r(t.subServices[0])},[e]),!t)return(0,F.jsx)(`div`,{className:`min-h-screen flex items-center justify-center text-2xl font-bold`,children:`Service Not Found`});let i=n?.icon;return console.log(t.cta.secondaryLink),(0,F.jsxs)(F.Fragment,{children:[t.hero&&(0,F.jsxs)(`section`,{className:`relative overflow-hidden bg-white`,children:[(0,F.jsxs)(`div`,{className:`absolute inset-0 overflow-hidden`,children:[(0,F.jsx)(`div`,{className:`\r
       absolute top-[-200px] left-[-150px]\r
       w-[420px] h-[420px]\r
-      bg-[#1178D4]/10\r
+      bg-[#155A96]/10\r
       blur-[120px]\r
       rounded-full\r
     `}),(0,F.jsx)(`div`,{className:`\r
@@ -2480,11 +2480,8 @@ md:text-[40px] font-bold leading-tight text-[#0B132B]`,children:[`Why Businesses
     relative z-10\r
     max-w-7xl mx-auto\r
     px-4 sm:px-6\r
-    pt-20\r
-    sm:pt-24\r
-    lg:pt-24\r
-    pb-10\r
-    sm:pb-12\r
+    pt-16 sm:pt-20 lg:pt-20\r
+    pb-12 sm:pb-14\r
     text-center\r
   `,children:[(0,F.jsx)(`div`,{className:`\r
       inline-flex items-center\r
@@ -2492,9 +2489,9 @@ md:text-[40px] font-bold leading-tight text-[#0B132B]`,children:[`Why Businesses
       sm:px-5\r
       py-2\r
       rounded-full\r
-      border border-[#DCEBFF]\r
-      bg-[#F1F6FE]\r
-      text-[#7B61FF]\r
+      border border-[#D7E5EF]\r
+      bg-[#EEF4F8]\r
+      text-[#155A96]\r
       text-sm\r
       font-semibold\r
       tracking-[0.2em]\r
@@ -2509,7 +2506,7 @@ md:text-[40px] font-bold leading-tight text-[#0B132B]`,children:[`Why Businesses
       text-[#071426]\r
       max-w-5xl\r
       mx-auto\r
-    `,children:[t.hero.title,(0,F.jsx)(`span`,{className:`text-[#2563EB]`,children:t.hero.highlight})]}),(0,F.jsx)(`p`,{className:`\r
+    `,children:[t.hero.title,(0,F.jsx)(`span`,{className:`text-[#155A96]`,children:t.hero.highlight})]}),(0,F.jsx)(`p`,{className:`\r
       mt-6\r
       text-[15px]\r
       sm:text-[15px]\r
@@ -2518,7 +2515,13 @@ md:text-[40px] font-bold leading-tight text-[#0B132B]`,children:[`Why Businesses
       text-[#475569]\r
       max-w-3xl\r
       mx-auto\r
-    `,children:t.hero.description}),(0,F.jsx)(`div`,{className:`\r
+    `,children:t.hero.description}),(0,F.jsx)(`div`,{className:`mt-6 flex flex-wrap justify-center gap-2`,children:[`Implementation`,`Customization`,`Cloud Hosting`,`Training`,`Support`].map(e=>(0,F.jsx)(`div`,{className:`\r
+        px-4 py-2\r
+        text-[#155A96]\r
+        text-sm\r
+        font-medium\r
+        \r
+      `,children:e},e))}),(0,F.jsx)(`div`,{className:`\r
       mt-10\r
       flex flex-col sm:flex-row\r
       items-center justify-center\r
@@ -2530,25 +2533,25 @@ md:text-[40px] font-bold leading-tight text-[#0B132B]`,children:[`Why Businesses
         sm:px-8\r
         py-4\r
         rounded-2xl\r
-        bg-[#2563EB]\r
-        hover:bg-[#1D4ED8]\r
+        bg-[#155A96]\r
+        hover:bg-[#0F4D82]\r
         text-white\r
         font-semibold\r
         text-lg\r
         hover:scale-[1.03]\r
         transition-all duration-300\r
-      `,children:t.hero.primaryBtn})})})]})]}),t.subServices&&(0,F.jsx)(`section`,{className:`py-8 sm:py-10 md:py-12 px-4 sm:px-4 bg-white`,children:(0,F.jsxs)(`div`,{className:`max-w-7xl mx-auto`,children:[(0,F.jsxs)(`div`,{className:`text-center mb-14`,children:[(0,F.jsx)(`div`,{className:`\r
+      `,children:t.hero.primaryBtn})})})]})]}),t.subServices&&(0,F.jsx)(`section`,{className:`py-8 sm:py-10 md:py-12 px-4 sm:px-4 bg-white`,children:(0,F.jsxs)(`div`,{className:`max-w-7xl mx-auto`,children:[(0,F.jsxs)(`div`,{className:`text-center mb-8`,children:[(0,F.jsx)(`div`,{className:`\r
         inline-flex items-center\r
         px-5 py-2\r
         rounded-full\r
-        bg-[#F1F6FE]\r
-        border border-[#DCEBFF]\r
-        text-[#1178D4]\r
+        bg-[#EEF4F8]\r
+        border border-[#D7E5EF]\r
+        text-[#155A96]\r
         text-sm\r
         font-semibold\r
         tracking-[0.15em]\r
         uppercase\r
-        mb-6\r
+        mb-4\r
       `,children:`Explore Services`}),(0,F.jsx)(`h2`,{className:`\r
         text-[26px]\r
         sm:text-3xl\r
@@ -2594,7 +2597,7 @@ md:text-[40px] font-bold leading-tight text-[#0B132B]`,children:[`Why Businesses
                     transition-all duration-300
                     shrink-0
 
-                    ${t?`bg-[#2563EB] text-white border-transparent`:`bg-white border-[#E2E8F0] text-[#0F172A] hover:border-[#1178D4]/40 hover:bg-[#F8FBFF]`}
+                    ${t?`bg-[#155A96] text-white border-transparent`:`bg-white border-[#E2E8F0] text-[#0F172A] hover:border-[#155A96]/30 hover:bg-[#F8FBFD]`}
                   `,children:(0,F.jsxs)(`div`,{className:`\r
                     flex items-start justify-between\r
                     gap-4\r
@@ -2623,7 +2626,7 @@ md:text-[40px] font-bold leading-tight text-[#0B132B]`,children:[`Why Businesses
                 sm:min-h-[64px]\r
                 flex items-center justify-center\r
                 rounded-2xl\r
-                bg-gradient-to-br from-[#1178D4] to-[#6C63FF]\r
+                bg-[#155A96]\r
                 shadow-[0_10px_30px_rgba(17,120,212,0.20)]\r
                 shrink-0\r
               `,children:i&&(0,F.jsx)(i,{className:`w-8 h-8 text-white`})}),(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`p`,{className:`\r
@@ -2631,7 +2634,7 @@ md:text-[40px] font-bold leading-tight text-[#0B132B]`,children:[`Why Businesses
                 font-semibold\r
                 tracking-[0.2em]\r
                 uppercase\r
-                text-[#1178D4]\r
+                text-[#155A96]\r
                 mb-2\r
                 `,children:`Business Solution`}),(0,F.jsx)(`h3`,{className:`\r
                 text-[22px]\r
@@ -2656,12 +2659,12 @@ md:text-[40px] font-bold leading-tight text-[#0B132B]`,children:[`Why Businesses
               `,children:n.points.map((e,t)=>(0,F.jsxs)(`div`,{className:`flex items-start gap-4`,children:[(0,F.jsx)(`div`,{className:`\r
                       w-9 h-9\r
                       rounded-full\r
-                      bg-[#F1F6FE]\r
+                      bg-[#EEF4F8]\r
                       flex items-center justify-center\r
                       shrink-0\r
                     `,children:(0,F.jsx)(Cr,{className:`\r
                         w-4 h-4\r
-                        text-[#1178D4]\r
+                        text-[#155A96]\r
                       `})}),(0,F.jsx)(`span`,{className:`\r
                       text-[#334155]\r
                       text-[15px]\r
@@ -2672,8 +2675,8 @@ md:text-[40px] font-bold leading-tight text-[#0B132B]`,children:[`Why Businesses
               px-5 py-2\r
               rounded-full\r
               bg-[#F1F6FE]\r
-              border border-[#DCEBFF]\r
-              text-[#1178D4]\r
+              border border-[#D7E5EF]\r
+              text-[#155A96]\r
               text-sm\r
               font-semibold\r
               tracking-[0.15em]\r
@@ -2707,8 +2710,8 @@ md:text-[40px] font-bold leading-tight text-[#0B132B]`,children:[`Why Businesses
                 sm:px-8\r
                 py-4\r
                 rounded-2xl\r
-                bg-[#2563EB]\r
-                hover:bg-[#1D4ED8]\r
+                bg-[#155A96]\r
+                hover:bg-[#155A96]/95\r
                 text-white\r
                 font-semibold\r
                 text-lg\r
@@ -2721,15 +2724,15 @@ md:text-[40px] font-bold leading-tight text-[#0B132B]`,children:[`Why Businesses
                 sm:px-8\r
                 py-4\r
                 rounded-2xl\r
-                border border-[#CBD5E1]\r
+                border border-[#155A96]\r
                 bg-white\r
                 text-[#071426]\r
                 font-semibold\r
                 text-lg\r
-                hover:border-[#1178D4]\r
-                hover:text-[#1178D4]\r
+                hover:border-[#155A96]\r
+                hover:text-[#155A96]\r
                 transition-all duration-300\r
-              `,children:t.cta.secondaryBtn})})]})]})})]})},by=`/Balaji-Infotech/assets/basics-ChOuIBMf.png`,xy=`/Balaji-Infotech/assets/gst-CwR4GFuj.png`,Sy=`/Balaji-Infotech/assets/inventory-DQLd9vdY.png`,Cy=`/Balaji-Infotech/assets/payroll-lGy70-lh.jpg`,wy=`/Balaji-Infotech/assets/reports-BuKQqLAM.jpg`,Ty=`/Balaji-Infotech/assets/advanced-DodPshiB.jpg`;function Ey(){let e=pt(),t=[{step:`01`,slug:`basics-ledgers`,level:`Beginner`,title:`Basics & Ledgers`,description:`Learn company creation, ledgers, voucher entries, journals, and accounting fundamentals.`,time:`3–4 Hours`,image:by},{step:`02`,slug:`gst-taxation`,level:`Intermediate`,title:`GST & Taxation`,description:`Master GST configuration, invoices, returns, debit notes, and compliance workflows.`,time:`6–8 Hours`,image:xy},{step:`03`,slug:`inventory-stock`,level:`Intermediate`,title:`Inventory & Stock`,description:`Understand stock items, godowns, batching, reorder levels, and manufacturing basics.`,time:`4–6 Hours`,image:Sy},{step:`04`,slug:`payroll-management`,level:`Advanced`,title:`Payroll Management`,description:`Learn employee setup, salary structures, PF/ESI deductions, and payroll processing.`,time:`5–7 Hours`,image:Cy},{step:`05`,slug:`reports-mis`,level:`Advanced`,title:`Reports & MIS`,description:`Generate profit & loss reports, balance sheets, ratio analysis, and MIS dashboards.`,time:`4–5 Hours`,image:wy},{step:`06`,slug:`advanced-tallyprime`,level:`Expert`,title:`Advanced TallyPrime`,description:`Security controls, multi-company workflows, backup & restore, and advanced customization.`,time:`6–9 Hours`,image:Ty}],n=[{title:`Official Tally Resources`,description:`Explore official product documentation, learning materials, certifications, and support resources directly from Tally.`,points:[`Official Documentation`,`Learning & Certification`,`Support Knowledge Base`],icon:fr,iconBg:`bg-blue-50`,iconColor:`text-blue-600`,lineColor:`bg-blue-500`,shadowColor:`hover:shadow-[0_15px_40px_rgba(59,130,246,0.18)]`,buttonText:`Official Resources`,buttonClass:`bg-blue-50 text-blue-600 hover:bg-blue-100`,link:`https://tallysolutions.com`},{title:`Video Tutorials`,description:`Learn through step-by-step video tutorials covering accounting, GST, inventory management, payroll, and business workflows.`,points:[`Beginner Friendly`,`Practical Examples`,`Complete Playlists`],icon:kr,iconBg:`bg-red-50`,iconColor:`text-red-500`,lineColor:`bg-red-500`,shadowColor:`hover:shadow-[0_15px_40px_rgba(239,68,68,0.18)]`,buttonText:`Watch Tutorials`,buttonClass:`bg-red-50 text-red-500 hover:bg-red-100`,link:`https://www.youtube.com/results?search_query=tally+prime+tutorial`},{title:`Guides & Documentation`,description:`Access tutorials, knowledge articles, quick references, and detailed documentation to improve your understanding.`,points:[`Step-by-Step Guides`,`Reference Articles`,`Quick Learning Notes`],icon:Wr,iconBg:`bg-slate-100`,iconColor:`text-slate-700`,lineColor:`bg-slate-500`,shadowColor:`hover:shadow-[0_15px_40px_rgba(100,116,139,0.18)]`,buttonText:`View Guides`,buttonClass:`bg-slate-100 text-slate-700 hover:bg-slate-200`,link:`https://help.tallysolutions.com`},{title:`GST & Compliance`,description:`Stay updated with GST compliance, tax filing procedures, and government resources relevant to business accounting.`,points:[`GST Portal Access`,`Return Filing Help`,`Compliance Updates`],icon:ur,iconBg:`bg-green-50`,iconColor:`text-green-600`,lineColor:`bg-green-500`,shadowColor:`hover:shadow-[0_15px_40px_rgba(34,197,94,0.18)]`,buttonText:`GST Resources`,buttonClass:`bg-green-50 text-green-600 hover:bg-green-100`,link:`https://www.gst.gov.in`},{title:`Practice Materials`,description:`Download sample company data, exercises, worksheets, and practice files to build hands-on experience.`,points:[`Sample Data Files`,`Practice Exercises`,`Learning Worksheets`],icon:zr,iconBg:`bg-purple-50`,iconColor:`text-purple-600`,lineColor:`bg-purple-500`,shadowColor:`hover:shadow-[0_15px_40px_rgba(168,85,247,0.18)]`,buttonText:`Download Files`,buttonClass:`bg-purple-50 text-purple-600 hover:bg-purple-100`,link:`https://tallysolutions.com/download`}],r=[{slug:`company-setup`,level:`Level 01`,title:`Company Setup & Opening Balances`,description:`Create a new company, set financial year, create primary ledgers and enter opening balances. Generate a trial balance.`,difficulty:`Beginner`,duration:`30-45 mins`,icon:gr,color:`blue`},{slug:`gst-invoice-return`,level:`Level 02`,title:`GST Invoice & Return`,description:`Create GST compliant invoices, post sales & purchases, generate GSTR reports and reconcile data.`,difficulty:`Intermediate`,duration:`60-90 mins`,icon:Ti,color:`purple`},{slug:`inventory-stock`,level:`Level 03`,title:`Inventory Movement`,description:`Configure stock items, manage godowns, stock journals and inventory valuation reports.`,difficulty:`Intermediate`,duration:`45-60 mins`,icon:yi,color:`indigo`},{slug:`payroll-management`,level:`Level 04`,title:`Payroll Month End`,description:`Create employees, assign salary structures and generate payslips.`,difficulty:`Advanced`,duration:`60 mins`,icon:Ji,color:`orange`}],i={blue:{dot:`from-blue-500 to-cyan-500`,badge:`bg-blue-100 text-blue-700`,border:`border-blue-500`,activeBg:`from-blue-50 to-white`},purple:{dot:`from-purple-500 to-pink-500`,badge:`bg-purple-100 text-purple-700`,border:`border-purple-500`,activeBg:`from-purple-50 to-white`},indigo:{dot:`from-indigo-500 to-blue-500`,badge:`bg-indigo-100 text-indigo-700`,border:`border-indigo-500`,activeBg:`from-indigo-50 to-white`},orange:{dot:`from-orange-500 to-amber-500`,badge:`bg-orange-100 text-orange-700`,border:`border-orange-500`,activeBg:`from-orange-50 to-white`}},a={software:{title:`TallyPrime Software`,description:`Download the latest TallyPrime installer with official updates and business management features.`,button:`Download Tally`,link:`https://tallysolutions.com`},guides:{title:`Cheat Sheets & Guides`,description:`GST workflows, voucher shortcuts, accounting references and quick learning PDFs.`,button:`Download Guides`,link:`https://tallysolutions.com/download/`},sampleData:{title:`Sample Company Data`,description:`Practice datasets containing companies, ledgers, vouchers and GST transactions.`,button:`Get Sample Data`,link:`https://tallysolutions.com/`}},o=[{title:`Accounts Executive`,level:`Entry Level`,salary:`₹2L - ₹4L`,icon:hr,color:`blue`,description:`Manage ledgers, vouchers, bank reconciliation and daily accounting operations.`},{title:`GST Executive`,level:`Intermediate`,salary:`₹2.5L - ₹5L`,icon:Ti,color:`purple`,description:`Handle GST filing, compliance reporting, invoices and tax documentation.`},{title:`MIS Analyst`,level:`Intermediate`,salary:`₹3L - ₹6L`,icon:br,color:`emerald`,description:`Generate reports, business insights and data analysis for management.`},{title:`Payroll Executive`,level:`Advanced`,salary:`₹3L - ₹5.5L`,icon:Ji,color:`orange`,description:`Manage employee salaries, statutory deductions and payroll processing.`}],[s,c]=(0,w.useState)(0);return(0,F.jsx)(F.Fragment,{children:(0,F.jsxs)(`div`,{className:`overflow-hidden`,children:[(0,F.jsxs)(`section`,{className:` \r
+              `,children:t.cta.secondaryBtn})})]})]})})]})},by=`/Balaji-Infotech/assets/basics-ChOuIBMf.png`,xy=`/Balaji-Infotech/assets/gst-CwR4GFuj.png`,Sy=`/Balaji-Infotech/assets/inventory-DQLd9vdY.png`,Cy=`/Balaji-Infotech/assets/payroll-lGy70-lh.jpg`,wy=`/Balaji-Infotech/assets/reports-BuKQqLAM.jpg`,Ty=`/Balaji-Infotech/assets/advanced-DodPshiB.jpg`;function Ey(){let e=pt(),t=[{step:`01`,slug:`basics-ledgers`,level:`Beginner`,title:`Basics & Ledgers`,description:`Learn company creation, ledgers, voucher entries, journals, and accounting fundamentals.`,time:`3–4 Hours`,image:by},{step:`02`,slug:`gst-taxation`,level:`Intermediate`,title:`GST & Taxation`,description:`Master GST configuration, invoices, returns, debit notes, and compliance workflows.`,time:`6–8 Hours`,image:xy},{step:`03`,slug:`inventory-stock`,level:`Intermediate`,title:`Inventory & Stock`,description:`Understand stock items, godowns, batching, reorder levels, and manufacturing basics.`,time:`4–6 Hours`,image:Sy},{step:`04`,slug:`payroll-management`,level:`Advanced`,title:`Payroll Management`,description:`Learn employee setup, salary structures, PF/ESI deductions, and payroll processing.`,time:`5–7 Hours`,image:Cy},{step:`05`,slug:`reports-mis`,level:`Advanced`,title:`Reports & MIS`,description:`Generate profit & loss reports, balance sheets, ratio analysis, and MIS dashboards.`,time:`4–5 Hours`,image:wy},{step:`06`,slug:`advanced-tallyprime`,level:`Expert`,title:`Advanced TallyPrime`,description:`Security controls, multi-company workflows, backup & restore, and advanced customization.`,time:`6–9 Hours`,image:Ty}],n=[{title:`Official Tally Resources`,description:`Explore official product documentation, learning materials, certifications, and support resources directly from Tally.`,points:[`Official Documentation`,`Learning & Certification`,`Support Knowledge Base`],icon:fr,iconBg:`bg-blue-50`,iconColor:`text-blue-600`,lineColor:`bg-blue-500`,shadowColor:`hover:shadow-[0_15px_40px_rgba(59,130,246,0.18)]`,buttonText:`Official Resources`,buttonClass:`bg-blue-50 text-blue-600 hover:bg-blue-100`,link:`https://tallysolutions.com`},{title:`Video Tutorials`,description:`Learn through step-by-step video tutorials covering accounting, GST, inventory management, payroll, and business workflows.`,points:[`Beginner Friendly`,`Practical Examples`,`Complete Playlists`],icon:kr,iconBg:`bg-red-50`,iconColor:`text-red-500`,lineColor:`bg-red-500`,shadowColor:`hover:shadow-[0_15px_40px_rgba(239,68,68,0.18)]`,buttonText:`Watch Tutorials`,buttonClass:`bg-red-50 text-red-500 hover:bg-red-100`,link:`https://www.youtube.com/results?search_query=tally+prime+tutorial`},{title:`Guides & Documentation`,description:`Access tutorials, knowledge articles, quick references, and detailed documentation to improve your understanding.`,points:[`Step-by-Step Guides`,`Reference Articles`,`Quick Learning Notes`],icon:Wr,iconBg:`bg-slate-100`,iconColor:`text-slate-700`,lineColor:`bg-slate-500`,shadowColor:`hover:shadow-[0_15px_40px_rgba(100,116,139,0.18)]`,buttonText:`View Guides`,buttonClass:`bg-slate-100 text-slate-700 hover:bg-slate-200`,link:`https://help.tallysolutions.com`},{title:`GST & Compliance`,description:`Stay updated with GST compliance, tax filing procedures, and government resources relevant to business accounting.`,points:[`GST Portal Access`,`Return Filing Help`,`Compliance Updates`],icon:ur,iconBg:`bg-green-50`,iconColor:`text-green-600`,lineColor:`bg-green-500`,shadowColor:`hover:shadow-[0_15px_40px_rgba(34,197,94,0.18)]`,buttonText:`GST Resources`,buttonClass:`bg-green-50 text-green-600 hover:bg-green-100`,link:`https://www.gst.gov.in`},{title:`Practice Materials`,description:`Download sample company data, exercises, worksheets, and practice files to build hands-on experience.`,points:[`Sample Data Files`,`Practice Exercises`,`Learning Worksheets`],icon:zr,iconBg:`bg-purple-50`,iconColor:`text-purple-600`,lineColor:`bg-purple-500`,shadowColor:`hover:shadow-[0_15px_40px_rgba(168,85,247,0.18)]`,buttonText:`Download Files`,buttonClass:`bg-purple-50 text-purple-600 hover:bg-purple-100`,link:`https://tallysolutions.com/download`}],r=[{slug:`company-setup`,level:`Level 01`,title:`Company Setup & Opening Balances`,description:`Create a new company, set financial year, create primary ledgers and enter opening balances. Generate a trial balance.`,difficulty:`Beginner`,duration:`30-45 mins`,icon:gr,color:`blue`},{slug:`gst-invoice-return`,level:`Level 02`,title:`GST Invoice & Return`,description:`Create GST compliant invoices, post sales & purchases, generate GSTR reports and reconcile data.`,difficulty:`Intermediate`,duration:`60-90 mins`,icon:Ti,color:`purple`},{slug:`inventory-stock`,level:`Level 03`,title:`Inventory Movement`,description:`Configure stock items, manage godowns, stock journals and inventory valuation reports.`,difficulty:`Intermediate`,duration:`45-60 mins`,icon:yi,color:`indigo`},{slug:`payroll-management`,level:`Level 04`,title:`Payroll Month End`,description:`Create employees, assign salary structures and generate payslips.`,difficulty:`Advanced`,duration:`60 mins`,icon:Ji,color:`orange`}],i={default:{dot:`from-[#155A96] to-[#1D6FB8]`,badge:`bg-[#EAF3F8] text-[#155A96]`,border:`border-[#155A96]`,activeBg:`from-[#F4F8FB] to-white`}},a={software:{title:`TallyPrime Software`,description:`Download the latest TallyPrime installer with official updates and business management features.`,button:`Download Tally`,link:`https://tallysolutions.com`},guides:{title:`Cheat Sheets & Guides`,description:`GST workflows, voucher shortcuts, accounting references and quick learning PDFs.`,button:`Download Guides`,link:`https://tallysolutions.com/download/`},sampleData:{title:`Sample Company Data`,description:`Practice datasets containing companies, ledgers, vouchers and GST transactions.`,button:`Get Sample Data`,link:`https://tallysolutions.com/`}},o=[{title:`Accounts Executive`,level:`Entry Level`,salary:`₹2L - ₹4L`,icon:hr,color:`blue`,description:`Manage ledgers, vouchers, bank reconciliation and daily accounting operations.`},{title:`GST Executive`,level:`Intermediate`,salary:`₹2.5L - ₹5L`,icon:Ti,color:`purple`,description:`Handle GST filing, compliance reporting, invoices and tax documentation.`},{title:`MIS Analyst`,level:`Intermediate`,salary:`₹3L - ₹6L`,icon:br,color:`emerald`,description:`Generate reports, business insights and data analysis for management.`},{title:`Payroll Executive`,level:`Advanced`,salary:`₹3L - ₹5.5L`,icon:Ji,color:`orange`,description:`Manage employee salaries, statutory deductions and payroll processing.`}],[s,c]=(0,w.useState)(0);return(0,F.jsx)(F.Fragment,{children:(0,F.jsxs)(`div`,{className:`overflow-hidden`,children:[(0,F.jsxs)(`section`,{className:` \r
 relative\r
 overflow-hidden\r
 scrollbar-hide\r
@@ -2744,7 +2747,7 @@ pb-10 sm:pb-12 md:pb-14\r
     -translate-x-1/2\r
     w-[700px]\r
     h-[700px]\r
-    bg-[#2F80FF]/5\r
+    bg-[#155A96]/5\r
     blur-[150px]\r
     rounded-full\r
   `}),(0,F.jsx)(`div`,{className:`\r
@@ -2758,13 +2761,13 @@ pb-10 sm:pb-12 md:pb-14\r
     `,children:[(0,F.jsx)($.div,{initial:{opacity:0,y:40},whileInView:{opacity:1,y:0},transition:{duration:.8},viewport:{once:!0},children:(0,F.jsxs)(`div`,{className:`min-w-0`,children:[(0,F.jsxs)(`div`,{className:`\r
           flex flex-wrap items-center justify-center sm:justify-start gap-2\r
           px-5 py-2\r
-          text-[#2563EB]\r
+          text-[#155A96]\r
           text-sm font-semibold\r
           mb-8\r
-        `,children:[(0,F.jsx)(`span`,{children:`Certified`}),(0,F.jsx)(`span`,{children:`•`}),(0,F.jsx)(`span`,{children:`Hands-on`}),(0,F.jsx)(`span`,{children:`•`}),(0,F.jsx)(`span`,{children:`Job-ready`})]}),(0,F.jsx)(`h1`,{className:`\r
-            text-[30px]\r
-sm:text-[38px]\r
-lg:text-[48px]\r
+        `,children:[(0,F.jsx)(`span`,{children:`Certified`}),(0,F.jsx)(`span`,{children:`•`}),(0,F.jsx)(`span`,{children:`Hands-on`}),(0,F.jsx)(`span`,{children:`•`}),(0,F.jsx)(`span`,{children:`Job-ready`})]}),(0,F.jsxs)(`h1`,{className:`\r
+            text-3xl\r
+            sm:text-4xl\r
+            lg:text-[48px]\r
             font-black\r
             font-bold\r
             leading-[1.1]\r
@@ -2773,7 +2776,7 @@ lg:text-[48px]\r
             \r
             max-w-full\r
 \r
-        `,children:`Complete TallyPrime LMS- From Basics To Payroll & GST`}),(0,F.jsx)(`p`,{className:`\r
+        `,children:[`Complete TallyPrime LMS-`,(0,F.jsx)(`span`,{className:`text-[#155A96]`,children:`From Basics To Payroll & GST`})]}),(0,F.jsx)(`p`,{className:`\r
           mt-5\r
           text-[15px]\r
           sm:text-[16px]\r
@@ -2796,16 +2799,15 @@ lg:text-[48px]\r
             py-3\r
             text-base\r
             rounded-2xl\r
-            bg-gradient-to-r\r
-            from-[#2563EB]\r
-            to-[#3B82F6]\r
+            bg-[#155A96]\r
+            hover:bg-[#0F4D82]\r
             text-white\r
             font-semibold\r
-            shadow-[0_20px_50px_rgba(37,99,235,0.35)]\r
+            shadow-[0_20px_50px_rgba(21,90,150,0.20)]\r
             hover:scale-[1.03]\r
             transition-all duration-300\r
             flex items-center gap-3\r
-          `,children:[(0,F.jsx)(Si,{size:20,fill:`white`}),`Start Learning`]}),(0,F.jsxs)(`button`,{className:`\r
+          `,children:[(0,F.jsx)(Si,{size:20,fill:`white`}),`Start Learning`]}),(0,F.jsx)(`a`,{href:`#resourses`,children:(0,F.jsxs)(`button`,{className:`\r
           w-full\r
           sm:w-auto\r
           justify-center\r
@@ -2813,7 +2815,7 @@ lg:text-[48px]\r
           py-3\r
           text-base\r
           rounded-2xl\r
-          border border-white/15\r
+          border border-[#155A96]/15\r
           bg-white/10\r
           backdrop-blur-xl\r
           text-black\r
@@ -2821,7 +2823,7 @@ lg:text-[48px]\r
           hover:bg-white/15\r
           transition-all duration-300\r
           flex items-center gap-3\r
-        `,children:[(0,F.jsx)(si,{size:20}),`Free Resources`]})]})]})}),(0,F.jsx)($.div,{className:`\r
+        `,children:[(0,F.jsx)(si,{size:20}),`Free Resources`]})})]})]})}),(0,F.jsx)($.div,{className:`\r
       relative\r
       flex justify-center lg:justify-end\r
       order-1 lg:order-2`,initial:{opacity:0,x:100},whileInView:{opacity:1,x:0},transition:{duration:1,ease:`easeOut`,delay:`0.2`},viewport:{once:!0},children:(0,F.jsx)(`div`,{className:`relative mt-4 lg:mt-0`,children:(0,F.jsxs)(`div`,{className:`\r
@@ -2833,11 +2835,11 @@ lg:text-[48px]\r
     w-full\r
     max-w-full\r
     sm:max-w-[500px]\r
-  `,children:[(0,F.jsxs)(`div`,{className:`flex items-center justify-between mb-5`,children:[(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`p`,{className:`text-xs uppercase tracking-wider text-[#2563EB] font-semibold`,children:`Course Snapshot`}),(0,F.jsx)(`h3`,{className:`mt-2 text-2xl font-bold text-[#071426]`,children:`TallyPrime LMS`})]}),(0,F.jsx)(`div`,{className:`\r
+  `,children:[(0,F.jsxs)(`div`,{className:`flex items-center justify-between mb-5`,children:[(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`p`,{className:`text-xs uppercase tracking-wider text-[#155A96] font-semibold`,children:`Course Snapshot`}),(0,F.jsx)(`h3`,{className:`mt-2 text-2xl font-bold text-[#071426]`,children:`TallyPrime LMS`})]}),(0,F.jsx)(`div`,{className:`\r
         px-3 py-2\r
         rounded-xl\r
-        bg-[#EFF6FF]\r
-        text-[#2563EB]\r
+        bg-[#EEF4F8]\r
+        text-[#155A96]\r
         text-sm\r
         font-medium\r
       `,children:`Beginner → Advanced`})]}),(0,F.jsx)(`div`,{className:`flex flex-wrap gap-2 mb-6`,children:[`Accounting`,`GST`,`Inventory`,`Payroll`,`Banking`,`Reports`].map(e=>(0,F.jsx)(`span`,{className:`\r
@@ -2847,27 +2849,28 @@ lg:text-[48px]\r
           border border-slate-200\r
           text-sm\r
           text-slate-700\r
-        `,children:e},e))}),(0,F.jsxs)(`div`,{className:`grid grid-cols-3 gap-3 mb-6`,children:[(0,F.jsxs)(`div`,{className:`text-center p-4 rounded-2xl bg-[#F8FAFC]`,children:[(0,F.jsx)(`h4`,{className:`text-2xl font-bold text-[#071426]`,children:`40+`}),(0,F.jsx)(`p`,{className:`text-xs text-slate-500`,children:`Modules`})]}),(0,F.jsxs)(`div`,{className:`text-center p-4 rounded-2xl bg-[#F8FAFC]`,children:[(0,F.jsx)(`h4`,{className:`text-2xl font-bold text-[#071426]`,children:`120+`}),(0,F.jsx)(`p`,{className:`text-xs text-slate-500`,children:`Videos`})]}),(0,F.jsxs)(`div`,{className:`text-center p-4 rounded-2xl bg-[#F8FAFC]`,children:[(0,F.jsx)(`h4`,{className:`text-2xl font-bold text-[#071426]`,children:`25+`}),(0,F.jsx)(`p`,{className:`text-xs text-slate-500`,children:`Assignments`})]})]}),(0,F.jsxs)(`div`,{className:`flex flex-wrap gap-3`,children:[(0,F.jsx)(`button`,{className:`\r
+        `,children:e},e))}),(0,F.jsxs)(`div`,{className:`grid grid-cols-3 gap-3 mb-6`,children:[(0,F.jsxs)(`div`,{className:`text-center p-4 rounded-2xl bg-[#F8FAFC]`,children:[(0,F.jsx)(`h4`,{className:`text-2xl font-bold text-[#071426]`,children:`40+`}),(0,F.jsx)(`p`,{className:`text-xs text-[#64748B]`,children:`Modules`})]}),(0,F.jsxs)(`div`,{className:`text-center p-4 rounded-2xl bg-[#F8FAFC]`,children:[(0,F.jsx)(`h4`,{className:`text-2xl font-bold text-[#071426]`,children:`120+`}),(0,F.jsx)(`p`,{className:`text-xs text-[#64748B]`,children:`Videos`})]}),(0,F.jsxs)(`div`,{className:`text-center p-4 rounded-2xl bg-[#F8FAFC]`,children:[(0,F.jsx)(`h4`,{className:`text-2xl font-bold text-[#071426]`,children:`25+`}),(0,F.jsx)(`p`,{className:`text-xs text-[#64748B]`,children:`Assignments`})]})]}),(0,F.jsxs)(`div`,{className:`flex flex-wrap gap-3`,children:[(0,F.jsx)(`button`,{onClick:()=>window.open(`https://tallysolutions.com/`,`_blank`),className:`\r
         px-5 py-3\r
         rounded-xl\r
-        bg-[#2563EB]\r
+        bg-[#155A96]\r
+        hover:bg-[#0F4D82]\r
         text-white\r
         font-medium\r
-      `,children:`Tally Official`}),(0,F.jsx)(`button`,{className:`\r
+      `,children:`Tally Official`}),(0,F.jsx)(`button`,{onClick:()=>window.open(`https://www.youtube.com/@balajiinfotechguntur7060`,`_blank`),className:`\r
         px-5 py-3\r
         rounded-xl\r
         border border-slate-200\r
         text-[#071426]\r
         font-medium\r
-      `,children:`YouTube Tutorials`})]})]})})})]})})]}),(0,F.jsxs)(`section`,{className:`relative py-10 sm:py-12 md:py-16 px-4 sm:px-6 bg-white overflow-hidden`,children:[(0,F.jsx)(`div`,{className:`absolute top-0 left-1/2 -translate-x-1/2 w-[350px] h-[350px]\r
+      `,children:`YouTube Tutorials`})]})]})})})]})})]}),(0,F.jsxs)(`section`,{className:`relative py-10 sm:py-12 md:py-12 px-4 sm:px-6 bg-white overflow-hidden`,children:[(0,F.jsx)(`div`,{className:`absolute top-0 left-1/2 -translate-x-1/2 w-[350px] h-[350px]\r
 sm:w-[500px] sm:h-[500px]\r
-lg:w-[700px] lg:h-[700px] bg-[#2F80FF]/5 blur-[150px] rounded-full`}),(0,F.jsx)(`div`,{className:`max-w-7xl mx-auto relative z-10`,children:(0,F.jsxs)(`div`,{className:`grid lg:grid-cols-2 gap-8 lg:gap-12 items-center`,children:[(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`span`,{className:`\r
+lg:w-[700px] lg:h-[700px] bg-[#155A96]/5 blur-[150px] rounded-full`}),(0,F.jsx)(`div`,{className:`max-w-7xl mx-auto relative z-10`,children:(0,F.jsxs)(`div`,{className:`grid lg:grid-cols-2 gap-8 lg:gap-12 items-center`,children:[(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`span`,{className:`\r
         inline-flex \r
         items-center\r
         px-3 py-1.5\r
         rounded-full\r
         bg-[#EEF4FF]\r
-        text-[#2F80FF]\r
+        text-[#155A96]\r
         font-medium\r
         text-sm`,children:`About TallyPrime`}),(0,F.jsxs)(`h2`,{className:`\r
         mt-6\r
@@ -2876,7 +2879,7 @@ sm:text-3xl\r
 md:text-4xl\r
         font-bold\r
         text-[#071426]\r
-        leading-tight`,children:[`Why Learn`,(0,F.jsxs)(`span`,{className:`bg-gradient-to-r from-[#2F80FF] to-[#7B61FF] bg-clip-text text-transparent`,children:[` `,`TallyPrime?`]})]}),(0,F.jsx)(`p`,{className:`\r
+        leading-tight`,children:[`Why Learn`,(0,F.jsxs)(`span`,{className:`text-[#155A96]`,children:[` `,`TallyPrime?`]})]}),(0,F.jsx)(`p`,{className:`\r
         mt-4\r
 text-[15px]\r
         text-slate-600\r
@@ -2892,17 +2895,17 @@ text-[15px]\r
             mb-4`,children:`Who can Learn?`}),(0,F.jsx)(`p`,{className:`\r
           text-slate-600\r
           leading-relaxed\r
-          mb-8`,children:`Our training programs are designed for beginners as well as professionals looking to strengthen their accounting and business management skills.`}),(0,F.jsxs)(`div`,{className:`flex flex-wrap gap-3 mb-6`,children:[(0,F.jsx)(`span`,{className:`px-3 py-1.5 text-sm rounded-full bg-[#F8FAFC] border border-slate-200`,children:`Students`}),(0,F.jsx)(`span`,{className:`px-3 py-1.5 text-sm rounded-full bg-[#F8FAFC] border border-slate-200`,children:`Accountants`}),(0,F.jsx)(`span`,{className:`px-3 py-1.5 text-sm rounded-full bg-[#F8FAFC] border border-slate-200`,children:`Business Owners`}),(0,F.jsx)(`span`,{className:`px-3 py-1.5 text-sm rounded-full bg-[#F8FAFC] border border-slate-200`,children:`Finance Professionals`})]}),(0,F.jsxs)(`div`,{className:`grid grid-cols-1 sm:grid-cols-3 gap-5`,children:[(0,F.jsxs)(`div`,{className:`text-center`,children:[(0,F.jsx)(ur,{className:`mx-auto mb-3 text-[#2F80FF]`}),(0,F.jsx)(`p`,{className:`font-medium text-sm`,children:`No Prior Experience Needed`})]}),(0,F.jsxs)(`div`,{className:`text-center`,children:[(0,F.jsx)(mr,{className:`mx-auto mb-3 text-[#2F80FF]`}),(0,F.jsx)(`p`,{className:`font-medium text-sm`,children:`Practical Exercises`})]}),(0,F.jsxs)(`div`,{className:`text-center`,children:[(0,F.jsx)(gr,{className:`mx-auto mb-3 text-[#2F80FF]`}),(0,F.jsx)(`p`,{className:`font-medium text-sm`,children:`Industry-Relevant Training`})]})]})]})})]})})]}),(0,F.jsx)(`section`,{className:`relative py-10 sm:py-12 md:py-14 overflow-hidden bg-[#F8FAFC]`,children:(0,F.jsxs)(`div`,{className:`relative max-w-7xl mx-auto px-4 sm:px-6`,children:[(0,F.jsxs)(`div`,{className:`text-center max-w-3xl mx-auto mb-12`,children:[(0,F.jsxs)(`div`,{className:`\r
+          mb-8`,children:`Our training programs are designed for beginners as well as professionals looking to strengthen their accounting and business management skills.`}),(0,F.jsxs)(`div`,{className:`flex flex-wrap gap-3 mb-6`,children:[(0,F.jsx)(`span`,{className:`px-3 py-1.5 text-sm rounded-full bg-[#F8FAFC] border border-slate-200`,children:`Students`}),(0,F.jsx)(`span`,{className:`px-3 py-1.5 text-sm rounded-full bg-[#F8FAFC] border border-slate-200`,children:`Accountants`}),(0,F.jsx)(`span`,{className:`px-3 py-1.5 text-sm rounded-full bg-[#F8FAFC] border border-slate-200`,children:`Business Owners`}),(0,F.jsx)(`span`,{className:`px-3 py-1.5 text-sm rounded-full bg-[#F8FAFC] border border-slate-200`,children:`Finance Professionals`})]}),(0,F.jsxs)(`div`,{className:`grid grid-cols-1 sm:grid-cols-3 gap-5`,children:[(0,F.jsxs)(`div`,{className:`text-center`,children:[(0,F.jsx)(ur,{className:`mx-auto mb-3 text-[#155A96]`}),(0,F.jsx)(`p`,{className:`font-medium text-sm`,children:`No Prior Experience Needed`})]}),(0,F.jsxs)(`div`,{className:`text-center`,children:[(0,F.jsx)(mr,{className:`mx-auto mb-3 text-[#155A96]`}),(0,F.jsx)(`p`,{className:`font-medium text-sm`,children:`Practical Exercises`})]}),(0,F.jsxs)(`div`,{className:`text-center`,children:[(0,F.jsx)(gr,{className:`mx-auto mb-3 text-[#155A96]`}),(0,F.jsx)(`p`,{className:`font-medium text-sm`,children:`Industry-Relevant Training`})]})]})]})})]})})]}),(0,F.jsx)(`section`,{className:`relative py-10 sm:py-12 md:py-12 overflow-hidden bg-[#FAFBFC]`,children:(0,F.jsxs)(`div`,{className:`relative max-w-7xl mx-auto px-4 sm:px-6`,children:[(0,F.jsxs)(`div`,{className:`text-center max-w-3xl mx-auto mb-6`,children:[(0,F.jsxs)(`div`,{className:`\r
         inline-flex items-center gap-2\r
-        px-5 py-2\r
+        px-5 py-1\r
         rounded-full\r
-        border border-[#CBD5E1]\r
-        bg-white\r
-        text-[#2563EB]\r
+        border border-[#D7E5EF]\r
+        bg-[#EEF4F8]\r
+        text-[#155A96]\r
         text-sm font-semibold\r
         shadow-sm\r
       `,children:[(0,F.jsx)(P,{className:`w-4 h-4`}),`Interactive Learning Journey`]}),(0,F.jsxs)(`h2`,{className:`\r
-        mt-5\r
+        mt-4\r
         text-2xl\r
         sm:text-3xl\r
         md:text-4xl\r
@@ -2910,7 +2913,7 @@ text-[15px]\r
         tracking-tight\r
         text-[#0F172A]\r
         leading-tight\r
-      `,children:[`Master TallyPrime`,` `,(0,F.jsx)(`span`,{className:`bg-gradient-to-r from-[#2563EB] to-[#2563EB] bg-clip-text text-transparent`,children:`Step By Step`})]}),(0,F.jsx)(`p`,{className:`\r
+      `,children:[`Master TallyPrime`,` `,(0,F.jsx)(`span`,{className:`text-[#155A96]`,children:`Step By Step`})]}),(0,F.jsx)(`p`,{className:`\r
         mt-4\r
 text-[14px]\r
 sm:text-[15px]\r
@@ -2919,18 +2922,18 @@ leading-8\r
             group\r
             relative\r
             rounded-2xl\r
-            border border-[#E2E8F0]\r
+            border border-[#D7E5EF]\r
             bg-white\r
             overflow-hidden\r
             shadow-[0_10px_40px_rgba(15,23,42,0.05)]\r
             hover:-translate-y-2\r
-            hover:shadow-[0_25px_70px_rgba(37,99,235,0.15)]\r
+            hover:shadow-[0_25px_70px_rgba(21,90,150,0.10)]\r
             transition-all duration-500\r
           `,children:[(0,F.jsx)(`div`,{className:`\r
             absolute top-5 right-5\r
             text-3xl\r
             font-black\r
-            text-[#E2E8F0]\r
+            text-[#D7E5EF]\r
             select-none\r
           `,children:e.step}),(0,F.jsxs)(`div`,{className:`relative h-[150px] sm:h-[170px] overflow-hidden`,children:[(0,F.jsx)(`img`,{src:e.image,alt:e.title,className:`\r
     w-full\r
@@ -2972,16 +2975,16 @@ leading-8\r
                 flex items-center gap-2\r
                 px-3 py-1.5\r
                 rounded-full\r
-                bg-[#EFF6FF]\r
-                text-[#2563EB]\r
+                bg-[#EEF4F8]\r
+                text-[#155A96]\r
                 text-sm\r
                 font-semibold\r
               `,children:[(0,F.jsx)(Nr,{className:`w-4 h-4`}),e.time]}),(0,F.jsxs)(`div`,{className:`\r
                 flex items-center gap-2\r
                 px-4 py-2\r
                 rounded-full\r
-                bg-[#F5F3FF]\r
-                text-[#7C3AED]\r
+                bg-[#EEF4F8]\r
+                text-[#155A96]\r
                 text-xs\r
                 font-semibold\r
               `,children:[(0,F.jsx)(Kr,{className:`w-4 h-4`}),`Hands-on Labs`]})]}),(0,F.jsxs)(Mn,{to:`/courses/${e.slug}`,className:`\r
@@ -2989,66 +2992,99 @@ leading-8\r
                 inline-flex\r
                 items-center\r
                 gap-2\r
-                text-[#2563EB]\r
+                text-[#155A96]\r
                 font-bold\r
                 group-hover:gap-4\r
                 transition-all duration-300\r
-              `,children:[`Start Module`,(0,F.jsx)(cr,{className:`w-5 h-5`})]})]})]},t))})]})}),(0,F.jsxs)(`section`,{className:`relative py-10 md:py-14 px-4 sm:px-6 bg-[#F8FAFC] overflow-hidden`,children:[(0,F.jsx)(`div`,{className:`absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-[#2F80FF]/5 blur-[150px] rounded-full`}),(0,F.jsxs)(`div`,{className:`max-w-7xl mx-auto relative z-10`,children:[(0,F.jsxs)(`div`,{className:`text-center max-w-3xl mx-auto mb-10`,children:[(0,F.jsx)(`span`,{className:`\r
+              `,children:[`Start Module`,(0,F.jsx)(cr,{className:`w-5 h-5`})]})]})]},t))})]})}),(0,F.jsxs)(`section`,{id:`resourses`,className:`relative py-10 md:py-12 px-4 sm:px-6 bg-[#F8FAFC] overflow-hidden`,children:[(0,F.jsx)(`div`,{className:`absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-[#2F80FF]/5 blur-[150px] rounded-full`}),(0,F.jsxs)(`div`,{className:`max-w-7xl mx-auto relative z-10`,children:[(0,F.jsxs)(`div`,{className:`text-center max-w-3xl mx-auto mb-6`,children:[(0,F.jsx)(`span`,{className:`\r
           inline-flex\r
           items-center\r
           px-4 py-2\r
           rounded-full\r
-          bg-[#EEF4FF]\r
-          text-[#2F80FF]\r
+          border border-[#D7E5EF]\r
+          bg-[#EEF4F8]\r
+          text-[#155A96]\r
           font-medium\r
           text-sm\r
         `,children:`Learning Resources`}),(0,F.jsx)(`h2`,{className:`\r
-          mt-6\r
+          mt-4\r
           text-2xl\r
           sm:text-3xl\r
           md:text-4xl\r
           font-bold\r
           text-[#071426]\r
         `,children:`Trusted Learning Resources`}),(0,F.jsx)(`p`,{className:`\r
-          mt-6\r
+          mt-4\r
           text-slate-600\r
           text-base\r
           sm:text-lg\r
           leading-relaxed\r
-        `,children:`Access trusted tutorials, documentation, government resources, and practice materials to strengthen your TallyPrime knowledge.`})]}),(0,F.jsx)(`div`,{className:`max-w-5xl mx-auto space-y-4`,children:n.map((e,t)=>(0,F.jsxs)(`a`,{href:e.link,target:`_blank`,rel:`noopener noreferrer`,className:`\r
-        flex\r
-        items-center\r
-        justify-between\r
-        gap-6\r
-        p-5\r
-        rounded-2xl\r
-        border border-slate-200\r
-        bg-white\r
-      `,children:[(0,F.jsxs)(`div`,{className:`flex items-start gap-4`,children:[(0,F.jsx)(`div`,{className:`\r
-            w-12 h-12\r
-            rounded-xl\r
-            bg-[#EFF6FF]\r
-            flex items-center justify-center\r
-            shrink-0\r
-          `,children:(0,F.jsx)(e.icon,{className:`w-5 h-5 text-[#2563EB]`})}),(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`h3`,{className:`\r
-              text-lg\r
-              font-semibold\r
-              text-[#071426]\r
-              mb-1\r
-            `,children:e.title}),(0,F.jsx)(`p`,{className:`\r
-              text-sm\r
-              text-slate-600\r
-            `,children:e.description})]})]}),(0,F.jsx)(cr,{className:`\r
-          w-5 h-5\r
-          text-[#2563EB]\r
-          shrink-0\r
-        `})]},t))})]})]}),(0,F.jsx)(`section`,{id:`practice-cards`,className:`py-16 bg-white`,children:(0,F.jsxs)(`div`,{className:`max-w-6xl mx-auto px-6`,children:[(0,F.jsxs)(`div`,{className:`text-center mb-12`,children:[(0,F.jsx)(`span`,{className:`\r
+        `,children:`Access trusted tutorials, documentation, government resources, and practice materials to strengthen your TallyPrime knowledge.`})]}),(0,F.jsx)(`div`,{className:`\r
+    max-w-6xl\r
+    mx-auto\r
+    grid\r
+    grid-cols-1\r
+    md:grid-cols-3\r
+    gap-5\r
+  `,children:n.map((e,t)=>(0,F.jsxs)(`a`,{href:e.link,target:`_blank`,rel:`noopener noreferrer`,className:`
+        group
+        relative
+        overflow-hidden
+        rounded-[28px]
+        border border-[#D7E5EF]
+        bg-white
+        p-5 sm:p-6
+        transition-all duration-500
+        hover:-translate-y-2
+        hover:shadow-[0_20px_60px_rgba(21,90,150,0.08)]
+
+        ${t===0?`md:col-span-2 md:row-span-1`:``}
+      `,children:[(0,F.jsx)(`div`,{className:`\r
+          w-14 h-14\r
+          rounded-2xl\r
+          bg-[#EEF4F8]\r
+          flex items-center justify-center\r
+          mb-4\r
+        `,children:(0,F.jsx)(e.icon,{className:`\r
+            w-7 h-7\r
+            text-[#155A96]\r
+          `})}),(0,F.jsx)(`h3`,{className:`\r
+          text-[22px]\r
+          sm:text-[24px]\r
+          font-bold\r
+          text-[#071426]\r
+          mb-4\r
+        `,children:e.title}),(0,F.jsx)(`p`,{className:`\r
+          text-[#64748B]\r
+          leading-7\r
+          text-[15px]\r
+          sm:text-base\r
+          mb-6\r
+        `,children:e.description}),(0,F.jsxs)(`div`,{className:`\r
+          flex items-center\r
+          gap-2\r
+          text-[#155A96]\r
+          font-semibold\r
+          group-hover:gap-4\r
+          transition-all duration-300\r
+        `,children:[`Explore Resource`,(0,F.jsx)(cr,{className:`\r
+            w-5 h-5\r
+          `})]}),(0,F.jsx)(`div`,{className:`\r
+          absolute\r
+          bottom-0\r
+          left-0\r
+          h-[4px]\r
+          w-0\r
+          bg-[#155A96]\r
+          transition-all duration-500\r
+          group-hover:w-full\r
+        `})]},t))})]})]}),(0,F.jsx)(`section`,{id:`practice-cards`,className:`py-10 bg-white`,children:(0,F.jsxs)(`div`,{className:`max-w-6xl mx-auto px-6`,children:[(0,F.jsxs)(`div`,{className:`text-center mb-12`,children:[(0,F.jsx)(`span`,{className:`\r
           inline-flex\r
           items-center\r
           px-4 py-2\r
           rounded-full\r
-          bg-[#EEF4FF]\r
-          text-[#2F80FF]\r
+          bg-[#EAF3F8]\r
+          text-[#155A96]\r
           text-sm\r
           font-medium\r
         `,children:`Practice Lab`}),(0,F.jsx)(`h2`,{className:`\r
@@ -3064,7 +3100,7 @@ leading-8\r
           text-base\r
           sm:text-lg\r
           leading-relaxed\r
-        `,children:`Apply your knowledge with real-world accounting, GST, inventory and payroll scenarios.`})]}),(0,F.jsx)(`div`,{className:`relative`,children:r.map((t,n)=>{console.log(`Exercise:`,t),console.log(`Slug:`,t.slug);let a=i[t.color],o=t.icon;return(0,F.jsxs)(`div`,{className:`relative pl-12 pb-8`,children:[n!==r.length-1&&(0,F.jsx)(`div`,{className:`\r
+        `,children:`Apply your knowledge with real-world accounting, GST, inventory and payroll scenarios.`})]}),(0,F.jsx)(`div`,{className:`relative`,children:r.map((t,n)=>{console.log(`Exercise:`,t),console.log(`Slug:`,t.slug);let a=i.default,o=t.icon;return(0,F.jsxs)(`div`,{className:`relative pl-12 pb-8`,children:[n!==r.length-1&&(0,F.jsx)(`div`,{className:`\r
                 absolute\r
                 left-[15px]\r
                 top-10\r
@@ -3077,9 +3113,7 @@ leading-8\r
               top-2\r
               w-10 h-10\r
               rounded-full\r
-              bg-gradient-to-r\r
-              from-[#2F80FF]\r
-              to-[#7B61FF]\r
+              bg-[#155A96]\r
               text-white\r
               flex\r
               items-center\r
@@ -3094,7 +3128,7 @@ leading-8\r
               transition-all
               duration-500
 
-              ${s===n?`border-l-4 ${a.border} bg-gradient-to-r ${a.activeBg}`:`bg-white`}
+              ${s===n?`border-l-4 ${a.border} bg-[#F4F8FB] ${a.activeBg}`:`bg-white`}
 
               hover:shadow-xl
             `,children:[(0,F.jsxs)(`button`,{onClick:()=>c(s===n?null:n),className:`\r
@@ -3114,7 +3148,7 @@ leading-8\r
                       font-semibold\r
                       uppercase\r
                       tracking-[2px]\r
-                      text-[#2F80FF]\r
+                      text-[#155A96]\r
                     `,children:t.level}),(0,F.jsx)(`h3`,{className:`\r
                       mt-2\r
                       text-lg\r
@@ -3124,7 +3158,10 @@ leading-8\r
                     `,children:t.title})]})]}),(0,F.jsx)(`div`,{className:`
                   transition-transform duration-300
                   ${s===n?`rotate-180`:``}
-                `,children:`▼`})]}),s===n&&(0,F.jsxs)(`div`,{className:`\r
+                `,children:(0,F.jsx)(wr,{size:20,className:`
+                  transition-transform duration-300
+                  ${s===n?`rotate-180`:``}
+                `})})]}),s===n&&(0,F.jsxs)(`div`,{className:`\r
                   px-5\r
                   pb-5\r
                   border-t\r
@@ -3141,6 +3178,7 @@ leading-8\r
                   `,children:[(0,F.jsxs)(`span`,{className:`
                       px-4 py-2
                       rounded-full
+                      text-[#155A96]
                       text-sm
                       font-medium
                       ${a.badge}
@@ -3156,27 +3194,28 @@ leading-8\r
                     flex\r
                     items-center\r
                     gap-2\r
-                    text-[#2F80FF]\r
+                    text-[#155A96]\r
+                    hover:text-[#0F4E82]\r
                     font-semibold\r
                     hover:gap-4\r
                     transition-all\r
-                  `,children:`Start Exercise →`})]})]})]},n)})})]})}),(0,F.jsx)(`section`,{className:`py-10 md:py-14 px-4 sm:px-6 bg-[#F8FAFC]`,children:(0,F.jsxs)(`div`,{className:`max-w-7xl mx-auto px-6`,children:[(0,F.jsx)(`div`,{className:`absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-[#2F80FF]/5 blur-[150px] rounded-full`}),(0,F.jsxs)(`div`,{className:`text-center max-w-3xl mx-auto mb-16`,children:[(0,F.jsx)(`span`,{className:`\r
+                  `,children:`Start Exercise →`})]})]})]},n)})})]})}),(0,F.jsx)(`section`,{className:`py-10 md:py-12 px-4 sm:px-6 bg-[#F8FAFC]`,children:(0,F.jsxs)(`div`,{className:`max-w-7xl mx-auto px-6`,children:[(0,F.jsx)(`div`,{className:`absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-[#155A96]/5 blur-[150px] rounded-full`}),(0,F.jsxs)(`div`,{className:`text-center max-w-3xl mx-auto mb-8`,children:[(0,F.jsx)(`span`,{className:`\r
           inline-flex\r
           items-center\r
           px-4 py-2\r
           rounded-full\r
-          bg-[#EEF4FF]\r
-          text-[#2F80FF]\r
+          bg-[#EAF3F8]\r
+          text-[#155A96]\r
           text-sm\r
           font-medium\r
         `,children:`Downloads`}),(0,F.jsx)(`h2`,{className:`\r
-          mt-6\r
+          mt-4\r
           text-3xl\r
-          md:text-5xl\r
+          md:text-4xl\r
           font-bold\r
           text-[#071426]\r
         `,children:`Download Center`}),(0,F.jsx)(`p`,{className:`\r
-          mt-6\r
+          mt-4\r
           text-slate-600\r
           text-lg\r
           leading-relaxed\r
@@ -3186,18 +3225,18 @@ leading-8\r
             border\r
             border-slate-200\r
             bg-white\r
-            p-5\r
+            p-4\r
             hover:shadow-xl\r
             transition-all\r
           `,children:[(0,F.jsx)(`div`,{className:`\r
               w-10 h-10\r
               rounded-2xl\r
-              bg-purple-100\r
+              bg-[#F4F8FB]\r
               flex\r
               items-center\r
               justify-center\r
-            `,children:(0,F.jsx)(zr,{size:24,className:`text-purple-600`})}),(0,F.jsx)(`h3`,{className:`\r
-              mt-6\r
+            `,children:(0,F.jsx)(zr,{size:24,className:`text-[#155A96]`})}),(0,F.jsx)(`h3`,{className:`\r
+              mt-4\r
               text-lg\r
               font-bold\r
               text-[#071426]\r
@@ -3211,25 +3250,25 @@ leading-8\r
               items-center\r
               gap-2\r
               font-semibold\r
-              text-[#2F80FF]\r
+              text-[#155A96]\r
             `,children:[a.software.button,(0,F.jsx)(cr,{size:18})]})]}),(0,F.jsxs)(`div`,{className:`\r
             flex-1\r
             rounded-[28px]\r
             border\r
             border-slate-200\r
             bg-white\r
-            p-5\r
+            p-4\r
             hover:shadow-xl\r
             transition-all\r
           `,children:[(0,F.jsx)(`div`,{className:`\r
               w-10 h-10\r
               rounded-2xl\r
-              bg-purple-100\r
+              bg-[#F4F8FB]\r
               flex\r
               items-center\r
               justify-center\r
-            `,children:(0,F.jsx)(Wr,{size:24,className:`text-purple-600`})}),(0,F.jsx)(`h3`,{className:`\r
-              mt-6\r
+            `,children:(0,F.jsx)(Wr,{size:24,className:`text-[#155A96]`})}),(0,F.jsx)(`h3`,{className:`\r
+              mt-4\r
               text-lg\r
               font-bold\r
               text-[#071426]\r
@@ -3243,25 +3282,25 @@ leading-8\r
               items-center\r
               gap-2\r
               font-semibold\r
-              text-[#2F80FF]\r
+              text-[#155A96]\r
             `,children:[a.guides.button,(0,F.jsx)(cr,{size:18})]})]}),(0,F.jsxs)(`div`,{className:`\r
             flex-1\r
             rounded-[28px]\r
             border\r
             border-slate-200\r
             bg-white\r
-            p-5\r
+            p-4\r
             hover:shadow-xl\r
             transition-all\r
           `,children:[(0,F.jsx)(`div`,{className:`\r
               w-10 h-10\r
               rounded-2xl\r
-              bg-orange-100\r
+              bg-[#F4F8FB]\r
               flex\r
               items-center\r
               justify-center\r
-            `,children:(0,F.jsx)(qr,{size:24,className:`text-orange-600`})}),(0,F.jsx)(`h3`,{className:`\r
-              mt-6\r
+            `,children:(0,F.jsx)(qr,{size:24,className:`text-[#155A96]`})}),(0,F.jsx)(`h3`,{className:`\r
+              mt-4\r
               text-lg\r
               font-bold\r
               text-[#071426]\r
@@ -3275,19 +3314,21 @@ leading-8\r
               items-center\r
               gap-2\r
               font-semibold\r
-              text-[#2F80FF]\r
+              text-[#155A96]\r
             `,children:[a.sampleData.button,(0,F.jsx)(cr,{size:18})]})]}),(0,F.jsxs)(`div`,{className:`\r
       rounded-2xl\r
       border border-slate-200\r
       bg-white\r
-      p-5\r
+      p-4\r
+      hover:shadow-xl\r
+      transition-all\r
     `,children:[(0,F.jsx)(`div`,{className:`\r
         w-10 h-10\r
         rounded-xl\r
-        bg-green-100\r
+        bg-[#F4F8FB]\r
         flex items-center justify-center\r
         mb-4\r
-      `,children:(0,F.jsx)(Mr,{size:20,className:`text-green-600`})}),(0,F.jsx)(`h3`,{className:`\r
+      `,children:(0,F.jsx)(Mr,{size:20,className:`text-[#155A96]`})}),(0,F.jsx)(`h3`,{className:`\r
         text-lg\r
         font-bold\r
         text-[#071426]\r
@@ -3301,15 +3342,15 @@ leading-8\r
         inline-flex\r
         items-center\r
         gap-2\r
-        text-[#2563EB]\r
+        text-[#155A96]\r
         font-semibold\r
-      `,children:`Start Practice →`})]})]})]})}),(0,F.jsx)(`section`,{className:`py-10 md:py-14 px-4 sm:px-6 bg-[#F8FAFC]`,children:(0,F.jsxs)(`div`,{className:`container mx-auto px-6`,children:[(0,F.jsxs)(`div`,{className:`text-center max-w-4xl mx-auto mb-16`,children:[(0,F.jsx)(`span`,{className:`inline-flex px-4 py-2 rounded-full bg-[#EEF4FF] text-[#2F80FF] text-sm font-medium`,children:`Career Opportunities`}),(0,F.jsx)(`h2`,{className:`mt-6 text-3xl\r
-          md:text-5xl font-bold text-[#071426]`,children:`Career Impact & Job Roles`}),(0,F.jsx)(`p`,{className:`mt-6 text-lg text-slate-600 leading-relaxed`,children:`Build practical accounting skills and qualify for multiple finance and business operation roles across SMEs, retail, manufacturing and enterprise organizations.`})]}),(0,F.jsx)(`div`,{className:`relative`,children:(0,F.jsx)(`div`,{className:`grid lg:grid-cols-4 gap-8 relative`,children:o.map((e,t)=>{let n=e.icon;return(0,F.jsxs)(`div`,{className:`\r
+      `,children:`Start Practice →`})]})]})]})}),(0,F.jsx)(`section`,{className:`py-10 md:py-12 px-4 sm:px-6 bg-[#F8FAFC]`,children:(0,F.jsxs)(`div`,{className:`container mx-auto px-6`,children:[(0,F.jsxs)(`div`,{className:`text-center max-w-4xl mx-auto mb-8`,children:[(0,F.jsx)(`span`,{className:`inline-flex px-4 py-2 rounded-full bg-[#EAF3F8] text-[#155A96] text-sm font-medium`,children:`Career Opportunities`}),(0,F.jsx)(`h2`,{className:`mt-4 text-3xl\r
+          md:text-4xl font-bold text-[#071426]`,children:`Career Impact & Job Roles`}),(0,F.jsx)(`p`,{className:`mt-4 text-lg text-slate-600 leading-relaxed`,children:`Build practical accounting skills and qualify for multiple finance and business operation roles across SMEs, retail, manufacturing and enterprise organizations.`})]}),(0,F.jsx)(`div`,{className:`relative`,children:(0,F.jsx)(`div`,{className:`grid lg:grid-cols-4 gap-6 relative`,children:o.map((e,t)=>{let n=e.icon;return(0,F.jsxs)(`div`,{className:`\r
             group\r
             bg-white\r
             rounded-3xl\r
             border border-slate-200\r
-            p-6\r
+            p-5\r
             text-center\r
             hover:-translate-y-2\r
             hover:shadow-2xl\r
@@ -3321,8 +3362,8 @@ leading-8\r
               rounded-2xl\r
               bg-[#EEF4FF]\r
               flex items-center justify-center\r
-              mb-5\r
-            `,children:(0,F.jsx)(n,{className:`w-8 h-8 text-[#2F80FF]`})}),(0,F.jsx)(`h3`,{className:`text-2xl font-bold text-[#071426]`,children:e.title}),(0,F.jsx)(`span`,{className:`\r
+              mb-4\r
+            `,children:(0,F.jsx)(n,{className:`w-8 h-8 text-[#155A96]`})}),(0,F.jsx)(`h3`,{className:`text-xl font-bold text-[#071426]`,children:e.title}),(0,F.jsx)(`span`,{className:`\r
               inline-flex\r
               mt-3\r
               px-4 py-2\r
@@ -3338,39 +3379,27 @@ leading-8\r
               bg-green-50\r
               text-green-700\r
               font-semibold\r
-            `,children:e.salary}),t<o.length-1&&(0,F.jsx)(`div`,{className:`\r
-                hidden lg:flex\r
-                absolute\r
-                top-24\r
-                -right-5\r
-                items-center\r
-                justify-center\r
-                w-10 h-10\r
-                rounded-full\r
-                bg-white\r
-                border\r
-                border-slate-200\r
-              `,children:`→`})]},t)})})})]})}),(0,F.jsx)(`section`,{className:`py-14 sm:py-20 px-4 sm:px-6 bg-white`,children:(0,F.jsxs)(`div`,{className:`max-w-6xl mx-auto`,children:[(0,F.jsxs)(`div`,{className:`text-center max-w-3xl mx-auto`,children:[(0,F.jsx)(`span`,{className:`\r
+            `,children:e.salary})]},t)})})})]})}),(0,F.jsx)(`section`,{className:`py-10 sm:py-12 px-4 sm:px-6 bg-white`,children:(0,F.jsxs)(`div`,{className:`max-w-6xl mx-auto`,children:[(0,F.jsxs)(`div`,{className:`text-center max-w-3xl mx-auto`,children:[(0,F.jsx)(`span`,{className:`\r
         inline-flex items-center gap-2\r
         px-4 py-2\r
         rounded-full\r
-        border border-[#CBD5E1]\r
-        bg-[#F8FAFC]\r
+        border border-[#155A96]\r
+        bg-[#EAF3F8]\r
         text-sm font-semibold\r
-        text-[#2563EB]\r
+        text-[#155A96]\r
       `,children:`Learning Support`}),(0,F.jsxs)(`h2`,{className:`\r
-        mt-5\r
+        mt-4\r
         text-[30px]\r
         sm:text-4xl\r
         font-black\r
         leading-tight\r
         text-[#0F172A]\r
-      `,children:[`Quick`,(0,F.jsxs)(`span`,{className:`bg-gradient-to-r from-[#2563EB] to-[#7C3AED] bg-clip-text text-transparent`,children:[` `,`Questions`]})]}),(0,F.jsx)(`p`,{className:`\r
+      `,children:[`Quick`,(0,F.jsxs)(`span`,{className:`text-#155A96`,children:[` `,`Questions`]})]}),(0,F.jsx)(`p`,{className:`\r
         mt-4\r
         text-[15px] md:text-[16px]\r
         leading-8\r
         text-[#64748B]\r
-      `,children:`Everything you need to know about the LMS, learning roadmap, exercises, downloads, and certification support.`})]}),(0,F.jsx)(`div`,{className:`mt-12 grid md:grid-cols-2 gap-6`,children:[{category:`Learning`,question:`Do I need accounting knowledge before starting?`,answer:`No. The LMS roadmap starts from absolute basics including company creation, ledgers, vouchers, and accounting workflows.`},{category:`Practice`,question:`Will I get practice exercises and sample company data?`,answer:`Yes. Every major module includes practical exercises, downloadable datasets, GST templates, and workflow simulations.`},{category:`Learning`,question:`Can I learn GST, payroll, and inventory together?`,answer:`Absolutely. The roadmap is designed as a complete business accounting workflow covering GST, payroll, banking, inventory, and reports.`},{category:`Career`,question:`Is this suitable for job preparation?`,answer:`Yes. The LMS includes real-world accounting scenarios, hands-on labs, invoice exercises, and business reporting workflows used in companies.`},{category:`Certification`,question:`Do you provide certification guidance?`,answer:`Yes. We help learners prepare for Tally certifications and provide guidance for practical business accounting implementation.`}].map((e,t)=>(0,F.jsxs)(`details`,{className:`\r
+      `,children:`Everything you need to know about the LMS, learning roadmap, exercises, downloads, and certification support.`})]}),(0,F.jsx)(`div`,{className:`mt-8 grid md:grid-cols-2 gap-6`,children:[{category:`Learning`,question:`Do I need accounting knowledge before starting?`,answer:`No. The LMS roadmap starts from absolute basics including company creation, ledgers, vouchers, and accounting workflows.`},{category:`Practice`,question:`Will I get practice exercises and sample company data?`,answer:`Yes. Every major module includes practical exercises, downloadable datasets, GST templates, and workflow simulations.`},{category:`Learning`,question:`Can I learn GST, payroll, and inventory together?`,answer:`Absolutely. The roadmap is designed as a complete business accounting workflow covering GST, payroll, banking, inventory, and reports.`},{category:`Career`,question:`Is this suitable for job preparation?`,answer:`Yes. The LMS includes real-world accounting scenarios, hands-on labs, invoice exercises, and business reporting workflows used in companies.`},{category:`Certification`,question:`Do you provide certification guidance?`,answer:`Yes. We help learners prepare for Tally certifications and provide guidance for practical business accounting implementation.`}].map((e,t)=>(0,F.jsxs)(`details`,{className:`\r
             group\r
             h-fit\r
             rounded-[25px]\r
@@ -3388,11 +3417,11 @@ leading-8\r
               list-none\r
             `,children:[(0,F.jsxs)(`div`,{className:`flex-1`,children:[(0,F.jsx)(`span`,{className:`\r
                   inline-flex\r
-                  mb-4\r
+                  mb-3\r
                   px-3 py-1\r
                   rounded-full\r
                   bg-[#EEF4FF]\r
-                  text-[#2563EB]\r
+                  text-[#155A96]\r
                   text-xs\r
                   font-semibold\r
                 `,children:e.category}),(0,F.jsx)(`h3`,{className:`\r
@@ -3405,14 +3434,12 @@ leading-8\r
                 flex items-center justify-center\r
                 w-12 h-12\r
                 rounded-2xl\r
-                bg-gradient-to-br\r
-                from-[#2563EB]\r
-                to-[#7C3AED]\r
+                bg-[#155A96]\r
                 text-white\r
                 shrink-0\r
                 transition-transform\r
                 duration-500\r
-                group-open:rotate-45\r
+                group-open:rotate-180\r
               `,children:(0,F.jsx)(wr,{className:`w-5 h-5`})})]}),(0,F.jsx)(`div`,{className:`\r
             overflow-hidden\r
             transition-all duration-500\r
@@ -3424,7 +3451,7 @@ leading-8\r
               sm:text-[15px]\r
               md:text-[16px]\r
               max-w-4xl\r
-            `,children:e.answer})})]},t))})]})})]})})}var Dy=[{slug:`basics-ledgers`,title:`Accounting Basics & Ledgers`,subtitle:`Learn company creation, ledgers, voucher entries and accounting fundamentals in TallyPrime.`,level:`Beginner`,duration:`3-4 Hours`,lessons:4,resources:6,heroImage:`https://images.unsplash.com/photo-1554224155-6726b3ff858f`,sections:[{id:`overview`,type:`overview`,title:`Overview`,content:`This course introduces accounting fundamentals using TallyPrime. You will learn company creation, ledgers, groups and voucher entries through practical examples.`,learn:[{icon:`download`,title:`Installation`,description:`Install and set prerequisites.`},{icon:`building`,title:`Company Creation`,description:`Set up companies with financial year and base currency.`},{icon:`book`,title:`Ledgers & Groups`,description:`Create chart of accounts and organize transactions.`},{icon:`receipt`,title:`Voucher Entries`,description:`Record Payment, Receipt, Contra and Journal vouchers.`}],note:`Every accounting transaction follows the double-entry system where every debit has an equal credit.`},{id:`install`,type:`steps`,title:`Installation & Setup`,duration:`5-10 Minutes`,intro:`Install TallyPrime and configure your environment before creating your first company.`,steps:[{title:`Download & Install`,description:`Get the latest installer from the vendor. Choose 64‑bit. Follow default prompts (path, desktop shortcut, allow firewall if asked).`},{title:`Prerequisites`,description:`Ensure you have admin rights, stable internet (for activation), and system date set correctly. Keep your organization’s GSTIN/PAN handy (if applicable).`},{title:`Create Data Folder`,description:`Make a dedicated D:AccountingDataYourCompany folder. Enable automatic backups in the software to a cloud drive.`},{title:`Regional Settings`,description:`Set base currency (INR), locale (India), and financial year start (commonly April 1 in India).`}],note:`Always keep a backup folder on another drive or cloud storage.`},{id:`company`,type:`steps`,title:`Creating A Company`,description:`Company master for books of accounts.`,steps:[{title:`Name & Legal Details`,description:`Enter Company Name, Address, Country, State, GSTIN and PAN details.`},{title:`Financial Year`,description:`Set the financial year start date and books beginning date.`},{title:`Currency & Symbols`,description:`Configure INR ₹ and number format settings.`},{title:`Security`,description:`Set an Admin password and optionally enable user roles such as Data Entry and Auditor.`},{title:`Backups`,description:`Enable auto-backup and maintain a weekly offsite backup.`}],note:`Keep separate Demo and Live companies. Use Demo for learning and Live for actual business transactions.`},{id:`ledgers`,type:`ledger`,icon:`book`,title:`Ledgers & Groups (Chart Of Accounts)`,description:`Groups organize ledgers into major accounting heads.`,groups:[{title:`Assets`,description:`Cash, Bank, Debtors, Inventory, Fixed Assets`},{title:`Liabilities`,description:`Creditors, Loans, Duties & Taxes`},{title:`Income`,description:`Sales, Interest Income`},{title:`Expenses`,description:`Purchases, Rent, Salaries, Utilities`}],examples:[{ledger:`Cash`,group:`Cash-in-Hand`},{ledger:`HDFC Bank`,group:`Banks`},{ledger:`Sales`,group:`Sales Accounts`},{ledger:`Purchases`,group:`Purchase Accounts`},{ledger:`Rent Expense`,group:`Indirect Expenses`},{ledger:`ABC Traders`,group:`Sundry Debtors`},{ledger:`XYZ Supplies`,group:`Sundry Creditors`}],note:`Avoid duplicate ledgers. Use one consistent naming convention throughout the organization.`,table:[{ledger:`Cash`,group:`Cash-in-Hand`,type:`Asset`,notes:`Petty cash and hand cash balances`},{ledger:`Bank A/C (HDFC)`,group:`Banks`,type:`Asset`,notes:`Enable bank reconciliation`},{ledger:`Sales`,group:`Sales Accounts`,type:`Income`,notes:`Set GST class if applicable`},{ledger:`Purchases`,group:`Purchase Accounts`,type:`Expense`,notes:`Link inventory if stock is used`},{ledger:`Rent Expense`,group:`Indirect Expenses`,type:`Expense`,notes:`Attach landlord details if required`},{ledger:`ABC Traders`,group:`Sundry Debtors`,type:`Asset`,notes:`Customer credit limit and terms`},{ledger:`XYZ Supplies`,group:`Sundry Creditors`,type:`Liability`,notes:`Vendor GSTIN and payment terms`}]},{id:`vouchers`,type:`voucher`,title:`Basic Voucher Entries`,description:`Payment, Receipt, Contra and Journal vouchers are used to record daily accounting transactions.`,rules:[`Assets/Expenses ↑ → Debit, ↓ → Credit`,`Liabilities/Income/Capital ↑ → Credit, ↓ → Debit`],vouchers:[{type:`payment`,badge:`PAYMENT`,title:`Payment Voucher`,subtitle:`Cash/Bank going out`,useWhen:`Paying expenses, suppliers, purchases and withdrawals.`,entry:[{date:`05-Apr-2025`,particulars:`Rent Expense A/c Dr`,dr:`₹25,000`,cr:``},{date:``,particulars:`To HDFC Bank A/c`,dr:``,cr:`₹25,000`}],narration:`Being office rent for April paid by NEFT.`},{type:`receipt`,badge:`RECEIPT`,title:`Receipt Voucher`,subtitle:`Cash/Bank coming in`,useWhen:`Receiving money from customers or other sources.`,entry:[{date:`06-Apr-2025`,particulars:`HDFC Bank A/c Dr`,dr:`₹40,000`,cr:``},{date:``,particulars:`To ABC Traders`,dr:``,cr:`₹40,000`}],narration:`Being part payment received against Inv# 112. Add receipt number/UTR.`},{type:`contra`,badge:`CONTRA`,title:`Contra Voucher`,subtitle:`Cash ↔ Bank transfers`,useWhen:`Cash deposited into bank or withdrawn from bank.`,entry:[{date:`07-Apr-2025`,particulars:`HDFC Bank A/c Dr`,dr:`₹15,000`,cr:``},{date:``,particulars:`To Cash A/c`,dr:``,cr:`₹15,000`}],narration:`Cash deposited into HDFC Bank. No income/expense ledgers involved.`},{type:`journal`,badge:`JOURNAL`,title:`Journal Voucher`,subtitle:`Adjustments, Non-cash`,useWhen:`Depreciation, provisions and adjustment entries.`,entry:[{date:`30-Apr-2025`,particulars:`Depreciation Expense A/c Dr`,dr:`₹5,000`,cr:``},{date:``,particulars:`To Furniture & Fixtures A/c`,dr:``,cr:`₹5,000`}],narration:`Monthly depreciation provided @ 10% p.a. Attach working papers.`}],mistakes:[`Using Payment/Receipt instead of Journal for non-cash adjustments.`,`Posting sales/purchase without proper tax ledgers configured.`,`Creating customer/vendor as Income/Expense ledgers.`]},{id:`roadmap`,type:`roadmap`,title:`Roadmap: From Zero To Confident Beginner`,description:`Follow this learning path step-by-step to build a strong foundation in Tally.`,steps:[{step:`01`,title:`Install & Configure`,description:`Install TallyPrime, set financial year, company data path, users and backups.`},{step:`02`,title:`Create Company & Masters`,description:`Create a company and configure groups, ledgers, customers and vendors.`},{step:`03`,title:`Record Basic Vouchers`,description:`Practice Payment, Receipt, Contra and Journal vouchers.`},{step:`04`,title:`Reconcile & Review`,description:`Perform bank reconciliation and verify accounting accuracy.`}]},{id:`practice`,type:`practice`,title:`Practice Labs & Quick Quiz`,description:`Apply your learning using practical accounting scenarios.`,labs:[{title:`Opening Balances`,difficulty:`Easy`,duration:`10 min`,tasks:[`Create Cash Ledger ₹8,000`,`Create HDFC Bank Ledger ₹22,000`,`Create Capital Ledger ₹30,000`,`Pass opening balance entry using Journal`]},{title:`Day-To-Day Entries`,difficulty:`Easy`,duration:`15 min`,tasks:[`Pay office rent ₹20,000 through bank`,`Receive ₹35,000 from ABC Traders`,`Deposit ₹10,000 cash into bank`]},{title:`Adjustments`,difficulty:`Medium`,duration:`20 min`,tasks:[`Provide depreciation ₹3,000 on Furniture`,`Create provision for expenses ₹5,000`,`Verify ledger balances`]}],quiz:[{question:`Which voucher is used for bank deposits?`,options:[`Payment`,`Receipt`,`Contra`,`Journal`],answer:`Contra`},{question:`ABC Traders usually belongs to?`,options:[`Sundry Creditors`,`Sundry Debtors`,`Indirect Expenses`,`Sales Accounts`],answer:`Sundry Debtors`},{question:`Depreciation entry is normally passed through?`,options:[`Payment`,`Receipt`,`Contra`,`Journal`],answer:`Journal`}]}]},{slug:`gst-taxation`,title:`GST & Taxation`,subtitle:`Configure GST, create tax-ledgers, prepare GST invoices, manage returns, RCM, credit/debit notes and learn e-invoice basics with real-world examples.`,level:`Intermediate`,duration:`6-8 Hours`,lessons:6,resources:6,heroImage:`/Balaji-Infotech/assets/taxation-Cygl-Kb6.png`,sections:[{id:`overview`,type:`overview`,title:`Overview`,content:`Learn GST configuration, tax ledgers, purchase and sales transactions, credit/debit notes, reverse charge mechanism (RCM), GST returns and e-invoicing through practical business examples.`,learn:[{icon:`book`,title:`GST Fundamentals`,description:`Understand GST concepts, GSTIN, HSN/SAC and tax structure.`},{icon:`receipt`,title:`Tax Ledgers`,description:`Create CGST, SGST, IGST and GST-related ledgers.`},{icon:`building`,title:`GST Transactions`,description:`Record GST purchases, sales and expenses.`},{icon:`download`,title:`Returns & Compliance`,description:`Prepare GST returns and understand filing workflow.`}],note:`GST compliance starts with correct ledger creation and accurate transaction recording.`},{id:`configure-gst`,type:`steps`,title:`Configure GST & Tax Ledgers`,duration:`15-20 Minutes`,intro:`Learn how to enable GST, create tax ledgers, configure HSN/SAC codes and ensure compliance settings are correctly applied.`,steps:[{title:`Enable GST Module`,description:`Enter GSTIN, state and place of supply rules.`},{title:`Create Tax Ledgers`,description:`Create CGST, SGST, IGST and Cess ledgers with proper naming conventions.`},{title:`Map Tax Rates`,description:`Link ledgers to GST rate slabs and assign them to products and services.`},{title:`HSN / SAC Codes`,description:`Configure HSN and SAC codes for products and services to ensure compliance.`},{title:`Compliance Settings`,description:`Enable automatic GST calculation in invoices and configure e-way bill settings.`}],checklist:[`GSTIN validated`,`Correct state mapping`,`Tax ledgers created`,`HSN/SAC codes added`,`Auto-calculation enabled`],note:`For interstate supplies IGST applies. For intrastate transactions GST is split between CGST and SGST. Always verify the place of supply.`},{id:`gst-invoices`,type:`invoiceTypes`,title:`GST Invoice Types & Creation`,invoices:[{title:`B2B Invoice (Taxable)`,description:`Show HSN, tax breakup and GSTINs for both parties.`,invoice:[`Invoice #INV1001`,`Date: 12-Aug-2025`,`Buyer: XYZ Pvt Ltd (GSTIN: 27XYZDE6789H1Z2)`,`Items: Supply – ₹50,000`,`Tax: CGST 9% ₹4,500 + SGST 9% ₹4,500`,`Total: ₹59,000`]},{title:`B2C Invoice (Retail)`,description:`Simplified format for consumers; show tax where applicable.`,invoice:[`Invoice #INV1002`,`Date: 13-Aug-2025`,`Buyer: Retail Customer`,`Items: Goods sold – ₹2,000`,`GST 18%: ₹360`,`Total: ₹2,360`]}],note:`Always capture HSN/SAC and tax breakup on B2B invoices for proper reconciliation. For exports, ensure LUT/Bond details are included.`},{id:`returns-rcm`,type:`gstReturns`,title:`Returns, RCM, Credit & Debit Notes`,cards:[{title:`Returns Overview`,content:`Know which returns (GSTR-1, GSTR-3B, annual) you need to file and reconcile sales before filing. Learn about due dates, late fees and input tax credit rules.`},{title:`Reverse Charge Mechanism (RCM)`,content:`When the recipient pays tax instead of the supplier. Common for imports and notified supplies. Record correctly to avoid mismatches and claim ITC where applicable.`}],creditDebitNote:{title:`Credit / Debit Notes`,content:`Reference the original invoice, specify the reason and adjust taxable values in returns. Common reasons include goods returned, price revisions and clerical corrections.`},tip:`Always reconcile sales, purchases and GST liability before filing returns to avoid notices and mismatches.`},{id:`e-invoice`,type:`eInvoice`,title:`E-Invoice Basics`,description:`E-invoice (IRP) applies beyond turnover thresholds. Generate IRN & QR after submitting JSON to IRP. Keep signed JSON for audit trail.`,process:[`Prepare invoice JSON per schema with seller, buyer, item and tax blocks.`,`Submit to IRP via software to obtain IRN and signed QR code.`,`Store IRN and signed JSON for compliance and audit requirements.`],note:`Thresholds change periodically. Verify current government rules before enabling e-invoicing. Businesses above prescribed turnover limits must comply.`},{id:`faq`,type:`faq`,title:`Frequently Asked Questions`,questions:[{question:`What is GST and why was it introduced?`,answer:`GST (Goods and Services Tax) is a single indirect tax system replacing multiple taxes like VAT, service tax, and excise duty.It was introduced to simplify taxation, eliminate cascading of taxes (tax on tax), and create a unified market across India.GST (Goods and Services Tax) is a single indirect tax system replacing multiple taxes like VAT, Service Tax and Excise Duty. It was introduced to simplify taxation and eliminate cascading taxes.`},{question:`What is the difference between CGST, SGST and IGST?`,answer:`CGST – Central Goods and Services Tax, collected by the central government. SGST – State Goods and Services Tax, collected by the state government for intra-state sales. IGST – Integrated Goods and Services Tax, collected by the central government for inter-state sales.CGST and SGST apply to intra-state transactions, while IGST applies to inter-state transactions.`},{question:`What is Reverse Charge Mechanism (RCM)?`,answer:`In RCM, the buyer (recipient of goods/services) is liable to pay GST instead of the seller. Example: Services taken from a lawyer or import of services from abroad.Under RCM, the recipient pays GST instead of the supplier for specified goods and services.`},{question:`How are GST returns filed?`,answer:`GST returns are filed online using the GST portal. Common returns include: GSTR-1: Outward supplies (sales), GSTR-3B: Summary of sales, purchases, and tax liability, GSTR-9: Annual return, GSTR-9C: Reconciliation statement (for audits)`},{question:`What is an e-Invoice and who needs to generate it?`,answer:`An e-invoice is a digital invoice authenticated by the GST portal.Businesses with turnover above the government-specified threshold (currently ₹10 crore and above) must generate e-invoices for B2B transactions.`}]}]},{slug:`inventory-stock`,title:`Inventory & Stock Management`,badge:`Inventory & Stock`,duration:`4-6 Hours`,heroDescription:`Stock items, units of measure, godown setup, batching, transfers, reorder levels and Bill of Materials (BOM). Templates, use-cases and best practices.`,heroImage:`/Balaji-Infotech/assets/stock-BY1a1bdb.jpg`,level:`Intermediate`,sections:[{id:`overview`,type:`overview`,title:`Overview`,content:`Learn how to manage inventory efficiently in TallyPrime through stock items, units of measure, godown management, batch tracking, stock transfers, reorder levels and Bill of Materials (BOM). Gain practical experience with real-world inventory workflows used in trading, retail and manufacturing businesses.`,learn:[{icon:`package`,title:`Stock Items`,description:`Create stock masters and manage item classifications.`},{icon:`ruler`,title:`Units of Measure`,description:`Configure UOMs for accurate inventory tracking and reporting.`},{icon:`building`,title:`Godown Management`,description:`Organize inventory across multiple warehouses and locations.`},{icon:`arrow-right-left`,title:`Stock Movement`,description:`Handle stock transfers, batching, expiry tracking and reorder levels.`}],note:`A well-structured inventory system improves stock accuracy, purchasing decisions and overall business efficiency.`},{id:`stock-items`,type:`inventoryCards`,title:`Stock Items & Item Master`,description:`Stock items represent goods or raw materials. Key fields in the item master include:`,cards:[{title:`Item Code & Name`,description:`Unique identifier used for inventory tracking.`},{title:`Category / Group`,description:`Used for classification and reporting.`},{title:`HSN / SKU`,description:`Optional codes useful for taxation and cataloguing.`},{title:`Default UOM`,description:`Base unit of measure used for transactions.`},{title:`Valuation Method`,description:`FIFO, LIFO or Weighted Average valuation.`},{title:`Reorder Levels`,description:`Configure reorder level and reorder quantity.`},{title:`Batch / Serial Tracking`,description:`Enable tracking when required.`}],tip:`Use concise item codes (e.g. RM-CU-001) to prevent duplicates and speed up data entry.`},{id:`uom`,type:`inventoryCards`,title:`Units Of Measure (UOM)`,description:`Define standard units for quantity tracking and inventory conversions.`,cards:[{title:`Piece (pcs)`,description:`Commonly used for finished goods and individual products.`},{title:`Kilogram (kg)`,description:`Used for raw materials and bulk inventory.`},{title:`Meter (m)`,description:`Suitable for fabrics, wires, cables and rolls.`},{title:`Box / Carton`,description:`Used for packaging and wholesale inventory.`},{title:`Litre (ltr)`,description:`Ideal for liquids, oils and chemicals.`},{title:`Dozen`,description:`Used when items are sold in groups of twelve.`}],tip:`Configure UOM conversions (e.g. 1 Box = 12 Pieces) to simplify purchasing, sales and stock reporting.`},{id:`godown-setup`,type:`warehouse`,title:`Godown / Warehouse Setup`,description:`Organise physical inventory locations and define how stock is stored and moved.`,setupPoints:[`Create godown names (Main Warehouse, Finished Goods, Raw Materials).`,`Assign default godowns to purchase and sales transactions.`,`Use zones, racks and bins for detailed storage management.`,`Enable multi-warehouse stock valuation where supported.`],useCases:[{title:`Retail Distribution`,description:`Multiple stores connected to a central distribution warehouse. Stock is replenished and transferred regularly.`},{title:`Manufacturing`,description:`Separate Raw Material, Work-in-Progress (WIP) and Finished Goods godowns for better production control.`}],tip:`Use separate godowns for raw materials, finished goods and damaged stock to improve inventory visibility.`},{id:`batching-expiry`,type:`batching`,title:`Batching, Serial Numbers & Expiry Management`,description:`Track inventory using batch numbers, serial numbers and expiry dates for better traceability and stock control.`,points:[{title:`Consumables with expiry`,description:`food, pharma and FMCG products`},{title:`Tracked assets`,description:`electronics and equipment with serial numbers`},{title:`Manufactured lots`,description:`use batch numbers for production traceability`}],bestPractice:`Capture batch number, manufacture date and expiry date. Follow FIFO (First In First Out) for expiry-sensitive inventory.`,tip:`Batch tracking helps identify affected stock quickly during recalls and quality checks.`},{id:`stock-transfers`,type:`batching`,title:`Stock Transfers & Movements`,description:`Track inventory movement across warehouses, production units and business locations while maintaining accurate stock records.`,points:[{title:`Inter-godown transfers`,description:`movement of stock between warehouses or storage locations`},{title:`Material issue / consumption`,description:`issue raw materials to production or assembly processes`},{title:`Stock adjustments`,description:`record damage, shrinkage, shortages or write-offs`},{title:`Stock receipts`,description:`receive inventory from purchases, production or transfers`}],bestPractice:`Maintain proper transfer vouchers and update stock ledgers immediately after every movement to avoid quantity mismatches.`,tip:`Regular stock reconciliation helps identify discrepancies between physical inventory and system records.`},{id:`reorder-levels`,type:`batching`,title:`Reorder Levels & Safety Stock`,description:`Automate replenishment planning by defining reorder levels, lead times and safety stock requirements.`,points:[{title:`Average daily usage`,description:`track normal consumption or sales quantity per day`},{title:`Lead time`,description:`number of days required to receive stock from suppliers`},{title:`Safety stock`,description:`maintain a buffer quantity to handle demand fluctuations`},{title:`Reorder point`,description:`(Average Daily Usage × Lead Time) + Safety Stock`}],bestPractice:`Review reorder levels regularly based on seasonal demand, supplier performance and historical consumption patterns.`,tip:`Example: If daily usage is 10 pcs, lead time is 7 days and safety stock is 20 pcs, reorder point = (10 × 7) + 20 = 90 pcs.`},{id:`bom`,type:`bom`,title:`Bill Of Materials (BOM)`,description:`Define components, quantities and production requirements needed to manufacture a finished product.`,points:[{title:`BOM Header`,description:`finished item, unit and version information`},{title:`Component Lines`,description:`item, quantity, UOM and wastage percentage`},{title:`Routing / Operations`,description:`optional production or assembly process steps`},{title:`Yield & Scrap`,description:`account for expected production output and losses`}],example:{title:`Example BOM: Wooden Chair (1 Unit)`,items:[`Seat (1 pcs)`,`Backrest (1 pcs)`,`Legs (4 pcs)`,`Screws (12 pcs)`],assemblyTime:`20 mins`},tip:`Maintain BOM versions so changes in materials, quantities and production methods can be tracked over time.`},{id:`roadmap`,type:`roadmap`,title:`Roadmap: Inventory & Stock Management`,description:`Follow this structured learning path to master inventory control, warehouse management and stock movement workflows in Tally.`,steps:[{step:`01`,title:`Setup Stock Masters`,description:`Create stock items, groups, categories and define inventory masters (30-45 mins).`},{step:`02`,title:`Configure UOM & Godowns`,description:`Set up units of measure, warehouse locations and inventory structure (30-45 mins).`},{step:`03`,title:`Manage Batches & Stock Movement`,description:`Track batches, expiry dates, stock transfers and inventory adjustments (45-60 mins).`},{step:`04`,title:`Reorder Levels & BOM`,description:`Configure reorder controls, safety stock and bill of materials for manufacturing (90–120 mins).`}]},{id:`practice`,type:`practice`,title:`Practice Labs & Templates`,description:`Apply inventory concepts using practical stock management scenarios.`,labs:[{title:`Stock Masters Setup`,difficulty:`Easy`,duration:`15 min`,tasks:[`Create 10 stock items with categories and groups`,`Assign appropriate Units of Measure (UOM)`,`Enter opening stock quantities`,`Verify item master reports`]},{title:`Godown & Stock Transfer`,difficulty:`Medium`,duration:`20 min`,tasks:[`Create Main Warehouse and Branch Godown`,`Transfer 100 units between godowns`,`Verify stock movement reports`,`Check location-wise stock balances`]},{title:`Batching & Expiry Management`,difficulty:`Medium`,duration:`20 min`,tasks:[`Create batch-wise inventory items`,`Enter manufacturing and expiry dates`,`Track batch availability`,`Generate expiry monitoring report`]},{title:`BOM & Production Exercise`,difficulty:`Advanced`,duration:`30 min`,tasks:[`Create a BOM for a finished product`,`Add raw materials and quantities`,`Record production of finished goods`,`Verify consumption and stock updates`]},{title:`Reorder & Safety Stock`,difficulty:`Medium`,duration:`15 min`,tasks:[`Configure reorder levels for inventory items`,`Set safety stock quantities`,`Generate reorder reports`,`Identify items requiring replenishment`]}],note:`Practice all exercises using a demo company before applying inventory controls to live business data.`}]},{slug:`payroll-management`,title:`Payroll Management — From Employee Master To Payslip`,badge:`Payroll Management`,duration:`5-7 Hours`,heroDescription:`Employee masters, salary heads, statutory deductions (PF/ESI), payslip generation and monthly payroll processing. Includes templates and compliance notes.`,heroImage:Cy,level:`Advanced`,sections:[{id:`overview`,type:`overview`,title:`Overview`,content:`This module guides students through practical payroll management in Tally, including employee master creation, salary structure configuration, statutory compliance, payslip generation and month-end payroll processing.`,learn:[{icon:`users`,title:`Employee Masters`,description:`Create employee records with personal, banking and employment details.`},{icon:`wallet`,title:`Salary Structures`,description:`Configure earnings, deductions and salary templates.`},{icon:`shield`,title:`PF & ESI Compliance`,description:`Understand statutory payroll deductions and contributions.`},{icon:`receipt`,title:`Payroll Processing`,description:`Generate payslips and process monthly salaries accurately.`}],note:`Accurate employee data and salary structures are essential for compliant payroll processing.`},{id:`employee-master`,type:`batching`,title:`Employee Master`,description:`Create and maintain employee records with personal, banking and employment details required for payroll processing.`,points:[{title:`Employee code & name`,description:`Unique employee identifier used for payroll records and reporting.`},{title:`Personal details`,description:`PAN, Aadhaar, date of birth, address and contact information.`},{title:`Bank details`,description:`Account number, IFSC code and payment preferences for salary transfers.`},{title:`Employment details`,description:`Date of joining, department, designation and employee category.`},{title:`Salary structure`,description:`Assign earnings, deductions and salary templates to employees.`},{title:`Statutory flags`,description:`Configure PF, ESI and other statutory applicability settings.`}],tip:`Use unique employee codes and verify PAN, Aadhaar and bank details before processing payroll to avoid payment failures.`},{id:`salary-heads`,type:`batching`,title:`Salary Heads & Components`,description:`Configure earnings, deductions and employer contributions that form an employee's salary structure.`,points:[{title:`Basic Pay`,description:`Primary fixed salary component, usually forming the foundation for statutory calculations.`},{title:`HRA`,description:`House Rent Allowance provided to employees for accommodation expenses.`},{title:`Conveyance & Allowances`,description:`Additional benefits such as conveyance, medical and special allowances.`},{title:`Gross Pay`,description:`Total earnings before deductions are applied.`},{title:`Deductions`,description:`Employee PF, Employee ESI, Professional Tax, TDS and other recoveries.`},{title:`Employer Contributions`,description:`Employer PF and ESI contributions maintained separately from employee deductions.`}],tip:`Create salary templates with predefined earnings and deductions to simplify employee onboarding and payroll processing.`},{id:`statutory-deductions`,type:`batching`,title:`Statutory Deductions: PF, ESI & Tax Compliance`,description:`Configure statutory payroll deductions and ensure compliance with government regulations.`,points:[{title:`Provident Fund (PF)`,description:`Configure employee and employer PF contributions, PF numbers and wage categories.`},{title:`Employee State Insurance (ESI)`,description:`Set up ESI eligibility, contribution rates and employee coverage details.`},{title:`Professional Tax (PT)`,description:`Apply state-specific Professional Tax slabs and deduction rules.`},{title:`Tax Deducted at Source (TDS)`,description:`Configure income tax calculations, exemptions and monthly tax deductions.`},{title:`Contribution Rates`,description:`Maintain employee and employer contribution percentages as per current regulations.`},{title:`Compliance Monitoring`,description:`Verify statutory settings regularly to ensure accurate payroll processing and reporting.`}],tip:`PF, ESI and tax regulations may change periodically. Always verify the latest contribution rates, salary limits and statutory rules before processing payroll.`},{id:`payslip-generation`,type:`bom`,title:`Payslip Generation & Templates`,description:`Generate professional payslips with complete salary, deduction and payment details.`,points:[{title:`Company & Employee Details`,description:`Include company information, employee name, code and designation.`},{title:`Pay Period & Payment Date`,description:`Specify salary month, payroll period and payment date.`},{title:`Earnings Breakdown`,description:`Display Basic Pay, HRA, allowances and other earning components.`},{title:`Deductions Breakdown`,description:`Show PF, ESI, Professional Tax, TDS and other deductions.`},{title:`Net Pay`,description:`Calculate final payable salary in numbers and words.`},{title:`Bank & Payment Details`,description:`Display bank account details and payment method.`}],example:{title:`Sample Payslip Summary`,items:[`Employee: EMP001 - Sai Varma`,`Payroll Period: August 2025`,`Gross Earnings: ₹50,000`,`PF Deduction: ₹6,000`,`TDS Deduction: ₹1,200`,`Net Salary: ₹42,800`],assemblyTime:`20 mins`},tip:`Provide both PDF payslips and digital copies for employees. Maintain payslip archives for audits and future reference.`},{id:`monthly-payroll`,type:`steps`,title:`Monthly Payroll Processing`,duration:`20-30 Minutes`,intro:`Follow a structured payroll workflow from attendance verification to salary disbursement and accounting entries.`,steps:[{title:`Verify Attendance & Leaves`,description:`Review employee attendance, leave records, overtime and attendance exceptions for the payroll period.`},{title:`Apply Salary Structures`,description:`Load salary templates, earnings, allowances, deductions and employee-specific adjustments.`},{title:`Process Loans & Recoveries`,description:`Calculate loan repayments, salary advances and other employee recoveries.`},{title:`Compute Statutory Contributions`,description:`Calculate PF, ESI, Professional Tax, TDS and generate required statutory reports.`},{title:`Post Payroll Entries`,description:`Transfer payroll expenses, liabilities and deduction entries to the accounting system.`},{title:`Generate Salary Payments`,description:`Create bank transfer files, NEFT payment files or salary disbursement reports.`}],checklist:[`Attendance approved`,`Salary structures verified`,`Loans and recoveries processed`,`PF, ESI and tax calculations reviewed`,`Payroll entries posted`,`Bank payment file generated`],note:`Always run a payroll preview before final processing. Verify statutory reports, payment amounts and employee balances, and take a backup before posting the final payroll.`},{id:`roadmap`,type:`roadmap`,title:`Roadmap: From Employee Setup To Payroll Processing`,description:`Follow this learning path step-by-step to master employee management, salary structures, statutory compliance and payroll processing.`,steps:[{step:`01`,title:`Employee Masters`,description:`Set up employee records with personal details, bank information, salary structures and statutory settings (30–40 mins).`},{step:`02`,title:`Salary Heads`,description:`Create earnings, allowances, deductions and employer contribution components (30–40 mins).`},{step:`03`,title:`Statutory Setup`,description:`Configure statutory deductions, contribution rates and compliance settings (45–60 mins).`},{step:`04`,title:`Generate Payslips`,description:`Create payroll templates, calculate salaries and generate employee payslips (60–90 mins).`}]},{id:`practice`,type:`practice`,title:`Practice Labs & Templates`,description:`Apply your payroll knowledge using real-world employee, salary and compliance scenarios.`,labs:[{title:`Employee Master Setup`,difficulty:`Easy`,duration:`15 min`,tasks:[`Create 10 employee masters with unique employee codes`,`Add PAN, Aadhaar and bank account details`,`Assign departments and designations`,`Configure PF and ESI eligibility`]},{title:`Salary Structure Configuration`,difficulty:`Easy`,duration:`20 min`,tasks:[`Create monthly and hourly salary templates`,`Configure Basic, HRA and Special Allowance`,`Add deduction components for PF, ESI and PT`,`Assign salary structures to employees`]},{title:`Payroll Processing`,difficulty:`Medium`,duration:`25 min`,tasks:[`Run payroll preview for all employees`,`Verify earnings and deduction calculations`,`Generate final payslips in PDF format`,`Review payroll summary reports`]},{title:`Compliance & Payments`,difficulty:`Medium`,duration:`20 min`,tasks:[`Generate PF and ESI challans`,`Prepare monthly TDS summary`,`Export NEFT bank payment file`,`Simulate salary disbursement process`]}],note:`Always test payroll on a demo company and verify statutory calculations before processing live employee salaries.`}]},{slug:`reports-mis`,title:`Reports & MIS — Financial Insights & Dashboards`,badge:`Reports & MIS`,duration:`4-5 Hours`,heroDescription:`Learn how to generate accounting reports, analyze business performance, and create management dashboards using Trial Balance, Profit & Loss, Balance Sheet, Ratio Analysis and Daybook reports.`,heroImage:`/Balaji-Infotech/assets/reportsmis-DBopqaA2.jpg`,level:`Advanced`,sections:[{id:`overview`,type:`overview`,title:`Overview`,content:`This module teaches how to generate accounting reports and build MIS dashboards for better business decision-making. Learn to analyze Trial Balance, Profit & Loss, Balance Sheet, Ratio Analysis and Daybook reports while using filters and export options to create meaningful financial insights.`,learn:[{icon:`scale`,title:`Trial Balance`,description:`Verify ledger balances, analyze groups and validate accounting accuracy.`},{icon:`chartcolumn`,title:`Profit & Loss`,description:`Evaluate income, expenses and profitability across different periods.`},{icon:`building`,title:`Balance Sheet`,description:`Understand assets, liabilities and business financial position.`},{icon:`chartpie`,title:`MIS & Ratio Analysis`,description:`Track key performance indicators and generate management reports.`}],note:`Regular review of financial reports helps identify trends, improve decision-making and maintain business control.`},{id:`trial-balance`,type:`report`,title:`Trial Balance`,description:`Trial balance is a summary of ledger balances used to verify that total debits equal total credits.`,points:[{title:`Group & Ledger Drill-Down`,description:`Analyze balances at group and ledger level for detailed review.`},{title:`Period Selection`,description:`Generate monthly, quarterly or yearly trial balance reports.`},{title:`Opening & Closing Balances`,description:`Include opening balances, closing balances and zero-balance ledgers.`},{title:`Export Options`,description:`Export reports to PDF or Excel for audit and management review.`}],sampleTitle:`Sample Trial Balance`,sample:[{ledger:`Cash`,debit:`₹120,000`,credit:`-`},{ledger:`Bank`,debit:`₹250,000`,credit:`-`},{ledger:`Capital`,debit:`-`,credit:`₹300,000`},{ledger:`Sales`,debit:`-`,credit:`₹70,000`}],totalDebit:`₹370,000`,totalCredit:`₹370,000`,note:`A balanced trial balance confirms arithmetic accuracy but does not guarantee that all accounting errors are eliminated.`},{id:`profit-loss`,type:`batching`,title:`Profit & Loss Account`,description:`Shows revenue and expense performance over a period to help evaluate profitability and business growth.`,points:[{title:`Revenue`,description:`Track sales income, service income and other operating revenue.`},{title:`Direct Costs & Gross Profit`,description:`Analyze cost of goods sold and calculate gross profit margins.`},{title:`Operating Expenses`,description:`Review administrative, selling and operational expenses.`},{title:`Net Profit`,description:`Measure overall profitability after deducting all expenses and taxes.`},{title:`Comparative Analysis`,description:`Compare current performance with previous periods and identify trends.`}],tip:`Use comparative reports and percentage analysis to identify profit drivers and control business costs.`},{id:`balance-sheet`,type:`batching`,title:`Balance Sheet`,description:`Provides a snapshot of the company's financial position by showing assets, liabilities and owner's equity at a specific date.`,points:[{title:`Assets`,description:`View current and non-current assets such as cash, bank balances, inventory, debtors and fixed assets.`},{title:`Liabilities`,description:`Track short-term and long-term obligations including creditors, loans and outstanding expenses.`},{title:`Owner's Equity`,description:`Analyze capital invested, retained earnings and accumulated profits.`},{title:`Working Capital Analysis`,description:`Compare current assets against current liabilities to assess liquidity.`},{title:`Debtor & Creditor Drill-Down`,description:`Review ageing analysis and outstanding balances for better financial control.`}],tip:`A healthy balance sheet maintains an appropriate balance between assets, liabilities and equity while ensuring sufficient working capital.`},{id:`ratio-analysis`,type:`bom`,title:`Ratio Analysis`,description:`Financial ratios help evaluate liquidity, profitability, efficiency and leverage to measure business performance and financial health.`,points:[{title:`Liquidity`,description:`Current Ratio = Current Assets ÷ Current Liabilities. Measures the ability to meet short-term obligations.`},{title:`Profitability`,description:`Net Profit Margin = Net Profit ÷ Net Sales. Indicates overall profitability.`},{title:`Efficiency`,description:`Inventory Turnover = Cost of Goods Sold ÷ Average Inventory. Measures inventory utilization.`},{title:`Leverage`,description:`Debt-to-Equity Ratio = Total Debt ÷ Equity. Evaluates financial risk and dependence on borrowing.`}],example:{title:`Example Ratio Calculation`,items:[`Current Assets = ₹200,000`,`Current Liabilities = ₹100,000`,`Current Ratio = 200,000 ÷ 100,000`,`Current Ratio = 2.0`],assemblyTime:`Analysis Time: 5 mins`},tip:`Compare ratios across multiple periods and industry benchmarks to identify trends and performance gaps.`},{id:`daybook`,type:`batching`,title:`Daybook / Journal`,description:`Daybook records all accounting transactions in chronological order, helping users review entries, verify activity and trace financial movements.`,points:[{title:`Transaction History`,description:`View all vouchers and accounting entries recorded during a selected period.`},{title:`Receipt & Payment Review`,description:`Monitor daily cash receipts, bank receipts, payments and fund movements.`},{title:`Error Detection`,description:`Identify unusual entries, duplicate vouchers or incorrect postings quickly.`},{title:`Advanced Filtering`,description:`Filter transactions by voucher type, ledger, party name, amount or date range.`},{title:`Audit Trail`,description:`Trace the source of transactions and drill down into supporting vouchers.`}],tip:`Regularly review the daybook to identify posting errors, unusual transactions and missing entries before generating financial reports.`},{id:`custom-filters`,type:`batching`,title:`Customizable Report Filters`,description:`Use advanced filters to generate focused reports and gain deeper business insights across departments, periods and business segments.`,points:[{title:`Date & Period Filters`,description:`Analyze reports by custom date range, month, quarter or financial year.`},{title:`Cost Center Analysis`,description:`Filter data by department, branch, project or profit center.`},{title:`Customer & Vendor Segmentation`,description:`Review performance and transactions for specific customers, suppliers or business groups.`},{title:`Inventory & SKU Filters`,description:`Generate reports for selected products, categories, stock groups or warehouses.`},{title:`Currency & Consolidation`,description:`View multi-currency reports and consolidated business performance where applicable.`}],tip:`Save frequently used filter combinations as custom views to speed up report generation and improve decision-making.`},{id:`roadmap`,type:`roadmap`,title:`Roadmap: 2–4 Hour Learning Plan`,description:`Follow this structured path to understand financial reports, analyze business performance and build management information reports.`,steps:[{step:`01`,title:`Trial Balance`,description:`Learn to verify ledger balances, drill down into accounts and validate accounting accuracy (20–30 mins).`},{step:`02`,title:`Profit & Loss Analysis`,description:`Analyze revenue, expenses, gross profit and net profit using comparative reporting (30–45 mins).`},{step:`03`,title:`Balance Sheet`,description:`Understand assets, liabilities, equity and evaluate the overall financial position of the business (20–30 mins).`},{step:`04`,title:`Ratio Analysis & MIS`,description:`Interpret key financial ratios and use customizable filters to generate business insights (30–40 mins).`}]},{id:`practice`,type:`practice`,title:`Practice Labs & Report Walkthroughs`,description:`Apply your reporting knowledge through practical exercises that focus on financial analysis, dashboard creation and management reporting.`,labs:[{title:`Trial Balance Review`,difficulty:`Easy`,duration:`15 min`,tasks:[`Generate a Trial Balance for Q1`,`Identify debit and credit totals`,`Verify ledger balances`,`Investigate any differences`]},{title:`Profit & Loss Analysis`,difficulty:`Medium`,duration:`20 min`,tasks:[`Generate a Profit & Loss report`,`Enable comparative columns`,`Identify major expense categories`,`Analyze gross profit and net profit trends`]},{title:`Balance Sheet & Ratios`,difficulty:`Medium`,duration:`20 min`,tasks:[`Generate a Balance Sheet report`,`Calculate working capital`,`Compute Current Ratio`,`Evaluate liquidity position`]},{title:`MIS Dashboard Reporting`,difficulty:`Advanced`,duration:`25 min`,tasks:[`Filter top 5 customers by revenue`,`Analyze receivable ageing`,`Export reports to Excel`,`Prepare a management summary dashboard`]}],note:`Practice using report filters and saved views regularly to improve reporting efficiency and decision-making.`}]},{slug:`advanced-tallyprime`,title:`Advanced TallyPrime — Business Intelligence`,badge:`Advanced TallyPrime`,duration:`4-5 Hours`,heroDescription:`Master advanced TallyPrime features including cost centers, budgets, multi-currency accounting, interest calculations, scenario management, security controls and business automation.`,heroImage:Ty,level:`Expert`,sections:[{id:`overview`,type:`overview`,title:`Overview`,content:`This module focuses on advanced TallyPrime capabilities used by growing businesses and accounting professionals. Learn cost center accounting, budget management, multi-currency transactions, interest calculations, scenario analysis, security controls, audit features and workflow automation to improve operational efficiency and financial decision-making.`,learn:[{icon:`building`,title:`Cost Centers & Budgeting`,description:`Track department-wise profitability and monitor budget versus actual performance.`},{icon:`globe`,title:`Multi-Currency Accounting`,description:`Manage foreign currency transactions, exchange rates and international business reporting.`},{icon:`shield`,title:`Security & Audit Controls`,description:`Configure user permissions, audit trails and data protection settings.`},{icon:`settings`,title:`Automation & Productivity`,description:`Use voucher classes, recurring transactions and advanced Tally features to reduce manual work.`}],note:`Advanced TallyPrime features help organizations improve control, automate processes and gain deeper financial insights for better decision-making.`},{id:`cost-centers`,type:`batching`,title:`Cost Centers & Cost Categories`,description:`Cost centers help track income and expenses department-wise, project-wise or branch-wise without creating separate companies. They provide deeper insight into business performance and profitability.`,points:[{title:`Cost Centers`,description:`Create departments, branches or projects as cost centers to track financial performance individually.`},{title:`Cost Categories`,description:`Group multiple cost centers under a common category for consolidated reporting.`},{title:`Department Tracking`,description:`Analyze expenses and revenues separately for Sales, Marketing, HR, Production and other departments.`},{title:`Project Profitability`,description:`Track project-specific costs and revenues to measure profitability and performance.`},{title:`Branch Performance Analysis`,description:`Compare income, expenses and profit across multiple business locations.`}],tip:`Use cost centers consistently across vouchers to generate meaningful departmental and project-wise reports.`},{id:`budgets-controls`,type:`steps`,title:`Budgets & Controls`,duration:`20-30 Minutes`,intro:`Learn how to create budgets, define spending limits, compare actual performance against targets and use budget controls for effective financial planning.`,steps:[{title:`Create Budget Groups`,description:`Define budgets for departments, cost centers, projects or ledger groups.`},{title:`Set Budget Amounts`,description:`Enter monthly, quarterly or annual budget targets for income and expenses.`},{title:`Assign Cost Centers`,description:`Link budgets to specific cost centers for department-wise monitoring.`},{title:`Monitor Actual vs Budget`,description:`Compare actual transactions against budgeted figures and identify variances.`},{title:`Analyze Variances`,description:`Review overspending, underutilization and performance gaps using budget reports.`}],checklist:[`Budget groups created`,`Budget targets assigned`,`Cost centers linked`,`Variance reports generated`,`Performance reviewed`],note:`Budgets are most effective when reviewed regularly. Compare actual results with targets every month to maintain financial discipline and improve planning accuracy.`},{id:`interest-calculation`,type:`batching`,title:`Interest Calculation`,description:`Automate interest calculations for receivables and payables to improve accuracy, reduce manual effort and monitor outstanding balances effectively.`,points:[{title:`Simple Interest`,description:`Calculate interest based on principal amount, rate and time period using standard interest formulas.`},{title:`Compound Interest`,description:`Apply interest on both principal and accumulated interest for long-term receivables and payables.`},{title:`Customer Interest`,description:`Automatically calculate interest on overdue customer balances and outstanding invoices.`},{title:`Supplier Interest`,description:`Track interest payable to suppliers and vendors based on agreed payment terms.`},{title:`Interest Reports`,description:`Generate detailed reports showing interest receivable, payable and outstanding amounts.`}],tip:`Configure interest parameters directly in ledger masters to automate calculations and ensure consistency across transactions.`},{id:`security-audit`,type:`steps`,title:`Security & Audit Controls`,duration:`20-30 Minutes`,intro:`Learn how to secure company data, manage user permissions, maintain audit trails and implement best practices for data protection and compliance.`,steps:[{title:`Create User Roles`,description:`Define users such as Administrator, Accountant, Auditor and Data Entry Operator with appropriate responsibilities.`},{title:`Configure Access Rights`,description:`Control access to vouchers, reports, masters and company features based on user roles.`},{title:`Enable Security Controls`,description:`Set passwords, user authentication rules and company-level security settings.`},{title:`Monitor Audit Trail`,description:`Track modifications, deletions and user activities to maintain accountability and transparency.`},{title:`Backup & Data Protection`,description:`Schedule regular backups and implement recovery procedures to safeguard business data.`}],checklist:[`User roles created`,`Access rights configured`,`Security settings enabled`,`Audit trail reviewed`,`Backup schedule established`],note:`Review user permissions regularly and maintain secure backups to prevent unauthorized access, accidental data loss and compliance issues.`},{id:`tally-automation`,type:`batching`,title:`Tally Automation`,description:`Leverage advanced automation features in TallyPrime to reduce manual effort, improve accuracy and streamline day-to-day accounting operations.`,points:[{title:`Voucher Classes`,description:`Automate accounting allocations and ledger postings while recording transactions.`},{title:`Memorandum Vouchers`,description:`Record provisional transactions for review without affecting actual books of accounts.`},{title:`Recurring Transactions`,description:`Automate repetitive entries such as rent, salaries, subscriptions and utility expenses.`},{title:`Auto Calculations`,description:`Configure automatic tax, discount, interest and inventory calculations to minimize errors.`},{title:`Data Import & Export`,description:`Import transactions from Excel and export reports in multiple formats for analysis and sharing.`}],tip:`Use automation features carefully and test configurations in a demo company before applying them to live business data.`},{id:`roadmap`,type:`roadmap`,title:`Roadmap: From Advanced Accounting To Business Automation`,description:`Follow this structured learning path to master advanced TallyPrime features used by accountants, finance teams and business managers.`,steps:[{step:`01`,title:`Cost Centers & Budgeting`,description:`Track department-wise profitability and compare budgeted versus actual performance.`},{step:`02`,title:`Interest & Scenario Management`,description:`Automate interest calculations and create business scenarios for forecasting and analysis.`},{step:`03`,title:`Security & Audit Controls`,description:`Configure user permissions, audit trails and data protection mechanisms.`},{step:`04`,title:`Tally Automation`,description:`Automate recurring transactions, voucher entries, calculations and reporting workflows.`}]},{id:`practice`,type:`practice`,title:`Practice Labs & Advanced Scenarios`,description:`Apply advanced TallyPrime concepts through hands-on exercises involving budgeting, multi-currency accounting, automation and security controls.`,labs:[{title:`Department Cost Tracking`,difficulty:`Easy`,duration:`15 min`,tasks:[`Create Sales and Marketing cost centers`,`Allocate expenses to each department`,`Record department-wise transactions`,`Generate cost center profitability report`]},{title:`Budget Variance Analysis`,difficulty:`Medium`,duration:`20 min`,tasks:[`Create an annual sales budget`,`Define monthly expense budgets`,`Record actual transactions`,`Analyze Budget vs Actual reports`]},{title:`Multi-Currency Transactions`,difficulty:`Medium`,duration:`20 min`,tasks:[`Create a USD customer ledger`,`Record an export sales invoice`,`Configure exchange rates`,`Review forex gain/loss reports`]},{title:`Interest & Scenario Management`,difficulty:`Advanced`,duration:`25 min`,tasks:[`Enable interest calculation for customers`,`Generate interest receivable report`,`Create optional vouchers`,`Analyze business scenarios without affecting actual books`]},{title:`Security & Automation Setup`,difficulty:`Advanced`,duration:`30 min`,tasks:[`Create Accountant and Auditor user roles`,`Configure access permissions`,`Enable audit trail`,`Create recurring transaction templates`,`Export reports to Excel and PDF`]}],note:`Complete all labs using a demo company first. Advanced features such as security controls, automation and scenario management should be tested thoroughly before implementation in a live business environment.`}]}],Oy={download:zr,building:gr,book:fr,receipt:Ei,scale:ji,chartcolumn:br,building:_r,chartpie:Sr,users:Ui,shield:Ri,wallet:Ji,globe:Xr,settings:Pi},ky={Assets:Ji,Liabilities:ii,Income:Vi,Expenses:Ei},Ay={payment:Ji,receipt:Dr,contra:ki,journal:fr,purchase:zi,sales:Ei},jy={payment:`bg-red-50 text-red-600`,receipt:`bg-green-50 text-green-600`,contra:`bg-blue-50 text-blue-600`,journal:`bg-purple-50 text-purple-600`};function My(){let{slug:e}=ht();console.log(e);let t=Dy.find(t=>t.slug===e);if(!t)return(0,F.jsx)(`div`,{className:`min-h-screen flex items-center justify-center`,children:`Course Not Found`});let[n,r]=(0,w.useState)(0),[i,a]=(0,w.useState)({}),[o,s]=(0,w.useState)(null),[c,l]=(0,w.useState)(`overview`),u=window.innerWidth<1024,d=e=>{let t=0;e.forEach((e,n)=>{i[n]===e.answer&&t++}),s(t)};return c===`overview`||t.sections.filter(e=>e.id===c),(0,F.jsxs)(`main`,{className:`bg-[#F8FAFC]`,children:[(0,F.jsxs)(`section`,{className:`relative min-h-[420px] md:min-h-[520px] lg:h-[600px] overflow-hidden`,children:[(0,F.jsx)(`img`,{src:t.heroImage,alt:t.title,className:`absolute inset-0 w-full h-full object-cover`}),(0,F.jsx)(`div`,{className:`absolute inset-0 bg-black/70`}),(0,F.jsx)(`div`,{className:`\r
+            `,children:e.answer})})]},t))})]})})]})})}var Dy=[{slug:`basics-ledgers`,title:`Accounting Basics & Ledgers`,subtitle:`Learn company creation, ledgers, voucher entries and accounting fundamentals in TallyPrime.`,level:`Beginner`,duration:`3-4 Hours`,lessons:4,resources:6,heroImage:`https://images.unsplash.com/photo-1554224155-6726b3ff858f`,sections:[{id:`overview`,type:`overview`,title:`Overview`,content:`This course introduces accounting fundamentals using TallyPrime. You will learn company creation, ledgers, groups and voucher entries through practical examples.`,learn:[{icon:`download`,title:`Installation`,description:`Install and set prerequisites.`},{icon:`building`,title:`Company Creation`,description:`Set up companies with financial year and base currency.`},{icon:`book`,title:`Ledgers & Groups`,description:`Create chart of accounts and organize transactions.`},{icon:`receipt`,title:`Voucher Entries`,description:`Record Payment, Receipt, Contra and Journal vouchers.`}],note:`Every accounting transaction follows the double-entry system where every debit has an equal credit.`},{id:`install`,type:`steps`,title:`Installation & Setup`,duration:`5-10 Minutes`,intro:`Install TallyPrime and configure your environment before creating your first company.`,steps:[{title:`Download & Install`,description:`Get the latest installer from the vendor. Choose 64‑bit. Follow default prompts (path, desktop shortcut, allow firewall if asked).`},{title:`Prerequisites`,description:`Ensure you have admin rights, stable internet (for activation), and system date set correctly. Keep your organization’s GSTIN/PAN handy (if applicable).`},{title:`Create Data Folder`,description:`Make a dedicated D:AccountingDataYourCompany folder. Enable automatic backups in the software to a cloud drive.`},{title:`Regional Settings`,description:`Set base currency (INR), locale (India), and financial year start (commonly April 1 in India).`}],note:`Always keep a backup folder on another drive or cloud storage.`},{id:`company`,type:`steps`,title:`Creating A Company`,description:`Company master for books of accounts.`,steps:[{title:`Name & Legal Details`,description:`Enter Company Name, Address, Country, State, GSTIN and PAN details.`},{title:`Financial Year`,description:`Set the financial year start date and books beginning date.`},{title:`Currency & Symbols`,description:`Configure INR ₹ and number format settings.`},{title:`Security`,description:`Set an Admin password and optionally enable user roles such as Data Entry and Auditor.`},{title:`Backups`,description:`Enable auto-backup and maintain a weekly offsite backup.`}],note:`Keep separate Demo and Live companies. Use Demo for learning and Live for actual business transactions.`},{id:`ledgers`,type:`ledger`,icon:`book`,title:`Ledgers & Groups (Chart Of Accounts)`,description:`Groups organize ledgers into major accounting heads.`,groups:[{title:`Assets`,description:`Cash, Bank, Debtors, Inventory, Fixed Assets`},{title:`Liabilities`,description:`Creditors, Loans, Duties & Taxes`},{title:`Income`,description:`Sales, Interest Income`},{title:`Expenses`,description:`Purchases, Rent, Salaries, Utilities`}],examples:[{ledger:`Cash`,group:`Cash-in-Hand`},{ledger:`HDFC Bank`,group:`Banks`},{ledger:`Sales`,group:`Sales Accounts`},{ledger:`Purchases`,group:`Purchase Accounts`},{ledger:`Rent Expense`,group:`Indirect Expenses`},{ledger:`ABC Traders`,group:`Sundry Debtors`},{ledger:`XYZ Supplies`,group:`Sundry Creditors`}],note:`Avoid duplicate ledgers. Use one consistent naming convention throughout the organization.`,table:[{ledger:`Cash`,group:`Cash-in-Hand`,type:`Asset`,notes:`Petty cash and hand cash balances`},{ledger:`Bank A/C (HDFC)`,group:`Banks`,type:`Asset`,notes:`Enable bank reconciliation`},{ledger:`Sales`,group:`Sales Accounts`,type:`Income`,notes:`Set GST class if applicable`},{ledger:`Purchases`,group:`Purchase Accounts`,type:`Expense`,notes:`Link inventory if stock is used`},{ledger:`Rent Expense`,group:`Indirect Expenses`,type:`Expense`,notes:`Attach landlord details if required`},{ledger:`ABC Traders`,group:`Sundry Debtors`,type:`Asset`,notes:`Customer credit limit and terms`},{ledger:`XYZ Supplies`,group:`Sundry Creditors`,type:`Liability`,notes:`Vendor GSTIN and payment terms`}]},{id:`vouchers`,type:`voucher`,title:`Basic Voucher Entries`,description:`Payment, Receipt, Contra and Journal vouchers are used to record daily accounting transactions.`,rules:[`Assets/Expenses ↑ → Debit, ↓ → Credit`,`Liabilities/Income/Capital ↑ → Credit, ↓ → Debit`],vouchers:[{type:`payment`,badge:`PAYMENT`,title:`Payment Voucher`,subtitle:`Cash/Bank going out`,useWhen:`Paying expenses, suppliers, purchases and withdrawals.`,entry:[{date:`05-Apr-2025`,particulars:`Rent Expense A/c Dr`,dr:`₹25,000`,cr:``},{date:``,particulars:`To HDFC Bank A/c`,dr:``,cr:`₹25,000`}],narration:`Being office rent for April paid by NEFT.`},{type:`receipt`,badge:`RECEIPT`,title:`Receipt Voucher`,subtitle:`Cash/Bank coming in`,useWhen:`Receiving money from customers or other sources.`,entry:[{date:`06-Apr-2025`,particulars:`HDFC Bank A/c Dr`,dr:`₹40,000`,cr:``},{date:``,particulars:`To ABC Traders`,dr:``,cr:`₹40,000`}],narration:`Being part payment received against Inv# 112. Add receipt number/UTR.`},{type:`contra`,badge:`CONTRA`,title:`Contra Voucher`,subtitle:`Cash ↔ Bank transfers`,useWhen:`Cash deposited into bank or withdrawn from bank.`,entry:[{date:`07-Apr-2025`,particulars:`HDFC Bank A/c Dr`,dr:`₹15,000`,cr:``},{date:``,particulars:`To Cash A/c`,dr:``,cr:`₹15,000`}],narration:`Cash deposited into HDFC Bank. No income/expense ledgers involved.`},{type:`journal`,badge:`JOURNAL`,title:`Journal Voucher`,subtitle:`Adjustments, Non-cash`,useWhen:`Depreciation, provisions and adjustment entries.`,entry:[{date:`30-Apr-2025`,particulars:`Depreciation Expense A/c Dr`,dr:`₹5,000`,cr:``},{date:``,particulars:`To Furniture & Fixtures A/c`,dr:``,cr:`₹5,000`}],narration:`Monthly depreciation provided @ 10% p.a. Attach working papers.`}],mistakes:[`Using Payment/Receipt instead of Journal for non-cash adjustments.`,`Posting sales/purchase without proper tax ledgers configured.`,`Creating customer/vendor as Income/Expense ledgers.`]},{id:`roadmap`,type:`roadmap`,title:`Roadmap: From Zero To Confident Beginner`,description:`Follow this learning path step-by-step to build a strong foundation in Tally.`,steps:[{step:`01`,title:`Install & Configure`,description:`Install TallyPrime, set financial year, company data path, users and backups.`},{step:`02`,title:`Create Company & Masters`,description:`Create a company and configure groups, ledgers, customers and vendors.`},{step:`03`,title:`Record Basic Vouchers`,description:`Practice Payment, Receipt, Contra and Journal vouchers.`},{step:`04`,title:`Reconcile & Review`,description:`Perform bank reconciliation and verify accounting accuracy.`}]},{id:`practice`,type:`practice`,title:`Practice Labs & Quick Quiz`,description:`Apply your learning using practical accounting scenarios.`,labs:[{title:`Opening Balances`,difficulty:`Easy`,duration:`10 min`,tasks:[`Create Cash Ledger ₹8,000`,`Create HDFC Bank Ledger ₹22,000`,`Create Capital Ledger ₹30,000`,`Pass opening balance entry using Journal`]},{title:`Day-To-Day Entries`,difficulty:`Easy`,duration:`15 min`,tasks:[`Pay office rent ₹20,000 through bank`,`Receive ₹35,000 from ABC Traders`,`Deposit ₹10,000 cash into bank`]},{title:`Adjustments`,difficulty:`Medium`,duration:`20 min`,tasks:[`Provide depreciation ₹3,000 on Furniture`,`Create provision for expenses ₹5,000`,`Verify ledger balances`]}],quiz:[{question:`Which voucher is used for bank deposits?`,options:[`Payment`,`Receipt`,`Contra`,`Journal`],answer:`Contra`},{question:`ABC Traders usually belongs to?`,options:[`Sundry Creditors`,`Sundry Debtors`,`Indirect Expenses`,`Sales Accounts`],answer:`Sundry Debtors`},{question:`Depreciation entry is normally passed through?`,options:[`Payment`,`Receipt`,`Contra`,`Journal`],answer:`Journal`}]}]},{slug:`gst-taxation`,title:`GST & Taxation`,subtitle:`Configure GST, create tax-ledgers, prepare GST invoices, manage returns, RCM, credit/debit notes and learn e-invoice basics with real-world examples.`,level:`Intermediate`,duration:`6-8 Hours`,lessons:6,resources:6,heroImage:`/Balaji-Infotech/assets/taxation-Cygl-Kb6.png`,sections:[{id:`overview`,type:`overview`,title:`Overview`,content:`Learn GST configuration, tax ledgers, purchase and sales transactions, credit/debit notes, reverse charge mechanism (RCM), GST returns and e-invoicing through practical business examples.`,learn:[{icon:`book`,title:`GST Fundamentals`,description:`Understand GST concepts, GSTIN, HSN/SAC and tax structure.`},{icon:`receipt`,title:`Tax Ledgers`,description:`Create CGST, SGST, IGST and GST-related ledgers.`},{icon:`building`,title:`GST Transactions`,description:`Record GST purchases, sales and expenses.`},{icon:`download`,title:`Returns & Compliance`,description:`Prepare GST returns and understand filing workflow.`}],note:`GST compliance starts with correct ledger creation and accurate transaction recording.`},{id:`configure-gst`,type:`steps`,title:`Configure GST & Tax Ledgers`,duration:`15-20 Minutes`,intro:`Learn how to enable GST, create tax ledgers, configure HSN/SAC codes and ensure compliance settings are correctly applied.`,steps:[{title:`Enable GST Module`,description:`Enter GSTIN, state and place of supply rules.`},{title:`Create Tax Ledgers`,description:`Create CGST, SGST, IGST and Cess ledgers with proper naming conventions.`},{title:`Map Tax Rates`,description:`Link ledgers to GST rate slabs and assign them to products and services.`},{title:`HSN / SAC Codes`,description:`Configure HSN and SAC codes for products and services to ensure compliance.`},{title:`Compliance Settings`,description:`Enable automatic GST calculation in invoices and configure e-way bill settings.`}],checklist:[`GSTIN validated`,`Correct state mapping`,`Tax ledgers created`,`HSN/SAC codes added`,`Auto-calculation enabled`],note:`For interstate supplies IGST applies. For intrastate transactions GST is split between CGST and SGST. Always verify the place of supply.`},{id:`gst-invoices`,type:`invoiceTypes`,title:`GST Invoice Types & Creation`,invoices:[{title:`B2B Invoice (Taxable)`,description:`Show HSN, tax breakup and GSTINs for both parties.`,invoice:[`Invoice #INV1001`,`Date: 12-Aug-2025`,`Buyer: XYZ Pvt Ltd (GSTIN: 27XYZDE6789H1Z2)`,`Items: Supply – ₹50,000`,`Tax: CGST 9% ₹4,500 + SGST 9% ₹4,500`,`Total: ₹59,000`]},{title:`B2C Invoice (Retail)`,description:`Simplified format for consumers; show tax where applicable.`,invoice:[`Invoice #INV1002`,`Date: 13-Aug-2025`,`Buyer: Retail Customer`,`Items: Goods sold – ₹2,000`,`GST 18%: ₹360`,`Total: ₹2,360`]}],note:`Always capture HSN/SAC and tax breakup on B2B invoices for proper reconciliation. For exports, ensure LUT/Bond details are included.`},{id:`returns-rcm`,type:`gstReturns`,title:`Returns, RCM, Credit & Debit Notes`,cards:[{title:`Returns Overview`,content:`Know which returns (GSTR-1, GSTR-3B, annual) you need to file and reconcile sales before filing. Learn about due dates, late fees and input tax credit rules.`},{title:`Reverse Charge Mechanism (RCM)`,content:`When the recipient pays tax instead of the supplier. Common for imports and notified supplies. Record correctly to avoid mismatches and claim ITC where applicable.`}],creditDebitNote:{title:`Credit / Debit Notes`,content:`Reference the original invoice, specify the reason and adjust taxable values in returns. Common reasons include goods returned, price revisions and clerical corrections.`},tip:`Always reconcile sales, purchases and GST liability before filing returns to avoid notices and mismatches.`},{id:`e-invoice`,type:`eInvoice`,title:`E-Invoice Basics`,description:`E-invoice (IRP) applies beyond turnover thresholds. Generate IRN & QR after submitting JSON to IRP. Keep signed JSON for audit trail.`,process:[`Prepare invoice JSON per schema with seller, buyer, item and tax blocks.`,`Submit to IRP via software to obtain IRN and signed QR code.`,`Store IRN and signed JSON for compliance and audit requirements.`],note:`Thresholds change periodically. Verify current government rules before enabling e-invoicing. Businesses above prescribed turnover limits must comply.`},{id:`faq`,type:`faq`,title:`Frequently Asked Questions`,questions:[{question:`What is GST and why was it introduced?`,answer:`GST (Goods and Services Tax) is a single indirect tax system replacing multiple taxes like VAT, service tax, and excise duty.It was introduced to simplify taxation, eliminate cascading of taxes (tax on tax), and create a unified market across India.GST (Goods and Services Tax) is a single indirect tax system replacing multiple taxes like VAT, Service Tax and Excise Duty. It was introduced to simplify taxation and eliminate cascading taxes.`},{question:`What is the difference between CGST, SGST and IGST?`,answer:`CGST – Central Goods and Services Tax, collected by the central government. SGST – State Goods and Services Tax, collected by the state government for intra-state sales. IGST – Integrated Goods and Services Tax, collected by the central government for inter-state sales.CGST and SGST apply to intra-state transactions, while IGST applies to inter-state transactions.`},{question:`What is Reverse Charge Mechanism (RCM)?`,answer:`In RCM, the buyer (recipient of goods/services) is liable to pay GST instead of the seller. Example: Services taken from a lawyer or import of services from abroad.Under RCM, the recipient pays GST instead of the supplier for specified goods and services.`},{question:`How are GST returns filed?`,answer:`GST returns are filed online using the GST portal. Common returns include: GSTR-1: Outward supplies (sales), GSTR-3B: Summary of sales, purchases, and tax liability, GSTR-9: Annual return, GSTR-9C: Reconciliation statement (for audits)`},{question:`What is an e-Invoice and who needs to generate it?`,answer:`An e-invoice is a digital invoice authenticated by the GST portal.Businesses with turnover above the government-specified threshold (currently ₹10 crore and above) must generate e-invoices for B2B transactions.`}]}]},{slug:`inventory-stock`,title:`Inventory & Stock Management`,badge:`Inventory & Stock`,duration:`4-6 Hours`,heroDescription:`Stock items, units of measure, godown setup, batching, transfers, reorder levels and Bill of Materials (BOM). Templates, use-cases and best practices.`,heroImage:`/Balaji-Infotech/assets/stock-BY1a1bdb.jpg`,level:`Intermediate`,sections:[{id:`overview`,type:`overview`,title:`Overview`,content:`Learn how to manage inventory efficiently in TallyPrime through stock items, units of measure, godown management, batch tracking, stock transfers, reorder levels and Bill of Materials (BOM). Gain practical experience with real-world inventory workflows used in trading, retail and manufacturing businesses.`,learn:[{icon:`package`,title:`Stock Items`,description:`Create stock masters and manage item classifications.`},{icon:`ruler`,title:`Units of Measure`,description:`Configure UOMs for accurate inventory tracking and reporting.`},{icon:`building`,title:`Godown Management`,description:`Organize inventory across multiple warehouses and locations.`},{icon:`arrow-right-left`,title:`Stock Movement`,description:`Handle stock transfers, batching, expiry tracking and reorder levels.`}],note:`A well-structured inventory system improves stock accuracy, purchasing decisions and overall business efficiency.`},{id:`stock-items`,type:`inventoryCards`,title:`Stock Items & Item Master`,description:`Stock items represent goods or raw materials. Key fields in the item master include:`,cards:[{title:`Item Code & Name`,description:`Unique identifier used for inventory tracking.`},{title:`Category / Group`,description:`Used for classification and reporting.`},{title:`HSN / SKU`,description:`Optional codes useful for taxation and cataloguing.`},{title:`Default UOM`,description:`Base unit of measure used for transactions.`},{title:`Valuation Method`,description:`FIFO, LIFO or Weighted Average valuation.`},{title:`Reorder Levels`,description:`Configure reorder level and reorder quantity.`},{title:`Batch / Serial Tracking`,description:`Enable tracking when required.`}],tip:`Use concise item codes (e.g. RM-CU-001) to prevent duplicates and speed up data entry.`},{id:`uom`,type:`inventoryCards`,title:`Units Of Measure (UOM)`,description:`Define standard units for quantity tracking and inventory conversions.`,cards:[{title:`Piece (pcs)`,description:`Commonly used for finished goods and individual products.`},{title:`Kilogram (kg)`,description:`Used for raw materials and bulk inventory.`},{title:`Meter (m)`,description:`Suitable for fabrics, wires, cables and rolls.`},{title:`Box / Carton`,description:`Used for packaging and wholesale inventory.`},{title:`Litre (ltr)`,description:`Ideal for liquids, oils and chemicals.`},{title:`Dozen`,description:`Used when items are sold in groups of twelve.`}],tip:`Configure UOM conversions (e.g. 1 Box = 12 Pieces) to simplify purchasing, sales and stock reporting.`},{id:`godown-setup`,type:`warehouse`,title:`Godown / Warehouse Setup`,description:`Organise physical inventory locations and define how stock is stored and moved.`,setupPoints:[`Create godown names (Main Warehouse, Finished Goods, Raw Materials).`,`Assign default godowns to purchase and sales transactions.`,`Use zones, racks and bins for detailed storage management.`,`Enable multi-warehouse stock valuation where supported.`],useCases:[{title:`Retail Distribution`,description:`Multiple stores connected to a central distribution warehouse. Stock is replenished and transferred regularly.`},{title:`Manufacturing`,description:`Separate Raw Material, Work-in-Progress (WIP) and Finished Goods godowns for better production control.`}],tip:`Use separate godowns for raw materials, finished goods and damaged stock to improve inventory visibility.`},{id:`batching-expiry`,type:`batching`,title:`Batching, Serial Numbers & Expiry Management`,description:`Track inventory using batch numbers, serial numbers and expiry dates for better traceability and stock control.`,points:[{title:`Consumables with expiry`,description:`food, pharma and FMCG products`},{title:`Tracked assets`,description:`electronics and equipment with serial numbers`},{title:`Manufactured lots`,description:`use batch numbers for production traceability`}],bestPractice:`Capture batch number, manufacture date and expiry date. Follow FIFO (First In First Out) for expiry-sensitive inventory.`,tip:`Batch tracking helps identify affected stock quickly during recalls and quality checks.`},{id:`stock-transfers`,type:`batching`,title:`Stock Transfers & Movements`,description:`Track inventory movement across warehouses, production units and business locations while maintaining accurate stock records.`,points:[{title:`Inter-godown transfers`,description:`movement of stock between warehouses or storage locations`},{title:`Material issue / consumption`,description:`issue raw materials to production or assembly processes`},{title:`Stock adjustments`,description:`record damage, shrinkage, shortages or write-offs`},{title:`Stock receipts`,description:`receive inventory from purchases, production or transfers`}],bestPractice:`Maintain proper transfer vouchers and update stock ledgers immediately after every movement to avoid quantity mismatches.`,tip:`Regular stock reconciliation helps identify discrepancies between physical inventory and system records.`},{id:`reorder-levels`,type:`batching`,title:`Reorder Levels & Safety Stock`,description:`Automate replenishment planning by defining reorder levels, lead times and safety stock requirements.`,points:[{title:`Average daily usage`,description:`track normal consumption or sales quantity per day`},{title:`Lead time`,description:`number of days required to receive stock from suppliers`},{title:`Safety stock`,description:`maintain a buffer quantity to handle demand fluctuations`},{title:`Reorder point`,description:`(Average Daily Usage × Lead Time) + Safety Stock`}],bestPractice:`Review reorder levels regularly based on seasonal demand, supplier performance and historical consumption patterns.`,tip:`Example: If daily usage is 10 pcs, lead time is 7 days and safety stock is 20 pcs, reorder point = (10 × 7) + 20 = 90 pcs.`},{id:`bom`,type:`bom`,title:`Bill Of Materials (BOM)`,description:`Define components, quantities and production requirements needed to manufacture a finished product.`,points:[{title:`BOM Header`,description:`finished item, unit and version information`},{title:`Component Lines`,description:`item, quantity, UOM and wastage percentage`},{title:`Routing / Operations`,description:`optional production or assembly process steps`},{title:`Yield & Scrap`,description:`account for expected production output and losses`}],example:{title:`Example BOM: Wooden Chair (1 Unit)`,items:[`Seat (1 pcs)`,`Backrest (1 pcs)`,`Legs (4 pcs)`,`Screws (12 pcs)`],assemblyTime:`20 mins`},tip:`Maintain BOM versions so changes in materials, quantities and production methods can be tracked over time.`},{id:`roadmap`,type:`roadmap`,title:`Roadmap: Inventory & Stock Management`,description:`Follow this structured learning path to master inventory control, warehouse management and stock movement workflows in Tally.`,steps:[{step:`01`,title:`Setup Stock Masters`,description:`Create stock items, groups, categories and define inventory masters (30-45 mins).`},{step:`02`,title:`Configure UOM & Godowns`,description:`Set up units of measure, warehouse locations and inventory structure (30-45 mins).`},{step:`03`,title:`Manage Batches & Stock Movement`,description:`Track batches, expiry dates, stock transfers and inventory adjustments (45-60 mins).`},{step:`04`,title:`Reorder Levels & BOM`,description:`Configure reorder controls, safety stock and bill of materials for manufacturing (90–120 mins).`}]},{id:`practice`,type:`practice`,title:`Practice Labs & Templates`,description:`Apply inventory concepts using practical stock management scenarios.`,labs:[{title:`Stock Masters Setup`,difficulty:`Easy`,duration:`15 min`,tasks:[`Create 10 stock items with categories and groups`,`Assign appropriate Units of Measure (UOM)`,`Enter opening stock quantities`,`Verify item master reports`]},{title:`Godown & Stock Transfer`,difficulty:`Medium`,duration:`20 min`,tasks:[`Create Main Warehouse and Branch Godown`,`Transfer 100 units between godowns`,`Verify stock movement reports`,`Check location-wise stock balances`]},{title:`Batching & Expiry Management`,difficulty:`Medium`,duration:`20 min`,tasks:[`Create batch-wise inventory items`,`Enter manufacturing and expiry dates`,`Track batch availability`,`Generate expiry monitoring report`]},{title:`BOM & Production Exercise`,difficulty:`Advanced`,duration:`30 min`,tasks:[`Create a BOM for a finished product`,`Add raw materials and quantities`,`Record production of finished goods`,`Verify consumption and stock updates`]},{title:`Reorder & Safety Stock`,difficulty:`Medium`,duration:`15 min`,tasks:[`Configure reorder levels for inventory items`,`Set safety stock quantities`,`Generate reorder reports`,`Identify items requiring replenishment`]}],note:`Practice all exercises using a demo company before applying inventory controls to live business data.`}]},{slug:`payroll-management`,title:`Payroll Management — From Employee Master To Payslip`,badge:`Payroll Management`,duration:`5-7 Hours`,heroDescription:`Employee masters, salary heads, statutory deductions (PF/ESI), payslip generation and monthly payroll processing. Includes templates and compliance notes.`,heroImage:Cy,level:`Advanced`,sections:[{id:`overview`,type:`overview`,title:`Overview`,content:`This module guides students through practical payroll management in Tally, including employee master creation, salary structure configuration, statutory compliance, payslip generation and month-end payroll processing.`,learn:[{icon:`users`,title:`Employee Masters`,description:`Create employee records with personal, banking and employment details.`},{icon:`wallet`,title:`Salary Structures`,description:`Configure earnings, deductions and salary templates.`},{icon:`shield`,title:`PF & ESI Compliance`,description:`Understand statutory payroll deductions and contributions.`},{icon:`receipt`,title:`Payroll Processing`,description:`Generate payslips and process monthly salaries accurately.`}],note:`Accurate employee data and salary structures are essential for compliant payroll processing.`},{id:`employee-master`,type:`batching`,title:`Employee Master`,description:`Create and maintain employee records with personal, banking and employment details required for payroll processing.`,points:[{title:`Employee code & name`,description:`Unique employee identifier used for payroll records and reporting.`},{title:`Personal details`,description:`PAN, Aadhaar, date of birth, address and contact information.`},{title:`Bank details`,description:`Account number, IFSC code and payment preferences for salary transfers.`},{title:`Employment details`,description:`Date of joining, department, designation and employee category.`},{title:`Salary structure`,description:`Assign earnings, deductions and salary templates to employees.`},{title:`Statutory flags`,description:`Configure PF, ESI and other statutory applicability settings.`}],tip:`Use unique employee codes and verify PAN, Aadhaar and bank details before processing payroll to avoid payment failures.`},{id:`salary-heads`,type:`batching`,title:`Salary Heads & Components`,description:`Configure earnings, deductions and employer contributions that form an employee's salary structure.`,points:[{title:`Basic Pay`,description:`Primary fixed salary component, usually forming the foundation for statutory calculations.`},{title:`HRA`,description:`House Rent Allowance provided to employees for accommodation expenses.`},{title:`Conveyance & Allowances`,description:`Additional benefits such as conveyance, medical and special allowances.`},{title:`Gross Pay`,description:`Total earnings before deductions are applied.`},{title:`Deductions`,description:`Employee PF, Employee ESI, Professional Tax, TDS and other recoveries.`},{title:`Employer Contributions`,description:`Employer PF and ESI contributions maintained separately from employee deductions.`}],tip:`Create salary templates with predefined earnings and deductions to simplify employee onboarding and payroll processing.`},{id:`statutory-deductions`,type:`batching`,title:`Statutory Deductions: PF, ESI & Tax Compliance`,description:`Configure statutory payroll deductions and ensure compliance with government regulations.`,points:[{title:`Provident Fund (PF)`,description:`Configure employee and employer PF contributions, PF numbers and wage categories.`},{title:`Employee State Insurance (ESI)`,description:`Set up ESI eligibility, contribution rates and employee coverage details.`},{title:`Professional Tax (PT)`,description:`Apply state-specific Professional Tax slabs and deduction rules.`},{title:`Tax Deducted at Source (TDS)`,description:`Configure income tax calculations, exemptions and monthly tax deductions.`},{title:`Contribution Rates`,description:`Maintain employee and employer contribution percentages as per current regulations.`},{title:`Compliance Monitoring`,description:`Verify statutory settings regularly to ensure accurate payroll processing and reporting.`}],tip:`PF, ESI and tax regulations may change periodically. Always verify the latest contribution rates, salary limits and statutory rules before processing payroll.`},{id:`payslip-generation`,type:`bom`,title:`Payslip Generation & Templates`,description:`Generate professional payslips with complete salary, deduction and payment details.`,points:[{title:`Company & Employee Details`,description:`Include company information, employee name, code and designation.`},{title:`Pay Period & Payment Date`,description:`Specify salary month, payroll period and payment date.`},{title:`Earnings Breakdown`,description:`Display Basic Pay, HRA, allowances and other earning components.`},{title:`Deductions Breakdown`,description:`Show PF, ESI, Professional Tax, TDS and other deductions.`},{title:`Net Pay`,description:`Calculate final payable salary in numbers and words.`},{title:`Bank & Payment Details`,description:`Display bank account details and payment method.`}],example:{title:`Sample Payslip Summary`,items:[`Employee: EMP001 - Sai Varma`,`Payroll Period: August 2025`,`Gross Earnings: ₹50,000`,`PF Deduction: ₹6,000`,`TDS Deduction: ₹1,200`,`Net Salary: ₹42,800`],assemblyTime:`20 mins`},tip:`Provide both PDF payslips and digital copies for employees. Maintain payslip archives for audits and future reference.`},{id:`monthly-payroll`,type:`steps`,title:`Monthly Payroll Processing`,duration:`20-30 Minutes`,intro:`Follow a structured payroll workflow from attendance verification to salary disbursement and accounting entries.`,steps:[{title:`Verify Attendance & Leaves`,description:`Review employee attendance, leave records, overtime and attendance exceptions for the payroll period.`},{title:`Apply Salary Structures`,description:`Load salary templates, earnings, allowances, deductions and employee-specific adjustments.`},{title:`Process Loans & Recoveries`,description:`Calculate loan repayments, salary advances and other employee recoveries.`},{title:`Compute Statutory Contributions`,description:`Calculate PF, ESI, Professional Tax, TDS and generate required statutory reports.`},{title:`Post Payroll Entries`,description:`Transfer payroll expenses, liabilities and deduction entries to the accounting system.`},{title:`Generate Salary Payments`,description:`Create bank transfer files, NEFT payment files or salary disbursement reports.`}],checklist:[`Attendance approved`,`Salary structures verified`,`Loans and recoveries processed`,`PF, ESI and tax calculations reviewed`,`Payroll entries posted`,`Bank payment file generated`],note:`Always run a payroll preview before final processing. Verify statutory reports, payment amounts and employee balances, and take a backup before posting the final payroll.`},{id:`roadmap`,type:`roadmap`,title:`Roadmap: From Employee Setup To Payroll Processing`,description:`Follow this learning path step-by-step to master employee management, salary structures, statutory compliance and payroll processing.`,steps:[{step:`01`,title:`Employee Masters`,description:`Set up employee records with personal details, bank information, salary structures and statutory settings (30–40 mins).`},{step:`02`,title:`Salary Heads`,description:`Create earnings, allowances, deductions and employer contribution components (30–40 mins).`},{step:`03`,title:`Statutory Setup`,description:`Configure statutory deductions, contribution rates and compliance settings (45–60 mins).`},{step:`04`,title:`Generate Payslips`,description:`Create payroll templates, calculate salaries and generate employee payslips (60–90 mins).`}]},{id:`practice`,type:`practice`,title:`Practice Labs & Templates`,description:`Apply your payroll knowledge using real-world employee, salary and compliance scenarios.`,labs:[{title:`Employee Master Setup`,difficulty:`Easy`,duration:`15 min`,tasks:[`Create 10 employee masters with unique employee codes`,`Add PAN, Aadhaar and bank account details`,`Assign departments and designations`,`Configure PF and ESI eligibility`]},{title:`Salary Structure Configuration`,difficulty:`Easy`,duration:`20 min`,tasks:[`Create monthly and hourly salary templates`,`Configure Basic, HRA and Special Allowance`,`Add deduction components for PF, ESI and PT`,`Assign salary structures to employees`]},{title:`Payroll Processing`,difficulty:`Medium`,duration:`25 min`,tasks:[`Run payroll preview for all employees`,`Verify earnings and deduction calculations`,`Generate final payslips in PDF format`,`Review payroll summary reports`]},{title:`Compliance & Payments`,difficulty:`Medium`,duration:`20 min`,tasks:[`Generate PF and ESI challans`,`Prepare monthly TDS summary`,`Export NEFT bank payment file`,`Simulate salary disbursement process`]}],note:`Always test payroll on a demo company and verify statutory calculations before processing live employee salaries.`}]},{slug:`reports-mis`,title:`Reports & MIS — Financial Insights & Dashboards`,badge:`Reports & MIS`,duration:`4-5 Hours`,heroDescription:`Learn how to generate accounting reports, analyze business performance, and create management dashboards using Trial Balance, Profit & Loss, Balance Sheet, Ratio Analysis and Daybook reports.`,heroImage:`/Balaji-Infotech/assets/reportsmis-DBopqaA2.jpg`,level:`Advanced`,sections:[{id:`overview`,type:`overview`,title:`Overview`,content:`This module teaches how to generate accounting reports and build MIS dashboards for better business decision-making. Learn to analyze Trial Balance, Profit & Loss, Balance Sheet, Ratio Analysis and Daybook reports while using filters and export options to create meaningful financial insights.`,learn:[{icon:`scale`,title:`Trial Balance`,description:`Verify ledger balances, analyze groups and validate accounting accuracy.`},{icon:`chartcolumn`,title:`Profit & Loss`,description:`Evaluate income, expenses and profitability across different periods.`},{icon:`building`,title:`Balance Sheet`,description:`Understand assets, liabilities and business financial position.`},{icon:`chartpie`,title:`MIS & Ratio Analysis`,description:`Track key performance indicators and generate management reports.`}],note:`Regular review of financial reports helps identify trends, improve decision-making and maintain business control.`},{id:`trial-balance`,type:`report`,title:`Trial Balance`,description:`Trial balance is a summary of ledger balances used to verify that total debits equal total credits.`,points:[{title:`Group & Ledger Drill-Down`,description:`Analyze balances at group and ledger level for detailed review.`},{title:`Period Selection`,description:`Generate monthly, quarterly or yearly trial balance reports.`},{title:`Opening & Closing Balances`,description:`Include opening balances, closing balances and zero-balance ledgers.`},{title:`Export Options`,description:`Export reports to PDF or Excel for audit and management review.`}],sampleTitle:`Sample Trial Balance`,sample:[{ledger:`Cash`,debit:`₹120,000`,credit:`-`},{ledger:`Bank`,debit:`₹250,000`,credit:`-`},{ledger:`Capital`,debit:`-`,credit:`₹300,000`},{ledger:`Sales`,debit:`-`,credit:`₹70,000`}],totalDebit:`₹370,000`,totalCredit:`₹370,000`,note:`A balanced trial balance confirms arithmetic accuracy but does not guarantee that all accounting errors are eliminated.`},{id:`profit-loss`,type:`batching`,title:`Profit & Loss Account`,description:`Shows revenue and expense performance over a period to help evaluate profitability and business growth.`,points:[{title:`Revenue`,description:`Track sales income, service income and other operating revenue.`},{title:`Direct Costs & Gross Profit`,description:`Analyze cost of goods sold and calculate gross profit margins.`},{title:`Operating Expenses`,description:`Review administrative, selling and operational expenses.`},{title:`Net Profit`,description:`Measure overall profitability after deducting all expenses and taxes.`},{title:`Comparative Analysis`,description:`Compare current performance with previous periods and identify trends.`}],tip:`Use comparative reports and percentage analysis to identify profit drivers and control business costs.`},{id:`balance-sheet`,type:`batching`,title:`Balance Sheet`,description:`Provides a snapshot of the company's financial position by showing assets, liabilities and owner's equity at a specific date.`,points:[{title:`Assets`,description:`View current and non-current assets such as cash, bank balances, inventory, debtors and fixed assets.`},{title:`Liabilities`,description:`Track short-term and long-term obligations including creditors, loans and outstanding expenses.`},{title:`Owner's Equity`,description:`Analyze capital invested, retained earnings and accumulated profits.`},{title:`Working Capital Analysis`,description:`Compare current assets against current liabilities to assess liquidity.`},{title:`Debtor & Creditor Drill-Down`,description:`Review ageing analysis and outstanding balances for better financial control.`}],tip:`A healthy balance sheet maintains an appropriate balance between assets, liabilities and equity while ensuring sufficient working capital.`},{id:`ratio-analysis`,type:`bom`,title:`Ratio Analysis`,description:`Financial ratios help evaluate liquidity, profitability, efficiency and leverage to measure business performance and financial health.`,points:[{title:`Liquidity`,description:`Current Ratio = Current Assets ÷ Current Liabilities. Measures the ability to meet short-term obligations.`},{title:`Profitability`,description:`Net Profit Margin = Net Profit ÷ Net Sales. Indicates overall profitability.`},{title:`Efficiency`,description:`Inventory Turnover = Cost of Goods Sold ÷ Average Inventory. Measures inventory utilization.`},{title:`Leverage`,description:`Debt-to-Equity Ratio = Total Debt ÷ Equity. Evaluates financial risk and dependence on borrowing.`}],example:{title:`Example Ratio Calculation`,items:[`Current Assets = ₹200,000`,`Current Liabilities = ₹100,000`,`Current Ratio = 200,000 ÷ 100,000`,`Current Ratio = 2.0`],assemblyTime:`Analysis Time: 5 mins`},tip:`Compare ratios across multiple periods and industry benchmarks to identify trends and performance gaps.`},{id:`daybook`,type:`batching`,title:`Daybook / Journal`,description:`Daybook records all accounting transactions in chronological order, helping users review entries, verify activity and trace financial movements.`,points:[{title:`Transaction History`,description:`View all vouchers and accounting entries recorded during a selected period.`},{title:`Receipt & Payment Review`,description:`Monitor daily cash receipts, bank receipts, payments and fund movements.`},{title:`Error Detection`,description:`Identify unusual entries, duplicate vouchers or incorrect postings quickly.`},{title:`Advanced Filtering`,description:`Filter transactions by voucher type, ledger, party name, amount or date range.`},{title:`Audit Trail`,description:`Trace the source of transactions and drill down into supporting vouchers.`}],tip:`Regularly review the daybook to identify posting errors, unusual transactions and missing entries before generating financial reports.`},{id:`custom-filters`,type:`batching`,title:`Customizable Report Filters`,description:`Use advanced filters to generate focused reports and gain deeper business insights across departments, periods and business segments.`,points:[{title:`Date & Period Filters`,description:`Analyze reports by custom date range, month, quarter or financial year.`},{title:`Cost Center Analysis`,description:`Filter data by department, branch, project or profit center.`},{title:`Customer & Vendor Segmentation`,description:`Review performance and transactions for specific customers, suppliers or business groups.`},{title:`Inventory & SKU Filters`,description:`Generate reports for selected products, categories, stock groups or warehouses.`},{title:`Currency & Consolidation`,description:`View multi-currency reports and consolidated business performance where applicable.`}],tip:`Save frequently used filter combinations as custom views to speed up report generation and improve decision-making.`},{id:`roadmap`,type:`roadmap`,title:`Roadmap: 2–4 Hour Learning Plan`,description:`Follow this structured path to understand financial reports, analyze business performance and build management information reports.`,steps:[{step:`01`,title:`Trial Balance`,description:`Learn to verify ledger balances, drill down into accounts and validate accounting accuracy (20–30 mins).`},{step:`02`,title:`Profit & Loss Analysis`,description:`Analyze revenue, expenses, gross profit and net profit using comparative reporting (30–45 mins).`},{step:`03`,title:`Balance Sheet`,description:`Understand assets, liabilities, equity and evaluate the overall financial position of the business (20–30 mins).`},{step:`04`,title:`Ratio Analysis & MIS`,description:`Interpret key financial ratios and use customizable filters to generate business insights (30–40 mins).`}]},{id:`practice`,type:`practice`,title:`Practice Labs & Report Walkthroughs`,description:`Apply your reporting knowledge through practical exercises that focus on financial analysis, dashboard creation and management reporting.`,labs:[{title:`Trial Balance Review`,difficulty:`Easy`,duration:`15 min`,tasks:[`Generate a Trial Balance for Q1`,`Identify debit and credit totals`,`Verify ledger balances`,`Investigate any differences`]},{title:`Profit & Loss Analysis`,difficulty:`Medium`,duration:`20 min`,tasks:[`Generate a Profit & Loss report`,`Enable comparative columns`,`Identify major expense categories`,`Analyze gross profit and net profit trends`]},{title:`Balance Sheet & Ratios`,difficulty:`Medium`,duration:`20 min`,tasks:[`Generate a Balance Sheet report`,`Calculate working capital`,`Compute Current Ratio`,`Evaluate liquidity position`]},{title:`MIS Dashboard Reporting`,difficulty:`Advanced`,duration:`25 min`,tasks:[`Filter top 5 customers by revenue`,`Analyze receivable ageing`,`Export reports to Excel`,`Prepare a management summary dashboard`]}],note:`Practice using report filters and saved views regularly to improve reporting efficiency and decision-making.`}]},{slug:`advanced-tallyprime`,title:`Advanced TallyPrime — Business Intelligence`,badge:`Advanced TallyPrime`,duration:`4-5 Hours`,heroDescription:`Master advanced TallyPrime features including cost centers, budgets, multi-currency accounting, interest calculations, scenario management, security controls and business automation.`,heroImage:Ty,level:`Expert`,sections:[{id:`overview`,type:`overview`,title:`Overview`,content:`This module focuses on advanced TallyPrime capabilities used by growing businesses and accounting professionals. Learn cost center accounting, budget management, multi-currency transactions, interest calculations, scenario analysis, security controls, audit features and workflow automation to improve operational efficiency and financial decision-making.`,learn:[{icon:`building`,title:`Cost Centers & Budgeting`,description:`Track department-wise profitability and monitor budget versus actual performance.`},{icon:`globe`,title:`Multi-Currency Accounting`,description:`Manage foreign currency transactions, exchange rates and international business reporting.`},{icon:`shield`,title:`Security & Audit Controls`,description:`Configure user permissions, audit trails and data protection settings.`},{icon:`settings`,title:`Automation & Productivity`,description:`Use voucher classes, recurring transactions and advanced Tally features to reduce manual work.`}],note:`Advanced TallyPrime features help organizations improve control, automate processes and gain deeper financial insights for better decision-making.`},{id:`cost-centers`,type:`batching`,title:`Cost Centers & Cost Categories`,description:`Cost centers help track income and expenses department-wise, project-wise or branch-wise without creating separate companies. They provide deeper insight into business performance and profitability.`,points:[{title:`Cost Centers`,description:`Create departments, branches or projects as cost centers to track financial performance individually.`},{title:`Cost Categories`,description:`Group multiple cost centers under a common category for consolidated reporting.`},{title:`Department Tracking`,description:`Analyze expenses and revenues separately for Sales, Marketing, HR, Production and other departments.`},{title:`Project Profitability`,description:`Track project-specific costs and revenues to measure profitability and performance.`},{title:`Branch Performance Analysis`,description:`Compare income, expenses and profit across multiple business locations.`}],tip:`Use cost centers consistently across vouchers to generate meaningful departmental and project-wise reports.`},{id:`budgets-controls`,type:`steps`,title:`Budgets & Controls`,duration:`20-30 Minutes`,intro:`Learn how to create budgets, define spending limits, compare actual performance against targets and use budget controls for effective financial planning.`,steps:[{title:`Create Budget Groups`,description:`Define budgets for departments, cost centers, projects or ledger groups.`},{title:`Set Budget Amounts`,description:`Enter monthly, quarterly or annual budget targets for income and expenses.`},{title:`Assign Cost Centers`,description:`Link budgets to specific cost centers for department-wise monitoring.`},{title:`Monitor Actual vs Budget`,description:`Compare actual transactions against budgeted figures and identify variances.`},{title:`Analyze Variances`,description:`Review overspending, underutilization and performance gaps using budget reports.`}],checklist:[`Budget groups created`,`Budget targets assigned`,`Cost centers linked`,`Variance reports generated`,`Performance reviewed`],note:`Budgets are most effective when reviewed regularly. Compare actual results with targets every month to maintain financial discipline and improve planning accuracy.`},{id:`interest-calculation`,type:`batching`,title:`Interest Calculation`,description:`Automate interest calculations for receivables and payables to improve accuracy, reduce manual effort and monitor outstanding balances effectively.`,points:[{title:`Simple Interest`,description:`Calculate interest based on principal amount, rate and time period using standard interest formulas.`},{title:`Compound Interest`,description:`Apply interest on both principal and accumulated interest for long-term receivables and payables.`},{title:`Customer Interest`,description:`Automatically calculate interest on overdue customer balances and outstanding invoices.`},{title:`Supplier Interest`,description:`Track interest payable to suppliers and vendors based on agreed payment terms.`},{title:`Interest Reports`,description:`Generate detailed reports showing interest receivable, payable and outstanding amounts.`}],tip:`Configure interest parameters directly in ledger masters to automate calculations and ensure consistency across transactions.`},{id:`security-audit`,type:`steps`,title:`Security & Audit Controls`,duration:`20-30 Minutes`,intro:`Learn how to secure company data, manage user permissions, maintain audit trails and implement best practices for data protection and compliance.`,steps:[{title:`Create User Roles`,description:`Define users such as Administrator, Accountant, Auditor and Data Entry Operator with appropriate responsibilities.`},{title:`Configure Access Rights`,description:`Control access to vouchers, reports, masters and company features based on user roles.`},{title:`Enable Security Controls`,description:`Set passwords, user authentication rules and company-level security settings.`},{title:`Monitor Audit Trail`,description:`Track modifications, deletions and user activities to maintain accountability and transparency.`},{title:`Backup & Data Protection`,description:`Schedule regular backups and implement recovery procedures to safeguard business data.`}],checklist:[`User roles created`,`Access rights configured`,`Security settings enabled`,`Audit trail reviewed`,`Backup schedule established`],note:`Review user permissions regularly and maintain secure backups to prevent unauthorized access, accidental data loss and compliance issues.`},{id:`tally-automation`,type:`batching`,title:`Tally Automation`,description:`Leverage advanced automation features in TallyPrime to reduce manual effort, improve accuracy and streamline day-to-day accounting operations.`,points:[{title:`Voucher Classes`,description:`Automate accounting allocations and ledger postings while recording transactions.`},{title:`Memorandum Vouchers`,description:`Record provisional transactions for review without affecting actual books of accounts.`},{title:`Recurring Transactions`,description:`Automate repetitive entries such as rent, salaries, subscriptions and utility expenses.`},{title:`Auto Calculations`,description:`Configure automatic tax, discount, interest and inventory calculations to minimize errors.`},{title:`Data Import & Export`,description:`Import transactions from Excel and export reports in multiple formats for analysis and sharing.`}],tip:`Use automation features carefully and test configurations in a demo company before applying them to live business data.`},{id:`roadmap`,type:`roadmap`,title:`Roadmap: From Advanced Accounting To Business Automation`,description:`Follow this structured learning path to master advanced TallyPrime features used by accountants, finance teams and business managers.`,steps:[{step:`01`,title:`Cost Centers & Budgeting`,description:`Track department-wise profitability and compare budgeted versus actual performance.`},{step:`02`,title:`Interest & Scenario Management`,description:`Automate interest calculations and create business scenarios for forecasting and analysis.`},{step:`03`,title:`Security & Audit Controls`,description:`Configure user permissions, audit trails and data protection mechanisms.`},{step:`04`,title:`Tally Automation`,description:`Automate recurring transactions, voucher entries, calculations and reporting workflows.`}]},{id:`practice`,type:`practice`,title:`Practice Labs & Advanced Scenarios`,description:`Apply advanced TallyPrime concepts through hands-on exercises involving budgeting, multi-currency accounting, automation and security controls.`,labs:[{title:`Department Cost Tracking`,difficulty:`Easy`,duration:`15 min`,tasks:[`Create Sales and Marketing cost centers`,`Allocate expenses to each department`,`Record department-wise transactions`,`Generate cost center profitability report`]},{title:`Budget Variance Analysis`,difficulty:`Medium`,duration:`20 min`,tasks:[`Create an annual sales budget`,`Define monthly expense budgets`,`Record actual transactions`,`Analyze Budget vs Actual reports`]},{title:`Multi-Currency Transactions`,difficulty:`Medium`,duration:`20 min`,tasks:[`Create a USD customer ledger`,`Record an export sales invoice`,`Configure exchange rates`,`Review forex gain/loss reports`]},{title:`Interest & Scenario Management`,difficulty:`Advanced`,duration:`25 min`,tasks:[`Enable interest calculation for customers`,`Generate interest receivable report`,`Create optional vouchers`,`Analyze business scenarios without affecting actual books`]},{title:`Security & Automation Setup`,difficulty:`Advanced`,duration:`30 min`,tasks:[`Create Accountant and Auditor user roles`,`Configure access permissions`,`Enable audit trail`,`Create recurring transaction templates`,`Export reports to Excel and PDF`]}],note:`Complete all labs using a demo company first. Advanced features such as security controls, automation and scenario management should be tested thoroughly before implementation in a live business environment.`}]}],Oy={download:zr,building:gr,book:fr,receipt:Ei,scale:ji,chartcolumn:br,building:_r,chartpie:Sr,users:Ui,shield:Ri,wallet:Ji,globe:Xr,settings:Pi},ky={Assets:Ji,Liabilities:ii,Income:Vi,Expenses:Ei},Ay={payment:Ji,receipt:Dr,contra:ki,journal:fr,purchase:zi,sales:Ei},jy={payment:`bg-blue-50 text-[#155A96]`,receipt:`bg-blue-50 text-[#155A96]`,contra:`bg-blue-50 text-[#155A96]`,journal:`bg-blue-50 text-[#155A96]`};function My(){let{slug:e}=ht();console.log(e);let t=Dy.find(t=>t.slug===e);if(!t)return(0,F.jsx)(`div`,{className:`min-h-screen flex items-center justify-center`,children:`Course Not Found`});let[n,r]=(0,w.useState)(0),[i,a]=(0,w.useState)({}),[o,s]=(0,w.useState)(null),[c,l]=(0,w.useState)(`overview`),u=window.innerWidth<1024,d=e=>{let t=0;e.forEach((e,n)=>{i[n]===e.answer&&t++}),s(t)};return c===`overview`||t.sections.filter(e=>e.id===c),(0,F.jsxs)(`main`,{className:`bg-[#F8FAFC]`,children:[(0,F.jsxs)(`section`,{className:`relative min-h-[420px] md:min-h-[520px] lg:h-[600px] overflow-hidden`,children:[(0,F.jsx)(`img`,{src:t.heroImage,alt:t.title,className:`absolute inset-0 w-full h-full object-cover`}),(0,F.jsx)(`div`,{className:`absolute inset-0 bg-black/70`}),(0,F.jsx)(`div`,{className:`\r
   relative z-10\r
   max-w-6xl mx-auto\r
   px-4 sm:px-6\r
@@ -3475,9 +3502,7 @@ lg:text-xl\r
             px-6 py-3\r
             sm:px-8 sm:py-4\r
             rounded-xl\r
-            bg-gradient-to-r\r
-            from-[#2563EB]\r
-            to-[#7C3AED]\r
+            bg-[#155A96]\r
             text-white\r
             font-semibold\r
           `,children:`Start Learning`})}),(0,F.jsxs)(`div`,{className:`\r
@@ -3505,14 +3530,14 @@ lg:text-xl\r
     rounded-xl
     text-sm
     font-medium
-    ${c===`overview`?`bg-[#2563EB] text-white`:`bg-white border border-slate-200`}
+    ${c===`overview`?`bg-[#155A96] text-white`:`bg-white border border-slate-200`}
   `,children:`Overview`}),t.sections.filter(e=>e.id!==`overview`).map(e=>(0,F.jsx)(`button`,{onClick:()=>l(e.id),className:`
         whitespace-nowrap
         px-4 py-2
         rounded-xl
         text-sm
         font-medium
-        ${c===e.id?`bg-[#2563EB] text-white`:`bg-white border border-slate-200`}
+        ${c===e.id?`bg-[#155A96] text-white`:`bg-white border border-slate-200`}
       `,children:e.title},e.id))]}),(0,F.jsxs)(`div`,{className:`\r
     grid grid-cols-1 lg:grid-cols-[360px_1fr]\r
     gap-6 lg:gap-8\r
@@ -3535,9 +3560,7 @@ lg:text-xl\r
         `,children:[(0,F.jsxs)(`div`,{className:`flex items-center gap-4 mb-8`,children:[(0,F.jsx)(`div`,{className:`\r
               w-14 h-14\r
               rounded-2xl\r
-              bg-gradient-to-br\r
-              from-[#2563EB]\r
-              to-[#7C3AED]\r
+              bg-[#155A96]\r
               flex\r
               items-center\r
               justify-center\r
@@ -3566,7 +3589,7 @@ lg:text-xl\r
                   h-9\r
                   rounded-full\r
                   bg-[#EEF4FF]\r
-                  text-[#2563EB]\r
+                  text-[#155A96]\r
                   flex\r
                   items-center\r
                   justify-center\r
@@ -3587,7 +3610,7 @@ lg:text-xl\r
                   text-sm
                   transition-colors
                   duration-200
-                  ${c===e.id?`text-[#2563EB] font-semibold`:`text-[#334155] font-medium group-hover:text-[#2563EB]`}
+                  ${c===e.id?`text-[#155A96] font-semibold`:`text-[#334155] font-medium group-hover:text-[#155A96]`}
                 `,children:e.title})})]},e.id))})]})}),(0,F.jsxs)(`main`,{className:`\r
     lg:h-full\r
     lg:overflow-y-auto\r
@@ -3595,40 +3618,37 @@ lg:text-xl\r
     scroll-smooth\r
     content-scroll\r
   `,children:[(0,F.jsxs)(`section`,{id:`overview`,className:`
-    mb-12 lg:mb-24
+    mb-12 lg:mb-16
     scroll-mt-32
     ${u&&c!==`overview`?`hidden`:``}
   `,children:[(0,F.jsx)(`h2`,{className:`\r
-      text-3xl sm:text-4xl lg:text-5xl\r
+      text-2xl sm:text-3xl lg:text-4xl\r
       font-black\r
       text-[#071426]\r
-      mb-10\r
-    `,children:`What You'll Learn`}),(0,F.jsx)(`div`,{className:`space-y-6 lg:space-y-10`,children:(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`p`,{className:`\r
+      mb-4\r
+    `,children:`What You'll Learn`}),(0,F.jsx)(`div`,{className:`space-y-5 lg:space-y-6`,children:(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`p`,{className:`\r
           text-base lg:text-lg\r
           text-slate-700\r
           leading-7 lg:leading-9\r
-          mb-8\r
-        `,children:t.sections.find(e=>e.id===`overview`)?.content}),(0,F.jsx)(`div`,{className:`space-y-5`,children:t.sections.find(e=>e.id===`overview`)?.learn.map((e,t)=>(0,F.jsxs)(`div`,{className:`\r
-                flex\r
-                flex-col sm:flex-row\r
-                gap-3 sm:gap-4\r
+          mb-6\r
+        `,children:t.sections.find(e=>e.id===`overview`)?.content}),(0,F.jsx)(`div`,{className:`space-y-5`,children:t.sections.find(e=>e.id===`overview`)?.learn.map((e,t)=>(Oy[e.icon],(0,F.jsxs)(`div`,{className:`\r
+                grid\r
+                md:grid-cols-[240px_1fr]\r
+                gap-1\r
                 items-start\r
-              `,children:[(0,F.jsxs)(`div`,{className:`\r
-                    mt-1\r
-                    px-4 py-2\r
-                    rounded-full\r
-                    bg-[#EEF4FF]\r
-                    text-[#2563EB]\r
-                    flex\r
-                    items-center\r
-                    gap-2\r
-                    text-sm\r
-                    font-medium\r
+                pb-3\r
+                border-b\r
+                border-slate-100\r
+                `,children:[(0,F.jsx)(`h3`,{className:`\r
+                    text-[15px]\r
+                    font-bold\r
+                    text-[#155A96]\r
+                    min-w-[240px]\r
                     shrink-0\r
-                  `,children:[(0,F.jsx)(Oy[e.icon]||fr,{className:`w-4 h-4`}),e.title]}),(0,F.jsx)(`p`,{className:`\r
+                  `,children:e.title}),(0,F.jsx)(`p`,{className:`\r
                     text-slate-700\r
                     leading-7\r
-                  `,children:e.description})]},t))}),(0,F.jsxs)(`div`,{className:`\r
+                  `,children:e.description})]},t)))}),(0,F.jsxs)(`div`,{className:`\r
           mt-10\r
           bg-[#ECFEFF]\r
           border border-[#A5F3FC]\r
@@ -3643,8 +3663,8 @@ lg:text-xl\r
           `}),(0,F.jsxs)(`p`,{className:`\r
             text-slate-700\r
             leading-7\r
-          `,children:[(0,F.jsx)(`span`,{className:`font-bold`,children:`Double-entry Rule:`}),` `,t.sections.find(e=>e.id===`overview`)?.note]})]})]})})]}),t.sections.filter(e=>window.innerWidth>=1024?e.id!==`overview`:e.id!==`overview`&&e.id===c).map(e=>e.type===`steps`?(0,F.jsxs)(`section`,{id:e.id,className:`mb-12 lg:mb-24`,children:[(0,F.jsx)(`h2`,{className:`\r
-              text-3xl lg:text-4xl\r
+          `,children:[(0,F.jsx)(`span`,{className:`font-bold`,children:`Double-entry Rule:`}),` `,t.sections.find(e=>e.id===`overview`)?.note]})]})]})})]}),t.sections.filter(e=>window.innerWidth>=1024?e.id!==`overview`:e.id!==`overview`&&e.id===c).map(e=>e.type===`steps`?(0,F.jsxs)(`section`,{id:e.id,className:`mb-12 lg:mb-16`,children:[(0,F.jsx)(`h2`,{className:`\r
+              text-2xl lg:text-3xl\r
               font-bold\r
               text-[#071426]\r
               mb-4\r
@@ -3659,11 +3679,9 @@ lg:text-xl\r
                 gap-4 sm:gap-6\r
                 items-start\r
               `,children:[(0,F.jsx)(`div`,{className:`\r
-                    w-12 h-12\r
+                    w-10 h-10\r
                     rounded-full\r
-                    bg-gradient-to-r\r
-                    from-[#2563EB]\r
-                    to-[#7C3AED]\r
+                    bg-[#155A96]\r
                     text-white\r
                     flex\r
                     items-center\r
@@ -3671,7 +3689,7 @@ lg:text-xl\r
                     font-bold\r
                     shrink-0\r
                   `,children:t+1}),(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`h3`,{className:`\r
-                      text-xl\r
+                      text-lg\r
                       font-bold\r
                       text-[#071426]\r
                       mb-2\r
@@ -3679,7 +3697,7 @@ lg:text-xl\r
                       text-slate-600\r
                       leading-8\r
                     `,children:e.description})]})]},t))}),e.note&&(0,F.jsxs)(`div`,{className:`\r
-                mt-10\r
+                mt-6\r
                 bg-amber-50\r
                 border\r
                 border-amber-200\r
@@ -3689,11 +3707,11 @@ lg:text-xl\r
                   font-bold\r
                   text-amber-800\r
                   mb-2\r
-                `,children:`Important Note`}),(0,F.jsx)(`p`,{className:`text-amber-700`,children:e.note})]})]},e.id):e.type===`ledger`?(0,F.jsxs)(`section`,{id:e.id,className:`mb-24 scroll-mt-32`,children:[(0,F.jsx)(`h2`,{className:`\r
-            text-2xl sm:text-3xl lg:text-4xl\r
+                `,children:`Important Note`}),(0,F.jsx)(`p`,{className:`text-amber-700`,children:e.note})]})]},e.id):e.type===`ledger`?(0,F.jsxs)(`section`,{id:e.id,className:`mb-16 scroll-mt-32`,children:[(0,F.jsx)(`h2`,{className:`\r
+            text-2xl sm:text-3xl \r
             font-bold\r
             text-[#071426]\r
-            mb-3\r
+            mb-2\r
           `,children:e.title}),(0,F.jsx)(`p`,{className:`\r
               text-slate-600\r
               text-base\r
@@ -3702,12 +3720,12 @@ lg:text-xl\r
               lg:leading-8\r
               mb-6\r
               lg:mb-10\r
-            `,children:e.description}),(0,F.jsxs)(`div`,{className:`space-y-6 lg:space-y-10`,children:[(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`h3`,{className:`text-xl sm:text-2xl font-bold text-[#071426] mb-6`,children:`Major Account Groups`}),(0,F.jsx)(`div`,{className:`\r
+            `,children:e.description}),(0,F.jsxs)(`div`,{className:`space-y-5 lg:space-y-6`,children:[(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`h3`,{className:`text-lg sm:text-xl font-bold text-[#071426] mb-4`,children:`Major Account Groups`}),(0,F.jsx)(`div`,{className:`\r
     grid\r
     grid-cols-1\r
     md:grid-cols-2\r
-    gap-4\r
-    md:gap-6\r
+    gap-3\r
+    md:gap-5\r
   `,children:e.groups?.map((e,t)=>{let n=ky[e.title];return(0,F.jsxs)(`div`,{className:`\r
   bg-white\r
   border\r
@@ -3726,20 +3744,20 @@ lg:text-xl\r
             mb-4\r
           `,children:[n&&(0,F.jsx)(n,{className:`\r
                 w-6 h-6\r
-                text-[#2563EB]\r
+                text-[#155A96]\r
               `}),(0,F.jsx)(`h4`,{className:`\r
-              text-xl\r
-              sm:text-2xl\r
+              text-lg\r
+              sm:text-xl\r
               font-bold\r
               text-[#071426]\r
             `,children:e.title})]}),(0,F.jsx)(`p`,{className:`\r
     text-slate-600\r
     text-sm\r
     sm:text-base\r
-    leading-6\r
+    leading-5\r
     break-words\r
   `,children:e.description})]},t)})})]}),(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`h3`,{className:`\r
-      text-2xl\r
+      text-xl\r
       font-bold\r
       text-[#071426]\r
       mb-6\r
@@ -3747,9 +3765,9 @@ lg:text-xl\r
   grid\r
   grid-cols-1\r
   md:grid-cols-2\r
-  gap-5\r
-  md:gap-x-12\r
-  md:gap-y-8\r
+  gap-4\r
+  md:gap-x-6\r
+  md:gap-y-4\r
 `,children:e.examples?.map((e,t)=>(0,F.jsxs)(`div`,{className:`\r
     group\r
     flex\r
@@ -3761,32 +3779,22 @@ lg:text-xl\r
   `,children:[(0,F.jsx)(`div`,{className:`pt-2 overflow-visible`,children:(0,F.jsx)(`div`,{className:`\r
       w-3 h-3\r
       rounded-full\r
-      bg-[#2563EB]\r
-      transition-all\r
-      duration-300\r
-      group-hover:scale-150\r
-      group-hover:bg-[#7C3AED]\r
+      bg-[#155A96]\r
+      \r
     `})}),(0,F.jsxs)(`div`,{className:`\r
     min-w-0\r
     flex-1\r
-    transition-all\r
-    duration-300\r
-    group-hover:translate-x-3\r
+    \r
   `,children:[(0,F.jsx)(`h4`,{className:`\r
             text-lg\r
             sm:text-xl\r
             font-semibold\r
             text-[#071426]\r
-            transition-colors\r
-            duration-300\r
-            group-hover:text-[#2563EB]\r
           `,children:e.ledger}),(0,F.jsxs)(`p`,{className:`text-slate-600 mt-1`,children:[`Group:`,(0,F.jsx)(`span`,{className:`\r
               ml-2\r
               font-medium\r
               text-slate-700\r
-              transition-colors\r
-              duration-300\r
-              group-hover:text-[#7C3AED]\r
+              \r
             `,children:e.group})]})]})]},t))})]}),(0,F.jsx)(`div`,{className:`\r
     overflow-x-auto\r
     w-full\r
@@ -3818,9 +3826,9 @@ lg:text-xl\r
                   text-sm\r
                   font-medium\r
                   bg-[#EEF4FF]\r
-                  text-[#2563EB]\r
+                  text-[#155A96]\r
                 `,children:e.type})}),(0,F.jsx)(`td`,{className:`p-4`,children:e.notes})]},t))})]})}),e.note&&(0,F.jsxs)(`div`,{className:`\r
-    mt-10\r
+    mt-6\r
     bg-gradient-to-r\r
     from-amber-50\r
     to-orange-50\r
@@ -3838,20 +3846,20 @@ lg:text-xl\r
     `,children:`⚠ Best Practice`}),(0,F.jsx)(`p`,{className:`\r
       text-amber-700\r
       leading-8\r
-    `,children:e.note})]})]})]},e.id):e.type===`voucher`?(0,F.jsxs)(`section`,{id:e.id,className:`mb-24 scroll-mt-32`,children:[(0,F.jsx)(`h2`,{className:`\r
-          text-3xl\r
-          sm:text-4xl\r
-          lg:text-5xl\r
+    `,children:e.note})]})]})]},e.id):e.type===`voucher`?(0,F.jsxs)(`section`,{id:e.id,className:`mb-16 scroll-mt-32`,children:[(0,F.jsx)(`h2`,{className:`\r
+          text-2xl\r
+          sm:text-3xl\r
+          lg:text-4xl\r
           font-black\r
           text-[#071426]\r
-          mb-4\r
+          mb-3\r
         `,children:e.title}),(0,F.jsx)(`p`,{className:`\r
           text-sm\r
           sm:text-base\r
           lg:text-lg\r
-          leading-7\r
+          leading-8\r
           text-slate-600\r
-          mb-10\r
+          mb-6\r
         `,children:e.description}),(0,F.jsxs)(`div`,{className:`\r
           p-4\r
           sm:p-6\r
@@ -3862,10 +3870,10 @@ lg:text-xl\r
           bg-slate-50\r
           border\r
           border-slate-200\r
-          mb-10\r
+          mb-6\r
         `,children:[(0,F.jsx)(`h3`,{className:`\r
-            text-xl\r
-            sm:text-2xl\r
+            text-lg\r
+            sm:text-xl\r
             font-bold\r
             text-[#071426]\r
             mb-4\r
@@ -3903,7 +3911,7 @@ lg:py-6\r
     group\r
   `,children:[(0,F.jsxs)(`div`,{className:`flex items-start gap-3 min-w-0`,children:[(()=>{let t=Ay[e.type];return(0,F.jsx)(`div`,{className:`\r
             mt-1\r
-            text-[#2563EB]\r
+            text-[#155A96]\r
             group-hover:translate-x-1\r
             transition-transform\r
             duration-300\r
@@ -3919,12 +3927,12 @@ lg:py-6\r
           mb-3
           ${jy[e.type]}
         `,children:e.badge}),(0,F.jsx)(`h3`,{className:`\r
-          text-lg\r
-sm:text-xl\r
-lg:text-2xl\r
+          text-base\r
+sm:text-lg\r
+lg:text-xl\r
           font-bold\r
           text-[#071426]\r
-          group-hover:text-[#2563EB]\r
+          group-hover:text-[#155A96]\r
           transition-colors\r
         `,children:e.title}),(0,F.jsx)(`p`,{className:`\r
           text-slate-500\r
@@ -3939,11 +3947,11 @@ lg:pb-8\r
                   border-t\r
                   border-slate-100\r
                 `,children:[(0,F.jsxs)(`p`,{className:`\r
-                    mt-6\r
+                    mt-4\r
                     text-slate-700\r
                     leading-8\r
                   `,children:[(0,F.jsx)(`strong`,{children:`Use when:`}),` `,e.useWhen]}),e.entry&&(0,F.jsx)(`div`,{className:`\r
-                    mt-6\r
+                    mt-4\r
                     overflow-x-auto\r
                     rounded-xl\r
                     sm:rounded-2xl\r
@@ -3955,18 +3963,18 @@ lg:pb-8\r
                         `,children:(0,F.jsxs)(`tr`,{children:[(0,F.jsx)(`th`,{className:`px-3 py-3sm:px-4 sm:py-4 text-left`,children:`Date`}),(0,F.jsx)(`th`,{className:`px-3 py-3sm:px-4 sm:py-4 text-left`,children:`Particulars`}),(0,F.jsx)(`th`,{className:`px-3 py-3sm:px-4 sm:py-4 text-left`,children:`Dr`}),(0,F.jsx)(`th`,{className:`px-3 py-3sm:px-4 sm:py-4 text-left`,children:`Cr`})]})}),(0,F.jsx)(`tbody`,{children:e.entry.map((e,t)=>(0,F.jsxs)(`tr`,{className:`\r
                                 border-t\r
                               `,children:[(0,F.jsx)(`td`,{className:`p-4`,children:e.date}),(0,F.jsx)(`td`,{className:`p-4`,children:e.particulars}),(0,F.jsx)(`td`,{className:`p-4`,children:e.dr}),(0,F.jsx)(`td`,{className:`p-4`,children:e.cr})]},t))})]})}),e.narration&&(0,F.jsxs)(`div`,{className:`\r
-                      mt-6\r
+                      mt-4\r
                       text-slate-600\r
                     `,children:[(0,F.jsx)(`strong`,{children:`Narration:`}),` `,e.narration]})]})]},t))}),(0,F.jsxs)(`div`,{className:`\r
-          mt-10\r
+          mt-6\r
           p-4 sm:p-6 lg:p-8\r
           rounded-[24px]\r
           border\r
           border-amber-200\r
           bg-amber-50\r
         `,children:[(0,F.jsx)(`h3`,{className:`\r
-            text-xl\r
-            sm:text-2xl\r
+            text-lg\r
+            sm:text-xl\r
             font-bold\r
             text-amber-900\r
             mb-4\r
@@ -3975,19 +3983,19 @@ lg:pb-8\r
                   leading-6\r
                   sm:leading-8\r
                 `,children:[`• `,e]},t))})]})]},e.id):e.type===`roadmap`?(0,F.jsxs)(`section`,{id:e.id,className:`mb-16 lg:mb-24 scroll-mt-32`,children:[(0,F.jsx)(`h2`,{className:`\r
-          text-2xl\r
-          sm:text-3xl\r
-          lg:text-4xl\r
+          text-xl\r
+          sm:text-2xl\r
+          lg:text-3xl\r
           font-bold\r
           text-[#071426]\r
-          mb-4\r
-        `,children:e.title}),(0,F.jsx)(`div`,{className:`lg:hidden mt-8`,children:(0,F.jsxs)(`div`,{className:`relative pl-8`,children:[(0,F.jsx)(`div`,{className:`\r
+          mb-3\r
+        `,children:e.title}),(0,F.jsx)(`div`,{className:`lg:hidden mt-6`,children:(0,F.jsxs)(`div`,{className:`relative pl-8`,children:[(0,F.jsx)(`div`,{className:`\r
               absolute\r
               left-2\r
               top-0\r
               bottom-0\r
               w-[2px]\r
-              bg-[#2563EB]\r
+              bg-[#155A96]\r
             `}),e.steps.map((e,t)=>(0,F.jsxs)(`div`,{className:`relative pb-6`,children:[(0,F.jsx)(`div`,{className:`\r
                   absolute\r
                   -left-[31px]\r
@@ -3997,7 +4005,7 @@ lg:pb-8\r
                   rounded-full\r
                   bg-white\r
                   border-4\r
-                  border-[#2563EB]\r
+                  border-[#155A96]\r
                 `}),(0,F.jsxs)(`div`,{className:`\r
                   bg-white\r
                   border\r
@@ -4007,7 +4015,7 @@ lg:pb-8\r
                 `,children:[(0,F.jsxs)(`span`,{className:`\r
                     text-xs\r
                     font-semibold\r
-                    text-[#2563EB]\r
+                    text-[#155A96]\r
                   `,children:[`STEP `,e.step]}),(0,F.jsx)(`h3`,{className:`\r
                     mt-2\r
                     text-lg\r
@@ -4035,7 +4043,7 @@ lg:pb-8\r
               w-3\r
               h-3\r
               rounded-full\r
-              bg-[#2563EB]\r
+              bg-[#155A96]\r
               -translate-y-1/2\r
             `}),(0,F.jsx)(`div`,{className:`\r
               absolute\r
@@ -4043,9 +4051,7 @@ lg:pb-8\r
               left-0\r
               right-0\r
               h-[2px]\r
-              bg-gradient-to-r\r
-              from-[#2563EB]\r
-              to-[#7C3AED]\r
+              bg-[#155A96]\r
             `}),(0,F.jsx)(`div`,{className:`\r
               absolute\r
               top-5\r
@@ -4053,7 +4059,7 @@ lg:pb-8\r
               w-3\r
               h-3\r
               rounded-full\r
-              bg-[#7C3AED]\r
+              bg-[#155A96]\r
               -translate-y-1/2\r
             `}),e.steps.map((e,t)=>(0,F.jsxs)(`div`,{className:`\r
                 relative\r
@@ -4069,12 +4075,12 @@ lg:pb-8\r
                   rounded-full\r
                   bg-white\r
                   border-4\r
-                  border-[#2563EB]\r
+                  border-[#155A96]\r
                   flex\r
                   items-center\r
                   justify-center\r
                   font-bold\r
-                  text-[#2563EB]\r
+                  text-[#155A96]\r
                 `,children:e.step}),(0,F.jsx)(`h3`,{className:`\r
                   mt-5\r
                   text-lg\r
@@ -4085,29 +4091,29 @@ lg:pb-8\r
                   text-sm\r
                   text-slate-500\r
                   leading-6\r
-                `,children:e.description})]},t))]})})]},e.id):e.type===`practice`?(0,F.jsxs)(`section`,{id:e.id,className:`mb-24 scroll-mt-32`,children:[(0,F.jsx)(`h2`,{className:`\r
-          text-3xl\r
-          sm:text-4xl\r
-          lg:text-5xl\r
+                `,children:e.description})]},t))]})})]},e.id):e.type===`practice`?(0,F.jsxs)(`section`,{id:e.id,className:`mb-16 scroll-mt-32`,children:[(0,F.jsx)(`h2`,{className:`\r
+          text-2xl\r
+          sm:text-3xl\r
+          lg:text-4xl\r
           font-bold\r
           text-[#071426]\r
-          mb-4\r
+          mb-3\r
         `,children:e.title}),(0,F.jsx)(`p`,{className:`\r
           text-lg\r
           text-slate-600\r
-          mb-12\r
+          mb-6\r
         `,children:e.description}),(0,F.jsx)(`div`,{className:`\r
           grid\r
           md:grid-cols-2\r
           xl:grid-cols-3\r
-          gap-8\r
+          gap-6\r
         `,children:e.labs.map((e,t)=>(0,F.jsxs)(`div`,{className:`\r
               group\r
               bg-white\r
               border\r
               border-slate-200\r
               rounded-[28px]\r
-              p-6\r
+              p-4\r
               transition-all\r
               duration-300\r
               hover:-translate-y-2\r
@@ -4116,11 +4122,11 @@ lg:pb-8\r
                 flex\r
                 items-center\r
                 justify-between\r
-                mb-6\r
+                mb-4\r
               `,children:[(0,F.jsxs)(`span`,{className:`\r
                   text-sm\r
                   font-bold\r
-                  text-[#2563EB]\r
+                  text-[#155A96]\r
                   uppercase\r
                   tracking-wider\r
                 `,children:[`Lab `,t+1]}),(0,F.jsx)(`span`,{className:`\r
@@ -4128,17 +4134,17 @@ lg:pb-8\r
                   py-1\r
                   rounded-full\r
                   bg-[#EEF4FF]\r
-                  text-[#2563EB]\r
+                  text-[#155A96]\r
                   text-sm\r
                   font-medium\r
                 `,children:e.duration})]}),(0,F.jsx)(`h3`,{className:`\r
-                text-xl\r
+                text-lg\r
                 font-bold\r
                 text-[#071426]\r
                 mb-4\r
               `,children:e.title}),(0,F.jsx)(`span`,{className:`
                 inline-block
-                mb-6
+                mb-4
                 px-3 py-1
                 rounded-full
                 text-sm
@@ -4148,18 +4154,18 @@ lg:pb-8\r
                     flex\r
                     gap-3\r
                     text-slate-600\r
-                  `,children:[(0,F.jsx)(`span`,{className:`text-[#2563EB]`,children:`✓`}),(0,F.jsx)(`span`,{children:e})]},t))})]},t))}),e.quiz?.length>0&&(0,F.jsxs)(`div`,{className:`\r
-    mt-16\r
+                  `,children:[(0,F.jsx)(`span`,{className:`text-[#155A96]`,children:`✓`}),(0,F.jsx)(`span`,{children:e})]},t))})]},t))}),e.quiz?.length>0&&(0,F.jsxs)(`div`,{className:`\r
+    mt-8\r
     bg-white\r
     border\r
     border-slate-200\r
     rounded-[28px]\r
-    p-8\r
+    p-6\r
   `,children:[(0,F.jsx)(`h3`,{className:`\r
-      text-2xl\r
+      text-xl\r
       font-bold\r
       text-[#071426]\r
-      mb-8\r
+      mb-6\r
     `,children:`Self Check Quiz`}),(0,F.jsxs)(`div`,{className:`space-y-6`,children:[e.quiz.map((e,t)=>(0,F.jsxs)(`div`,{children:[(0,F.jsxs)(`p`,{className:`\r
             font-medium\r
             text-[#071426]\r
@@ -4172,10 +4178,10 @@ lg:pb-8\r
     px-4\r
     py-3\r
   `,children:[(0,F.jsx)(`option`,{value:``,children:`Select Answer`}),e.options.map(e=>(0,F.jsx)(`option`,{value:e,children:e},e))]})]},t)),(0,F.jsx)(`button`,{onClick:()=>d(e.quiz),className:`\r
-    px-6\r
-    py-3\r
+    px-5\r
+    py-2\r
     rounded-xl\r
-    bg-[#2563EB]\r
+    bg-[#155A96]\r
     text-white\r
     font-medium\r
   `,children:`Submit Quiz`}),o!==null&&(0,F.jsx)(`div`,{className:`mt-4`,children:(0,F.jsx)(`p`,{className:`
@@ -4188,19 +4194,19 @@ lg:pb-8\r
           font-bold\r
           text-[#071426]\r
           mb-5\r
-        `,children:e.title}),(0,F.jsx)(`div`,{className:`grid md:grid-cols-2 gap-6`,children:e.invoices.map(e=>(0,F.jsxs)(`div`,{className:`rounded-3xl border border-slate-200 p-6 bg-white`,children:[(0,F.jsx)(`h3`,{className:`text-xl font-bold mb-2`,children:e.title}),(0,F.jsx)(`p`,{className:`text-slate-600 mb-5`,children:e.description}),(0,F.jsx)(`div`,{className:`rounded-2xl bg-[#020C24] text-white p-5 font-mono text-sm`,children:e.invoice.map(e=>(0,F.jsx)(`div`,{children:e},e))})]},e.title))}),(0,F.jsx)(`div`,{className:`mt-5 rounded-2xl bg-amber-50 border border-amber-200 p-5 text-amber-800`,children:e.note})]},e.id):e.type===`gstReturns`?(0,F.jsxs)(`section`,{id:e.id,className:`mb-24 scroll-mt-32`,children:[(0,F.jsx)(`h2`,{className:`\r
-          text-3xl\r
-          sm:text-4xl\r
-          lg:text-5xl\r
+        `,children:e.title}),(0,F.jsx)(`div`,{className:`grid md:grid-cols-2 gap-6`,children:e.invoices.map(e=>(0,F.jsxs)(`div`,{className:`rounded-3xl border border-slate-200 p-6 bg-white`,children:[(0,F.jsx)(`h3`,{className:`text-xl font-bold mb-2`,children:e.title}),(0,F.jsx)(`p`,{className:`text-slate-600 mb-5`,children:e.description}),(0,F.jsx)(`div`,{className:`rounded-2xl bg-[#020C24] text-white p-5 font-mono text-sm`,children:e.invoice.map(e=>(0,F.jsx)(`div`,{children:e},e))})]},e.title))}),(0,F.jsx)(`div`,{className:`mt-5 rounded-2xl bg-amber-50 border border-amber-200 p-5 text-amber-800`,children:e.note})]},e.id):e.type===`gstReturns`?(0,F.jsxs)(`section`,{id:e.id,className:`mb-16 scroll-mt-32`,children:[(0,F.jsx)(`h2`,{className:`\r
+          text-2xl\r
+          sm:text-3xl\r
+          lg:text-4xl\r
           font-bold\r
           text-[#071426]\r
-          mb-5\r
+          mb-4\r
         `,children:e.title}),(0,F.jsx)(`div`,{className:`grid md:grid-cols-2 gap-8`,children:e.cards.map((e,t)=>(0,F.jsxs)(`div`,{className:`\r
           group\r
           rounded-2xl\r
           border\r
           border-slate-200\r
-          p-8\r
+          p-6\r
           bg-white\r
           transition-all\r
           duration-300\r
@@ -4212,17 +4218,17 @@ lg:pb-8\r
               rounded-2xl\r
               bg-blue-50\r
               flex items-center justify-center\r
-              text-[#2563EB]\r
+              text-[#155A96]\r
               transition-all\r
               duration-300\r
-              group-hover:bg-[#2563EB]\r
+              group-hover:bg-[#155A96]\r
               group-hover:text-white\r
-            `,children:(0,F.jsx)(t===0?Wr:Oi,{size:24})}),(0,F.jsx)(`h3`,{className:`text-2xl font-bold text-[#071426]`,children:e.title})]}),(0,F.jsx)(`p`,{className:`text-slate-600 leading-relaxed`,children:e.content})]},e.title))}),(0,F.jsxs)(`div`,{className:`\r
-    mt-8\r
+            `,children:(0,F.jsx)(t===0?Wr:Oi,{size:24})}),(0,F.jsx)(`h3`,{className:`text-xl font-bold text-[#071426]`,children:e.title})]}),(0,F.jsx)(`p`,{className:`text-slate-600 leading-relaxed`,children:e.content})]},e.title))}),(0,F.jsxs)(`div`,{className:`\r
+    mt-6\r
     rounded-3xl\r
     border\r
     border-slate-200\r
-    p-8\r
+    p-6\r
     bg-white\r
     transition-all\r
     duration-300\r
@@ -4231,24 +4237,24 @@ lg:pb-8\r
   `,children:[(0,F.jsxs)(`div`,{className:`flex items-center gap-3 mb-5`,children:[(0,F.jsx)(`div`,{className:`\r
         w-12 h-12\r
         rounded-2xl\r
-        bg-purple-50\r
+        bg-blue-50\r
         flex items-center justify-center\r
-        text-purple-600\r
-      `,children:(0,F.jsx)(Ei,{size:24})}),(0,F.jsx)(`h3`,{className:`text-2xl font-bold text-[#071426]`,children:e.creditDebitNote.title})]}),(0,F.jsx)(`p`,{className:`text-slate-600 leading-relaxed`,children:e.creditDebitNote.content})]}),(0,F.jsx)(`div`,{className:`\r
-    mt-6\r
+        text-[#155A96]\r
+      `,children:(0,F.jsx)(Ei,{size:24})}),(0,F.jsx)(`h3`,{className:`text-xl font-bold text-[#071426]`,children:e.creditDebitNote.title})]}),(0,F.jsx)(`p`,{className:`text-slate-600 leading-relaxed`,children:e.creditDebitNote.content})]}),(0,F.jsx)(`div`,{className:`\r
+    mt-4\r
     rounded-2xl\r
     bg-gradient-to-r\r
     from-blue-50\r
     to-cyan-50\r
     border\r
     border-blue-200\r
-    p-5\r
+    p-4\r
     text-[#0F172A]\r
     font-medium\r
     shadow-sm\r
-  `,children:e.tip})]},e.id):e.type===`eInvoice`?(0,F.jsx)(`section`,{id:e.id,className:`mb-24 scroll-mt-32`,children:(0,F.jsxs)(`div`,{className:`bg-white rounded-3xl border border-slate-200 p-5 sm:p-8 lg:p-10`,children:[(0,F.jsx)(`h2`,{className:`text-3xl\r
-          sm:text-4xl\r
-          lg:text-5xl font-bold text-[#071426] mb-6`,children:e.title}),(0,F.jsx)(`p`,{className:`text-slate-600 text-lg leading-relaxed mb-8`,children:e.description}),(0,F.jsx)(`div`,{className:`space-y-5 pl-6`,children:e.process.map((e,t)=>(0,F.jsxs)(`div`,{className:`flex items-start gap-4`,children:[(0,F.jsx)(`div`,{className:`\r
+  `,children:e.tip})]},e.id):e.type===`eInvoice`?(0,F.jsx)(`section`,{id:e.id,className:`mb-16 scroll-mt-32`,children:(0,F.jsxs)(`div`,{className:`bg-white rounded-3xl border border-slate-200 p-5 sm:p-8 lg:p-10`,children:[(0,F.jsx)(`h2`,{className:`text-2xl\r
+          sm:text-3xl\r
+          lg:text-4xl font-bold text-[#071426] mb-6`,children:e.title}),(0,F.jsx)(`p`,{className:`text-slate-600 text-lg leading-relaxed mb-6`,children:e.description}),(0,F.jsx)(`div`,{className:`space-y-5 pl-6`,children:e.process.map((e,t)=>(0,F.jsxs)(`div`,{className:`flex items-start gap-4`,children:[(0,F.jsx)(`div`,{className:`\r
                   w-8 h-8\r
                   rounded-full\r
                   bg-blue-100\r
@@ -4257,20 +4263,20 @@ lg:pb-8\r
                   font-bold\r
                   shrink-0\r
                 `,children:t+1}),(0,F.jsx)(`p`,{className:`text-lg text-slate-700`,children:e})]},t))}),(0,F.jsxs)(`div`,{className:`\r
-            mt-8\r
+            mt-6\r
             rounded-2xl\r
             bg-amber-50\r
             border\r
             border-amber-200\r
-            p-5\r
+            p-4\r
             text-slate-700\r
-          `,children:[(0,F.jsx)(`span`,{className:`font-semibold`,children:`Note:`}),` `,e.note]})]})},e.id):e.type===`faq`?(0,F.jsxs)(`section`,{id:e.id,className:`mb-24 scroll-mt-32`,children:[(0,F.jsx)(`h2`,{className:`\r
-          text-3xl\r
-          sm:text-4xl\r
-          lg:text-5xl\r
+          `,children:[(0,F.jsx)(`span`,{className:`font-semibold`,children:`Note:`}),` `,e.note]})]})},e.id):e.type===`faq`?(0,F.jsxs)(`section`,{id:e.id,className:`mb-16 scroll-mt-32`,children:[(0,F.jsx)(`h2`,{className:`\r
+          text-2xl\r
+          sm:text-3xl\r
+          lg:text-4xl\r
           font-bold\r
           text-[#071426]\r
-          mb-8\r
+          mb-6\r
         `,children:e.title}),(0,F.jsx)(`div`,{className:`space-y-4`,children:e.questions.map((e,t)=>(0,F.jsxs)(`details`,{className:`\r
               group\r
               bg-white\r
@@ -4281,9 +4287,9 @@ lg:pb-8\r
             `,children:[(0,F.jsxs)(`summary`,{className:`\r
                 cursor-pointer\r
                 list-none\r
-                px-7\r
-                py-5\r
-                text-[20px] sm:text-[22px] lg:text-[16px]\r
+                px-6\r
+                py-4\r
+                text-[15px] sm:text-[18px] lg:text-[14px]\r
                 text-[#071426]\r
                 flex\r
                 items-center\r
@@ -4293,16 +4299,16 @@ lg:pb-8\r
                   duration-300\r
                   group-open:rotate-180\r
                 `,children:`▼`})]}),(0,F.jsx)(`div`,{className:`\r
-                px-7\r
-                pb-6\r
+                px-6\r
+                pb-5\r
                 text-slate-600\r
                 leading-relaxed\r
                 border-t\r
                 border-slate-100\r
-              `,children:e.answer})]},t))})]},e.id):e.type===`inventoryCards`?(0,F.jsxs)(`section`,{id:e.id,className:`mb-24 scroll-mt-32`,children:[(0,F.jsx)(`h2`,{className:`\r
-          text-3xl\r
-          sm:text-4xl\r
-          lg:text-5xl\r
+              `,children:e.answer})]},t))})]},e.id):e.type===`inventoryCards`?(0,F.jsxs)(`section`,{id:e.id,className:`mb-16 scroll-mt-32`,children:[(0,F.jsx)(`h2`,{className:`\r
+          text-2xl\r
+          sm:text-3xl\r
+          lg:text-4xl\r
           font-bold\r
           text-[#071426]\r
           mb-4\r
@@ -4310,7 +4316,7 @@ lg:pb-8\r
           text-lg\r
           text-slate-600\r
           leading-relaxed\r
-          mb-6 lg:mb-10\r
+          mb-5 lg:mb-8\r
         `,children:e.description}),(0,F.jsx)(`div`,{className:`grid md:grid-cols-2 gap-x-12 gap-y-8`,children:e.cards.map((e,t)=>(0,F.jsxs)($.div,{initial:{opacity:0,y:20},whileInView:{opacity:1,y:0},viewport:{once:!0},transition:{duration:.4,delay:t*.08},className:`\r
               flex\r
               items-start\r
@@ -4320,12 +4326,12 @@ lg:pb-8\r
                 w-3\r
                 h-3\r
                 rounded-full\r
-                bg-[#2563EB]\r
+                bg-[#155A96]\r
                 mt-2.5\r
                 group-hover:scale-125\r
                 transition-transform\r
               `}),(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`h3`,{className:`\r
-                  text-[20px]\r
+                  text-[16px]\r
                   font-semibold\r
                   text-[#071426]\r
                   mb-2\r
@@ -4334,24 +4340,24 @@ lg:pb-8\r
                   text-base\r
                   leading-relaxed\r
                 `,children:e.description})]})]},e.title))}),(0,F.jsxs)(`div`,{className:`\r
-          mt-10\r
-          p-6\r
+          mt-6\r
+          p-4\r
           rounded-2xl\r
           bg-cyan-50\r
           border\r
           border-cyan-200\r
-        `,children:[(0,F.jsx)(`span`,{className:`font-semibold`,children:`Tip:`}),` `,e.tip]})]},e.id):e.type===`warehouse`?(0,F.jsxs)(`section`,{id:e.id,className:`mb-24 scroll-mt-32`,children:[(0,F.jsx)(`h2`,{className:`\r
-          text-3xl\r
-          sm:text-4xl\r
-          lg:text-5xl\r
+        `,children:[(0,F.jsx)(`span`,{className:`font-semibold`,children:`Tip:`}),` `,e.tip]})]},e.id):e.type===`warehouse`?(0,F.jsxs)(`section`,{id:e.id,className:`mb-16 scroll-mt-32`,children:[(0,F.jsx)(`h2`,{className:`\r
+          text-2xl\r
+          sm:text-3xl\r
+          lg:text-4xl\r
           font-bold\r
           text-[#071426]\r
           mb-4\r
         `,children:e.title}),(0,F.jsx)(`p`,{className:`\r
           text-lg\r
           text-slate-600\r
-          mb-8\r
-        `,children:e.description}),(0,F.jsx)(`div`,{className:`space-y-6 mb-10 mt-8`,children:e.setupPoints.map((e,t)=>(0,F.jsxs)($.div,{initial:{opacity:0,x:-20},whileInView:{opacity:1,x:0},viewport:{once:!0},transition:{duration:.4,delay:t*.08},className:`\r
+          mb-7\r
+        `,children:e.description}),(0,F.jsx)(`div`,{className:`space-y-6 mb-10 mt-6`,children:e.setupPoints.map((e,t)=>(0,F.jsxs)($.div,{initial:{opacity:0,x:-20},whileInView:{opacity:1,x:0},viewport:{once:!0},transition:{duration:.4,delay:t*.08},className:`\r
                 flex\r
                 items-start\r
                 gap-4\r
@@ -4359,7 +4365,7 @@ lg:pb-8\r
                   w-3\r
                   h-3\r
                   rounded-full\r
-                  bg-[#2563EB]\r
+                  bg-[#155A96]\r
                   mt-2.5\r
                   shrink-0\r
                 `}),(0,F.jsx)(`p`,{className:`\r
@@ -4371,13 +4377,13 @@ lg:pb-8\r
               border\r
               border-slate-200\r
               bg-white\r
-              p-8\r
-              hover:border-[#2563EB]\r
+              p-6\r
+              hover:border-[#155A96]\r
               hover:shadow-lg\r
               transition-all\r
               duration-300\r
             `,children:[(0,F.jsx)(`h3`,{className:`\r
-                text-2xl\r
+                text-xl\r
                 font-bold\r
                 text-[#071426]\r
                 mb-4\r
@@ -4385,24 +4391,24 @@ lg:pb-8\r
                 text-slate-600\r
                 leading-relaxed\r
               `,children:e.description})]},e.title))}),(0,F.jsxs)($.div,{initial:{opacity:0},whileInView:{opacity:1},viewport:{once:!0},transition:{duration:.5},className:`\r
-          mt-8\r
+          mt-6\r
           rounded-2xl\r
           bg-cyan-50\r
           border\r
           border-cyan-200\r
-          p-6\r
-        `,children:[(0,F.jsx)(`span`,{className:`font-semibold text-[#0F766E]`,children:`Tip:`}),` `,(0,F.jsx)(`span`,{className:`text-slate-700`,children:e.tip})]})]},e.id):e.type===`batching`?(0,F.jsxs)(`section`,{id:e.id,className:`mb-24 scroll-mt-32`,children:[(0,F.jsx)(`h2`,{className:`\r
-          text-3xl\r
-          sm:text-4xl\r
-          lg:text-5xl\r
+          p-4\r
+        `,children:[(0,F.jsx)(`span`,{className:`font-semibold text-[#0F766E]`,children:`Tip:`}),` `,(0,F.jsx)(`span`,{className:`text-slate-700`,children:e.tip})]})]},e.id):e.type===`batching`?(0,F.jsxs)(`section`,{id:e.id,className:`mb-16 scroll-mt-32`,children:[(0,F.jsx)(`h2`,{className:`\r
+          text-2xl\r
+          sm:text-3xl\r
+          lg:text-4Sxl\r
           font-bold\r
           text-[#071426]\r
-          mb-5\r
+          mb-4\r
         `,children:e.title}),(0,F.jsx)(`p`,{className:`\r
           text-lg\r
           text-slate-600\r
           leading-relaxed\r
-          mb-8\r
+          mb-6\r
         `,children:e.description}),(0,F.jsx)(`div`,{className:`space-y-5 mb-10`,children:e.points.map((e,t)=>(0,F.jsxs)($.div,{initial:{opacity:0,x:-20},whileInView:{opacity:1,x:0},viewport:{once:!0},transition:{duration:.4,delay:t*.08},className:`\r
               flex items-start gap-4\r
               group\r
@@ -4413,7 +4419,7 @@ lg:pb-8\r
             `,children:[(0,F.jsx)(`div`,{className:`\r
                 w-3 h-3\r
                 rounded-full\r
-                bg-[#2563EB]\r
+                bg-[#155A96]\r
                 mt-3\r
                 shrink-0\r
                 transition-all\r
@@ -4433,10 +4439,10 @@ lg:pb-8\r
           border\r
           border-amber-200\r
           bg-amber-50\r
-          p-8\r
-          mb-6\r
+          p-6\r
+          mb-4\r
         `,children:[(0,F.jsx)(`h3`,{className:`\r
-            text-2xl\r
+            text-xl\r
             font-bold\r
             text-amber-900\r
             mb-3\r
@@ -4449,19 +4455,19 @@ lg:pb-8\r
           bg-blue-50\r
           border\r
           border-blue-200\r
-          p-5\r
-        `,children:(0,F.jsx)(`p`,{className:`text-blue-900 text-lg`,children:e.tip})})]},e.id):e.type===`bom`?(0,F.jsxs)(`section`,{id:e.id,className:`mb-24 scroll-mt-32`,children:[(0,F.jsx)(`h2`,{className:`\r
-          text-3xl\r
-          sm:text-4xl\r
-          lg:text-5xl\r
+          p-4\r
+        `,children:(0,F.jsx)(`p`,{className:`text-blue-900 text-lg`,children:e.tip})})]},e.id):e.type===`bom`?(0,F.jsxs)(`section`,{id:e.id,className:`mb-16 scroll-mt-32`,children:[(0,F.jsx)(`h2`,{className:`\r
+          text-2xl\r
+          sm:text-3xl\r
+          lg:text-4xl\r
           font-bold\r
           text-[#071426]\r
-          mb-5\r
+          mb-4\r
         `,children:e.title}),(0,F.jsx)(`p`,{className:`\r
           text-lg\r
           text-slate-600\r
           leading-relaxed\r
-          mb-8\r
+          mb-6\r
         `,children:e.description}),(0,F.jsx)(`div`,{className:`space-y-5 mb-10`,children:e.points.map((e,t)=>(0,F.jsxs)($.div,{initial:{opacity:0,x:-20},whileInView:{opacity:1,x:0},viewport:{once:!0},transition:{duration:.4,delay:t*.08},className:`\r
               flex items-start gap-4\r
               group\r
@@ -4472,7 +4478,7 @@ lg:pb-8\r
             `,children:[(0,F.jsx)(`div`,{className:`\r
                 w-3 h-3\r
                 rounded-full\r
-                bg-[#2563EB]\r
+                bg-[#155A96]\r
                 mt-3\r
                 shrink-0\r
                 transition-all\r
@@ -4483,33 +4489,33 @@ lg:pb-8\r
                   text-[#071426]\r
                   transition-colors\r
                   duration-300\r
-                  group-hover:text-[#2563EB]\r
+                  group-hover:text-[#155A96]\r
                 `,children:e.title}),(0,F.jsxs)(`span`,{className:`text-slate-600`,children:[` `,`— `,e.description]})]})]},t))}),(0,F.jsxs)($.div,{initial:{opacity:0,y:20},whileInView:{opacity:1,y:0},viewport:{once:!0},className:`\r
           rounded-3xl\r
           bg-[#071426]\r
           text-white\r
-          p-8\r
-          mb-8\r
+          p-6\r
+          mb-6\r
           font-mono\r
-        `,children:[(0,F.jsx)(`h3`,{className:`font-bold text-xl mb-5`,children:e.example.title}),(0,F.jsx)(`div`,{className:`space-y-3 text-lg`,children:e.example.items.map((e,t)=>(0,F.jsxs)(`p`,{children:[`• `,e]},t))}),(0,F.jsxs)(`div`,{className:`mt-5 pt-5 border-t border-white/20`,children:[`Assembly Time: `,e.example.assemblyTime]})]}),(0,F.jsx)(`div`,{className:`\r
+        `,children:[(0,F.jsx)(`h3`,{className:`font-bold text-xl mb-4`,children:e.example.title}),(0,F.jsx)(`div`,{className:`space-y-3 text-lg`,children:e.example.items.map((e,t)=>(0,F.jsxs)(`p`,{children:[`• `,e]},t))}),(0,F.jsxs)(`div`,{className:`mt-5 pt-5 border-t border-white/20`,children:[`Assembly Time: `,e.example.assemblyTime]})]}),(0,F.jsx)(`div`,{className:`\r
           rounded-2xl\r
           bg-blue-50\r
           border\r
           border-blue-200\r
           p-5\r
-        `,children:(0,F.jsx)(`p`,{className:`text-blue-900 text-lg`,children:e.tip})})]},e.id):e.type===`report`?(0,F.jsxs)(`section`,{id:e.id,className:`mb-24 scroll-mt-32`,children:[(0,F.jsx)(`h2`,{className:`\r
-          text-3xl\r
-          sm:text-4xl\r
-          lg:text-5xl\r
+        `,children:(0,F.jsx)(`p`,{className:`text-blue-900 text-lg`,children:e.tip})})]},e.id):e.type===`report`?(0,F.jsxs)(`section`,{id:e.id,className:`mb-16 scroll-mt-32`,children:[(0,F.jsx)(`h2`,{className:`\r
+          text-2xl\r
+          sm:text-3xl\r
+          lg:text-4xl\r
           font-bold\r
           text-[#071426]\r
-          mb-5\r
+          mb-4\r
         `,children:e.title}),(0,F.jsx)(`p`,{className:`\r
           text-lg\r
           text-slate-600\r
           leading-relaxed\r
-          mb-8\r
-        `,children:e.description}),(0,F.jsx)(`div`,{className:`space-y-5 mb-10`,children:e.points.map((e,t)=>(0,F.jsxs)($.div,{initial:{opacity:0,x:-20},whileInView:{opacity:1,x:0},viewport:{once:!0},transition:{duration:.4,delay:t*.08},className:`\r
+          mb-6\r
+        `,children:e.description}),(0,F.jsx)(`div`,{className:`space-y-4 mb-8`,children:e.points.map((e,t)=>(0,F.jsxs)($.div,{initial:{opacity:0,x:-20},whileInView:{opacity:1,x:0},viewport:{once:!0},transition:{duration:.4,delay:t*.08},className:`\r
               flex items-start gap-4\r
               group\r
               cursor-pointer\r
@@ -4519,7 +4525,7 @@ lg:pb-8\r
             `,children:[(0,F.jsx)(`div`,{className:`\r
                 w-3 h-3\r
                 rounded-full\r
-                bg-[#2563EB]\r
+                bg-[#155A96]\r
                 mt-3\r
                 shrink-0\r
                 transition-all\r
@@ -4530,13 +4536,13 @@ lg:pb-8\r
                   text-[#071426]\r
                   transition-colors\r
                   duration-300\r
-                  group-hover:text-[#2563EB]\r
+                  group-hover:text-[#155A96]\r
                 `,children:e.title}),(0,F.jsxs)(`span`,{className:`text-slate-600`,children:[` `,`— `,e.description]})]})]},t))}),(0,F.jsxs)($.div,{initial:{opacity:0,y:20},whileInView:{opacity:1,y:0},viewport:{once:!0},className:`\r
           rounded-3xl\r
           bg-[#071426]\r
           text-white\r
-          p-8\r
-          mb-8\r
+          p-6\r
+          mb-6\r
           overflow-x-auto\r
         `,children:[(0,F.jsx)(`h3`,{className:`font-bold text-xl mb-5`,children:e.sampleTitle}),(0,F.jsxs)(`table`,{className:`w-full text-left`,children:[(0,F.jsx)(`thead`,{children:(0,F.jsxs)(`tr`,{className:`border-b border-white/20`,children:[(0,F.jsx)(`th`,{className:`pb-3`,children:`Ledger`}),(0,F.jsx)(`th`,{className:`pb-3`,children:`Debit (₹)`}),(0,F.jsx)(`th`,{className:`pb-3`,children:`Credit (₹)`})]})}),(0,F.jsxs)(`tbody`,{children:[e.sample.map((e,t)=>(0,F.jsxs)(`tr`,{className:`border-b border-white/10`,children:[(0,F.jsx)(`td`,{className:`py-3`,children:e.ledger}),(0,F.jsx)(`td`,{className:`py-3`,children:e.debit}),(0,F.jsx)(`td`,{className:`py-3`,children:e.credit})]},t)),(0,F.jsxs)(`tr`,{className:`font-bold`,children:[(0,F.jsx)(`td`,{className:`pt-4`,children:`Total`}),(0,F.jsx)(`td`,{className:`pt-4`,children:e.totalDebit}),(0,F.jsx)(`td`,{className:`pt-4`,children:e.totalCredit})]})]})]})]}),(0,F.jsx)(`div`,{className:`\r
           rounded-2xl\r
@@ -4544,9 +4550,10 @@ lg:pb-8\r
           border\r
           border-blue-200\r
           p-5\r
-        `,children:(0,F.jsx)(`p`,{className:`text-blue-900 text-lg`,children:e.note})})]},e.id):null)]})]})]})]})}var Ny=[{id:`learn`,label:`What You'll Learn`},{id:`steps`,label:`Lab Steps`},{id:`dataset`,label:`Practice Dataset`},{id:`quiz`,label:`Quiz Assessment`}],Py=[{slug:`company-setup`,id:1,slug:`company-setup`,title:`Company Setup & Opening Balances`,level:`Beginner`,duration:`30-45 mins`,description:`Create a new company, configure financial year, create ledgers and enter opening balances.`,objectives:[`Create a company`,`Configure financial year`,`Create primary ledgers`,`Generate Trial Balance`],heroHighlights:[`Hands-on Practice`,`Real-world Scenario`,`Quiz Assessment`],checklist:[`Company created`,`Ledgers created`,`Opening balances entered`,`Trial Balance generated`],steps:[{id:1,title:`Create Company`,duration:`5 mins`,objective:`Create a new company in Tally Prime.`,instructions:[`Open Gateway of Tally`,`Select Create Company`,`Enter company name as DemoCo Pvt Ltd`,`Set Financial Year Start Date`,`Save the company`],expectedResult:`Company is created successfully and opens in Gateway of Tally.`},{id:2,title:`Set Preferences`,duration:`3 mins`,objective:`Configure company preferences for accounting.`,instructions:[`Open Company Features`,`Enable required accounting options`,`Enable Opening Balance option`,`Save settings`],expectedResult:`Company settings are configured correctly.`},{id:3,title:`Create Ledgers & Groups`,duration:`10 mins`,objective:`Create the required ledgers for the exercise.`,instructions:[`Create Cash ledger`,`Create HDFC Bank ledger`,`Create Capital Account ledger`,`Create Outstanding Expenses ledger`],expectedResult:`All required ledgers are available.`},{id:4,title:`Enter Opening Balances`,duration:`10 mins`,objective:`Enter opening balances using the provided dataset.`,instructions:[`Open Ledger Alteration`,`Enter opening balances`,`Verify debit and credit values`,`Save changes`],expectedResult:`All balances are entered successfully.`},{id:5,title:`Reconcile & Adjust`,duration:`5 mins`,objective:`Balance debits and credits if required.`,instructions:[`Check Trial Balance`,`Identify difference`,`Create adjustment entry`,`Verify totals`],expectedResult:`Trial Balance is balanced.`},{id:6,title:`Generate Trial Balance`,duration:`5 mins`,objective:`Generate and export Trial Balance report.`,instructions:[`Open Reports`,`Select Trial Balance`,`Verify balances`,`Export PDF`],expectedResult:`Trial Balance report exported successfully.`}],practiceDataset:{title:`Opening Balance Dataset`,description:`Use these sample balances while completing the exercise.`,columns:[`Ledger`,`Group`,`Opening Balance`],entries:[{ledger:`Capital Account`,group:`Capital`,balance:`300,000 (Cr)`},{ledger:`Cash`,group:`Cash-in-Hand`,balance:`8,000 (Dr)`},{ledger:`HDFC Bank`,group:`Banks`,balance:`22,000 (Dr)`},{ledger:`Stock in Hand`,group:`Assets`,balance:`50,000 (Dr)`},{ledger:`Outstanding Expenses`,group:`Liabilities`,balance:`4,000 (Cr)`}],note:`Total Debits and Credits may require adjustment depending on migration data.`},quiz:[{id:1,question:`Which voucher type is commonly used to enter opening balances?`,options:[`Payment Voucher`,`Receipt Voucher`,`Journal Voucher`,`Contra Voucher`],correctAnswer:`Journal Voucher`},{id:2,question:`Which report helps verify ledger balances?`,options:[`Day Book`,`Trial Balance`,`Cash Flow`,`Purchase Register`],correctAnswer:`Trial Balance`},{id:3,question:`Which ledger group should HDFC Bank belong to?`,options:[`Capital`,`Banks`,`Expenses`,`Liabilities`],correctAnswer:`Banks`}]},{id:2,slug:`gst-invoice-return`,title:`GST Invoice & Return`,level:`Intermediate`,duration:`60-90 mins`,description:`Create GST-compliant invoices, post sales and purchase vouchers, generate GSTR-1 and GSTR-3B summaries, and reconcile outward supplies.`,objectives:[`Configure GST settings`,`Create GST invoices`,`Generate GSTR-1`,`Prepare GSTR-3B summary`],checklist:[`GST enabled & tax ledgers created`,`Customer & supplier GSTIN validated`,`Invoices raised with HSN/SAC & tax breakup`,`GSTR-1 & GSTR-3B prepared`,`Reconciliation completed`,`Quiz completed`],steps:[{id:1,title:`Enable GST & Create Tax Ledgers`,duration:`10 mins`,objective:`Configure GST in company settings and create tax ledgers.`,instructions:[`Open Company Features`,`Enable GST`,`Set GST Registration Type`,`Create CGST 9% ledger`,`Create SGST 9% ledger`,`Create IGST 18% ledger`],expectedResult:`GST is enabled and tax ledgers are available.`},{id:2,title:`Create Customer & Supplier Masters`,duration:`10 mins`,objective:`Create party ledgers with GST details.`,instructions:[`Create customer ledger`,`Enter GSTIN`,`Select state and registration type`,`Create supplier ledger`,`Save all parties`],expectedResult:`Customer and supplier masters are ready.`},{id:3,title:`Raise GST Invoices`,duration:`15 mins`,objective:`Create B2B, B2C and Export invoices.`,instructions:[`Create Sales Voucher`,`Select customer`,`Enter item details`,`Apply GST taxes`,`Save invoice`],expectedResult:`All invoices are generated successfully.`},{id:4,title:`Post Purchase & Sales Entries`,duration:`10 mins`,objective:`Record GST transactions correctly.`,instructions:[`Create purchase voucher`,`Create sales voucher`,`Verify GST calculation`,`Save entries`],expectedResult:`Sales and purchase vouchers are recorded.`},{id:5,title:`Generate GSTR-1`,duration:`10 mins`,objective:`Generate outward supplies report.`,instructions:[`Open GST Reports`,`Select GSTR-1`,`Choose return period`,`Verify values`,`Export CSV`],expectedResult:`GSTR-1 report generated successfully.`},{id:6,title:`Prepare GSTR-3B Summary`,duration:`10 mins`,objective:`Review tax liability and summary values.`,instructions:[`Open GSTR-3B report`,`Review taxable supplies`,`Verify tax liability`,`Save summary`],expectedResult:`GSTR-3B summary is prepared.`},{id:7,title:`Reconcile GST Reports`,duration:`15 mins`,objective:`Match invoices with GST returns.`,instructions:[`Compare sales register`,`Verify invoice values`,`Identify mismatches`,`Document corrections`],expectedResult:`GST reconciliation completed successfully.`}],practiceDataset:{title:`GST Invoice Dataset`,description:`Use the following invoices while completing the lab.`,columns:[`Invoice`,`Type`,`Tax`,`Amount`],entries:[{invoice:`INV-2001`,type:`B2B (Taxable)`,tax:`CGST 9% + SGST 9%`,amount:`₹50,000`},{invoice:`INV-2002`,type:`B2C (Taxable)`,tax:`IGST 18%`,amount:`₹2,500`},{invoice:`INV-2003`,type:`Export (Zero Rated)`,tax:`Nil (Export)`,amount:`₹120,000`}],note:`Ensure HSN/SAC codes and GST rates are entered correctly.`},quiz:[{id:1,question:`Which GST return contains outward supply details?`,options:[`GSTR-1`,`GSTR-2A`,`GSTR-3B`,`GSTR-9`],correctAnswer:`GSTR-1`},{id:2,question:`Which tax applies to an interstate taxable supply?`,options:[`CGST`,`SGST`,`IGST`,`CESS`],correctAnswer:`IGST`},{id:3,question:`What is required for GST invoice reporting?`,options:[`PAN only`,`GSTIN`,`Aadhaar`,`Passport`],correctAnswer:`GSTIN`}]},{id:3,slug:`inventory-stock`,title:`Inventory Movement & Stock Valuation`,level:`Intermediate`,duration:`45-60 mins`,description:`Create stock items, configure godowns, perform stock transfers, record stock journals and generate stock valuation reports.`,objectives:[`Create stock items`,`Configure godowns`,`Transfer inventory`,`Generate valuation reports`],checklist:[`Stock items created`,`Godowns configured`,`Stock transfer completed`,`Stock journal recorded`,`Valuation report generated`,`Quiz completed`],steps:[{id:1,title:`Create Stock Items & UOM`,duration:`10 mins`,objective:`Create stock masters with units of measure and opening quantities.`,instructions:[`Open Stock Item Creation`,`Enter item name and code`,`Assign UOM`,`Enter opening quantity`,`Save stock item`],expectedResult:`Stock items are created successfully.`},{id:2,title:`Configure Godowns`,duration:`5 mins`,objective:`Create warehouses for inventory tracking.`,instructions:[`Open Godown Creation`,`Create Main Warehouse`,`Create Branch Warehouse`,`Save configuration`],expectedResult:`Godowns are available for stock movement.`},{id:3,title:`Transfer Stock Between Godowns`,duration:`10 mins`,objective:`Move inventory from one warehouse to another.`,instructions:[`Open Stock Transfer Voucher`,`Select source godown`,`Select destination godown`,`Enter transfer quantity`,`Save transaction`],expectedResult:`Inventory transferred successfully.`},{id:4,title:`Create Stock Journal Entry`,duration:`10 mins`,objective:`Record production and consumption entries.`,instructions:[`Open Stock Journal`,`Select raw materials`,`Enter consumption quantity`,`Enter finished goods quantity`,`Save journal`],expectedResult:`Stock journal entry recorded successfully.`},{id:5,title:`Generate Stock Valuation Report`,duration:`5 mins`,objective:`Review stock value and inventory balances.`,instructions:[`Open Inventory Reports`,`Select Stock Valuation`,`Choose valuation method`,`Verify balances`,`Export report`],expectedResult:`Stock valuation report generated.`},{id:6,title:`Perform Inventory Reconciliation`,duration:`5 mins`,objective:`Compare physical stock with system stock.`,instructions:[`Review stock balances`,`Compare physical count`,`Identify differences`,`Record adjustments`],expectedResult:`Inventory reconciliation completed.`}],practiceDataset:{title:`Stock Inventory Dataset`,description:`Use the following stock items while completing the lab.`,columns:[`Item Code`,`Description`,`UOM`,`Opening Qty`],entries:[{itemCode:`RM-COT-001`,description:`Cotton Fabric`,uom:`m`,openingQty:`500`},{itemCode:`RM-WOOD-01`,description:`Timber`,uom:`kg`,openingQty:`200`},{itemCode:`FG-CH-01`,description:`Wooden Chair`,uom:`pcs`,openingQty:`50`},{itemCode:`PK-BOX-01`,description:`Packaging Box`,uom:`pcs`,openingQty:`200`}],note:`Ensure opening quantities and UOM values are entered correctly.`},quiz:[{id:1,question:`Which inventory valuation method assumes oldest stock is consumed first?`,options:[`FIFO`,`Weighted Average`,`Standard Cost`,`Moving Average`],correctAnswer:`FIFO`},{id:2,question:`Which feature is used to transfer stock between warehouses?`,options:[`Payment Voucher`,`Receipt Voucher`,`Stock Transfer`,`Contra Voucher`],correctAnswer:`Stock Transfer`},{id:3,question:`What is the purpose of a godown in inventory management?`,options:[`Customer Management`,`Tax Calculation`,`Stock Storage`,`Payroll Processing`],correctAnswer:`Stock Storage`}]},{id:4,slug:`payroll-management`,title:`Payroll Month End`,level:`Advanced`,duration:`60 mins`,description:`Create employee records, configure salary structures, process attendance, compute payroll and generate payslips with statutory deductions.`,objectives:[`Create employee masters`,`Configure salary templates`,`Process attendance`,`Generate payslips`],checklist:[`Employees created with PAN & bank details`,`Salary templates configured`,`Attendance imported / verified`,`Payroll processed successfully`,`Payslips generated & bank file exported`,`Quiz completed`],steps:[{id:1,title:`Create Employee Masters`,duration:`10 mins`,objective:`Create employee records with personal, bank and statutory details.`,instructions:[`Create employee master`,`Enter PAN details`,`Enter bank details`,`Assign department`,`Save employee record`],expectedResult:`Employee masters are created successfully.`},{id:2,title:`Define Salary Templates`,duration:`10 mins`,objective:`Configure salary structures and earning components.`,instructions:[`Create salary template`,`Add Basic Pay`,`Add HRA`,`Add Special Allowance`,`Configure deductions`],expectedResult:`Salary templates are configured.`},{id:3,title:`Process Attendance`,duration:`10 mins`,objective:`Import or enter monthly attendance records.`,instructions:[`Open attendance module`,`Import attendance data`,`Verify working days`,`Check leave entries`,`Save attendance`],expectedResult:`Attendance records processed successfully.`},{id:4,title:`Compute Payroll`,duration:`10 mins`,objective:`Calculate gross salary, deductions and net pay.`,instructions:[`Run payroll process`,`Verify earnings`,`Verify deductions`,`Check PF and ESI`,`Approve payroll`],expectedResult:`Payroll calculated successfully.`},{id:5,title:`Process Loan & Recoveries`,duration:`5 mins`,objective:`Apply employee loan deductions and recoveries.`,instructions:[`Open employee loan details`,`Enter recovery amount`,`Verify deduction`,`Save payroll changes`],expectedResult:`Loan deductions processed successfully.`},{id:6,title:`Generate Payslips`,duration:`10 mins`,objective:`Generate employee payslips and salary reports.`,instructions:[`Open payroll reports`,`Generate payslips`,`Review salary details`,`Export PDF`],expectedResult:`Payslips generated successfully.`},{id:7,title:`Export Bank File & Reports`,duration:`5 mins`,objective:`Generate bank transfer file and statutory reports.`,instructions:[`Generate bank file`,`Review PF report`,`Review ESI report`,`Export reports`],expectedResult:`Payroll reports exported successfully.`}],practiceDataset:{title:`Employee Salary Dataset`,description:`Use the following employee data while completing the payroll exercise.`,columns:[`Emp Code`,`Name`,`Template`,`CTC (₹)`],entries:[{empCode:`EMP001`,name:`Asha Rao`,template:`Monthly-Fixed`,ctc:`600000`},{empCode:`EMP002`,name:`Ravi Kumar`,template:`Monthly-Fixed`,ctc:`480000`},{empCode:`EMP003`,name:`Neha Singh`,template:`Hourly-Contract`,ctc:`240000`},{empCode:`EMP004`,name:`Vikram Patel`,template:`Monthly-Fixed`,ctc:`720000`}],note:`Verify attendance, deductions and salary structure before processing payroll.`},quiz:[{id:1,question:`Which document provides salary details to an employee?`,options:[`Invoice`,`Payslip`,`Purchase Order`,`Voucher`],correctAnswer:`Payslip`},{id:2,question:`Which deduction is commonly applicable to salaried employees in India?`,options:[`GST`,`PF`,`Custom Duty`,`Excise Duty`],correctAnswer:`PF`},{id:3,question:`What is calculated after deducting taxes and deductions from gross salary?`,options:[`CTC`,`Net Pay`,`Basic Pay`,`HRA`],correctAnswer:`Net Pay`}]}];function Fy(){let{exerciseSlug:e}=ht(),[t,n]=(0,w.useState)(0),r=Py.find(t=>t.slug===e);if(!r)return(0,F.jsx)(`div`,{className:`pt-32 text-center`,children:`Exercise not found`});let[i,a]=(0,w.useState)(0),[o,s]=(0,w.useState)({}),[c,l]=(0,w.useState)(!1),u=r.quiz,d=u[i],f=u.reduce((e,t)=>e+ +(o[t.id]===t.correctAnswer),0),[p,m]=(0,w.useState)({}),h=e=>{m(t=>({...t,[e]:!t[e]}))},g=r.steps.length+1,_=Object.values(p).filter(Boolean).length,v=_/g*100;return(0,F.jsxs)(`div`,{className:`max-w-7xl mx-auto px-4 sm:px-6 pt-24 sm:pt-28 pb-12 sm:pb-16`,children:[(0,F.jsx)(`section`,{className:`\r
+        `,children:(0,F.jsx)(`p`,{className:`text-blue-900 text-lg`,children:e.note})})]},e.id):null)]})]})]})]})}var Ny=[{id:`learn`,label:`What You'll Learn`},{id:`steps`,label:`Lab Steps`},{id:`dataset`,label:`Practice Dataset`},{id:`quiz`,label:`Quiz Assessment`}],Py=[{slug:`company-setup`,id:1,slug:`company-setup`,title:`Company Setup & Opening Balances`,level:`Beginner`,duration:`30-45 mins`,description:`Create a new company, configure financial year, create ledgers and enter opening balances.`,objectives:[`Create a company`,`Configure financial year`,`Create primary ledgers`,`Generate Trial Balance`],heroHighlights:[`Hands-on Practice`,`Real-world Scenario`,`Quiz Assessment`],checklist:[`Company created`,`Ledgers created`,`Opening balances entered`,`Trial Balance generated`],steps:[{id:1,title:`Create Company`,duration:`5 mins`,objective:`Create a new company in Tally Prime.`,instructions:[`Open Gateway of Tally`,`Select Create Company`,`Enter company name as DemoCo Pvt Ltd`,`Set Financial Year Start Date`,`Save the company`],expectedResult:`Company is created successfully and opens in Gateway of Tally.`},{id:2,title:`Set Preferences`,duration:`3 mins`,objective:`Configure company preferences for accounting.`,instructions:[`Open Company Features`,`Enable required accounting options`,`Enable Opening Balance option`,`Save settings`],expectedResult:`Company settings are configured correctly.`},{id:3,title:`Create Ledgers & Groups`,duration:`10 mins`,objective:`Create the required ledgers for the exercise.`,instructions:[`Create Cash ledger`,`Create HDFC Bank ledger`,`Create Capital Account ledger`,`Create Outstanding Expenses ledger`],expectedResult:`All required ledgers are available.`},{id:4,title:`Enter Opening Balances`,duration:`10 mins`,objective:`Enter opening balances using the provided dataset.`,instructions:[`Open Ledger Alteration`,`Enter opening balances`,`Verify debit and credit values`,`Save changes`],expectedResult:`All balances are entered successfully.`},{id:5,title:`Reconcile & Adjust`,duration:`5 mins`,objective:`Balance debits and credits if required.`,instructions:[`Check Trial Balance`,`Identify difference`,`Create adjustment entry`,`Verify totals`],expectedResult:`Trial Balance is balanced.`},{id:6,title:`Generate Trial Balance`,duration:`5 mins`,objective:`Generate and export Trial Balance report.`,instructions:[`Open Reports`,`Select Trial Balance`,`Verify balances`,`Export PDF`],expectedResult:`Trial Balance report exported successfully.`}],practiceDataset:{title:`Opening Balance Dataset`,description:`Use these sample balances while completing the exercise.`,columns:[`Ledger`,`Group`,`Opening Balance`],entries:[{ledger:`Capital Account`,group:`Capital`,balance:`300,000 (Cr)`},{ledger:`Cash`,group:`Cash-in-Hand`,balance:`8,000 (Dr)`},{ledger:`HDFC Bank`,group:`Banks`,balance:`22,000 (Dr)`},{ledger:`Stock in Hand`,group:`Assets`,balance:`50,000 (Dr)`},{ledger:`Outstanding Expenses`,group:`Liabilities`,balance:`4,000 (Cr)`}],note:`Total Debits and Credits may require adjustment depending on migration data.`},quiz:[{id:1,question:`Which voucher type is commonly used to enter opening balances?`,options:[`Payment Voucher`,`Receipt Voucher`,`Journal Voucher`,`Contra Voucher`],correctAnswer:`Journal Voucher`},{id:2,question:`Which report helps verify ledger balances?`,options:[`Day Book`,`Trial Balance`,`Cash Flow`,`Purchase Register`],correctAnswer:`Trial Balance`},{id:3,question:`Which ledger group should HDFC Bank belong to?`,options:[`Capital`,`Banks`,`Expenses`,`Liabilities`],correctAnswer:`Banks`}]},{id:2,slug:`gst-invoice-return`,title:`GST Invoice & Return`,level:`Intermediate`,duration:`60-90 mins`,description:`Create GST-compliant invoices, post sales and purchase vouchers, generate GSTR-1 and GSTR-3B summaries, and reconcile outward supplies.`,objectives:[`Configure GST settings`,`Create GST invoices`,`Generate GSTR-1`,`Prepare GSTR-3B summary`],checklist:[`GST enabled & tax ledgers created`,`Customer & supplier GSTIN validated`,`Invoices raised with HSN/SAC & tax breakup`,`GSTR-1 & GSTR-3B prepared`,`Reconciliation completed`,`Quiz completed`],steps:[{id:1,title:`Enable GST & Create Tax Ledgers`,duration:`10 mins`,objective:`Configure GST in company settings and create tax ledgers.`,instructions:[`Open Company Features`,`Enable GST`,`Set GST Registration Type`,`Create CGST 9% ledger`,`Create SGST 9% ledger`,`Create IGST 18% ledger`],expectedResult:`GST is enabled and tax ledgers are available.`},{id:2,title:`Create Customer & Supplier Masters`,duration:`10 mins`,objective:`Create party ledgers with GST details.`,instructions:[`Create customer ledger`,`Enter GSTIN`,`Select state and registration type`,`Create supplier ledger`,`Save all parties`],expectedResult:`Customer and supplier masters are ready.`},{id:3,title:`Raise GST Invoices`,duration:`15 mins`,objective:`Create B2B, B2C and Export invoices.`,instructions:[`Create Sales Voucher`,`Select customer`,`Enter item details`,`Apply GST taxes`,`Save invoice`],expectedResult:`All invoices are generated successfully.`},{id:4,title:`Post Purchase & Sales Entries`,duration:`10 mins`,objective:`Record GST transactions correctly.`,instructions:[`Create purchase voucher`,`Create sales voucher`,`Verify GST calculation`,`Save entries`],expectedResult:`Sales and purchase vouchers are recorded.`},{id:5,title:`Generate GSTR-1`,duration:`10 mins`,objective:`Generate outward supplies report.`,instructions:[`Open GST Reports`,`Select GSTR-1`,`Choose return period`,`Verify values`,`Export CSV`],expectedResult:`GSTR-1 report generated successfully.`},{id:6,title:`Prepare GSTR-3B Summary`,duration:`10 mins`,objective:`Review tax liability and summary values.`,instructions:[`Open GSTR-3B report`,`Review taxable supplies`,`Verify tax liability`,`Save summary`],expectedResult:`GSTR-3B summary is prepared.`},{id:7,title:`Reconcile GST Reports`,duration:`15 mins`,objective:`Match invoices with GST returns.`,instructions:[`Compare sales register`,`Verify invoice values`,`Identify mismatches`,`Document corrections`],expectedResult:`GST reconciliation completed successfully.`}],practiceDataset:{title:`GST Invoice Dataset`,description:`Use the following invoices while completing the lab.`,columns:[`Invoice`,`Type`,`Tax`,`Amount`],entries:[{invoice:`INV-2001`,type:`B2B (Taxable)`,tax:`CGST 9% + SGST 9%`,amount:`₹50,000`},{invoice:`INV-2002`,type:`B2C (Taxable)`,tax:`IGST 18%`,amount:`₹2,500`},{invoice:`INV-2003`,type:`Export (Zero Rated)`,tax:`Nil (Export)`,amount:`₹120,000`}],note:`Ensure HSN/SAC codes and GST rates are entered correctly.`},quiz:[{id:1,question:`Which GST return contains outward supply details?`,options:[`GSTR-1`,`GSTR-2A`,`GSTR-3B`,`GSTR-9`],correctAnswer:`GSTR-1`},{id:2,question:`Which tax applies to an interstate taxable supply?`,options:[`CGST`,`SGST`,`IGST`,`CESS`],correctAnswer:`IGST`},{id:3,question:`What is required for GST invoice reporting?`,options:[`PAN only`,`GSTIN`,`Aadhaar`,`Passport`],correctAnswer:`GSTIN`}]},{id:3,slug:`inventory-stock`,title:`Inventory Movement & Stock Valuation`,level:`Intermediate`,duration:`45-60 mins`,description:`Create stock items, configure godowns, perform stock transfers, record stock journals and generate stock valuation reports.`,objectives:[`Create stock items`,`Configure godowns`,`Transfer inventory`,`Generate valuation reports`],checklist:[`Stock items created`,`Godowns configured`,`Stock transfer completed`,`Stock journal recorded`,`Valuation report generated`,`Quiz completed`],steps:[{id:1,title:`Create Stock Items & UOM`,duration:`10 mins`,objective:`Create stock masters with units of measure and opening quantities.`,instructions:[`Open Stock Item Creation`,`Enter item name and code`,`Assign UOM`,`Enter opening quantity`,`Save stock item`],expectedResult:`Stock items are created successfully.`},{id:2,title:`Configure Godowns`,duration:`5 mins`,objective:`Create warehouses for inventory tracking.`,instructions:[`Open Godown Creation`,`Create Main Warehouse`,`Create Branch Warehouse`,`Save configuration`],expectedResult:`Godowns are available for stock movement.`},{id:3,title:`Transfer Stock Between Godowns`,duration:`10 mins`,objective:`Move inventory from one warehouse to another.`,instructions:[`Open Stock Transfer Voucher`,`Select source godown`,`Select destination godown`,`Enter transfer quantity`,`Save transaction`],expectedResult:`Inventory transferred successfully.`},{id:4,title:`Create Stock Journal Entry`,duration:`10 mins`,objective:`Record production and consumption entries.`,instructions:[`Open Stock Journal`,`Select raw materials`,`Enter consumption quantity`,`Enter finished goods quantity`,`Save journal`],expectedResult:`Stock journal entry recorded successfully.`},{id:5,title:`Generate Stock Valuation Report`,duration:`5 mins`,objective:`Review stock value and inventory balances.`,instructions:[`Open Inventory Reports`,`Select Stock Valuation`,`Choose valuation method`,`Verify balances`,`Export report`],expectedResult:`Stock valuation report generated.`},{id:6,title:`Perform Inventory Reconciliation`,duration:`5 mins`,objective:`Compare physical stock with system stock.`,instructions:[`Review stock balances`,`Compare physical count`,`Identify differences`,`Record adjustments`],expectedResult:`Inventory reconciliation completed.`}],practiceDataset:{title:`Stock Inventory Dataset`,description:`Use the following stock items while completing the lab.`,columns:[`Item Code`,`Description`,`UOM`,`Opening Qty`],entries:[{itemCode:`RM-COT-001`,description:`Cotton Fabric`,uom:`m`,openingQty:`500`},{itemCode:`RM-WOOD-01`,description:`Timber`,uom:`kg`,openingQty:`200`},{itemCode:`FG-CH-01`,description:`Wooden Chair`,uom:`pcs`,openingQty:`50`},{itemCode:`PK-BOX-01`,description:`Packaging Box`,uom:`pcs`,openingQty:`200`}],note:`Ensure opening quantities and UOM values are entered correctly.`},quiz:[{id:1,question:`Which inventory valuation method assumes oldest stock is consumed first?`,options:[`FIFO`,`Weighted Average`,`Standard Cost`,`Moving Average`],correctAnswer:`FIFO`},{id:2,question:`Which feature is used to transfer stock between warehouses?`,options:[`Payment Voucher`,`Receipt Voucher`,`Stock Transfer`,`Contra Voucher`],correctAnswer:`Stock Transfer`},{id:3,question:`What is the purpose of a godown in inventory management?`,options:[`Customer Management`,`Tax Calculation`,`Stock Storage`,`Payroll Processing`],correctAnswer:`Stock Storage`}]},{id:4,slug:`payroll-management`,title:`Payroll Month End`,level:`Advanced`,duration:`60 mins`,description:`Create employee records, configure salary structures, process attendance, compute payroll and generate payslips with statutory deductions.`,objectives:[`Create employee masters`,`Configure salary templates`,`Process attendance`,`Generate payslips`],checklist:[`Employees created with PAN & bank details`,`Salary templates configured`,`Attendance imported / verified`,`Payroll processed successfully`,`Payslips generated & bank file exported`,`Quiz completed`],steps:[{id:1,title:`Create Employee Masters`,duration:`10 mins`,objective:`Create employee records with personal, bank and statutory details.`,instructions:[`Create employee master`,`Enter PAN details`,`Enter bank details`,`Assign department`,`Save employee record`],expectedResult:`Employee masters are created successfully.`},{id:2,title:`Define Salary Templates`,duration:`10 mins`,objective:`Configure salary structures and earning components.`,instructions:[`Create salary template`,`Add Basic Pay`,`Add HRA`,`Add Special Allowance`,`Configure deductions`],expectedResult:`Salary templates are configured.`},{id:3,title:`Process Attendance`,duration:`10 mins`,objective:`Import or enter monthly attendance records.`,instructions:[`Open attendance module`,`Import attendance data`,`Verify working days`,`Check leave entries`,`Save attendance`],expectedResult:`Attendance records processed successfully.`},{id:4,title:`Compute Payroll`,duration:`10 mins`,objective:`Calculate gross salary, deductions and net pay.`,instructions:[`Run payroll process`,`Verify earnings`,`Verify deductions`,`Check PF and ESI`,`Approve payroll`],expectedResult:`Payroll calculated successfully.`},{id:5,title:`Process Loan & Recoveries`,duration:`5 mins`,objective:`Apply employee loan deductions and recoveries.`,instructions:[`Open employee loan details`,`Enter recovery amount`,`Verify deduction`,`Save payroll changes`],expectedResult:`Loan deductions processed successfully.`},{id:6,title:`Generate Payslips`,duration:`10 mins`,objective:`Generate employee payslips and salary reports.`,instructions:[`Open payroll reports`,`Generate payslips`,`Review salary details`,`Export PDF`],expectedResult:`Payslips generated successfully.`},{id:7,title:`Export Bank File & Reports`,duration:`5 mins`,objective:`Generate bank transfer file and statutory reports.`,instructions:[`Generate bank file`,`Review PF report`,`Review ESI report`,`Export reports`],expectedResult:`Payroll reports exported successfully.`}],practiceDataset:{title:`Employee Salary Dataset`,description:`Use the following employee data while completing the payroll exercise.`,columns:[`Emp Code`,`Name`,`Template`,`CTC (₹)`],entries:[{empCode:`EMP001`,name:`Asha Rao`,template:`Monthly-Fixed`,ctc:`600000`},{empCode:`EMP002`,name:`Ravi Kumar`,template:`Monthly-Fixed`,ctc:`480000`},{empCode:`EMP003`,name:`Neha Singh`,template:`Hourly-Contract`,ctc:`240000`},{empCode:`EMP004`,name:`Vikram Patel`,template:`Monthly-Fixed`,ctc:`720000`}],note:`Verify attendance, deductions and salary structure before processing payroll.`},quiz:[{id:1,question:`Which document provides salary details to an employee?`,options:[`Invoice`,`Payslip`,`Purchase Order`,`Voucher`],correctAnswer:`Payslip`},{id:2,question:`Which deduction is commonly applicable to salaried employees in India?`,options:[`GST`,`PF`,`Custom Duty`,`Excise Duty`],correctAnswer:`PF`},{id:3,question:`What is calculated after deducting taxes and deductions from gross salary?`,options:[`CTC`,`Net Pay`,`Basic Pay`,`HRA`],correctAnswer:`Net Pay`}]}];function Fy(){let{exerciseSlug:e}=ht(),[t,n]=(0,w.useState)(0),r=Py.find(t=>t.slug===e);if(!r)return(0,F.jsx)(`div`,{className:`pt-32 text-center`,children:`Exercise not found`});let[i,a]=(0,w.useState)(0),[o,s]=(0,w.useState)({}),[c,l]=(0,w.useState)(!1),u=r.quiz,d=u[i],f=u.reduce((e,t)=>e+ +(o[t.id]===t.correctAnswer),0),[p,m]=(0,w.useState)({}),h=e=>{m(t=>({...t,[e]:!t[e]}))},g=r.steps.length+1,_=Object.values(p).filter(Boolean).length,v=_/g*100;return(0,F.jsxs)(`div`,{className:`max-w-7xl mx-auto px-4 sm:px-6 pt-24 sm:pt-28 pb-12 sm:pb-16`,children:[(0,F.jsxs)(`section`,{className:`\r
   relative\r
-    bg-[#F5F7FF]\r
+  overflow-hidden\r
+    bg-[#F8FBFD]\r
     border\r
     border-slate-200\r
     rounded-2xl\r
@@ -4556,7 +4563,17 @@ sm:p-8\r
 md:p-10\r
     shadow-sm\r
     mb-10\r
-  `,children:(0,F.jsx)(`div`,{className:`grid lg:grid-cols-1 gap-10 items-center`,children:(0,F.jsxs)(`div`,{className:`\r
+  `,children:[(0,F.jsx)(`div`,{className:`\r
+    absolute\r
+    top-0\r
+    left-1/2\r
+    -translate-x-1/2\r
+    w-[600px]\r
+    h-[600px]\r
+    bg-[#155A96]/5\r
+    blur-[120px]\r
+    rounded-full\r
+  `}),(0,F.jsx)(`div`,{className:`grid lg:grid-cols-1 gap-10 items-center`,children:(0,F.jsxs)(`div`,{className:`\r
     max-w-4xl\r
     mx-auto\r
     text-center\r
@@ -4567,12 +4584,12 @@ md:p-10\r
           px-4\r
           py-2\r
           rounded-full\r
-          bg-blue-50\r
-          text-blue-700\r
+          bg-[#EEF4F8]\r
+          text-[#155A96]\r
           text-sm\r
           font-medium\r
         `,children:[(0,F.jsx)(fr,{size:15}),`Practice Lab`]}),(0,F.jsx)(`h1`,{className:`\r
-          mt-6\r
+          mt-4\r
           text-2xl\r
 sm:text-3xl\r
 md:text-4xl\r
@@ -4581,7 +4598,7 @@ lg:text-5xl\r
           text-slate-900\r
           leading-tight\r
         `,children:r.title}),(0,F.jsx)(`p`,{className:`\r
-          mt-6\r
+          mt-4\r
           text-sm\r
 sm:text-base\r
 md:text-lg\r
@@ -4589,46 +4606,50 @@ md:text-lg\r
           max-w-3xl\r
           mx-auto\r
           leading-relaxed\r
-        `,children:r.description}),(0,F.jsxs)(`div`,{className:`flex flex-wrap justify-center gap-3 mt-8`,children:[(0,F.jsxs)(`div`,{className:`\r
-            flex\r
-            items-center\r
-            gap-2\r
-            px-3 py-1.5\r
-text-sm\r
-            bg-blue-50\r
-            text-blue-700\r
-            rounded-full\r
-            font-medium\r
-          `,children:[(0,F.jsx)(Bi,{size:16}),r.level]}),(0,F.jsxs)(`div`,{className:`\r
-            flex\r
-            items-center\r
-            gap-2\r
-            px-4\r
-            py-2\r
-            bg-slate-50\r
-            rounded-full\r
-            text-slate-700\r
-          `,children:[(0,F.jsx)(Nr,{size:16}),r.duration]}),(0,F.jsxs)(`div`,{className:`\r
-            flex\r
-            items-center\r
-            gap-2\r
-            px-4\r
-            py-2\r
-            bg-slate-50\r
-            rounded-full\r
-            text-slate-700\r
-          `,children:[(0,F.jsx)(Or,{size:16}),r.steps?.length||0,` Steps`]})]}),(0,F.jsx)(`div`,{className:`flex flex-wrap justify-center gap-4 mt-8`,children:(0,F.jsxs)(`button`,{onClick:()=>document.getElementById(`steps`)?.scrollIntoView({behavior:`smooth`}),className:`\r
+        `,children:r.description}),(0,F.jsxs)(`div`,{className:`grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8`,children:[(0,F.jsxs)(`div`,{className:`\r
+    bg-white\r
+    border border-[#D7E5EF]\r
+    rounded-2xl\r
+    p-5\r
+    text-center\r
+  `,children:[(0,F.jsx)(Bi,{size:18,className:`mx-auto text-[#155A96]`}),(0,F.jsx)(`p`,{className:`mt-2 text-xs uppercase tracking-wider text-[#64748B]`,children:`Level`}),(0,F.jsx)(`h3`,{className:`mt-1 font-bold text-[#155A96]`,children:r.level})]}),(0,F.jsxs)(`div`,{className:`\r
+    bg-white\r
+    border border-[#D7E5EF]\r
+    rounded-2xl\r
+    p-5\r
+    text-center\r
+  `,children:[(0,F.jsx)(Nr,{size:18,className:`mx-auto text-[#155A96]`}),(0,F.jsx)(`p`,{className:`mt-2 text-xs uppercase tracking-wider text-[#64748B]`,children:`Duration`}),(0,F.jsx)(`h3`,{className:`mt-1 font-bold text-[#155A96]`,children:r.duration})]}),(0,F.jsxs)(`div`,{className:`\r
+    bg-white\r
+    border border-[#D7E5EF]\r
+    rounded-2xl\r
+    p-5\r
+    text-center\r
+  `,children:[(0,F.jsx)(Or,{size:18,className:`mx-auto text-[#155A96]`}),(0,F.jsx)(`p`,{className:`mt-2 text-xs uppercase tracking-wider text-[#64748B]`,children:`Steps`}),(0,F.jsx)(`h3`,{className:`mt-1 font-bold text-[#155A96]`,children:r.steps?.length||0})]})]}),(0,F.jsxs)(`div`,{className:`\r
+    mt-6\r
+    bg-white\r
+    border border-[#D7E5EF]\r
+    rounded-2xl\r
+    p-5\r
+    max-w-xl\r
+    mx-auto\r
+  `,children:[(0,F.jsxs)(`div`,{className:`flex justify-between items-center mb-2`,children:[(0,F.jsx)(`span`,{className:`text-sm text-[#64748B]`,children:`Lab Completion`}),(0,F.jsxs)(`span`,{className:`text-sm font-semibold text-[#155A96]`,children:[_,`/`,r.steps.length]})]}),(0,F.jsx)(`div`,{className:`h-2 bg-[#EEF4F8] rounded-full`,children:(0,F.jsx)(`div`,{className:`\r
+    h-2\r
+    bg-[#155A96]\r
+    rounded-full\r
+    transition-all\r
+    duration-500\r
+  `,style:{width:`${_/r.steps.length*100}%`}})})]}),(0,F.jsx)(`div`,{className:`flex flex-wrap justify-center gap-4 mt-6`,children:(0,F.jsxs)(`button`,{onClick:()=>document.getElementById(`steps`)?.scrollIntoView({behavior:`smooth`}),className:`\r
             flex\r
             items-center\r
             gap-2\r
             px-6\r
             py-3\r
             rounded-xl\r
-            bg-[#2F80FF]\r
+            bg-[#155A96]\r
             hover:bg-[#246AE8]\r
             text-white\r
             font-medium\r
-          `,children:[(0,F.jsx)(Si,{size:18}),`Start Lab`]})})]})})}),(0,F.jsxs)(`div`,{className:`grid grid-cols-1 lg:grid-cols-12 gap-8`,children:[(0,F.jsxs)(`div`,{className:`lg:col-span-8 space-y-8`,children:[(0,F.jsxs)(`section`,{id:`learn`,className:`\r
+          `,children:[(0,F.jsx)(Si,{size:18}),`Start Lab`]})})]})})]}),(0,F.jsxs)(`div`,{className:`grid grid-cols-1 lg:grid-cols-12 gap-8`,children:[(0,F.jsxs)(`div`,{className:`lg:col-span-8 space-y-8`,children:[(0,F.jsxs)(`section`,{id:`learn`,className:`\r
     bg-white\r
     border\r
     border-slate-200\r
@@ -4637,28 +4658,51 @@ text-sm\r
     p-4\r
     sm:p-6\r
     lg:p-8\r
-  `,children:[(0,F.jsxs)(`h2`,{className:`\r
+  `,children:[(0,F.jsxs)(`div`,{className:`flex items-center gap-3 mb-6`,children:[(0,F.jsx)(`div`,{className:`\r
+      w-10 h-10\r
+      rounded-xl\r
+      bg-[#EEF4F8]\r
+      flex items-center justify-center\r
+    `,children:(0,F.jsx)(fr,{className:`w-5 h-5 text-[#155A96]`})}),(0,F.jsx)(`div`,{className:`\r
+    absolute\r
+    top-0\r
+    left-0\r
+    w-full\r
+    h-1\r
+    bg-[#155A96]\r
+    rounded-t-3xl\r
+  `}),(0,F.jsx)(`h2`,{className:`\r
       text-xl\r
       sm:text-2xl\r
       font-bold\r
-      mb-4\r
-      sm:mb-5\r
-    `,children:[(0,F.jsx)(fr,{className:`w-5 h-5 text-[#2563EB]`}),`What You'll Learn`]}),(0,F.jsx)(`div`,{className:`\r
+      text-[#071426]\r
+    `,children:`What You'll Learn`})]}),(0,F.jsx)(`div`,{className:`\r
       grid\r
       grid-cols-1\r
       md:grid-cols-2\r
       gap-3\r
       sm:gap-4\r
-      md:gap-8\r
+      md:gap-6\r
     `,children:r.checklist.map(e=>(0,F.jsxs)(`div`,{className:`\r
-          flex\r
-          items-start\r
-          gap-3\r
-        `,children:[(0,F.jsx)(Or,{size:16,className:`\r
-            text-blue-600\r
-            mt-1\r
-            shrink-0\r
-          `}),(0,F.jsx)(`span`,{className:`\r
+flex\r
+items-start\r
+gap-3\r
+rounded-2xl\r
+border border-[#D7E5EF]\r
+bg-white\r
+p-4\r
+transition-all\r
+duration-300\r
+hover:border-[#155A96]/30\r
+hover:shadow-md\r
+`,children:[(0,F.jsx)(`div`,{className:`\r
+    w-8 h-8\r
+    rounded-full\r
+    bg-[#EEF4F8]\r
+    flex items-center justify-center\r
+    shrink-0\r
+    mt-0.5\r
+  `,children:(0,F.jsx)(Or,{size:16,className:`text-[#155A96]`})}),(0,F.jsx)(`span`,{className:`\r
             text-sm\r
             sm:text-base\r
             text-slate-700\r
@@ -4672,21 +4716,22 @@ lg:rounded-3xl\r
 p-5\r
 sm:p-6\r
 lg:p-8\r
-  `,children:[(0,F.jsxs)(`div`,{className:`flex items-center justify-between mb-8`,children:[(0,F.jsx)(`h2`,{className:`text-2xl font-bold text-slate-900`,children:`Lab Steps`}),(0,F.jsxs)(`span`,{className:`\r
+  `,children:[(0,F.jsxs)(`div`,{className:`flex items-center justify-between mb-8`,children:[(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`p`,{className:`text-sm font-semibold text-[#155A96] uppercase tracking-[0.15em]`,children:`Practice Workflow`}),(0,F.jsx)(`h2`,{className:`text-2xl font-bold text-[#071426] mt-1`,children:`Lab Steps`})]}),(0,F.jsxs)(`span`,{className:`\r
         px-3\r
         py-1\r
         rounded-full\r
-        bg-blue-50\r
-        text-blue-700\r
+        bg-[#EEF4F8]\r
+text-[#155A96]\r
         text-sm\r
         font-medium\r
-      `,children:[r.steps.length,` Steps`]})]}),(0,F.jsx)(`div`,{className:`space-y-4`,children:r.steps.map((e,r)=>{let i=t===r;return(0,F.jsxs)(`div`,{className:`\r
-            border\r
-            border-slate-200\r
-            rounded-2xl\r
-            overflow-hidden\r
-            transition-all\r
-          `,children:[(0,F.jsxs)(`button`,{onClick:()=>n(i?null:r),className:`\r
+      `,children:[r.steps.length,` Steps`]})]}),(0,F.jsx)(`div`,{className:`space-y-4`,children:r.steps.map((e,r)=>{let i=t===r;return(0,F.jsxs)(`div`,{className:`
+  border
+  rounded-2xl
+  overflow-hidden
+  transition-all duration-300
+
+  ${i?`border-[#155A96] shadow-lg`:`border-slate-200`}
+`,children:[(0,F.jsxs)(`button`,{onClick:()=>n(i?null:r),className:`\r
               w-full\r
               flex\r
               items-center\r
@@ -4706,7 +4751,7 @@ lg:p-8\r
                   justify-center\r
                   font-bold\r
                   shrink-0\r
-                `,children:e.id}),(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`h3`,{className:`\r
+                `,children:e.id}),(0,F.jsx)(`div`,{className:`hidden sm:block w-6 h-[2px] bg-[#D7E5EF]`}),(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`h3`,{className:`\r
                     text-lg\r
                     font-semibold\r
                     text-slate-900\r
@@ -4716,7 +4761,7 @@ lg:p-8\r
                     gap-2\r
                     mt-1\r
                     text-sm\r
-                    text-slate-500\r
+                    text-[#64748B]\r
                   `,children:[(0,F.jsx)(Nr,{size:14}),e.duration]})]})]}),(0,F.jsx)(wr,{size:20,className:`
                 transition-transform
                 duration-300
@@ -4725,13 +4770,13 @@ lg:p-8\r
                 border-t\r
                 border-slate-100\r
                 p-6\r
-                bg-slate-50/50\r
+                bg-[#FAFCFE]\r
               `,children:[(0,F.jsxs)(`div`,{className:`mb-6`,children:[(0,F.jsxs)(`div`,{className:`\r
                     flex\r
                     items-center\r
                     gap-2\r
                     mb-2\r
-                  `,children:[(0,F.jsx)(Bi,{size:18,className:`text-blue-600`}),(0,F.jsx)(`h4`,{className:`font-semibold`,children:`Objective`})]}),(0,F.jsx)(`p`,{className:`text-slate-600`,children:e.objective})]}),(0,F.jsxs)(`div`,{className:`mb-6`,children:[(0,F.jsx)(`h4`,{className:`\r
+                  `,children:[(0,F.jsx)(Bi,{size:18,className:`text-[#155A96]`}),(0,F.jsx)(`h4`,{className:`font-semibold`,children:`Objective`})]}),(0,F.jsx)(`p`,{className:`text-slate-600`,children:e.objective})]}),(0,F.jsxs)(`div`,{className:`mb-6`,children:[(0,F.jsx)(`h4`,{className:`\r
                     font-semibold\r
                     mb-3\r
                   `,children:`Instructions`}),(0,F.jsx)(`ul`,{className:`space-y-3`,children:e.instructions.map((e,t)=>(0,F.jsxs)(`li`,{className:`\r
@@ -4742,8 +4787,8 @@ lg:p-8\r
                             w-6\r
                             h-6\r
                             rounded-full\r
-                            bg-blue-100\r
-                            text-blue-700\r
+                            bg-[#EEF4F8]\r
+text-[#155A96]\r
                             text-xs\r
                             flex\r
                             items-center\r
@@ -4753,9 +4798,9 @@ lg:p-8\r
                             mt-0.5\r
                           `,children:t+1}),(0,F.jsx)(`span`,{className:`text-slate-700`,children:e})]},t))})]}),(0,F.jsxs)(`div`,{className:`\r
                   rounded-2xl\r
-                  bg-green-50\r
+                  bg-[#EEF4F8]\r
                   border\r
-                  border-green-100\r
+                  border-[#D7E5EF]\r
                   p-4\r
                 `,children:[(0,F.jsxs)(`div`,{className:`\r
                     flex\r
@@ -4763,19 +4808,19 @@ lg:p-8\r
                     gap-2\r
                     mb-2\r
                   `,children:[(0,F.jsx)(Or,{size:18,className:`\r
-                      text-green-600\r
+                      text-[#155A96]\r
                     `}),(0,F.jsx)(`h4`,{className:`\r
                       font-semibold\r
-                      text-green-800\r
+                      text-[#155A96]\r
                     `,children:`Expected Result`})]}),(0,F.jsx)(`p`,{className:`\r
-                    text-green-700\r
+                    text-[#475569]\r
                   `,children:e.expectedResult})]})]})]},e.id)})})]}),(0,F.jsxs)(`section`,{id:`dataset`,className:`\r
     bg-white\r
     border\r
     border-slate-200\r
     rounded-3xl\r
     p-8\r
-  `,children:[(0,F.jsxs)(`div`,{className:`flex items-center justify-between mb-6`,children:[(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`h2`,{className:`text-2xl font-bold`,children:`Practice Dataset`}),(0,F.jsx)(`p`,{className:`text-slate-500 mt-2`,children:`Use these values while completing the lab exercise.`})]}),(0,F.jsxs)(`div`,{className:`\r
+  `,children:[(0,F.jsxs)(`div`,{className:`flex items-center justify-between mb-6`,children:[(0,F.jsxs)(`div`,{children:[(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`p`,{className:`text-sm font-semibold text-[#155A96] uppercase tracking-[0.15em]`,children:`Practice Resources`}),(0,F.jsx)(`h2`,{className:`text-2xl font-bold text-[#071426] mt-1`,children:`Practice Dataset`})]}),(0,F.jsx)(`p`,{className:`text-slate-500 mt-2`,children:`Use these values while completing the lab exercise.`})]}),(0,F.jsxs)(`div`,{className:`\r
         hidden\r
         md:flex\r
         items-center\r
@@ -4783,27 +4828,50 @@ lg:p-8\r
         px-4\r
         py-2\r
         rounded-full\r
-        bg-blue-50\r
-        text-blue-700\r
+        bg-[#EEF4F8]\r
+text-[#155A96]\r
+border border-[#D7E5EF]\r
       `,children:[(0,F.jsx)(Lr,{size:16}),`Sample Data`,(0,F.jsxs)(`button`,{onClick:()=>{let e=[[`Ledger`,`Group`,`Opening Balance`],...r.practiceDataset.entries.map(e=>[e.ledger,e.group,e.balance])].map(e=>e.join(`,`)).join(`
 `),t=new Blob([e],{type:`text/csv`}),n=window.URL.createObjectURL(t),i=document.createElement(`a`);i.href=n,i.download=`opening-balance-dataset.csv`,i.click()},className:`\r
-        flex\r
-        items-center\r
-        gap-2\r
-        px-4 py-2\r
-      `,children:[(0,F.jsx)(Ur,{size:16}),`Download`]})]})]}),(0,F.jsx)(`div`,{className:`\r
+flex\r
+items-center\r
+gap-2\r
+px-4\r
+py-2\r
+rounded-xl\r
+bg-white\r
+border border-[#D7E5EF]\r
+text-[#155A96]\r
+font-medium\r
+hover:bg-[#F8FBFD]\r
+transition-all\r
+`,children:[(0,F.jsx)(Ur,{size:16}),`Download`]})]})]}),(0,F.jsxs)(`div`,{className:`grid grid-cols-2 sm:grid-cols-4 gap-4 mb-6`,children:[(0,F.jsxs)(`div`,{className:`bg-[#F8FBFD] border border-[#D7E5EF] rounded-xl p-4`,children:[(0,F.jsx)(`p`,{className:`text-xs text-[#64748B]`,children:`Records`}),(0,F.jsx)(`p`,{className:`text-xl font-bold text-[#071426]`,children:r.practiceDataset.entries.length})]}),(0,F.jsxs)(`div`,{className:`bg-[#F8FBFD] border border-[#D7E5EF] rounded-xl p-4`,children:[(0,F.jsx)(`p`,{className:`text-xs text-[#64748B]`,children:`Fields`}),(0,F.jsx)(`p`,{className:`text-xl font-bold text-[#071426]`,children:r.practiceDataset.columns.length})]})]}),(0,F.jsx)(`div`,{className:`\r
     overflow-x-auto\r
     rounded-2xl\r
     border\r
     border-slate-200\r
-  `,children:(0,F.jsxs)(`table`,{className:`min-w-[650px] w-full`,children:[(0,F.jsx)(`thead`,{children:(0,F.jsx)(`tr`,{className:`bg-slate-50`,children:r.practiceDataset.columns.map(e=>(0,F.jsx)(`th`,{className:`text-left px-6 py-4`,children:e},e))})}),(0,F.jsx)(`tbody`,{children:r.practiceDataset.entries.map((e,t)=>(0,F.jsx)(`tr`,{className:`border-t border-slate-100`,children:Object.values(e).map((e,t)=>(0,F.jsx)(`td`,{className:`px-6 py-4`,children:e},t))},t))})]})}),(0,F.jsx)(`div`,{className:`\r
+  `,children:(0,F.jsxs)(`table`,{className:`min-w-[650px] w-full`,children:[(0,F.jsx)(`thead`,{children:(0,F.jsx)(`tr`,{className:`bg-[#F8FBFD]`,children:r.practiceDataset.columns.map(e=>(0,F.jsx)(`th`,{className:`\r
+    text-left\r
+    px-6\r
+    py-4\r
+    text-[#155A96]\r
+    font-semibold\r
+    uppercase\r
+    text-sm\r
+    tracking-wide\r
+  `,children:e},e))})}),(0,F.jsx)(`tbody`,{children:r.practiceDataset.entries.map((e,t)=>(0,F.jsx)(`tr`,{className:`\r
+    border-t\r
+    border-slate-100\r
+    hover:bg-[#F8FBFD]\r
+    transition-colors\r
+  `,children:Object.values(e).map((e,t)=>(0,F.jsx)(`td`,{className:`px-6 py-4`,children:e},t))},t))})]})}),(0,F.jsx)(`div`,{className:`\r
       mt-6\r
       rounded-2xl\r
-      bg-blue-50\r
+      bg-[#EEF4F8]\r
       border\r
-      border-blue-100\r
+      border-[#D7E5EF]\r
       p-4\r
-    `,children:(0,F.jsx)(`p`,{className:`text-blue-800 text-sm`,children:r.practiceDataset.note})})]}),(0,F.jsx)(`section`,{id:`quiz`,className:`\r
+    `,children:(0,F.jsx)(`p`,{className:`text-[#155A96] text-sm`,children:r.practiceDataset.note})})]}),(0,F.jsx)(`section`,{id:`quiz`,className:`\r
     bg-[#F5F7FF]\r
     border\r
     border-slate-200\r
@@ -4813,13 +4881,13 @@ lg:p-8\r
           w-20\r
           h-20\r
           rounded-full\r
-          bg-green-50\r
+          bg-[#EEF4F8]\r
           flex\r
           items-center\r
           justify-center\r
           mx-auto\r
           mb-6\r
-        `,children:(0,F.jsx)(Hi,{size:36,className:`text-green-600`})}),(0,F.jsx)(`h2`,{className:`\r
+        `,children:(0,F.jsx)(Hi,{size:36,className:`text-[#155A96]`})}),(0,F.jsx)(`h2`,{className:`\r
           text-3xl\r
           font-bold\r
           text-slate-900\r
@@ -4834,20 +4902,22 @@ lg:p-8\r
           px-6\r
           py-4\r
           rounded-2xl\r
-          bg-green-50\r
+          bg-[#EEF4F8]\r
+\r
           border\r
-          border-green-100\r
+          border-[#D7E5EF]\r
         `,children:[(0,F.jsx)(Or,{className:`text-green-600`}),(0,F.jsxs)(`span`,{className:`\r
             text-lg\r
             font-semibold\r
-            text-green-700\r
-          `,children:[`Score: `,f,` /`,` `,u.length]})]}),(0,F.jsx)(`p`,{className:`mt-6 text-slate-600`,children:`You have completed the assessment for this lab.`})]}):(0,F.jsxs)(F.Fragment,{children:[(0,F.jsxs)(`div`,{className:`mb-8`,children:[(0,F.jsx)(`h2`,{className:`\r
-            text-2xl\r
-            font-bold\r
-            text-slate-900\r
-          `,children:`Assessment Quiz`}),(0,F.jsx)(`p`,{className:`text-slate-500 mt-2`,children:`Complete the assessment to validate your learning.`})]}),(0,F.jsxs)(`div`,{className:`mb-8`,children:[(0,F.jsxs)(`div`,{className:`flex justify-between mb-2`,children:[(0,F.jsxs)(`span`,{className:`text-sm text-slate-500`,children:[`Question `,i+1,` of`,` `,u.length]}),(0,F.jsxs)(`span`,{className:`text-sm text-slate-500`,children:[Math.round((i+1)/u.length*100),`%`]})]}),(0,F.jsx)(`div`,{className:`h-2 bg-slate-100 rounded-full`,children:(0,F.jsx)(`div`,{className:`\r
+            text-[#155A96]\r
+          `,children:[`Score: `,f,` /`,` `,u.length]}),(0,F.jsxs)(`p`,{className:`mt-3 text-[#64748B]`,children:[Math.round(f/u.length*100),`% Accuracy`]})]}),(0,F.jsx)(`p`,{className:`mt-6 text-slate-600`,children:`You have completed the assessment for this lab.`})]}):(0,F.jsxs)(F.Fragment,{children:[(0,F.jsxs)(`div`,{className:`mb-8`,children:[(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`p`,{className:`text-sm font-semibold text-[#155A96] uppercase tracking-[0.15em]`,children:`Knowledge Check`}),(0,F.jsx)(`h2`,{className:`\r
+      text-2xl\r
+      font-bold\r
+      text-[#071426]\r
+      mt-1\r
+    `,children:`Assessment Quiz`})]}),(0,F.jsx)(`p`,{className:`text-slate-500 mt-2`,children:`Complete the assessment to validate your learning.`})]}),(0,F.jsxs)(`div`,{className:`mb-8`,children:[(0,F.jsxs)(`div`,{className:`flex justify-between mb-2`,children:[(0,F.jsxs)(`span`,{className:`text-sm text-slate-500`,children:[`Question `,i+1,` of`,` `,u.length]}),(0,F.jsxs)(`span`,{className:`text-sm text-slate-500`,children:[Math.round((i+1)/u.length*100),`%`]})]}),(0,F.jsx)(`div`,{className:`h-2 bg-[#EEF4F8] rounded-full`,children:(0,F.jsx)(`div`,{className:`\r
               h-2\r
-              bg-blue-600\r
+              bg-[#155A96]\r
               rounded-full\r
               transition-all\r
             `,style:{width:`${(i+1)/u.length*100}%`}})})]}),(0,F.jsxs)(`div`,{className:`mb-8`,children:[(0,F.jsx)(`h3`,{className:`\r
@@ -4856,39 +4926,44 @@ lg:p-8\r
             text-slate-900\r
             mb-6\r
           `,children:d.question}),(0,F.jsx)(`div`,{className:`space-y-3`,children:d.options.map(e=>(0,F.jsx)(`button`,{onClick:()=>s({...o,[d.id]:e}),className:`
-                  w-full
-                  text-left
-                  p-4
-                  rounded-xl
-                  border
-                  transition
+  w-full
+  text-left
+  p-4
+  rounded-2xl
+  border
+  transition-all
+  duration-300
 
-                  ${o[d.id]===e?`border-blue-500 bg-blue-50`:`border-slate-200 hover:border-blue-300`}
+
+                  ${o[d.id]===e?`border-[#155A96] bg-[#EEF4F8]`:`border-slate-200 hover:border-[#155A96]/40`}
                 `,children:(0,F.jsxs)(`div`,{className:`flex items-center gap-3`,children:[(0,F.jsx)(`div`,{className:`
                       w-5
                       h-5
                       rounded-full
                       border-2
 
-                      ${o[d.id]===e?`border-blue-600 bg-blue-600`:`border-slate-300`}
+                      ${o[d.id]===e?`border-[#155A96] bg-[#155A96]`:`border-slate-300`}
                     `}),(0,F.jsx)(`span`,{children:e})]})},e))})]}),(0,F.jsxs)(`div`,{className:`flex justify-between`,children:[(0,F.jsx)(`button`,{onClick:()=>a(i-1),disabled:i===0,className:`\r
             px-5\r
             py-3\r
             rounded-xl\r
             border\r
-            border-slate-300\r
+            border-[#D7E5EF]\r
+text-[#475569]\r
             disabled:opacity-50\r
           `,children:`Previous`}),i<u.length-1?(0,F.jsx)(`button`,{onClick:()=>a(i+1),className:`\r
               px-5\r
               py-3\r
               rounded-xl\r
-              bg-blue-600\r
+              bg-[#155A96]\r
+hover:bg-[#0F4D82]\r
               text-white\r
             `,children:`Next`}):(0,F.jsx)(`button`,{onClick:()=>l(!0),className:`\r
               px-5\r
               py-3\r
               rounded-xl\r
-              bg-green-600\r
+              bg-[#155A96]\r
+hover:bg-[#0F4D82]\r
               text-white\r
             `,children:`Submit Quiz`})]})]})})]}),(0,F.jsx)(`aside`,{className:`hidden lg:block lg:col-span-4`,children:(0,F.jsxs)(`div`,{className:`sticky top-28 space-y-6`,children:[(0,F.jsxs)(`div`,{className:`\r
         bg-white\r
@@ -4896,49 +4971,58 @@ lg:p-8\r
         border-slate-200\r
         rounded-3xl\r
         p-6\r
-      `,children:[(0,F.jsx)(`h3`,{className:`font-semibold mb-4`,children:`Progress`}),(0,F.jsx)(`div`,{className:`\r
+      `,children:[(0,F.jsx)(`h3`,{className:`\r
+font-semibold\r
+text-[#071426]\r
+ mb-4`,children:`Progress`}),(0,F.jsx)(`div`,{className:`\r
           h-3\r
-          bg-slate-100\r
+          bg-[#EEF4F8]\r
           rounded-full\r
           overflow-hidden\r
         `,children:(0,F.jsx)(`div`,{className:`\r
             h-full\r
-            bg-blue-600\r
+            bg-[#155A96]\r
             transition-all\r
             duration-500\r
           `,style:{width:`${v}%`}})}),(0,F.jsxs)(`div`,{className:`mt-4 flex justify-between`,children:[(0,F.jsxs)(`span`,{className:`text-sm text-slate-500`,children:[_,` of `,g,` completed`]}),(0,F.jsxs)(`span`,{className:`\r
             text-sm\r
             font-medium\r
-            text-blue-600\r
+            text-[#155A96]\r
           `,children:[Math.round(v),`%`]})]})]}),(0,F.jsxs)(`div`,{className:`\r
         bg-white\r
         border\r
         border-slate-200\r
         rounded-3xl\r
         p-6\r
-      `,children:[(0,F.jsx)(`h3`,{className:`font-semibold mb-5`,children:`Lab Checklist`}),(0,F.jsxs)(`div`,{className:`space-y-4`,children:[r.steps.map(e=>(0,F.jsxs)(`button`,{onClick:()=>h(e.title),className:`\r
+      `,children:[(0,F.jsx)(`h3`,{className:`\r
+font-semibold\r
+text-[#071426]\r
+ mb-4`,children:`Lab Checklist`}),(0,F.jsxs)(`div`,{className:`space-y-4`,children:[r.steps.map(e=>(0,F.jsxs)(`button`,{onClick:()=>h(e.title),className:`\r
               w-full\r
               flex\r
               items-center\r
               gap-3\r
               text-left\r
-            `,children:[p[e.title]?(0,F.jsx)(Or,{size:18,className:`text-green-500`}):(0,F.jsx)(jr,{size:18,className:`text-slate-300`}),(0,F.jsx)(`span`,{className:`text-sm`,children:e.title})]},e.id)),(0,F.jsxs)(`button`,{onClick:()=>h(`Quiz Completed`),className:`\r
+            `,children:[p[e.title]?(0,F.jsx)(Or,{size:18,className:`text-[#155A96]`}):(0,F.jsx)(jr,{size:18,className:`text-slate-300`}),(0,F.jsx)(`span`,{className:`text-sm`,children:e.title})]},e.id)),(0,F.jsxs)(`button`,{onClick:()=>h(`Quiz Completed`),className:`\r
             w-full\r
             flex\r
             items-center\r
             gap-3\r
             text-left\r
           `,children:[p[`Quiz Completed`]?(0,F.jsx)(Or,{size:18,className:`text-green-500`}):(0,F.jsx)(jr,{size:18,className:`text-slate-300`}),(0,F.jsx)(`span`,{className:`text-sm`,children:`Quiz Completed`})]})]})]}),(0,F.jsxs)(`div`,{className:`\r
-        bg-[#F5F7FF]\r
+        bg-[#F8FBFD]\r
         border\r
         border-slate-200\r
         rounded-3xl\r
         p-6\r
-      `,children:[(0,F.jsx)(`h3`,{className:`font-semibold mb-5`,children:`Quick Navigation`}),(0,F.jsx)(`div`,{className:`space-y-3`,children:Ny.map(e=>(0,F.jsx)(`a`,{href:`#${e.id}`,className:`\r
+      `,children:[(0,F.jsx)(`h3`,{className:`\r
+font-semibold\r
+text-[#071426]\r
+ mb-4`,children:`Quick Navigation`}),(0,F.jsx)(`div`,{className:`space-y-3`,children:Ny.map(e=>(0,F.jsx)(`a`,{href:`#${e.id}`,className:`\r
             block\r
             text-sm\r
             text-slate-600\r
-            hover:text-blue-600\r
+            hover:text-[#155A96]\r
             transition\r
           `,children:e.label},e.id))})]}),(0,F.jsxs)(`div`,{className:`\r
     bg-white\r
@@ -4946,13 +5030,16 @@ lg:p-8\r
     border-slate-200\r
     rounded-3xl\r
     p-6\r
-  `,children:[(0,F.jsx)(`h3`,{className:`font-semibold mb-5`,children:`Lab Details`}),(0,F.jsxs)(`div`,{className:`space-y-4`,children:[(0,F.jsxs)(`div`,{className:`flex items-center justify-between`,children:[(0,F.jsxs)(`div`,{className:`flex items-center gap-2`,children:[(0,F.jsx)(br,{size:16,className:`text-blue-600`}),(0,F.jsx)(`span`,{className:`text-slate-600`,children:`Level`})]}),(0,F.jsx)(`span`,{className:`font-medium`,children:r.level})]}),(0,F.jsxs)(`div`,{className:`flex items-center justify-between`,children:[(0,F.jsxs)(`div`,{className:`flex items-center gap-2`,children:[(0,F.jsx)(Nr,{size:16,className:`text-blue-600`}),(0,F.jsx)(`span`,{className:`text-slate-600`,children:`Duration`})]}),(0,F.jsx)(`span`,{className:`font-medium`,children:r.duration})]}),(0,F.jsxs)(`div`,{className:`flex items-center justify-between`,children:[(0,F.jsxs)(`div`,{className:`flex items-center gap-2`,children:[(0,F.jsx)(ci,{size:16,className:`text-blue-600`}),(0,F.jsx)(`span`,{className:`text-slate-600`,children:`Steps`})]}),(0,F.jsx)(`span`,{className:`font-medium`,children:r.steps.length})]}),(0,F.jsxs)(`div`,{className:`flex items-center justify-between`,children:[(0,F.jsxs)(`div`,{className:`flex items-center gap-2`,children:[(0,F.jsx)(Ar,{size:16,className:`text-blue-600`}),(0,F.jsx)(`span`,{className:`text-slate-600`,children:`Quiz`})]}),(0,F.jsx)(`span`,{className:`font-medium`,children:r.quiz.length})]})]})]}),(0,F.jsxs)(`div`,{className:`\r
+  `,children:[(0,F.jsx)(`h3`,{className:`\r
+font-semibold\r
+text-[#071426]\r
+ mb-4`,children:`Lab Details`}),(0,F.jsxs)(`div`,{className:`space-y-4`,children:[(0,F.jsxs)(`div`,{className:`flex items-center justify-between`,children:[(0,F.jsxs)(`div`,{className:`flex items-center gap-2`,children:[(0,F.jsx)(br,{size:16,className:`text-[#155A96]`}),(0,F.jsx)(`span`,{className:`text-slate-600`,children:`Level`})]}),(0,F.jsx)(`span`,{className:`font-medium`,children:r.level})]}),(0,F.jsxs)(`div`,{className:`flex items-center justify-between`,children:[(0,F.jsxs)(`div`,{className:`flex items-center gap-2`,children:[(0,F.jsx)(Nr,{size:16,className:`text-[#155A96]`}),(0,F.jsx)(`span`,{className:`text-slate-600`,children:`Duration`})]}),(0,F.jsx)(`span`,{className:`font-medium`,children:r.duration})]}),(0,F.jsxs)(`div`,{className:`flex items-center justify-between`,children:[(0,F.jsxs)(`div`,{className:`flex items-center gap-2`,children:[(0,F.jsx)(ci,{size:16,className:`text-[#155A96]`}),(0,F.jsx)(`span`,{className:`text-slate-600`,children:`Steps`})]}),(0,F.jsx)(`span`,{className:`font-medium`,children:r.steps.length})]}),(0,F.jsxs)(`div`,{className:`flex items-center justify-between`,children:[(0,F.jsxs)(`div`,{className:`flex items-center gap-2`,children:[(0,F.jsx)(Ar,{size:16,className:`text-[#155A96]`}),(0,F.jsx)(`span`,{className:`text-slate-600`,children:`Quiz`})]}),(0,F.jsx)(`span`,{className:`font-medium`,children:r.quiz.length})]})]})]}),(0,F.jsxs)(`div`,{className:`\r
     bg-white\r
     border\r
     border-slate-200\r
     rounded-3xl\r
     p-6\r
-  `,children:[(0,F.jsx)(`h3`,{className:`font-semibold mb-4`,children:`Quick Tips`}),(0,F.jsxs)(`div`,{className:`space-y-3 text-sm`,children:[(0,F.jsxs)(`div`,{className:`flex gap-2`,children:[(0,F.jsx)(Or,{size:16,className:`text-green-500 mt-0.5`}),`Use a demo company while practicing.`]}),(0,F.jsxs)(`div`,{className:`flex gap-2`,children:[(0,F.jsx)(Or,{size:16,className:`text-green-500 mt-0.5`}),`Save changes after each step.`]}),(0,F.jsxs)(`div`,{className:`flex gap-2`,children:[(0,F.jsx)(Or,{size:16,className:`text-green-500 mt-0.5`}),`Verify balances before continuing.`]}),(0,F.jsxs)(`div`,{className:`flex gap-2`,children:[(0,F.jsx)(Or,{size:16,className:`text-green-500 mt-0.5`}),`Complete the quiz to finish the lab.`]})]})]})]})})]})]})}var Iy=`/Balaji-Infotech/assets/contact-hero-Dk74wo4A.png`;function Ly(){let e=ut();return(0,w.useEffect)(()=>{if(e.hash){let t=document.querySelector(e.hash);t&&t.scrollIntoView({behavior:`smooth`})}},[e]),(0,F.jsxs)(F.Fragment,{children:[(0,F.jsxs)(`section`,{className:`\r
+  `,children:[(0,F.jsx)(`h3`,{className:`font-semibold mb-4`,children:`Quick Tips`}),(0,F.jsxs)(`div`,{className:`space-y-3 text-sm`,children:[(0,F.jsxs)(`div`,{className:`flex gap-2`,children:[(0,F.jsx)(Or,{size:16,className:`text-[#155A96] mt-0.5`}),`Use a demo company while practicing.`]}),(0,F.jsxs)(`div`,{className:`flex gap-2`,children:[(0,F.jsx)(Or,{size:16,className:`text-[#155A96] mt-0.5`}),`Complete every lab step in sequence.`]}),(0,F.jsxs)(`div`,{className:`flex gap-2`,children:[(0,F.jsx)(Or,{size:16,className:`text-[#155A96] mt-0.5`}),`Review the dataset before submitting.`]}),(0,F.jsxs)(`div`,{className:`flex gap-2`,children:[(0,F.jsx)(Or,{size:16,className:`text-[#155A96] mt-0.5`}),`Finish the assessment to complete the lab.`]})]})]})]})})]})]})}var Iy=`/Balaji-Infotech/assets/contact-hero-Dk74wo4A.png`;function Ly(){let e=ut();return(0,w.useEffect)(()=>{if(e.hash){let t=document.querySelector(e.hash);t&&t.scrollIntoView({behavior:`smooth`})}},[e]),(0,F.jsxs)(F.Fragment,{children:[(0,F.jsxs)(`section`,{className:`\r
     relative\r
     overflow-hidden\r
     pt-24 sm:pt-28\r
@@ -4973,17 +5060,17 @@ lg:p-8\r
           gap-2\r
           px-4 py-2\r
           rounded-full\r
-          border border-[#1178D4]/15\r
+          border border-[#155A96]/15\r
           bg-[#F8FBFF]\r
           mb-4\r
         `,children:[(0,F.jsx)(`div`,{className:`\r
             w-2 h-2\r
             rounded-full\r
-            bg-[#1178D4]\r
+            bg-[#155A96]\r
           `}),(0,F.jsx)(`span`,{className:`\r
             text-sm font-semibold\r
             tracking-wide\r
-            text-[#1178D4]\r
+            text-[#155A96]\r
             uppercase\r
           `,children:`Get In Touch`})]}),(0,F.jsxs)(`h1`,{className:`\r
           text-3xl\r
@@ -4994,9 +5081,7 @@ lg:p-8\r
           tracking-[-0.03em]\r
           text-[#0F172A]\r
         `,children:[`Let’s Build`,(0,F.jsx)(`br`,{}),(0,F.jsx)(`span`,{className:`\r
-            bg-gradient-to-r\r
-            from-[#1178D4]\r
-            to-[#6C63FF]\r
+            bg-[#155A96]\r
             bg-clip-text\r
             text-transparent\r
           `,children:`Better Business`}),(0,F.jsx)(`br`,{}),`Solutions Together`]}),(0,F.jsx)(`p`,{className:`\r
@@ -5016,7 +5101,7 @@ lg:p-8\r
             gap-3\r
             px-4 py-2.5\r
             \r
-          `,children:[(0,F.jsx)(di,{className:`w-5 h-5 text-[#1178D4]`}),(0,F.jsx)(`span`,{className:`\r
+          `,children:[(0,F.jsx)(di,{className:`w-5 h-5 text-[#155A96]`}),(0,F.jsx)(`span`,{className:`\r
               text-sm\r
               font-medium\r
               text-[#334155]\r
@@ -5024,7 +5109,7 @@ lg:p-8\r
             flex items-center\r
             gap-3\r
             px-4 py-2.5\r
-          `,children:[(0,F.jsx)(xi,{className:`w-5 h-5 text-[#1178D4]`}),(0,F.jsx)(`span`,{className:`\r
+          `,children:[(0,F.jsx)(xi,{className:`w-5 h-5 text-[#155A96]`}),(0,F.jsx)(`span`,{className:`\r
               text-sm md:text-base\r
               font-medium\r
               text-[#334155]\r
@@ -5032,7 +5117,7 @@ lg:p-8\r
             flex items-center\r
             gap-3\r
             px-4 py-2.5\r
-          `,children:[(0,F.jsx)(ui,{className:`w-5 h-5 text-[#1178D4]`}),(0,F.jsx)(`span`,{className:`\r
+          `,children:[(0,F.jsx)(ui,{className:`w-5 h-5 text-[#155A96]`}),(0,F.jsx)(`span`,{className:`\r
               text-sm md:text-base\r
               font-medium\r
               text-[#334155]\r
@@ -5048,9 +5133,7 @@ lg:p-8\r
             px-6 py-3\r
             text-sm\r
             rounded-2xl\r
-            bg-gradient-to-r\r
-            from-[#1178D4]\r
-            to-[#6C63FF]\r
+            bg-[#155A96]\r
             text-white\r
             font-semibold\r
             shadow-[0_20px_50px_rgba(17,120,212,0.20)]\r
@@ -5066,14 +5149,14 @@ lg:p-8\r
             px-6 py-3\r
             text-sm\r
             rounded-2xl\r
-            border border-[#DCE3EE]\r
+            border border-[#155A96]\r
             bg-white\r
             text-[#0F172A]\r
             font-semibold\r
-            hover:border-[#1178D4]/30\r
+            hover:border-[#155A96]/30\r
             hover:bg-[#F8FBFF]\r
             transition-all duration-300\r
-          `,children:[(0,F.jsx)(xi,{className:`w-5 h-5 text-[#1178D4]`}),`Call Our Team`]})})]})]}),(0,F.jsx)($.div,{className:`relative\r
+          `,children:[(0,F.jsx)(xi,{className:`w-5 h-5 text-[#155A96]`}),`Call Our Team`]})})]})]}),(0,F.jsx)($.div,{className:`relative\r
       flex justify-center lg:justify-end\r
       order-1 lg:order-2`,initial:{opacity:0,x:100},whileInView:{opacity:1,x:0},transition:{duration:1,ease:`easeOut`,delay:`0.2`},viewport:{once:!0},children:(0,F.jsxs)(`div`,{className:`relative`,children:[(0,F.jsxs)(`div`,{className:`\r
           relative\r
@@ -5155,19 +5238,19 @@ lg:p-8\r
         gap-2\r
         px-4 py-2\r
         rounded-full\r
-        border border-[#1178D4]/15\r
+        border border-[#155A96]/15\r
         bg-white\r
         mb-6\r
       `,children:[(0,F.jsx)(`div`,{className:`\r
           w-2 h-2\r
           rounded-full\r
-          bg-[#1178D4]\r
+          bg-[#155A96]\r
         `}),(0,F.jsx)(`span`,{className:`\r
           text-sm\r
           font-semibold\r
           tracking-wide\r
           uppercase\r
-          text-[#1178D4]\r
+          text-[#155A96]\r
         `,children:`Contact Our Team`})]}),(0,F.jsxs)(`h2`,{className:`\r
         text-2xl\r
         sm:text-3xl\r
@@ -5177,9 +5260,7 @@ lg:p-8\r
         tracking-[-0.03em]\r
         text-[#0F172A]\r
       `,children:[`Let’s Discuss Your`,(0,F.jsxs)(`span`,{className:`\r
-          bg-gradient-to-r\r
-          from-[#1178D4]\r
-          to-[#6C63FF]\r
+          bg-[#155A96]\r
           bg-clip-text\r
           text-transparent\r
         `,children:[` `,`Business Requirements`]})]}),(0,F.jsx)(`p`,{className:`\r
@@ -5206,7 +5287,7 @@ lg:p-8\r
         `,children:[(0,F.jsx)(`div`,{className:`\r
           w-12 h-12\r
           rounded-2xl\r
-          bg-gradient-to-br from-[#1178D4] to-[#6C63FF]\r
+          bg-[#155A96]\r
           flex items-center justify-center\r
           shadow-[0_10px_30px_rgba(17,120,212,0.18)]\r
           shrink-0\r
@@ -5217,7 +5298,7 @@ lg:p-8\r
             text-[#0F172A]\r
             mb-2\r
             transition-colors duration-300\r
-            group-hover:text-[#1178D4]\r
+            group-hover:text-[#155A96]\r
           `,children:e.title}),(0,F.jsx)(`div`,{className:`space-y-1`,children:e.info.map((e,t)=>(0,F.jsx)(`p`,{className:`\r
                   text-[#475569]\r
                   text-sm\r
@@ -5231,27 +5312,26 @@ lg:p-8\r
             group\r
             w-11 h-11\r
             rounded-2xl\r
-            border border-[#E2E8F0]\r
+            border border-[#155A96]\r
             bg-white\r
             flex items-center justify-center\r
             transition-all duration-300\r
             hover:-translate-y-1\r
-            hover:border-transparent\r
-            hover:bg-gradient-to-br\r
-            hover:from-[#1178D4]\r
-            hover:to-[#6C63FF]\r
+          \r
+            hover:bg[#155A96]\r
+           \r
             hover:shadow-[0_10px_30px_rgba(17,120,212,0.25)]\r
           `,children:(0,F.jsx)(n,{className:`\r
             w-5 h-5\r
             text-[#475569]\r
             transition-colors duration-300\r
-            group-hover:text-white\r
+            group-hover:text-[#155A96]\r
           `})},t)})})]})]}),(0,F.jsxs)(`div`,{className:`space-y-5`,children:[(0,F.jsx)(`div`,{className:`mb-8`,children:(0,F.jsxs)(`h3`,{className:`\r
       text-xl\r
 md:text-3xl\r
       font-black\r
       text-[#0F172A]\r
-    `,children:[`Request A`,(0,F.jsxs)(`span`,{className:`bg-gradient-to-r from-[#1178D4] to-[#6C63FF] bg-clip-text text-transparent`,children:[` `,`Free Quote`]})]})}),(0,F.jsx)(Rv,{})]})]})]})]}),(0,F.jsx)(`section`,{className:`\r
+    `,children:[`Request A`,(0,F.jsxs)(`span`,{className:`bg-[gradient-to-r from-[#1178D4] to-[#6C63FF] bg-clip-text text-transparent]`,children:[` `,`Free Quote`]})]})}),(0,F.jsx)(Rv,{})]})]})]})]}),(0,F.jsx)(`section`,{className:`\r
  py-8 sm:py-10\r
   px-4 sm:px-6\r
   bg-[#F8FAFC]\r
@@ -5266,10 +5346,10 @@ md:text-3xl\r
         border border-[#DCE7F7]\r
         bg-white\r
         mb-5\r
-      `,children:[(0,F.jsx)(fi,{className:`w-4 h-4 text-[#1178D4]`}),(0,F.jsx)(`span`,{className:`\r
+      `,children:[(0,F.jsx)(fi,{className:`w-4 h-4 text-[#155A96]`}),(0,F.jsx)(`span`,{className:`\r
           text-sm\r
           font-semibold\r
-          text-[#1178D4]\r
+          text-[#155A96]\r
         `,children:`Visit Our Office`})]}),(0,F.jsxs)(`h2`,{className:`\r
         text-2xl\r
 sm:text-3xl\r
@@ -5278,9 +5358,7 @@ md:text-4xl\r
         leading-tight\r
         text-[#0F172A]\r
       `,children:[`Find Us In`,(0,F.jsxs)(`span`,{className:`\r
-          bg-gradient-to-r\r
-          from-[#1178D4]\r
-          to-[#6C63FF]\r
+          bg-[#155A96]\r
           bg-clip-text\r
           text-transparent\r
         `,children:[` `,`Guntur`]})]}),(0,F.jsx)(`p`,{className:`\r
@@ -5311,9 +5389,7 @@ md:text-4xl\r
       `,children:[(0,F.jsx)(`div`,{className:`\r
           w-14 h-14\r
           rounded-2xl\r
-          bg-gradient-to-br\r
-          from-[#1178D4]\r
-          to-[#6C63FF]\r
+          bg-[#155A96]\r
           flex items-center justify-center\r
           shrink-0\r
         `,children:(0,F.jsx)(gr,{className:`w-6 h-6 text-white`})}),(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`h4`,{className:`\r
@@ -5328,48 +5404,46 @@ md:text-4xl\r
 pb-10 sm:pb-12 md:pb-14`,children:[(0,F.jsx)(`div`,{className:`\r
     absolute top-[-120px] left-[-120px]\r
     w-[320px] h-[320px]\r
-    bg-[#1178D4]/10\r
+    bg-[#155A96]/10\r
     blur-[120px]\r
     rounded-full\r
   `}),(0,F.jsx)(`div`,{className:`\r
     absolute bottom-[-120px] right-[-120px]\r
     w-[320px] h-[320px]\r
-    bg-[#6C63FF]/10\r
+    bg-[#0F4D82]/10\r
     blur-[120px]\r
     rounded-full\r
   `}),(0,F.jsx)(`div`,{className:`relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8`,children:(0,F.jsxs)(`div`,{className:`\r
       grid lg:grid-cols-2\r
-      gap-12\r
-      lg:gap-10\r
+      gap-10\r
+      lg:gap-8\r
       items-center\r
     `,children:[(0,F.jsxs)($.div,{initial:{opacity:0,y:40},whileInView:{opacity:1,y:0},transition:{duration:.8},viewport:{once:!0},className:`order-2 lg:order-1`,children:[(0,F.jsxs)(`div`,{className:`\r
           inline-flex items-center gap-2\r
           px-4 py-2\r
           rounded-full\r
-          border border-[#1178D4]/15\r
-          bg-[#F8FBFF]\r
-          text-[#1178D4]\r
+          border border-[#D7E5EF]\r
+          bg-[#EEF4F8]\r
+          text-[#155A96]\r
           text-sm font-semibold\r
           tracking-wide\r
           mb-7\r
         `,children:[(0,F.jsx)(`div`,{className:`\r
             w-2 h-2 rounded-full\r
-            bg-[#1178D4]\r
+            bg-[#155A96]\r
           `}),`Tally Education Programs`]}),(0,F.jsxs)(`h1`,{className:`\r
-          text-[30px]\r
-          sm:text-[38px]\r
-          lg:text-[48px]\r
+          text-3xl\r
+          sm:text-4xl\r
+          lg:text-[46px]\r
           font-bold\r
           leading-[1.05]\r
           tracking-[-0.03em]\r
           text-[#0F172A]\r
         `,children:[`Master Tally &`,(0,F.jsx)(`span`,{className:`\r
             block\r
-            bg-gradient-to-r\r
-            from-[#1178D4]\r
-            to-[#6C63FF]\r
+            text-[#155A96]\r
             bg-clip-text\r
-            text-transparent\r
+            \r
           `,children:`Build Industry-Ready Skills`})]}),(0,F.jsx)(`p`,{className:`\r
           mt-5\r
           max-w-2xl\r
@@ -5391,9 +5465,8 @@ pb-10 sm:pb-12 md:pb-14`,children:[(0,F.jsx)(`div`,{className:`\r
             sm:px-8\r
             py-4\r
             rounded-2xl\r
-            bg-gradient-to-r\r
-            from-[#1178D4]\r
-            to-[#6C63FF]\r
+            bg-[#155A96]\r
+            hover:bg-[#0F4D82]\r
             text-white\r
             font-semibold\r
             text-lg\r
@@ -5419,8 +5492,8 @@ pb-10 sm:pb-12 md:pb-14`,children:[(0,F.jsx)(`div`,{className:`\r
             text-[#0F172A]\r
             font-semibold\r
             text-lg\r
-            hover:border-[#1178D4]/40\r
-            hover:bg-[#F8FBFF]\r
+            hover:border-[#155A96]/30\r
+            hover:bg-[#EEF4F8]\r
             transition-all duration-300\r
           `,children:`Book Free Counseling`})})]}),(0,F.jsxs)(`div`,{className:`\r
           mt-8\r
@@ -5457,8 +5530,8 @@ pb-10 sm:pb-12 md:pb-14`,children:[(0,F.jsx)(`div`,{className:`\r
           sm:rounded-[36px]\r
           border border-[#E2E8F0]\r
           bg-gradient-to-br\r
-          from-[#F8FBFF]\r
-          to-[#EEF2FF]\r
+          from-[#F8FAFC]\r
+          to-[#EEF4F8]\r
           p-4\r
           sm:p-6\r
           md:p-7\r
@@ -5477,9 +5550,7 @@ pb-10 sm:pb-12 md:pb-14`,children:[(0,F.jsx)(`div`,{className:`\r
               w-12 h-12\r
               sm:w-14 sm:h-14\r
               rounded-2xl\r
-              bg-gradient-to-r\r
-              from-[#1178D4]\r
-              to-[#6C63FF]\r
+              bg-[#155A96]\r
               flex items-center justify-center\r
               shadow-lg\r
             `,children:(0,F.jsx)(`svg`,{xmlns:`http://www.w3.org/2000/svg`,fill:`none`,viewBox:`0 0 24 24`,strokeWidth:1.8,stroke:`currentColor`,className:`w-7 h-7 text-white`,children:(0,F.jsx)(`path`,{strokeLinecap:`round`,strokeLinejoin:`round`,d:`M12 14 21 9 12 4 3 9l9 5Zm0 0 6.16-3.422A12.083 12.083 0 0 1 18 14.576c0 1.03-.391 2.03-1.094 2.78C15.773 18.6 14 19 12 19s-3.773-.4-4.906-1.644A3.978 3.978 0 0 1 6 14.576c0-1.4.285-2.75.84-3.998L12 14Z`})})})]}),(0,F.jsx)(`div`,{className:`space-y-3`,children:[`Advanced TallyPrime`,`GST & Taxation`,`Payroll Management`,`Business Accounting`].map((e,t)=>(0,F.jsxs)(`div`,{className:`\r
@@ -5495,14 +5566,12 @@ pb-10 sm:pb-12 md:pb-14`,children:[(0,F.jsx)(`div`,{className:`\r
                     w-10 h-10\r
                     sm:w-12 sm:h-12\r
                     rounded-xl\r
-                    bg-gradient-to-r\r
-                    from-[#1178D4]\r
-                    to-[#6C63FF]\r
+                    bg-[#155A96]\r
                     flex items-center justify-center\r
                     text-white font-bold\r
                   `,children:t+1}),(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`h4`,{className:`\r
                       font-semibold\r
-                      text-[#0F172A]\r
+                      text-[#155A96]\r
                     `,children:e}),(0,F.jsx)(`p`,{className:`\r
                       text-[12px]\r
                       sm:text-sm\r
@@ -5516,22 +5585,22 @@ pb-10 sm:pb-12 md:pb-14`,children:[(0,F.jsx)(`div`,{className:`\r
                 `,children:`Active`})]},t))})]})})})]})})]}),(0,F.jsxs)(`section`,{id:`courses`,className:`relative py-10 sm:py-12 md:py-14 bg-white overflow-hidden`,children:[(0,F.jsx)(`div`,{className:`\r
     absolute bottom-0 right-0\r
     w-[400px] h-[400px]\r
-    bg-[#6C63FF]/5\r
+    bg-[#155A96]/5\r
     blur-[120px]\r
     rounded-full\r
   `}),(0,F.jsxs)(`div`,{className:`relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8`,children:[(0,F.jsxs)(`div`,{className:`text-center`,children:[(0,F.jsxs)(`div`,{className:`\r
         inline-flex items-center gap-2\r
         px-4 py-2\r
         rounded-full\r
-        border border-[#1178D4]/15\r
-        bg-[#F8FBFF]\r
-        text-[#1178D4]\r
+        border border-[#D7E5EF]\r
+        bg-[#EEF4F8]\r
+        text-[#155A96]\r
         text-sm font-semibold\r
         tracking-wide\r
         mb-5\r
       `,children:[(0,F.jsx)(`div`,{className:`\r
           w-2 h-2 rounded-full\r
-          bg-[#1178D4]\r
+          bg-[#155A96]\r
         `}),r[e].badge]}),(0,F.jsxs)(`h2`,{className:`\r
         text-[26px]\r
         sm:text-3xl\r
@@ -5540,11 +5609,8 @@ pb-10 sm:pb-12 md:pb-14`,children:[(0,F.jsx)(`div`,{className:`\r
         tracking-[-0.03em]\r
         text-[#0F172A]\r
       `,children:[r[e].title.split(` `).slice(0,-1).join(` `),(0,F.jsxs)(`span`,{className:`\r
-          bg-gradient-to-r\r
-          from-[#1178D4]\r
-          to-[#6C63FF]\r
+          text-[#155A96]\r
           bg-clip-text\r
-          text-transparent\r
         `,children:[` `,r[e].title.split(` `).slice(-1)]})]}),(0,F.jsx)(`p`,{className:`\r
         mt-5\r
         max-w-2xl\r
@@ -5583,15 +5649,13 @@ pb-10 sm:pb-12 md:pb-14`,children:[(0,F.jsx)(`div`,{className:`\r
               `,children:[r&&(0,F.jsx)($.div,{layoutId:`activeEducationTab`,transition:{type:`spring`,bounce:.2,duration:.5},className:`\r
                     absolute inset-0\r
                     rounded-full\r
-                    bg-gradient-to-r\r
-                    from-[#1178D4]\r
-                    to-[#6C63FF]\r
-                    shadow-[0_10px_30px_rgba(17,120,212,0.20)]\r
+                    bg-[#155A96]\r
+                    shadow-lg\r
                   `}),(0,F.jsx)(`span`,{className:`
                 relative z-10
                 transition-colors duration-300
 
-                ${r?`text-white`:`text-[#475569] hover:text-[#1178D4]`}
+                ${r?`text-white`:`text-[#475569] hover:text-[#155A96]`}
               `,children:n})]},n)})})}),(0,F.jsx)(`div`,{className:`mt-10`,children:(0,F.jsx)(pm,{mode:`wait`,children:(0,F.jsx)($.div,{initial:{opacity:0,y:20},animate:{opacity:1,y:0},exit:{opacity:0,y:-20},transition:{duration:.35},className:`\r
             grid\r
             md:grid-cols-2\r
@@ -5612,9 +5676,7 @@ pb-10 sm:pb-12 md:pb-14`,children:[(0,F.jsx)(`div`,{className:`\r
                 `,children:[(0,F.jsx)(`div`,{className:`\r
                   absolute top-0 inset-x-0\r
                   h-1\r
-                  bg-gradient-to-r\r
-                  from-[#1178D4]\r
-                  to-[#6C63FF]\r
+                  bg-[#155A96]\r
                 `}),(0,F.jsxs)(`div`,{className:`p-4 sm:p-6`,children:[(0,F.jsxs)(`div`,{className:`\r
                     flex items-start justify-between\r
                     gap-5\r
@@ -5622,9 +5684,7 @@ pb-10 sm:pb-12 md:pb-14`,children:[(0,F.jsx)(`div`,{className:`\r
                       w-14 h-14\r
                       sm:w-16 sm:h-16 shrink-0\r
                       rounded-2xl\r
-                      bg-gradient-to-br\r
-                      from-[#1178D4]\r
-                      to-[#6C63FF]\r
+                      bg-[#155A96]\r
                       flex items-center justify-center\r
                       shadow-[0_10px_30px_rgba(17,120,212,0.20)]\r
                     `,children:(0,F.jsx)(n,{className:`\r
@@ -5648,10 +5708,10 @@ pb-10 sm:pb-12 md:pb-14`,children:[(0,F.jsx)(`div`,{className:`\r
                         sm:px-4\r
                         py-2\r
                         rounded-full\r
-                        bg-[#EEF2FF]\r
+                        bg-[#EEF4F8]\r
                         text-sm\r
                         font-semibold\r
-                        text-[#4F46E5]\r
+                        text-[#155A96]\r
                       `,children:e.level})]})]}),(0,F.jsx)(`h3`,{className:`\r
                     mt-5\r
                     text-[20px]\r
@@ -5660,7 +5720,7 @@ pb-10 sm:pb-12 md:pb-14`,children:[(0,F.jsx)(`div`,{className:`\r
                     leading-tight\r
                     text-[#0F172A]\r
 \r
-                    group-hover:text-[#1178D4]\r
+                    group-hover:text-[#155A96]\r
                     transition-colors duration-300\r
                   `,children:e.title}),(0,F.jsx)(`p`,{className:`\r
                     mt-5\r
@@ -5677,30 +5737,29 @@ pb-10 sm:pb-12 md:pb-14`,children:[(0,F.jsx)(`div`,{className:`\r
                           sm:px-4\r
                           py-2\r
                           rounded-full\r
-                          border border-[#E2E8F0]\r
-                          bg-[#F8FAFC]\r
+                          border border-[#D7E5EF]\r
+                          bg-[#EEF4F8]\r
                           text-sm\r
                           font-medium\r
                           text-[#475569]\r
                         `,children:e},t))}),(0,F.jsx)(Mn,{to:`/contact`,children:(0,F.jsxs)(`button`,{className:`\r
                     group/btn\r
-                    mt-6\r
+                    mt-4\r
                     w-full\r
                     flex items-center justify-center gap-3\r
-                    px-5\r
-                    sm:px-6\r
-                    py-4\r
+                    px-3\r
+                    sm:px-4\r
+                    py-3\r
                     rounded-2xl\r
 \r
-                    bg-gradient-to-r\r
-                    from-[#1178D4]\r
-                    to-[#6C63FF]\r
+                    bg-[#155A96]\r
+                    hover:bg-[#0F4D82]\r
 \r
                     text-white\r
                     font-semibold\r
                     text-lg\r
 \r
-                    shadow-[0_10px_30px_rgba(17,120,212,0.18)]\r
+                    shadow-lg\r
 \r
                     hover:scale-[1.02]\r
                     transition-all duration-300\r
@@ -5708,20 +5767,20 @@ pb-10 sm:pb-12 md:pb-14`,children:[(0,F.jsx)(`div`,{className:`\r
                         w-5 h-5\r
                         group-hover/btn:translate-x-1\r
                         transition-transform\r
-                      `,children:(0,F.jsx)(`path`,{strokeLinecap:`round`,strokeLinejoin:`round`,d:`M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3`})})]})})]})]},t)})},e)})})]})]}),(0,F.jsx)(`section`,{className:`relative py-10 sm:py-12 md:py-14 bg-[#F8FBFF] overflow-hidden`,children:(0,F.jsxs)(`div`,{className:`relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8`,children:[(0,F.jsxs)(`div`,{className:`text-center`,children:[(0,F.jsxs)(`div`,{className:`\r
+                      `,children:(0,F.jsx)(`path`,{strokeLinecap:`round`,strokeLinejoin:`round`,d:`M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3`})})]})})]})]},t)})},e)})})]})]}),(0,F.jsx)(`section`,{className:`relative py-10 sm:py-12 md:py-14 bg-[#FAFBFC] overflow-hidden`,children:(0,F.jsxs)(`div`,{className:`relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8`,children:[(0,F.jsxs)(`div`,{className:`text-center`,children:[(0,F.jsxs)(`div`,{className:`\r
         inline-flex items-center gap-2\r
         px-4 py-2\r
         rounded-full\r
-        border border-[#1178D4]/15\r
-        bg-white\r
-        text-[#1178D4]\r
+        border border-[#D7E5EF]\r
+        bg-[#EEF4F8]\r
+        text-[#155A96]\r
         text-sm\r
         font-semibold\r
         tracking-wide\r
         mb-5\r
       `,children:[(0,F.jsx)(`div`,{className:`\r
           w-2 h-2 rounded-full\r
-          bg-[#1178D4]\r
+          bg-[#155A96]\r
         `}),`Why Students Choose Us`]}),(0,F.jsxs)(`h2`,{className:`text-[26px]\r
 sm:text-3xl\r
 lg:text-4xl\r
@@ -5729,11 +5788,7 @@ lg:text-4xl\r
         tracking-[-0.03em]\r
         text-[#0F172A]\r
       `,children:[`Why Choose`,(0,F.jsxs)(`span`,{className:`\r
-          bg-gradient-to-r\r
-          from-[#1178D4]\r
-          to-[#6C63FF]\r
-          bg-clip-text\r
-          text-transparent\r
+          text-[#155A96]\r
         `,children:[` `,`Tally Education`]})]}),(0,F.jsx)(`p`,{className:`\r
         mt-5\r
         max-w-3xl\r
@@ -5754,7 +5809,7 @@ lg:text-4xl\r
               relative\r
               rounded-[22px]\r
               sm:rounded-[28px]\r
-              border border-[#E2E8F0]\r
+              border border-[#D7E5EF]\r
               bg-white\r
               p-5\r
               sm:p-6\r
@@ -5764,13 +5819,11 @@ lg:text-4xl\r
               w-14 h-14\r
               sm:w-16 sm:h-16\r
               rounded-2xl\r
-              bg-gradient-to-br\r
-              from-[#1178D4]\r
-              to-[#6C63FF]\r
+              bg-[#155A96]\r
 \r
               flex items-center justify-center\r
 \r
-              shadow-[0_10px_30px_rgba(17,120,212,0.18)]\r
+              shadow-[0_10px_30px_rgba(21,90,150,0.18)]\r
             `,children:(0,F.jsx)(n,{className:`\r
                 w-8 h-8 text-white\r
               `})}),(0,F.jsx)(`h3`,{className:`\r
