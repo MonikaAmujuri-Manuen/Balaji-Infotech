@@ -159,13 +159,13 @@ shadow-xl\r
             bg-[#155A96]\r
             text-white\r
             font-medium\r
-          `,children:`Get Started`})]})})]})})}var ta={color:void 0,size:void 0,className:void 0,style:void 0,attr:void 0},na=w.createContext&&w.createContext(ta),ra=[`attr`,`size`,`title`];function ia(e,t){if(e==null)return{};var n,r,i=aa(e,t);if(Object.getOwnPropertySymbols){var a=Object.getOwnPropertySymbols(e);for(r=0;r<a.length;r++)n=a[r],t.indexOf(n)===-1&&{}.propertyIsEnumerable.call(e,n)&&(i[n]=e[n])}return i}function aa(e,t){if(e==null)return{};var n={};for(var r in e)if({}.hasOwnProperty.call(e,r)){if(t.indexOf(r)!==-1)continue;n[r]=e[r]}return n}function oa(){return oa=Object.assign?Object.assign.bind():function(e){for(var t=1;t<arguments.length;t++){var n=arguments[t];for(var r in n)({}).hasOwnProperty.call(n,r)&&(e[r]=n[r])}return e},oa.apply(null,arguments)}function sa(e,t){var n=Object.keys(e);if(Object.getOwnPropertySymbols){var r=Object.getOwnPropertySymbols(e);t&&(r=r.filter(function(t){return Object.getOwnPropertyDescriptor(e,t).enumerable})),n.push.apply(n,r)}return n}function ca(e){for(var t=1;t<arguments.length;t++){var n=arguments[t]==null?{}:arguments[t];t%2?sa(Object(n),!0).forEach(function(t){la(e,t,n[t])}):Object.getOwnPropertyDescriptors?Object.defineProperties(e,Object.getOwnPropertyDescriptors(n)):sa(Object(n)).forEach(function(t){Object.defineProperty(e,t,Object.getOwnPropertyDescriptor(n,t))})}return e}function la(e,t,n){return(t=ua(t))in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function ua(e){var t=da(e,`string`);return typeof t==`symbol`?t:t+``}function da(e,t){if(typeof e!=`object`||!e)return e;var n=e[Symbol.toPrimitive];if(n!==void 0){var r=n.call(e,t||`default`);if(typeof r!=`object`)return r;throw TypeError(`@@toPrimitive must return a primitive value.`)}return(t===`string`?String:Number)(e)}function fa(e){return e&&e.map((e,t)=>w.createElement(e.tag,ca({key:t},e.attr),fa(e.child)))}function pa(e){return t=>w.createElement(ma,oa({attr:ca({},e.attr)},t),fa(e.child))}function ma(e){var t=t=>{var{attr:n,size:r,title:i}=e,a=ia(e,ra),o=r||t.size||`1em`,s;return t.className&&(s=t.className),e.className&&(s=(s?s+` `:``)+e.className),w.createElement(`svg`,oa({stroke:`currentColor`,fill:`currentColor`,strokeWidth:`0`},t.attr,n,a,{className:s,style:ca(ca({color:e.color||t.color},t.style),e.style),height:o,width:o,xmlns:`http://www.w3.org/2000/svg`}),i&&w.createElement(`title`,null,i),e.children)};return na===void 0?t(ta):w.createElement(na.Consumer,null,e=>t(e))}function ha(e){return pa({tag:`svg`,attr:{viewBox:`0 0 448 512`},child:[{tag:`path`,attr:{d:`M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z`},child:[]}]})(e)}function ga(e){return pa({tag:`svg`,attr:{viewBox:`0 0 448 512`},child:[{tag:`path`,attr:{d:`M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z`},child:[]}]})(e)}function _a(e){return pa({tag:`svg`,attr:{viewBox:`0 0 320 512`},child:[{tag:`path`,attr:{d:`M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z`},child:[]}]})(e)}function va(){return(0,F.jsxs)(`footer`,{className:`relative overflow-hidden bg-[#071426] text-white`,children:[(0,F.jsxs)(`div`,{className:`absolute inset-0 overflow-hidden`,children:[(0,F.jsx)(`div`,{className:`\r
+          `,children:`Get Started`})]})})]})})}var ta={color:void 0,size:void 0,className:void 0,style:void 0,attr:void 0},na=w.createContext&&w.createContext(ta),ra=[`attr`,`size`,`title`];function ia(e,t){if(e==null)return{};var n,r,i=aa(e,t);if(Object.getOwnPropertySymbols){var a=Object.getOwnPropertySymbols(e);for(r=0;r<a.length;r++)n=a[r],t.indexOf(n)===-1&&{}.propertyIsEnumerable.call(e,n)&&(i[n]=e[n])}return i}function aa(e,t){if(e==null)return{};var n={};for(var r in e)if({}.hasOwnProperty.call(e,r)){if(t.indexOf(r)!==-1)continue;n[r]=e[r]}return n}function oa(){return oa=Object.assign?Object.assign.bind():function(e){for(var t=1;t<arguments.length;t++){var n=arguments[t];for(var r in n)({}).hasOwnProperty.call(n,r)&&(e[r]=n[r])}return e},oa.apply(null,arguments)}function sa(e,t){var n=Object.keys(e);if(Object.getOwnPropertySymbols){var r=Object.getOwnPropertySymbols(e);t&&(r=r.filter(function(t){return Object.getOwnPropertyDescriptor(e,t).enumerable})),n.push.apply(n,r)}return n}function ca(e){for(var t=1;t<arguments.length;t++){var n=arguments[t]==null?{}:arguments[t];t%2?sa(Object(n),!0).forEach(function(t){la(e,t,n[t])}):Object.getOwnPropertyDescriptors?Object.defineProperties(e,Object.getOwnPropertyDescriptors(n)):sa(Object(n)).forEach(function(t){Object.defineProperty(e,t,Object.getOwnPropertyDescriptor(n,t))})}return e}function la(e,t,n){return(t=ua(t))in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function ua(e){var t=da(e,`string`);return typeof t==`symbol`?t:t+``}function da(e,t){if(typeof e!=`object`||!e)return e;var n=e[Symbol.toPrimitive];if(n!==void 0){var r=n.call(e,t||`default`);if(typeof r!=`object`)return r;throw TypeError(`@@toPrimitive must return a primitive value.`)}return(t===`string`?String:Number)(e)}function fa(e){return e&&e.map((e,t)=>w.createElement(e.tag,ca({key:t},e.attr),fa(e.child)))}function pa(e){return t=>w.createElement(ma,oa({attr:ca({},e.attr)},t),fa(e.child))}function ma(e){var t=t=>{var{attr:n,size:r,title:i}=e,a=ia(e,ra),o=r||t.size||`1em`,s;return t.className&&(s=t.className),e.className&&(s=(s?s+` `:``)+e.className),w.createElement(`svg`,oa({stroke:`currentColor`,fill:`currentColor`,strokeWidth:`0`},t.attr,n,a,{className:s,style:ca(ca({color:e.color||t.color},t.style),e.style),height:o,width:o,xmlns:`http://www.w3.org/2000/svg`}),i&&w.createElement(`title`,null,i),e.children)};return na===void 0?t(ta):w.createElement(na.Consumer,null,e=>t(e))}function ha(e){return pa({tag:`svg`,attr:{viewBox:`0 0 448 512`},child:[{tag:`path`,attr:{d:`M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z`},child:[]}]})(e)}function ga(e){return pa({tag:`svg`,attr:{viewBox:`0 0 448 512`},child:[{tag:`path`,attr:{d:`M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z`},child:[]}]})(e)}function _a(e){return pa({tag:`svg`,attr:{viewBox:`0 0 320 512`},child:[{tag:`path`,attr:{d:`M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z`},child:[]}]})(e)}function va(){return(0,F.jsxs)(`footer`,{className:`relative overflow-hidden bg-[#155A96] text-white`,children:[(0,F.jsxs)(`div`,{className:`absolute inset-0 overflow-hidden`,children:[(0,F.jsx)(`div`,{className:`\r
         absolute\r
         top-0\r
         left-[-10%]\r
         w-[500px]\r
-        h-[480px]\r
-        bg-[#2F80FF]/10\r
+        h-[450px]\r
+        bg-[#155A96]/15\r
         blur-3xl\r
         rounded-full\r
       `}),(0,F.jsx)(`div`,{className:`\r
@@ -173,46 +173,44 @@ shadow-xl\r
         bottom-[-20%]\r
         right-[-10%]\r
         w-[500px]\r
-        h-[500px]\r
-        bg-[#7B61FF]/10\r
+        h-[480px]\r
+        bg-[#155A96]/10\r
         blur-3xl\r
         rounded-full\r
       `})]}),(0,F.jsxs)(`div`,{className:`\r
       relative\r
       max-w-7xl\r
       mx-auto\r
-      px-4 sm:px-6 lg:px-8\r
-      py-12\r
-      sm:py-14\r
+      px-3 sm:px-5 lg:px-7\r
+      py-8\r
+      sm:py-10\r
     `,children:[(0,F.jsxs)(`div`,{className:`\r
         grid\r
         grid-cols-1\r
         sm:grid-cols-2\r
         lg:grid-cols-4\r
-        gap-10\r
-        lg:gap-12\r
+        gap-8\r
+        lg:gap-10\r
         items-start\r
-      `,children:[(0,F.jsxs)(`div`,{children:[(0,F.jsxs)(`div`,{className:`flex items-center gap-3 sm:gap-4 mb-4`,children:[(0,F.jsx)(`div`,{className:`\r
+      `,children:[(0,F.jsxs)(`div`,{children:[(0,F.jsxs)(`div`,{className:`flex items-center gap-3 sm:gap-4 mb-3`,children:[(0,F.jsx)(`div`,{className:`\r
               w-12 h-12\r
               sm:w-14 sm:h-14\r
               rounded-2xl\r
-              bg-gradient-to-br\r
-              from-[#2F80FF]\r
-              to-[#7B61FF]\r
+              bg-[#155A96]\r
               flex\r
               items-center\r
               justify-center\r
               text-white\r
               text-2xl\r
               font-bold\r
-              shadow-[0_10px_30px_rgba(47,128,255,0.35)]\r
-            `,children:`B`}),(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`h3`,{className:`text-xl sm:text-2xl font-bold`,children:`Balaji Infotech`}),(0,F.jsx)(`p`,{className:`text-gray-400 text-sm`,children:`Tally Solutions Partner`})]})]}),(0,F.jsx)(`p`,{className:`\r
-            text-gray-400\r
+              shadow-[0_10px_30px_rgba(21,90,150,0.35)]\r
+            `,children:(0,F.jsx)(`img`,{src:Qi,alt:`Balaji Infotech`,className:`h-12 w-auto object-contain`})}),(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`h3`,{className:`text-xl sm:text-2xl font-bold`,children:`Balaji Infotech`}),(0,F.jsx)(`p`,{className:`text-gray-300 text-sm`,children:`Tally Solutions Partner`})]})]}),(0,F.jsx)(`p`,{className:`\r
+            text-white\r
             leading-7\r
             text-sm\r
             sm:text-[16px]\r
             max-w-sm\r
-          `,children:`Empowering businesses with modern Tally solutions, enterprise support, automation services, and smart accounting infrastructure.`}),(0,F.jsx)(`div`,{className:`flex flex-wrap items-center gap-3 sm:gap-4 mt-6 sm:mt-8`,children:[{icon:_a,link:`https://facebook.com/balajiinfotechguntur`},{icon:ga,link:`https://www.instagram.com/balaji_ai_infotech_pvt_ltd?`},{icon:ha,link:`https://linkedin.com`},{icon:ui,link:`mailto:gunturtally@gmail.com`}].map((e,t)=>{let n=e.icon;return(0,F.jsx)(`a`,{href:e.link,target:`_blank`,rel:`noopener noreferrer`,className:`\r
+          `,children:`Empowering businesses with modern Tally solutions, enterprise support, automation services, and smart accounting infrastructure.`}),(0,F.jsx)(`div`,{className:`flex flex-wrap items-center gap-3 sm:gap-4 mt-4 sm:mt-6`,children:[{icon:_a,link:`https://facebook.com/balajiinfotechguntur`},{icon:ga,link:`https://www.instagram.com/balaji_ai_infotech_pvt_ltd?`},{icon:ha,link:`https://linkedin.com`},{icon:ui,link:`mailto:gunturtally@gmail.com`}].map((e,t)=>{let n=e.icon;return(0,F.jsx)(`a`,{href:e.link,target:`_blank`,rel:`noopener noreferrer`,className:`\r
         group\r
         w-11 h-11\r
         sm:w-12 sm:h-12\r
@@ -225,13 +223,11 @@ shadow-xl\r
         transition-all\r
         duration-300\r
         hover:-translate-y-1\r
-        hover:bg-gradient-to-br\r
-        hover:from-[#2F80FF]\r
-        hover:to-[#7B61FF]\r
+        hover:bg-[#155A96]\r
         hover:border-transparent\r
-        hover:shadow-[0_10px_25px_rgba(47,128,255,0.35)]\r
+        hover:shadow-[0_10px_25px_rgba(21,90,150,0.35)]\r
       `,children:(0,F.jsx)(n,{size:20,className:`\r
-          text-gray-300\r
+          text-white\r
           transition-all\r
           duration-300\r
           group-hover:text-white\r
@@ -239,13 +235,13 @@ shadow-xl\r
             text-lg\r
             sm:text-xl\r
             font-semibold\r
-            mb-6\r
+            mb-3\r
           `,children:`Quick Links`}),(0,F.jsx)(`div`,{className:`space-y-3`,children:[{name:`Home`,path:`/`},{name:`About`,path:`/about`},{name:`Services`,path:`/services`},{name:`Products`,path:`/products`},{name:`Education`,path:`/education`},{name:`LMS`,path:`/lms`},{name:`Contact`,path:`/contact`}].map((e,t)=>(0,F.jsxs)(Mn,{to:e.path,className:`\r
         group\r
         flex\r
         items-center\r
         gap-2\r
-        text-gray-400\r
+        text-white\r
         hover:text-white\r
         transition-all\r
         duration-300\r
@@ -260,10 +256,10 @@ shadow-xl\r
             text-lg\r
             sm:text-xl\r
             font-semibold\r
-            mb-7\r
+            mb-4\r
           `,children:`Services`}),(0,F.jsx)(`div`,{className:`space-y-4`,children:[{name:`Tally Software`,path:`/services/tally-software`},{name:`Tally Services`,path:`/services/tally-services`},{name:`Tally ERP Solutions`,path:`/services/tally-erp`},{name:`TallyPrime Server`,path:`/products/tally-server`},{name:`Tally Add-Ons`,path:`/services/tally-addon`},{name:`Tally Mobile Apps`,path:`/services/tally-mobile`}].map((e,t)=>(0,F.jsx)(Mn,{to:e.path,className:`\r
               block\r
-              text-gray-400\r
+              text-white\r
               hover:text-white\r
               transition-all\r
               duration-300\r
@@ -272,7 +268,7 @@ shadow-xl\r
             text-lg\r
             sm:text-xl\r
             font-semibold\r
-            mb-8\r
+            mb-5\r
           `,children:`Contact`}),(0,F.jsxs)(`div`,{className:`space-y-5`,children:[(0,F.jsxs)(`div`,{className:`flex items-start gap-4`,children:[(0,F.jsx)(`div`,{className:`\r
                 w-11\r
                 h-11\r
@@ -283,7 +279,7 @@ shadow-xl\r
                 items-center\r
                 justify-center\r
                 shrink-0\r
-              `,children:(0,F.jsx)(di,{size:18,className:`text-[#7B61FF]`})}),(0,F.jsx)(`div`,{children:(0,F.jsx)(`p`,{className:`text-gray-300 leading-6`,children:`Brodipet, Guntur, Andhra Pradesh 522002`})})]}),(0,F.jsxs)(`div`,{className:`flex gap-4`,children:[(0,F.jsx)(`div`,{className:`\r
+              `,children:(0,F.jsx)(di,{size:18,className:`text-[#F0AE11]`})}),(0,F.jsx)(`div`,{children:(0,F.jsx)(`p`,{className:`text-white leading-6`,children:`Brodipet, Guntur, Andhra Pradesh 522002`})})]}),(0,F.jsxs)(`div`,{className:`flex gap-4`,children:[(0,F.jsx)(`div`,{className:`\r
                 w-11\r
                 h-11\r
                 rounded-xl\r
@@ -293,7 +289,7 @@ shadow-xl\r
                 items-center\r
                 justify-center\r
                 shrink-0\r
-              `,children:(0,F.jsx)(xi,{size:18,className:`text-[#2F80FF]`})}),(0,F.jsx)(`div`,{children:(0,F.jsx)(`p`,{className:`text-gray-300`,children:`+91 98494 31943`})})]}),(0,F.jsxs)(`div`,{className:`flex gap-4`,children:[(0,F.jsx)(`div`,{className:`\r
+              `,children:(0,F.jsx)(xi,{size:18,className:`text-[#F0AE11]`})}),(0,F.jsx)(`div`,{children:(0,F.jsx)(`p`,{className:`text-white`,children:`+91 98494 31943`})})]}),(0,F.jsxs)(`div`,{className:`flex gap-4`,children:[(0,F.jsx)(`div`,{className:`\r
                 w-11\r
                 h-11\r
                 rounded-xl\r
@@ -303,8 +299,8 @@ shadow-xl\r
                 items-center\r
                 justify-center\r
                 shrink-0\r
-              `,children:(0,F.jsx)(ui,{size:18,className:`text-[#7B61FF]`})}),(0,F.jsx)(`div`,{children:(0,F.jsx)(`p`,{className:`text-gray-300`,children:`gunturtally@gmail.com`})})]})]})]})]}),(0,F.jsxs)(`div`,{className:`\r
-        mt-3\r
+              `,children:(0,F.jsx)(ui,{size:18,className:`text-[#F0AE11]`})}),(0,F.jsx)(`div`,{children:(0,F.jsx)(`p`,{className:`text-white`,children:`gunturtally@gmail.com`})})]})]})]})]}),(0,F.jsxs)(`div`,{className:`\r
+        mt-2\r
         pt-1\r
         border-t border-white/10\r
         flex\r
@@ -315,14 +311,14 @@ shadow-xl\r
         gap-4\r
         text-center\r
         md:text-left\r
-      `,children:[(0,F.jsx)(`p`,{className:`text-gray-500 text-sm`,children:`© 2026 Balaji Infotech. All rights reserved.`}),(0,F.jsxs)(`div`,{className:`flex flex-wrap items-center justify-center md:justify-end gap-4 sm:gap-5`,children:[(0,F.jsx)(`a`,{href:`#`,className:`\r
-            text-gray-500\r
+      `,children:[(0,F.jsx)(`p`,{className:`text-white text-sm`,children:`© 2026 Balaji Infotech. All rights reserved.`}),(0,F.jsxs)(`div`,{className:`flex flex-wrap items-center justify-center md:justify-end gap-4 sm:gap-5`,children:[(0,F.jsx)(`a`,{href:`#`,className:`\r
+            text-white\r
             text-sm\r
             hover:text-white\r
             transition-all\r
             duration-300\r
           `,children:`Privacy Policy`}),(0,F.jsx)(`a`,{href:`#`,className:`\r
-            text-gray-500\r
+            text-white\r
             text-sm\r
             hover:text-white\r
             transition-all\r
