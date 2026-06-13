@@ -73,21 +73,23 @@ const ServiceDetail = () => {
   ">
 
     {/* BADGE */}
-    <div className="
-      inline-flex items-center
-      px-4
-      sm:px-5
-      py-2
-      rounded-full
-      border border-[#D7E5EF]
-      bg-[#EEF4F8]
-      text-[#155A96]
-      text-sm
-      font-semibold
-      tracking-[0.2em]
-      uppercase
-      mb-8
-    ">
+    <div
+  className="
+    inline-flex items-center
+    mt-16 sm:mt-0
+    px-4 sm:px-5
+    py-2
+    rounded-full
+    border border-[#D7E5EF]
+    bg-[#EEF4F8]
+    text-[#155A96]
+    text-sm
+    font-semibold
+    tracking-[0.2em]
+    uppercase
+    mb-8
+  "
+>
       {service.hero.badge}
     </div>
 
@@ -136,10 +138,12 @@ const ServiceDetail = () => {
     <div
       key={item}
       className="
-        px-4 py-2
-        text-[#155A96]
-        text-sm
-        font-medium
+  px-2.5 sm:px-4
+  py-1 sm:py-2
+  text-[#155A96]
+  text-xs sm:text-sm
+  font-medium
+
         
       "
     >
@@ -159,20 +163,18 @@ const ServiceDetail = () => {
       {/* PRIMARY */}
       <a href={service.hero.primaryLink}>
       <button className="
-        w-full
-        sm:w-auto
-        px-6
-        sm:px-8
-        py-4
-        rounded-2xl
-        bg-[#155A96]
-        hover:bg-[#0F4D82]
-        text-white
-        font-semibold
-        text-lg
-        hover:scale-[1.03]
-        transition-all duration-300
-      ">
+  w-auto
+  px-5 sm:px-8
+  py-2.5 sm:py-4
+  rounded-xl sm:rounded-2xl
+  bg-[#155A96]
+  hover:bg-[#0F4D82]
+  text-white
+  font-semibold
+  text-sm sm:text-lg
+  hover:scale-[1.03]
+  transition-all duration-300
+">
         {service.hero.primaryBtn}
       </button>
       </a>
@@ -528,49 +530,45 @@ const ServiceDetail = () => {
 
             {/* BUTTONS */}
             <div className="
-              mt-6
-              flex flex-col sm:flex-row
-              items-center justify-center
-              gap-5
-            ">
+  mt-6
+  flex flex-col sm:flex-row
+  items-center justify-center
+  gap-3 sm:gap-5
+">
 
                <Link to={service.cta.primaryLink}>
               <button className="
-                w-full
-                sm:w-auto
-                px-6
-                sm:px-8
-                py-4
-                rounded-2xl
-                bg-[#155A96]
-                hover:bg-[#155A96]/95
-                text-white
-                font-semibold
-                text-lg
-                hover:scale-[1.03]
-                transition-all duration-300
-              ">
+  w-auto
+  px-5 sm:px-8
+  py-2.5 sm:py-4
+  rounded-xl sm:rounded-2xl
+  bg-[#155A96]
+  hover:bg-[#155A96]/95
+  text-white
+  font-semibold
+  text-sm sm:text-lg
+  hover:scale-[1.03]
+  transition-all duration-300
+">
                 {service.cta.primaryBtn}
               </button>
               </Link>
 
                <a href={service.cta.secondaryLink}>
               <button className="
-                w-full
-                sm:w-auto
-                px-6
-                sm:px-8
-                py-4
-                rounded-2xl
-                border border-[#155A96]
-                bg-white
-                text-[#071426]
-                font-semibold
-                text-lg
-                hover:border-[#155A96]
-                hover:text-[#155A96]
-                transition-all duration-300
-              ">
+  w-auto
+  px-5 sm:px-8
+  py-2.5 sm:py-4
+  rounded-xl sm:rounded-2xl
+  border border-[#155A96]
+  bg-white
+  text-[#071426]
+  font-semibold
+  text-sm sm:text-lg
+  hover:border-[#155A96]
+  hover:text-[#155A96]
+  transition-all duration-300
+">
                 {service.cta.secondaryBtn}
               </button>
               </a>

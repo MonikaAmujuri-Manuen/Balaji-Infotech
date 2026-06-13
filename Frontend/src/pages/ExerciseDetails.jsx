@@ -134,7 +134,7 @@ md:p-10
 
     {/*  Content */}
     <div
-  className="
+  className="relative
     max-w-4xl
     mx-auto
     text-center
@@ -320,7 +320,7 @@ md:text-lg
             py-3
             rounded-xl
             bg-[#155A96]
-            hover:bg-[#246AE8]
+            hover:bg-[#155A96]/80
             text-white
             font-medium
           "
@@ -455,8 +455,9 @@ hover:shadow-md
 
           {/* Lab Steps */}
 
-          <section id="steps"
-  className="
+          <section
+  id="steps"
+  className="scroll-mt-32
     bg-[#F5F7FF]
     border
     border-slate-200
@@ -542,7 +543,7 @@ text-[#155A96]
                   h-10
                   rounded-xl
                   bg-blue-100
-                  text-blue-700
+                  text-[#155A96]
                   flex
                   items-center
                   justify-center

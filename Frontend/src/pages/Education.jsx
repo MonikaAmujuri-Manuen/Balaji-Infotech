@@ -373,31 +373,30 @@ pb-10 sm:pb-12 md:pb-14">
 
         {/* BUTTONS */}
         <div className="
-          mt-6
-          flex flex-col sm:flex-row
-          gap-5
-        ">
+  mt-6
+  flex flex-col sm:flex-row
+  items-center
+  gap-3 sm:gap-5
+">
 
           {/* PRIMARY BUTTON */}
           <a href="#courses">
           <button className="
-            group
-            relative overflow-hidden
-            w-full
-            sm:w-auto
-            px-6
-            sm:px-8
-            py-4
-            rounded-2xl
-            bg-[#155A96]
-            hover:bg-[#0F4D82]
-            text-white
-            font-semibold
-            text-lg
-            shadow-[0_15px_40px_rgba(17,120,212,0.25)]
-            hover:scale-[1.02]
-            transition-all duration-300
-          ">
+  group
+  relative overflow-hidden
+  w-auto
+  px-5 sm:px-8
+  py-2.5 sm:py-4
+  rounded-xl sm:rounded-2xl
+  bg-[#155A96]
+  hover:bg-[#0F4D82]
+  text-white
+  font-semibold
+  text-sm sm:text-lg
+  shadow-[0_15px_40px_rgba(21,90,150,0.20)]
+  hover:scale-[1.02]
+  transition-all duration-300
+">
 
             <span className="
               relative z-10
@@ -432,21 +431,19 @@ pb-10 sm:pb-12 md:pb-14">
           {/* SECONDARY BUTTON */}
           <Link to="/contact">
           <button className="
-            w-full
-            sm:w-auto
-            px-6
-            sm:px-8
-            py-4
-            rounded-2xl
-            border border-[#CBD5E1]
-            bg-white
-            text-[#0F172A]
-            font-semibold
-            text-lg
-            hover:border-[#155A96]/30
-            hover:bg-[#EEF4F8]
-            transition-all duration-300
-          ">
+  w-auto
+  px-5 sm:px-8
+  py-2.5 sm:py-4
+  rounded-xl sm:rounded-2xl
+  border border-[#CBD5E1]
+  bg-white
+  text-[#0F172A]
+  font-semibold
+  text-sm sm:text-lg
+  hover:border-[#155A96]/30
+  hover:bg-[#EEF4F8]
+  transition-all duration-300
+">
             Book Free Counseling
           </button>
           </Link>
@@ -1020,27 +1017,22 @@ pb-10 sm:pb-12 md:pb-14">
                   {/* CTA */}
                   <Link to="/contact">
                   <button className="
-                    group/btn
-                    mt-4
-                    w-full
-                    flex items-center justify-center gap-3
-                    px-3
-                    sm:px-4
-                    py-3
-                    rounded-2xl
-
-                    bg-[#155A96]
-                    hover:bg-[#0F4D82]
-
-                    text-white
-                    font-semibold
-                    text-lg
-
-                    shadow-lg
-
-                    hover:scale-[1.02]
-                    transition-all duration-300
-                  ">
+  group/btn
+  mt-4
+  w-full
+  flex items-center justify-center gap-2
+  px-3 sm:px-4
+  py-2.5 sm:py-3
+  rounded-xl sm:rounded-2xl
+  bg-[#155A96]
+  hover:bg-[#0F4D82]
+  text-white
+  font-semibold
+  text-sm sm:text-lg
+  shadow-lg
+  hover:scale-[1.02]
+  transition-all duration-300
+">
 
                     Enquire Now
 
@@ -1051,10 +1043,11 @@ pb-10 sm:pb-12 md:pb-14">
                       strokeWidth={2}
                       stroke="currentColor"
                       className="
-                        w-5 h-5
-                        group-hover/btn:translate-x-1
-                        transition-transform
-                      "
+  w-4 h-4
+  sm:w-5 sm:h-5
+  group-hover/btn:translate-x-1
+  transition-transform
+"
                     >
                       <path
                         strokeLinecap="round"

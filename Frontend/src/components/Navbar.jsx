@@ -1,14 +1,23 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { NavLink } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import logo from "../assets/logo.png"
-
+import { useLocation } from "react-router-dom";
 
 export default function Navbar() {
   const [mobileMenu, setMobileMenu] = useState(false);
   const [showProducts, setShowProducts] = useState(false);
+  const [productsOpen, setProductsOpen] = useState(false);
+const [servicesOpen, setServicesOpen] = useState(false);
+const [dropdownOpen, setDropdownOpen] = useState(false);
   const navigate = useNavigate();
+  const location = useLocation();
+
+  useEffect(() => {
+  setShowProducts(false);
+  
+}, [location.pathname]);
 
   return (
     <>
@@ -103,9 +112,14 @@ export default function Navbar() {
       </NavLink>
 
       {/* PRODUCTS */}
-      <div className="relative group">
+      <div
+  className="relative"
+  onMouseEnter={() => setProductsOpen(true)}
+  onMouseLeave={() => setProductsOpen(false)}
+>
 
         <NavLink
+        
           to="/products"
           className={({ isActive }) =>
             `relative
@@ -123,42 +137,40 @@ export default function Navbar() {
           Products
 
           <ChevronDown
-            size={18}
-            className="
-              transition-transform duration-300
-              group-hover:rotate-180
-            "
-          />
+  size={18}
+  className={`transition-transform duration-300 ${
+    productsOpen ? "rotate-180" : ""
+  }`}
+/>
         </NavLink>
 
         {/* DROPDOWN */}
         <div
-          className="
-            absolute
-            top-[120%]
-            left-1/2
-            -translate-x-1/2
-            w-[300px]
-            rounded-2xl
-            bg-white
-            border border-slate-200
-            shadow-xl
-            shadow-[0_20px_60px_rgba(0,0,0,0.35)]
-            overflow-hidden
-            opacity-0
-            invisible
-            translate-y-3
-            group-hover:opacity-100
-            group-hover:visible
-            group-hover:translate-y-0
-            transition-all duration-300
-            z-50
-          "
-        >
+  className={`
+    absolute
+    top-[120%]
+    left-1/2
+    -translate-x-1/2
+    w-[300px]
+    rounded-2xl
+    bg-white
+    border border-slate-200
+    shadow-xl
+    overflow-hidden
+    transition-all duration-300
+    z-50
+    ${
+      productsOpen
+        ? "opacity-100 visible translate-y-0"
+        : "opacity-0 invisible translate-y-3"
+    }
+  `}
+>
           {[
             {
               name: "TallyPrime",
-              link: "/products/tallyprime",
+              link: "/products/tallyprime"
+              
             },
             {
               name: "TallyPrime Server",
@@ -174,6 +186,8 @@ export default function Navbar() {
             },
           ].map((item, index) => (
             <NavLink
+            to={item.link}
+  onClick={() => setDropdownOpen(false)}
               key={index}
               to={item.link}
               className="
@@ -196,7 +210,11 @@ export default function Navbar() {
       </div>
 
       {/* SERVICES */}
-      <div className="relative group">
+      <div
+  className="relative"
+  onMouseEnter={() => setServicesOpen(true)}
+  onMouseLeave={() => setServicesOpen(false)}
+>
 
         <NavLink
           to="/services"
@@ -216,36 +234,34 @@ export default function Navbar() {
           Services
 
           <ChevronDown
-            size={18}
-            className="
-              transition-transform duration-300
-              group-hover:rotate-180
-            "
-          />
+  size={18}
+  className={`transition-transform duration-300 ${
+    servicesOpen ? "rotate-180" : ""
+  }`}
+/>
         </NavLink>
 
         {/* DROPDOWN */}
         <div
-          className="
-            absolute
-            top-[120%]
-            left-1/2
-            -translate-x-1/2
-            w-[300px]
-            rounded-2xl
-            bg-white
-            border border-slate-200
-            shadow-xl
-            overflow-hidden
-            opacity-0
-            invisible
-            translate-y-3
-            group-hover:opacity-100
-            group-hover:visible
-            group-hover:translate-y-0
-            transition-all duration-300
-            z-50
-          "
+  className={`
+    absolute
+    top-[120%]
+    left-1/2
+    -translate-x-1/2
+    w-[300px]
+    rounded-2xl
+    bg-white
+    border border-slate-200
+    shadow-xl
+    overflow-hidden
+    transition-all duration-300
+    z-50
+    ${
+      servicesOpen
+        ? "opacity-100 visible translate-y-0"
+        : "opacity-0 invisible translate-y-3"
+    }
+  `}
         >
           {[
             {
@@ -274,6 +290,8 @@ export default function Navbar() {
             },
           ].map((item, index) => (
             <NavLink
+            to={item.link}
+  onClick={() => setDropdownOpen(false)}
               key={index}
               to={item.link}
               className="
@@ -346,28 +364,6 @@ export default function Navbar() {
         Contact
       </NavLink>
     </div>
-
-    {/* RIGHT SIDE BUTTON */}
-    <div className="hidden lg:flex items-center gap-4">
-
-  <button
-    onClick={() => navigate("/contact#contact-form")}
-    className="
-      px-4 py-2.5
-      rounded-lg
-      text-sm
-      whitespace-nowrap
-      text-white
-      font-medium
-      bg-[#155A96]
-      hover:scale-105
-      transition duration-300
-    "
-  >
-    Get Started
-  </button>
-
-</div>
 
     {/* MOBILE MENU BUTTON */}
     <button
@@ -455,19 +451,6 @@ shadow-xl
           Contact
         </NavLink>
 
-        <button
-          className="
-            mt-5
-            w-full
-            py-3
-            rounded-xl
-            bg-[#155A96]
-            text-white
-            font-medium
-          "
-        >
-          Get Started
-        </button>
       </div>
     </div>
   )}

@@ -199,29 +199,31 @@ useEffect(() => {
 
         {/* BUTTONS */}
         <div className="
-          flex flex-col sm:flex-row
-          items-stretch sm:items-center
-          gap-4 sm:gap-5
-          mt-6 sm:mt-7
-        ">
+  flex flex-col sm:flex-row
+  items-center
+  gap-3 sm:gap-5
+  mt-6 sm:mt-7
+">
 
           {/* PRIMARY BUTTON */}
           <a href="#contact-form">
           <button 
-          className="w-full sm:w-auto
-            group
-            inline-flex items-center justify-center
-            gap-3
-            px-6 py-3
-            text-sm
-            rounded-2xl
-            bg-[#155A96]
-            text-white
-            font-semibold
-            shadow-[0_20px_50px_rgba(17,120,212,0.20)]
-            hover:scale-[1.02]
-            transition-all duration-300
-          ">
+          className="
+  w-auto
+  group
+  inline-flex items-center justify-center
+  gap-2
+  px-5 sm:px-6
+  py-2.5 sm:py-3
+  text-sm
+  rounded-xl sm:rounded-2xl
+  bg-[#155A96]
+  text-white
+  font-semibold
+  shadow-[0_20px_50px_rgba(17,120,212,0.20)]
+  hover:scale-[1.02]
+  transition-all duration-300
+">
 
             Request A Quote
 
@@ -236,20 +238,22 @@ useEffect(() => {
 
           {/* SECONDARY BUTTON */}
           <a href="tel:91 9849431943">
-          <button className="w-full sm:w-auto
-            inline-flex items-center justify-center
-            gap-3
-            px-6 py-3
-            text-sm
-            rounded-2xl
-            border border-[#155A96]
-            bg-white
-            text-[#0F172A]
-            font-semibold
-            hover:border-[#155A96]/30
-            hover:bg-[#F8FBFF]
-            transition-all duration-300
-          ">
+          <button className="
+  w-auto
+  inline-flex items-center justify-center
+  gap-2
+  px-5 sm:px-6
+  py-2.5 sm:py-3
+  text-sm
+  rounded-xl sm:rounded-2xl
+  border border-[#155A96]
+  bg-white
+  text-[#0F172A]
+  font-semibold
+  hover:border-[#155A96]/30
+  hover:bg-[#F8FBFF]
+  transition-all duration-300
+">
 
             <Phone className="w-5 h-5 text-[#155A96]" />
 

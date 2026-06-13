@@ -384,11 +384,15 @@ pb-10 sm:pb-12 md:pb-14
     px-4 sm:px-6
   ">
 
-    <div className="
-      grid lg:grid-cols-2
-      gap-8 lg:gap-12
-      items-center
-    ">
+    <div
+  className="
+    grid
+    grid-cols-1
+    lg:grid-cols-2
+    gap-8 lg:gap-12
+    items-center
+  "
+>
 
       {/* ================= LEFT CONTENT ================= */}
       <motion.div
@@ -452,12 +456,12 @@ pb-10 sm:pb-12 md:pb-14
 
         {/* CTA BUTTONS */}
         <div className="
-          mt-8 sm:mt-10
-          flex flex-col sm:flex-row
-          items-stretch sm:items-center
-          gap-4 sm:gap-5
-          w-full
-        ">
+  mt-8 sm:mt-10
+  flex flex-col sm:flex-row
+  items-center
+  gap-3 sm:gap-5
+  w-full
+">
 
           {/* PRIMARY BUTTON */}
           <button
@@ -468,24 +472,27 @@ pb-10 sm:pb-12 md:pb-14
             )
           }
           className="
-            w-full
-            sm:w-auto
-            justify-center
-            px-5 sm:px-7
-            py-3
-            text-base
-            rounded-2xl
-            bg-[#155A96]
-            hover:bg-[#0F4D82]
-            text-white
-            font-semibold
-            shadow-[0_20px_50px_rgba(21,90,150,0.20)]
-            hover:scale-[1.03]
-            transition-all duration-300
-            flex items-center gap-3
-          "
+  w-auto
+  justify-center
+  px-5 sm:px-7
+  py-2.5 sm:py-3
+  text-sm sm:text-base
+  rounded-xl sm:rounded-2xl
+  bg-[#155A96]
+  hover:bg-[#0F4D82]
+  text-white
+  font-semibold
+  shadow-[0_20px_50px_rgba(21,90,150,0.20)]
+  hover:scale-[1.03]
+  transition-all duration-300
+  flex items-center gap-2 sm:gap-3
+"
         >
-          <Play size={20} fill="white" />
+          <Play
+  size={16}
+  className="sm:w-5 sm:h-5"
+  fill="white"
+/>
           Start Learning
         </button>
 
@@ -493,24 +500,26 @@ pb-10 sm:pb-12 md:pb-14
                   <a href="#resourses">
                   <button
           className="
-          w-full
-          sm:w-auto
-          justify-center
-          px-5 sm:px-7
-          py-3
-          text-base
-          rounded-2xl
-          border border-[#155A96]/15
-          bg-white/10
-          backdrop-blur-xl
-          text-black
-          font-semibold
-          hover:bg-white/15
-          transition-all duration-300
-          flex items-center gap-3
-        "
+  w-auto
+  justify-center
+  px-5 sm:px-7
+  py-2.5 sm:py-3
+  text-sm sm:text-base
+  rounded-xl sm:rounded-2xl
+  border border-[#155A96]/15
+  bg-white/10
+  backdrop-blur-xl
+  text-black
+  font-semibold
+  hover:bg-white/15
+  transition-all duration-300
+  flex items-center gap-2 sm:gap-3
+"
         >
-          <Link2 size={20} />
+          <Link2
+  size={16}
+  className="sm:w-5 sm:h-5"
+/>
           Free Resources
         </button>
         </a>
@@ -521,10 +530,12 @@ pb-10 sm:pb-12 md:pb-14
 
       {/* ================= RIGHT GLASS CARD ================= */}
       <motion.div
-      className="
-      relative
-      flex justify-center lg:justify-end
-      order-1 lg:order-2" 
+  className="
+    relative
+    flex justify-center lg:justify-end
+    order-2 lg:order-2
+  "
+
 
       initial = {{ opacity: 0, x:100 }}
       whileInView={{ opacity: 1, x:0 }}

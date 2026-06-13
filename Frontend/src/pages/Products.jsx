@@ -195,42 +195,53 @@ export default function Products() {
         </p>
 
         {/* CTA BUTTONS */}
-        <div className="flex flex-col sm:flex-row gap-4 mt-8">
-          <a href="#products"
-           
-            className="
-              px-7
-              py-3.5
-              rounded-xl
-              bg-[#155A96]
-              text-white
-              font-semibold
-              shadow-lg
-              hover:shadow-xl
-              transition
-            "
-          >
-            Explore Products
-          
-          </a>
+        <div
+  className="
+    flex
+    flex-col sm:flex-row
+    items-center
+    gap-3
+    mt-6 sm:mt-8
+  "
+>
+          <a
+  href="#products"
+  className="
+    w-auto
+    px-5 sm:px-7
+    py-2.5 sm:py-3.5
+    rounded-xl
+    bg-[#155A96]
+    text-white
+    text-sm sm:text-base
+    font-semibold
+    shadow-lg
+    hover:shadow-xl
+    transition
+  "
+>
+  Explore Products
+</a>
 
           <a href="tel:+919849431943">
-          <button
-            className="
-              px-7
-              py-3.5
-              rounded-xl
-              border
-              border-slate-300
-              bg-white
-              font-semibold
-              hover:bg-slate-50
-              transition
-            "
-          >
-            Book Free Demo
-          </button>
-          </a>
+  <button
+    className="
+      w-auto
+      px-5 sm:px-7
+      py-2.5 sm:py-3.5
+      rounded-xl
+      border
+      border-slate-300
+      bg-white
+      text-sm sm:text-base
+      font-semibold
+      hover:bg-slate-50
+      transition
+    "
+  >
+    Book Free Demo
+  </button>
+</a>
           
         </div>
 
@@ -624,73 +635,110 @@ export default function Products() {
       "
     >
       {/* Image */}
-      <div className="bg-[#EDF4FB] p-10">
+      <div className="bg-[#EDF4FB] p-3 sm:p-6 lg:p-10">
         <img
-          src={tallyPrime}
-          alt="TallyPrime"
-          className="
-            w-full
-            rounded-[28px]
-            transition-transform
-            duration-700
-            group-hover:scale-105
-          "
-        />
+  src={tallyPrime}
+  alt="TallyPrime"
+  className="
+    w-full
+    max-w-none
+    rounded-[20px] sm:rounded-[28px]
+    transition-transform
+    duration-700
+    group-hover:scale-105
+  "
+/>
       </div>
 
       {/* Content */}
-      <div className="p-10">
+      <div className="p-5 sm:p-7 lg:p-10">
 
-        <div
-          className="
-            inline-flex
-            px-4
-            py-2
-            rounded-full
-            bg-[#155A96]/10
-            text-[#155A96]
-            font-medium
-            mb-5
-          "
-        >
-          Featured Product
-        </div>
+  <div
+    className="
+      inline-flex
+      px-3 py-1.5
+      sm:px-4 sm:py-2
+      rounded-full
+      bg-[#155A96]/10
+      text-[#155A96]
+      text-xs sm:text-sm
+      font-medium
+      mb-4
+    "
+  >
+    Featured Product
+  </div>
 
-        <h3 className="text-3xl font-bold text-[#071426] mb-4">
-          TallyPrime
-        </h3>
+  <h3
+    className="
+      text-2xl
+      sm:text-3xl
+      font-bold
+      text-[#071426]
+      mb-3
+    "
+  >
+    TallyPrime
+  </h3>
 
-        <p className="text-lg text-slate-600 leading-relaxed mb-6">
-          Complete business accounting, GST compliance,
-          inventory management and financial reporting
-          in one powerful platform.
-        </p>
+  <p
+    className="
+      text-sm
+      sm:text-base
+      lg:text-lg
+      text-slate-600
+      leading-7
+      mb-5
+    "
+  >
+    Complete business accounting, GST compliance,
+    inventory management and financial reporting
+    in one powerful platform.
+  </p>
 
-        <div className="grid grid-cols-2 gap-4 mb-6">
-
-          {[
-            "GST Billing",
-            "Inventory",
-            "Accounting",
-            "Reports",
-          ].map((item) => (
-            <div
-              key={item}
-              className="flex items-center gap-3"
-            >
-              <div className="w-2 h-2 rounded-full bg-[#155A96]" />
-              <span>{item}</span>
-            </div>
-          ))}
-
-        </div>
-
-        <div className="flex items-center gap-3 text-[#155A96] font-semibold">
-          Explore Product
-          <ArrowRight size={18} />
-        </div>
-
+  <div
+    className="
+      grid
+      grid-cols-1
+      sm:grid-cols-2
+      gap-3
+      mb-6
+    "
+  >
+    {[
+      "GST Billing",
+      "Inventory",
+      "Accounting",
+      "Reports",
+    ].map((item) => (
+      <div
+        key={item}
+        className="flex items-center gap-3"
+      >
+        <div className="w-2 h-2 rounded-full bg-[#155A96]" />
+        <span className="text-sm sm:text-base text-slate-700">
+          {item}
+        </span>
       </div>
+    ))}
+  </div>
+
+  <div
+    className="
+      inline-flex
+      items-center
+      gap-2
+      text-[#155A96]
+      text-sm
+      sm:text-base
+      font-semibold
+    "
+  >
+    Explore Product
+    <ArrowRight size={16} />
+  </div>
+
+</div>
     </Link>
 
     {/* SMALL PRODUCTS */}
@@ -749,7 +797,7 @@ export default function Products() {
 
           <div className="p-6">
 
-            <h3 className="text-2xl font-bold text-[#071426] mb-3">
+            <h3 className="text-2xl sm:text-3xl font-bold text-[#071426] mb-3">
               {item.title}
             </h3>
 

@@ -156,47 +156,55 @@ export default function ProductDetail() {
 
               {/* CTA BUTTONS */}
 
-              <div className="flex flex-col sm:flex-row sm:flex-wrap gap-4">
+              <div
+  className="
+    flex
+    flex-col
+    items-center
+    sm:flex-row
+    gap-3
+  "
+>
                 <a href="tel:+919849431943">
-                <button
-                  className="
-                    px-6
-                    sm:px-8
-                    py-4
-                    rounded-2xl
-                    bg-[#155A96]
-                    hover:bg-[#124A7C]
-                    text-white
-                    font-semibold
-                    shadow-lg
-                    hover:scale-105
-                    transition-all
-                    duration-300
-                  "
-                >
-                  Request Demo
-                </button>
-                </a>
+  <button
+    className="
+      px-5 sm:px-8
+      py-2.5 sm:py-4
+      rounded-xl sm:rounded-2xl
+      bg-[#155A96]
+      hover:bg-[#124A7C]
+      text-white
+      text-sm sm:text-base
+      font-semibold
+      shadow-lg
+      transition-all
+      duration-300
+    "
+  >
+    Request Demo
+  </button>
+</a>
 
                 <Link
-                  to="/products"
-                  className="
-                    px-8
-                    py-4
-                    rounded-2xl
-                    border
-                    border-[#D1D5DB]
-                    bg-white
-                    text-[#111827]
-                    font-semibold
-                    hover:border-[#155A96]
-                    hover:text-[#155A96]
-                    transition-all
-                    duration-300
-                  "
-                >
-                  Back to Products
-                </Link>
+  to="/products"
+  className="
+    px-5 sm:px-8
+    py-2.5 sm:py-4
+    rounded-xl sm:rounded-2xl
+    border
+    border-[#D1D5DB]
+    bg-white
+    text-[#111827]
+    text-sm sm:text-base
+    font-semibold
+    hover:border-[#155A96]
+    hover:text-[#155A96]
+    transition-all
+    duration-300
+  "
+>
+  Back to Products
+</Link>
               </div>
             </div>
 

@@ -133,37 +133,44 @@ const visibleSections =
   ">
 
       {/* Badge Row */}
-      <div className="
-        flex flex-wrap
-        justify-center
-        gap-3
-        mb-5 sm:mb-6
-        ">
+      <div
+  className="
+    flex flex-wrap
+    justify-center
+    gap-2
+    mb-5
+  "
+>
+  <span
+    className="
+      px-3
+      py-1
+      rounded-full
+      bg-white/15
+      backdrop-blur-sm
+      text-white
+      text-xs
+      font-medium
+    "
+  >
+    {course.level}
+  </span>
 
-        <span className="
-          px-3 py-1.5
-text-xs sm:text-sm
-          rounded-full
-          bg-white/20
-          backdrop-blur-md
-          text-white
-          font-medium
-        ">
-          {course.level}
-        </span>
-
-        <span className="
-          px-4 py-2
-          rounded-full
-          bg-white/20
-          backdrop-blur-md
-          text-white
-          font-medium
-        ">
-          {course.duration}
-        </span>
-
-      </div>
+  <span
+    className="
+      px-3
+      py-1
+      rounded-full
+      bg-white/15
+      backdrop-blur-sm
+      text-white
+      text-xs
+      font-medium
+    "
+  >
+    {course.duration}
+  </span>
+</div>
 
       {/* Title */}
       <h1 className="
@@ -192,21 +199,27 @@ lg:text-xl
       </p>
 
       {/* Buttons */}
-      <div className="mt-6 flex flex-col sm:flex-row justify-center gap-4">
+      <div className="mt-5 flex justify-center">
 
         <a
-          href="#overview"
-          className="
-            px-6 py-3
-            sm:px-8 sm:py-4
-            rounded-xl
-            bg-[#155A96]
-            text-white
-            font-semibold
-          "
-        >
-          Start Learning
-        </a>
+  href="#overview"
+  className="
+    px-5
+    py-2.5
+    sm:px-8
+    sm:py-4
+    rounded-xl
+    bg-[#155A96]
+    text-white
+    text-sm
+    sm:text-base
+    font-semibold
+    transition-all
+    duration-300
+  "
+>
+  Start Learning
+</a>
 
       </div>
 

@@ -309,7 +309,7 @@ export default function HeroSection() {
     min-h-[80vh]
     overflow-hidden
     bg-white
-    px-4 sm:px-6 lg:px-10
+    px-4 sm:px-8 lg:px-10
     flex items-center
   "
 >
@@ -447,21 +447,22 @@ export default function HeroSection() {
           </p>
 
           {/* BUTTONS */}
-          <div className="mt-6 flex flex-col sm:flex-row gap-4">
+          <div className="mt-6 flex flex-row  gap-3">
             <a href="tel:+919849431943">
             <button
-              className="
-                group
-                px-7 py-4
-                rounded-2xl
-                bg-[#155A96]
-                text-white
-                font-medium
-                flex items-center justify-center gap-2
-                transition-all
-                duration-300
-                "
-            >
+  className="
+    group
+    px-4 sm:px-7
+    py-3 sm:py-4
+    rounded-2xl
+    bg-[#155A96]
+    text-white
+    text-sm sm:text-base
+    font-medium
+    flex items-center justify-center gap-2
+    transition-all duration-300
+  "
+>
               Call Us
 
               <PhoneCall
@@ -477,21 +478,20 @@ export default function HeroSection() {
     rel="noopener noreferrer"
   >
             <button
-              className="
-                group
-                w-full sm:w-auto
-                px-7 sm:px-10
-                py-4
-                rounded-2xl
-                border border-slate-200
-                bg-white
-                text-[#071426]
-                hover:bg-slate-50
-                flex items-center justify-center gap-2
-                hover:bg-white/10
-                transition duration-300
-              "
-            >
+  className="
+    group
+    px-4 sm:px-7
+    py-3 sm:py-4
+    rounded-2xl
+    border border-slate-200
+    bg-white
+    text-[#071426]
+    text-sm sm:text-base
+    flex items-center justify-center gap-2
+    hover:bg-slate-50
+    transition duration-300
+  "
+>
               Chat with Us
 
               <MessageCircleCheck
@@ -505,7 +505,7 @@ export default function HeroSection() {
           {/* TRUST POINTS */}
           <div
             className="
-              mt-6
+              mt-4
               grid
               grid-cols-1
               sm:grid-cols-2
@@ -516,7 +516,8 @@ export default function HeroSection() {
             <div
               className="
                 flex items-center gap-3
-                px-4 py-4
+                px-4 sm:px-8
+                py-4 sm:py-8
               "
             >
               <ShieldCheck

@@ -233,25 +233,26 @@ const foundationData = [
 
           {/* BUTTONS */}
           <div
-            className="
-              flex
-              flex-col
-              sm:flex-row
-              flex-wrap
-              gap-4
-              mt-6 sm:mt-8
-            "
+           className="
+            flex
+            flex-row
+            justify-center
+            gap-3
+            mt-6 sm:mt-8
+          "
           >
 
             <button
             onClick={() => navigate("/contact")}
               className="
                 group
-                w-full
-                sm:w-auto
                 justify-center
-                px-7
-                py-4
+                px-5
+sm:px-7
+py-3
+sm:py-4
+text-sm
+sm:text-base
                 rounded-2xl
                 bg-gradient-to-r
                 bg-[#155A96]
@@ -282,10 +283,12 @@ const foundationData = [
             <button
             onClick={() => navigate("/services")}
               className="
-                w-full
-                sm:w-auto
-                px-7
-                py-4
+                px-5
+sm:px-7
+py-3
+sm:py-4
+text-sm
+sm:text-base
                 rounded-2xl
                 bg-white
                 border border-gray-200
@@ -328,14 +331,16 @@ const foundationData = [
 
           {/* IMAGE CARD */}
           <div
-            className="relative mt-4 lg:mt-0
-              rounded-[28px]
-              overflow-hidden
-              border border-[#155A96]/10
-              shadow-[0_20px_80px_rgba(0,0,0,0.12)]
-              bg-white
-            "
-          >
+  className="
+    relative
+    rounded-[28px]
+    overflow-hidden
+    border border-[#155A96]/10
+    shadow-[0_20px_80px_rgba(0,0,0,0.12)]
+    bg-white
+    mb-4 lg:mb-0
+  "
+>
 
             <img
               src={aboutImg}
@@ -355,7 +360,15 @@ const foundationData = [
       </div>
     </section>
 
-    <section ref={ref} className="relative z-28 -mt-12 lg:-mt-6">
+    <section
+  ref={ref}
+  className="
+    relative
+    z-20
+    mt-6
+    lg:-mt-8
+  "
+>
   <div className="max-w-5xl mx-auto px-4 sm:px-6">
 
     <div
@@ -670,35 +683,47 @@ const foundationData = [
             <div className="flex items-center gap-5 mb-5">
 
               <div
-                className="
-                  w-16 h-16
-                  rounded-2xl
-                  bg-[#155A96]
-                  flex items-center justify-center
-                  shrink-0
-                "
-              >
-                <Icon className="w-8 h-8 text-white" />
-              </div>
+  className="
+    w-12 h-12
+    sm:w-16 sm:h-16
+    rounded-2xl
+    bg-[#155A96]
+    flex items-center justify-center
+    shrink-0
+  "
+>
+  <Icon className="w-6 h-6 sm:w-8 sm:h-8 text-white" />
+</div>
 
               <div>
                 <p className="text-[#155A96] font-medium">
                   Foundation Pillar
                 </p>
 
-                <h3 className="text-4xl font-bold text-[#071426]">
-                  {current.title}
-                </h3>
+                <h3
+  className="
+    text-2xl
+    sm:text-3xl
+    lg:text-4xl
+    font-bold
+    text-[#071426]
+    leading-tight
+  "
+>
+  {current.title}
+</h3>
                 <p
-                  className="
-                    text-xl
-                    font-medium
-                    text-[#155A96]
-                    mb-5
-                  "
-                >
-                  Driving Business Growth Through Smarter Tally Solutions
-                </p>
+  className="
+    text-base
+    sm:text-lg
+    lg:text-xl
+    font-medium
+    text-[#155A96]
+    mt-2
+  "
+>
+  Driving Business Growth Through Smarter Tally Solutions
+</p>
               </div>
 
             </div>

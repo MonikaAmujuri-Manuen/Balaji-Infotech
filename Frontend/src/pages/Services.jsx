@@ -97,54 +97,55 @@ export default function Services() {
 
         {/* BUTTONS */}
         <div
-          className="
-            mt-8
-            flex
-            flex-col
-            sm:flex-row
-            gap-4
-          "
-        >
-          <a href="#services">
-            <button
-              className="
-                w-full sm:w-auto
-                px-6 sm:px-8
-                py-4
-                rounded-2xl
-                bg-[#155A96]
-                hover:bg-[#1D6FB8]
-                text-white
-                font-semibold
-                transition-all
-                duration-300
-              "
-            >
-              Explore Services
-            </button>
-          </a>
+  className="
+    mt-8
+    flex
+    flex-col
+    items-center
+    sm:flex-row
+    gap-3
+  "
+>
+  <a href="#services">
+    <button
+      className="
+        px-5 sm:px-8
+        py-2.5 sm:py-4
+        rounded-xl sm:rounded-2xl
+        bg-[#155A96]
+        hover:bg-[#1D6FB8]
+        text-white
+        text-sm sm:text-base
+        font-semibold
+        transition-all
+        duration-300
+      "
+    >
+      Explore Services
+    </button>
+  </a>
 
-          <a href="tel:+919849431943">
-            <button
-              className="
-                w-full sm:w-auto
-                px-6 sm:px-8
-                py-4
-                rounded-2xl
-                border
-                border-[#D9E7F5]
-                hover:border-[#155A96]
-                bg-white
-                text-[#071426]
-                font-semibold
-                transition-all
-                duration-300
-              "
-            >
-              Talk To Experts
-            </button>
-          </a>
-        </div>
+  <a href="tel:+919849431943">
+    <button
+      className="
+        px-5 sm:px-8
+        py-2.5 sm:py-4
+        rounded-xl sm:rounded-2xl
+        border
+        border-[#D9E7F5]
+        hover:border-[#155A96]
+        bg-white
+        text-[#071426]
+        text-sm sm:text-base
+        font-semibold
+        transition-all
+        duration-300
+      "
+    >
+      Talk To Experts
+    </button>
+  </a>
+</div>
 
       </div>
 
@@ -478,49 +479,49 @@ export default function Services() {
     {/* BUTTONS */}
     <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">
 
-      {/* PRIMARY BUTTON */}
-      <a href="/contact">
-      <button
-        className="
-        w-full
-        sm:w-auto
+  {/* PRIMARY BUTTON */}
+  <a href="/contact">
+    <button
+      className="
         px-5 sm:px-7
-        py-3 sm:py-4
-        rounded-2xl
+        py-2.5 sm:py-4
+        rounded-xl sm:rounded-2xl
         bg-[#155A96]
         text-white
-        text-[17px]
+        text-sm sm:text-[17px]
         font-semibold
         shadow-[0_10px_30px_rgba(21,90,150,0.08)]
         transition-all duration-300
         hover:scale-[1.04]
-        "
-      >
-        Get Free Consultation
-      </button>
-      </a>
+      "
+    >
+      Get Free Consultation
+    </button>
+  </a>
 
-      {/* SECONDARY BUTTON */}
-      <a href="tel:+919849431943">
-      <button
-        className="
-        px-10 py-5
-        rounded-2xl
+  {/* SECONDARY BUTTON */}
+  <a href="tel:+919849431943">
+    <button
+      className="
+        px-5 sm:px-10
+        py-2.5 sm:py-5
+        rounded-xl sm:rounded-2xl
         border border-[#155A96]
         bg-white
         text-[#071426]
-        text-[17px]
+        text-sm sm:text-[17px]
         font-semibold
         transition-all duration-300
         hover:border-[#155A96]
         hover:text-[#1178D4]
         shadow-[0_10px_30px_rgba(21,90,150,0.08)]
-        "
-      >
-        Talk To Experts
-      </button>
-      </a>
-    </div>
+      "
+    >
+      Talk To Experts
+    </button>
+  </a>
+
+</div>
 
   </div>
 </section>
