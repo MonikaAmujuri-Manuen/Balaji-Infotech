@@ -50,10 +50,10 @@ const returnsIcons = {
 };
 
 const badgeStyles = {
-  payment: "bg-red-50 text-red-600",
-  receipt: "bg-green-50 text-green-600",
-  contra: "bg-blue-50 text-blue-600",
-  journal: "bg-purple-50 text-purple-600",
+  payment: "bg-blue-50 text-[#155A96]",
+  receipt: "bg-blue-50 text-[#155A96]",
+  contra: "bg-blue-50 text-[#155A96]",
+  journal: "bg-blue-50 text-[#155A96]",
 };
 
 export default function CourseDetail() {
@@ -200,9 +200,7 @@ lg:text-xl
             px-6 py-3
             sm:px-8 sm:py-4
             rounded-xl
-            bg-gradient-to-r
-            from-[#2563EB]
-            to-[#7C3AED]
+            bg-[#155A96]
             text-white
             font-semibold
           "
@@ -273,7 +271,7 @@ lg:text-xl
     font-medium
     ${
       activeSection === "overview"
-        ? "bg-[#2563EB] text-white"
+        ? "bg-[#155A96] text-white"
         : "bg-white border border-slate-200"
     }
   `}
@@ -294,7 +292,7 @@ lg:text-xl
         font-medium
         ${
           activeSection === section.id
-            ? "bg-[#2563EB] text-white"
+            ? "bg-[#155A96] text-white"
             : "bg-white border border-slate-200"
         }
       `}
@@ -345,9 +343,7 @@ lg:text-xl
             className="
               w-14 h-14
               rounded-2xl
-              bg-gradient-to-br
-              from-[#2563EB]
-              to-[#7C3AED]
+              bg-[#155A96]
               flex
               items-center
               justify-center
@@ -410,7 +406,7 @@ lg:text-xl
                   h-9
                   rounded-full
                   bg-[#EEF4FF]
-                  text-[#2563EB]
+                  text-[#155A96]
                   flex
                   items-center
                   justify-center
@@ -443,8 +439,8 @@ lg:text-xl
                   duration-200
                   ${
                     activeSection === section.id
-                      ? "text-[#2563EB] font-semibold"
-                      : "text-[#334155] font-medium group-hover:text-[#2563EB]"
+                      ? "text-[#155A96] font-semibold"
+                      : "text-[#334155] font-medium group-hover:text-[#155A96]"
                   }
                 `}
               >
@@ -479,7 +475,7 @@ lg:text-xl
       <section
   id="overview"
   className={`
-    mb-12 lg:mb-24
+    mb-12 lg:mb-16
     scroll-mt-32
     ${
       isMobile &&
@@ -491,16 +487,16 @@ lg:text-xl
 >
   <h2
     className="
-      text-3xl sm:text-4xl lg:text-5xl
+      text-2xl sm:text-3xl lg:text-4xl
       font-black
       text-[#071426]
-      mb-10
+      mb-4
     "
   >
     What You'll Learn
   </h2>
 
-  <div className="space-y-6 lg:space-y-10">
+  <div className="space-y-5 lg:space-y-6">
 
     {/* RIGHT CONTENT */}
 
@@ -511,7 +507,7 @@ lg:text-xl
           text-base lg:text-lg
           text-slate-700
           leading-7 lg:leading-9
-          mb-8
+          mb-6
         "
       >
         {
@@ -534,31 +530,27 @@ lg:text-xl
               <div
                 key={index}
                 className="
-                flex
-                flex-col sm:flex-row
-                gap-3 sm:gap-4
+                grid
+                md:grid-cols-[240px_1fr]
+                gap-1
                 items-start
-              "
+                pb-3
+                border-b
+                border-slate-100
+                "
               >
 
-                <div
+                <h3
                   className="
-                    mt-1
-                    px-4 py-2
-                    rounded-full
-                    bg-[#EEF4FF]
-                    text-[#2563EB]
-                    flex
-                    items-center
-                    gap-2
-                    text-sm
-                    font-medium
+                    text-[15px]
+                    font-bold
+                    text-[#155A96]
+                    min-w-[240px]
                     shrink-0
                   "
                 >
-                  <Icon className="w-4 h-4" />
                   {item.title}
-                </div>
+                </h3>
 
                 <p
                   className="
@@ -645,12 +637,12 @@ lg:text-xl
         <section
           key={section.id}
           id={section.id}
-          className="mb-12 lg:mb-24"
+          className="mb-12 lg:mb-16"
         >
 
           <h2
             className="
-              text-3xl lg:text-4xl
+              text-2xl lg:text-3xl
               font-bold
               text-[#071426]
               mb-4
@@ -686,11 +678,9 @@ lg:text-xl
 
                 <div
                   className="
-                    w-12 h-12
+                    w-10 h-10
                     rounded-full
-                    bg-gradient-to-r
-                    from-[#2563EB]
-                    to-[#7C3AED]
+                    bg-[#155A96]
                     text-white
                     flex
                     items-center
@@ -706,7 +696,7 @@ lg:text-xl
 
                   <h3
                     className="
-                      text-xl
+                      text-lg
                       font-bold
                       text-[#071426]
                       mb-2
@@ -736,7 +726,7 @@ lg:text-xl
 
             <div
               className="
-                mt-10
+                mt-6
                 bg-amber-50
                 border
                 border-amber-200
@@ -777,14 +767,14 @@ lg:text-xl
         <section
           key={section.id}
           id={section.id}
-          className="mb-24 scroll-mt-32"
+          className="mb-16 scroll-mt-32"
         >
 
           <h2 className="
-            text-2xl sm:text-3xl lg:text-4xl
+            text-2xl sm:text-3xl 
             font-bold
             text-[#071426]
-            mb-3
+            mb-2
           ">
             {section.title}
           </h2>
@@ -803,12 +793,12 @@ lg:text-xl
             {section.description}
           </p>
 
-          <div className="space-y-6 lg:space-y-10">
+          <div className="space-y-5 lg:space-y-6">
 
   {/* GROUP CARDS */}
 
   <div>
-    <h3 className="text-xl sm:text-2xl font-bold text-[#071426] mb-6">
+    <h3 className="text-lg sm:text-xl font-bold text-[#071426] mb-4">
       Major Account Groups
     </h3>
 
@@ -817,8 +807,8 @@ lg:text-xl
     grid
     grid-cols-1
     md:grid-cols-2
-    gap-4
-    md:gap-6
+    gap-3
+    md:gap-5
   "
 >
 
@@ -858,15 +848,15 @@ lg:text-xl
             <Icon
               className="
                 w-6 h-6
-                text-[#2563EB]
+                text-[#155A96]
               "
             />
           )}
 
           <h4
             className="
-              text-xl
-              sm:text-2xl
+              text-lg
+              sm:text-xl
               font-bold
               text-[#071426]
             "
@@ -881,7 +871,7 @@ lg:text-xl
     text-slate-600
     text-sm
     sm:text-base
-    leading-6
+    leading-5
     break-words
   "
 >
@@ -903,7 +893,7 @@ lg:text-xl
 
   <h3
     className="
-      text-2xl
+      text-xl
       font-bold
       text-[#071426]
       mb-6
@@ -916,9 +906,9 @@ lg:text-xl
   grid
   grid-cols-1
   md:grid-cols-2
-  gap-5
-  md:gap-x-12
-  md:gap-y-8
+  gap-4
+  md:gap-x-6
+  md:gap-y-4
 ">
 
   {section.examples?.map((example, index) => (
@@ -942,11 +932,8 @@ lg:text-xl
     className="
       w-3 h-3
       rounded-full
-      bg-[#2563EB]
-      transition-all
-      duration-300
-      group-hover:scale-150
-      group-hover:bg-[#7C3AED]
+      bg-[#155A96]
+      
     "
   />
 
@@ -956,9 +943,7 @@ lg:text-xl
   className="
     min-w-0
     flex-1
-    transition-all
-    duration-300
-    group-hover:translate-x-3
+    
   "
 >
 
@@ -968,9 +953,6 @@ lg:text-xl
             sm:text-xl
             font-semibold
             text-[#071426]
-            transition-colors
-            duration-300
-            group-hover:text-[#2563EB]
           "
         >
           {example.ledger}
@@ -983,9 +965,7 @@ lg:text-xl
               ml-2
               font-medium
               text-slate-700
-              transition-colors
-              duration-300
-              group-hover:text-[#7C3AED]
+              
             "
           >
             {example.group}
@@ -1084,7 +1064,7 @@ lg:text-xl
                   text-sm
                   font-medium
                   bg-[#EEF4FF]
-                  text-[#2563EB]
+                  text-[#155A96]
                 "
               >
                 {row.type}
@@ -1111,7 +1091,7 @@ lg:text-xl
 
     <div
   className="
-    mt-10
+    mt-6
     bg-gradient-to-r
     from-amber-50
     to-orange-50
@@ -1161,17 +1141,17 @@ lg:text-xl
     <section
       key={section.id}
       id={section.id}
-      className="mb-24 scroll-mt-32"
+      className="mb-16 scroll-mt-32"
     >
 
       <h2
         className="
-          text-3xl
-          sm:text-4xl
-          lg:text-5xl
+          text-2xl
+          sm:text-3xl
+          lg:text-4xl
           font-black
           text-[#071426]
-          mb-4
+          mb-3
         "
       >
         {section.title}
@@ -1182,9 +1162,9 @@ lg:text-xl
           text-sm
           sm:text-base
           lg:text-lg
-          leading-7
+          leading-8
           text-slate-600
-          mb-10
+          mb-6
         "
       >
         {section.description}
@@ -1203,14 +1183,14 @@ lg:text-xl
           bg-slate-50
           border
           border-slate-200
-          mb-10
+          mb-6
         "
       >
 
         <h3
           className="
-            text-xl
-            sm:text-2xl
+            text-lg
+            sm:text-xl
             font-bold
             text-[#071426]
             mb-4
@@ -1297,7 +1277,7 @@ lg:py-6
         <div
           className="
             mt-1
-            text-[#2563EB]
+            text-[#155A96]
             group-hover:translate-x-1
             transition-transform
             duration-300
@@ -1329,12 +1309,12 @@ lg:py-6
 
       <h3
         className="
-          text-lg
-sm:text-xl
-lg:text-2xl
+          text-base
+sm:text-lg
+lg:text-xl
           font-bold
           text-[#071426]
-          group-hover:text-[#2563EB]
+          group-hover:text-[#155A96]
           transition-colors
         "
       >
@@ -1378,7 +1358,7 @@ lg:pb-8
 
                 <p
                   className="
-                    mt-6
+                    mt-4
                     text-slate-700
                     leading-8
                   "
@@ -1395,7 +1375,7 @@ lg:pb-8
 
                   <div
                   className="
-                    mt-6
+                    mt-4
                     overflow-x-auto
                     rounded-xl
                     sm:rounded-2xl
@@ -1480,7 +1460,7 @@ lg:pb-8
 
                   <div
                     className="
-                      mt-6
+                      mt-4
                       text-slate-600
                     "
                   >
@@ -1508,7 +1488,7 @@ lg:pb-8
 
       <div
         className="
-          mt-10
+          mt-6
           p-4 sm:p-6 lg:p-8
           rounded-[24px]
           border
@@ -1519,8 +1499,8 @@ lg:pb-8
 
         <h3
           className="
-            text-xl
-            sm:text-2xl
+            text-lg
+            sm:text-xl
             font-bold
             text-amber-900
             mb-4
@@ -1568,19 +1548,19 @@ lg:pb-8
       {/* HEADING */}
       <h2
         className="
-          text-2xl
-          sm:text-3xl
-          lg:text-4xl
+          text-xl
+          sm:text-2xl
+          lg:text-3xl
           font-bold
           text-[#071426]
-          mb-4
+          mb-3
         "
       >
         {section.title}
       </h2>
 
       {/* ================= MOBILE TIMELINE ================= */}
-      <div className="lg:hidden mt-8">
+      <div className="lg:hidden mt-6">
 
         <div className="relative pl-8">
 
@@ -1592,7 +1572,7 @@ lg:pb-8
               top-0
               bottom-0
               w-[2px]
-              bg-[#2563EB]
+              bg-[#155A96]
             "
           />
 
@@ -1614,7 +1594,7 @@ lg:pb-8
                   rounded-full
                   bg-white
                   border-4
-                  border-[#2563EB]
+                  border-[#155A96]
                 "
               />
 
@@ -1633,7 +1613,7 @@ lg:pb-8
                   className="
                     text-xs
                     font-semibold
-                    text-[#2563EB]
+                    text-[#155A96]
                   "
                 >
                   STEP {item.step}
@@ -1697,7 +1677,7 @@ lg:pb-8
               w-3
               h-3
               rounded-full
-              bg-[#2563EB]
+              bg-[#155A96]
               -translate-y-1/2
             "
           />
@@ -1710,9 +1690,7 @@ lg:pb-8
               left-0
               right-0
               h-[2px]
-              bg-gradient-to-r
-              from-[#2563EB]
-              to-[#7C3AED]
+              bg-[#155A96]
             "
           />
 
@@ -1725,7 +1703,7 @@ lg:pb-8
               w-3
               h-3
               rounded-full
-              bg-[#7C3AED]
+              bg-[#155A96]
               -translate-y-1/2
             "
           />
@@ -1753,12 +1731,12 @@ lg:pb-8
                   rounded-full
                   bg-white
                   border-4
-                  border-[#2563EB]
+                  border-[#155A96]
                   flex
                   items-center
                   justify-center
                   font-bold
-                  text-[#2563EB]
+                  text-[#155A96]
                 "
               >
                 {item.step}
@@ -1803,16 +1781,16 @@ lg:pb-8
     <section
       key={section.id}
       id={section.id}
-      className="mb-24 scroll-mt-32"
+      className="mb-16 scroll-mt-32"
     >
       <h2
         className="
-          text-3xl
-          sm:text-4xl
-          lg:text-5xl
+          text-2xl
+          sm:text-3xl
+          lg:text-4xl
           font-bold
           text-[#071426]
-          mb-4
+          mb-3
         "
       >
         {section.title}
@@ -1822,7 +1800,7 @@ lg:pb-8
         className="
           text-lg
           text-slate-600
-          mb-12
+          mb-6
         "
       >
         {section.description}
@@ -1833,7 +1811,7 @@ lg:pb-8
           grid
           md:grid-cols-2
           xl:grid-cols-3
-          gap-8
+          gap-6
         "
       >
         {section.labs.map((lab, index) => (
@@ -1846,7 +1824,7 @@ lg:pb-8
               border
               border-slate-200
               rounded-[28px]
-              p-6
+              p-4
               transition-all
               duration-300
               hover:-translate-y-2
@@ -1861,7 +1839,7 @@ lg:pb-8
                 flex
                 items-center
                 justify-between
-                mb-6
+                mb-4
               "
             >
 
@@ -1869,7 +1847,7 @@ lg:pb-8
                 className="
                   text-sm
                   font-bold
-                  text-[#2563EB]
+                  text-[#155A96]
                   uppercase
                   tracking-wider
                 "
@@ -1883,7 +1861,7 @@ lg:pb-8
                   py-1
                   rounded-full
                   bg-[#EEF4FF]
-                  text-[#2563EB]
+                  text-[#155A96]
                   text-sm
                   font-medium
                 "
@@ -1895,7 +1873,7 @@ lg:pb-8
 
             <h3
               className="
-                text-xl
+                text-lg
                 font-bold
                 text-[#071426]
                 mb-4
@@ -1907,7 +1885,7 @@ lg:pb-8
             <span
               className={`
                 inline-block
-                mb-6
+                mb-4
                 px-3 py-1
                 rounded-full
                 text-sm
@@ -1935,7 +1913,7 @@ lg:pb-8
                   "
                 >
 
-                  <span className="text-[#2563EB]">
+                  <span className="text-[#155A96]">
                     ✓
                   </span>
 
@@ -1954,20 +1932,20 @@ lg:pb-8
     {section.quiz?.length > 0 && (
       <div
   className="
-    mt-16
+    mt-8
     bg-white
     border
     border-slate-200
     rounded-[28px]
-    p-8
+    p-6
   "
 >
   <h3
     className="
-      text-2xl
+      text-xl
       font-bold
       text-[#071426]
-      mb-8
+      mb-6
     "
   >
     Self Check Quiz
@@ -2022,10 +2000,10 @@ lg:pb-8
     <button
   onClick={() => handleQuizSubmit(section.quiz)}
   className="
-    px-6
-    py-3
+    px-5
+    py-2
     rounded-xl
-    bg-[#2563EB]
+    bg-[#155A96]
     text-white
     font-medium
   "
@@ -2119,16 +2097,16 @@ lg:pb-8
     <section
       key={section.id}
       id={section.id}
-      className="mb-24 scroll-mt-32"
+      className="mb-16 scroll-mt-32"
     >
   <h2
         className="
-          text-3xl
-          sm:text-4xl
-          lg:text-5xl
+          text-2xl
+          sm:text-3xl
+          lg:text-4xl
           font-bold
           text-[#071426]
-          mb-5
+          mb-4
         "
       >
         {section.title}
@@ -2149,7 +2127,7 @@ lg:pb-8
           rounded-2xl
           border
           border-slate-200
-          p-8
+          p-6
           bg-white
           transition-all
           duration-300
@@ -2165,17 +2143,17 @@ lg:pb-8
               rounded-2xl
               bg-blue-50
               flex items-center justify-center
-              text-[#2563EB]
+              text-[#155A96]
               transition-all
               duration-300
-              group-hover:bg-[#2563EB]
+              group-hover:bg-[#155A96]
               group-hover:text-white
             "
           >
             <Icon size={24} />
           </div>
 
-          <h3 className="text-2xl font-bold text-[#071426]">
+          <h3 className="text-xl font-bold text-[#071426]">
             {card.title}
           </h3>
         </div>
@@ -2190,11 +2168,11 @@ lg:pb-8
 
   <div
   className="
-    mt-8
+    mt-6
     rounded-3xl
     border
     border-slate-200
-    p-8
+    p-6
     bg-white
     transition-all
     duration-300
@@ -2207,15 +2185,15 @@ lg:pb-8
       className="
         w-12 h-12
         rounded-2xl
-        bg-purple-50
+        bg-blue-50
         flex items-center justify-center
-        text-purple-600
+        text-[#155A96]
       "
     >
       <Receipt size={24} />
     </div>
 
-    <h3 className="text-2xl font-bold text-[#071426]">
+    <h3 className="text-xl font-bold text-[#071426]">
       {section.creditDebitNote.title}
     </h3>
   </div>
@@ -2227,14 +2205,14 @@ lg:pb-8
 
   <div
   className="
-    mt-6
+    mt-4
     rounded-2xl
     bg-gradient-to-r
     from-blue-50
     to-cyan-50
     border
     border-blue-200
-    p-5
+    p-4
     text-[#0F172A]
     font-medium
     shadow-sm
@@ -2250,17 +2228,17 @@ lg:pb-8
     <section
       key={section.id}
       id={section.id}
-      className="mb-24 scroll-mt-32"
+      className="mb-16 scroll-mt-32"
     >
       <div className="bg-white rounded-3xl border border-slate-200 p-5 sm:p-8 lg:p-10">
 
-        <h2 className="text-3xl
-          sm:text-4xl
-          lg:text-5xl font-bold text-[#071426] mb-6">
+        <h2 className="text-2xl
+          sm:text-3xl
+          lg:text-4xl font-bold text-[#071426] mb-6">
           {section.title}
         </h2>
 
-        <p className="text-slate-600 text-lg leading-relaxed mb-8">
+        <p className="text-slate-600 text-lg leading-relaxed mb-6">
           {section.description}
         </p>
 
@@ -2293,12 +2271,12 @@ lg:pb-8
 
         <div
           className="
-            mt-8
+            mt-6
             rounded-2xl
             bg-amber-50
             border
             border-amber-200
-            p-5
+            p-4
             text-slate-700
           "
         >
@@ -2318,16 +2296,16 @@ lg:pb-8
     <section
       key={section.id}
       id={section.id}
-      className="mb-24 scroll-mt-32"
+      className="mb-16 scroll-mt-32"
     >
       <h2
         className="
-          text-3xl
-          sm:text-4xl
-          lg:text-5xl
+          text-2xl
+          sm:text-3xl
+          lg:text-4xl
           font-bold
           text-[#071426]
-          mb-8
+          mb-6
         "
       >
         {section.title}
@@ -2350,9 +2328,9 @@ lg:pb-8
               className="
                 cursor-pointer
                 list-none
-                px-7
-                py-5
-                text-[20px] sm:text-[22px] lg:text-[16px]
+                px-6
+                py-4
+                text-[15px] sm:text-[18px] lg:text-[14px]
                 text-[#071426]
                 flex
                 items-center
@@ -2374,8 +2352,8 @@ lg:pb-8
 
             <div
               className="
-                px-7
-                pb-6
+                px-6
+                pb-5
                 text-slate-600
                 leading-relaxed
                 border-t
@@ -2396,13 +2374,13 @@ lg:pb-8
     <section
       key={section.id}
       id={section.id}
-      className="mb-24 scroll-mt-32"
+      className="mb-16 scroll-mt-32"
     >
       <h2
         className="
-          text-3xl
-          sm:text-4xl
-          lg:text-5xl
+          text-2xl
+          sm:text-3xl
+          lg:text-4xl
           font-bold
           text-[#071426]
           mb-4
@@ -2416,7 +2394,7 @@ lg:pb-8
           text-lg
           text-slate-600
           leading-relaxed
-          mb-6 lg:mb-10
+          mb-5 lg:mb-8
         "
       >
         {section.description}
@@ -2445,7 +2423,7 @@ lg:pb-8
                 w-3
                 h-3
                 rounded-full
-                bg-[#2563EB]
+                bg-[#155A96]
                 mt-2.5
                 group-hover:scale-125
                 transition-transform
@@ -2455,7 +2433,7 @@ lg:pb-8
             <div>
               <h3
                 className="
-                  text-[20px]
+                  text-[16px]
                   font-semibold
                   text-[#071426]
                   mb-2
@@ -2480,8 +2458,8 @@ lg:pb-8
 
       <div
         className="
-          mt-10
-          p-6
+          mt-6
+          p-4
           rounded-2xl
           bg-cyan-50
           border
@@ -2502,13 +2480,13 @@ lg:pb-8
     <section
       key={section.id}
       id={section.id}
-      className="mb-24 scroll-mt-32"
+      className="mb-16 scroll-mt-32"
     >
       <h2
         className="
-          text-3xl
-          sm:text-4xl
-          lg:text-5xl
+          text-2xl
+          sm:text-3xl
+          lg:text-4xl
           font-bold
           text-[#071426]
           mb-4
@@ -2521,7 +2499,7 @@ lg:pb-8
         className="
           text-lg
           text-slate-600
-          mb-8
+          mb-7
         "
       >
         {section.description}
@@ -2529,7 +2507,7 @@ lg:pb-8
 
       {/* Setup Points */}
 
-      <div className="space-y-6 mb-10 mt-8">
+      <div className="space-y-6 mb-10 mt-6">
         
           {section.setupPoints.map((point, index) => (
             <motion.div
@@ -2552,7 +2530,7 @@ lg:pb-8
                   w-3
                   h-3
                   rounded-full
-                  bg-[#2563EB]
+                  bg-[#155A96]
                   mt-2.5
                   shrink-0
                 "
@@ -2589,8 +2567,8 @@ lg:pb-8
               border
               border-slate-200
               bg-white
-              p-8
-              hover:border-[#2563EB]
+              p-6
+              hover:border-[#155A96]
               hover:shadow-lg
               transition-all
               duration-300
@@ -2598,7 +2576,7 @@ lg:pb-8
           >
             <h3
               className="
-                text-2xl
+                text-xl
                 font-bold
                 text-[#071426]
                 mb-4
@@ -2627,12 +2605,12 @@ lg:pb-8
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
         className="
-          mt-8
+          mt-6
           rounded-2xl
           bg-cyan-50
           border
           border-cyan-200
-          p-6
+          p-4
         "
       >
         <span className="font-semibold text-[#0F766E]">
@@ -2651,16 +2629,16 @@ lg:pb-8
     <section
       key={section.id}
       id={section.id}
-      className="mb-24 scroll-mt-32"
+      className="mb-16 scroll-mt-32"
     >
       <h2
         className="
-          text-3xl
-          sm:text-4xl
-          lg:text-5xl
+          text-2xl
+          sm:text-3xl
+          lg:text-4Sxl
           font-bold
           text-[#071426]
-          mb-5
+          mb-4
         "
       >
         {section.title}
@@ -2671,7 +2649,7 @@ lg:pb-8
           text-lg
           text-slate-600
           leading-relaxed
-          mb-8
+          mb-6
         "
       >
         {section.description}
@@ -2702,7 +2680,7 @@ lg:pb-8
               className="
                 w-3 h-3
                 rounded-full
-                bg-[#2563EB]
+                bg-[#155A96]
                 mt-3
                 shrink-0
                 transition-all
@@ -2749,13 +2727,13 @@ lg:pb-8
           border
           border-amber-200
           bg-amber-50
-          p-8
-          mb-6
+          p-6
+          mb-4
         "
       >
         <h3
           className="
-            text-2xl
+            text-xl
             font-bold
             text-amber-900
             mb-3
@@ -2783,7 +2761,7 @@ lg:pb-8
           bg-blue-50
           border
           border-blue-200
-          p-5
+          p-4
         "
       >
         <p className="text-blue-900 text-lg">
@@ -2799,16 +2777,16 @@ lg:pb-8
     <section
       key={section.id}
       id={section.id}
-      className="mb-24 scroll-mt-32"
+      className="mb-16 scroll-mt-32"
     >
       <h2
         className="
-          text-3xl
-          sm:text-4xl
-          lg:text-5xl
+          text-2xl
+          sm:text-3xl
+          lg:text-4xl
           font-bold
           text-[#071426]
-          mb-5
+          mb-4
         "
       >
         {section.title}
@@ -2819,7 +2797,7 @@ lg:pb-8
           text-lg
           text-slate-600
           leading-relaxed
-          mb-8
+          mb-6
         "
       >
         {section.description}
@@ -2850,7 +2828,7 @@ lg:pb-8
               className="
                 w-3 h-3
                 rounded-full
-                bg-[#2563EB]
+                bg-[#155A96]
                 mt-3
                 shrink-0
                 transition-all
@@ -2866,7 +2844,7 @@ lg:pb-8
                   text-[#071426]
                   transition-colors
                   duration-300
-                  group-hover:text-[#2563EB]
+                  group-hover:text-[#155A96]
                 "
               >
                 {point.title}
@@ -2889,12 +2867,12 @@ lg:pb-8
           rounded-3xl
           bg-[#071426]
           text-white
-          p-8
-          mb-8
+          p-6
+          mb-6
           font-mono
         "
       >
-        <h3 className="font-bold text-xl mb-5">
+        <h3 className="font-bold text-xl mb-4">
           {section.example.title}
         </h3>
 
@@ -2932,16 +2910,16 @@ lg:pb-8
     <section
       key={section.id}
       id={section.id}
-      className="mb-24 scroll-mt-32"
+      className="mb-16 scroll-mt-32"
     >
       <h2
         className="
-          text-3xl
-          sm:text-4xl
-          lg:text-5xl
+          text-2xl
+          sm:text-3xl
+          lg:text-4xl
           font-bold
           text-[#071426]
-          mb-5
+          mb-4
         "
       >
         {section.title}
@@ -2952,14 +2930,14 @@ lg:pb-8
           text-lg
           text-slate-600
           leading-relaxed
-          mb-8
+          mb-6
         "
       >
         {section.description}
       </p>
 
       {/* Key Points */}
-      <div className="space-y-5 mb-10">
+      <div className="space-y-4 mb-8">
         {section.points.map((point, index) => (
           <motion.div
             key={index}
@@ -2983,7 +2961,7 @@ lg:pb-8
               className="
                 w-3 h-3
                 rounded-full
-                bg-[#2563EB]
+                bg-[#155A96]
                 mt-3
                 shrink-0
                 transition-all
@@ -2999,7 +2977,7 @@ lg:pb-8
                   text-[#071426]
                   transition-colors
                   duration-300
-                  group-hover:text-[#2563EB]
+                  group-hover:text-[#155A96]
                 "
               >
                 {point.title}
@@ -3022,8 +3000,8 @@ lg:pb-8
           rounded-3xl
           bg-[#071426]
           text-white
-          p-8
-          mb-8
+          p-6
+          mb-6
           overflow-x-auto
         "
       >

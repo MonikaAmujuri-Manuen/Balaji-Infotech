@@ -48,7 +48,7 @@ const ServiceDetail = () => {
     <div className="
       absolute top-[-200px] left-[-150px]
       w-[420px] h-[420px]
-      bg-[#1178D4]/10
+      bg-[#155A96]/10
       blur-[120px]
       rounded-full
     " />
@@ -67,11 +67,8 @@ const ServiceDetail = () => {
     relative z-10
     max-w-7xl mx-auto
     px-4 sm:px-6
-    pt-20
-    sm:pt-24
-    lg:pt-24
-    pb-10
-    sm:pb-12
+    pt-16 sm:pt-20 lg:pt-20
+    pb-12 sm:pb-14
     text-center
   ">
 
@@ -82,9 +79,9 @@ const ServiceDetail = () => {
       sm:px-5
       py-2
       rounded-full
-      border border-[#DCEBFF]
-      bg-[#F1F6FE]
-      text-[#7B61FF]
+      border border-[#D7E5EF]
+      bg-[#EEF4F8]
+      text-[#155A96]
       text-sm
       font-semibold
       tracking-[0.2em]
@@ -108,7 +105,7 @@ const ServiceDetail = () => {
 
       {service.hero.title}
 
-      <span className="text-[#2563EB]">
+      <span className="text-[#155A96]">
         {service.hero.highlight}
       </span>
 
@@ -128,6 +125,29 @@ const ServiceDetail = () => {
       {service.hero.description}
     </p>
 
+    <div className="mt-6 flex flex-wrap justify-center gap-2">
+  {[
+    "Implementation",
+    "Customization",
+    "Cloud Hosting",
+    "Training",
+    "Support",
+  ].map((item) => (
+    <div
+      key={item}
+      className="
+        px-4 py-2
+        text-[#155A96]
+        text-sm
+        font-medium
+        
+      "
+    >
+      {item}
+    </div>
+  ))}
+</div>
+
     {/* BUTTONS */}
     <div className="
       mt-10
@@ -145,8 +165,8 @@ const ServiceDetail = () => {
         sm:px-8
         py-4
         rounded-2xl
-        bg-[#2563EB]
-        hover:bg-[#1D4ED8]
+        bg-[#155A96]
+        hover:bg-[#0F4D82]
         text-white
         font-semibold
         text-lg
@@ -172,20 +192,20 @@ const ServiceDetail = () => {
       <div className="max-w-7xl mx-auto">
 
     {/* SECTION TITLE */}
-    <div className="text-center mb-14">
+    <div className="text-center mb-8">
 
       <div className="
         inline-flex items-center
         px-5 py-2
         rounded-full
-        bg-[#F1F6FE]
-        border border-[#DCEBFF]
-        text-[#1178D4]
+        bg-[#EEF4F8]
+        border border-[#D7E5EF]
+        text-[#155A96]
         text-sm
         font-semibold
         tracking-[0.15em]
         uppercase
-        mb-6
+        mb-4
       ">
         Explore Services
       </div>
@@ -264,8 +284,8 @@ const ServiceDetail = () => {
                     shrink-0
 
                     ${isActive
-                      ? "bg-[#2563EB] text-white border-transparent"
-                      : "bg-white border-[#E2E8F0] text-[#0F172A] hover:border-[#1178D4]/40 hover:bg-[#F8FBFF]"
+                      ? "bg-[#155A96] text-white border-transparent"
+                      : "bg-white border-[#E2E8F0] text-[#0F172A] hover:border-[#155A96]/30 hover:bg-[#F8FBFD]"
                     }
                   `}
                 >
@@ -340,7 +360,7 @@ const ServiceDetail = () => {
                 sm:min-h-[64px]
                 flex items-center justify-center
                 rounded-2xl
-                bg-gradient-to-br from-[#1178D4] to-[#6C63FF]
+                bg-[#155A96]
                 shadow-[0_10px_30px_rgba(17,120,212,0.20)]
                 shrink-0
               ">
@@ -359,7 +379,7 @@ const ServiceDetail = () => {
                 font-semibold
                 tracking-[0.2em]
                 uppercase
-                text-[#1178D4]
+                text-[#155A96]
                 mb-2
                 ">
                 Business Solution
@@ -412,14 +432,14 @@ const ServiceDetail = () => {
                     <div className="
                       w-9 h-9
                       rounded-full
-                      bg-[#F1F6FE]
+                      bg-[#EEF4F8]
                       flex items-center justify-center
                       shrink-0
                     ">
 
                       <Check className="
                         w-4 h-4
-                        text-[#1178D4]
+                        text-[#155A96]
                       " />
 
                     </div>
@@ -469,8 +489,8 @@ const ServiceDetail = () => {
               px-5 py-2
               rounded-full
               bg-[#F1F6FE]
-              border border-[#DCEBFF]
-              text-[#1178D4]
+              border border-[#D7E5EF]
+              text-[#155A96]
               text-sm
               font-semibold
               tracking-[0.15em]
@@ -522,8 +542,8 @@ const ServiceDetail = () => {
                 sm:px-8
                 py-4
                 rounded-2xl
-                bg-[#2563EB]
-                hover:bg-[#1D4ED8]
+                bg-[#155A96]
+                hover:bg-[#155A96]/95
                 text-white
                 font-semibold
                 text-lg
@@ -542,13 +562,13 @@ const ServiceDetail = () => {
                 sm:px-8
                 py-4
                 rounded-2xl
-                border border-[#CBD5E1]
+                border border-[#155A96]
                 bg-white
                 text-[#071426]
                 font-semibold
                 text-lg
-                hover:border-[#1178D4]
-                hover:text-[#1178D4]
+                hover:border-[#155A96]
+                hover:text-[#155A96]
                 transition-all duration-300
               ">
                 {service.cta.secondaryBtn}

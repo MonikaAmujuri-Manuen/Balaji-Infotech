@@ -279,7 +279,7 @@ pb-10 sm:pb-12 md:pb-14">
   <div className="
     absolute top-[-120px] left-[-120px]
     w-[320px] h-[320px]
-    bg-[#1178D4]/10
+    bg-[#155A96]/10
     blur-[120px]
     rounded-full
   " />
@@ -287,7 +287,7 @@ pb-10 sm:pb-12 md:pb-14">
   <div className="
     absolute bottom-[-120px] right-[-120px]
     w-[320px] h-[320px]
-    bg-[#6C63FF]/10
+    bg-[#0F4D82]/10
     blur-[120px]
     rounded-full
   " />
@@ -296,8 +296,8 @@ pb-10 sm:pb-12 md:pb-14">
 
     <div className="
       grid lg:grid-cols-2
-      gap-12
-      lg:gap-10
+      gap-10
+      lg:gap-8
       items-center
     ">
 
@@ -317,9 +317,9 @@ pb-10 sm:pb-12 md:pb-14">
           inline-flex items-center gap-2
           px-4 py-2
           rounded-full
-          border border-[#1178D4]/15
-          bg-[#F8FBFF]
-          text-[#1178D4]
+          border border-[#D7E5EF]
+          bg-[#EEF4F8]
+          text-[#155A96]
           text-sm font-semibold
           tracking-wide
           mb-7
@@ -327,7 +327,7 @@ pb-10 sm:pb-12 md:pb-14">
 
           <div className="
             w-2 h-2 rounded-full
-            bg-[#1178D4]
+            bg-[#155A96]
           " />
 
           Tally Education Programs
@@ -336,9 +336,9 @@ pb-10 sm:pb-12 md:pb-14">
 
         {/* HEADING */}
         <h1 className="
-          text-[30px]
-          sm:text-[38px]
-          lg:text-[48px]
+          text-3xl
+          sm:text-4xl
+          lg:text-[46px]
           font-bold
           leading-[1.05]
           tracking-[-0.03em]
@@ -347,11 +347,9 @@ pb-10 sm:pb-12 md:pb-14">
           Master Tally &
           <span className="
             block
-            bg-gradient-to-r
-            from-[#1178D4]
-            to-[#6C63FF]
+            text-[#155A96]
             bg-clip-text
-            text-transparent
+            
           ">
             Build Industry-Ready Skills
           </span>
@@ -391,9 +389,8 @@ pb-10 sm:pb-12 md:pb-14">
             sm:px-8
             py-4
             rounded-2xl
-            bg-gradient-to-r
-            from-[#1178D4]
-            to-[#6C63FF]
+            bg-[#155A96]
+            hover:bg-[#0F4D82]
             text-white
             font-semibold
             text-lg
@@ -446,8 +443,8 @@ pb-10 sm:pb-12 md:pb-14">
             text-[#0F172A]
             font-semibold
             text-lg
-            hover:border-[#1178D4]/40
-            hover:bg-[#F8FBFF]
+            hover:border-[#155A96]/30
+            hover:bg-[#EEF4F8]
             transition-all duration-300
           ">
             Book Free Counseling
@@ -544,8 +541,8 @@ pb-10 sm:pb-12 md:pb-14">
           sm:rounded-[36px]
           border border-[#E2E8F0]
           bg-gradient-to-br
-          from-[#F8FBFF]
-          to-[#EEF2FF]
+          from-[#F8FAFC]
+          to-[#EEF4F8]
           p-4
           sm:p-6
           md:p-7
@@ -579,9 +576,7 @@ pb-10 sm:pb-12 md:pb-14">
               w-12 h-12
               sm:w-14 sm:h-14
               rounded-2xl
-              bg-gradient-to-r
-              from-[#1178D4]
-              to-[#6C63FF]
+              bg-[#155A96]
               flex items-center justify-center
               shadow-lg
             ">
@@ -635,9 +630,7 @@ pb-10 sm:pb-12 md:pb-14">
                     w-10 h-10
                     sm:w-12 sm:h-12
                     rounded-xl
-                    bg-gradient-to-r
-                    from-[#1178D4]
-                    to-[#6C63FF]
+                    bg-[#155A96]
                     flex items-center justify-center
                     text-white font-bold
                   ">
@@ -647,7 +640,7 @@ pb-10 sm:pb-12 md:pb-14">
                   <div>
                     <h4 className="
                       font-semibold
-                      text-[#0F172A]
+                      text-[#155A96]
                     ">
                       {course}
                     </h4>
@@ -700,7 +693,7 @@ pb-10 sm:pb-12 md:pb-14">
   <div className="
     absolute bottom-0 right-0
     w-[400px] h-[400px]
-    bg-[#6C63FF]/5
+    bg-[#155A96]/5
     blur-[120px]
     rounded-full
   " />
@@ -715,9 +708,9 @@ pb-10 sm:pb-12 md:pb-14">
         inline-flex items-center gap-2
         px-4 py-2
         rounded-full
-        border border-[#1178D4]/15
-        bg-[#F8FBFF]
-        text-[#1178D4]
+        border border-[#D7E5EF]
+        bg-[#EEF4F8]
+        text-[#155A96]
         text-sm font-semibold
         tracking-wide
         mb-5
@@ -725,7 +718,7 @@ pb-10 sm:pb-12 md:pb-14">
 
         <div className="
           w-2 h-2 rounded-full
-          bg-[#1178D4]
+          bg-[#155A96]
         " />
 
         {categoryContent[activeCategory].badge}
@@ -745,11 +738,8 @@ pb-10 sm:pb-12 md:pb-14">
         {categoryContent[activeCategory].title.split(" ").slice(0, -1).join(" ")}
 
         <span className="
-          bg-gradient-to-r
-          from-[#1178D4]
-          to-[#6C63FF]
+          text-[#155A96]
           bg-clip-text
-          text-transparent
         ">
           {" "}
           {categoryContent[activeCategory].title.split(" ").slice(-1)}
@@ -829,10 +819,8 @@ pb-10 sm:pb-12 md:pb-14">
                   className="
                     absolute inset-0
                     rounded-full
-                    bg-gradient-to-r
-                    from-[#1178D4]
-                    to-[#6C63FF]
-                    shadow-[0_10px_30px_rgba(17,120,212,0.20)]
+                    bg-[#155A96]
+                    shadow-lg
                   "
                 />
               )}
@@ -844,7 +832,7 @@ pb-10 sm:pb-12 md:pb-14">
 
                 ${isActive
                   ? "text-white"
-                  : "text-[#475569] hover:text-[#1178D4]"
+                  : "text-[#475569] hover:text-[#155A96]"
                 }
               `}>
                 {category}
@@ -907,9 +895,7 @@ pb-10 sm:pb-12 md:pb-14">
                 <div className="
                   absolute top-0 inset-x-0
                   h-1
-                  bg-gradient-to-r
-                  from-[#1178D4]
-                  to-[#6C63FF]
+                  bg-[#155A96]
                 " />
 
                 {/* CONTENT */}
@@ -926,9 +912,7 @@ pb-10 sm:pb-12 md:pb-14">
                       w-14 h-14
                       sm:w-16 sm:h-16 shrink-0
                       rounded-2xl
-                      bg-gradient-to-br
-                      from-[#1178D4]
-                      to-[#6C63FF]
+                      bg-[#155A96]
                       flex items-center justify-center
                       shadow-[0_10px_30px_rgba(17,120,212,0.20)]
                     ">
@@ -965,10 +949,10 @@ pb-10 sm:pb-12 md:pb-14">
                         sm:px-4
                         py-2
                         rounded-full
-                        bg-[#EEF2FF]
+                        bg-[#EEF4F8]
                         text-sm
                         font-semibold
-                        text-[#4F46E5]
+                        text-[#155A96]
                       ">
                         {course.level}
                       </div>
@@ -986,7 +970,7 @@ pb-10 sm:pb-12 md:pb-14">
                     leading-tight
                     text-[#0F172A]
 
-                    group-hover:text-[#1178D4]
+                    group-hover:text-[#155A96]
                     transition-colors duration-300
                   ">
                     {course.title}
@@ -1019,8 +1003,8 @@ pb-10 sm:pb-12 md:pb-14">
                           sm:px-4
                           py-2
                           rounded-full
-                          border border-[#E2E8F0]
-                          bg-[#F8FAFC]
+                          border border-[#D7E5EF]
+                          bg-[#EEF4F8]
                           text-sm
                           font-medium
                           text-[#475569]
@@ -1037,23 +1021,22 @@ pb-10 sm:pb-12 md:pb-14">
                   <Link to="/contact">
                   <button className="
                     group/btn
-                    mt-6
+                    mt-4
                     w-full
                     flex items-center justify-center gap-3
-                    px-5
-                    sm:px-6
-                    py-4
+                    px-3
+                    sm:px-4
+                    py-3
                     rounded-2xl
 
-                    bg-gradient-to-r
-                    from-[#1178D4]
-                    to-[#6C63FF]
+                    bg-[#155A96]
+                    hover:bg-[#0F4D82]
 
                     text-white
                     font-semibold
                     text-lg
 
-                    shadow-[0_10px_30px_rgba(17,120,212,0.18)]
+                    shadow-lg
 
                     hover:scale-[1.02]
                     transition-all duration-300
@@ -1102,7 +1085,7 @@ pb-10 sm:pb-12 md:pb-14">
 
 {/* ================= WHY CHOOSE TALLY EDUCATION ================= */}
 
-<section className="relative py-10 sm:py-12 md:py-14 bg-[#F8FBFF] overflow-hidden">
+<section className="relative py-10 sm:py-12 md:py-14 bg-[#FAFBFC] overflow-hidden">
 
 
   <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -1115,9 +1098,9 @@ pb-10 sm:pb-12 md:pb-14">
         inline-flex items-center gap-2
         px-4 py-2
         rounded-full
-        border border-[#1178D4]/15
-        bg-white
-        text-[#1178D4]
+        border border-[#D7E5EF]
+        bg-[#EEF4F8]
+        text-[#155A96]
         text-sm
         font-semibold
         tracking-wide
@@ -1126,7 +1109,7 @@ pb-10 sm:pb-12 md:pb-14">
 
         <div className="
           w-2 h-2 rounded-full
-          bg-[#1178D4]
+          bg-[#155A96]
         " />
 
         Why Students Choose Us
@@ -1144,11 +1127,7 @@ lg:text-4xl
 
         Why Choose
         <span className="
-          bg-gradient-to-r
-          from-[#1178D4]
-          to-[#6C63FF]
-          bg-clip-text
-          text-transparent
+          text-[#155A96]
         ">
           {" "}Tally Education
         </span>
@@ -1225,7 +1204,7 @@ lg:text-4xl
               relative
               rounded-[22px]
               sm:rounded-[28px]
-              border border-[#E2E8F0]
+              border border-[#D7E5EF]
               bg-white
               p-5
               sm:p-6
@@ -1239,13 +1218,11 @@ lg:text-4xl
               w-14 h-14
               sm:w-16 sm:h-16
               rounded-2xl
-              bg-gradient-to-br
-              from-[#1178D4]
-              to-[#6C63FF]
+              bg-[#155A96]
 
               flex items-center justify-center
 
-              shadow-[0_10px_30px_rgba(17,120,212,0.18)]
+              shadow-[0_10px_30px_rgba(21,90,150,0.18)]
             ">
               <Icon className="
                 w-8 h-8 text-white

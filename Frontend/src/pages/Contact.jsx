@@ -68,7 +68,7 @@ useEffect(() => {
           gap-2
           px-4 py-2
           rounded-full
-          border border-[#1178D4]/15
+          border border-[#155A96]/15
           bg-[#F8FBFF]
           mb-4
         ">
@@ -76,13 +76,13 @@ useEffect(() => {
           <div className="
             w-2 h-2
             rounded-full
-            bg-[#1178D4]
+            bg-[#155A96]
           " />
 
           <span className="
             text-sm font-semibold
             tracking-wide
-            text-[#1178D4]
+            text-[#155A96]
             uppercase
           ">
             Get In Touch
@@ -104,9 +104,7 @@ useEffect(() => {
           <br />
 
           <span className="
-            bg-gradient-to-r
-            from-[#1178D4]
-            to-[#6C63FF]
+            bg-[#155A96]
             bg-clip-text
             text-transparent
           ">
@@ -147,7 +145,7 @@ useEffect(() => {
             
           ">
 
-            <MapPin className="w-5 h-5 text-[#1178D4]" />
+            <MapPin className="w-5 h-5 text-[#155A96]" />
 
             <span className="
               text-sm
@@ -166,7 +164,7 @@ useEffect(() => {
             px-4 py-2.5
           ">
 
-            <Phone className="w-5 h-5 text-[#1178D4]" />
+            <Phone className="w-5 h-5 text-[#155A96]" />
 
             <span className="
               text-sm md:text-base
@@ -185,7 +183,7 @@ useEffect(() => {
             px-4 py-2.5
           ">
 
-            <Mail className="w-5 h-5 text-[#1178D4]" />
+            <Mail className="w-5 h-5 text-[#155A96]" />
 
             <span className="
               text-sm md:text-base
@@ -217,9 +215,7 @@ useEffect(() => {
             px-6 py-3
             text-sm
             rounded-2xl
-            bg-gradient-to-r
-            from-[#1178D4]
-            to-[#6C63FF]
+            bg-[#155A96]
             text-white
             font-semibold
             shadow-[0_20px_50px_rgba(17,120,212,0.20)]
@@ -246,16 +242,16 @@ useEffect(() => {
             px-6 py-3
             text-sm
             rounded-2xl
-            border border-[#DCE3EE]
+            border border-[#155A96]
             bg-white
             text-[#0F172A]
             font-semibold
-            hover:border-[#1178D4]/30
+            hover:border-[#155A96]/30
             hover:bg-[#F8FBFF]
             transition-all duration-300
           ">
 
-            <Phone className="w-5 h-5 text-[#1178D4]" />
+            <Phone className="w-5 h-5 text-[#155A96]" />
 
             Call Our Team
 
@@ -422,7 +418,7 @@ useEffect(() => {
         gap-2
         px-4 py-2
         rounded-full
-        border border-[#1178D4]/15
+        border border-[#155A96]/15
         bg-white
         mb-6
       ">
@@ -430,7 +426,7 @@ useEffect(() => {
         <div className="
           w-2 h-2
           rounded-full
-          bg-[#1178D4]
+          bg-[#155A96]
         " />
 
         <span className="
@@ -438,7 +434,7 @@ useEffect(() => {
           font-semibold
           tracking-wide
           uppercase
-          text-[#1178D4]
+          text-[#155A96]
         ">
           Contact Our Team
         </span>
@@ -457,9 +453,7 @@ useEffect(() => {
       ">
         Let’s Discuss Your
         <span className="
-          bg-gradient-to-r
-          from-[#1178D4]
-          to-[#6C63FF]
+          bg-[#155A96]
           bg-clip-text
           text-transparent
         ">
@@ -541,7 +535,7 @@ useEffect(() => {
         <div className="
           w-12 h-12
           rounded-2xl
-          bg-gradient-to-br from-[#1178D4] to-[#6C63FF]
+          bg-[#155A96]
           flex items-center justify-center
           shadow-[0_10px_30px_rgba(17,120,212,0.18)]
           shrink-0
@@ -561,7 +555,7 @@ useEffect(() => {
             text-[#0F172A]
             mb-2
             transition-colors duration-300
-            group-hover:text-[#1178D4]
+            group-hover:text-[#155A96]
           ">
             {item.title}
           </h3>
@@ -628,15 +622,14 @@ useEffect(() => {
             group
             w-11 h-11
             rounded-2xl
-            border border-[#E2E8F0]
+            border border-[#155A96]
             bg-white
             flex items-center justify-center
             transition-all duration-300
             hover:-translate-y-1
-            hover:border-transparent
-            hover:bg-gradient-to-br
-            hover:from-[#1178D4]
-            hover:to-[#6C63FF]
+          
+            hover:bg[#155A96]
+           
             hover:shadow-[0_10px_30px_rgba(17,120,212,0.25)]
           "
         >
@@ -645,7 +638,7 @@ useEffect(() => {
             w-5 h-5
             text-[#475569]
             transition-colors duration-300
-            group-hover:text-white
+            group-hover:text-[#155A96]
           " />
 
         </a>
@@ -672,7 +665,7 @@ md:text-3xl
       text-[#0F172A]
     ">
       Request A
-      <span className="bg-gradient-to-r from-[#1178D4] to-[#6C63FF] bg-clip-text text-transparent">
+      <span className="bg-[gradient-to-r from-[#1178D4] to-[#6C63FF] bg-clip-text text-transparent]">
         {" "}Free Quote
       </span>
     </h3>
@@ -715,12 +708,12 @@ md:text-3xl
         mb-5
       ">
 
-        <MapPinned className="w-4 h-4 text-[#1178D4]" />
+        <MapPinned className="w-4 h-4 text-[#155A96]" />
 
         <span className="
           text-sm
           font-semibold
-          text-[#1178D4]
+          text-[#155A96]
         ">
           Visit Our Office
         </span>
@@ -737,9 +730,7 @@ md:text-4xl
       ">
         Find Us In
         <span className="
-          bg-gradient-to-r
-          from-[#1178D4]
-          to-[#6C63FF]
+          bg-[#155A96]
           bg-clip-text
           text-transparent
         ">
@@ -799,9 +790,7 @@ md:text-4xl
         <div className="
           w-14 h-14
           rounded-2xl
-          bg-gradient-to-br
-          from-[#1178D4]
-          to-[#6C63FF]
+          bg-[#155A96]
           flex items-center justify-center
           shrink-0
         ">

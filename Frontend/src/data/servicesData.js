@@ -597,7 +597,7 @@ export const servicesData = [
       {
         id: "quickbooks-and-tally-integration",
 
-        tab: "QuickBooks and Tally Integration",
+        tab: "QuickBooks and Integration",
 
         title: "Streamline Your Accounting with QuickBooks and Tally Integration",
 
@@ -647,7 +647,7 @@ export const servicesData = [
       {
         id: "tally-invoice-customization",
 
-        tab: "Tally Invoice Customization",
+        tab: "Tally Invoice",
 
         title: "Billing Process with Tally Invoice Customization",
 
@@ -672,7 +672,7 @@ export const servicesData = [
       {
         id: "tally-voucher-customization",
 
-        tab: "Tally Voucher Formats Customization",
+        tab: "Tally Voucher",
 
         title: "Your Financial Transactions with Tally Voucher Formats Customization",
 
@@ -697,7 +697,7 @@ export const servicesData = [
       {
         id: "tally-gst-reports-customization",
 
-        tab: "Tally GST Reports Customization",
+        tab: "Tally GST Reports",
 
         title: "Simplify GST Compliance with Tally GST Reports Customization",
 
@@ -722,7 +722,7 @@ export const servicesData = [
       {
         id: "vertical-solutions",
 
-        tab: "Vertical Solutions With Tally",
+        tab: "Vertical Solutions",
 
         title: "Industry-Specific Vertical Solutions with Tally",
 

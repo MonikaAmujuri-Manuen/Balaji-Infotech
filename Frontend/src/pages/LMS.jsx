@@ -275,32 +275,11 @@ const practiceExercises = [
 ];
 
 const styles = {
-  blue: {
-    dot: "from-blue-500 to-cyan-500",
-    badge: "bg-blue-100 text-blue-700",
-    border: "border-blue-500",
-    activeBg: "from-blue-50 to-white",
-  },
-
-  purple: {
-    dot: "from-purple-500 to-pink-500",
-    badge: "bg-purple-100 text-purple-700",
-    border: "border-purple-500",
-    activeBg: "from-purple-50 to-white",
-  },
-
-  indigo: {
-    dot: "from-indigo-500 to-blue-500",
-    badge: "bg-indigo-100 text-indigo-700",
-    border: "border-indigo-500",
-    activeBg: "from-indigo-50 to-white",
-  },
-
-  orange: {
-    dot: "from-orange-500 to-amber-500",
-    badge: "bg-orange-100 text-orange-700",
-    border: "border-orange-500",
-    activeBg: "from-orange-50 to-white",
+  default: {
+    dot: "from-[#155A96] to-[#1D6FB8]",
+    badge: "bg-[#EAF3F8] text-[#155A96]",
+    border: "border-[#155A96]",
+    activeBg: "from-[#F4F8FB] to-white",
   },
 };
 
@@ -394,7 +373,7 @@ pb-10 sm:pb-12 md:pb-14
     -translate-x-1/2
     w-[700px]
     h-[700px]
-    bg-[#2F80FF]/5
+    bg-[#155A96]/5
     blur-[150px]
     rounded-full
   "
@@ -424,7 +403,7 @@ pb-10 sm:pb-12 md:pb-14
         <div className="
           flex flex-wrap items-center justify-center sm:justify-start gap-2
           px-5 py-2
-          text-[#2563EB]
+          text-[#155A96]
           text-sm font-semibold
           mb-8
         ">
@@ -437,9 +416,9 @@ pb-10 sm:pb-12 md:pb-14
 
         {/* HEADING */}
         <h1 className="
-            text-[30px]
-sm:text-[38px]
-lg:text-[48px]
+            text-3xl
+            sm:text-4xl
+            lg:text-[48px]
             font-black
             font-bold
             leading-[1.1]
@@ -450,7 +429,9 @@ lg:text-[48px]
 
         ">
           Complete TallyPrime LMS-
+          <span className="text-[#155A96]">
             From Basics To Payroll & GST
+          </span>
         </h1>
 
         {/* DESCRIPTION */}
@@ -494,12 +475,11 @@ lg:text-[48px]
             py-3
             text-base
             rounded-2xl
-            bg-gradient-to-r
-            from-[#2563EB]
-            to-[#3B82F6]
+            bg-[#155A96]
+            hover:bg-[#0F4D82]
             text-white
             font-semibold
-            shadow-[0_20px_50px_rgba(37,99,235,0.35)]
+            shadow-[0_20px_50px_rgba(21,90,150,0.20)]
             hover:scale-[1.03]
             transition-all duration-300
             flex items-center gap-3
@@ -510,6 +490,7 @@ lg:text-[48px]
         </button>
 
                   {/* SECONDARY BUTTON */}
+                  <a href="#resourses">
                   <button
           className="
           w-full
@@ -519,7 +500,7 @@ lg:text-[48px]
           py-3
           text-base
           rounded-2xl
-          border border-white/15
+          border border-[#155A96]/15
           bg-white/10
           backdrop-blur-xl
           text-black
@@ -532,6 +513,7 @@ lg:text-[48px]
           <Link2 size={20} />
           Free Resources
         </button>
+        </a>
 
         </div>
       </div>
@@ -572,7 +554,7 @@ lg:text-[48px]
   <div className="flex items-center justify-between mb-5">
 
     <div>
-      <p className="text-xs uppercase tracking-wider text-[#2563EB] font-semibold">
+      <p className="text-xs uppercase tracking-wider text-[#155A96] font-semibold">
         Course Snapshot
       </p>
 
@@ -585,8 +567,8 @@ lg:text-[48px]
       className="
         px-3 py-2
         rounded-xl
-        bg-[#EFF6FF]
-        text-[#2563EB]
+        bg-[#EEF4F8]
+        text-[#155A96]
         text-sm
         font-medium
       "
@@ -630,7 +612,7 @@ lg:text-[48px]
         40+
       </h4>
 
-      <p className="text-xs text-slate-500">
+      <p className="text-xs text-[#64748B]">
         Modules
       </p>
     </div>
@@ -640,7 +622,7 @@ lg:text-[48px]
         120+
       </h4>
 
-      <p className="text-xs text-slate-500">
+      <p className="text-xs text-[#64748B]">
         Videos
       </p>
     </div>
@@ -650,7 +632,7 @@ lg:text-[48px]
         25+
       </h4>
 
-      <p className="text-xs text-slate-500">
+      <p className="text-xs text-[#64748B]">
         Assignments
       </p>
     </div>
@@ -659,11 +641,18 @@ lg:text-[48px]
 
   <div className="flex flex-wrap gap-3">
 
-    <button
+    <button 
+    onClick={() =>
+            window.open(
+              "https://tallysolutions.com/",
+              "_blank"
+            )
+          }
       className="
         px-5 py-3
         rounded-xl
-        bg-[#2563EB]
+        bg-[#155A96]
+        hover:bg-[#0F4D82]
         text-white
         font-medium
       "
@@ -672,6 +661,12 @@ lg:text-[48px]
     </button>
 
     <button
+          onClick={() =>
+            window.open(
+              "https://www.youtube.com/@balajiinfotechguntur7060",
+              "_blank"
+            )
+          }
       className="
         px-5 py-3
         rounded-xl
@@ -694,11 +689,11 @@ lg:text-[48px]
 </section>
 
 {/* ================= WHY LEARN TALLY ================= */}
-<section className="relative py-10 sm:py-12 md:py-16 px-4 sm:px-6 bg-white overflow-hidden">
+<section className="relative py-10 sm:py-12 md:py-12 px-4 sm:px-6 bg-white overflow-hidden">
   {/* BACKGROUND GLOW */}
   <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[350px] h-[350px]
 sm:w-[500px] sm:h-[500px]
-lg:w-[700px] lg:h-[700px] bg-[#2F80FF]/5 blur-[150px] rounded-full"/>
+lg:w-[700px] lg:h-[700px] bg-[#155A96]/5 blur-[150px] rounded-full"/>
 
   <div className="max-w-7xl mx-auto relative z-10">
 
@@ -713,7 +708,7 @@ lg:w-[700px] lg:h-[700px] bg-[#2F80FF]/5 blur-[150px] rounded-full"/>
         px-3 py-1.5
         rounded-full
         bg-[#EEF4FF]
-        text-[#2F80FF]
+        text-[#155A96]
         font-medium
         text-sm">
           About TallyPrime
@@ -728,7 +723,7 @@ md:text-4xl
         text-[#071426]
         leading-tight">
           Why Learn
-          <span className="bg-gradient-to-r from-[#2F80FF] to-[#7B61FF] bg-clip-text text-transparent">
+          <span className="text-[#155A96]">
             {" "}TallyPrime?
           </span>
         </h2>
@@ -833,21 +828,21 @@ text-[15px]
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
 
             <div className="text-center">
-              <BadgeCheck className="mx-auto mb-3 text-[#2F80FF]"/>
+              <BadgeCheck className="mx-auto mb-3 text-[#155A96]"/>
               <p className="font-medium text-sm">
                 No Prior Experience Needed
               </p>
             </div>
 
             <div className="text-center">
-              <BriefcaseBusiness className="mx-auto mb-3 text-[#2F80FF]"/>
+              <BriefcaseBusiness className="mx-auto mb-3 text-[#155A96]"/>
               <p className="font-medium text-sm">
                 Practical Exercises
               </p>
             </div>
 
             <div className="text-center">
-              <Building2 className="mx-auto mb-3 text-[#2F80FF]"/>
+              <Building2 className="mx-auto mb-3 text-[#155A96]"/>
               <p className="font-medium text-sm">
                 Industry-Relevant Training
               </p>
@@ -861,21 +856,21 @@ text-[15px]
 </section>
 
 {/* ================= LMS ROADMAP ================= */}
-<section className="relative py-10 sm:py-12 md:py-14 overflow-hidden bg-[#F8FAFC]">
+<section className="relative py-10 sm:py-12 md:py-12 overflow-hidden bg-[#FAFBFC]">
 
   
   <div className="relative max-w-7xl mx-auto px-4 sm:px-6">
 
     {/* SECTION HEADER */}
-    <div className="text-center max-w-3xl mx-auto mb-12">
+    <div className="text-center max-w-3xl mx-auto mb-6">
 
       <div className="
         inline-flex items-center gap-2
-        px-5 py-2
+        px-5 py-1
         rounded-full
-        border border-[#CBD5E1]
-        bg-white
-        text-[#2563EB]
+        border border-[#D7E5EF]
+        bg-[#EEF4F8]
+        text-[#155A96]
         text-sm font-semibold
         shadow-sm
       ">
@@ -884,7 +879,7 @@ text-[15px]
       </div>
 
       <h2 className="
-        mt-5
+        mt-4
         text-2xl
         sm:text-3xl
         md:text-4xl
@@ -894,7 +889,7 @@ text-[15px]
         leading-tight
       ">
         Master TallyPrime{" "}
-        <span className="bg-gradient-to-r from-[#2563EB] to-[#2563EB] bg-clip-text text-transparent">
+        <span className="text-[#155A96]">
           Step By Step
         </span>
       </h2>
@@ -922,12 +917,12 @@ leading-8
             group
             relative
             rounded-2xl
-            border border-[#E2E8F0]
+            border border-[#D7E5EF]
             bg-white
             overflow-hidden
             shadow-[0_10px_40px_rgba(15,23,42,0.05)]
             hover:-translate-y-2
-            hover:shadow-[0_25px_70px_rgba(37,99,235,0.15)]
+            hover:shadow-[0_25px_70px_rgba(21,90,150,0.10)]
             transition-all duration-500
           "
         >
@@ -937,7 +932,7 @@ leading-8
             absolute top-5 right-5
             text-3xl
             font-black
-            text-[#E2E8F0]
+            text-[#D7E5EF]
             select-none
           ">
             {item.step}
@@ -1017,8 +1012,8 @@ leading-8
                 flex items-center gap-2
                 px-3 py-1.5
                 rounded-full
-                bg-[#EFF6FF]
-                text-[#2563EB]
+                bg-[#EEF4F8]
+                text-[#155A96]
                 text-sm
                 font-semibold
               ">
@@ -1031,8 +1026,8 @@ leading-8
                 flex items-center gap-2
                 px-4 py-2
                 rounded-full
-                bg-[#F5F3FF]
-                text-[#7C3AED]
+                bg-[#EEF4F8]
+                text-[#155A96]
                 text-xs
                 font-semibold
               ">
@@ -1050,7 +1045,7 @@ leading-8
                 inline-flex
                 items-center
                 gap-2
-                text-[#2563EB]
+                text-[#155A96]
                 font-bold
                 group-hover:gap-4
                 transition-all duration-300
@@ -1074,7 +1069,7 @@ leading-8
 
 
 {/* ================= LEARNING RESOURCES ================= */}
-<section className="relative py-10 md:py-14 px-4 sm:px-6 bg-[#F8FAFC] overflow-hidden">
+<section id="resourses" className="relative py-10 md:py-12 px-4 sm:px-6 bg-[#F8FAFC] overflow-hidden">
 
   {/* BACKGROUND GLOW */}
   <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-[#2F80FF]/5 blur-[150px] rounded-full" />
@@ -1082,7 +1077,7 @@ leading-8
   <div className="max-w-7xl mx-auto relative z-10">
 
     {/* SECTION HEADER */}
-    <div className="text-center max-w-3xl mx-auto mb-10">
+    <div className="text-center max-w-3xl mx-auto mb-6">
 
       <span
         className="
@@ -1090,8 +1085,9 @@ leading-8
           items-center
           px-4 py-2
           rounded-full
-          bg-[#EEF4FF]
-          text-[#2F80FF]
+          border border-[#D7E5EF]
+          bg-[#EEF4F8]
+          text-[#155A96]
           font-medium
           text-sm
         "
@@ -1101,7 +1097,7 @@ leading-8
 
       <h2
         className="
-          mt-6
+          mt-4
           text-2xl
           sm:text-3xl
           md:text-4xl
@@ -1114,7 +1110,7 @@ leading-8
 
       <p
         className="
-          mt-6
+          mt-4
           text-slate-600
           text-base
           sm:text-lg
@@ -1127,72 +1123,121 @@ leading-8
 
     </div>
 
-    {/* RESOURCE CARDS */}
-    <div className="max-w-5xl mx-auto space-y-4">
+    {/* RESOURCE HUB */}
+<div
+  className="
+    max-w-6xl
+    mx-auto
+    grid
+    grid-cols-1
+    md:grid-cols-3
+    gap-5
+  "
+>
   {resources.map((item, index) => (
     <a
       key={index}
       href={item.link}
       target="_blank"
       rel="noopener noreferrer"
-      className="
-        flex
-        items-center
-        justify-between
-        gap-6
-        p-5
-        rounded-2xl
-        border border-slate-200
+      className={`
+        group
+        relative
+        overflow-hidden
+        rounded-[28px]
+        border border-[#D7E5EF]
         bg-white
-      "
+        p-5 sm:p-6
+        transition-all duration-500
+        hover:-translate-y-2
+        hover:shadow-[0_20px_60px_rgba(21,90,150,0.08)]
+
+        ${
+          index === 0
+            ? "md:col-span-2 md:row-span-1"
+            : ""
+        }
+      `}
     >
-      <div className="flex items-start gap-4">
-        
-        <div
+
+      {/* ICON */}
+      <div
+        className="
+          w-14 h-14
+          rounded-2xl
+          bg-[#EEF4F8]
+          flex items-center justify-center
+          mb-4
+        "
+      >
+        <item.icon
           className="
-            w-12 h-12
-            rounded-xl
-            bg-[#EFF6FF]
-            flex items-center justify-center
-            shrink-0
+            w-7 h-7
+            text-[#155A96]
           "
-        >
-          <item.icon
-            className="w-5 h-5 text-[#2563EB]"
-          />
-        </div>
-
-        <div>
-          <h3
-            className="
-              text-lg
-              font-semibold
-              text-[#071426]
-              mb-1
-            "
-          >
-            {item.title}
-          </h3>
-
-          <p
-            className="
-              text-sm
-              text-slate-600
-            "
-          >
-            {item.description}
-          </p>
-        </div>
-
+        />
       </div>
 
-      <ArrowRight
+      {/* TITLE */}
+      <h3
         className="
-          w-5 h-5
-          text-[#2563EB]
-          shrink-0
+          text-[22px]
+          sm:text-[24px]
+          font-bold
+          text-[#071426]
+          mb-4
+        "
+      >
+        {item.title}
+      </h3>
+
+      {/* DESCRIPTION */}
+      <p
+        className="
+          text-[#64748B]
+          leading-7
+          text-[15px]
+          sm:text-base
+          mb-6
+        "
+      >
+        {item.description}
+      </p>
+
+      {/* CTA */}
+      <div
+        className="
+          flex items-center
+          gap-2
+          text-[#155A96]
+          font-semibold
+          group-hover:gap-4
+          transition-all duration-300
+        "
+      >
+        Explore Resource
+
+        <ArrowRight
+          className="
+            w-5 h-5
+          "
+        />
+      </div>
+
+      {/* HOVER ACCENT */}
+      <div
+        className="
+          absolute
+          bottom-0
+          left-0
+          h-[4px]
+          w-0
+          bg-[#155A96]
+          transition-all duration-500
+          group-hover:w-full
         "
       />
+
     </a>
   ))}
 </div>
@@ -1200,7 +1245,7 @@ leading-8
 </section>
 
 {/* ================= PRACTICE Exercise GRID ================= */}
-<section id="practice-cards" className="py-16 bg-white">
+<section id="practice-cards" className="py-10 bg-white">
 
   <div className="max-w-6xl mx-auto px-6">
 
@@ -1213,8 +1258,8 @@ leading-8
           items-center
           px-4 py-2
           rounded-full
-          bg-[#EEF4FF]
-          text-[#2F80FF]
+          bg-[#EAF3F8]
+          text-[#155A96]
           text-sm
           font-medium
         "
@@ -1259,7 +1304,7 @@ leading-8
         console.log("Exercise:", exercise);
   console.log("Slug:", exercise.slug);
 
-  const current = styles[exercise.color];
+  const current = styles.default;
   const Icon = exercise.icon;
 
   return (
@@ -1293,9 +1338,7 @@ leading-8
               top-2
               w-10 h-10
               rounded-full
-              bg-gradient-to-r
-              from-[#2F80FF]
-              to-[#7B61FF]
+              bg-[#155A96]
               text-white
               flex
               items-center
@@ -1320,7 +1363,7 @@ leading-8
 
               ${
                 openExercise === index
-                  ? `border-l-4 ${current.border} bg-gradient-to-r ${current.activeBg}`
+                  ? `border-l-4 ${current.border} bg-[#F4F8FB] ${current.activeBg}`
                   : "bg-white"
               }
 
@@ -1367,7 +1410,7 @@ leading-8
                       font-semibold
                       uppercase
                       tracking-[2px]
-                      text-[#2F80FF]
+                      text-[#155A96]
                     "
                   >
                     {exercise.level}
@@ -1399,7 +1442,11 @@ leading-8
                   }
                 `}
               >
-                ▼
+                <ChevronDown size={20} 
+                className={`
+                  transition-transform duration-300
+                  ${openExercise === index ? "rotate-180" : ""}
+                `} />
               </div>
 
             </button>
@@ -1440,6 +1487,7 @@ leading-8
                     className={`
                       px-4 py-2
                       rounded-full
+                      text-[#155A96]
                       text-sm
                       font-medium
                       ${current.badge}
@@ -1472,7 +1520,8 @@ leading-8
                     flex
                     items-center
                     gap-2
-                    text-[#2F80FF]
+                    text-[#155A96]
+                    hover:text-[#0F4E82]
                     font-semibold
                     hover:gap-4
                     transition-all
@@ -1500,13 +1549,13 @@ leading-8
 </section>
 
 {/* ================= DOWNLOAD MATERIALS ================= */}
-<section className="py-10 md:py-14 px-4 sm:px-6 bg-[#F8FAFC]">
+<section className="py-10 md:py-12 px-4 sm:px-6 bg-[#F8FAFC]">
   <div className="max-w-7xl mx-auto px-6">
-    <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-[#2F80FF]/5 blur-[150px] rounded-full" />
+    <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-[#155A96]/5 blur-[150px] rounded-full" />
 
 
     {/* Header */}
-    <div className="text-center max-w-3xl mx-auto mb-16">
+    <div className="text-center max-w-3xl mx-auto mb-8">
 
       <span
         className="
@@ -1514,8 +1563,8 @@ leading-8
           items-center
           px-4 py-2
           rounded-full
-          bg-[#EEF4FF]
-          text-[#2F80FF]
+          bg-[#EAF3F8]
+          text-[#155A96]
           text-sm
           font-medium
         "
@@ -1525,9 +1574,9 @@ leading-8
 
       <h2
         className="
-          mt-6
+          mt-4
           text-3xl
-          md:text-5xl
+          md:text-4xl
           font-bold
           text-[#071426]
         "
@@ -1537,7 +1586,7 @@ leading-8
 
       <p
         className="
-          mt-6
+          mt-4
           text-slate-600
           text-lg
           leading-relaxed
@@ -1559,7 +1608,7 @@ leading-8
             border
             border-slate-200
             bg-white
-            p-5
+            p-4
             hover:shadow-xl
             transition-all
           "
@@ -1569,7 +1618,7 @@ leading-8
             className="
               w-10 h-10
               rounded-2xl
-              bg-purple-100
+              bg-[#F4F8FB]
               flex
               items-center
               justify-center
@@ -1577,13 +1626,13 @@ leading-8
           >
             <Download
               size={24}
-              className="text-purple-600"
+              className="text-[#155A96]"
             />
           </div>
 
           <h3
             className="
-              mt-6
+              mt-4
               text-lg
               font-bold
               text-[#071426]
@@ -1610,7 +1659,7 @@ leading-8
               items-center
               gap-2
               font-semibold
-              text-[#2F80FF]
+              text-[#155A96]
             "
           >
             {downloads.software.button}
@@ -1627,7 +1676,7 @@ leading-8
             border
             border-slate-200
             bg-white
-            p-5
+            p-4
             hover:shadow-xl
             transition-all
           "
@@ -1637,7 +1686,7 @@ leading-8
             className="
               w-10 h-10
               rounded-2xl
-              bg-purple-100
+              bg-[#F4F8FB]
               flex
               items-center
               justify-center
@@ -1645,13 +1694,13 @@ leading-8
           >
             <FileText
               size={24}
-              className="text-purple-600"
+              className="text-[#155A96]"
             />
           </div>
 
           <h3
             className="
-              mt-6
+              mt-4
               text-lg
               font-bold
               text-[#071426]
@@ -1678,7 +1727,7 @@ leading-8
               items-center
               gap-2
               font-semibold
-              text-[#2F80FF]
+              text-[#155A96]
             "
           >
             {downloads.guides.button}
@@ -1695,7 +1744,7 @@ leading-8
             border
             border-slate-200
             bg-white
-            p-5
+            p-4
             hover:shadow-xl
             transition-all
           "
@@ -1705,7 +1754,7 @@ leading-8
             className="
               w-10 h-10
               rounded-2xl
-              bg-orange-100
+              bg-[#F4F8FB]
               flex
               items-center
               justify-center
@@ -1713,13 +1762,13 @@ leading-8
           >
             <FolderArchive
               size={24}
-              className="text-orange-600"
+              className="text-[#155A96]"
             />
           </div>
 
           <h3
             className="
-              mt-6
+              mt-4
               text-lg
               font-bold
               text-[#071426]
@@ -1746,7 +1795,7 @@ leading-8
               items-center
               gap-2
               font-semibold
-              text-[#2F80FF]
+              text-[#155A96]
             "
           >
             {downloads.sampleData.button}
@@ -1760,21 +1809,23 @@ leading-8
       rounded-2xl
       border border-slate-200
       bg-white
-      p-5
+      p-4
+      hover:shadow-xl
+      transition-all
     "
   >
     <div
       className="
         w-10 h-10
         rounded-xl
-        bg-green-100
+        bg-[#F4F8FB]
         flex items-center justify-center
         mb-4
       "
     >
       <ClipboardCheck
         size={20}
-        className="text-green-600"
+        className="text-[#155A96]"
       />
     </div>
 
@@ -1807,7 +1858,7 @@ leading-8
         inline-flex
         items-center
         gap-2
-        text-[#2563EB]
+        text-[#155A96]
         font-semibold
       "
     >
@@ -1821,20 +1872,20 @@ leading-8
 </section>
 
 {/* ================= CAREER PATH ================= */}
-<section className="py-10 md:py-14 px-4 sm:px-6 bg-[#F8FAFC]">
+<section className="py-10 md:py-12 px-4 sm:px-6 bg-[#F8FAFC]">
   <div className="container mx-auto px-6">
 
-    <div className="text-center max-w-4xl mx-auto mb-16">
-      <span className="inline-flex px-4 py-2 rounded-full bg-[#EEF4FF] text-[#2F80FF] text-sm font-medium">
+    <div className="text-center max-w-4xl mx-auto mb-8">
+      <span className="inline-flex px-4 py-2 rounded-full bg-[#EAF3F8] text-[#155A96] text-sm font-medium">
         Career Opportunities
       </span>
 
-      <h2 className="mt-6 text-3xl
-          md:text-5xl font-bold text-[#071426]">
+      <h2 className="mt-4 text-3xl
+          md:text-4xl font-bold text-[#071426]">
         Career Impact & Job Roles
       </h2>
 
-      <p className="mt-6 text-lg text-slate-600 leading-relaxed">
+      <p className="mt-4 text-lg text-slate-600 leading-relaxed">
         Build practical accounting skills and qualify for multiple
         finance and business operation roles across SMEs,
         retail, manufacturing and enterprise organizations.
@@ -1844,7 +1895,7 @@ leading-8
 
   
 
-  <div className="grid lg:grid-cols-4 gap-8 relative">
+  <div className="grid lg:grid-cols-4 gap-6 relative">
 
     {careerRoles.map((role, index) => {
       const Icon = role.icon;
@@ -1857,7 +1908,7 @@ leading-8
             bg-white
             rounded-3xl
             border border-slate-200
-            p-6
+            p-5
             text-center
             hover:-translate-y-2
             hover:shadow-2xl
@@ -1872,13 +1923,13 @@ leading-8
               rounded-2xl
               bg-[#EEF4FF]
               flex items-center justify-center
-              mb-5
+              mb-4
             "
           >
-            <Icon className="w-8 h-8 text-[#2F80FF]" />
+            <Icon className="w-8 h-8 text-[#155A96]" />
           </div>
 
-          <h3 className="text-2xl font-bold text-[#071426]">
+          <h3 className="text-xl font-bold text-[#071426]">
             {role.title}
           </h3>
 
@@ -1913,26 +1964,6 @@ leading-8
           >
             {role.salary}
           </div>
-
-          {index < careerRoles.length - 1 && (
-            <div
-              className="
-                hidden lg:flex
-                absolute
-                top-24
-                -right-5
-                items-center
-                justify-center
-                w-10 h-10
-                rounded-full
-                bg-white
-                border
-                border-slate-200
-              "
-            >
-              →
-            </div>
-          )}
         </div>
       );
     })}
@@ -1942,7 +1973,7 @@ leading-8
 </section>
 
 {/* ================= FAQ SECTION ================= */}
-<section className="py-14 sm:py-20 px-4 sm:px-6 bg-white">
+<section className="py-10 sm:py-12 px-4 sm:px-6 bg-white">
 
   <div className="max-w-6xl mx-auto">
 
@@ -1953,16 +1984,16 @@ leading-8
         inline-flex items-center gap-2
         px-4 py-2
         rounded-full
-        border border-[#CBD5E1]
-        bg-[#F8FAFC]
+        border border-[#155A96]
+        bg-[#EAF3F8]
         text-sm font-semibold
-        text-[#2563EB]
+        text-[#155A96]
       ">
         Learning Support
       </span>
 
       <h2 className="
-        mt-5
+        mt-4
         text-[30px]
         sm:text-4xl
         font-black
@@ -1970,7 +2001,7 @@ leading-8
         text-[#0F172A]
       ">
         Quick
-        <span className="bg-gradient-to-r from-[#2563EB] to-[#7C3AED] bg-clip-text text-transparent">
+        <span className="text-#155A96">
           {" "}Questions
         </span>
       </h2>
@@ -1989,7 +2020,7 @@ leading-8
     </div>
 
     {/* FAQ LIST */}
-    <div className="mt-12 grid md:grid-cols-2 gap-6">
+    <div className="mt-8 grid md:grid-cols-2 gap-6">
 
       {[
         {
@@ -2061,11 +2092,11 @@ leading-8
               <span
                 className="
                   inline-flex
-                  mb-4
+                  mb-3
                   px-3 py-1
                   rounded-full
                   bg-[#EEF4FF]
-                  text-[#2563EB]
+                  text-[#155A96]
                   text-xs
                   font-semibold
                 "
@@ -2093,14 +2124,12 @@ leading-8
                 flex items-center justify-center
                 w-12 h-12
                 rounded-2xl
-                bg-gradient-to-br
-                from-[#2563EB]
-                to-[#7C3AED]
+                bg-[#155A96]
                 text-white
                 shrink-0
                 transition-transform
                 duration-500
-                group-open:rotate-45
+                group-open:rotate-180
               "
             >
               <ChevronDown className="w-5 h-5" />

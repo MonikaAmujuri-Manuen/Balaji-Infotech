@@ -102,7 +102,8 @@ const progress =
 <section
   className="
   relative
-    bg-[#F5F7FF]
+  overflow-hidden
+    bg-[#F8FBFD]
     border
     border-slate-200
     rounded-2xl
@@ -114,6 +115,20 @@ md:p-10
     mb-10
   "
 >
+
+  <div
+  className="
+    absolute
+    top-0
+    left-1/2
+    -translate-x-1/2
+    w-[600px]
+    h-[600px]
+    bg-[#155A96]/5
+    blur-[120px]
+    rounded-full
+  "
+/>
 
   <div className="grid lg:grid-cols-1 gap-10 items-center">
 
@@ -133,8 +148,8 @@ md:p-10
           px-4
           py-2
           rounded-full
-          bg-blue-50
-          text-blue-700
+          bg-[#EEF4F8]
+          text-[#155A96]
           text-sm
           font-medium
         "
@@ -145,7 +160,7 @@ md:p-10
 
       <h1
         className="
-          mt-6
+          mt-4
           text-2xl
 sm:text-3xl
 md:text-4xl
@@ -160,7 +175,7 @@ lg:text-5xl
 
       <p
         className="
-          mt-6
+          mt-4
           text-sm
 sm:text-base
 md:text-lg
@@ -174,61 +189,120 @@ md:text-lg
       </p>
 
       {/* Stats */}
-      <div className="flex flex-wrap justify-center gap-3 mt-8">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8">
 
         <div
-          className="
-            flex
-            items-center
-            gap-2
-            px-3 py-1.5
-text-sm
-            bg-blue-50
-            text-blue-700
-            rounded-full
-            font-medium
-          "
-        >
-          <Target size={16} />
-          {exercise.level}
-        </div>
+  className="
+    bg-white
+    border border-[#D7E5EF]
+    rounded-2xl
+    p-5
+    text-center
+  "
+>
+  <Target
+    size={18}
+    className="mx-auto text-[#155A96]"
+  />
+
+  <p className="mt-2 text-xs uppercase tracking-wider text-[#64748B]">
+    Level
+  </p>
+
+  <h3 className="mt-1 font-bold text-[#155A96]">
+    {exercise.level}
+  </h3>
+</div>
 
         <div
-          className="
-            flex
-            items-center
-            gap-2
-            px-4
-            py-2
-            bg-slate-50
-            rounded-full
-            text-slate-700
-          "
-        >
-          <Clock3 size={16} />
-          {exercise.duration}
-        </div>
+  className="
+    bg-white
+    border border-[#D7E5EF]
+    rounded-2xl
+    p-5
+    text-center
+  "
+>
+  <Clock3
+    size={18}
+    className="mx-auto text-[#155A96]"
+  />
+
+  <p className="mt-2 text-xs uppercase tracking-wider text-[#64748B]">
+    Duration
+  </p>
+
+  <h3 className="mt-1 font-bold text-[#155A96]">
+    {exercise.duration}
+  </h3>
+</div>
 
         <div
-          className="
-            flex
-            items-center
-            gap-2
-            px-4
-            py-2
-            bg-slate-50
-            rounded-full
-            text-slate-700
-          "
-        >
-          <CheckCircle2 size={16} />
-          {exercise.steps?.length || 0} Steps
-        </div>
+  className="
+    bg-white
+    border border-[#D7E5EF]
+    rounded-2xl
+    p-5
+    text-center
+  "
+>
+  <CheckCircle2
+    size={18}
+    className="mx-auto text-[#155A96]"
+  />
+
+  <p className="mt-2 text-xs uppercase tracking-wider text-[#64748B]">
+    Steps
+  </p>
+
+  <h3 className="mt-1 font-bold text-[#155A96]">
+    {exercise.steps?.length || 0}
+  </h3>
+</div>
 
       </div>
 
+      <div
+  className="
+    mt-6
+    bg-white
+    border border-[#D7E5EF]
+    rounded-2xl
+    p-5
+    max-w-xl
+    mx-auto
+  "
+>
+  <div className="flex justify-between items-center mb-2">
+  <span className="text-sm text-[#64748B]">
+    Lab Completion
+  </span>
+
+  <span className="text-sm font-semibold text-[#155A96]">
+    {completedCount}/{exercise.steps.length}
+  </span>
+</div>
+
+  <div className="h-2 bg-[#EEF4F8] rounded-full">
+    <div
+  className="
+    h-2
+    bg-[#155A96]
+    rounded-full
+    transition-all
+    duration-500
+  "
+  style={{
+    width: `${
+      (completedCount/ exercise.steps.length) * 100
+    }%`,
+  }}
+/>
+</div>
+</div>
+
       {/* Buttons */}
-      <div className="flex flex-wrap justify-center gap-4 mt-8">
+      <div className="flex flex-wrap justify-center gap-4 mt-6">
 
         <button
           onClick={() =>
@@ -245,7 +319,7 @@ text-sm
             px-6
             py-3
             rounded-xl
-            bg-[#2F80FF]
+            bg-[#155A96]
             hover:bg-[#246AE8]
             text-white
             font-medium
@@ -285,19 +359,42 @@ text-sm
   "
 >
   
+  <div className="flex items-center gap-3 mb-6">
+  <div
+    className="
+      w-10 h-10
+      rounded-xl
+      bg-[#EEF4F8]
+      flex items-center justify-center
+    "
+  >
+    <BookOpen className="w-5 h-5 text-[#155A96]" />
+  </div>
+
+  <div
+  className="
+    absolute
+    top-0
+    left-0
+    w-full
+    h-1
+    bg-[#155A96]
+    rounded-t-3xl
+  "
+/>
+
   <h2
     className="
       text-xl
       sm:text-2xl
       font-bold
-      mb-4
-      sm:mb-5
+      text-[#071426]
     "
   >
-    <BookOpen className="w-5 h-5 text-[#2563EB]" />
-What You'll Learn
+    What You'll Learn
   </h2>
-
+  
+</div>
   <div
     className="
       grid
@@ -305,26 +402,41 @@ What You'll Learn
       md:grid-cols-2
       gap-3
       sm:gap-4
-      md:gap-8
+      md:gap-6
     "
   >
     {exercise.checklist.map((item) => (
       <div
         key={item}
         className="
-          flex
-          items-start
-          gap-3
-        "
+flex
+items-start
+gap-3
+rounded-2xl
+border border-[#D7E5EF]
+bg-white
+p-4
+transition-all
+duration-300
+hover:border-[#155A96]/30
+hover:shadow-md
+"
       >
-        <CheckCircle2
-          size={16}
-          className="
-            text-blue-600
-            mt-1
-            shrink-0
-          "
-        />
+        <div
+  className="
+    w-8 h-8
+    rounded-full
+    bg-[#EEF4F8]
+    flex items-center justify-center
+    shrink-0
+    mt-0.5
+  "
+>
+  <CheckCircle2
+    size={16}
+    className="text-[#155A96]"
+  />
+</div>
 
         <span
           className="
@@ -356,17 +468,23 @@ lg:p-8
   "
 >
   <div className="flex items-center justify-between mb-8">
-    <h2 className="text-2xl font-bold text-slate-900">
-      Lab Steps
-    </h2>
+    <div>
+  <p className="text-sm font-semibold text-[#155A96] uppercase tracking-[0.15em]">
+    Practice Workflow
+  </p>
+
+  <h2 className="text-2xl font-bold text-[#071426] mt-1">
+    Lab Steps
+  </h2>
+</div>
 
     <span
       className="
         px-3
         py-1
         rounded-full
-        bg-blue-50
-        text-blue-700
+        bg-[#EEF4F8]
+text-[#155A96]
         text-sm
         font-medium
       "
@@ -382,13 +500,18 @@ lg:p-8
       return (
         <div
           key={step.id}
-          className="
-            border
-            border-slate-200
-            rounded-2xl
-            overflow-hidden
-            transition-all
-          "
+          className={`
+  border
+  rounded-2xl
+  overflow-hidden
+  transition-all duration-300
+
+  ${
+    isOpen
+      ? "border-[#155A96] shadow-lg"
+      : "border-slate-200"
+  }
+`}
         >
           {/* Header */}
 
@@ -430,6 +553,8 @@ lg:p-8
                 {step.id}
               </div>
 
+              <div className="hidden sm:block w-6 h-[2px] bg-[#D7E5EF]" />
+
               <div>
                 <h3
                   className="
@@ -448,7 +573,7 @@ lg:p-8
                     gap-2
                     mt-1
                     text-sm
-                    text-slate-500
+                    text-[#64748B]
                   "
                 >
                   <Clock3 size={14} />
@@ -480,7 +605,7 @@ lg:p-8
                 border-t
                 border-slate-100
                 p-6
-                bg-slate-50/50
+                bg-[#FAFCFE]
               "
             >
               {/* Objective */}
@@ -496,7 +621,7 @@ lg:p-8
                 >
                   <Target
                     size={18}
-                    className="text-blue-600"
+                    className="text-[#155A96]"
                   />
 
                   <h4 className="font-semibold">
@@ -540,8 +665,8 @@ lg:p-8
                             w-6
                             h-6
                             rounded-full
-                            bg-blue-100
-                            text-blue-700
+                            bg-[#EEF4F8]
+text-[#155A96]
                             text-xs
                             flex
                             items-center
@@ -568,9 +693,9 @@ lg:p-8
               <div
                 className="
                   rounded-2xl
-                  bg-green-50
+                  bg-[#EEF4F8]
                   border
-                  border-green-100
+                  border-[#D7E5EF]
                   p-4
                 "
               >
@@ -585,14 +710,14 @@ lg:p-8
                   <CheckCircle2
                     size={18}
                     className="
-                      text-green-600
+                      text-[#155A96]
                     "
                   />
 
                   <h4
                     className="
                       font-semibold
-                      text-green-800
+                      text-[#155A96]
                     "
                   >
                     Expected Result
@@ -601,7 +726,7 @@ lg:p-8
 
                 <p
                   className="
-                    text-green-700
+                    text-[#475569]
                   "
                 >
                   {step.expectedResult}
@@ -626,9 +751,15 @@ lg:p-8
 >
   <div className="flex items-center justify-between mb-6">
     <div>
-      <h2 className="text-2xl font-bold">
-        Practice Dataset
-      </h2>
+      <div>
+  <p className="text-sm font-semibold text-[#155A96] uppercase tracking-[0.15em]">
+    Practice Resources
+  </p>
+
+  <h2 className="text-2xl font-bold text-[#071426] mt-1">
+    Practice Dataset
+  </h2>
+</div>
 
 
       <p className="text-slate-500 mt-2">
@@ -646,8 +777,9 @@ lg:p-8
         px-4
         py-2
         rounded-full
-        bg-blue-50
-        text-blue-700
+        bg-[#EEF4F8]
+text-[#155A96]
+border border-[#D7E5EF]
       "
     >
       <Database size={16} />
@@ -655,18 +787,41 @@ lg:p-8
 
       <button onClick={downloadDataset}
       className="
-        flex
-        items-center
-        gap-2
-        px-4 py-2
-      "
-    >
+flex
+items-center
+gap-2
+px-4
+py-2
+rounded-xl
+bg-white
+border border-[#D7E5EF]
+text-[#155A96]
+font-medium
+hover:bg-[#F8FBFD]
+transition-all
+">
       <FileSpreadsheet size={16} />
       Download
     </button>
     </div>
   </div>
+<div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-6">
 
+  <div className="bg-[#F8FBFD] border border-[#D7E5EF] rounded-xl p-4">
+    <p className="text-xs text-[#64748B]">Records</p>
+    <p className="text-xl font-bold text-[#071426]">
+      {exercise.practiceDataset.entries.length}
+    </p>
+  </div>
+
+  <div className="bg-[#F8FBFD] border border-[#D7E5EF] rounded-xl p-4">
+    <p className="text-xs text-[#64748B]">Fields</p>
+    <p className="text-xl font-bold text-[#071426]">
+      {exercise.practiceDataset.columns.length}
+    </p>
+  </div>
+
+</div>
   <div
   className="
     overflow-x-auto
@@ -678,12 +833,21 @@ lg:p-8
   <table className="min-w-[650px] w-full">
 
     <thead>
-      <tr className="bg-slate-50">
+      <tr className="bg-[#F8FBFD]">
         {exercise.practiceDataset.columns.map((column) => (
           <th
-            key={column}
-            className="text-left px-6 py-4"
-          >
+  key={column}
+  className="
+    text-left
+    px-6
+    py-4
+    text-[#155A96]
+    font-semibold
+    uppercase
+    text-sm
+    tracking-wide
+  "
+>
             {column}
           </th>
         ))}
@@ -693,9 +857,14 @@ lg:p-8
     <tbody>
       {exercise.practiceDataset.entries.map((row, index) => (
         <tr
-          key={index}
-          className="border-t border-slate-100"
-        >
+  key={index}
+  className="
+    border-t
+    border-slate-100
+    hover:bg-[#F8FBFD]
+    transition-colors
+  "
+>
           {Object.values(row).map((value, i) => (
             <td
               key={i}
@@ -715,13 +884,13 @@ lg:p-8
     className="
       mt-6
       rounded-2xl
-      bg-blue-50
+      bg-[#EEF4F8]
       border
-      border-blue-100
+      border-[#D7E5EF]
       p-4
     "
   >
-    <p className="text-blue-800 text-sm">
+    <p className="text-[#155A96] text-sm">
       {exercise.practiceDataset.note}
     </p>
   </div>
@@ -743,15 +912,22 @@ lg:p-8
       {/* Header */}
 
       <div className="mb-8">
-        <h2
-          className="
-            text-2xl
-            font-bold
-            text-slate-900
-          "
-        >
-          Assessment Quiz
-        </h2>
+        <div>
+  <p className="text-sm font-semibold text-[#155A96] uppercase tracking-[0.15em]">
+    Knowledge Check
+  </p>
+
+  <h2
+    className="
+      text-2xl
+      font-bold
+      text-[#071426]
+      mt-1
+    "
+  >
+    Assessment Quiz
+  </h2>
+</div>
 
         <p className="text-slate-500 mt-2">
           Complete the assessment to
@@ -778,11 +954,11 @@ lg:p-8
           </span>
         </div>
 
-        <div className="h-2 bg-slate-100 rounded-full">
+        <div className="h-2 bg-[#EEF4F8] rounded-full">
           <div
             className="
               h-2
-              bg-blue-600
+              bg-[#155A96]
               rounded-full
               transition-all
             "
@@ -824,23 +1000,26 @@ lg:p-8
                   })
                 }
                 className={`
-                  w-full
-                  text-left
-                  p-4
-                  rounded-xl
-                  border
-                  transition
+  w-full
+  text-left
+  p-4
+  rounded-2xl
+  border
+  transition-all
+  duration-300
+
 
                   ${
                     answers[
                       question.id
                     ] === option
-                      ? "border-blue-500 bg-blue-50"
-                      : "border-slate-200 hover:border-blue-300"
+                      ? "border-[#155A96] bg-[#EEF4F8]"
+                      : "border-slate-200 hover:border-[#155A96]/40"
                   }
                 `}
               >
                 <div className="flex items-center gap-3">
+                  
                   <div
                     className={`
                       w-5
@@ -852,7 +1031,7 @@ lg:p-8
                         answers[
                           question.id
                         ] === option
-                          ? "border-blue-600 bg-blue-600"
+                          ? "border-[#155A96] bg-[#155A96]"
                           : "border-slate-300"
                       }
                     `}
@@ -885,7 +1064,8 @@ lg:p-8
             py-3
             rounded-xl
             border
-            border-slate-300
+            border-[#D7E5EF]
+text-[#475569]
             disabled:opacity-50
           "
         >
@@ -904,7 +1084,8 @@ lg:p-8
               px-5
               py-3
               rounded-xl
-              bg-blue-600
+              bg-[#155A96]
+hover:bg-[#0F4D82]
               text-white
             "
           >
@@ -919,7 +1100,8 @@ lg:p-8
               px-5
               py-3
               rounded-xl
-              bg-green-600
+              bg-[#155A96]
+hover:bg-[#0F4D82]
               text-white
             "
           >
@@ -937,7 +1119,7 @@ lg:p-8
           w-20
           h-20
           rounded-full
-          bg-green-50
+          bg-[#EEF4F8]
           flex
           items-center
           justify-center
@@ -947,7 +1129,7 @@ lg:p-8
       >
         <Trophy
           size={36}
-          className="text-green-600"
+          className="text-[#155A96]"
         />
       </div>
 
@@ -980,9 +1162,10 @@ lg:p-8
           px-6
           py-4
           rounded-2xl
-          bg-green-50
+          bg-[#EEF4F8]
+
           border
-          border-green-100
+          border-[#D7E5EF]
         "
       >
         <CheckCircle2
@@ -993,12 +1176,15 @@ lg:p-8
           className="
             text-lg
             font-semibold
-            text-green-700
+            text-[#155A96]
           "
         >
           Score: {score} /{" "}
           {quiz.length}
         </span>
+        <p className="mt-3 text-[#64748B]">
+  {Math.round((score / quiz.length) * 100)}% Accuracy
+</p>
       </div>
 
       <p className="mt-6 text-slate-600">
@@ -1027,14 +1213,17 @@ lg:p-8
         p-6
       "
     >
-      <h3 className="font-semibold mb-4">
+      <h3 className="
+font-semibold
+text-[#071426]
+ mb-4">
         Progress
       </h3>
 
       <div
         className="
           h-3
-          bg-slate-100
+          bg-[#EEF4F8]
           rounded-full
           overflow-hidden
         "
@@ -1042,7 +1231,7 @@ lg:p-8
         <div
           className="
             h-full
-            bg-blue-600
+            bg-[#155A96]
             transition-all
             duration-500
           "
@@ -1061,8 +1250,8 @@ lg:p-8
           className="
             text-sm
             font-medium
-            text-blue-600
-          "
+            text-[#155A96]
+          " 
         >
           {Math.round(progress)}%
         </span>
@@ -1080,7 +1269,10 @@ lg:p-8
         p-6
       "
     >
-      <h3 className="font-semibold mb-5">
+      <h3 className="
+font-semibold
+text-[#071426]
+ mb-4">
         Lab Checklist
       </h3>
 
@@ -1103,7 +1295,7 @@ lg:p-8
             {completedItems[step.title] ? (
               <CheckCircle2
                 size={18}
-                className="text-green-500"
+                className="text-[#155A96]"
               />
             ) : (
               <Circle
@@ -1160,14 +1352,17 @@ lg:p-8
 
     <div
       className="
-        bg-[#F5F7FF]
+        bg-[#F8FBFD]
         border
         border-slate-200
         rounded-3xl
         p-6
       "
     >
-      <h3 className="font-semibold mb-5">
+      <h3 className="
+font-semibold
+text-[#071426]
+ mb-4">
         Quick Navigation
       </h3>
 
@@ -1180,7 +1375,7 @@ lg:p-8
             block
             text-sm
             text-slate-600
-            hover:text-blue-600
+            hover:text-[#155A96]
             transition
           "
         >
@@ -1200,7 +1395,10 @@ lg:p-8
     p-6
   "
 >
-  <h3 className="font-semibold mb-5">
+  <h3 className="
+font-semibold
+text-[#071426]
+ mb-4">
     Lab Details
   </h3>
 
@@ -1210,7 +1408,7 @@ lg:p-8
       <div className="flex items-center gap-2">
         <BarChart3
           size={16}
-          className="text-blue-600"
+          className="text-[#155A96]"
         />
         <span className="text-slate-600">
           Level
@@ -1226,7 +1424,7 @@ lg:p-8
       <div className="flex items-center gap-2">
         <Clock3
           size={16}
-          className="text-blue-600"
+          className="text-[#155A96]"
         />
         <span className="text-slate-600">
           Duration
@@ -1242,7 +1440,7 @@ lg:p-8
       <div className="flex items-center gap-2">
         <ListChecks
           size={16}
-          className="text-blue-600"
+          className="text-[#155A96]"
         />
         <span className="text-slate-600">
           Steps
@@ -1258,7 +1456,7 @@ lg:p-8
       <div className="flex items-center gap-2">
         <HelpCircle
           size={16}
-          className="text-blue-600"
+          className="text-[#155A96]"
         />
         <span className="text-slate-600">
           Quiz
@@ -1293,7 +1491,7 @@ lg:p-8
     <div className="flex gap-2">
       <CheckCircle2
         size={16}
-        className="text-green-500 mt-0.5"
+        className="text-[#155A96] mt-0.5"
       />
       Use a demo company while practicing.
     </div>
@@ -1301,25 +1499,25 @@ lg:p-8
     <div className="flex gap-2">
       <CheckCircle2
         size={16}
-        className="text-green-500 mt-0.5"
+        className="text-[#155A96] mt-0.5"
       />
-      Save changes after each step.
+      Complete every lab step in sequence.
     </div>
 
     <div className="flex gap-2">
       <CheckCircle2
         size={16}
-        className="text-green-500 mt-0.5"
+        className="text-[#155A96] mt-0.5"
       />
-      Verify balances before continuing.
+      Review the dataset before submitting.
     </div>
 
     <div className="flex gap-2">
       <CheckCircle2
         size={16}
-        className="text-green-500 mt-0.5"
+        className="text-[#155A96] mt-0.5"
       />
-      Complete the quiz to finish the lab.
+      Finish the assessment to complete the lab.
     </div>
 
   </div>
