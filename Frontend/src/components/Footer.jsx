@@ -6,6 +6,8 @@ import {
   ArrowRight,
 } from "lucide-react";
 
+import logo from "../assets/logo.png"
+
 import {
   FaFacebookF,
   FaInstagram,
@@ -15,7 +17,7 @@ import {
 export default function Footer() {
   return (
 
-    <footer className="relative overflow-hidden bg-[#071426] text-white">
+    <footer className="relative overflow-hidden bg-[#155A96] text-white">
 
   {/* BACKGROUND GLOW */}
   <div className="absolute inset-0 overflow-hidden">
@@ -26,8 +28,8 @@ export default function Footer() {
         top-0
         left-[-10%]
         w-[500px]
-        h-[480px]
-        bg-[#2F80FF]/10
+        h-[450px]
+        bg-[#155A96]/15
         blur-3xl
         rounded-full
       "
@@ -39,8 +41,8 @@ export default function Footer() {
         bottom-[-20%]
         right-[-10%]
         w-[500px]
-        h-[500px]
-        bg-[#7B61FF]/10
+        h-[480px]
+        bg-[#155A96]/10
         blur-3xl
         rounded-full
       "
@@ -52,9 +54,9 @@ export default function Footer() {
       relative
       max-w-7xl
       mx-auto
-      px-4 sm:px-6 lg:px-8
-      py-12
-      sm:py-14
+      px-3 sm:px-5 lg:px-7
+      py-8
+      sm:py-10
     "
   >
 
@@ -65,8 +67,8 @@ export default function Footer() {
         grid-cols-1
         sm:grid-cols-2
         lg:grid-cols-4
-        gap-10
-        lg:gap-12
+        gap-8
+        lg:gap-10
         items-start
       "
     >
@@ -75,26 +77,28 @@ export default function Footer() {
       <div>
 
         {/* LOGO */}
-        <div className="flex items-center gap-3 sm:gap-4 mb-4">
+        <div className="flex items-center gap-3 sm:gap-4 mb-3">
 
           <div
             className="
               w-12 h-12
               sm:w-14 sm:h-14
               rounded-2xl
-              bg-gradient-to-br
-              from-[#2F80FF]
-              to-[#7B61FF]
+              bg-[#155A96]
               flex
               items-center
               justify-center
               text-white
               text-2xl
               font-bold
-              shadow-[0_10px_30px_rgba(47,128,255,0.35)]
+              shadow-[0_10px_30px_rgba(21,90,150,0.35)]
             "
           >
-            B
+            <img
+                src={logo}
+                alt="Balaji Infotech"
+                className="h-12 w-auto object-contain"
+              />
           </div>
 
           <div>
@@ -102,7 +106,7 @@ export default function Footer() {
               Balaji Infotech
             </h3>
 
-            <p className="text-gray-400 text-sm">
+            <p className="text-gray-300 text-sm">
               Tally Solutions Partner
             </p>
           </div>
@@ -111,7 +115,7 @@ export default function Footer() {
         {/* DESCRIPTION */}
         <p
           className="
-            text-gray-400
+            text-white
             leading-7
             text-sm
             sm:text-[16px]
@@ -124,7 +128,7 @@ export default function Footer() {
         </p>
 
         {/* SOCIALS */}
-        <div className="flex flex-wrap items-center gap-3 sm:gap-4 mt-6 sm:mt-8">
+        <div className="flex flex-wrap items-center gap-3 sm:gap-4 mt-4 sm:mt-6">
 
           {[
             {
@@ -166,17 +170,15 @@ export default function Footer() {
         transition-all
         duration-300
         hover:-translate-y-1
-        hover:bg-gradient-to-br
-        hover:from-[#2F80FF]
-        hover:to-[#7B61FF]
+        hover:bg-[#155A96]
         hover:border-transparent
-        hover:shadow-[0_10px_25px_rgba(47,128,255,0.35)]
+        hover:shadow-[0_10px_25px_rgba(21,90,150,0.35)]
       "
     >
       <Icon
         size={20}
         className="
-          text-gray-300
+          text-white
           transition-all
           duration-300
           group-hover:text-white
@@ -196,7 +198,7 @@ export default function Footer() {
             text-lg
             sm:text-xl
             font-semibold
-            mb-6
+            mb-3
           "
         >
           Quick Links
@@ -222,7 +224,7 @@ export default function Footer() {
         flex
         items-center
         gap-2
-        text-gray-400
+        text-white
         hover:text-white
         transition-all
         duration-300
@@ -254,7 +256,7 @@ export default function Footer() {
             text-lg
             sm:text-xl
             font-semibold
-            mb-7
+            mb-4
           "
         >
           Services
@@ -276,7 +278,7 @@ export default function Footer() {
             to={item.path}
             className="
               block
-              text-gray-400
+              text-white
               hover:text-white
               transition-all
               duration-300
@@ -297,7 +299,7 @@ export default function Footer() {
             text-lg
             sm:text-xl
             font-semibold
-            mb-8
+            mb-5
           "
         >
           Contact
@@ -323,12 +325,12 @@ export default function Footer() {
             >
               <MapPin
                 size={18}
-                className="text-[#7B61FF]"
+                className="text-[#F0AE11]"
               />
             </div>
 
             <div>
-              <p className="text-gray-300 leading-6">
+              <p className="text-white leading-6">
                 Brodipet, Guntur,
                 Andhra Pradesh 522002
               </p>
@@ -353,12 +355,12 @@ export default function Footer() {
             >
               <Phone
                 size={18}
-                className="text-[#2F80FF]"
+                className="text-[#F0AE11]"
               />
             </div>
 
             <div>
-              <p className="text-gray-300">
+              <p className="text-white">
                 +91 98494 31943
               </p>
             </div>
@@ -382,12 +384,12 @@ export default function Footer() {
             >
               <Mail
                 size={18}
-                className="text-[#7B61FF]"
+                className="text-[#F0AE11]"
               />
             </div>
 
             <div>
-              <p className="text-gray-300">
+              <p className="text-white">
                 gunturtally@gmail.com
               </p>
             </div>
@@ -401,7 +403,7 @@ export default function Footer() {
     {/* BOTTOM BAR */}
     <div
       className="
-        mt-3
+        mt-2
         pt-1
         border-t border-white/10
         flex
@@ -415,7 +417,7 @@ export default function Footer() {
       "
     >
 
-      <p className="text-gray-500 text-sm">
+      <p className="text-white text-sm">
         © 2026 Balaji Infotech. All rights reserved.
       </p>
 
@@ -424,7 +426,7 @@ export default function Footer() {
         <a
           href="#"
           className="
-            text-gray-500
+            text-white
             text-sm
             hover:text-white
             transition-all
@@ -437,7 +439,7 @@ export default function Footer() {
         <a
           href="#"
           className="
-            text-gray-500
+            text-white
             text-sm
             hover:text-white
             transition-all
