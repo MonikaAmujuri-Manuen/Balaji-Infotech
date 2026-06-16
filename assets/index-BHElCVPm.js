@@ -1661,19 +1661,22 @@ md:py-14\r
     shadow-lg\r
     hover:shadow-xl\r
     transition\r
-  `,children:`Explore Products`}),(0,F.jsx)(`a`,{href:`tel:+919849431943`,children:(0,F.jsx)(`button`,{className:`\r
-      w-auto\r
-      px-5 sm:px-7\r
-      py-2.5 sm:py-3.5\r
-      rounded-xl\r
-      border\r
-      border-slate-300\r
-      bg-white\r
-      text-sm sm:text-base\r
-      font-semibold\r
-      hover:bg-slate-50\r
-      transition\r
-    `,children:`Book Free Demo`})})]}),(0,F.jsxs)(`div`,{className:`flex flex-wrap gap-8 mt-6`,children:[(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`h3`,{className:`text-2xl font-bold text-[#071426]`,children:`5000+`}),(0,F.jsx)(`p`,{className:`text-slate-500 text-sm`,children:`Businesses Served`})]}),(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`h3`,{className:`text-2xl font-bold text-[#071426]`,children:`15+`}),(0,F.jsx)(`p`,{className:`text-slate-500 text-sm`,children:`Years Experience`})]}),(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`h3`,{className:`text-2xl font-bold text-[#071426]`,children:`24/7`}),(0,F.jsx)(`p`,{className:`text-slate-500 text-sm`,children:`Support`})]})]})]}),(0,F.jsxs)(`div`,{className:`relative flex justify-center items-center`,children:[(0,F.jsx)(`div`,{className:`\r
+  `,children:`Explore Products`}),(0,F.jsx)(`a`,{href:`tel:+919849431943`,className:`\r
+    inline-flex\r
+    items-center\r
+    justify-center\r
+    w-auto\r
+    px-5 sm:px-7\r
+    py-2.5 sm:py-3.5\r
+    rounded-xl\r
+    border\r
+    border-slate-300\r
+    bg-white\r
+    text-sm sm:text-base\r
+    font-semibold\r
+    hover:bg-slate-50\r
+    transition\r
+  `,children:`Book Free Demo`})]}),(0,F.jsxs)(`div`,{className:`flex flex-wrap gap-8 mt-6`,children:[(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`h3`,{className:`text-2xl font-bold text-[#071426]`,children:`5000+`}),(0,F.jsx)(`p`,{className:`text-slate-500 text-sm`,children:`Businesses Served`})]}),(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`h3`,{className:`text-2xl font-bold text-[#071426]`,children:`15+`}),(0,F.jsx)(`p`,{className:`text-slate-500 text-sm`,children:`Years Experience`})]}),(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`h3`,{className:`text-2xl font-bold text-[#071426]`,children:`24/7`}),(0,F.jsx)(`p`,{className:`text-slate-500 text-sm`,children:`Support`})]})]})]}),(0,F.jsxs)(`div`,{className:`relative flex justify-center items-center`,children:[(0,F.jsx)(`div`,{className:`\r
       absolute\r
       w-[550px]\r
       h-[550px]\r
