@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Hero from "../components/Hero";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
@@ -215,6 +216,37 @@ const [activeTab, setActiveTab] = useState(products[0]);
 
   return (
     <>
+    <Helmet>
+      <title>
+        Balaji Infotech | Tally Solutions Partner in Guntur
+      </title>
+
+      <meta
+        name="description"
+        content="Balaji Infotech provides TallyPrime software, Tally services, GST solutions, cloud hosting, ERP implementation, training and support in Guntur."
+      />
+
+      <meta
+        name="keywords"
+        content="TallyPrime, Tally Software, Tally Services, Tally Partner Guntur, GST Software, Accounting Software, Tally Training"
+      />
+
+      <meta
+        property="og:title"
+        content="Balaji Infotech | Tally Solutions Partner"
+      />
+
+      <meta
+        property="og:description"
+        content="Authorized Tally solutions partner offering TallyPrime, cloud hosting, training and support."
+      />
+
+      <meta
+        property="og:type"
+        content="website"
+      />
+    </Helmet>
+
       <Hero />
 
       {/* WHY CHOOSE US */}

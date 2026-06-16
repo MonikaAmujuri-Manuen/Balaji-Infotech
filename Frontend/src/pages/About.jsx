@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 import { Fragment } from "react";
 import { default as CountUp } from "react-countup";
@@ -79,8 +80,37 @@ const foundationData = [
   },
 ];
   return (
-
     <>
+    <Helmet>
+  <title>
+    About Balaji Infotech | Trusted Tally Partner Since 2000
+  </title>
+
+  <meta
+    name="description"
+    content="Learn about Balaji Infotech, a trusted Tally Solutions Partner in Guntur with over 20 years of experience providing TallyPrime software, training, support, GST solutions, and business automation services."
+  />
+
+  <meta
+    name="keywords"
+    content="About Balaji Infotech, Tally Partner Guntur, TallyPrime Experts, Tally Training, GST Solutions, Accounting Software Support"
+  />
+
+  <meta
+    property="og:title"
+    content="About Balaji Infotech | Trusted Tally Partner"
+  />
+
+  <meta
+    property="og:description"
+    content="20+ years of experience delivering Tally software, implementation, training, support, and business solutions."
+  />
+
+  <meta
+    property="og:type"
+    content="website"
+  />
+</Helmet>
     {/*  HERO SECTION  */}
     <section
       className="

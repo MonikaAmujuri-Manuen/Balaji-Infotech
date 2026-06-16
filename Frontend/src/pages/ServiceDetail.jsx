@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
@@ -37,7 +38,36 @@ const ServiceDetail = () => {
 
   return (
     <>
-      
+      <Helmet>
+  <title>
+    {service.title} | Balaji Infotech
+  </title>
+
+  <meta
+    name="description"
+    content={service.hero.description}
+  />
+
+  <meta
+    name="keywords"
+    content={`${service.title}, Tally Services, TallyPrime, Business Solutions, Balaji Infotech`}
+  />
+
+  <meta
+    property="og:title"
+    content={`${service.title} | Balaji Infotech`}
+  />
+
+  <meta
+    property="og:description"
+    content={service.hero.description}
+  />
+
+  <meta
+    property="og:type"
+    content="website"
+  />
+</Helmet>
       {/* HERO SECTION */}
       {service.hero && (
         <section className="relative overflow-hidden bg-white">

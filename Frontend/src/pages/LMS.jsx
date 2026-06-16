@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
@@ -352,6 +353,36 @@ const [openExercise, setOpenExercise] = useState(0);
 
   return (
     <>
+    <Helmet>
+  <title>
+    TallyPrime LMS | Online Tally Training & Practice Labs | Balaji Infotech
+  </title>
+
+  <meta
+    name="description"
+    content="Learn TallyPrime through structured online courses, hands-on practice labs, GST training, accounting modules, assignments, and downloadable resources with Balaji Infotech LMS."
+  />
+
+  <meta
+    name="keywords"
+    content="Tally LMS, TallyPrime LMS, Online Tally Training, Tally Practice Labs, GST Training, Accounting Course, Tally Learning Platform"
+  />
+
+  <meta
+    property="og:title"
+    content="TallyPrime LMS | Online Training & Practice Labs"
+  />
+
+  <meta
+    property="og:description"
+    content="Master TallyPrime with structured lessons, practical exercises, GST training, assignments, and certification-focused learning."
+  />
+
+  <meta
+    property="og:type"
+    content="website"
+  />
+</Helmet>
 
     <div className="overflow-hidden">
     {/* ================= LMS HERO SECTION ================= */}

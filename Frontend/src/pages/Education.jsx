@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { motion, AnimatePresence, easeOut } from "framer-motion";
 import { Link } from "react-router-dom";
 import { useState } from "react";
@@ -268,8 +269,38 @@ const filteredCourses = courses.filter(
   (course) => course.category === activeCategory
 );
   return (
-
     <>
+    <Helmet>
+  <title>
+    Tally Training & Certification Programs | Balaji Infotech
+  </title>
+
+  <meta
+    name="description"
+    content="Explore professional TallyPrime training programs, certification courses, GST accounting education, practical learning modules, and industry-focused accounting skills development."
+  />
+
+  <meta
+    name="keywords"
+    content="Tally Training, Tally Certification, TallyPrime Course, GST Training, Accounting Courses, Business Accounting Education, Tally Learning"
+  />
+
+  <meta
+    property="og:title"
+    content="Tally Training & Certification Programs | Balaji Infotech"
+  />
+
+  <meta
+    property="og:description"
+    content="Learn TallyPrime, GST, accounting, payroll, inventory management and business operations through structured training programs."
+  />
+
+  <meta
+    property="og:type"
+    content="website"
+  />
+</Helmet>
+
     {/* ================= EDUCATION HERO SECTION ================= */}
 
 <section className="relative overflow-hidden bg-white pt-20 sm:pt-24 lg:pt-24

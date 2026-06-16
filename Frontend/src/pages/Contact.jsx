@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { MapPin, Phone, Mail, ArrowRight,MapPinned, Building2, MessageCircle } from "lucide-react";
 import contactHero from "../assets/contact-hero.png";
 import QuoteForm from "../components/QuoteForm";
@@ -25,8 +26,39 @@ useEffect(() => {
   }
 }, [location]);
   return (
-
     <>
+
+    <Helmet>
+  <title>
+    Contact Balaji Infotech | Tally Solutions Partner
+  </title>
+
+  <meta
+    name="description"
+    content="Contact Balaji Infotech for TallyPrime sales, implementation, customization, cloud hosting, training, GST solutions, and business support."
+  />
+
+  <meta
+    name="keywords"
+    content="Balaji Infotech Contact, Tally Partner Guntur, TallyPrime Support, Tally Training, Tally Sales, Tally GST Solutions"
+  />
+
+  <meta
+    property="og:title"
+    content="Contact Balaji Infotech"
+  />
+
+  <meta
+    property="og:description"
+    content="Get in touch with Balaji Infotech for TallyPrime services, cloud hosting, implementation, training, and support."
+  />
+
+  <meta
+    property="og:type"
+    content="website"
+  />
+</Helmet>
+
     {/* ================= CONTACT HERO ================= */}
   <section className="
     relative

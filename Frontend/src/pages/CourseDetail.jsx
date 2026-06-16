@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { useParams } from "react-router-dom";
 import { courses } from "../data/courseData";
 import { motion, scale } from "framer-motion";
@@ -139,6 +140,43 @@ const visibleSections =
   return (
 
     <main className="bg-[#F8FAFC]">
+
+      <Helmet>
+  <title>
+    {course.title} | Balaji Infotech LMS
+  </title>
+
+  <meta
+    name="description"
+    content={
+      course.description ||
+      `Learn ${course.title} through structured lessons, practical exercises and assessments.`
+    }
+  />
+
+  <meta
+    name="keywords"
+    content={`${course.title}, Tally Course, TallyPrime Training, GST Training, Accounting Course, Balaji Infotech LMS`}
+  />
+
+  <meta
+    property="og:title"
+    content={`${course.title} | Balaji Infotech LMS`}
+  />
+
+  <meta
+    property="og:description"
+    content={
+      course.description ||
+      `Master ${course.title} with practical learning and assessments.`
+    }
+  />
+
+  <meta
+    property="og:type"
+    content="article"
+  />
+</Helmet>
 
       {/* HERO */}
 

@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { useParams } from "react-router-dom";
 import { exercises, sidebarNavigation } from "../data/exercises";
 import { useState } from "react";
@@ -96,6 +97,53 @@ const progress =
 };
 
   return (
+    <>
+
+    <Helmet>
+  <title>
+    {exercise.title} | Tally Practice Lab | Balaji Infotech
+  </title>
+
+  <meta
+    name="description"
+    content={
+      exercise.description ||
+      `Practice ${exercise.title} with hands-on Tally exercises and real-world accounting scenarios.`
+    }
+  />
+
+  <meta
+    name="keywords"
+    content={`
+      ${exercise.title},
+      Tally Practice Lab,
+      Tally Exercises,
+      Accounting Practice,
+      GST Practice,
+      TallyPrime Training,
+      Balaji Infotech
+    `}
+  />
+
+  <meta
+    property="og:title"
+    content={`${exercise.title} | Tally Practice Lab`}
+  />
+
+  <meta
+    property="og:description"
+    content={
+      exercise.description ||
+      `Hands-on practical exercise for ${exercise.title}.`
+    }
+  />
+
+  <meta
+    property="og:type"
+    content="article"
+  />
+</Helmet>
+    
     <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-24 sm:pt-28 pb-12 sm:pb-16">
 
       {/* ================= HERO ================= */}
@@ -1529,5 +1577,6 @@ text-[#071426]
 
       </div>
     </div>
+    </>
   );
 }

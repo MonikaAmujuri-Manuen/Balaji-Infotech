@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Main Pages -->
+
+  <url>
+    <loc>https://monikaamujuri-manuen.github.io/Balaji-Infotech/</loc>
+  </url>
+
+  <url>
+    <loc>https://monikaamujuri-manuen.github.io/Balaji-Infotech/about</loc>
+  </url>
+
+  <url>
+    <loc>https://monikaamujuri-manuen.github.io/Balaji-Infotech/products</loc>
+  </url>
+
+  <url>
+    <loc>https://monikaamujuri-manuen.github.io/Balaji-Infotech/services</loc>
+  </url>
+
+  <url>
+    <loc>https://monikaamujuri-manuen.github.io/Balaji-Infotech/education</loc>
+  </url>
+
+  <url>
+    <loc>https://monikaamujuri-manuen.github.io/Balaji-Infotech/lms</loc>
+  </url>
+
+  <url>
+    <loc>https://monikaamujuri-manuen.github.io/Balaji-Infotech/contact</loc>
+  </url>
+
+  <!-- Products -->
+
+  <url>
+    <loc>https://monikaamujuri-manuen.github.io/Balaji-Infotech/products/tallyprime</loc>
+  </url>
+
+  <url>
+    <loc>https://monikaamujuri-manuen.github.io/Balaji-Infotech/products/tally-server</loc>
+  </url>
+
+  <url>
+    <loc>https://monikaamujuri-manuen.github.io/Balaji-Infotech/products/aws</loc>
+  </url>
+
+  <url>
+    <loc>https://monikaamujuri-manuen.github.io/Balaji-Infotech/products/whatsapp</loc>
+  </url>
+
+  <!-- Services -->
+
+  <url>
+    <loc>https://monikaamujuri-manuen.github.io/Balaji-Infotech/services/tally-software</loc>
+  </url>
+
+  <url>
+    <loc>https://monikaamujuri-manuen.github.io/Balaji-Infotech/services/tally-services</loc>
+  </url>
+
+  <url>
+    <loc>https://monikaamujuri-manuen.github.io/Balaji-Infotech/services/tally-mobile</loc>
+  </url>
+
+  <url>
+    <loc>https://monikaamujuri-manuen.github.io/Balaji-Infotech/services/tally-solutions</loc>
+  </url>
+
+  <url>
+    <loc>https://monikaamujuri-manuen.github.io/Balaji-Infotech/services/tally-erp</loc>
+  </url>
+
+  <url>
+    <loc>https://monikaamujuri-manuen.github.io/Balaji-Infotech/services/tally-addon</loc>
+  </url>
+
+  <!-- LMS Courses -->
+
+  <url>
+    <loc>https://monikaamujuri-manuen.github.io/Balaji-Infotech/courses/basics-ledgers</loc>
+  </url>
+
+  <url>
+    <loc>https://monikaamujuri-manuen.github.io/Balaji-Infotech/courses/gst-taxation</loc>
+  </url>
+
+  <url>
+    <loc>https://monikaamujuri-manuen.github.io/Balaji-Infotech/courses/inventory-stock</loc>
+  </url>
+
+  <url>
+    <loc>https://monikaamujuri-manuen.github.io/Balaji-Infotech/courses/payroll-management</loc>
+  </url>
+
+  <url>
+    <loc>https://monikaamujuri-manuen.github.io/Balaji-Infotech/courses/reports-mis</loc>
+  </url>
+
+  <url>
+    <loc>https://monikaamujuri-manuen.github.io/Balaji-Infotech/courses/advanced-tallyprime</loc>
+  </url>
+
+  <!-- Practice Labs -->
+
+  <url>
+    <loc>https://monikaamujuri-manuen.github.io/Balaji-Infotech/lms/company-setup</loc>
+  </url>
+
+  <url>
+    <loc>https://monikaamujuri-manuen.github.io/Balaji-Infotech/lms/gst-invoice-return</loc>
+  </url>
+
+  <url>
+    <loc>https://monikaamujuri-manuen.github.io/Balaji-Infotech/lms/inventory-stock</loc>
+  </url>
+
+  <url>
+    <loc>https://monikaamujuri-manuen.github.io/Balaji-Infotech/lms/payroll-management</loc>
+  </url>
+
+</urlset>

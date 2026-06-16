@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { services } from "../data/servicesData";
 import { ArrowRight, CheckCircle } from "lucide-react";
 import {
@@ -14,6 +15,37 @@ import { Link } from "react-router-dom";
 export default function Services() {
   return (
     <>
+
+    <Helmet>
+  <title>
+    Tally Services & Business Solutions | Balaji Infotech
+  </title>
+
+  <meta
+    name="description"
+    content="Professional Tally services including implementation, customization, cloud hosting, support, training, mobile integration, and business automation solutions."
+  />
+
+  <meta
+    name="keywords"
+    content="Tally Services, Tally Support, Tally Customization, Tally Cloud Hosting, Tally Implementation, Tally Training, Business Automation"
+  />
+
+  <meta
+    property="og:title"
+    content="Tally Services & Business Solutions | Balaji Infotech"
+  />
+
+  <meta
+    property="og:description"
+    content="Expert Tally implementation, support, cloud solutions, customization, and training services for businesses."
+  />
+
+  <meta
+    property="og:type"
+    content="website"
+  />
+</Helmet>
 
     <section
   className="

@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { ArrowRight, PieChart, Settings, Users, BarChart3 } from "lucide-react";
 
@@ -12,6 +13,36 @@ export default function Products() {
   
   return (
     <>
+    <Helmet>
+  <title>
+    TallyPrime Products & Business Solutions | Balaji Infotech
+  </title>
+
+  <meta
+    name="description"
+    content="Explore TallyPrime, TallyPrime Server, TallyPrime powered by AWS, and WhatsApp integration solutions. Get genuine Tally software, implementation, and expert support from Balaji Infotech."
+  />
+
+  <meta
+    name="keywords"
+    content="TallyPrime, TallyPrime Server, Tally AWS, Tally WhatsApp Integration, Tally Software, Tally Products, Tally Partner Guntur"
+  />
+
+  <meta
+    property="og:title"
+    content="TallyPrime Products & Business Solutions | Balaji Infotech"
+  />
+
+  <meta
+    property="og:description"
+    content="Discover TallyPrime, cloud hosting solutions, server editions, and business automation tools from Balaji Infotech."
+  />
+
+  <meta
+    property="og:type"
+    content="website"
+  />
+</Helmet>
 
       {/* ================= HERO SECTION ================= */}
       {false && (

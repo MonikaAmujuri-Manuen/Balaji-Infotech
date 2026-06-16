@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import React from "react";
 import { useParams, Link } from "react-router-dom";
 import { useState } from "react";
@@ -38,6 +39,41 @@ export default function ProductDetail() {
 
   return (
     <>
+    <Helmet>
+  <title>
+    {product.title} | Balaji Infotech
+  </title>
+
+  <meta
+    name="description"
+    content={product.description}
+  />
+
+  <meta
+    name="keywords"
+    content={`${product.title}, Tally Software, TallyPrime, Business Accounting Software, GST Software, Balaji Infotech`}
+  />
+
+  <meta
+    property="og:title"
+    content={`${product.title} | Balaji Infotech`}
+  />
+
+  <meta
+    property="og:description"
+    content={product.description}
+  />
+
+  <meta
+    property="og:type"
+    content="website"
+  />
+
+  <meta
+    property="og:image"
+    content={product.image}
+  />
+</Helmet>
 
       {/* ================= HERO SECTION ================= */}
 
