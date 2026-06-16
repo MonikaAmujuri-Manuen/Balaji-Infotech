@@ -294,6 +294,7 @@ export default function Products() {
       from-[#155A96]/10
       to-[#2F80FF]/5
       blur-3xl
+      pointer-events-none
     "
   />
 
@@ -305,6 +306,7 @@ export default function Products() {
       h-[400px]
       rounded-full
       bg-[#155A96]/5
+      pointer-events-none
     "
   />
 
