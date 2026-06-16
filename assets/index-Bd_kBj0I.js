@@ -26,7 +26,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
       bg-white/95\r
       backdrop-blur-md\r
       border-b border-slate-200\r
-    `,children:[(0,F.jsxs)(`div`,{className:`flex items-center gap-3`,children:[(0,F.jsx)(`img`,{src:Qi,alt:`Balaji Infotech`,className:`h-12 w-auto object-contain`}),(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`h1`,{className:`text-[15px] font-semibold text-[#071426]`,children:`Balaji Infotech`}),(0,F.jsx)(`p`,{className:`text-xs text-slate-500`,children:`Tally Solutions Partner`})]})]}),(0,F.jsxs)(`div`,{className:`hidden lg:flex items-center gap-2 xl:gap-3`,children:[(0,F.jsx)(Nn,{to:`/`,className:({isActive:e})=>`
+    `,children:[(0,F.jsxs)(Mn,{to:`/`,className:`flex items-center gap-3`,children:[(0,F.jsx)(`img`,{src:Qi,alt:`Balaji Infotech`,className:`h-12 w-auto object-contain`}),(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`h1`,{className:`font-bold text-[#071426]`,children:`Balaji Infotech`}),(0,F.jsx)(`p`,{className:`text-sm text-slate-500`,children:`Tally Solutions Partner`})]})]}),(0,F.jsxs)(`div`,{className:`hidden lg:flex items-center gap-2 xl:gap-3`,children:[(0,F.jsx)(Nn,{to:`/`,className:({isActive:e})=>`
           relative
           px-2
           py-2
