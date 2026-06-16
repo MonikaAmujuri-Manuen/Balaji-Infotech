@@ -236,7 +236,7 @@ const foundationData = [
            className="
             flex
             flex-row
-            justify-center
+            
             gap-3
             mt-6 sm:mt-8
           "

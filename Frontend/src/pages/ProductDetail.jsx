@@ -1108,7 +1108,7 @@ md:text-[40px] font-bold leading-tight text-[#0B132B]">
 
           <div>
             <h4 className="text-2xl font-bold text-[#071426]">
-              500+
+              4000+
             </h4>
 
             <p className="text-[#64748B]">

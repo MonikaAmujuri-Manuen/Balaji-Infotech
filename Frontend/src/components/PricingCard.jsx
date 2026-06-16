@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Check, Info, Layers3 } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function PricingCard({ plan, index }) {
   const isInteractive = plan.variants?.length > 0;
@@ -195,23 +196,24 @@ useEffect(() => {
     )}
 
     {/* BUTTON */}
-    <button
-      className={`
-        mt-6 w-full h-[50px]
-        rounded-[18px]
-        text-[22px]
-        font-[700]
-        transition-all duration-300
-        ${
-          index === 1
-            ? "bg-[#155A96] text-white hover:bg-[#1D6FB8]"
-            : "bg-[#071426] text-white hover:bg-[#0D223C]"
-        }
-      `}
-    >
-      Buy Now
-    </button>
-
+    <Link
+  to="/contact"
+  className={`
+    mt-6 w-full h-[50px]
+    rounded-[18px]
+    text-[22px]
+    font-[700]
+    flex items-center justify-center
+    transition-all duration-300
+    ${
+      index === 1
+        ? "bg-[#155A96] text-white hover:bg-[#1D6FB8]"
+        : "bg-[#071426] text-white hover:bg-[#0D223C]"
+    }
+  `}
+>
+  Buy Now
+</Link>
   </div>
 </div>
   );

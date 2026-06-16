@@ -142,7 +142,7 @@ export default function Products() {
     <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
 
       {/* LEFT CONTENT */}
-      <div>
+      <div className="relative">
 
         <span
           className="
