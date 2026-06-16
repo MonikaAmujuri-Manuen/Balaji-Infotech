@@ -7,9 +7,9 @@ import {
   ArrowUpRight, ArrowDownLeft, Repeat, ChevronDown, ChevronUp, ShoppingCart, ArrowDownCircle,
   RefreshCw, CheckCircle, Scale, ChartColumn, Building, ChartPie, User2, Shield, Globe, Settings,
 } from "lucide-react";
+import { useRef } from "react";
 
-
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const iconMap = {
   download: Download,
@@ -58,6 +58,8 @@ const badgeStyles = {
 
 export default function CourseDetail() {
 
+  const contentRef = useRef(null);
+
   const { slug } = useParams();
   console.log(slug);
 
@@ -77,7 +79,43 @@ export default function CourseDetail() {
   const [answers, setAnswers] = useState({});
 const [score, setScore] = useState(null);
 const [activeSection, setActiveSection] = useState("overview");
-const isMobile = window.innerWidth < 1024;
+const isMobile =
+  typeof window !== "undefined" &&
+  window.innerWidth < 1024;
+
+
+useEffect(() => {
+  const container = contentRef.current;
+
+  if (!container) return;
+
+  const handleScroll = () => {
+  const sections =
+    contentRef.current.querySelectorAll("section[id]");
+
+  for (const section of sections) {
+    const rect = section.getBoundingClientRect();
+
+    if (
+      rect.top >= 0 &&
+      rect.top <= 300
+    ) {
+      setActiveSection(section.id);
+      break;
+    }
+  }
+};
+
+  container.addEventListener("scroll", handleScroll);
+
+  handleScroll();
+
+  return () =>
+    container.removeEventListener(
+      "scroll",
+      handleScroll
+    );
+}, []);
 
 const handleQuizSubmit = (quiz) => {
   let correct = 0;
@@ -270,6 +308,7 @@ lg:text-xl
     flex
     gap-2
     overflow-x-auto
+    sidebar-scroll
     pb-2
     mb-6
   "
@@ -474,6 +513,7 @@ lg:text-xl
     {/* CONTENT AREA */}
 
     <main
+  ref={contentRef}
   className="
     lg:h-full
     lg:overflow-y-auto
