@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import logo from "../assets/logo.png"
 import { useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [mobileMenu, setMobileMenu] = useState(false);
@@ -51,7 +52,8 @@ const [dropdownOpen, setDropdownOpen] = useState(false);
   >
 
     {/* LOGO */}
-    <div className="flex items-center gap-3">
+
+<Link to="/" className="flex items-center gap-3">
   <img
     src={logo}
     alt="Balaji Infotech"
@@ -59,15 +61,15 @@ const [dropdownOpen, setDropdownOpen] = useState(false);
   />
 
   <div>
-    <h1 className="text-[15px] font-semibold text-[#071426]">
+    <h1 className="font-bold text-[#071426]">
       Balaji Infotech
     </h1>
-
-    <p className="text-xs text-slate-500">
+    <p className="text-sm text-slate-500">
       Tally Solutions Partner
     </p>
   </div>
-</div>
+</Link>
+
 
     {/* DESKTOP MENU */}
     <div className="hidden lg:flex items-center gap-2 xl:gap-3">
