@@ -152,7 +152,7 @@ useEffect(() => {
               font-medium
               text-[#334155]
             ">
-              Guntur, Andhra Pradesh
+              Brodipet,Guntur, 522002, Andhra Pradesh
             </span>
 
           </div>
