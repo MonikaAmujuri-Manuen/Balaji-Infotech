@@ -224,22 +224,21 @@ export default function Products() {
 </a>
 
           <a
-  href="tel:+919849431943"
+  href="tel:9849431943"
   className="
     inline-flex
     items-center
     justify-center
-    w-auto
-    px-5 sm:px-7
-    py-2.5 sm:py-3.5
+    px-5
+    py-2.5
     rounded-xl
     border
     border-slate-300
     bg-white
-    text-sm sm:text-base
+    text-sm
     font-semibold
-    hover:bg-slate-50
-    transition
+    relative
+    z-50
   "
 >
   Book Free Demo
