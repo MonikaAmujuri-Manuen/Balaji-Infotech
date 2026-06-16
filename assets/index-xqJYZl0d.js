@@ -774,6 +774,8 @@ shadow-xl\r
         overflow-x-auto\r
         snap-x\r
         snap-mandatory\r
+        pt-3\r
+    pb-4\r
         pb-3\r
         scrollbar-hide\r
       `,children:n.map((e,t)=>(0,F.jsxs)(Mn,{to:e.link,className:`\r
@@ -787,7 +789,7 @@ shadow-xl\r
             border\r
             border-slate-200\r
             overflow-hidden\r
-            hover:-translate-y-1\r
+            hover:scale-[1.01]\r
             hover:shadow-xl\r
             transition-all\r
             duration-300\r
@@ -797,7 +799,6 @@ shadow-xl\r
                 object-cover\r
                 transition-transform\r
                 duration-500\r
-                hover:scale-105\r
               `})}),(0,F.jsxs)(`div`,{className:`p-5`,children:[(0,F.jsx)(`h3`,{className:`\r
                 text-2xl\r
                 font-bold\r
@@ -1981,14 +1982,15 @@ md:py-14\r
         leading-relaxed\r
         max-w-sm\r
       `,children:`Explore the key capabilities that help businesses simplify operations, improve productivity, and accelerate growth.`})]}),(0,F.jsx)(`div`,{className:`\r
-      flex\r
-      gap-5\r
-      overflow-x-auto\r
-      pb-4\r
-      snap-x\r
-      snap-mandatory\r
-      scrollbar-hide\r
-    `,children:a.keyFeatures.map((e,r)=>{let i=e.icon;return(0,F.jsxs)(`div`,{className:`\r
+    flex\r
+    gap-5\r
+    overflow-x-auto\r
+    pt-3\r
+    pb-4\r
+    snap-x\r
+    snap-mandatory\r
+    scrollbar-hide\r
+  `,children:a.keyFeatures.map((e,r)=>{let i=e.icon;return(0,F.jsxs)(`div`,{className:`\r
             snap-start\r
             min-w-[300px]\r
             sm:min-w-[340px]\r
@@ -1997,11 +1999,11 @@ md:py-14\r
             bg-white\r
             border\r
             border-[#E5E7EB]\r
-            rounded-[32px]\r
+            rounded-[28px]\r
 \r
             p-6\r
 \r
-            hover:-translate-y-2\r
+            hover:scale-[1.01]\r
             hover:border-[#155A96]/20\r
             hover:shadow-[0_20px_60px_rgba(21,90,150,0.08)]\r
 \r
@@ -2050,7 +2052,7 @@ md:py-14\r
             transition-all\r
           `,children:[t===r?`Show Less`:`Learn More`,t===r?(0,F.jsx)(Er,{size:18}):(0,F.jsx)(Tr,{size:18})]})]},r)})})]})]})}),!1,a?.whyChooseCards?.length>0&&(0,F.jsx)(`section`,{className:`relative py-10 sm:py-12 md:py-16 px-4 sm:px-6 overflow-hidden bg-[#F7FAFF]`,children:(0,F.jsxs)(`div`,{className:`relative max-w-7xl mx-auto`,children:[(0,F.jsxs)(`div`,{className:`text-center max-w-4xl mx-auto mb-10 md:mb-12`,children:[(0,F.jsx)(`p`,{className:`text-[#155A96] font-semibold uppercase tracking-[0.25em] mb-4`,children:`Why Choose`}),(0,F.jsxs)(`h2`,{className:`text-[28px]\r
 sm:text-[38px]\r
-md:text-[40px] font-bold leading-tight text-[#0B132B]`,children:[`Why Businesses Choose`,` `,(0,F.jsx)(`span`,{className:`text-[#155A96]`,children:a.title})]}),(0,F.jsx)(`p`,{className:`mt-4 text-base md:text-lg text-[#5B6475] leading-relaxed`,children:`Built for growing businesses that need speed, security, multi-user efficiency, and uninterrupted access to critical data.`})]}),(0,F.jsx)(`div`,{className:`max-w-5xl mx-auto`,children:a.whyChooseCards.map((e,t)=>{let n=e.icon;return(0,F.jsxs)(`div`,{className:`relative`,children:[t!==0&&(0,F.jsx)(`div`,{className:`\r
+md:text-[40px] font-bold leading-tight text-[#0B132B]`,children:[`Why Businesses Choose`,` `,(0,F.jsx)(`span`,{className:`text-[#155A96]`,children:a.title})]}),(0,F.jsx)(`p`,{className:`mt-4 text-base md:text-lg text-[#5B6475] leading-relaxed`,children:`Built for growing businesses that need speed, security, multi-user efficiency, and uninterrupted access to critical data.`})]}),(0,F.jsx)(`div`,{className:`max-w-4xl mx-auto`,children:a.whyChooseCards.map((e,t)=>{let n=e.icon;return(0,F.jsxs)(`div`,{className:`relative`,children:[t!==0&&(0,F.jsx)(`div`,{className:`\r
               w-full\r
               h-px\r
               bg-gradient-to-r\r
@@ -2060,16 +2062,10 @@ md:text-[40px] font-bold leading-tight text-[#0B132B]`,children:[`Why Businesses
               my-8\r
             `}),(0,F.jsxs)(`div`,{className:`\r
             grid\r
-            md:grid-cols-[120px_80px_1fr]\r
+            md:grid-cols-[80px_1fr]\r
             gap-5\r
-            items-start\r
+            items-center\r
           `,children:[(0,F.jsx)(`div`,{className:`\r
-              text-5xl\r
-              md:text-6xl\r
-              font-black\r
-              text-[#155A96]/10\r
-              leading-none\r
-            `,children:String(t+1).padStart(2,`0`)}),(0,F.jsx)(`div`,{className:`\r
               w-14\r
               h-14\r
               rounded-2xl\r
@@ -2078,18 +2074,18 @@ md:text-[40px] font-bold leading-tight text-[#0B132B]`,children:[`Why Businesses
               items-center\r
               justify-center\r
             `,children:(0,F.jsx)(n,{size:25,className:`text-[#155A96]`})}),(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`h3`,{className:`\r
-                text-xl\r
-                md:text-2xl\r
-                font-bold\r
-                text-[#071426]\r
-                mb-3\r
-                leading-tight\r
-              `,children:e.title}),(0,F.jsx)(`p`,{className:`\r
-                text-[#64748B]\r
-                text-base\r
-                leading-relaxed\r
-                max-w-3xl\r
-              `,children:e.description})]})]})]},t)})})]})}),a?.pricing?.length>0&&(0,F.jsx)(`section`,{id:`pricing`,className:`relative py-10 sm:py-12 md:py-12 px-4 sm:px-6 bg-[#F5F8FB] overflow-hidden`,children:(0,F.jsxs)(`div`,{className:`max-w-5xl mx-auto relative z-10`,children:[(0,F.jsxs)(`div`,{className:`text-center mb-10 md:mb-8`,children:[(0,F.jsx)(`p`,{className:`\r
+        text-xl\r
+        md:text-2xl\r
+        font-bold\r
+        text-[#071426]\r
+        mb-3\r
+        leading-tight\r
+      `,children:e.title}),(0,F.jsx)(`p`,{className:`\r
+        text-[#64748B]\r
+        text-base\r
+        leading-relaxed\r
+        max-w-3xl\r
+      `,children:e.description})]})]})]},t)})})]})}),a?.pricing?.length>0&&(0,F.jsx)(`section`,{id:`pricing`,className:`relative py-10 sm:py-12 md:py-12 px-4 sm:px-6 bg-[#F5F8FB] overflow-hidden`,children:(0,F.jsxs)(`div`,{className:`max-w-5xl mx-auto relative z-10`,children:[(0,F.jsxs)(`div`,{className:`text-center mb-10 md:mb-8`,children:[(0,F.jsx)(`p`,{className:`\r
             text-[#155A96]\r
             font-semibold\r
             uppercase\r
