@@ -48,7 +48,7 @@ export default function Products() {
         />
         <div className="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
 
-          <div className="text-center max-w-4xl mx-auto">
+          <div className="relative text-center max-w-4xl mx-auto">
 
             <p
               className="
