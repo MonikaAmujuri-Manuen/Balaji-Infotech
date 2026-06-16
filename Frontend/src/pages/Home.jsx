@@ -1435,6 +1435,8 @@ const [activeTab, setActiveTab] = useState(products[0]);
         overflow-x-auto
         snap-x
         snap-mandatory
+        pt-3
+    pb-4
         pb-3
         scrollbar-hide
       "
@@ -1455,7 +1457,7 @@ const [activeTab, setActiveTab] = useState(products[0]);
             border
             border-slate-200
             overflow-hidden
-            hover:-translate-y-1
+            hover:scale-[1.01]
             hover:shadow-xl
             transition-all
             duration-300
@@ -1473,7 +1475,6 @@ const [activeTab, setActiveTab] = useState(products[0]);
                 object-cover
                 transition-transform
                 duration-500
-                hover:scale-105
               "
             />
           </div>

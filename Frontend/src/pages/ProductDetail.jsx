@@ -366,16 +366,17 @@ export default function ProductDetail() {
   {/* RIGHT SIDE */}
 
   <div
-    className="
-      flex
-      gap-5
-      overflow-x-auto
-      pb-4
-      snap-x
-      snap-mandatory
-      scrollbar-hide
-    "
-  >
+  className="
+    flex
+    gap-5
+    overflow-x-auto
+    pt-3
+    pb-4
+    snap-x
+    snap-mandatory
+    scrollbar-hide
+  "
+>
 
     {product.keyFeatures.map((feature, index) => {
       const FeatureIcon = feature.icon;
@@ -393,11 +394,11 @@ export default function ProductDetail() {
             bg-white
             border
             border-[#E5E7EB]
-            rounded-[32px]
+            rounded-[28px]
 
             p-6
 
-            hover:-translate-y-2
+            hover:scale-[1.01]
             hover:border-[#155A96]/20
             hover:shadow-[0_20px_60px_rgba(21,90,150,0.08)]
 
@@ -845,7 +846,7 @@ md:text-[40px] font-bold leading-tight text-[#0B132B]">
 
     {/* ADVANTAGES TIMELINE */}
 
-<div className="max-w-5xl mx-auto">
+<div className="max-w-4xl mx-auto">
 
   {product.whyChooseCards.map((card, index) => {
     const Icon = card.icon;
@@ -873,28 +874,14 @@ md:text-[40px] font-bold leading-tight text-[#0B132B]">
           />
         )}
 
-        <div
+          <div
           className="
             grid
-            md:grid-cols-[120px_80px_1fr]
+            md:grid-cols-[80px_1fr]
             gap-5
-            items-start
+            items-center
           "
         >
-
-          {/* Number */}
-
-          <div
-            className="
-              text-5xl
-              md:text-6xl
-              font-black
-              text-[#155A96]/10
-              leading-none
-            "
-          >
-            {String(index + 1).padStart(2, "0")}
-          </div>
 
           {/* Icon */}
 
@@ -920,28 +907,28 @@ md:text-[40px] font-bold leading-tight text-[#0B132B]">
           <div>
 
             <h3
-              className="
-                text-xl
-                md:text-2xl
-                font-bold
-                text-[#071426]
-                mb-3
-                leading-tight
-              "
-            >
-              {card.title}
-            </h3>
+      className="
+        text-xl
+        md:text-2xl
+        font-bold
+        text-[#071426]
+        mb-3
+        leading-tight
+      "
+    >
+      {card.title}
+    </h3>
 
             <p
-              className="
-                text-[#64748B]
-                text-base
-                leading-relaxed
-                max-w-3xl
-              "
-            >
-              {card.description}
-            </p>
+      className="
+        text-[#64748B]
+        text-base
+        leading-relaxed
+        max-w-3xl
+      "
+    >
+      {card.description}
+    </p>
 
           </div>
 
