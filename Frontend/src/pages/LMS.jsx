@@ -358,6 +358,7 @@ const [openExercise, setOpenExercise] = useState(0);
 <section className=" 
 relative
 overflow-hidden
+overflow-x-hidden
 scrollbar-hide
 bg-white
 pt-20 sm:pt-24 lg:pt-24
@@ -366,16 +367,28 @@ pb-10 sm:pb-12 md:pb-14
 
 <div
   className="
-    hidden lg:block
     absolute
     top-0
     left-1/2
     -translate-x-1/2
-    w-[700px]
-    h-[700px]
+
+    w-[280px]
+    h-[280px]
+
+    sm:w-[450px]
+    sm:h-[450px]
+
+    lg:w-[700px]
+    lg:h-[700px]
+
     bg-[#155A96]/5
-    blur-[150px]
+
+    blur-[60px]
+    sm:blur-[100px]
+    lg:blur-[150px]
+
     rounded-full
+    pointer-events-none
   "
 />
   <div className="
@@ -396,8 +409,8 @@ pb-10 sm:pb-12 md:pb-14
 
       {/* ================= LEFT CONTENT ================= */}
       <motion.div
-            initial={{ opacity: 0, y: 40 }}
-            whileInView ={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0}}
+            whileInView ={{ opacity: 1}}
             transition= {{ duration: 0.8 }}
             viewport={{ once: true }}
       >
@@ -537,8 +550,8 @@ pb-10 sm:pb-12 md:pb-14
   "
 
 
-      initial = {{ opacity: 0, x:100 }}
-      whileInView={{ opacity: 1, x:0 }}
+      initial = {{ opacity: 0}}
+      whileInView={{ opacity: 1 }}
       transition={{
         duration : 1,
         ease: "easeOut",
@@ -558,8 +571,7 @@ pb-10 sm:pb-12 md:pb-14
     p-6
     shadow-sm
     w-full
-    max-w-full
-    sm:max-w-[500px]
+    min-w-0
   "
 >
   <div className="flex items-center justify-between mb-5">
@@ -701,11 +713,32 @@ pb-10 sm:pb-12 md:pb-14
 
 {/* ================= WHY LEARN TALLY ================= */}
 <section className="relative py-10 sm:py-12 md:py-12 px-4 sm:px-6 bg-white overflow-hidden">
-  {/* BACKGROUND GLOW */}
-  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[350px] h-[350px]
-sm:w-[500px] sm:h-[500px]
-lg:w-[700px] lg:h-[700px] bg-[#155A96]/5 blur-[150px] rounded-full"/>
+  <div
+  className="
+    absolute
+    top-0
+    left-1/2
+    -translate-x-1/2
 
+    w-[280px]
+    h-[280px]
+
+    sm:w-[450px]
+    sm:h-[450px]
+
+    lg:w-[700px]
+    lg:h-[700px]
+
+    bg-[#155A96]/5
+
+    blur-[60px]
+    sm:blur-[100px]
+    lg:blur-[150px]
+
+    rounded-full
+    pointer-events-none
+  "
+/>
   <div className="max-w-7xl mx-auto relative z-10">
 
     <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
@@ -1082,9 +1115,27 @@ leading-8
 {/* ================= LEARNING RESOURCES ================= */}
 <section id="resourses" className="relative py-10 md:py-12 px-4 sm:px-6 bg-[#F8FAFC] overflow-hidden">
 
-  {/* BACKGROUND GLOW */}
-  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-[#2F80FF]/5 blur-[150px] rounded-full" />
+  <div
+  className="
+    absolute
+    left-0
 
+    w-[180px]
+    h-[180px]
+
+    sm:w-[300px]
+    sm:h-[300px]
+
+    lg:w-[500px]
+    lg:h-[450px]
+
+    bg-[#155A96]/10
+    blur-2xl
+    lg:blur-3xl
+    rounded-full
+    pointer-events-none
+  "
+/>
   <div className="max-w-7xl mx-auto relative z-10">
 
     {/* SECTION HEADER */}
@@ -1562,8 +1613,28 @@ leading-8
 {/* ================= DOWNLOAD MATERIALS ================= */}
 <section className="py-10 md:py-12 px-4 sm:px-6 bg-[#F8FAFC]">
   <div className="max-w-7xl mx-auto px-6">
-    <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-[#155A96]/5 blur-[150px] rounded-full" />
+    <div
+  className="
+    absolute
+    bottom-0
+    right-0
 
+    w-[180px]
+    h-[180px]
+
+    sm:w-[300px]
+    sm:h-[300px]
+
+    lg:w-[500px]
+    lg:h-[480px]
+
+    bg-[#155A96]/10
+    blur-2xl
+    lg:blur-3xl
+    rounded-full
+    pointer-events-none
+  "
+/>
 
     {/* Header */}
     <div className="text-center max-w-3xl mx-auto mb-8">

@@ -17,8 +17,6 @@ import ExerciseDetails from "./pages/ExerciseDetails";
 import Contact from "./pages/Contact";
 import Education from "./pages/Education";
 
-
-
 function App() {
   return (
     <>
