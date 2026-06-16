@@ -5139,7 +5139,7 @@ text-[#071426]\r
               text-sm\r
               font-medium\r
               text-[#334155]\r
-            `,children:`Guntur, Andhra Pradesh`})]}),(0,F.jsxs)(`div`,{className:`w-full sm:w-auto\r
+            `,children:`Brodipet,Guntur, 522002, Andhra Pradesh`})]}),(0,F.jsxs)(`div`,{className:`w-full sm:w-auto\r
             flex items-center\r
             gap-3\r
             px-4 py-2.5\r
