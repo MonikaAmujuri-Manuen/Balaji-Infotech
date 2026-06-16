@@ -2759,21 +2759,34 @@ md:text-[40px] font-bold leading-tight text-[#0B132B]`,children:[`Why Businesses
 `,children:t.cta.secondaryBtn})})]})]})})]})},by=`/Balaji-Infotech/assets/basics-ChOuIBMf.png`,xy=`/Balaji-Infotech/assets/gst-CwR4GFuj.png`,Sy=`/Balaji-Infotech/assets/inventory-DQLd9vdY.png`,Cy=`/Balaji-Infotech/assets/payroll-lGy70-lh.jpg`,wy=`/Balaji-Infotech/assets/reports-BuKQqLAM.jpg`,Ty=`/Balaji-Infotech/assets/advanced-DodPshiB.jpg`;function Ey(){let e=pt(),t=[{step:`01`,slug:`basics-ledgers`,level:`Beginner`,title:`Basics & Ledgers`,description:`Learn company creation, ledgers, voucher entries, journals, and accounting fundamentals.`,time:`3–4 Hours`,image:by},{step:`02`,slug:`gst-taxation`,level:`Intermediate`,title:`GST & Taxation`,description:`Master GST configuration, invoices, returns, debit notes, and compliance workflows.`,time:`6–8 Hours`,image:xy},{step:`03`,slug:`inventory-stock`,level:`Intermediate`,title:`Inventory & Stock`,description:`Understand stock items, godowns, batching, reorder levels, and manufacturing basics.`,time:`4–6 Hours`,image:Sy},{step:`04`,slug:`payroll-management`,level:`Advanced`,title:`Payroll Management`,description:`Learn employee setup, salary structures, PF/ESI deductions, and payroll processing.`,time:`5–7 Hours`,image:Cy},{step:`05`,slug:`reports-mis`,level:`Advanced`,title:`Reports & MIS`,description:`Generate profit & loss reports, balance sheets, ratio analysis, and MIS dashboards.`,time:`4–5 Hours`,image:wy},{step:`06`,slug:`advanced-tallyprime`,level:`Expert`,title:`Advanced TallyPrime`,description:`Security controls, multi-company workflows, backup & restore, and advanced customization.`,time:`6–9 Hours`,image:Ty}],n=[{title:`Official Tally Resources`,description:`Explore official product documentation, learning materials, certifications, and support resources directly from Tally.`,points:[`Official Documentation`,`Learning & Certification`,`Support Knowledge Base`],icon:fr,iconBg:`bg-blue-50`,iconColor:`text-blue-600`,lineColor:`bg-blue-500`,shadowColor:`hover:shadow-[0_15px_40px_rgba(59,130,246,0.18)]`,buttonText:`Official Resources`,buttonClass:`bg-blue-50 text-blue-600 hover:bg-blue-100`,link:`https://tallysolutions.com`},{title:`Video Tutorials`,description:`Learn through step-by-step video tutorials covering accounting, GST, inventory management, payroll, and business workflows.`,points:[`Beginner Friendly`,`Practical Examples`,`Complete Playlists`],icon:kr,iconBg:`bg-red-50`,iconColor:`text-red-500`,lineColor:`bg-red-500`,shadowColor:`hover:shadow-[0_15px_40px_rgba(239,68,68,0.18)]`,buttonText:`Watch Tutorials`,buttonClass:`bg-red-50 text-red-500 hover:bg-red-100`,link:`https://www.youtube.com/results?search_query=tally+prime+tutorial`},{title:`Guides & Documentation`,description:`Access tutorials, knowledge articles, quick references, and detailed documentation to improve your understanding.`,points:[`Step-by-Step Guides`,`Reference Articles`,`Quick Learning Notes`],icon:Wr,iconBg:`bg-slate-100`,iconColor:`text-slate-700`,lineColor:`bg-slate-500`,shadowColor:`hover:shadow-[0_15px_40px_rgba(100,116,139,0.18)]`,buttonText:`View Guides`,buttonClass:`bg-slate-100 text-slate-700 hover:bg-slate-200`,link:`https://help.tallysolutions.com`},{title:`GST & Compliance`,description:`Stay updated with GST compliance, tax filing procedures, and government resources relevant to business accounting.`,points:[`GST Portal Access`,`Return Filing Help`,`Compliance Updates`],icon:ur,iconBg:`bg-green-50`,iconColor:`text-green-600`,lineColor:`bg-green-500`,shadowColor:`hover:shadow-[0_15px_40px_rgba(34,197,94,0.18)]`,buttonText:`GST Resources`,buttonClass:`bg-green-50 text-green-600 hover:bg-green-100`,link:`https://www.gst.gov.in`},{title:`Practice Materials`,description:`Download sample company data, exercises, worksheets, and practice files to build hands-on experience.`,points:[`Sample Data Files`,`Practice Exercises`,`Learning Worksheets`],icon:zr,iconBg:`bg-purple-50`,iconColor:`text-purple-600`,lineColor:`bg-purple-500`,shadowColor:`hover:shadow-[0_15px_40px_rgba(168,85,247,0.18)]`,buttonText:`Download Files`,buttonClass:`bg-purple-50 text-purple-600 hover:bg-purple-100`,link:`https://tallysolutions.com/download`}],r=[{slug:`company-setup`,level:`Level 01`,title:`Company Setup & Opening Balances`,description:`Create a new company, set financial year, create primary ledgers and enter opening balances. Generate a trial balance.`,difficulty:`Beginner`,duration:`30-45 mins`,icon:gr,color:`blue`},{slug:`gst-invoice-return`,level:`Level 02`,title:`GST Invoice & Return`,description:`Create GST compliant invoices, post sales & purchases, generate GSTR reports and reconcile data.`,difficulty:`Intermediate`,duration:`60-90 mins`,icon:Ti,color:`purple`},{slug:`inventory-stock`,level:`Level 03`,title:`Inventory Movement`,description:`Configure stock items, manage godowns, stock journals and inventory valuation reports.`,difficulty:`Intermediate`,duration:`45-60 mins`,icon:yi,color:`indigo`},{slug:`payroll-management`,level:`Level 04`,title:`Payroll Month End`,description:`Create employees, assign salary structures and generate payslips.`,difficulty:`Advanced`,duration:`60 mins`,icon:Ji,color:`orange`}],i={default:{dot:`from-[#155A96] to-[#1D6FB8]`,badge:`bg-[#EAF3F8] text-[#155A96]`,border:`border-[#155A96]`,activeBg:`from-[#F4F8FB] to-white`}},a={software:{title:`TallyPrime Software`,description:`Download the latest TallyPrime installer with official updates and business management features.`,button:`Download Tally`,link:`https://tallysolutions.com`},guides:{title:`Cheat Sheets & Guides`,description:`GST workflows, voucher shortcuts, accounting references and quick learning PDFs.`,button:`Download Guides`,link:`https://tallysolutions.com/download/`},sampleData:{title:`Sample Company Data`,description:`Practice datasets containing companies, ledgers, vouchers and GST transactions.`,button:`Get Sample Data`,link:`https://tallysolutions.com/`}},o=[{title:`Accounts Executive`,level:`Entry Level`,salary:`₹2L - ₹4L`,icon:hr,color:`blue`,description:`Manage ledgers, vouchers, bank reconciliation and daily accounting operations.`},{title:`GST Executive`,level:`Intermediate`,salary:`₹2.5L - ₹5L`,icon:Ti,color:`purple`,description:`Handle GST filing, compliance reporting, invoices and tax documentation.`},{title:`MIS Analyst`,level:`Intermediate`,salary:`₹3L - ₹6L`,icon:br,color:`emerald`,description:`Generate reports, business insights and data analysis for management.`},{title:`Payroll Executive`,level:`Advanced`,salary:`₹3L - ₹5.5L`,icon:Ji,color:`orange`,description:`Manage employee salaries, statutory deductions and payroll processing.`}],[s,c]=(0,w.useState)(0);return(0,F.jsx)(F.Fragment,{children:(0,F.jsxs)(`div`,{className:`overflow-hidden`,children:[(0,F.jsxs)(`section`,{className:` \r
 relative\r
 overflow-hidden\r
+overflow-x-hidden\r
 scrollbar-hide\r
 bg-white\r
 pt-20 sm:pt-24 lg:pt-24\r
 pb-10 sm:pb-12 md:pb-14\r
 `,children:[(0,F.jsx)(`div`,{className:`\r
-    hidden lg:block\r
     absolute\r
     top-0\r
     left-1/2\r
     -translate-x-1/2\r
-    w-[700px]\r
-    h-[700px]\r
+\r
+    w-[280px]\r
+    h-[280px]\r
+\r
+    sm:w-[450px]\r
+    sm:h-[450px]\r
+\r
+    lg:w-[700px]\r
+    lg:h-[700px]\r
+\r
     bg-[#155A96]/5\r
-    blur-[150px]\r
+\r
+    blur-[60px]\r
+    sm:blur-[100px]\r
+    lg:blur-[150px]\r
+\r
     rounded-full\r
+    pointer-events-none\r
   `}),(0,F.jsx)(`div`,{className:`\r
     relative z-10\r
     max-w-7xl mx-auto\r
@@ -2784,7 +2797,7 @@ pb-10 sm:pb-12 md:pb-14\r
     lg:grid-cols-2\r
     gap-8 lg:gap-12\r
     items-center\r
-  `,children:[(0,F.jsx)($.div,{initial:{opacity:0,y:40},whileInView:{opacity:1,y:0},transition:{duration:.8},viewport:{once:!0},children:(0,F.jsxs)(`div`,{className:`min-w-0`,children:[(0,F.jsxs)(`div`,{className:`\r
+  `,children:[(0,F.jsx)($.div,{initial:{opacity:0},whileInView:{opacity:1},transition:{duration:.8},viewport:{once:!0},children:(0,F.jsxs)(`div`,{className:`min-w-0`,children:[(0,F.jsxs)(`div`,{className:`\r
           flex flex-wrap items-center justify-center sm:justify-start gap-2\r
           px-5 py-2\r
           text-[#155A96]\r
@@ -2851,15 +2864,14 @@ pb-10 sm:pb-12 md:pb-14\r
     relative\r
     flex justify-center lg:justify-end\r
     order-2 lg:order-2\r
-  `,initial:{opacity:0,x:100},whileInView:{opacity:1,x:0},transition:{duration:1,ease:`easeOut`,delay:`0.2`},viewport:{once:!0},children:(0,F.jsx)(`div`,{className:`relative mt-4 lg:mt-0`,children:(0,F.jsxs)(`div`,{className:`\r
+  `,initial:{opacity:0},whileInView:{opacity:1},transition:{duration:1,ease:`easeOut`,delay:`0.2`},viewport:{once:!0},children:(0,F.jsx)(`div`,{className:`relative mt-4 lg:mt-0`,children:(0,F.jsxs)(`div`,{className:`\r
     bg-white\r
     border border-slate-200\r
     rounded-[28px]\r
     p-6\r
     shadow-sm\r
     w-full\r
-    max-w-full\r
-    sm:max-w-[500px]\r
+    min-w-0\r
   `,children:[(0,F.jsxs)(`div`,{className:`flex items-center justify-between mb-5`,children:[(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`p`,{className:`text-xs uppercase tracking-wider text-[#155A96] font-semibold`,children:`Course Snapshot`}),(0,F.jsx)(`h3`,{className:`mt-2 text-2xl font-bold text-[#071426]`,children:`TallyPrime LMS`})]}),(0,F.jsx)(`div`,{className:`\r
         px-3 py-2\r
         rounded-xl\r
@@ -2887,9 +2899,30 @@ pb-10 sm:pb-12 md:pb-14\r
         border border-slate-200\r
         text-[#071426]\r
         font-medium\r
-      `,children:`YouTube Tutorials`})]})]})})})]})})]}),(0,F.jsxs)(`section`,{className:`relative py-10 sm:py-12 md:py-12 px-4 sm:px-6 bg-white overflow-hidden`,children:[(0,F.jsx)(`div`,{className:`absolute top-0 left-1/2 -translate-x-1/2 w-[350px] h-[350px]\r
-sm:w-[500px] sm:h-[500px]\r
-lg:w-[700px] lg:h-[700px] bg-[#155A96]/5 blur-[150px] rounded-full`}),(0,F.jsx)(`div`,{className:`max-w-7xl mx-auto relative z-10`,children:(0,F.jsxs)(`div`,{className:`grid lg:grid-cols-2 gap-8 lg:gap-12 items-center`,children:[(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`span`,{className:`\r
+      `,children:`YouTube Tutorials`})]})]})})})]})})]}),(0,F.jsxs)(`section`,{className:`relative py-10 sm:py-12 md:py-12 px-4 sm:px-6 bg-white overflow-hidden`,children:[(0,F.jsx)(`div`,{className:`\r
+    absolute\r
+    top-0\r
+    left-1/2\r
+    -translate-x-1/2\r
+\r
+    w-[280px]\r
+    h-[280px]\r
+\r
+    sm:w-[450px]\r
+    sm:h-[450px]\r
+\r
+    lg:w-[700px]\r
+    lg:h-[700px]\r
+\r
+    bg-[#155A96]/5\r
+\r
+    blur-[60px]\r
+    sm:blur-[100px]\r
+    lg:blur-[150px]\r
+\r
+    rounded-full\r
+    pointer-events-none\r
+  `}),(0,F.jsx)(`div`,{className:`max-w-7xl mx-auto relative z-10`,children:(0,F.jsxs)(`div`,{className:`grid lg:grid-cols-2 gap-8 lg:gap-12 items-center`,children:[(0,F.jsxs)(`div`,{children:[(0,F.jsx)(`span`,{className:`\r
         inline-flex \r
         items-center\r
         px-3 py-1.5\r
@@ -3021,7 +3054,25 @@ leading-8\r
                 font-bold\r
                 group-hover:gap-4\r
                 transition-all duration-300\r
-              `,children:[`Start Module`,(0,F.jsx)(cr,{className:`w-5 h-5`})]})]})]},t))})]})}),(0,F.jsxs)(`section`,{id:`resourses`,className:`relative py-10 md:py-12 px-4 sm:px-6 bg-[#F8FAFC] overflow-hidden`,children:[(0,F.jsx)(`div`,{className:`absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-[#2F80FF]/5 blur-[150px] rounded-full`}),(0,F.jsxs)(`div`,{className:`max-w-7xl mx-auto relative z-10`,children:[(0,F.jsxs)(`div`,{className:`text-center max-w-3xl mx-auto mb-6`,children:[(0,F.jsx)(`span`,{className:`\r
+              `,children:[`Start Module`,(0,F.jsx)(cr,{className:`w-5 h-5`})]})]})]},t))})]})}),(0,F.jsxs)(`section`,{id:`resourses`,className:`relative py-10 md:py-12 px-4 sm:px-6 bg-[#F8FAFC] overflow-hidden`,children:[(0,F.jsx)(`div`,{className:`\r
+    absolute\r
+    left-0\r
+\r
+    w-[180px]\r
+    h-[180px]\r
+\r
+    sm:w-[300px]\r
+    sm:h-[300px]\r
+\r
+    lg:w-[500px]\r
+    lg:h-[450px]\r
+\r
+    bg-[#155A96]/10\r
+    blur-2xl\r
+    lg:blur-3xl\r
+    rounded-full\r
+    pointer-events-none\r
+  `}),(0,F.jsxs)(`div`,{className:`max-w-7xl mx-auto relative z-10`,children:[(0,F.jsxs)(`div`,{className:`text-center max-w-3xl mx-auto mb-6`,children:[(0,F.jsx)(`span`,{className:`\r
           inline-flex\r
           items-center\r
           px-4 py-2\r
@@ -3224,7 +3275,26 @@ leading-8\r
                     font-semibold\r
                     hover:gap-4\r
                     transition-all\r
-                  `,children:`Start Exercise →`})]})]})]},n)})})]})}),(0,F.jsx)(`section`,{className:`py-10 md:py-12 px-4 sm:px-6 bg-[#F8FAFC]`,children:(0,F.jsxs)(`div`,{className:`max-w-7xl mx-auto px-6`,children:[(0,F.jsx)(`div`,{className:`absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-[#155A96]/5 blur-[150px] rounded-full`}),(0,F.jsxs)(`div`,{className:`text-center max-w-3xl mx-auto mb-8`,children:[(0,F.jsx)(`span`,{className:`\r
+                  `,children:`Start Exercise →`})]})]})]},n)})})]})}),(0,F.jsx)(`section`,{className:`py-10 md:py-12 px-4 sm:px-6 bg-[#F8FAFC]`,children:(0,F.jsxs)(`div`,{className:`max-w-7xl mx-auto px-6`,children:[(0,F.jsx)(`div`,{className:`\r
+    absolute\r
+    bottom-0\r
+    right-0\r
+\r
+    w-[180px]\r
+    h-[180px]\r
+\r
+    sm:w-[300px]\r
+    sm:h-[300px]\r
+\r
+    lg:w-[500px]\r
+    lg:h-[480px]\r
+\r
+    bg-[#155A96]/10\r
+    blur-2xl\r
+    lg:blur-3xl\r
+    rounded-full\r
+    pointer-events-none\r
+  `}),(0,F.jsxs)(`div`,{className:`text-center max-w-3xl mx-auto mb-8`,children:[(0,F.jsx)(`span`,{className:`\r
           inline-flex\r
           items-center\r
           px-4 py-2\r
