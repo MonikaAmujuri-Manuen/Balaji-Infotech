@@ -7,6 +7,15 @@ import { Link } from "react-router-dom";
 
 import { servicesData } from "../data/servicesData";
 
+const seoTitles = {
+  "tally-software": "Tally Software Solutions",
+  "tally-services": "Professional Tally Services",
+  "tally-mobile": "Tally Mobile Applications",
+  "tally-solutions": "Tally Business Solutions",
+  "tally-erp": "Tally ERP 9 Solutions",
+  "tally-addon": "Tally Add-ons",
+};
+
 const ServiceDetail = () => {
 
   const { slug } = useParams();
@@ -39,8 +48,9 @@ const ServiceDetail = () => {
   return (
     <>
       <Helmet>
-  <title>{`${service.title} | Balaji Infotech`}</title>
-
+  <title>
+    {`${seoTitles[service.slug]} | Balaji Infotech`}
+  </title>
 
   <meta
     name="description"
@@ -49,22 +59,7 @@ const ServiceDetail = () => {
 
   <meta
     name="keywords"
-    content={`${service.title}, Tally Services, TallyPrime, Business Solutions, Balaji Infotech`}
-  />
-
-  <meta
-    property="og:title"
-    content={`${service.title} | Balaji Infotech`}
-  />
-
-  <meta
-    property="og:description"
-    content={service.hero.description}
-  />
-
-  <meta
-    property="og:type"
-    content="website"
+    content={`${seoTitles[service.slug]}, Tally Services, TallyPrime, Balaji Infotech`}
   />
 </Helmet>
       {/* HERO SECTION */}
