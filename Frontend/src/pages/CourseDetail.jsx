@@ -142,9 +142,7 @@ const visibleSections =
     <main className="bg-[#F8FAFC]">
 
       <Helmet>
-  <title>
-    {course.title} | Balaji Infotech LMS
-  </title>
+  <title>{`${course.title} | Balaji Infotech LMS`}</title>
 
   <meta
     name="description"

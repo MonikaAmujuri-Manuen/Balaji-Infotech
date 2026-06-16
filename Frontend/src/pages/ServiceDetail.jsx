@@ -39,9 +39,8 @@ const ServiceDetail = () => {
   return (
     <>
       <Helmet>
-  <title>
-    {service.title} | Balaji Infotech
-  </title>
+  <title>{`${service.title} | Balaji Infotech`}</title>
+
 
   <meta
     name="description"

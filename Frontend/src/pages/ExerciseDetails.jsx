@@ -100,10 +100,7 @@ const progress =
     <>
 
     <Helmet>
-  <title>
-    {exercise.title} | Tally Practice Lab | Balaji Infotech
-  </title>
-
+  <title>{`${exercise.title} | Balaji Infotech LMS`}</title>
   <meta
     name="description"
     content={

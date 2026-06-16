@@ -40,9 +40,7 @@ export default function ProductDetail() {
   return (
     <>
     <Helmet>
-  <title>
-    {product.title} | Balaji Infotech
-  </title>
+  <title>{`${product.title} | Balaji Infotech`}</title>
 
   <meta
     name="description"
