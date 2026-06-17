@@ -214,33 +214,33 @@ const foundationData = [
 
           {/* HEADING */}
           <h1
-            className="
-              text-[30px]
-              sm:text-4xl
-              md:text-5xl
-              lg:text-6xl
-              font-bold
-              leading-[1.05]
-              tracking-[-2px]
-              text-[#071426]
-            "
-          >
-            20+ Years
-            <br />
-
-            <span
-              className="
-                text-[#155A96]
-                bg-clip-text
-                
-              "
-            >
-              of Excellence
-            </span>
-
-            <br />
-            in Tally Solutions
-          </h1>
+  className="
+    text-[30px]
+    sm:text-4xl
+    md:text-5xl
+    lg:text-6xl
+    font-bold
+    leading-[1.05]
+    tracking-[-2px]
+    text-[#071426]
+  "
+>
+  About
+  <span className="text-[#155A96]">
+    {" "}Balaji Infotech
+  </span>
+</h1>
+<h2
+  className="
+    text-xl
+    sm:text-2xl
+    font-semibold
+    text-[#071426]
+    mt-6
+  "
+>
+  20+ Years of Excellence in Tally Solutions
+</h2>
 
           {/* DESCRIPTION */}
           <p

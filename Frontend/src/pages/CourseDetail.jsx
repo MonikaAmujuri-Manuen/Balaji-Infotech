@@ -259,18 +259,21 @@ lg:text-6xl
       </h1>
 
       {/* Subtitle */}
-      <p className="
-        mt-4 sm:mt-6
-        mx-auto
-        max-w-3xl
-        text-sm
-sm:text-base
-lg:text-xl
-        text-white/80
-        leading-relaxed
-      ">
-        {course.subtitle}
-      </p>
+      <h2
+  className="
+    mt-4 sm:mt-6
+    mx-auto
+    max-w-3xl
+    text-sm
+    sm:text-base
+    lg:text-xl
+    font-medium
+    text-white/80
+    leading-relaxed
+  "
+>
+  {course.subtitle}
+</h2>
 
       {/* Buttons */}
       <div className="mt-5 flex justify-center">

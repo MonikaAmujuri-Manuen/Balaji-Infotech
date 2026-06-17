@@ -95,21 +95,23 @@ export default function Services() {
 
         {/* HEADING */}
         <h1
-          className="
-            text-3xl
-            sm:text-4xl
-            md:text-[42px]
-            font-bold
-            text-[#071426]
-            leading-[1.05]
-            tracking-tight
-            max-w-4xl
-          "
-        >
-          Transform Your Business
-          <br />
-          With Smart Tally Services
-        </h1>
+  className="
+    text-3xl
+    sm:text-4xl
+    md:text-[42px]
+    font-bold
+    text-[#071426]
+    leading-[1.05]
+    tracking-tight
+    max-w-4xl
+  "
+>
+  Professional Tally Services
+  <br />
+  <span className="text-[#155A96]">
+    For Modern Businesses
+  </span>
+</h1>
 
         {/* DESCRIPTION */}
         <p

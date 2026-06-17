@@ -218,20 +218,19 @@ lg:text-5xl
         {exercise.title}
       </h1>
 
-      <p
-        className="
-          mt-4
-          text-sm
-sm:text-base
-md:text-lg
-          text-slate-600
-          max-w-3xl
-          mx-auto
-          leading-relaxed
-        "
-      >
-        {exercise.description}
-      </p>
+      <h2
+  className="
+    mt-6
+    text-lg
+    font-medium
+    text-slate-600
+    max-w-4xl
+    mx-auto
+    leading-relaxed
+  "
+>
+  {exercise.description}
+</h2>
 
       {/* Stats */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8">

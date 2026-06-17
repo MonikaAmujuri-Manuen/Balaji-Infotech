@@ -118,24 +118,32 @@ const ServiceDetail = () => {
     </div>
 
     {/* TITLE */}
-    <h1 className="
-      text-[30px]
-      sm:text-[40px]
-      lg:text-[48px]
-      leading-[1]
-      font-[800]
-      text-[#071426]
-      max-w-5xl
-      mx-auto
-    ">
+    <h1
+  className="
+    text-[30px]
+    sm:text-[40px]
+    lg:text-[48px]
+    leading-[1]
+    font-[800]
+    text-[#071426]
+    max-w-5xl
+    mx-auto
+  "
+>
+  {service.hero.title}
+</h1>
 
-      {service.hero.title}
-
-      <span className="text-[#155A96]">
-        {service.hero.highlight}
-      </span>
-
-    </h1>
+<h2
+  className="
+    mt-4
+    text-xl
+    sm:text-2xl
+    font-semibold
+    text-[#155A96]
+  "
+>
+  {service.hero.subtitle}
+</h2>
 
     {/* DESCRIPTION */}
     <p className="

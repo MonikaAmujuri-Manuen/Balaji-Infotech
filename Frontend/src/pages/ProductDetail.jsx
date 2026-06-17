@@ -121,11 +121,11 @@ export default function ProductDetail() {
               >
                 <div
                   className="
-                    w-6
-                    h-6
-                    sm:w-12
-                    sm:h-12
-                    rounded-2xl
+                    w-4
+                    h-4
+                    sm:w-8
+                    sm:h-8
+                    rounded-xl
                     bg-[#155A96]
                     flex
                     items-center
@@ -133,15 +133,15 @@ export default function ProductDetail() {
                     text-white
                   "
                 >
-                  <ProductIcon size={20} />
+                  <ProductIcon size={14} />
                 </div>
 
                 <span
                   className="
                     text-[#071426]
                     font-semibold
-                    text-[15px]
-                    sm:text-lg
+                    text-lg
+                    sm:text-base
                   "
                 >
                   {product.title}
@@ -161,18 +161,30 @@ export default function ProductDetail() {
               </p>
 
               <h1
-                className="
-                  text-[28px]
-                  sm:text-[36px]
-                  md:text-[40px]
-                  font-black
-                  leading-tight
-                  text-[#111827]
-                  mb-4
-                "
-              >
-                {product.subtitle}
-              </h1>
+  className="
+    text-[28px]
+    sm:text-[36px]
+    md:text-[40px]
+    font-black
+    leading-tight
+    text-[#111827]
+    mb-3
+  "
+>
+  {product.title}
+</h1>
+
+<h2
+  className="
+    text-lg
+    sm:text-xl
+    font-semibold
+    text-[#155A96]
+    mb-4
+  "
+>
+  {product.subtitle}
+</h2>
 
               <p
                 className="

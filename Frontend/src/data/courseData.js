@@ -774,6 +774,7 @@ export const courses = [
 
     title:
         "Inventory & Stock Management",
+    subtitle: "Master stock tracking and inventory operations in TallyPrime",
 
     badge: "Inventory & Stock",
 
@@ -1240,7 +1241,9 @@ export const courses = [
     slug: "payroll-management",
 
     title:
-        "Payroll Management — From Employee Master To Payslip",
+        "Payroll Management",
+    subtitle: "Process employee payroll and salary management in TallyPrime",
+
 
     badge: "Payroll Management",
 
@@ -1686,7 +1689,8 @@ export const courses = [
     slug: "reports-mis",
 
     title:
-        "Reports & MIS — Financial Insights & Dashboards",
+        "Reports & MIS",
+    subtitle: "Generate business reports and management insights",
 
     badge: "Reports & MIS",
 
@@ -2151,7 +2155,8 @@ export const courses = [
     slug: "advanced-tallyprime",
 
     title:
-        "Advanced TallyPrime — Business Intelligence",
+        "Advanced TallyPrime",
+    subtitle:"Master advanced accounting and business automation features",
 
     badge: "Advanced TallyPrime",
 

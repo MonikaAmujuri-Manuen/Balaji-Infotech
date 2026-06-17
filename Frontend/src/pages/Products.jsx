@@ -195,21 +195,21 @@ export default function Products() {
         </span>
 
         <h1
-          className="
-            mt-5
-            text-3xl sm:text-4xl lg:text-[44px]
-            font-black
-            leading-tight
-            text-[#071426]
-          "
-        >
-          Smart Tally Solutions
-          <br />
+  className="
+    mt-5
+    text-3xl sm:text-4xl lg:text-[44px]
+    font-black
+    leading-tight
+    text-[#071426]
+  "
+>
+  Tally Products &
+  <br />
 
-          <span className="text-[#155A96]">
-            For Modern Businesses
-          </span>
-        </h1>
+  <span className="text-[#155A96]">
+    Business Solutions
+  </span>
+</h1>
 
         <p
           className="

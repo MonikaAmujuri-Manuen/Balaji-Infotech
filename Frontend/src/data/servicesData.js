@@ -85,8 +85,8 @@ export const servicesData = [
     hero: {
       badge: "Business Accounting Solutions",
 
-      title: "Smart Tally Software For",
-      highlight: " Every Business",
+      title: "Tally Software",
+      subtitle: " Smart Tally Software For Every Business",
 
       description:
         "Manage accounting, GST, inventory, payroll, banking, and business operations seamlessly with powerful Tally software solutions tailored for modern businesses.",
@@ -267,8 +267,8 @@ export const servicesData = [
     hero: {
       badge: "Business Support Services",
 
-      title: "Professional Tally Services",
-      highlight: " For Smooth Operations",
+      title: "Tally Services",
+      subtitle: "Expert Support & Business Assistance",
 
       description:
         "Get expert assistance for installation, migration, customization, AMC support, troubleshooting, and training services designed to keep your business operations running efficiently.",
@@ -470,8 +470,8 @@ export const servicesData = [
     hero: {
       badge: "Mobile Business Solutions",
 
-      title: "Manage Tally Anywhere With ",
-      highlight: " Mobile Apps",
+      title: "Tally Mobile Apps",
+      subtitle: "Access Your Business Anywhere",
 
       description:
         "Access reports, approvals, inventory, sales, and financial insights securely from your mobile device with powerful Tally-integrated mobile applications.",
@@ -554,8 +554,8 @@ export const servicesData = [
     hero: {
       badge: "Smart Business Solutions",
 
-      title: "Powerful Tally Solutions  ",
-      highlight: "For Modern Businesses ",
+      title: "Tally Business Solutions ",
+      subtitle: "Complete Solutions For Growing Businesses",
 
       description:
         "Enhance productivity, automate workflows, streamline reporting, and integrate Tally with advanced business solutions designed for scalable operations.",
@@ -764,8 +764,8 @@ export const servicesData = [
     hero: {
       badge: "Enterprise ERP Solutions",
 
-      title: "Advanced Tally ERP 9 Solutions ",
-      highlight: "For Smarter Operations",
+      title: "Tally ERP Solutions",
+      subtitle: "Enterprise Accounting & Management",
 
       description:
         "Optimize inventory, production, sales, finance, and operational workflows with powerful Tally ERP 9 enterprise-grade business solutions.",
@@ -923,8 +923,8 @@ export const servicesData = [
     hero: {
       badge: "Powerful Tally Add-Ons",
 
-      title: "Extend Tally Functionality With Smart",
-      highlight: " Business Add-Ons",
+      title: "Tally Add-ons",
+      subtitle: "Extend The Power Of TallyPrime",
 
       description:
         "Enhance accounting, compliance, billing, inventory, and workflow efficiency with advanced Tally add-ons customized for modern business operations.",

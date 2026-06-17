@@ -393,42 +393,43 @@ export default function HeroSection() {
 
           {/* HEADING */}
           <h1
-            className="
-              text-[#071426]
-              text-[34px]
-              sm:text-[46px]
-              lg:text-[58px]
-              font-bold
-              leading-[1.05]
-              max-w-[700px]
-            "
-          >
-            Balaji AI Infotech
+  className="
+    text-[#071426]
+    text-[34px]
+    sm:text-[46px]
+    lg:text-[58px]
+    font-bold
+    leading-[1.05]
+    max-w-[700px]
+  "
+>
+  Balaji AI Infotech
+</h1>
 
-            <div className="mt-3 sm:mt-4">
-              <TypeAnimation
-                sequence={[
-                  "Tally solutions and trainings",
-                  2000,
-                  "Tally sales and services",
-                  2000,
-                  "Tally certified partner",
-                  2000,
-                ]}
-                wrapper="h1"
-                speed={50}
-                repeat={Infinity}
-                className="
-                  text-[20px]
-                  sm:text-[26px]
-                  lg:text-[30px]
-                  font-bold
-                  leading-[1.3]
-                  text-[#155A96]
-                "
-              />
-            </div>
-          </h1>
+<div className="mt-3 sm:mt-4">
+  <TypeAnimation
+    sequence={[
+      "Tally solutions and trainings",
+      2000,
+      "Tally sales and services",
+      2000,
+      "Tally certified partner",
+      2000,
+    ]}
+    wrapper="span"
+    speed={50}
+    repeat={Infinity}
+    className="
+      block
+      text-[20px]
+      sm:text-[26px]
+      lg:text-[30px]
+      font-bold
+      leading-[1.3]
+      text-[#155A96]
+    "
+  />
+</div>
 
           {/* DESCRIPTION */}
           <p

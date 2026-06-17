@@ -463,24 +463,23 @@ pb-10 sm:pb-12 md:pb-14
         </div>
 
         {/* HEADING */}
-        <h1 className="
-            text-3xl
-            sm:text-4xl
-            lg:text-[48px]
-            font-black
-            font-bold
-            leading-[1.1]
-            tracking-[-1px]
-            text-[#071426]
-            
-            max-w-full
-
-        ">
-          Complete TallyPrime LMS-
-          <span className="text-[#155A96]">
-            From Basics To Payroll & GST
-          </span>
-        </h1>
+        <h1
+  className="
+    text-3xl
+    sm:text-4xl
+    lg:text-[48px]
+    font-black
+    leading-[1.1]
+    tracking-[-1px]
+    text-[#071426]
+    max-w-full
+  "
+>
+  Complete TallyPrime LMS
+  <span className="text-[#155A96]">
+    {" "}From Basics To Payroll & GST
+  </span>
+</h1>
 
         {/* DESCRIPTION */}
         <p className="

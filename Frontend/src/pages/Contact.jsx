@@ -123,29 +123,26 @@ useEffect(() => {
         </div>
 
         {/* HEADING */}
-        <h1 className="
-          text-3xl
-          sm:text-4xl
-          lg:text-[44px]
-          font-black
-          leading-[1.05]
-          tracking-[-0.03em]
-          text-[#0F172A]
-        ">
-          Let’s Build
-          <br />
-
-          <span className="
-            bg-[#155A96]
-            bg-clip-text
-            text-transparent
-          ">
-            Better Business
-          </span>
-
-          <br />
-          Solutions Together
-        </h1>
+        <h1
+  className="
+    text-3xl
+    sm:text-4xl
+    lg:text-[44px]
+    font-black
+    leading-[1.05]
+    tracking-[-0.03em]
+    text-[#0F172A]
+  "
+>
+  Contact
+  <span
+    className="
+      text-[#155A96]
+    "
+  >
+    {" "}Balaji Infotech
+  </span>
+</h1>
 
         {/* DESCRIPTION */}
         <p className="

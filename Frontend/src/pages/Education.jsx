@@ -366,25 +366,27 @@ pb-10 sm:pb-12 md:pb-14">
         </div>
 
         {/* HEADING */}
-        <h1 className="
-          text-3xl
-          sm:text-4xl
-          lg:text-[46px]
-          font-bold
-          leading-[1.05]
-          tracking-[-0.03em]
-          text-[#0F172A]
-        ">
-          Master Tally &
-          <span className="
-            block
-            text-[#155A96]
-            bg-clip-text
-            
-          ">
-            Build Industry-Ready Skills
-          </span>
-        </h1>
+        <h1
+  className="
+    text-3xl
+    sm:text-4xl
+    lg:text-[46px]
+    font-bold
+    leading-[1.05]
+    tracking-[-0.03em]
+    text-[#0F172A]
+  "
+>
+  Tally Training &
+  <span
+    className="
+      block
+      text-[#155A96]
+    "
+  >
+    Certification Programs
+  </span>
+</h1>
 
         {/* DESCRIPTION */}
         <p className="
