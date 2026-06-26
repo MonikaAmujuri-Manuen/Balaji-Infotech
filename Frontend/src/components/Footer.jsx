@@ -421,34 +421,6 @@ export default function Footer() {
         © 2026 Balaji Infotech. All rights reserved.
       </p>
 
-      <div className="flex flex-wrap items-center justify-center md:justify-end gap-4 sm:gap-5">
-
-        <a
-          href="#"
-          className="
-            text-white
-            text-sm
-            hover:text-white
-            transition-all
-            duration-300
-          "
-        >
-          Privacy Policy
-        </a>
-
-        <a
-          href="#"
-          className="
-            text-white
-            text-sm
-            hover:text-white
-            transition-all
-            duration-300
-          "
-        >
-          Terms & Conditions
-        </a>
-      </div>
     </div>
   </div>
 </footer>
